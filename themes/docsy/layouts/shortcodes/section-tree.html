@@ -1,0 +1,6 @@
+<ul>
+  {{ range .Site.RegularPages.ByWeight }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>
+

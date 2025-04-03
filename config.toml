@@ -1,4 +1,4 @@
-baseURL = "https://ugeneunipro.github.io/docs/"
+baseURL = "https://ugene.net/docs/"
 title = "UGENE Documentation"
 theme = "docsy"
 languageCode = "en-us"

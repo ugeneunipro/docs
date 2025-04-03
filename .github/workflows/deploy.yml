@@ -2,7 +2,7 @@ name: Deploy Hugo to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [ main ]
 
 jobs:
   deploy:
@@ -10,7 +10,12 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -18,10 +23,7 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-#      - name: Install modules
-#        run: hugo mod tidy
-
-      - name: NPM install
+      - name: Install npm dependencies
         run: npm ci
 
       - name: Build Hugo site

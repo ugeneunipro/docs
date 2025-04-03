@@ -1,1 +1,29 @@
-.idea
+# Hugo build output
+/public/
+/resources/
+/hugo_stats.json
+hugo_cache/
+
+# GitHub Pages output folder
+/docs/
+
+# Hugo module files
+/go.mod
+/go.sum
+
+# Node.js stuff (если используешь npm для SCSS и т.д.)
+node_modules/
+package-lock.json
+
+# OS/IDE specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+.idea/
+.vscode/
+*.log
+.hugo_build.lock
+
+/local

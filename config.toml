@@ -15,10 +15,3 @@ canonifyURLs = true
 [markup]
   [markup.goldmark.renderer]
     unsafe = true
-
-[menu]
-  [[menu.main]]
-    identifier = "docs"
-    name = "Documentation"
-    url = "/docs/"
-    weight = 1

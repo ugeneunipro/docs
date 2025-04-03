@@ -22,7 +22,7 @@ jobs:
 #        run: hugo mod tidy
 
       - name: NPM install
-        run: cd themes/docsy && npm ci
+        run: npm ci
 
       - name: Build Hugo site
         run: hugo --minify

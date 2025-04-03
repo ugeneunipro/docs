@@ -21,6 +21,9 @@ jobs:
 #      - name: Install modules
 #        run: hugo mod tidy
 
+      - name: NPM install
+        run: cd themes/docsy && npm ci
+
       - name: Build Hugo site
         run: hugo --minify
 

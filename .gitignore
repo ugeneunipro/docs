@@ -13,7 +13,6 @@ hugo_cache/
 
 # Node.js stuff (если используешь npm для SCSS и т.д.)
 node_modules/
-package-lock.json
 
 # OS/IDE specific
 .DS_Store

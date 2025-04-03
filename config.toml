@@ -1,8 +1,7 @@
-baseURL = "https://docs.ugene.net"
+baseURL = "https://ugeneunipro.github.io/docs/"
 title = "UGENE Documentation"
 theme = "docsy"
 languageCode = "en-us"
-#publishDir = "docs"
 
 enableRobotsTXT = true
 canonifyURLs = true

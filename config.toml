@@ -2,7 +2,7 @@ baseURL = "https://docs.ugene.net"
 title = "UGENE Documentation"
 theme = "docsy"
 languageCode = "en-us"
-publishDir = "docs"
+#publishDir = "docs"
 
 enableRobotsTXT = true
 canonifyURLs = true

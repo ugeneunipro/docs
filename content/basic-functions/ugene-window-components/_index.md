@@ -1,0 +1,19 @@
+---
+title: "UGENE Window Components"
+weight: 1
+---
+
+
+# UGENE Window Components
+
+This chapter describes UGENE main window components [_Project View_](project-view.md), [_Task View_](task-view.md), [_Log View_](log-view.md) and the [_Notifications_](notifications.md) popup window.
+
+*   [Start Page](start-page.md)
+*   [Project View](project-view.md)
+*   [Task View](task-view.md)
+*   [Log View](log-view.md)
+*   [Notifications](notifications.md)
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

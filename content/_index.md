@@ -1,7 +1,4 @@
 ---
-title: "Documentation"
+title: "UGENE User Manual"
 type: "docs"
 ---
-
-Добро пожаловать в документацию UGENE.
-

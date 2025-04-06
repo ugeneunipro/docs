@@ -1,0 +1,1508 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                            <title>Using Objects and Object Views - Unipro UGENE User Manual - WIKI</title>
+    
+        
+
+                        
+    
+                        
+    
+
+                
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE,chrome=IE7">
+
+<meta id="confluence-context-path" name="confluence-context-path" content="/wiki">
+<meta id="confluence-base-url" name="confluence-base-url" content="https://doc.ugene.net/wiki">
+
+    <meta id="atlassian-token" name="atlassian-token" content="33158aa248a385dc48be124ee56eab88fa1bc009">
+
+
+<meta id="confluence-space-key" name="confluence-space-key" content="UM">
+<script type="text/javascript" async="" src="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/js"></script><script async="" src="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/analytics.js.Без названия"></script><script type="text/javascript">
+        var contextPath = '/wiki';
+</script>
+
+    
+
+    <meta name="confluence-request-time" content="1712739494789">
+        
+    
+        
+            <meta name="ajs-show-space-welcome-dialog" content="true">
+            <style>.ia-fixed-sidebar, .ia-splitter-left {width: 285px;}.theme-default .ia-splitter #main {margin-left: 285px;}.ia-fixed-sidebar {visibility: hidden;}</style>
+            <meta name="ajs-use-keyboard-shortcuts" content="true">
+            <meta name="ajs-discovered-plugin-features" content="{&quot;com.atlassian.confluence.plugins.confluence-dashboard&quot;:[&quot;dialog&quot;,&quot;tips&quot;],&quot;com.atlassian.confluence.plugins.confluence-hipchat-integration-plugin&quot;:[&quot;hipChatServerIntegration&quot;],&quot;com.atlassian.confluence.plugins.confluence-jira-metadata&quot;:[&quot;linked-issues-dropdown&quot;]}">
+            <meta name="ajs-keyboardshortcut-hash" content="ee2dc73da8062fc0820b45ce96665efa">
+            <meta id="team-calendars-has-jira-link" content="true">
+            <meta name="ajs-team-calendars-display-time-format" content="displayTimeFormat12">
+            <meta id="team-calendars-display-week-number" content="false">
+            <meta id="team-calendars-user-timezone" content="Asia/Novosibirsk">
+            <script type="text/x-template" id="team-calendars-messages" title="team-calendars-messages"><fieldset class="i18n hidden"><input type="hidden" name="calendar3.month.long.july" value="июля"><input type="hidden" name="calendar3.day.short.wednesday" value="Ср"><input type="hidden" name="calendar3.day.short.thursday" value="Чт"><input type="hidden" name="calendar3.month.short.march" value="мар"><input type="hidden" name="calendar3.month.long.april" value="апреля"><input type="hidden" name="calendar3.month.long.october" value="октября"><input type="hidden" name="calendar3.month.long.august" value="августа"><input type="hidden" name="calendar3.month.short.july" value="июл"><input type="hidden" name="calendar3.month.short.may" value="мая"><input type="hidden" name="calendar3.month.short.november" value="ноя"><input type="hidden" name="calendar3.day.long.friday" value="пятница"><input type="hidden" name="calendar3.day.long.sunday" value="воскресенье"><input type="hidden" name="calendar3.day.long.saturday" value="суббота"><input type="hidden" name="calendar3.month.short.april" value="апр"><input type="hidden" name="calendar3.day.long.wednesday" value="среда"><input type="hidden" name="calendar3.month.long.december" value="декабря"><input type="hidden" name="calendar3.month.short.october" value="окт"><input type="hidden" name="calendar3.day.long.monday" value="понедельник"><input type="hidden" name="calendar3.month.short.june" value="июн"><input type="hidden" name="calendar3.day.short.monday" value="Пн"><input type="hidden" name="calendar3.day.short.tuesday" value="Вт"><input type="hidden" name="calendar3.day.short.saturday" value="Сб"><input type="hidden" name="calendar3.month.long.march" value="марта"><input type="hidden" name="calendar3.month.long.june" value="июня"><input type="hidden" name="calendar3.month.short.february" value="фев"><input type="hidden" name="calendar3.month.short.august" value="авг"><input type="hidden" name="calendar3.month.short.december" value="дек"><input type="hidden" name="calendar3.day.short.sunday" value="Вс"><input type="hidden" name="calendar3.month.long.february" value="февраля"><input type="hidden" name="calendar3.day.long.tuesday" value="вторник"><input type="hidden" name="calendar3.month.long.may" value="мая"><input type="hidden" name="calendar3.month.long.september" value="сентября"><input type="hidden" name="calendar3.month.long.november" value="ноября"><input type="hidden" name="calendar3.month.short.january" value="янв"><input type="hidden" name="calendar3.month.short.september" value="сен"><input type="hidden" name="calendar3.day.long.thursday" value="четверг"><input type="hidden" name="calendar3.month.long.january" value="января"><input type="hidden" name="calendar3.day.short.friday" value="Пт"></fieldset></script>
+            <meta name="ajs-is-confluence-admin" content="false">
+            <meta name="ajs-connection-timeout" content="10000">
+            
+    
+    
+            <meta name="ajs-page-title" content="Using Objects and Object Views">
+            <meta name="ajs-latest-published-page-title" content="Using Objects and Object Views">
+            <meta name="ajs-space-name" content="Unipro UGENE User Manual">
+            <meta name="ajs-page-id" content="65929301">
+            <meta name="ajs-latest-page-id" content="65929301">
+            <meta name="ajs-content-type" content="page">
+            <meta name="ajs-parent-page-title" content="Basic Functions">
+            <meta name="ajs-parent-page-id" content="65929256">
+            <meta name="ajs-space-key" content="UM">
+            <meta name="ajs-max-number-editors" content="12">
+            <meta name="ajs-macro-placeholder-timeout" content="5000">
+            <meta name="ajs-jira-metadata-count" content="-1">
+            <meta name="ajs-from-page-title" content="">
+            <meta name="ajs-can-remove-page" content="true">
+            <meta name="ajs-can-remove-page-hierarchy" content="true">
+            <meta name="ajs-browse-page-tree-mode" content="view">
+            <meta name="ajs-shared-drafts" content="false">
+            <meta name="ajs-user-display-name" content="Svetlana Samoilenko">
+            <meta name="ajs-context-path" content="/wiki">
+            <meta name="ajs-base-url" content="https://doc.ugene.net/wiki">
+            <meta name="ajs-version-number" content="7.4.11">
+            <meta name="ajs-build-number" content="8402">
+            <meta name="ajs-remote-user" content="s.samoilenko">
+            <meta name="ajs-remote-user-key" content="85890be76e07c97f016e07ca43ad007d">
+            <meta name="ajs-remote-user-has-licensed-access" content="true">
+            <meta name="ajs-remote-user-has-browse-users-permission" content="true">
+            <meta name="ajs-current-user-fullname" content="Svetlana Samoilenko">
+            <meta name="ajs-current-user-avatar-url" content="/images/icons/profilepics/default.svg">
+            <meta name="ajs-current-user-avatar-uri-reference" content="/wiki/images/icons/profilepics/default.svg">
+            <meta name="ajs-static-resource-url-prefix" content="/wiki/s/npql6p/8402/140dfda3d2762df191ac390098a5ed2068aa93ed/_">
+            <meta name="ajs-global-settings-attachment-max-size" content="20485715">
+            <meta name="ajs-global-settings-quick-search-enabled" content="true">
+            <meta name="ajs-user-locale" content="ru_RU">
+            <meta name="ajs-enabled-dark-features" content="site-wide.synchrony.disable,site-wide.shared-drafts.disable,clc.quick.create,confluence.view.edit.transition,cql.search.screen,confluence-inline-comments-resolved,http.session.registrar,frontend.editor.v4,nps.survey.inline.dialog,confluence.efi.onboarding.new.templates,frontend.editor.v4.compatibility,atlassian.cdn.static.assets,pdf-preview,previews.sharing,previews.versions,file-annotations,collaborative-audit-log,confluence.efi.onboarding.rich.space.content,previews.conversion-service,editor.ajax.save,graphql,read.only.mode,notification.plugin.api.enabled.com.atlassian.confluence.plugins.inlinecomments.events.InlineCommentReplyEvent,previews.trigger-all-file-types,notification.plugin.api.enabled.com.atlassian.confluence.plugins.inlinecomments.events.InlineCommentCreateEvent,lucene.caching.filter,attachment.extracted.text.extractor,confluence.table.resizable,notification.batch,previews.sharing.pushstate,confluence-inline-comments-rich-editor,site-wide.synchrony.opt-in,file-annotations.likes,gatekeeper-ui-v2,v2.content.name.searcher,mobile.supported.version,pulp,confluence-inline-comments,quick-reload-inline-comments-flags,confluence-inline-comments-dangling-comment">
+            <meta name="ajs-atl-token" content="33158aa248a385dc48be124ee56eab88fa1bc009">
+            <meta name="ajs-confluence-flavour" content="VANILLA">
+            <meta name="ajs-user-date-pattern" content="dd.MM.yyyy">
+            <meta name="ajs-access-mode" content="READ_WRITE">
+            <meta name="ajs-render-mode" content="READ_WRITE">
+            <meta name="ajs-date.format" content="MMM dd, yyyy">
+    
+    <link rel="shortcut icon" href="https://doc.ugene.net/wiki/s/npql6p/8402/140dfda3d2762df191ac390098a5ed2068aa93ed/39/_/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="https://doc.ugene.net/wiki/s/npql6p/8402/140dfda3d2762df191ac390098a5ed2068aa93ed/39/_/favicon.ico">
+
+<link rel="search" type="application/opensearchdescription+xml" href="https://doc.ugene.net/wiki/opensearch/osd.action" title="WIKI">
+    
+                    
+            <meta name="ajs-create-issue-metadata-show-discovery" content="true">
+            
+
+    <script>
+window.WRM=window.WRM||{};window.WRM._unparsedData=window.WRM._unparsedData||{};window.WRM._unparsedErrors=window.WRM._unparsedErrors||{};
+WRM._unparsedData["com.atlassian.plugins.atlassian-plugins-webresource-plugin:context-path.context-path"]="\u0022\u005C/wiki\u0022";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-feature-discovery-plugin:confluence-feature-discovery-plugin-resources.test-mode"]="false";
+WRM._unparsedData["com.atlassian.analytics.analytics-client:policy-update-init.policy-update-data-provider"]="false";
+WRM._unparsedData["com.atlassian.analytics.analytics-client:programmatic-analytics-init.programmatic-analytics-data-provider"]="false";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.applinks-help-paths"]="{\u0022entries\u0022:{\u0022applinks.docs.root\u0022:\u0022https://confluence.atlassian.com/display/APPLINKS-060/\u0022,\u0022applinks.docs.diagnostics.troubleshoot.sslunmatched\u0022:\u0022SSL+and+application+link+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.oauthsignatureinvalid\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.oauthtimestamprefused\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.delete.entity.link\u0022:\u0022Create+links+between+projects\u0022,\u0022applinks.docs.adding.application.link\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.administration.guide\u0022:\u0022Application+Links+Documentation\u0022,\u0022applinks.docs.oauth.security\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.troubleshoot.application.links\u0022:\u0022Troubleshoot+application+links\u0022,\u0022applinks.docs.diagnostics.troubleshoot.unknownerror\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.configuring.auth.trusted.apps\u0022:\u0022Configuring+Trusted+Applications+authentication+for+an+application+link\u0022,\u0022applinks.docs.diagnostics.troubleshoot.authlevelunsupported\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.ssluntrusted\u0022:\u0022SSL+and+application+link+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.unknownhost\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.delete.application.link\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.link.applications\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.diagnostics.troubleshoot.oauthproblem\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.migration\u0022:\u0022Update+application+links+to+use+OAuth\u0022,\u0022applinks.docs.relocate.application.link\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.administering.entity.links\u0022:\u0022Create+links+between+projects\u0022,\u0022applinks.docs.upgrade.application.link\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.diagnostics.troubleshoot.connectionrefused\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.configuring.auth.oauth\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.insufficient.remote.permission\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.configuring.application.link.auth\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.diagnostics\u0022:\u0022Application+links+diagnostics\u0022,\u0022applinks.docs.configured.authentication.types\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.adding.entity.link\u0022:\u0022Create+links+between+projects\u0022,\u0022applinks.docs.diagnostics.troubleshoot.unexpectedresponse\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.configuring.auth.basic\u0022:\u0022Configuring+Basic+HTTP+Authentication+for+an+Application+Link\u0022,\u0022applinks.docs.diagnostics.troubleshoot.authlevelmismatch\u0022:\u0022OAuth+troubleshooting+guide\u0022}}";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.applinks-types"]="{\u0022crowd\u0022:\u0022Crowd\u0022,\u0022confluence\u0022:\u0022Confluence\u0022,\u0022fecru\u0022:\u0022Fisheye / Crucible\u0022,\u0022stash\u0022:\u0022\u0421\u0435\u0440\u0432\u0435\u0440 Bitbucket\u0022,\u0022jira\u0022:\u0022Jira\u0022,\u0022refapp\u0022:\u0022\u0421\u0441\u044b\u043b\u0430\u044e\u0449\u0438\u0435\u0441\u044f \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435\u0022,\u0022bamboo\u0022:\u0022Bamboo\u0022,\u0022generic\u0022:\u0022\u0411\u0430\u0437\u043e\u0432\u043e\u0435 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435\u0022}";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.entity-types"]="{\u0022singular\u0022:{\u0022refapp.charlie\u0022:\u0022\u0427\u0430\u0440\u043b\u0438\u0022,\u0022fecru.project\u0022:\u0022\u041f\u0440\u043e\u0435\u043a\u0442 Crucible\u0022,\u0022fecru.repository\u0022:\u0022\u0420\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u0439 FishEye\u0022,\u0022stash.project\u0022:\u0022Bitbucket Server Project\u0022,\u0022generic.entity\u0022:\u0022\u0411\u0430\u0437\u043e\u0432\u044b\u0439 \u043f\u0440\u043e\u0435\u043a\u0442\u0022,\u0022confluence.space\u0022:\u0022\u041f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0441\u0442\u0432\u043e Confluence\u0022,\u0022bamboo.project\u0022:\u0022Bamboo \u043f\u0440\u043e\u0435\u043a\u0442\u0022,\u0022jira.project\u0022:\u0022\u041f\u0440\u043e\u0435\u043a\u0442 Jira\u0022},\u0022plural\u0022:{\u0022refapp.charlie\u0022:\u0022\u0427\u0430\u0440\u043b\u0438\u0022,\u0022fecru.project\u0022:\u0022\u041f\u0440\u043e\u0435\u043a\u0442\u044b Crucible\u0022,\u0022fecru.repository\u0022:\u0022\u0420\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u0438 FishEye\u0022,\u0022stash.project\u0022:\u0022Bitbucket Server Projects\u0022,\u0022generic.entity\u0022:\u0022\u0411\u0430\u0437\u043e\u0432\u044b\u0435 \u043f\u0440\u043e\u0435\u043a\u0442\u044b\u0022,\u0022confluence.space\u0022:\u0022\u041f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0441\u0442\u0432\u0430 Confluence\u0022,\u0022bamboo.project\u0022:\u0022Bamboo \u043f\u0440\u043e\u0435\u043a\u0442\u044b\u0022,\u0022jira.project\u0022:\u0022\u041f\u0440\u043e\u0435\u043a\u0442\u044b Jira\u0022}}";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.authentication-types"]="{\u0022com.atlassian.applinks.api.auth.types.BasicAuthenticationProvider\u0022:\u0022\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u0414\u043e\u0441\u0442\u0443\u043f\u0022,\u0022com.atlassian.applinks.api.auth.types.TrustedAppsAuthenticationProvider\u0022:\u0022\u0414\u043e\u0432\u0435\u0440\u0435\u043d\u043d\u044b\u0435 \u041f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f\u0022,\u0022com.atlassian.applinks.api.auth.types.CorsAuthenticationProvider\u0022:\u0022CORS\u0022,\u0022com.atlassian.applinks.api.auth.types.OAuthAuthenticationProvider\u0022:\u0022OAuth\u0022,\u0022com.atlassian.applinks.api.auth.types.TwoLeggedOAuthAuthenticationProvider\u0022:\u0022OAuth\u0022,\u0022com.atlassian.applinks.api.auth.types.TwoLeggedOAuthWithImpersonationAuthenticationProvider\u0022:\u0022OAuth\u0022}";
+WRM._unparsedData["com.atlassian.confluence.plugins.synchrony-interop:synchrony-status-banner-loader.synchrony-status"]="false";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-license-banner:confluence-license-banner-resources.license-details"]="{\u0022daysBeforeLicenseExpiry\u0022:0,\u0022daysBeforeMaintenanceExpiry\u0022:0,\u0022showLicenseExpiryBanner\u0022:false,\u0022showMaintenanceExpiryBanner\u0022:false,\u0022renewUrl\u0022:null,\u0022salesUrl\u0022:null}";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-search-ui-plugin:confluence-search-ui-plugin-resources.i18n-data"]="{\u0022search.ui.recent.link.text\u0022:\u0022\u0411\u043e\u043b\u0435\u0435 \u043d\u0435\u0434\u0430\u0432\u043d\u0438\u0435\u0022,\u0022search.ui.filter.space.category.input.label\u0022:\u0022\u041f\u043e\u0438\u0441\u043a \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0439 \u0440\u0430\u0437\u0434\u0435\u043b\u043e\u0432\u2026\u0022,\u0022search.ui.filter.clear.selected\u0022:\u0022\u041e\u0447\u0438\u0441\u0442\u0438\u0442\u044c \u0432\u044b\u0431\u0440\u0430\u043d\u043d\u044b\u0435 \u044d\u043b\u0435\u043c\u0435\u043d\u0442\u044b\u0022,\u0022search.ui.search.results.empty\u0022:\u0022\u041f\u043e \u0437\u0430\u043f\u0440\u043e\u0441\u0443 \u00ab{0}\u00bb \u043d\u0438\u0447\u0435\u0433\u043e \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e.\u0022,\u0022search.ui.content.name.search.items.panel.load.all.top.items.button.text\u0022:\u0022\u041f\u043e\u043a\u0430\u0437\u0430\u0442\u044c \u0431\u043e\u043b\u044c\u0448\u0435 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0439\u0022,\u0022search.ui.filter.space.archive.label\u0022:\u0022\u041f\u043e\u0438\u0441\u043a \u0432 \u0430\u0440\u0445\u0438\u0432\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0445 \u0440\u0430\u0437\u0434\u0435\u043b\u0430\u0445\u0022,\u0022search.ui.filter.label\u0022:\u0022\u0444\u0438\u043b\u044c\u0442\u0440\u0022,\u0022search.ui.filter.contributor.button.text\u0022:\u0022\u0423\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u0022,\u0022search.ui.filter.date.all.text\u0022:\u0022\u041b\u044e\u0431\u043e\u0435 \u0432\u0440\u0435\u043c\u044f\u0022,\u0022search.ui.filter.space.current.label\u0022:\u0022\u0422\u0415\u041a\u0423\u0429\u0418\u0419\u0022,\u0022search.ui.clear.input.button.text\u0022:\u0022\u0423\u0434\u0430\u043b\u0438\u0442\u044c \u0442\u0435\u043a\u0441\u0442\u0022,\u0022help.search.ui.link.title\u0022:\u0022\u0421\u043e\u0432\u0435\u0442\u044b\u0022,\u0022search.ui.search.results.clear.button\u0022:\u0022\u0443\u0434\u0430\u043b\u0438\u0442\u0435 \u0444\u0438\u043b\u044c\u0442\u0440\u044b.\u0022,\u0022search.ui.filter.date.hour.text\u0022:\u0022\u0414\u0435\u043d\u044c\u0022,\u0022search.ui.filters.heading\u0022:\u0022\u0424\u0438\u043b\u044c\u0442\u0440\u043e\u0432\u0430\u0442\u044c \u043f\u043e\u0022,\u0022search.ui.filter.label.input.label\u0022:\u0022\u041d\u0430\u0439\u0442\u0438 \u043c\u0435\u0442\u043a\u0438\u2026\u0022,\u0022search.ui.filter.date.month.text\u0022:\u0022\u041c\u0435\u0441\u044f\u0446\u0022,\u0022search.ui.recent.items.anonymous\u0022:\u0022\u0417\u0434\u0435\u0441\u044c \u0431\u0443\u0434\u0443\u0442 \u043f\u043e\u044f\u0432\u043b\u044f\u0442\u044c\u0441\u044f \u0432\u0430\u0448\u0438 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b \u043f\u043e\u0438\u0441\u043a\u0430.\u0022,\u0022search.ui.input.label\u0022:\u0022\u041f\u043e\u0438\u0441\u043a\u0022,\u0022search.ui.search.result\u0022:\u0022{0,choice,1#{0} \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442|1\u005Cu003c{0} \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b}\u0022,\u0022search.ui.infinite.scroll.button.text\u0022:\u0022\u0414\u0440\u0443\u0433\u0438\u0435 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b\u0022,\u0022search.ui.filter.date.button.text\u0022:\u0022\u0414\u0430\u0442\u0430\u0022,\u0022search.ui.filter.date.week.text\u0022:\u0022\u041d\u0435\u0434\u0435\u043b\u044f\u0022,\u0022search.ui.filter.label.button.text\u0022:\u0022\u041c\u0435\u0442\u043a\u0430\u0022,\u0022search.ui.input.alert\u0022:\u0022\u0427\u0442\u043e\u0431\u044b \u0432\u044b\u043f\u043e\u043b\u043d\u0438\u0442\u044c \u043f\u043e\u0438\u0441\u043a, \u043d\u0430\u0436\u043c\u0438\u0442\u0435 \u0412\u0412\u041e\u0414\u0022,\u0022search.ui.filter.no.result.text\u0022:\u0022\u041f\u043e \u0432\u0430\u0448\u0435\u043c\u0443 \u0437\u0430\u043f\u0440\u043e\u0441\u0443 \u043d\u0438\u0447\u0435\u0433\u043e \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e\u0022,\u0022search.ui.result.subtitle.calendar\u0022:\u0022\u041a\u0430\u043b\u0435\u043d\u0434\u0430\u0440\u044c \u043a\u043e\u043c\u0430\u043d\u0434\u044b\u0022,\u0022search.ui.filter.date.heading\u0022:\u0022\u0412\u0440\u0435\u043c\u044f \u0441 \u043c\u043e\u043c\u0435\u043d\u0442\u0430 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0433\u043e \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f\u0022,\u0022search.ui.result.subtitle.user\u0022:\u0022\u041f\u0440\u043e\u0444\u0438\u043b\u044c \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f\u0022,\u0022search.ui.filter.contributor.input.label\u0022:\u0022\u041d\u0430\u0439\u0442\u0438 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u0439\u0022,\u0022search.ui.filter.content.type.button.text\u0022:\u0022\u0422\u0438\u043f\u0022,\u0022search.ui.filter.space.input.label\u0022:\u0022\u041f\u043e\u0438\u0441\u043a \u0440\u0430\u0437\u0434\u0435\u043b\u043e\u0432\u2026\u0022,\u0022search.ui.filter.date.year.text\u0022:\u0022\u0413\u043e\u0434\u0022,\u0022search.ui.filter.space.button.text\u0022:\u0022\u0420\u0430\u0437\u0434\u0435\u043b\u0022,\u0022search.ui.advanced.search.link.text\u0022:\u0022\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u043d\u044b\u0439 \u043f\u043e\u0438\u0441\u043a\u0022,\u0022search.ui.generic.error\u0022:\u0022\u041f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u0430 \u043e\u0448\u0438\u0431\u043a\u0430. \u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0443. \u0415\u0441\u043b\u0438 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u0430 \u043d\u0435 \u0438\u0441\u0447\u0435\u0437\u043d\u0435\u0442, \u043e\u0431\u0440\u0430\u0442\u0438\u0442\u0435\u0441\u044c \u043a \u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440\u0443.\u0022,\u0022search.ui.recent.spaces\u0022:\u0022\u041d\u0435\u0434\u0430\u0432\u043d\u0438\u0435 \u0440\u0430\u0437\u0434\u0435\u043b\u044b\u0022,\u0022search.ui.search.results.clear.line2\u0022:\u0022\u0418\u0437\u043c\u0435\u043d\u0438\u0442\u0435 \u0437\u0430\u043f\u0440\u043e\u0441 \u0438\u043b\u0438\u0022,\u0022search.ui.filter.space.category.button.text\u0022:\u0022\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0440\u0430\u0437\u0434\u0435\u043b\u0430\u0022,\u0022search.ui.search.results.clear.line1\u0022:\u0022\u041d\u0438\u0447\u0435\u0433\u043e \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e.\u0022,\u0022search.ui.content.name.search.items.panel.load.all.top.items.admin.button.text\u0022:\u0022\u041f\u043e\u043a\u0430\u0437\u0430\u0442\u044c \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0430\u0441\u0442\u0440\u043e\u0435\u043a \u0438 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0439\u0022,\u0022search.ui.recent.pages\u0022:\u0022\u041d\u0435\u0434\u0430\u0432\u043d\u043e \u043f\u043e\u0441\u0435\u0449\u0435\u043d\u043d\u044b\u0435\u0022,\u0022search.ui.search.result.anonymous\u0022:\u0022{0,choice,1#{0} \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442|1\u005Cu003c{0} \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b}. \u0423 \u0432\u0430\u0441 \u0435\u0441\u0442\u044c \u0430\u043a\u043a\u0430\u0443\u043d\u0442? {1}\u0412\u044b\u043f\u043e\u043b\u043d\u0438\u0442\u0435 \u0432\u0445\u043e\u0434{2}, \u0447\u0442\u043e\u0431\u044b \u0443\u0442\u043e\u0447\u043d\u0438\u0442\u044c \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b \u043f\u043e\u0438\u0441\u043a\u0430.\u0022,\u0022search.ui.recent.items.empty\u0022:\u0022\u0417\u0434\u0435\u0441\u044c \u0431\u0443\u0434\u0443\u0442 \u043f\u043e\u044f\u0432\u043b\u044f\u0442\u044c\u0441\u044f \u043d\u0435\u0434\u0430\u0432\u043d\u043e \u043f\u043e\u0441\u0435\u0449\u0435\u043d\u043d\u044b\u0435 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b \u0438 \u0440\u0430\u0437\u0434\u0435\u043b\u044b.\u0022,\u0022search.ui.result.subtitle.space\u0022:\u0022\u0420\u0430\u0437\u0434\u0435\u043b\u0022,\u0022search.ui.filter.space.init.heading\u0022:\u0022\u043d\u0435\u0434\u0430\u0432\u043d\u0438\u0435 \u0440\u0430\u0437\u0434\u0435\u043b\u044b\u0022}";
+if(window.WRM._dataArrived)window.WRM._dataArrived();</script>
+<link type="text/css" rel="stylesheet" href="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/batch.css" data-wrm-key="_super" data-wrm-batch-type="context" media="all">
+<link type="text/css" rel="stylesheet" href="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/batch(1).css" data-wrm-key="atl.confluence.plugins.pagetree-desktop,main,viewcontent,atl.general,page,atl.comments,-_super" data-wrm-batch-type="context" media="all">
+<link type="text/css" rel="stylesheet" href="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/batch(2).css" media="print" data-wrm-key="atl.confluence.plugins.pagetree-desktop,main,viewcontent,atl.general,page,atl.comments,-_super" data-wrm-batch-type="context">
+<link type="text/css" rel="stylesheet" href="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/colors.css" media="all">
+<link type="text/css" rel="stylesheet" href="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/custom.css" media="all">
+<script type="text/javascript" src="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/batch.js.Без названия" data-wrm-key="_super" data-wrm-batch-type="context" data-initially-rendered=""></script>
+<script type="text/javascript" src="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/batch(1).js.Без названия" data-wrm-key="atl.confluence.plugins.pagetree-desktop,main,viewcontent,atl.general,page,atl.comments,-_super" data-wrm-batch-type="context" data-initially-rendered=""></script>
+
+    
+
+        
+    
+
+        
+        <meta name="ajs-site-title" content="WIKI">
+            
+    
+
+    
+                <link rel="canonical" href="https://doc.ugene.net/wiki/display/UM/Using+Objects+and+Object+Views">
+        <link rel="shortlink" href="https://doc.ugene.net/wiki/x/VQDuAw">
+    <meta name="wikilink" content="[UM:Using Objects and Object Views]">
+    <meta name="page-version" content="10">
+    <meta name="ajs-page-version" content="10">
+
+<script type="text/javascript" charset="utf-8" src="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/batch(2).js.Без названия"></script><link rel="stylesheet" type="text/css" href="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/batch(3).css"><link rel="stylesheet" type="text/css" href="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/batch(4).css"><script type="text/javascript" charset="utf-8" src="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/batch(3).js.Без названия"></script><script type="text/javascript" charset="utf-8" src="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/batch(4).js.Без названия"></script>
+            <meta name="ajs-use-watch" content="false">
+            <meta name="ajs-attachment-source-content-id" content="65929301">
+            <meta name="ajs-use-inline-tasks" content="true">
+            <meta name="ajs-heartbeat" content="true">
+            <meta name="ajs-action-locale" content="ru_RU">
+            <meta name="ajs-editor-plugin-resource-prefix" content="/wiki/s/npql6p/8402/140dfda3d2762df191ac390098a5ed2068aa93ed/7.4.11/_">
+            <meta name="ajs-edit-mode" content="legacy">
+            <meta name="ajs-user-watching-own-content" content="true">
+            <meta name="ajs-new-page" content="false">
+            <meta name="ajs-editor-mode" content="richtext">
+            <meta name="ajs-auto-start" content="false">
+            <meta name="ajs-conf-revision" content="confluence$content$65929301.35">
+            <meta name="ajs-sync-revision-source" content="synchrony">
+            <meta name="ajs-draft-id" content="0">
+            <meta name="ajs-draft-share-id" content="">
+            <meta name="ajs-content-type" content="page">
+            <meta name="ajs-collaborative-editor-status" content="off">
+            <meta name="ajs-existing-draft-id" content="0">
+            <meta name="ajs-content-id" content="65929301">
+            <meta name="ajs-form-name" content="inlinecommentform">
+            <meta name="ajs-can-attach-files" content="true">
+            <meta name="ajs-show-draft-message" content="false">
+            <meta name="ajs-shared-drafts" content="false">
+            <meta name="ajs-collaborative-content" content="false">
+            <meta name="ajs-min-editor-height" content="150">
+            <meta name="ajs-version-comment" content="">
+            <meta name="ajs-draft-type" content="page">
+                
+                <meta name="ajs-synchrony-token" content="">
+    <meta name="ajs-synchrony-base-url" content="">
+    <meta name="ajs-synchrony-app-id" content="">
+    <meta name="ajs-synchrony-expiry" content="">
+    <meta name="ajs-use-xhr-fallback" content="">
+
+            		    <meta name="ajs-max-thumb-width" content="300">
+		    <meta name="ajs-max-thumb-height" content="300">
+		    <meta name="ajs-can-send-email" content="true">
+		    <meta name="ajs-is-dev-mode" content="false">
+		    <meta name="ajs-draft-save-interval" content="30000">
+		    <meta name="ajs-show-hidden-user-macros" content="false">
+		    <meta name="ajs-can-view-profile" content="true">
+		    <meta name="ajs-is-admin" content="false">
+		    <meta name="ajs-confluence.prefs.editor.disable.autocomplete" content="false">
+		    <meta name="ajs-confluence.prefs.editor.disable.autoformat" content="false">
+		    <meta name="ajs-heartbeat-interval" content="30000">
+	
+    <link rel="stylesheet" type="text/css" href="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/batch(5).css"><script type="text/javascript" charset="utf-8" src="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/batch(5).js.Без названия"></script><style type="text/css">#property-panel a.macro-placeholder-property-panel-display-newline-button span.icon{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAvklEQVR42rVTPQuFIBT1p1t7e2EFDrXnVmNb4Ca4BS5BW9AfOA+F+wjfAwfpwuHcDzn3olcGIAv5An3fo+u6L55x27bE5P+cZdkWqVJH6pDMsWxTSsFjmqbAMZIC4zjivm9c14XjOLDvO4wx2LYNwzCkBZqmwXmecM7BWgutNdZ1xTzP8LWkQFVVWJYFUspwQUII1HUd2NeSApxzeJRlCfKLovBxYPa6xe9KsedHLc7TXryzidQpnurvZNm/8QMbqb4yyqv4rAAAAABJRU5ErkJggg==);width:16px;height:16px;display:inline-block}#property-panel a.macro-placeholder-property-panel-display-inline-button span.icon{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAw0lEQVR42q1TMQqAMBDr0/UBroJiBUEf0E51dRMcxUlwFBcHPxA5IUuLONSDcDmupO01VQCiEC+gtYagrusH5FVVCfdz0FfRQVVR5CmoLtzfnWBf/R7WWhhjIFnAmvlToOs6XNeF8zyx7zvWdcU8zxjHEW3bhgK8NydaFAWO48C2bViWBdM0YRgGOOcgPc7t9RWyLEPf92ia5hEuyxJ5nj+Lpae+IkkSpGkKZnLW6u/gDHzX+c6kP4j/nfjmNJ8HiP6NN81gzxU6QYojAAAAAElFTkSuQmCC);width:16px;height:16px;display:inline-block}#property-panel a.macro-placeholder-property-panel-display-inline-button,#property-panel a.macro-placeholder-property-panel-display-newline-button{padding:0 6px}</style><style type="text/css">#charmap-picker{border:0;font-size:16px;font-family:Arial,Helvetica,FreeSans,sans-serif;padding:2px;text-align:center}#charmap-view{padding-right:1em;text-align:left;vertical-align:top}#charmap-info{text-align:center;vertical-align:top;width:100%}#charmap-info>table{border:0;height:100px;padding:0;width:100%}#code-value{font-size:3em}#code-name{font-size:13px}#code-name,#code-value{color:#666;text-align:center}.charmap a:active,.charmap a:hover,.charmap a:link,.charmap a:visited{color:#326ca6;text-decoration:none}</style><style type="text/css">body.ios{min-height:150px}</style><style type="text/css">table.draggable{margin-left:-10px;margin-top:-10px}table.draggable:hover>tbody>tr>td.draggable-column,table.draggable:hover>tbody>tr>td.draggable-row,table.draggable:hover>tbody>tr>td.draggable-table{background-color:#777;border-top:1px solid #777;border-left:1px solid #777}table.draggable:hover>tbody>tr>td.draggable-column,table.draggable:hover>tbody>tr>td.draggable-table{border-right:1px solid #aaa}table.draggable:hover>tbody>tr>td.draggable-row,table.draggable:hover>tbody>tr>td.draggable-table{border-bottom:1px solid #aaa}td.draggable-column,td.draggable-row,td.draggable-table{background-color:transparent;border-top:1px solid transparent;border-left:1px solid transparent;cursor:move}td.draggable-column,td.draggable-table{border-right:1px solid transparent}td.draggable-row,td.draggable-table{border-bottom:1px solid transparent}td.draggable-column{height:10px}td.draggable-row{width:10px}.wiki-content img.confluence-embedded-image,.wiki-content img.editor-inline-macro,.wiki-content table.wysiwyg-macro{cursor:move}.wiki-content table.wysiwyg-macro>tbody>tr>td.wysiwyg-macro-body{cursor:text}#move-indicator{font-weight:400!important}</style><style type="text/css">.quick-comment-form #rte-toolbar .insert-files.toolbar-item{padding:0 6px}.quick-comment-form #rte-toolbar .insert-files .toolbar-trigger{margin:0 -6px}#rte-toolbar .insert-files.toolbar-item{padding:0}#rte-toolbar .insert-files .trigger-text{display:none}#rte-toolbar .insert-files .aui-button{padding:0 6px}</style><style type="text/css">.aui-dialog .wiki-parser-selector{font-size:14px;margin-right:5px}.insert-wiki-markup-panel div,.insert-wiki-markup-panel div form{height:100%;text-align:center}.insert-wiki-markup-panel .spinner{position:absolute;top:50%;left:50%;margin-top:-73px;margin-left:-60px}#insert-wiki-info-title{text-align:left;margin-left:10px}#insert-wiki-markup-form{height:95%}#insert-wiki-markup-form .wiki-title span{box-sizing:border-box;display:-moz-inline-stack;display:inline-block;margin-bottom:10px;max-width:48%;text-align:left;vertical-align:middle;width:48%}#insert-wiki-markup-form .wiki-title span:first-child{margin-right:20px}#insert-wiki-textarea,#insert-wiki-textarea-preview{box-sizing:border-box;display:-moz-inline-stack;display:inline-block;font-size:14px;height:84%;max-width:48%;vertical-align:middle;width:48%;resize:none}#insert-wiki-textarea.originalDefault{height:100%;min-width:100%;width:100%}#insert-wiki-textarea{font-family:Monaco,Consolas,Courier New,"monospace";margin-right:20px}#insert-wiki-textarea-preview{border:1px solid #ccc;border-radius:3px;position:relative}#insert-wiki-textarea-preview iframe{border:0;height:100%;left:0;min-height:100%;overflow:hidden;position:absolute;top:0;width:100%}</style><style type="text/css">#property-panel a.macro-property-panel-Grey span.icon{background-color:#dfe1e6}#property-panel a.macro-property-panel-Green span.icon{background-color:#00875a}#property-panel a.macro-property-panel-Red span.icon{background-color:#de350b}#property-panel a.macro-property-panel-Yellow span.icon{background-color:#ffab00}#property-panel a.macro-property-panel-Blue span.icon{background-color:#b3d4ff}#property-panel a.macro-property-panel-Blue,#property-panel a.macro-property-panel-Brown,#property-panel a.macro-property-panel-Green,#property-panel a.macro-property-panel-Grey,#property-panel a.macro-property-panel-Red,#property-panel a.macro-property-panel-Yellow{padding:6px;display:inline-block}#property-panel a.macro-property-panel-Blue span.icon,#property-panel a.macro-property-panel-Brown span.icon,#property-panel a.macro-property-panel-Green span.icon,#property-panel a.macro-property-panel-Grey span.icon,#property-panel a.macro-property-panel-Red span.icon,#property-panel a.macro-property-panel-Yellow span.icon{display:inline-block;background-image:none;margin:0;border:0;min-width:auto;border-radius:3px;width:16px;height:16px}.editor-inline-macro[data-macro-name=status]{background:transparent;border:0;min-height:16px;margin:0;vertical-align:-4px}#property-panel .editable.status-macro-title{margin-right:10px;float:none;text-transform:uppercase;text-decoration:none;width:88px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:11px;padding:0 5px}#property-panel input.editable.status-macro-title{outline:none;height:30px;line-height:20px;vertical-align:bottom;padding-top:2px}</style><style type="text/css" media="print">.tableFloatingHeader{display:none !important;}.tableFloatingHeaderOriginal{position:static !important;}</style><link rel="stylesheet" type="text/css" href="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/batch(6).css"><script type="text/javascript" charset="utf-8" src="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/batch(6).js.Без названия"></script><style type="text/css"></style></head>
+
+    
+<body id="com-atlassian-confluence" class="theme-default  aui-layout aui-theme-default contenteditor edit" data-aui-version="8.3.10" style="overflow: hidden;">
+
+        
+            <div id="stp-licenseStatus-banner" aria-hidden="true"></div>
+    <ul id="assistive-skip-links" class="assistive" aria-hidden="true">
+    <li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#title-heading">Перейти к содержимому</a></li>
+    <li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#breadcrumbs">Перейти к "Хлебным крошкам"</a></li>
+    <li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#header-menu-bar">Перейти к меню заголовка</a></li>
+    <li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#navigation">Перейти к меню действий</a></li>
+    <li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#quick-search-query">Перейти к быстрому поиск</a></li>
+</ul>
+<div id="page" aria-hidden="true">
+<div id="full-height-container">
+    <div id="header-precursor">
+        <div class="cell">
+            
+                            </div>
+    </div>
+        
+
+
+
+
+
+<header id="header" role="banner" class="">
+    <nav class="aui-header aui-dropdown2-trigger-group" role="navigation" resolved="" data-aui-responsive="true"><div class="aui-header-inner"><div class="aui-header-before"><a class=" aui-dropdown2-trigger app-switcher-trigger" aria-controls="app-switcher" aria-haspopup="true" role="button" tabindex="0" data-aui-trigger="" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#app-switcher" resolved="" aria-expanded="false"><span class="aui-icon aui-icon-small aui-iconfont-appswitcher">Связанные приложения</span></a><div id="app-switcher" class="aui-dropdown2 aui-style-default aui-layer" role="menu" aria-hidden="true" data-is-switcher="true" data-environment="{&quot;isUserAdmin&quot;:false,&quot;isAppSuggestionAvailable&quot;:false,&quot;isSiteAdminUser&quot;:false}" resolved=""><div class="aui-dropdown2-section"><ul class="nav-links"><li class="nav-link"><a href="https://ugene.dev/tracker/secure/MyJiraHome.jspa" class="aui-dropdown2-radio " title="https://ugene.dev/tracker/secure/MyJiraHome.jspa" resolved="" aria-checked="false" tabindex="0"><span class="nav-link-label">Jira</span></a></li><li class="nav-link nav-link-local"><a href="https://doc.ugene.net/wiki/" class="aui-dropdown2-radio aui-dropdown2-checked checked" title="https://doc.ugene.net/wiki/" resolved="" aria-checked="true" tabindex="0"><span class="nav-link-label">WIKI</span></a></li></ul></div></div></div><div class="aui-header-primary"><h1 id="logo" class="aui-header-logo aui-header-logo-custom"><a href="https://doc.ugene.net/wiki/"><img src="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/atl.site.logo" alt="WIKI" data-aui-responsive-header-index="0"></a></h1><ul class="aui-nav" style="width: auto;">
+                            <li>
+            
+        
+        
+<a id="space-menu-link" class=" aui-dropdown2-trigger aui-nav-link" aria-controls="space-menu-link-content" aria-haspopup="true" role="button" title="Пространства" tabindex="0" data-aui-trigger="" resolved="" aria-expanded="false" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#space-menu-link-content">Пространства</a><div id="space-menu-link-content" class="aui-dropdown2 aui-style-default aui-dropdown2-in-header aui-layer" role="menu" aria-hidden="true" resolved=""><div role="application"></div></div>
+        </li>
+                    <li>
+            
+    
+        
+<a id="people-directory-link" href="https://doc.ugene.net/wiki/browsepeople.action" class=" aui-nav-imagelink" title="Пользователи">
+            <span>Пользователи</span>
+    </a>
+        </li>
+                    <li>
+            
+    
+        
+<a href="https://doc.ugene.net/wiki/calendar/mycalendar.action" class=" aui-nav-imagelink" title="Календари">
+            <span>Календари</span>
+    </a>
+        </li>
+                                <li class="aui-buttons">
+                                    
+                                        <a href="https://doc.ugene.net/wiki/pages/createpage.action?spaceKey=UM&amp;fromPageId=65929301&amp;src=quick-create" id="quick-create-page-button" class="aui-button aui-button-primary" title="Создать пустую страницу (c)" tabindex="0" resolved="">Создать</a>
+                                <a href="https://doc.ugene.net/wiki/pages/createpage.action?spaceKey=UM&amp;fromPageId=65929301" id="create-page-button" class="aui-button aui-button-primary clc-create-dialog-btn" title="Создать из шаблона" tabindex="0" resolved=""><span class="aui-icon aui-icon-small aui-iconfont-more">Создать </span></a>
+            </li>
+</ul>
+</div><div class="aui-header-secondary"><ul class="aui-nav">
+                        <li>
+        <div id="search-ui" class="aui-quicksearch dont-default-focus header-quicksearch"><input id="quick-search-query" aria-label="Поиск" placeholder="Поиск" type="text" title=" (g , gили /)"><div id="quick-search-alert" role="alert">Чтобы выполнить поиск, нажмите ВВОД</div><aui-spinner size="small" resolved=""><div class="aui-spinner spinner"><svg focusable="false" size="20" height="20" width="20" viewBox="0 0 20 20"><circle cx="10" cy="10" r="9"></circle></svg></div></aui-spinner></div>
+    </li>
+        <li>
+            
+        <a id="help-menu-link" class="aui-nav-link aui-dropdown2-trigger aui-dropdown2-trigger-arrowless" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-haspopup="true" title="Помощь" resolved="" aria-controls="help-menu-link-content" aria-expanded="false">
+        <span class="aui-icon aui-icon-small aui-iconfont-question-filled">Помощь</span>
+    </a>
+    <nav id="help-menu-link-content" class="aui-dropdown2 aui-style-default aui-layer" aria-hidden="true" resolved="">
+                    <div class="aui-dropdown2-section">
+                                <ul id="help-menu-link-leading" class="aui-list-truncate section-leading first">
+                                            <li>
+        
+            
+<a id="confluence-help-link" href="https://docs.atlassian.com/confluence/docs-74/" class="    " title="Посетить сайт с документацией по Confluence" target="_blank">
+        Помощь онлайн
+</a>
+</li>
+                                            <li>
+    
+            
+<a id="keyboard-shortcuts-link" href="https://doc.ugene.net/wiki" class="    " title="Просмотр доступных сочетаний клавиш (?)">
+        Сочетания клавиш
+</a>
+</li>
+                                            <li>
+    
+            
+<a id="feed-builder-link" href="https://doc.ugene.net/wiki/dashboard/configurerssfeed.action" class="    " title="создайте ваш собственный RSS-канал.">
+        Мастер настройки RSS
+</a>
+</li>
+                                            <li>
+    
+            
+<a id="whats-new-menu-link" href="https://confluence.atlassian.com/display/DOC/Confluence+7.4+Release+Notes?a=false" class="    " title="">
+        Что нового
+</a>
+</li>
+                                            <li>
+    
+            
+<a id="whats-new-menu-link" href="https://docs.atlassian.com/confluence/docs-74/help.whats.new.iframe.link?od=false&amp;a=false" class="    " title="">
+        Что нового
+</a>
+</li>
+                                            <li>
+    
+            
+<a id="gadget-directory-link" href="https://doc.ugene.net/wiki" class="   user-item administration-link " title="Обзор гаджетов от Confluence">
+        Доступные гаджеты
+</a>
+</li>
+                                            <li>
+    
+            
+<a id="confluence-about-link" href="https://doc.ugene.net/wiki/aboutconfluencepage.action" class="    " title="Получить более подробную информацию о Confluence">
+        Информация о Confluence
+</a>
+</li>
+                                    </ul>
+            </div>
+            </nav>
+    
+    </li>
+        <li>
+                
+    
+    </li>
+        <li>
+                    
+        
+        
+<a id="notifications-anchor" href="https://doc.ugene.net/wiki" class="mw-anchor read aui-nav-imagelink" title="Открыть уведомления (g , n)"><div class="badge-i aui-icon aui-icon-small aui-iconfont-notification"></div><span class="badge-w"><span class="badge">0</span></span></a>
+    
+    </li>
+        <li>
+                                            
+        <a id="user-menu-link" class="aui-dropdown2-trigger aui-dropdown2-trigger-arrowless " aria-haspopup="true" data-username="s.samoilenko" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" title="Svetlana Samoilenko" resolved="" aria-controls="user-menu-link-content" aria-expanded="false">
+                    <div class="aui-avatar aui-avatar-small">
+                <div class="aui-avatar-inner">
+                                                                                                    <img src="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/default.svg">
+                </div>
+            </div>
+            <span class="aui-icon-dropdown"></span>
+        </a>
+        <nav id="user-menu-link-content" class="aui-dropdown2 aui-style-default aui-layer" aria-hidden="true" resolved="">
+                            <div class="aui-dropdown2-section">
+                    <ul id="user-menu-link-user-preferences" class="aui-list-truncate section-user-preferences first">
+                                                    <li>
+        
+            
+<a id="view-user-history-link" href="https://doc.ugene.net/wiki/users/viewuserhistory.action" class="   user-item user-history popup-link " title=" (g , r)">
+        Недавно просмотренные
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="user-recently-worked-on" href="https://doc.ugene.net/wiki/dashboard.action#recently-worked" class="   user-item " title="">
+        Недавняя работа
+</a>
+</li>
+                                            </ul>
+                </div>
+                            <div class="aui-dropdown2-section">
+                    <ul id="user-menu-link-user-content" class="aui-list-truncate section-user-content">
+                                                    <li>
+    
+            
+<a id="view-user-profile-link" href="https://doc.ugene.net/wiki/users/viewmyprofile.action" class="   user-item user-profile " title="">
+        Профиль
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="view-mytasks-link" href="https://doc.ugene.net/wiki/plugins/inlinetasks/mytasks.action" class="   user-item list-user-status " title="">
+        Задачи
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="user-favourites-link" href="https://doc.ugene.net/wiki/users/viewmyfavourites.action" class="   user-item " title="">
+        Избранное
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="user-watches-link" href="https://doc.ugene.net/wiki/users/viewnotifications.action" class="   user-item " title="">
+        Наблюдения
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="user-drafts-link" href="https://doc.ugene.net/wiki/users/viewmydrafts.action" class="   user-item " title="">
+        Черновики
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="user-network-link" href="https://doc.ugene.net/wiki/users/viewfollow.action?username=s.samoilenko" class="   follow-link " title="">
+        Сеть
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="user-settings-link" href="https://doc.ugene.net/wiki/users/viewmysettings.action" class="   user-item " title="">
+        Настройки
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="upm-requests-link" href="https://doc.ugene.net/wiki/plugins/servlet/upm/requests?source=header_user" class="    " title="">
+        Магазин Atlassian
+</a>
+</li>
+                                            </ul>
+                </div>
+                            <div class="aui-dropdown2-section">
+                    <ul id="user-menu-link-user-operations" class="aui-list-truncate section-user-operations">
+                                                    <li>
+    
+            
+<a id="logout-link" href="https://doc.ugene.net/wiki/logout.action" class="   user-item logout-link " title="">
+        Выйти
+</a>
+</li>
+                                            </ul>
+                </div>
+                    </nav>
+                    
+    </li>
+    </ul>
+</div></div><!-- .aui-header-inner--></nav><!-- .aui-header -->
+    <br class="clear">
+</header>
+    
+
+    
+    	
+    		
+        <!-- \#header -->
+
+            
+    
+        <div id="main" class="aui-page-panel active-richtext" style="margin-left: 401px;">
+                        <div id="main-header" style="top: 40px; width: 1207px;">
+                        
+    
+
+            
+            <div id="title-heading" class="pagetitle with-breadcrumbs">
+                
+                                    <div id="breadcrumb-section">
+                        
+    
+    
+    
+
+
+                    </div>
+                
+                
+        <a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#page-banner-end" class="assistive">Перейти к концу баннера</a>
+<div id="page-banner-start" class="assistive"></div>
+
+                    
+            <div id="page-metadata-banner" style="visibility: visible;"><ul class="banner"><li id="system-content-items" class="noprint"><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301" title="Неограниченный" id="content-metadata-page-restrictions" class="aui-icon aui-icon-small aui-iconfont-unlocked system-metadata-restrictions" resolved=""></a><a href="https://doc.ugene.net/wiki/pages/viewpageattachments.action?pageId=65929301&amp;metadataLink=true" title="10 вложения(-й)" id="content-metadata-attachments" class="aui-icon aui-icon-small aui-iconfont-attachment"></a></li><li class="page-metadata-item noprinthas-button" id="content-metadata-jira-wrapper"><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301" title="" id="content-metadata-jira" class="aui-button aui-button-subtle content-metadata-jira tipsy-disabled hidden" resolved=""><span>Ссылки JIRA</span></a></li></ul></div>
+            
+
+<a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#page-banner-start" class="assistive">Перейдите к началу баннера</a>
+<div id="page-banner-end" class="assistive"></div>
+    
+
+                <h1 id="title-text" class="with-breadcrumbs" style="display: block;">Using Objects and Object Views</h1>
+            </div>
+        </div><!-- \#main-header -->
+        
+        
+
+        <div id="sidebar-container">
+                                                </div><!-- \#sidebar-container -->
+
+        
+    
+
+        
+
+
+
+
+            
+    
+
+                                
+    
+
+    
+    
+        
+    
+    
+                    
+    
+
+    
+
+    
+            
+        
+
+    
+    
+
+    
+            
+        
+
+
+
+    
+<div id="content" class="page edit" style="padding-right: 0px;">
+    
+
+
+
+
+
+
+            
+
+
+        
+    
+            
+
+        
+                            
+    
+
+                    
+
+        
+        
+
+
+    
+
+
+
+
+
+        
+                                            
+        
+
+                        
+    
+
+
+
+
+        
+		
+            
+
+
+
+
+            
+        
+
+
+
+
+
+
+
+
+                        
+    
+
+        
+
+
+                
+    
+            
+<form style="" class="editor aui fadeIn" method="post" name="editpageform" action="https://doc.ugene.net/wiki/pages/doeditpage.action?pageId=65929301" id="editpageform"><div title="Добавить комментарий (m)" class="quick-comment-prompt" style="display: none;"><span>Написать комментарий...</span></div><div class="hidden">
+        
+
+
+<content tag="breadcrumbs">
+    
+    
+    
+
+</content>
+</div><script type="text/x-template" title="editor-css" id="editor-css-resources">
+    <link type="text/css" rel="stylesheet" href="/wiki/s/0172cc0a966a3120450cf540696b5c8e-CDN/npql6p/8402/140dfda3d2762df191ac390098a5ed2068aa93ed/03c915e8f1580f009219601c285365a6/_/download/contextbatch/css/editor-content/batch.css?frontend.editor.v4=true" data-wrm-key="editor-content" data-wrm-batch-type="context" media="all">
+<link type="text/css" rel="stylesheet" href="/wiki/s/npql6p/8402/140dfda3d2762df191ac390098a5ed2068aa93ed/39/_/styles/colors.css" media="all">
+<link type="text/css" rel="stylesheet" href="/wiki/s/npql6p/8402/140dfda3d2762df191ac390098a5ed2068aa93ed/39/_/styles/custom.css" media="all">
+
+</script><div id="link-browser-tab-items" class="hidden">
+                <div title="Поиск" data-weight="10">search</div>
+            <div title="Часто просматриваемые" data-weight="20">recentlyviewed</div>
+            <div title="Файлы" data-weight="30">attachments</div>
+            <div title="Web ссылка" data-weight="40">weblink</div>
+            <div title="Дополнительно" data-weight="50">advanced</div>
+    </div><div id="image-properties-tab-items" class="hidden">
+                <div title="Эффекты" data-weight="10">image-effects</div>
+            <div title="Заголовок" data-weight="20">image-attributes</div>
+    </div><div id="toolbar">
+    <div id="rte-toolbar" class="aui-toolbar aui-toolbar2">
+
+        <div class="aui-toolbar2-primary toolbar-primary">
+            <ul class="aui-buttons rte-toolbar-group-formatting">
+                            <li id="format-dropdown" class="toolbar-item toolbar-dropdown dd-allocated">
+                    <div class="aui-dd-parent">
+                        <a id="format-dropdown-display" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" class="toolbar-trigger aui-dd-trigger aui-button" data-control-id="formatselect" resolved="">
+                            <span class="dropdown-text">
+    Абзац
+</span>
+                                        
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-dropdown "></span>
+                        </a>
+                        <ul id="format-dropdown-display-menu" class="aui-dropdown hidden">
+                            <li class="dropdown-item format-p" data-format="p" data-tooltip="Абзац (Ctrl +0)" original-title="">
+    <a class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">Абзац</a>
+</li>
+                                <li class="dropdown-item format-h1" data-format="h1" data-tooltip="Заголовок 1 (Ctrl+1)" original-title="">
+    <a class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">Заголовок 1</a>
+</li>
+                                <li class="dropdown-item format-h2" data-format="h2" data-tooltip="Заголовок 2 (Ctrl+2)" original-title="">
+    <a class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">Заголовок 2</a>
+</li>
+                                <li class="dropdown-item format-h3" data-format="h3" data-tooltip="Заголовок 3 (Ctrl+3)" original-title="">
+    <a class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">Заголовок 3</a>
+</li>
+                                <li class="dropdown-item format-h4" data-format="h4" data-tooltip="Заголовок 4 (Ctrl+4)" original-title="">
+    <a class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">Заголовок 4</a>
+</li>
+                                <li class="dropdown-item format-h5" data-format="h5" data-tooltip="Заголовок 5 (Ctrl+5)" original-title="">
+    <a class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">Заголовок 5</a>
+</li>
+                                <li class="dropdown-item format-h6" data-format="h6" data-tooltip="Заголовок 6 (Ctrl+6)" original-title="">
+    <a class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">Заголовок 6</a>
+</li>
+                                <li class="dropdown-item format-pre" data-format="pre" data-tooltip="Выровненный (Ctrl +7)" original-title="">
+    <a class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">Выровненный</a>
+</li>
+                                <li class="dropdown-item format-blockquote" data-format="blockquote" data-tooltip="Цитата (Ctrl+8)" original-title="">
+    <a class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">Цитата</a>
+</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="aui-buttons rte-toolbar-group-style">
+                
+            <li class="toolbar-item aui-button aui-button-subtle" id="rte-button-bold" data-tooltip="Жирный (Ctrl+B)" resolved="" original-title="">
+    <a class="toolbar-trigger" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" data-control-id="bold">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-bold ">Жирный</span>
+    </a>
+</li>
+                
+            <li class="toolbar-item aui-button aui-button-subtle" id="rte-button-italic" data-tooltip="Курсив (Ctrl+I)" resolved="" original-title="">
+    <a class="toolbar-trigger" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" data-control-id="italic">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-italic ">Курсив</span>
+    </a>
+</li>
+                
+            <li class="toolbar-item aui-button aui-button-subtle" id="rte-button-underline" data-tooltip="Подчеркнутый (Ctrl + U)" resolved="" original-title="">
+    <a class="toolbar-trigger" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" data-control-id="underline">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-underline ">Подчеркнутый</span>
+    </a>
+</li>
+                            <li id="color-picker-control" class="toolbar-item toolbar-splitbutton">
+                    <a class="toolbar-trigger aui-button" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" id="rte-button-color" data-color="003366" data-tooltip="Цвет" resolved="" original-title=""><span class="icon aui-icon aui-icon-small aui-iconfont-editor-color ">Cредство выбора цвета</span><span class="selected-color" style="background-color: rgb(0, 51, 102);"></span></a><div class="aui-dd-parent dd-allocated"><a class="toolbar-trigger aui-dd-trigger aui-button" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" id="rte-button-color-selector" data-control-id="colorSelector" data-tooltip="Дополнительные цвета" resolved="" original-title=""><span class="icon aui-icon aui-icon-small aui-iconfont-dropdown ">Дополнительные цвета</span></a><div class="color-picker-container"><div class="color-picker aui-dropdown hidden"><ul><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Черный" data-tooltip="Черный" style="background-color: #000000" data-color="000000" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Жженый оранжевый" data-tooltip="Жженый оранжевый" style="background-color: #993300" data-color="993300" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Темно-оливковый" data-tooltip="Темно-оливковый" style="background-color: #333300" data-color="333300" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Темно-зеленый" data-tooltip="Темно-зеленый" style="background-color: #003300" data-color="003300" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Темно-голубой" data-tooltip="Темно-голубой" style="background-color: #003366" data-color="003366" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Темно-синий" data-tooltip="Темно-синий" style="background-color: #000080" data-color="000080" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Индиго" data-tooltip="Индиго" style="background-color: #333399" data-color="333399" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Черно-серый" data-tooltip="Черно-серый" style="background-color: #333333" data-color="333333" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Красно-коричневый" data-tooltip="Красно-коричневый" style="background-color: #800000" data-color="800000" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Оранжевый" data-tooltip="Оранжевый" style="background-color: #FF6600" data-color="FF6600" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Оливковый" data-tooltip="Оливковый" style="background-color: #808000" data-color="808000" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Зеленый" data-tooltip="Зеленый" style="background-color: #008000" data-color="008000" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Морская волна" data-tooltip="Морская волна" style="background-color: #008080" data-color="008080" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Синий" data-tooltip="Синий" style="background-color: #0000FF" data-color="0000FF" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Серо-синий" data-tooltip="Серо-синий" style="background-color: #666699" data-color="666699" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Серый" data-tooltip="Серый" style="background-color: #7A869A" data-color="7A869A" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Красный" data-tooltip="Красный" style="background-color: #FF0000" data-color="FF0000" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Янтарь" data-tooltip="Янтарь" style="background-color: #FF9900" data-color="FF9900" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Желто-зеленый" data-tooltip="Желто-зеленый" style="background-color: #99CC00" data-color="99CC00" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Морской зеленый" data-tooltip="Морской зеленый" style="background-color: #339966" data-color="339966" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Бирюзовый" data-tooltip="Бирюзовый" style="background-color: #33CCCC" data-color="33CCCC" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Глубокий синий" data-tooltip="Глубокий синий" style="background-color: #3366FF" data-color="3366FF" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Пурпурный" data-tooltip="Пурпурный" style="background-color: #800080" data-color="800080" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Средне-серый" data-tooltip="Средне-серый" style="background-color: #A5ADBA" data-color="A5ADBA" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Маджента" data-tooltip="Маджента" style="background-color: #FF00FF" data-color="FF00FF" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Золотой" data-tooltip="Золотой" style="background-color: #FFCC00" data-color="FFCC00" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Желтый" data-tooltip="Желтый" style="background-color: #FFFF00" data-color="FFFF00" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Лайм" data-tooltip="Лайм" style="background-color: #00FF00" data-color="00FF00" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Аква" data-tooltip="Аква" style="background-color: #00FFFF" data-color="00FFFF" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Небесно-голубой" data-tooltip="Небесно-голубой" style="background-color: #00CCFF" data-color="00CCFF" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Красно-фиолетовый" data-tooltip="Красно-фиолетовый" style="background-color: #993366" data-color="993366" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Светло-серый" data-tooltip="Светло-серый" style="background-color: #C1C7D0" data-color="C1C7D0" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Розовый" data-tooltip="Розовый" style="background-color: #FF99CC" data-color="FF99CC" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Персиковый" data-tooltip="Персиковый" style="background-color: #FFCC99" data-color="FFCC99" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Светло-желтый" data-tooltip="Светло-желтый" style="background-color: #FFFF99" data-color="FFFF99" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Бледно-зеленый" data-tooltip="Бледно-зеленый" style="background-color: #CCFFCC" data-color="CCFFCC" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Бледно-голубой" data-tooltip="Бледно-голубой" style="background-color: #CCFFFF" data-color="CCFFFF" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Светлый небесно-голубой" data-tooltip="Светлый небесно-голубой" style="background-color: #99CCFF" data-color="99CCFF" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Сливовый" data-tooltip="Сливовый" style="background-color: #CC99FF" data-color="CC99FF" original-title="">&nbsp;</a></li><li><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" aria-label="Белый" data-tooltip="Белый" style="background-color: #FFFFFF" data-color="FFFFFF" original-title="">&nbsp;</a></li></ul></div></div></div>
+                </li>
+                <li id="more-menu" class="toolbar-item toolbar-dropdown">
+                    <div class="aui-dd-parent dd-allocated">
+                        <a id="rte-button-more" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" class="toolbar-trigger aui-dd-trigger aui-button" data-tooltip="Больше" resolved="" original-title="">
+                                        
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-styles ">Форматирование</span>
+                                            
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-dropdown "></span>
+                        </a>
+                        <div id="rte-button-more-menu" class="aui-dropdown grouped hidden">
+                            <div class="grouped-dropdown-item">
+                                <ul>
+                                                        <li class="dropdown-item more-menu-trigger" data-control-id="strikethrough" data-tooltip="Зачеркнутый (Ctrl + Shift + S)" original-title="">
+    <a id="rte-strikethrough" class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+Зачеркнутый
+    </a>
+</li>
+                                                             <li class="dropdown-item more-menu-trigger" data-control-id="sub" data-tooltip="" original-title="">
+    <a id="rte-sub" class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+Нижний индекс
+    </a>
+</li>
+                                                             <li class="dropdown-item more-menu-trigger" data-control-id="sup" data-tooltip="" original-title="">
+    <a id="rte-sup" class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+Верхний индекс
+    </a>
+</li>
+                                                    <li class="dropdown-item more-menu-trigger" data-control-id="monospace" data-tooltip="Форматировать текст с моноширинным шрифтом" original-title="">
+    <a id="rte-monospace" class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+Моноширинный
+    </a>
+</li>
+
+                                                                                                                </ul>
+                            </div>
+                            <div class="grouped-dropdown-item">
+                                <ul>
+                                    <li class="dropdown-item more-menu-trigger no-icon" data-format="removeformat" data-tooltip="Удаляет форматирование выделенного текста" original-title="">
+<a id="rte-removeformat" class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">
+    Очистить форматирование
+</a>
+</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </li>
+            </ul>
+
+            <ul class="aui-buttons rte-toolbar-group-lists">
+                
+            <li class="toolbar-item aui-button aui-button-subtle" id="rte-button-bullist" data-tooltip="Маркированный список (Ctrl+Shift+B)" resolved="" original-title="">
+    <a class="toolbar-trigger" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" data-control-id="bullist">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-list-bullet ">Маркированный список</span>
+    </a>
+</li>
+                    
+            <li class="toolbar-item aui-button aui-button-subtle" id="rte-button-numlist" data-tooltip="Нумерованный список (Ctrl+Shift+N)" resolved="" original-title="">
+    <a class="toolbar-trigger" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" data-control-id="numlist">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-list-number ">Нумерованный список</span>
+    </a>
+</li>
+            </ul>
+                            <ul class="aui-buttons rte-toolbar-group-task-lists">
+                    
+            <li class="toolbar-item aui-button aui-button-subtle" id="rte-button-tasklist" data-tooltip="Список задач ([ затем ])" resolved="" original-title="">
+    <a class="toolbar-trigger" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" data-control-id="tasklist">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-task ">Список задач</span>
+    </a>
+</li>
+                </ul>
+            
+            <ul class="aui-buttons rte-toolbar-group-indentation">
+                
+            <li class="toolbar-item aui-button aui-button-subtle disabled" id="rte-button-outdent" data-tooltip="Убрать отступ" resolved="" original-title="">
+    <a class="toolbar-trigger" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" data-control-id="outdent">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-indent-left ">Убрать отступ</span>
+    </a>
+</li>
+                    
+            <li class="toolbar-item aui-button aui-button-subtle" id="rte-button-indent" data-tooltip="Сделать отступ" resolved="" original-title="">
+    <a class="toolbar-trigger" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" data-control-id="indent">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-indent-right ">Сделать отступ</span>
+    </a>
+</li>
+            </ul>
+
+            <ul class="aui-buttons rte-toolbar-group-justification">
+                
+            <li class="toolbar-item aui-button aui-button-subtle" id="rte-button-justifyleft" data-tooltip="Выровнить по левому краю" resolved="" original-title="">
+    <a class="toolbar-trigger" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" data-control-id="justifyleft">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-align-left ">Выровнить по левому краю</span>
+    </a>
+</li>
+                    
+            <li class="toolbar-item aui-button aui-button-subtle" id="rte-button-justifycenter" data-tooltip="Выровнить по центру" resolved="" original-title="">
+    <a class="toolbar-trigger" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" data-control-id="justifycenter">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-align-center ">Выровнить по центру</span>
+    </a>
+</li>
+                    
+            <li class="toolbar-item aui-button aui-button-subtle" id="rte-button-justifyright" data-tooltip="Выровнить по правому краю" resolved="" original-title="">
+    <a class="toolbar-trigger" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" data-control-id="justifyright">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-align-right ">Выровнить по правому краю</span>
+    </a>
+</li>
+            </ul>
+
+                            <ul class="aui-buttons" id="page-layout-2-group">
+                    <li id="page-layout-2" class="toolbar-item" data-tooltip="Разметка страницы" original-title="">
+                        <a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" class="aui-button aui-button-subtle toolbar-trigger" id="rte-button-pagelayout-2" resolved="">
+                                        
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-layout ">Разметка страницы</span>
+                        </a>
+                    </li>
+                </ul>
+            
+
+            <ul class="aui-buttons rte-toolbar-group-files"><li id="confluence-insert-files" class="toolbar-item insert-files" data-tooltip="Вставить файлы и изображения (Ctrl+M)" data-weight="0" original-title="">
+                            <a class="toolbar-trigger aui-button aui-button-subtle" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" data-control-id="confluence-insert-files" resolved="">
+                                <span class="icon aui-icon aui-icon-small aui-iconfont-image"></span>
+                                <span class="trigger-text">Файлы</span>
+                            </a>
+                        </li></ul>
+
+            <ul class="aui-buttons rte-toolbar-group-link no-separator">
+                <li class="toolbar-item" data-tooltip="Вставить ссылку (Ctrl+K)" original-title="">
+                    <a id="rte-button-link" class="toolbar-trigger aui-button aui-button-subtle" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" data-control-id="linkbrowserButton" resolved="">
+                                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-link "></span>
+                        <span class="trigger-text">Ссылка</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="aui-buttons rte-toolbar-group-table no-separator">
+                <li class="toolbar-item toolbar-dropdown" id="insert-table-dropdown">
+                    <div class="aui-dd-parent">
+                        <a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" class="toolbar-trigger aui-dd-trigger aui-button aui-button-subtle" id="rte-button-insert-table" data-tooltip="Вставить таблицу" resolved="" original-title="">
+                                        
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-table "></span>
+                            <span class="dropdown-text">Таблица</span>
+                                        
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-dropdown "></span>
+                        </a>
+
+                        <div id="table-picker-container" class="hidden aui-box-shadow">
+                            <div class="table-picker-box" data-tooltip="Удерживайте нажатой SHIFT для таблицы без заголовка." original-title="">
+                                <div class="table-picker-background">
+                                    <div class="picker picker-cell"></div>
+                                    <div class="picker picker-heading heading"></div>
+                                    <div class="picker picker-selected-cell"></div>
+                                    <div class="picker picker-selected-heading heading"></div>
+                                </div>
+                                <p class="desc"></p>
+                            </div>
+                        </div>
+                    </div>
+                <div id="table-picker-backdrop" class="hidden"></div></li>
+            </ul>
+
+                                    
+            
+            <ul class="aui-buttons rte-toolbar-group-insert no-separator">
+                <li class="toolbar-item toolbar-dropdown" id="insert-menu">
+                    <div class="aui-dd-parent dd-allocated">
+                        <a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" class="toolbar-trigger aui-dd-trigger aui-button aui-button-subtle" id="rte-button-insert" data-tooltip="Вставить прочий контент" resolved="" original-title="">
+                                        
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-add "></span>
+                            <span class="dropdown-text">Вставить</span>
+                                        
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-dropdown "></span>
+                        </a>
+
+                        <div id="insert-menu-options" class="aui-dropdown grouped hidden">
+                            <div class="grouped-dropdown-item">
+                                <span class="assistive">Добавить содержимое</span>
+                                <ul id="content-insert-list">
+                                    
+        
+                <li class="dropdown-item content-image" data-command="mceConfimage" data-tooltip="Вставить файлы и изображения (Ctrl+M)" original-title="">
+<a id="rte-insert-image" class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-image "></span>
+ Файлы и изображения
+</a>
+</li>
+                                            
+        
+                <li class="dropdown-item content-link" data-control-id="linkbrowserButton" data-tooltip="Вставить ссылку (Ctrl+K)" original-title="">
+<a id="rte-insert-link" class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-link "></span>
+ Ссылка
+</a>
+</li>
+                                            
+        
+                <li class="dropdown-item content-wikimarkup" data-command="InsertWikiMarkup" data-tooltip="Вставить разметку (Ctrl+Shift+D)" original-title="">
+<a id="rte-insert-wikimarkup" class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-code "></span>
+ Разметка
+</a>
+</li>
+                                            
+    
+                <li class="dropdown-item content-hr" data-command="InsertHorizontalRule" data-tooltip="Вставить горизонтальную линию (----)" original-title="">
+<a id="rte-insert-hr" class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-horizontal-rule "></span>
+ Горизонтальная линия
+</a>
+</li>
+                                                                                
+        
+                <li class="dropdown-item content-tasklist" data-command="InsertInlineTaskListNoToggle" data-tooltip="Вставить список задач ([ затем ])" original-title="">
+<a id="rte-insert-tasklist" class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-task "></span>
+ Список задач
+</a>
+</li>
+                                                                            
+        
+                <li class="dropdown-item content-date" data-command="confMenuInsertDate" data-tooltip="Введите дату (/ затем /)" original-title="">
+<a id="rte-insert-date" class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-calendar "></span>
+ Дата
+</a>
+</li>
+                                            
+    
+                <li class="dropdown-item content-emoticon" data-command="mceEmotion" data-tooltip="Вставить смайлик" original-title="">
+<a id="rte-insert-emoticon" class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-emoji "></span>
+ Смайл
+</a>
+</li>
+                                            
+    
+                <li class="dropdown-item content-symbol" data-command="confCharmap" data-tooltip="Вставить символ" original-title="">
+<a id="rte-insert-symbol" class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-symbol "></span>
+ Символ
+</a>
+</li>
+                                    </ul>
+                                <span class="assistive">Вставить макрос</span>
+                                <ul id="macro-insert-list">
+                                                                                                                                                                                                <li class="dropdown-item macro-insertmention-button" data-macro-name="insertmention-button" data-tooltip="Вставить &#39;Указание пользователя&#39; макрос" original-title="">
+<a id="insertmention-button" class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-mention "></span>
+ Указание пользователя
+</a>
+</li>
+                                                                                                                                                            <li class="dropdown-item macro-jiralink" data-macro-name="jiralink" data-tooltip="Вставить &#39;Фильтр/проблема Jira&#39; макрос" original-title="">
+<a id="jiralink" class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-jira "></span>
+ Фильтр/проблема Jira
+</a>
+</li>
+                                                                                                                                                            <li class="dropdown-item macro-info" data-macro-name="info" data-tooltip="Вставить &#39;Информация&#39; макрос" original-title="">
+<a id="info" class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-info-filled "></span>
+ Информация
+</a>
+</li>
+                                                                                                                                                            <li class="dropdown-item macro-status" data-macro-name="status" data-tooltip="Вставить &#39;Статус&#39; макрос" original-title="">
+<a id="status" class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">
+                        
+    
+    <span class="icon confluence-icon-status-macro"></span>
+ Статус
+</a>
+</li>
+                                                                                                                                                            <li class="dropdown-item macro-gallery" data-macro-name="gallery" data-tooltip="Вставить &#39;Галерея&#39; макрос" original-title="">
+<a id="gallery" class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-gallery "></span>
+ Галерея
+</a>
+</li>
+                                                                                                                                                            <li class="dropdown-item macro-toc" data-macro-name="toc" data-tooltip="Вставить &#39;Оглавление&#39; макрос" original-title="">
+<a id="toc" class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-overview "></span>
+ Оглавление
+</a>
+</li>
+                                                                                                                                                            <li class="dropdown-item macro-calendar" data-macro-name="calendar" data-tooltip="Вставить &#39;Календарь Команды&#39; макрос" original-title="">
+<a id="calendar" class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-team-calendar "></span>
+ Календарь Команды
+</a>
+</li>
+                                                                    </ul>
+                            </div>
+                            <div class="grouped-dropdown-item">
+                                <ul id="more-macros-list">
+                                    
+        
+                <li class="dropdown-item content-macro" data-command="mceConfMacroBrowser" data-tooltip="Открыть обзореватель макросов (Ctrl+Shift+A)" original-title="">
+<a id="rte-insert-macro" class="item-link" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#">
+    Другие макросы
+</a>
+</li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+                            <ul class="aui-buttons rte-toolbar-group-page-layouts-section-types hidden">
+                    <li id="pagelayout-menu" class="toolbar-item toolbar-dropdown">
+                        <div class="aui-dd-parent dd-allocated">
+                            <a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" class="toolbar-trigger aui-dd-trigger aui-button aui-button-subtle" id="rte-button-pagelayout" data-tooltip="Разметка страницы" resolved="" original-title="">
+                                            
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-layout pagelayout-default">Разметка страницы</span>
+                                            
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-dropdown "></span>
+                            </a>
+
+                            <ul id="pagelayout-menu-options" class="aui-dropdown hidden">
+                                <li class="dropdown-item" data-tooltip="Нет форматирования" original-title="">
+    <a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-none&quot;, &quot;columns&quot;: 0   }">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-layout pagelayout-none">Нет форматирования</span>
+    </a>
+</li>
+                                <li class="dropdown-item" data-tooltip="Две колонки (простые)" original-title="">
+    <a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-two-simple&quot;, &quot;columns&quot;: [&quot;&quot;, &quot;&quot;]   }">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-layout pagelayout-two-simple">Две колонки (простые)</span>
+    </a>
+</li>
+                                <li class="dropdown-item" data-tooltip="Две колонки (простая, левая боковая панель)" original-title="">
+    <a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-two-simple-left&quot;, &quot;columns&quot;: [&quot;aside&quot;, &quot;large&quot;]   }">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-layout pagelayout-two-simple-left">Две колонки (простая, левая боковая панель)</span>
+    </a>
+</li>
+                                <li class="dropdown-item" data-tooltip="Две колонки (простые, правая боковая панель)" original-title="">
+    <a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-two-simple-right&quot;, &quot;columns&quot;: [&quot;large&quot;, &quot;aside&quot;]   }">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-layout pagelayout-two-simple-right">Две колонки (простые, правая боковая панель)</span>
+    </a>
+</li>
+                                <li class="dropdown-item" data-tooltip="Три колонки (простые)" original-title="">
+    <a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-three-simple&quot;, &quot;columns&quot;: [&quot;&quot;, &quot;&quot;, &quot;&quot;]   }">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-layout pagelayout-three-simple">Три колонки (простые)</span>
+    </a>
+</li>
+                                <li class="dropdown-item" data-tooltip="Две колонки" original-title="">
+    <a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-two&quot;, &quot;columns&quot;: [&quot;&quot;, &quot;&quot;] , &quot;header&quot;: true  , &quot;footer&quot;:true  }">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-layout pagelayout-two">Две колонки</span>
+    </a>
+</li>
+                                <li class="dropdown-item" data-tooltip="Две колонки (левая боковая панель)" original-title="">
+    <a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-two-left&quot;, &quot;columns&quot;: [&quot;aside&quot;, &quot;large&quot;] , &quot;header&quot;: true  , &quot;footer&quot;:true  }">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-layout pagelayout-two-left">Две колонки (левая боковая панель)</span>
+    </a>
+</li>
+                                <li class="dropdown-item" data-tooltip="Две колонки (правая боковая панель)" original-title="">
+    <a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-two-right&quot;, &quot;columns&quot;: [&quot;large&quot;, &quot;aside&quot;] , &quot;header&quot;: true  , &quot;footer&quot;:true  }">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-layout pagelayout-two-right">Две колонки (правая боковая панель)</span>
+    </a>
+</li>
+                                <li class="dropdown-item" data-tooltip="Три колонки" original-title="">
+    <a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-three&quot;, &quot;columns&quot;: [&quot;&quot;, &quot;&quot;, &quot;&quot;] , &quot;header&quot;: true  , &quot;footer&quot;:true  }">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-layout pagelayout-three">Три колонки</span>
+    </a>
+</li>
+                                <li class="dropdown-item" data-tooltip="Три колонки (левая и правая боковые панели)" original-title="">
+    <a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-three-sidebars&quot;, &quot;columns&quot;: [&quot;sidebars&quot;, &quot;large&quot;, &quot;sidebars&quot;] , &quot;header&quot;: true  , &quot;footer&quot;:true  }">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-layout pagelayout-three-sidebars">Три колонки (левая и правая боковые панели)</span>
+    </a>
+</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            
+                        
+            <ul class="aui-buttons aui-button-subtle rte-toolbar-group-undo">
+                
+            <li class="toolbar-item aui-button aui-button-subtle disabled" id="rte-button-undo" data-tooltip="Отменить (Ctrl + Z)" resolved="" original-title="">
+    <a class="toolbar-trigger" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" data-control-id="undo">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-undo ">Отменить</span>
+    </a>
+</li>
+                    
+            <li class="toolbar-item aui-button aui-button-subtle disabled" id="rte-button-redo" data-tooltip="Восстановить (Ctrl + Y)" resolved="" original-title="">
+    <a class="toolbar-trigger" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" data-control-id="redo">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-redo ">Восстановить</span>
+    </a>
+</li>
+            </ul>
+        </div>                                                    <div id="draft-status" style=""></div>
+                <div class="aui-toolbar2-secondary">
+            <ul class="aui-buttons aui-button-subtle rte-toolbar-group-searchreplace">
+                <li class="toolbar-item aui-button aui-button-subtle" id="rte-button-searchreplace" data-tooltip="Найти/Заменить" resolved="" original-title="">
+    <a class="toolbar-trigger" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" data-control-id="searchreplace">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-search ">Найти/Заменить</span>
+    </a>
+</li>
+            </ul>
+            <ul class="aui-buttons aui-button-subtle rte-toolbar-group-help">
+                <li class="toolbar-item aui-button aui-button-subtle" id="rte-button-help" data-tooltip="Помощь" resolved="" original-title="">
+    <a class="toolbar-trigger" href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" data-control-id="help">
+                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-help ">Справка по быстрым ссылкам на клавиатуре</span>
+    </a>
+</li>
+            </ul>
+        </div>    </div></div><div id="editor-notifications-container"><div id="all-messages"><div id="action-messages"></div></div></div><div id="editor-precursor" style="display: block; top: 41px;"><div class="cell"><ol id="breadcrumbs">
+                                        
+                        
+        <li class="first">
+                        
+                            <span class=""><a href="https://doc.ugene.net/wiki/display/UM" target="_blank">Unipro UGENE User Manual</a></span>
+                                                                                    
+                        
+        </li><li>
+                        
+                            <span class=""><a href="https://doc.ugene.net/wiki/collector/pages.action?key=UM" target="_blank">Страницы</a></span>
+                                                                                                            </li><li id="ellipsis" title="Показать все навигационные цепочки"><span><strong>…</strong></span></li>
+                                                
+                        
+        <li class="hidden-crumb">
+                        
+                            <span class=""><a href="https://doc.ugene.net/wiki/display/UM/Unipro+UGENE+User+Manual" target="_blank">Unipro UGENE User Manual</a></span>
+                                                                                                    
+                        
+        </li><li class="hidden-crumb">
+                        
+                            <span class=""><a href="https://doc.ugene.net/wiki/display/UM/User+Manual" target="_blank">User Manual</a></span>
+                                                                                    
+                        
+        </li><li>
+                        
+                            <span class=""><a href="https://doc.ugene.net/wiki/display/UM/Basic+Functions" target="_blank">Basic Functions</a></span>
+                                                                                    
+                        
+        </li><li>
+                        
+                            <span class="edited-page-title"><a href="https://doc.ugene.net/wiki/display/UM/Using+Objects+and+Object+Views" target="_blank">Using Objects and Object Views</a></span>
+                                                                    </li></ol><div class="aui-buttons aui-toolbar2"><button class="aui-button aui-button-subtle rte-button-labels" type="button" data-tooltip="Метки" id="rte-button-labels" data-explicit-restrictions="" data-inherited-restrictions="" resolved="" original-title=""><span class="icon aui-icon aui-icon-small aui-iconfont-devtools-tag"></span></button><button class="aui-button aui-button-subtle rte-button-restrictions" type="button" data-tooltip="Неограниченный" id="rte-button-restrictions" data-explicit-restrictions="false" data-inherited-restrictions="false" resolved="" original-title=""><span class="icon aui-icon aui-icon-small aui-iconfont-unlocked"></span></button></div><div id="content-title-div" class=""><input type="text" name="title" id="content-title" tabindex="1" class="text pagetitle" autocomplete="off" value="Using Objects and Object Views" placeholder="Заголовок страницы"></div></div></div><div id="wysiwyg">
+    <div id="rte" class="cell editor-fullheight">
+        <textarea id="wysiwygTextarea" name="wysiwygContent" class="hidden tinymce-editor" style="display: none;" aria-hidden="true"></textarea>
+    <iframe id="wysiwygTextarea_ifr" frameborder="0" allowtransparency="true" title="Rich Text Area. Press ALT-F9 for menu. Press ALT-F10 for toolbar. Press ALT-0 for help" style="width: 100%; height: 100%; display: block;" tabindex="100" src="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/saved_resource.html"></iframe></div>
+</div><div id="editor-html-source-container" class="hidden">
+    <textarea id="editor-html-source" class="monospaceInput"></textarea>
+</div><div id="preview" class="hidden">
+    <div id="previewArea" class="cell">
+    </div>
+</div><div id="savebar-container"><div id="rte-savebar" class="aui-toolbar aui-toolbar2"><div class="toolbar-split toolbar-split-row"><div class="toolbar-split toolbar-split-left" style="display: block;"><div class="aui-buttons"></div></div><div class="toolbar-split toolbar-split-right"><div id="pluggable-status-container" class="toolbar-item rte-toolbar-pluggable-status"><div id="pluggable-status"></div></div><div class="aui-buttons" id="rte-savebar-tinymce-plugin-point">
+<span class="rte-toolbar-comment toolbar-item">
+    <input id="versionComment" name="versionComment" placeholder="Что вы изменили?" class="text" type="text" size="35">
+    <label for="versionComment" class="assistive">Что вы изменили?</label>
+</span>
+
+    <span class="minor-edit toolbar-item">
+        <input id="notifyWatchers" name="notifyWatchers" value="true" type="checkbox" checked="">
+        <label for="notifyWatchers">
+          <span>Сообщить наблюдателям</span>
+        </label>
+    </span>
+</div><div class="aui-buttons"><span id="rte-spinner" class="toolbar-item ">&nbsp;</span></div><div class="aui-buttons toolbar-group-edit assistive"><button id="rte-button-edit" class="aui-button" type="button" resolved="" data-tooltip="Вернуться в режим редактирования (e)"><span class="trigger-text">Редактировать</span></button></div><div class="aui-buttons toolbar-group-preview toolbar-group-preview-page toolbar-group-preview-non-shared-draft" style="height: auto;"><button class="aui-button toolbar-item" id="rte-button-preview" type="button" resolved="" data-tooltip="Предпросмотр (Ctrl+Shift+E)"><span class="trigger-text">Предпросмотр</span></button></div><div class="save-button-container"><button id="rte-button-publish" class="aui-button aui-button-primary default-submit" type="submit" name="confirm" value="Save" tabindex="101" resolved="" data-tooltip="Сохранить Вашу страницу (Ctrl+S)">Сохранить</button></div><div class="aui-buttons cancel-button-container-shared-draft"><button class="aui-button" type="submit" id="rte-button-cancel" name="cancel" value="cancel" resolved="">Закрыть</button></div></div></div></div></div><script type="text/x-template" title="dynamic-editor-metadata" id="dynamic-editor-metadata-template">
+            <meta name="ajs-use-watch" content="false">
+            <meta name="ajs-attachment-source-content-id" content="65929301">
+            <meta name="ajs-use-inline-tasks" content="true">
+            <meta name="ajs-heartbeat" content="true">
+            <meta name="ajs-action-locale" content="ru_RU">
+            <meta name="ajs-editor-plugin-resource-prefix" content="/wiki/s/npql6p/8402/140dfda3d2762df191ac390098a5ed2068aa93ed/7.4.11/_">
+            <meta name="ajs-edit-mode" content="legacy">
+            <meta name="ajs-user-watching-own-content" content="true">
+            <meta name="ajs-new-page" content="false">
+            <meta name="ajs-editor-mode" content="richtext">
+            <meta name="ajs-auto-start" content="false">
+            <meta name="ajs-conf-revision" content="confluence$content$65929301.35">
+            <meta name="ajs-sync-revision-source" content="synchrony">
+            <meta name="ajs-draft-id" content="0">
+            <meta name="ajs-draft-share-id" content="">
+            <meta name="ajs-content-type" content="page">
+            <meta name="ajs-collaborative-editor-status" content="">
+            <meta name="ajs-existing-draft-id" content="0">
+            <meta name="ajs-content-id" content="65929301">
+            <meta name="ajs-form-name" content="inlinecommentform">
+            <meta name="ajs-can-attach-files" content="true">
+            <meta name="ajs-show-draft-message" content="false">
+            <meta name="ajs-shared-drafts" content="false">
+            <meta name="ajs-collaborative-content" content="false">
+            <meta name="ajs-min-editor-height" content="150">
+            <meta name="ajs-version-comment" content="">
+            <meta name="ajs-draft-type" content="page">
+                
+                <meta name="ajs-synchrony-token" content="">
+    <meta name="ajs-synchrony-base-url" content="">
+    <meta name="ajs-synchrony-app-id" content="">
+    <meta name="ajs-synchrony-expiry" content="">
+    <meta name="ajs-use-xhr-fallback" content="">
+
+            		    <meta name="ajs-max-thumb-width" content="300">
+		    <meta name="ajs-max-thumb-height" content="300">
+		    <meta name="ajs-can-send-email" content="true">
+		    <meta name="ajs-is-dev-mode" content="false">
+		    <meta name="ajs-draft-save-interval" content="30000">
+		    <meta name="ajs-show-hidden-user-macros" content="false">
+		    <meta name="ajs-can-view-profile" content="true">
+		    <meta name="ajs-is-admin" content="false">
+		    <meta name="ajs-confluence.prefs.editor.disable.autocomplete" content="false">
+		    <meta name="ajs-confluence.prefs.editor.disable.autoformat" content="false">
+		    <meta name="ajs-heartbeat-interval" content="30000">
+	
+    </script><script type="text/x-template" title="tableForm" id="table-form-template">
+    <form id="tinymce-table-form" class="aui">
+        <div class="field-group">
+            <label for="rows">Строк</label>
+            <input id="rows" name="rows" type="text" size="3" autocomplete="off" value="{0}">
+        </div>
+        <div class="field-group">
+            <label for="cols">Столбцов</label>
+            <input id="cols" name="cols" type="text" size="3" autocomplete="off" value="{1}">
+        </div>
+        <div class="field-group hidden">
+            <input id="width" type="hidden" name="width" value="">
+            <label for="width">Ширина</label>
+        </div>
+        <div class="group">
+            <div class="checkbox">
+                <input id="table-heading-checkbox" class="checkbox" type="checkbox" name="heading" checked="checked" value="true">
+                <label for="table-heading-checkbox">Первая строка - заголовок</label>
+            </div>
+        </div>
+        <div class="group hidden">
+            <div class="checkbox">
+                <input id="table-equal-width-columns-checkbox" class="checkbox" type="checkbox" name="equal-width-columns" value="false">
+                <label for="table-equal-width-columns-checkbox">Столбцы одинаковой ширины</label>
+            </div>
+        </div>
+    </form>
+</script><input type="hidden" name="draftId" value="0" id="draftId"><input type="hidden" name="originalVersion" value="10" id="originalVersion"><input type="hidden" name="syncRev" value="dummy-sync-rev" id="syncRev"><input type="hidden" name="atl_token" value="33158aa248a385dc48be124ee56eab88fa1bc009"></form></div>
+
+    
+
+    
+
+
+
+
+    
+    
+
+    
+    
+    
+
+
+    
+<div id="space-tools-web-items" class="hidden">
+                <div data-label="Обзор" data-href="/wiki/spaces/viewspacesummary.action?key=UM">Обзор</div>
+            <div data-label="Инструменты контента" data-href="/wiki/pages/reorderpages.action?key=UM">Инструменты контента</div>
+    </div>
+        
+
+
+
+            </div><!-- \#main -->
+            
+    
+    
+        
+            
+            
+
+<div id="footer" role="contentinfo" style="margin-left: 401px;">
+    <section class="footer-body">
+
+                                                            <p class="license license-opensource">
+                    Действует бесплатная <b>лицензия открытого проекта Atlassian Confluence</b>, предоставленная пользователю Unipro UGENE. <a href="https://www.atlassian.com/software/views/opensource-community-additional-license-offer">Возможности Confluence</a><br>
+                </p>
+                    
+        
+
+        <ul id="poweredby">
+            <li class="noprint">На платформе <a href="http://www.atlassian.com/software/confluence" class="hover-footer-link" rel="nofollow">Atlassian Confluence</a> <span id="footer-build-information">7.4.11</span></li>
+            <li class="print-only">Напечатано компанией Atlassian Confluence 7.4.11</li>
+            <li class="noprint"><a href="https://support.atlassian.com/help/confluence" class="hover-footer-link" rel="nofollow">Сообщить об ошибке</a></li>
+            <li class="noprint"><a href="https://www.atlassian.com/company" class="hover-footer-link" rel="nofollow">Новости Atlassian</a></li>
+        </ul>
+
+        
+
+        <div id="footer-logo"><a href="http://www.atlassian.com/" rel="nofollow">Atlassian</a></div>
+
+                    <script>
+
+
+
+function getQuerystringNameValue(name)
+{
+    var winURL = window.location.href;
+    var queryStringArray = winURL.split("?");
+    var queryStringParamArray = queryStringArray[1].split("&");
+    var nameValue = null;
+
+    for ( var i=0; i<queryStringParamArray.length; i++ )
+    {           
+        queryStringNameValueArray = queryStringParamArray[i].split("=");
+
+        if ( name == queryStringNameValueArray[0] )
+        {
+            nameValue = queryStringNameValueArray[1];
+        }                       
+    }
+
+    return nameValue;
+}
+
+</script>
+
+<script>
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-7212598-1', 'unipro.ru');
+  ga('send', 'pageview');
+
+</script>
+        
+    </section>
+</div>
+
+    
+
+
+</div><!-- \#full-height-container -->
+</div><!-- \#page -->
+
+    <span style="display:none;" id="confluence-server-performance" aria-hidden="true">{"serverDuration": 141, "requestCorrelationId": "643dc7f8b170ccfa"}</span>
+
+
+    
+<div id="editor-preload-container" style="" aria-hidden="true">
+ 
+
+
+
+
+        
+    
+
+                                                                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+        
+            
+
+
+            
+            
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+    
+
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+    
+</div><div id="content-hover-0" class="ajs-content-hover aui-box-shadow" style="display: none;" aria-hidden="true"><div class="contents" style="width: 300px;"></div></div><div id="content-hover-1" class="ajs-content-hover aui-box-shadow" style="display: none;" aria-hidden="true"><div class="contents" style="width: 300px;"></div></div><div id="fileuploadShim" style="position: relative; z-index: 0;" aria-hidden="true"></div><div class="aui-popup aui-dialog" id="drag-and-drop-progress-dialog" style="margin-top: -200px; margin-left: -300px; width: 600px; height: 400px; z-index: 3002; display: none;" aria-hidden="true"><div class="dialog-components"><h2 class="dialog-title">Прикрепить файлы</h2><ul class="dialog-page-menu" style="height: 286px; display: none;"><li class="page-menu-item selected"><button class="item-button">Panel 1</button></li></ul><div class="dialog-page-body"><div class="dialog-panel-body" style="height: 286px; padding: 0px;"><ul id="upload-statuses"></ul></div></div><div class="dialog-button-panel"><button class="button-panel-button all-file-uploads-complete">Завершено</button></div></div></div><div id="p1hr3jjm351u361sb81ci81n6i9o50_html5_container" class="plupload html5" style="position: absolute; background: transparent; width: 1688px; height: 0px; overflow: hidden; z-index: -1; opacity: 0; top: 828px; left: 0px;" aria-hidden="true"><input id="p1hr3jjm351u361sb81ci81n6i9o50_html5" style="font-size: 999px; position: absolute; width: 100%; height: 100%;" type="file" accept="" multiple="multiple"></div><div class="aui-popup aui-dialog" id="insert-image-dialog" style="margin-top: -265px; margin-left: -420px; width: 840px; height: 530px; z-index: 3004; display: block;" data-tab-default="0" aria-hidden="true" data-lasttab-bound="true"><div class="dialog-components"><h2 class="dialog-title"><div class="dialog-help-link"><a href="https://docs.atlassian.com/confluence/docs-74/Display+Files+and+Images" target="_blank">Помощь</a></div>Вставить файлы и изображения</h2><ul class="dialog-page-menu" style="height: 416px;"><li class="page-menu-item selected"><button class="item-button">Прикрепленные к странице</button></li><li class="page-menu-item"><button class="item-button">Изображения из Интернета</button></li><li class="page-menu-item"><button class="item-button">Поиск на других страницах</button></li></ul><div class="dialog-page-body"><div class="dialog-panel-body attachments-panel" style="height: 416px; display: block;"><div id="upload-attachment"><form><label id="upload-files-button" class="aui-button upload-files" style="position: relative; z-index: 0;" resolved=""><span class="file-upload-icon aui-icon aui-icon-small aui-iconfont-upload">Загрузить файлы</span>&nbsp;&nbsp;Загрузить файлы</label></form></div><div class="divider"></div><div id="attached-files" class="scroll-wrapper" style="height: 344px;"><div class="aui-message aui-message-warning warning message-handler hidden"></div><div class="loading-message hidden">Загрузка</div><ul class="file-list"><li class="attached-file selected" data-attachment-id="65929303" data-owner-id="65929301" data-file-name="Using Objects and Object Views.png"><div class="file-container" original-title="Using Objects and Object Views.png"><img class="thumbnail" src="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/Using Objects and Object Views.png"><a href="https://doc.ugene.net/wiki/download/attachments/65929301/Using%20Objects%20and%20Object%20Views.png?version=1&amp;modificationDate=1622577584000&amp;api=v2" class="abs-icon zoom">Zoom</a><i class="abs-icon select">Select</i></div><span class="caption filename" title="Using Objects and Object Views.png">Using Objects and Object Views.png</span></li><li class="attached-file" data-attachment-id="65929302" data-owner-id="65929301" data-file-name="Using Objects and Object Views_1.png"><div class="file-container" original-title="Using Objects and Object Views_1.png"><img class="thumbnail" src="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/Using Objects and Object Views_1.png"><a href="https://doc.ugene.net/wiki/download/attachments/65929301/Using%20Objects%20and%20Object%20Views_1.png?version=2&amp;modificationDate=1695364946000&amp;api=v2" class="abs-icon zoom">Zoom</a><i class="abs-icon select">Select</i></div><span class="caption filename" title="Using Objects and Object Views_1.png">Using Objects and Object Views_1.png</span></li><li class="attached-file" data-attachment-id="107020505" data-owner-id="65929301" data-file-name="tree.png"><div class="file-container" original-title="tree.png"><img class="thumbnail" src="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/tree.png"><a href="https://doc.ugene.net/wiki/download/attachments/65929301/tree.png?version=1&amp;modificationDate=1712733036000&amp;api=v2" class="abs-icon zoom">Zoom</a><i class="abs-icon select">Select</i></div><span class="caption filename" title="tree.png">tree.png</span></li><li class="attached-file" data-attachment-id="107020509" data-owner-id="65929301" data-file-name="texto.png"><div class="file-container" original-title="texto.png"><img class="thumbnail" src="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/texto.png"><a href="https://doc.ugene.net/wiki/download/attachments/65929301/texto.png?version=1&amp;modificationDate=1712733510000&amp;api=v2" class="abs-icon zoom">Zoom</a><i class="abs-icon select">Select</i></div><span class="caption filename" title="texto.png">texto.png</span></li><li class="attached-file" data-attachment-id="107020511" data-owner-id="65929301" data-file-name="msa.png"><div class="file-container" original-title="msa.png"><img class="thumbnail" src="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/msa.png"><a href="https://doc.ugene.net/wiki/download/attachments/65929301/msa.png?version=1&amp;modificationDate=1712733793000&amp;api=v2" class="abs-icon zoom">Zoom</a><i class="abs-icon select">Select</i></div><span class="caption filename" title="msa.png">msa.png</span></li><li class="attached-file" data-attachment-id="107020514" data-owner-id="65929301" data-file-name="biostruct3d.png"><div class="file-container" original-title="biostruct3d.png"><img class="thumbnail" src="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/biostruct3d.png"><a href="https://doc.ugene.net/wiki/download/attachments/65929301/biostruct3d.png?version=1&amp;modificationDate=1712734984000&amp;api=v2" class="abs-icon zoom">Zoom</a><i class="abs-icon select">Select</i></div><span class="caption filename" title="biostruct3d.png">biostruct3d.png</span></li><li class="attached-file" data-attachment-id="107020517" data-owner-id="65929301" data-file-name="add_sequence.png"><div class="file-container" original-title="add_sequence.png"><img class="thumbnail" src="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/add_sequence.png"><a href="https://doc.ugene.net/wiki/download/attachments/65929301/add_sequence.png?version=1&amp;modificationDate=1712735732000&amp;api=v2" class="abs-icon zoom">Zoom</a><i class="abs-icon select">Select</i></div><span class="caption filename" title="add_sequence.png">add_sequence.png</span></li><li class="attached-file" data-attachment-id="107020519" data-owner-id="65929301" data-file-name="dna.png"><div class="file-container" original-title="dna.png"><img class="thumbnail" src="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/dna.png"><a href="https://doc.ugene.net/wiki/download/attachments/65929301/dna.png?version=1&amp;modificationDate=1712736226000&amp;api=v2" class="abs-icon zoom">Zoom</a><i class="abs-icon select">Select</i></div><span class="caption filename" title="dna.png">dna.png</span></li><li class="attached-file" data-attachment-id="107020521" data-owner-id="65929301" data-file-name="annotation_settings.png"><div class="file-container" original-title="annotation_settings.png"><img class="thumbnail" src="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/annotation_settings.png"><a href="https://doc.ugene.net/wiki/download/attachments/65929301/annotation_settings.png?version=1&amp;modificationDate=1712736650000&amp;api=v2" class="abs-icon zoom">Zoom</a><i class="abs-icon select">Select</i></div><span class="caption filename" title="annotation_settings.png">annotation_settings.png</span></li><li class="attached-file" data-attachment-id="107020523" data-owner-id="65929301" data-file-name="gobject.png"><div class="file-container" original-title="gobject.png"><img class="thumbnail" src="./Using Objects and Object Views - Unipro UGENE User Manual - WIKI_files/gobject.png"><a href="https://doc.ugene.net/wiki/download/attachments/65929301/gobject.png?version=1&amp;modificationDate=1712736809000&amp;api=v2" class="abs-icon zoom">Zoom</a><i class="abs-icon select">Select</i></div><span class="caption filename" title="gobject.png">gobject.png</span></li></ul></div></div><div class="dialog-panel-body web-image-panel" style="height: 416px; display: none;"><div class="insert-web-image"><form id="insert-web-image-form" action="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" class="aui"><fieldset class="inline"><div class="web-image-input"><label for="insert-web-image-image-url" id="insert-web-image-image-url-label">URL изображения:</label><input type="text" class="text image-url" id="insert-web-image-image-url" name="insert-web-image-image-url"></div><input type="submit" class="image-preview aui-button" value="Предварительный просмотр" resolved=""></fieldset></form><p class="faraway image-preview-area"></p><p class="hidden image-preview-error">Не удалось загрузить изображение для предварительного просмотра. Пожалуйста, проверьте URL-адрес.</p><p class="hidden image-preview-throbber">&nbsp;</p></div></div><div class="dialog-panel-body search-panel" style="height: 416px; display: none;"><div class="search-panel-wrapper"><div id="search-image"><form class="aui search-form" id="search-image-form" action="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#"><fieldset class="inline"><div class="search-input"><label for="search-image" class="assistive">Поиск</label><input autofocus="" type="text" class="text search-image-text" size="50" autocomplete="off"></div><select class="search-space select" id="search-image-space-select"><option value="">Все пространства</option><option value="UM">Unipro UGENE User Manual</option></select><button type="submit" class="aui-button search-button" resolved="">Поиск</button></fieldset></form></div><div id="searched-images" class="scroll-wrapper"><div class="loading-message hidden">Поиск...</div><ul class="file-list"></ul></div></div></div></div><div class="dialog-button-panel"><button class="button-panel-button insert" aria-disabled="false">Вставить</button><a href="https://doc.ugene.net/wiki/pages/editpage.action?pageId=65929301#" class="button-panel-link button-panel-cancel-link">Закрыть</a><div class="dialog-tip">Подсказка: введите  "<strong>!</strong>" в редакторе, чтобы вставить вложенные изображения на странице.</div></div></div></div><div id="p1hr3jk6th7oml7o13s98b414jn4_html5_container" class="plupload html5" style="position: absolute; background: transparent; width: 0px; height: 0px; overflow: hidden; z-index: -1; opacity: 0; top: 0px; left: 0px;" aria-hidden="true"><input id="p1hr3jk6th7oml7o13s98b414jn4_html5" style="font-size: 999px; position: absolute; width: 100%; height: 100%;" type="file" accept="" multiple="multiple" class=" file-library-input-file"></div><div class="aui-blanket" tabindex="0" aria-hidden="false"></div><div id="p1hr3jko3b1h481r0q1jjdvfguim7_html5_container" class="plupload html5" style="position: absolute; background: transparent; width: 1688px; height: 0px; overflow: hidden; z-index: -1; opacity: 0; top: 828px; left: 0px;"><input id="p1hr3jko3b1h481r0q1jjdvfguim7_html5" style="font-size: 999px; position: absolute; width: 100%; height: 100%;" type="file" accept="" multiple="multiple"></div></body></html>

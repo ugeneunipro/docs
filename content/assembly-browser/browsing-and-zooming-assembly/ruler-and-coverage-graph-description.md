@@ -1,0 +1,24 @@
+---
+title: "Ruler and Coverage Graph Description"
+weight: 1
+---
+
+
+# Ruler and Coverage Graph Description
+
+The _Ruler_ shows the coordinates in the _Reads Area_. When you move the mouse cursor in the Reads Area the coordinate of the selected location with the coverage of reads is shown on the ruler in dark red. The Coverage Graph shows the exact coverage of the sequence at each position. For example on the image below the coordinate is 9168 and the coverage of reads is 251.
+
+
+![](/images/65929810/65929811.png)
+
+To show/hide the coordinates on the ruler you can click the following button on the toolbar:
+
+
+![](/images/65929810/65929812.png)
+
+To show/hide the coverage on the ruler you can click the following button on the toolbar:
+
+
+![](/images/65929810/65929813.png)
+
+Alternatively, you can use the _Show coordinates_ and _Show coverage under cursor_ check boxes located on the _Assembly Browser Settings_ tab of the _Options Panel_.

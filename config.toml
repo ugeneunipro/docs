@@ -10,7 +10,9 @@ canonifyURLs = true
   copyright = "2025"
   offlineSearch = true
   ui.defaultTheme = "light"
-  ui.footerAbout = true
+  ui.footerAbout = false
+  ui.breadcrumb = true
+  ui.sidebar_menu_foldable = true
 
 [markup]
   [markup.goldmark.renderer]

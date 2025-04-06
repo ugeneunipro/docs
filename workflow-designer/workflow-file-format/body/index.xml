@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Body on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/workflow-file-format/body/</link><description>Recent content in Body on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/workflow-file-format/body/index.xml" rel="self" type="application/rss+xml"/><item><title>Dataflow</title><link>https://ugene.net/docs/workflow-designer/workflow-file-format/body/dataflow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-file-format/body/dataflow/</guid><description>&lt;h1 id="dataflow">Dataflow&lt;/h1>
+&lt;p>The description of the elements is followed by the description of their connections to each other, i.e. the dataflow. For ports connections the description starts with the &lt;strong>.actor-bindings&lt;/strong> keyword and has the following format:&lt;/p>
+&lt;pre>&lt;code>.actor-bindings {
+ element1\_name.output\_port1\_name-&amp;gt;element2\_name.input\_port2\_name;
+}
+&lt;/code>&lt;/pre>
+&lt;p>This pair says that data from port_1_ of &lt;em>element1&lt;/em> will be transferred to &lt;em>port2&lt;/em> of &lt;em>element2&lt;/em>. For slots the following format without start keyword is used:&lt;/p>
+&lt;p>element1_name.slot1_name-&amp;gt;element2_name.port2_name.slot2_name&lt;/p>
+&lt;p>This pair says that data from &lt;em>slot1&lt;/em> of &lt;em>element1&lt;/em> will be transferred to &lt;em>slot2&lt;/em> of &lt;em>port2&lt;/em> of &lt;em>element2&lt;/em>. See, for example, the minimum description of a dataflow of a workflow, that aligns an input MSA and writes the result to a file in ClustalW format.&lt;/p></description></item><item><title>Elements</title><link>https://ugene.net/docs/workflow-designer/workflow-file-format/body/elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-file-format/body/elements/</guid><description>&lt;h1 id="elements">Elements&lt;/h1>
+&lt;p>Each &lt;em>element&lt;/em> used in the &lt;em>workflow&lt;/em> must be described inside the body.An element description consists of the element name and a set of parameters enclosed in curly braces. A parameter and the value are separated by ‘:’, different parameters are separated by ‘;’:&lt;/p>
+&lt;p>element_name {&lt;/p>
+&lt;pre>&lt;code>parameter1:value1;
+parameter2:value2;
+...
+&lt;/code>&lt;/pre>
+&lt;p>}&lt;/p>
+&lt;p>See, for example, a description of the &lt;a href="read-alignment-element.md">&lt;em>Read alignment&lt;/em>&lt;/a> element:&lt;/p>
+&lt;p>read-msa {
+type:read-msa;
+name:&amp;ldquo;Read alignment&amp;rdquo;;
+url-in:/home/user/pkinase.sto;
+}&lt;/p>
+&lt;p>Note, that the values of the parameters for an element can also be presented in the &lt;a href="https://ugene.net/docs/wiki/pages/createpage.action?spaceKey=WDD34&amp;amp;title=Using+Iterations">&lt;em>iterations&lt;/em>&lt;/a> block.For all elements the following parameters are defined:&lt;/p></description></item><item><title>Metainformation</title><link>https://ugene.net/docs/workflow-designer/workflow-file-format/body/metainformation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-file-format/body/metainformation/</guid><description>&lt;h1 id="metainformation">Metainformation&lt;/h1>
+&lt;p>A metainformation block sets visual parameters of the workflow and aliases for running it from the command line.&lt;/p>
+&lt;p>Each block starts with &lt;strong>.meta&lt;/strong> keyword and consists of the aliases and visual blocks:&lt;/p>
+&lt;p>.meta {
+aliases {
+# The workflow aliases
+}
+visual {
+# Visual data for element1
+# Visual data for element2
+# &amp;hellip;
+}
+}&lt;/p>
+&lt;h2 id="parameter-aliases">Parameter Aliases&lt;/h2>
+&lt;p>The block starts with the &lt;strong>parameter-aliases&lt;/strong> keyword and has the following format:&lt;/p></description></item></channel></rss>

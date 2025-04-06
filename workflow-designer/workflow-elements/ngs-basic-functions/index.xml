@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NGS: Basic Functions on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/</link><description>Recent content in NGS: Basic Functions on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/index.xml" rel="self" type="application/rss+xml"/><item><title>CASAVA FASTQ Filter Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/casava-fastq-filter-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/casava-fastq-filter-element/</guid><description>&lt;h1 id="casava-fastq-filter-element">CASAVA FASTQ Filter Element&lt;/h1>
+&lt;p>Reads in FASTQ file produced by CASAVA 1.8 contain &amp;lsquo;N&amp;rsquo; or &amp;lsquo;Y&amp;rsquo; as a part of an idetifier. &amp;lsquo;Y&amp;rsquo; if a read if filtered, &amp;lsquo;N&amp;rsquo; if the read if the read is not filtered. The workflow cleans up the filtered reads. For example: @HWI-ST880:181:D1WRUACXX:8:1102:4905:2125 1:N:0:TAAGGG CTTACATAACTACTGACCATGCTCTCTCTTGTCTGTCTCTTATACACATCT + 111442222322324232AAFFHIJJJJJJIHIIF111CGGFHIG???FGB @HWI-ST880:181:D1WRUACXX:8:1102:7303:2101 1:Y:0:TAAGGG TCCTTACTGTCTGAGCAATGGGATTCCATCTTTTACGATCTAGACATGGCT + 11++4222322.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> CASAVAFilter&lt;/p>
+&lt;p>Parameters&lt;/p>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p></description></item><item><title>Cut Adapter Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/cut-adapter-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/cut-adapter-element/</guid><description>&lt;h1 id="cut-adapter-element">Cut Adapter Element&lt;/h1>
+&lt;p>Removes adapter sequences.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> CutAdaptFastq&lt;/p>
+&lt;p>Parameters&lt;/p>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Output directory&lt;/strong>&lt;/p>
+&lt;p>Select an output directory. Custom - specify the output directory in the &amp;lsquo;Custom directory&amp;rsquo; parameter. Workflow - internal workflow directory. Input file - the directory of the input file.&lt;/p>
+&lt;p>Input file&lt;/p>
+&lt;p>&lt;strong>out-mode&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Output file name&lt;/strong>&lt;/p>
+&lt;p>A name of an output file. If default of empty value is provided the output name is the name of the first file with additional extention.&lt;/p></description></item><item><title>Extract Consensus from Assembly Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/extract-consensus-from-assembly-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/extract-consensus-from-assembly-element/</guid><description>&lt;h1 id="extract-consensus-from-assembly-element">Extract Consensus from Assembly Element&lt;/h1>
+&lt;p>Extract the consensus sequence from the incoming assembly.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> extract-consensus&lt;/p>
+&lt;p>Parameters&lt;/p>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Algorithm&lt;/strong>&lt;/p>
+&lt;p>The algorithm of consensus extracting.&lt;/p>
+&lt;p>Default&lt;/p>
+&lt;p>&lt;strong>algorithm&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Keep gaps&lt;/strong>&lt;/p>
+&lt;p>Set this parameter if the result consensus must keep the gaps.&lt;/p>
+&lt;p>True&lt;/p>
+&lt;p>&lt;strong>keep-gaps&lt;/strong>&lt;/p>
+&lt;p>&lt;em>boolean&lt;/em>&lt;/p>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p>
+&lt;p>&lt;strong>Name in GUI:&lt;/strong> in-assembly&lt;/p>
+&lt;p>&lt;strong>Name in Workflow File:&lt;/strong> in-assembly&lt;/p>
+&lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
+&lt;p>Slot In GUI&lt;/p></description></item><item><title>Extract Coverage from Assembly Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/extract-coverage-from-assembly-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/extract-coverage-from-assembly-element/</guid><description>&lt;h1 id="extract-coverage-from-assembly-element">Extract Coverage from Assembly Element&lt;/h1>
+&lt;p>Extract the coverage and bases count from the incoming assembly.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> extract-assembly-coverage&lt;/p>
+&lt;p>Parameters&lt;/p>
+&lt;p>&lt;strong>Output file&lt;/strong>&lt;/p>
+&lt;p>Location of output data file. If this attribute is set, slot &amp;ldquo;Location&amp;rdquo; in port will not be used.&lt;/p>
+&lt;p>assembly_coverage.txt&lt;/p>
+&lt;p>&lt;strong>url-out&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Export&lt;/strong>&lt;/p>
+&lt;p>Data type to export.&lt;/p>
+&lt;p>coverage&lt;/p>
+&lt;p>&lt;strong>export-type&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Treshold&lt;/strong>&lt;/p>
+&lt;p>The minimum coverage value to export.&lt;/p>
+&lt;p>1&lt;/p>
+&lt;p>&lt;strong>threshold&lt;/strong>&lt;/p>
+&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>FASTQ Merger Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/fastq-merger-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/fastq-merger-element/</guid><description>&lt;h1 id="fastq-merger-element">FASTQ Merger Element&lt;/h1>
+&lt;p>Merges input sequences to one output file.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> MergeFastq&lt;/p>
+&lt;p>Parameters&lt;/p>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Output directory&lt;/strong>&lt;/p>
+&lt;p>Select an output directory. Custom - specify the output directory in the &amp;lsquo;Custom directory&amp;rsquo; parameter. Workflow - internal workflow directory. Input file - the directory of the input file.&lt;/p>
+&lt;p>&lt;strong>out-mode&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Output file name&lt;/strong>&lt;/p>
+&lt;p>A name of an output file. If default of empty value is provided the output name is the name of the first file with additional extention.&lt;/p></description></item><item><title>FASTQ Quality Trimmer Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/fastq-quality-trimmer-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/fastq-quality-trimmer-element/</guid><description>&lt;h1 id="fastq-quality-trimmer-element">FASTQ Quality Trimmer Element&lt;/h1>
+&lt;p>The workflow scans each input sequence from the end to find the first position where the quality is greater or equal to the minimum quality threshold. Then it trims the sequence to that position. If a the whole sequence has quality less than the threshold or the length of the output sequence less than the minimum length threshold then the sequence is skipped.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> QualityTrim&lt;/p></description></item><item><title>FastQC Quality Control Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/fastqc-quality-control-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/fastqc-quality-control-element/</guid><description>&lt;h1 id="fastqc-quality-control-element">FastQC Quality Control Element&lt;/h1>
+&lt;p>Builds quality control reports.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> fastqc&lt;/p>
+&lt;p>Parameters&lt;/p>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Output file&lt;/strong>&lt;/p>
+&lt;p>Specify the output file name.&lt;/p>
+&lt;p>Input file&lt;/p>
+&lt;p>&lt;strong>out-file&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>List of adapters&lt;/strong>&lt;/p>
+&lt;p>Specifies a non-default file which contains the list of adapter sequences which will be explicity searched against the library. The file must contain sets of named adapters in the form name[tab]sequence. Lines prefixed with a hash will be ignored.&lt;/p></description></item><item><title>Filter BAM SAM Files Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/filter-bam-sam-files-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/filter-bam-sam-files-element/</guid><description>&lt;h1 id="filter-bam-sam-files-element">Filter BAM SAM Files Element&lt;/h1>
+&lt;p>Filters BAM/SAM files using SAMTools view.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> filter-bam&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Output folder&lt;/strong>&lt;/p>
+&lt;p>Select an output directory. Custom - specify the output directory in the &amp;lsquo;Custom directory&amp;rsquo; parameter. Workflow - internal workflow directory. Input file - the directory of the input file.&lt;/p>
+&lt;p>&lt;strong>out-mode&lt;/strong>&lt;/p>
+&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Output name&lt;/strong>&lt;/p>
+&lt;p>A name of an output BAM/SAM file. If the default of empty value is provided the output name is the name of the first BAM/SAM file with .filtered extension.&lt;/p></description></item><item><title>Genome Coverage Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/genome-coverage-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/genome-coverage-element/</guid><description>&lt;h1 id="genome-coverage-element">Genome Coverage Element&lt;/h1>
+&lt;p>Calculates genome coverage using bedtools genomecov.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> genomecov&lt;/p>
+&lt;p>Parameters&lt;/p>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Output directory&lt;/strong>&lt;/p>
+&lt;p>Select an output directory. Custom - specify the output directory in the &amp;lsquo;Custom directory&amp;rsquo; parameter. Workflow - internal workflow directory. Input file - the directory of the input file.&lt;/p>
+&lt;p>Input file&lt;/p>
+&lt;p>&lt;strong>out-mode&lt;/strong>&lt;/p>
+&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Custom directory&lt;/strong>&lt;/p>
+&lt;p>Specify the output directory.&lt;/p>
+&lt;p>&lt;strong>custom-dir&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Output file name&lt;/strong>&lt;/p>
+&lt;p>A name of an output file. If default of empty value is provided the output name is the name of the first file with additional extention.&lt;/p></description></item><item><title>Improve Reads with Trimmomatic Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/improve-reads-with-trimmomatic-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/improve-reads-with-trimmomatic-element/</guid><description>&lt;h1 id="improve-reads-with-trimmomatic-element">Improve Reads with Trimmomatic Element&lt;/h1>
+&lt;p>Trimmomatic is a fast, multithreaded command line tool that can be used to trim and crop Illumina (FASTQ) data as well as to remove adapters.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> trimmomatic&lt;/p>
+&lt;p>Parameters&lt;/p>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Input data&lt;/strong>&lt;/p>
+&lt;p>Set the type of the input reads: single-end (SE) or paired-end (PE).
+One or two slots of the input port are used depending on the value of the parameter. Pass URL(s) to data to these slots.
+Note that the paired-end mode will use additional information contained in paired reads to better find an adapter or PCR primer fragments introduced by the library preparation process.&lt;/p></description></item><item><title>Merge BAM Files Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/merge-bam-files-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/merge-bam-files-element/</guid><description>&lt;h1 id="merge-bam-files-element">Merge BAM Files Element&lt;/h1>
+&lt;p>Merge BAM files using SAMTools merge.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> merge-bam&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Output directory&lt;/strong>&lt;/p>
+&lt;p>Select an output directory. Custom - specify the output directory in the &amp;lsquo;Custom directory&amp;rsquo; parameter. Workflow - internal workflow directory. Input file - the directory of the input file.&lt;/p>
+&lt;p>&lt;strong>out-mode&lt;/strong>&lt;/p>
+&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Custom directory&lt;/strong>&lt;/p>
+&lt;p>Custom output directory.&lt;/p>
+&lt;p>&lt;strong>custom-dir&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Output BAM name&lt;/strong>&lt;/p>
+&lt;p>A name of an output BAM file. If default of empty value is provided the output name is the name of the first BAM file with .merged.bam extention.&lt;/p></description></item><item><title>Remove Duplicates in BAM Files Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/remove-duplicates-in-bam-files-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/remove-duplicates-in-bam-files-element/</guid><description>&lt;h1 id="remove-duplicates-in-bam-files-element">Remove Duplicates in BAM Files Element&lt;/h1>
+&lt;p>Remove PCR duplicates of BAM files using SAMTools rmdup.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> rmdup-bam&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Output directory&lt;/strong>&lt;/p>
+&lt;p>Select an output directory. Custom - specify the output directory in the &amp;lsquo;Custom directory&amp;rsquo; parameter. Workflow - internal workflow directory. Input file - the directory of the input file.&lt;/p>
+&lt;p>Input file&lt;/p>
+&lt;p>&lt;strong>out-mode&lt;/strong>&lt;/p>
+&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Output BAM name&lt;/strong>&lt;/p>
+&lt;p>A name of an output file. If default of empty value is provided the output name is the name of the first file with additional extention.&lt;/p></description></item><item><title>Slopbed Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/slopbed-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/slopbed-element/</guid><description>&lt;h1 id="slopbed-element">Slopbed Element&lt;/h1>
+&lt;p>Increases the size of each feature in files using bedtools slop.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> slopbed&lt;/p>
+&lt;p>Parameters&lt;/p>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Output directory&lt;/strong>&lt;/p>
+&lt;p>Select an output directory. Custom - specify the output directory in the &amp;lsquo;Custom directory&amp;rsquo; parameter. Workflow - internal workflow directory. Input file - the directory of the input file.&lt;/p>
+&lt;p>Input file&lt;/p>
+&lt;p>&lt;strong>out-mode&lt;/strong>&lt;/p>
+&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Custom directory&lt;/strong>&lt;/p>
+&lt;p>Specify the output directory.&lt;/p>
+&lt;p>&lt;strong>custom-dir&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Output file name&lt;/strong>&lt;/p></description></item><item><title>Sort BAM Files Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/sort-bam-files-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/sort-bam-files-element/</guid><description>&lt;h1 id="sort-bam-files-element">Sort BAM Files Element&lt;/h1>
+&lt;p>Sort BAM Files using SAMTools Sort.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> Sort-bam&lt;/p>
+&lt;p>Parameters&lt;/p>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Output directory&lt;/strong>&lt;/p>
+&lt;p>Select an output directory. Custom - specify the output directory in the &amp;lsquo;Custom directory&amp;rsquo; parameter. Workflow - internal workflow directory. Input file - the directory of the input file.&lt;/p>
+&lt;p>Input file&lt;/p>
+&lt;p>&lt;strong>out-mode&lt;/strong>&lt;/p>
+&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Custom directory&lt;/strong>&lt;/p>
+&lt;p>Specify the output directory.&lt;/p>
+&lt;p>&lt;strong>custom-dir&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Output BAM name&lt;/strong>&lt;/p>
+&lt;p>A name of an output file. If default of empty value is provided the output name is the name of the first file with additional extention.&lt;/p></description></item></channel></rss>

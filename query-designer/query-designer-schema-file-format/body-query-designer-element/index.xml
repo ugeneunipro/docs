@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Body Query Designer Element on UGENE Documentation</title><link>https://ugene.net/docs/query-designer/query-designer-schema-file-format/body-query-designer-element/</link><description>Recent content in Body Query Designer Element on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/query-designer/query-designer-schema-file-format/body-query-designer-element/index.xml" rel="self" type="application/rss+xml"/><item><title>Metainformation Query Designer Element</title><link>https://ugene.net/docs/query-designer/query-designer-schema-file-format/body-query-designer-element/metainformation-query-designer-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-designer-schema-file-format/body-query-designer-element/metainformation-query-designer-element/</guid><description>&lt;h1 id="metainformation-query-designer-element">Metainformation Query Designer Element&lt;/h1>
+&lt;p>The metainformation is added when you create / edit the schema with the &lt;em>Query Designer&lt;/em>. It is not required for running the schema and is skipped when the schema is created manually, for example:&lt;/p>
+&lt;p>#Open Reading Frame surrounded by repeat units&lt;/p>
+&lt;p>query ORF-Repeats {&lt;/p>
+&lt;pre>&lt;code>Repeat {
+ type: repeats;
+ min-length: 10;
+}
+
+ORF { type: orf; }
+
+Repeat.left--ORF.unit {
+ type: distance;
+ distance\_type:
+ end-to-start;
+ min: 0;
+ max: 5000;
+}
+ORF.unit--Repeat.right {
+ type: distance;
+ distance\_type: end-to-start;
+ min: 0;
+ max: 5000;
+}
+&lt;/code>&lt;/pre>
+&lt;p>}&lt;/p></description></item></channel></rss>

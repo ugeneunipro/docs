@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CLI Predefined Tasks on UGENE Documentation</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/</link><description>Recent content in CLI Predefined Tasks on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/index.xml" rel="self" type="application/rss+xml"/><item><title>Adding Phred Quality Scores to Sequence</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/adding-phred-quality-scores-to-sequence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/adding-phred-quality-scores-to-sequence/</guid><description>&lt;h1 id="adding-phred-quality-scores-to-sequence">Adding Phred Quality Scores to Sequence&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> join-quality&lt;/p>
+&lt;p>Adds Phread quality scores to a sequence and saves the result to the output FASTQ file.&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>in&lt;/em> — input sequence file. [String, Required]&lt;/p>
+&lt;p>&lt;em>quality&lt;/em> — input Phred quality scores file. [String, Required]&lt;/p>
+&lt;p>&lt;em>out&lt;/em> — output FASTQ file. [String, Required]&lt;/p>
+&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;p>ugene join-quality &amp;ndash;in=e_coli.fa &amp;ndash;quality=e_coli.qual &amp;ndash;out=res.fastq&lt;/p></description></item><item><title>Aligning with ClustalO</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/aligning-with-clustalo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/aligning-with-clustalo/</guid><description>&lt;h1 id="aligning-with-clustalo">Aligning with ClustalO&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> align-clustalo&lt;/p>
+&lt;p>Create alignment with ClustalO. ClustalO is a general purpose multiple sequence alignment program for proteins.&lt;/p>
+&lt;p>ClustalO is used as an &lt;a href="http://ugene.unipro.ru/documentation/manual/plugins/external_tool_support.html#external-tool-support">&lt;em>external tool&lt;/em>&lt;/a> and must be installed on your system.&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>in -&lt;/em> Input alignment [Url datasets]&lt;/p>
+&lt;p>&lt;em>format -&lt;/em> Document format of output alignment (using &amp;lsquo;clustal&amp;rsquo; by default) [String]&lt;/p>
+&lt;p>&lt;em>out -&lt;/em> Output alignment [String]&lt;/p>
+&lt;p>&lt;em>max-guidetree-iterations -&lt;/em> Maximum number guidetree iterations (using &amp;lsquo;0&amp;rsquo; by default) [Number]&lt;/p>
+&lt;p>&lt;em>max-hmm-iterations -&lt;/em> Maximum number of HMM iterations (using &amp;lsquo;0&amp;rsquo; by default) [Number]&lt;/p></description></item><item><title>Aligning with ClustalW</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/aligning-with-clustalw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/aligning-with-clustalw/</guid><description>&lt;h1 id="aligning-with-clustalw">Aligning with ClustalW&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> align-clustalw&lt;/p>
+&lt;p>Multiple sequence alignment with ClustalW.&lt;/p>
+&lt;p>ClustalW is used as an &lt;a href="http://ugene.unipro.ru/documentation/manual/plugins/external_tool_support.html#external-tool-support">&lt;em>external tool&lt;/em>&lt;/a> and must be installed on your system.&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>toolpath&lt;/em> — path to the ClustalW executable. By default, the path specified in the &lt;em>Application Settings&lt;/em> is applied. [String, Optional, Default: “default”]&lt;/p>
+&lt;p>&lt;em>tmpdir&lt;/em> — directory for temporary files. [String, Optional]&lt;/p>
+&lt;p>&lt;em>in&lt;/em> — semicolon-separated list of input files. [String, Required]&lt;/p>
+&lt;p>&lt;em>out&lt;/em> — output file. [String, Required]&lt;/p></description></item><item><title>Aligning with Kalign</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/aligning-with-kalign/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/aligning-with-kalign/</guid><description>&lt;h1 id="aligning-with-kalign">Aligning with Kalign&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> align-kalign&lt;/p>
+&lt;p>Multiple sequence alignment with Kalign.&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>in&lt;/em> — semicolon-separated list of input files. [String, Required]&lt;/p>
+&lt;p>&lt;em>out&lt;/em> — output file in the ClustalW format. [String, Required]&lt;/p>
+&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;p>ugene align-kalign &amp;ndash;in=COI.aln &amp;ndash;out=COI_aligned.aln&lt;/p></description></item><item><title>Aligning with MAFFT</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/aligning-with-mafft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/aligning-with-mafft/</guid><description>&lt;h1 id="aligning-with-mafft">Aligning with MAFFT&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> align-mafft&lt;/p>
+&lt;p>Multiple sequence alignment with MAFFT.&lt;/p>
+&lt;p>MAFFT is used as an &lt;a href="http://ugene.unipro.ru/documentation/manual/plugins/external_tool_support.html#external-tool-support">&lt;em>external tool&lt;/em>&lt;/a> and must be installed on your system.&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>toolpath&lt;/em> — path to the MAFFT executable. By default, the path specified in the &lt;em>Application Settings&lt;/em> is applied. [String, Optional, Default: “default”]&lt;/p>
+&lt;p>&lt;em>tmpdir&lt;/em> — directory for temporary files. [String, Optional]&lt;/p>
+&lt;p>&lt;em>in&lt;/em> — semicolon-separated list of input files. [String, Required]&lt;/p>
+&lt;p>&lt;em>out&lt;/em> — output file. [String, Required]&lt;/p></description></item><item><title>Aligning with MUSCLE</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/aligning-with-muscle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/aligning-with-muscle/</guid><description>&lt;h1 id="aligning-with-muscle">Aligning with MUSCLE&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> align&lt;/p>
+&lt;p>Performs multiple sequence alignment with MUSCLE algorithm and saves the resulting alignment to file. Source data can be of any format containing sequences or alignments.&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>in -&lt;/em> Input alignment [Url datasets]&lt;em>max-iterations -&lt;/em> Maximum number of iterations (using &amp;lsquo;2&amp;rsquo; by default) [Number]&lt;em>mode -&lt;/em> Selector of preset configurations, that give you the choice of optimizing accuracy, speed,or some compromise between the two. The default favors accuracy (using &amp;lsquo;MUSCLE default&amp;rsquo; by default) [Number]&lt;em>range -&lt;/em> Whole alignment or column range e.g. 1..100 (using &amp;lsquo;Whole alignment&amp;rsquo; by default) [String]&lt;em>stable -&lt;/em> Do not rearrange aligned sequences (using &amp;lsquo;True&amp;rsquo; by default) [Boolean]&lt;em>format -&lt;/em> Document format of output alignment (using &amp;lsquo;clustal&amp;rsquo; by default) [String]&lt;em>out -&lt;/em> Output alignment [String]&lt;/p></description></item><item><title>Aligning with T-Coffee</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/aligning-with-t-coffee/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/aligning-with-t-coffee/</guid><description>&lt;h1 id="aligning-with-t-coffee">Aligning with T-Coffee&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> align-tcoffee&lt;/p>
+&lt;p>Create alignment with T-Coffee. T-Coffee is a collection of tools for computing, evaluating and manipulating multiple alignments of DNA, RNA, Protein Sequences.&lt;/p>
+&lt;p>T-Coffee is used as an &lt;a href="http://ugene.unipro.ru/documentation/manual/plugins/external_tool_support.html#external-tool-support">&lt;em>external tool&lt;/em>&lt;/a> and must be installed on your system.&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>gap-ext-penalty&lt;/em> - Gap Extension Penalty. Positive values give rewards to gaps and prevent the alignment of unrelated segments (using &amp;lsquo;0&amp;rsquo; by default) [Number]&lt;/p>
+&lt;p>&lt;em>gap-open-penalty&lt;/em> - Gap Open Penalty. Must be negative, best matches get a score of 1000 (using &amp;lsquo;-50&amp;rsquo; by default) [Number]&lt;/p></description></item><item><title>Annotating Sequence with UQL Schema</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/annotating-sequence-with-uql-schema/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/annotating-sequence-with-uql-schema/</guid><description>&lt;h1 id="annotating-sequence-with-uql-schema">Annotating Sequence with UQL Schema&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> query&lt;/p>
+&lt;p>Annotates a sequence in compliance with a UGENE Query Language (UQL) schema. This allows to analyze a sequence using different algorithms at the same time imposing constraints on the positional relationship of the results.&lt;/p>
+&lt;p>To learn more about the UQL schemas read the &lt;a href="http://ugene.unipro.ru/documentation.html">Query Designer Manual&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>in&lt;/em> — semicolon-separated list of input sequence files. [String, Required]&lt;/p>
+&lt;p>&lt;em>out&lt;/em> — output Genbank file with the annotations. [String, Required]&lt;/p></description></item><item><title>Building PFM</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/building-pfm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/building-pfm/</guid><description>&lt;h1 id="building-pfm">Building PFM&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> pfm-build&lt;/p>
+&lt;p>Builds a position frequency matrix from a multiple sequence alignment file.&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>in&lt;/em> — semicolon-separated list of input MSA files. [String, Required]&lt;/p>
+&lt;p>&lt;em>out&lt;/em> — output file. [String, Required]&lt;/p>
+&lt;p>&lt;em>type&lt;/em> — type of the matrix. [Boolean, Optional, Default: false]&lt;/p>
+&lt;p>The following values are available:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;ul>
+&lt;li>true (dinucleic type)&lt;/li>
+&lt;li>false (mononucleic type)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Dinucleic matrices are more detailed, while mononucleic ones are more useful for small input data sets.&lt;/p></description></item><item><title>Building Profile HMM Using HMMER2</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/building-profile-hmm-using-hmmer2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/building-profile-hmm-using-hmmer2/</guid><description>&lt;h1 id="building-profile-hmm-using-hmmer2">Building Profile HMM Using HMMER2&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> hmm2-build&lt;/p>
+&lt;p>Builds a profile HMM using the HMMER2 tools.&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>in&lt;/em> — semicolon-separated list of input multiple sequence alignment files. [String, Required]&lt;/p>
+&lt;p>&lt;em>out&lt;/em> — output HMM file. [String, Required]&lt;/p>
+&lt;p>&lt;em>name&lt;/em> — name of the profile HMM. [String, Optional, Default: “hmm_profile”]&lt;/p>
+&lt;p>&lt;em>calibrate&lt;/em> — enables/disables calibration. [Boolean, Optional, Default: true]&lt;/p>
+&lt;p>&lt;em>seed&lt;/em> — random seed, a non-negative integer. [Number, Optional, Default: 0]&lt;/p>
+&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;p>ugene hmm2-build &amp;ndash;in=CBS.sto &amp;ndash;out=CBS.hmm&lt;/p></description></item><item><title>Building PWM</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/building-pwm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/building-pwm/</guid><description>&lt;h1 id="building-pwm">Building PWM&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> pwm-build&lt;/p>
+&lt;p>Builds a position weight matrix from a multiple sequence alignment file.&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>in&lt;/em> — semicolon-separated list of input MSA files. [String, Required]&lt;/p>
+&lt;p>&lt;em>out&lt;/em> — output file. [String, Required]&lt;/p>
+&lt;p>&lt;em>type&lt;/em> — type of the matrix. [Boolean, Optional, Default: false]&lt;/p>
+&lt;p>The following values are available:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;ul>
+&lt;li>true (dinucleic type)&lt;/li>
+&lt;li>false (mononucleic type)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Dinucleic matrices are more detailed, while mononucleic ones are more useful for small input data sets.&lt;/p></description></item><item><title>Building Statistical Profile for SITECON</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/building-statistical-profile-for-sitecon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/building-statistical-profile-for-sitecon/</guid><description>&lt;h1 id="building-statistical-profile-for-sitecon">Building Statistical Profile for SITECON&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> sitecon-build&lt;/p>
+&lt;p>Builds a statistical profile for SITECON. It can be later used to search for TFBS.&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>in&lt;/em> — semicolon-separated list of input DNA multiple sequence alignment files. An input file must not contain gaps. [String, Required]&lt;/p>
+&lt;p>&lt;em>out&lt;/em> — output file. If several input files have been supplied, then a sitecon profile is built for each input file, i.e. several output files (with different indexes) are generated. [String, Required]&lt;/p></description></item><item><title>Converting MSA</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/converting-msa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/converting-msa/</guid><description>&lt;h1 id="converting-msa">Converting MSA&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> convert-msa&lt;/p>
+&lt;p>Converts a multiple sequence alignment file from one format to another.&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>in&lt;/em> — input multiple sequence alignment file. [String, Required]&lt;/p>
+&lt;p>&lt;em>out&lt;/em> — name of the output file. [String, Required]&lt;/p>
+&lt;p>&lt;em>format&lt;/em> — format of the output file. [String, Optional]&lt;/p>
+&lt;p>The following values are available:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;ul>
+&lt;li>clustal (default)&lt;/li>
+&lt;li>fasta&lt;/li>
+&lt;li>mega&lt;/li>
+&lt;li>msf&lt;/li>
+&lt;li>nexus&lt;/li>
+&lt;li>phylip-interleaved&lt;/li>
+&lt;li>phylip-sequential&lt;/li>
+&lt;li>stockholm&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;p>ugene convert-msa &amp;ndash;in=CBS.sto &amp;ndash;out=CBS &amp;ndash;format=msf&lt;/p></description></item><item><title>Extracting Sequence</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/extracting-sequence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/extracting-sequence/</guid><description>&lt;h1 id="extracting-sequence">Extracting Sequence&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> extract-sequence&lt;/p>
+&lt;p>Extracts annotated regions from an input sequence.&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>in&lt;/em> — semicolon-separated list of input files. [String, Required]&lt;/p>
+&lt;p>&lt;em>out&lt;/em> — output file. [String, Required]&lt;/p>
+&lt;p>&lt;em>annotation-names&lt;/em> — list of annotations names which will be accepted or filtered. [String, Optional]&lt;/p>
+&lt;p>&lt;em>annotation-names-file -&lt;/em> file with annotation names, separated with whitespaces which will be accepted or filtered. [String, Optional]&lt;/p>
+&lt;p>&lt;em>accumulate - accumulate all incoming data in one file or create separate files for each input. In the latter case, an incremental numerical suffix is added to the file name (using &amp;lsquo;True&amp;rsquo; by default). [Boolean]&lt;/em>&lt;/p></description></item><item><title>Fetching Sequence from Remote Database</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/fetching-sequence-from-remote-database/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/fetching-sequence-from-remote-database/</guid><description>&lt;h1 id="fetching-sequence-from-remote-database">Fetching Sequence from Remote Database&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> fetch-sequence&lt;/p>
+&lt;p>Fetches a sequence from a remote database. The supported databases are accesed via alias.&lt;/p>
+&lt;p>Database&lt;/p>
+&lt;p>Alias&lt;/p>
+&lt;p>NCBI Genbank (DNA)&lt;/p>
+&lt;p>genbank&lt;/p>
+&lt;p>NCBI Genbank (protein)&lt;/p>
+&lt;p>genbank-protein&lt;/p>
+&lt;p>Protein Data Bank&lt;/p>
+&lt;p>pdb&lt;/p>
+&lt;p>SwissProt&lt;/p>
+&lt;p>swissprot&lt;/p>
+&lt;p>Uniprot&lt;/p>
+&lt;p>uniprot&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>db&lt;/em> — database alias to read from. [String, Required]&lt;/p>
+&lt;p>&lt;em>id&lt;/em> — semicolon-separated list of resource IDs in the database. [String, Required]&lt;/p>
+&lt;p>&lt;em>save-dir&lt;/em> — directory to store sequence files loaded from the database. [String, Optional]&lt;/p></description></item><item><title>Finding ORFs</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/finding-orfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/finding-orfs/</guid><description>&lt;h1 id="finding-orfs">Finding ORFs&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> find-orfs&lt;/p>
+&lt;p>Searches for Open Reading Frames (ORFs) in nucleotide sequences and saves the regions found as annotations.&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>in&lt;/em> — semicolon-separated list of input files. [String, Required]&lt;/p>
+&lt;p>&lt;em>out&lt;/em> — output file with the annotations. [String, Required]&lt;/p>
+&lt;p>&lt;em>name&lt;/em> — name of the annotated regions. [String, Optional, Default: “ORF”]&lt;/p>
+&lt;p>&lt;em>min-length&lt;/em> — ignores ORFs shorter than the specified length. [String, Optional, Default: 100]&lt;/p>
+&lt;p>&lt;em>require-stop-codon&lt;/em> — ignores boundary ORFs that last beyond the search region (i.e. have no stop codon within the range). [Boolean, Optional, Default: false]&lt;/p></description></item><item><title>Finding Pattern Using Smith-Waterman Algorithm</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/finding-pattern-using-smith-waterman-algorithm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/finding-pattern-using-smith-waterman-algorithm/</guid><description>&lt;h1 id="finding-pattern-using-smith-waterman-algorithm">Finding Pattern Using Smith-Waterman Algorithm&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> find-sw&lt;/p>
+&lt;p>Searches for a pattern in a nucleotide or protein sequence using the Smith-Waterman algorithm and saves the regions found as annotations.&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>in&lt;/em> — input sequence file. [String, Required]&lt;/p>
+&lt;p>&lt;em>out&lt;/em> — output file with the annotations. [String, Required]&lt;/p>
+&lt;p>&lt;em>name&lt;/em> — name of the annotated regions. [String, Optional, Default: “misc_feature”]&lt;/p>
+&lt;p>&lt;em>ptrn&lt;/em> — subsequence pattern to search for (e.g. &lt;em>AGGCCT&lt;/em>). [String, Required]&lt;/p>
+&lt;p>&lt;em>score&lt;/em> — percent identity between the pattern and a subsequence. [Number, Optional, Default: 90]&lt;/p></description></item><item><title>Finding Repeats</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/finding-repeats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/finding-repeats/</guid><description>&lt;h1 id="finding-repeats">Finding Repeats&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> find-repeats&lt;/p>
+&lt;p>Searches for repeats in sequences and saves the regions found as annotations.&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>in&lt;/em> — semicolon-separated list of input files. [String, Required]&lt;/p>
+&lt;p>&lt;em>out&lt;/em> — output file with the annotations. [String, Required]&lt;/p>
+&lt;p>&lt;em>name&lt;/em> — name of the annotated regions. [String, Optional, Default: “repeat_unit”]&lt;/p>
+&lt;p>&lt;em>min-length&lt;/em> — minimum length of the repeats. [Number, Optional, Default: 5]&lt;/p>
+&lt;p>&lt;em>identity&lt;/em> — percent identity between repeats. [Number, Optional, Default: 100]&lt;/p>
+&lt;p>&lt;em>min-distance&lt;/em> — minimum distance between the repeats. [Number, Optional, Default: 0]&lt;/p></description></item><item><title>Format Converting Sequences</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/format-converting-sequences/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/format-converting-sequences/</guid><description>&lt;h1 id="format-converting-sequences">Format Converting Sequences&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> convert-seq&lt;/p>
+&lt;p>Converts a sequence from one format to another.&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>in&lt;/em> — input sequence file. [String, Required]&lt;/p>
+&lt;p>&lt;em>out&lt;/em> — name of the output file. [String, Required]&lt;/p>
+&lt;p>&lt;em>format&lt;/em> — format of the output file. [String, Optional]&lt;/p>
+&lt;p>The following values are available:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;ul>
+&lt;li>fasta&lt;/li>
+&lt;li>fastq&lt;/li>
+&lt;li>genbank&lt;/li>
+&lt;li>gff&lt;/li>
+&lt;li>raw&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;p>ugene convert-seq &amp;ndash;in=human_T1.fa &amp;ndash;out=human_T1.gbk &amp;ndash;format=genbank&lt;/p></description></item><item><title>Gene-by-Gene Report</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/gene-by-gene-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/gene-by-gene-report/</guid><description>&lt;h1 id="gene-by-gene-report">Gene-by-Gene Report&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> gene-by-gene&lt;/p>
+&lt;p>Suppose you have genomes and you want to characterize them. One of the ways to do that is to build a table of what genes are in each genome and what are not there.&lt;/p>
+&lt;p>1. Create a local BLAST db of your genome sequence/contigs. One db per one genome.
+2. Create a file with sequences of genes you what to explore. This file will be the input file for the scheme
+3. Setup location and name of BLAST db you created for the first genome.
+4. Setup output files: report location and output file with annotated (with BLAST) sequence. You might want to delete the &amp;ldquo;Write Sequence&amp;rdquo; element if you do not need output sequences.
+5. Run the scheme
+5*. Run the scheme on the same input and output files changing BLAST db for each genome that you have.&lt;/p></description></item><item><title>Generating DNA Sequence</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/generating-dna-sequence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/generating-dna-sequence/</guid><description>&lt;h1 id="generating-dna-sequence">Generating DNA Sequence&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> generate-dna&lt;/p>
+&lt;p>Generates a random DNA sequence with specified nucleotide content&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>algo&lt;/em> - Algorithm for generating (using &amp;lsquo;GC Content&amp;rsquo; by default) [String]&lt;/p>
+&lt;p>&lt;em>content&lt;/em> - Specifies if the nucleotide content of generated sequence(s) will be taken from reference or specified manually (A, G, C, T parameters) (using &amp;lsquo;manual&amp;rsquo; by default) [String]&lt;/p>
+&lt;p>&lt;em>count&lt;/em> - Number of sequences to generate (using &amp;lsquo;1&amp;rsquo; by default) [Number]&lt;/p>
+&lt;p>&lt;em>length&lt;/em> - Length of the resulted sequence(s) (using &amp;lsquo;1000&amp;rsquo; bp by default) [Number]&lt;/p></description></item><item><title>Local BLAST Search</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/local-blast-search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/local-blast-search/</guid><description>&lt;h1 id="local-blast-search">Local BLAST Search&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> local-blast+&lt;/p>
+&lt;p>Performs a search on a local BLAST database using BLAST+.&lt;/p>
+&lt;p>BLAST+ is used as an &lt;a href="http://ugene.unipro.ru/documentation/manual/plugins/external_tool_support.html#external-tool-support">&lt;em>external tool&lt;/em>&lt;/a> and must be installed on your system.&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>toolpath&lt;/em> — path to an appropriate BLAST executable (e.g. blastn, blastp, etc.). By default, the path specified in the &lt;em>Application Settings&lt;/em> is applied. [String, Optional, Default: “default”]&lt;/p>
+&lt;p>&lt;em>tmpdir&lt;/em> — directory for temporary files. By default, the path specified in the &lt;em>Application Settings&lt;/em> is applied. [String, Optional, Default: “default”]&lt;/p></description></item><item><title>Remote NCBI BLAST and CDD Requests</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/remote-ncbi-blast-and-cdd-requests/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/remote-ncbi-blast-and-cdd-requests/</guid><description>&lt;h1 id="remote-ncbi-blast-and-cdd-requests">Remote NCBI BLAST and CDD Requests&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> remote-request&lt;/p>
+&lt;p>Performs remote requests to the NCBI. Saves the results as annotations.&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>in&lt;/em> — semicolon-separated list of input files. A file can be of any format containing sequences or alignments. [String, Required]&lt;/p>
+&lt;p>&lt;em>db&lt;/em> — database to search in. [String, Optional, Default: “ncbi-blastn”]&lt;/p>
+&lt;p>The following databases are available:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;ul>
+&lt;li>“ncbi-blastn” for nucleotide sequences&lt;/li>
+&lt;li>“ncbi-cdd” for amino acid sequences&lt;/li>
+&lt;li>“ncbi-blastp” for amino acid sequences&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>out&lt;/em> — output Genbank file. [String, Required]&lt;/p></description></item><item><title>Reverse-Complement Converting Sequences</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/reverse-complement-converting-sequences/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/reverse-complement-converting-sequences/</guid><description>&lt;h1 id="reverse-complement-converting-sequences">Reverse-Complement Converting Sequences&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> revcompl&lt;/p>
+&lt;p>Convert input sequence into its reverse, complement or reverse-complement counterpart and write result sequence to file&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>type&lt;/em> - Type of operation. Available are &amp;lsquo;Reverse Complement&amp;rsquo;, &amp;lsquo;Complement&amp;rsquo; and &amp;lsquo;Reverse&amp;rsquo; (using &amp;lsquo;Reverse Complement&amp;rsquo; by default) [String]&lt;/p>
+&lt;p>&lt;em>in&lt;/em> - Input file [Url datasets]&lt;/p>
+&lt;p>&lt;em>accumulate&lt;/em> - Accumulate all incoming data in one file or create separate files for each input. In the latter case, an incremental numerical suffix is added to the file name (using &amp;lsquo;True&amp;rsquo; by default) [Boolean]&lt;/p></description></item><item><title>Searching for TFBS with PFM</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/searching-for-tfbs-with-pfm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/searching-for-tfbs-with-pfm/</guid><description>&lt;h1 id="searching-for-tfbs-with-pfm">Searching for TFBS with PFM&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> pfm-search&lt;/p>
+&lt;p>Searches for transcription factor binding sites (TFBS) with position weight matrices (PWM) converted from input position frequency matrices (PFM) and saves the regions found as annotations.&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>seq&lt;/em> — semicolon-separated list of input sequence files to search TFBS in. [String, Required]&lt;/p>
+&lt;p>&lt;em>matrix&lt;/em> — semicolon-separated list of the input PFM. [String, Required]&lt;/p>
+&lt;p>&lt;em>out&lt;/em> — output Genbank file.&lt;/p>
+&lt;p>&lt;em>name&lt;/em> — name of the annotated regions. [String, Optional, Default: “misc_feature”]&lt;/p></description></item><item><title>Searching for TFBS with SITECON</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/searching-for-tfbs-with-sitecon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/searching-for-tfbs-with-sitecon/</guid><description>&lt;h1 id="searching-for-tfbs-with-sitecon">Searching for TFBS with SITECON&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> sitecon-search&lt;/p>
+&lt;p>Searches for transcription factor binding sites (TFBS) with SITECON and saves the regions found as annotations.&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>in&lt;/em> — semicolon-separated list of input sequence files to search TFBS in. [String, Required]&lt;/p>
+&lt;p>&lt;em>inmodel&lt;/em> — input SITECON profile(s). If several profiles have been supplied, searches with all profiles one by one and outputs merged set of annotations for each input sequence. [String, Required]&lt;/p>
+&lt;p>&lt;em>out&lt;/em> — output Genbank file. [String, Required]&lt;/p></description></item><item><title>Searching for TFBS with Weight Matrices</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/searching-for-tfbs-with-weight-matrices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/searching-for-tfbs-with-weight-matrices/</guid><description>&lt;h1 id="searching-for-tfbs-with-weight-matrices">Searching for TFBS with Weight Matrices&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> pwm-search&lt;/p>
+&lt;p>Searches for transcription factor binding sites (TFBS) with position weight matrices (PWM) and saves the regions found as annotations.&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>seq&lt;/em> — semicolon-separated list of input sequence files to search TFBS in. [String, Required]&lt;/p>
+&lt;p>&lt;em>matrix&lt;/em> — semicolon-separated list of the input PWM. [String, Required]&lt;/p>
+&lt;p>&lt;em>out&lt;/em> — output Genbank file.&lt;/p>
+&lt;p>&lt;em>name&lt;/em> — name of the annotated regions. [String, Optional, Default: “misc_feature”]&lt;/p>
+&lt;p>&lt;em>min-score&lt;/em> — minimum percentage score to detect TFBS. [Number, Optional, Default: 85]&lt;/p></description></item><item><title>Searching HMM Signals Using HMMER2</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/searching-hmm-signals-using-hmmer2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/searching-hmm-signals-using-hmmer2/</guid><description>&lt;h1 id="searching-hmm-signals-using-hmmer2">Searching HMM Signals Using HMMER2&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> hmm2-search&lt;/p>
+&lt;p>Searches each input sequence for the significantly similar sequence that matches to all specified profile HMM using the HMMER2 tool.&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>seq&lt;/em> — semicolon-separated list of the input sequence files. [String, Required]&lt;/p>
+&lt;p>&lt;em>hmm&lt;/em> — semicolon-separated list of the input HMM files. [String, Required]&lt;/p>
+&lt;p>&lt;em>out&lt;/em> — output file with annotations. [String, Required]&lt;/p>
+&lt;p>&lt;em>name&lt;/em> — name of the result annotations. [String, Optional, Default: “hmm_signal”]&lt;/p></description></item><item><title>Variants Calling</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/variants-calling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/variants-calling/</guid><description>&lt;h1 id="variants-calling">Variants Calling&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> snp&lt;/p>
+&lt;p>Call variants for an input assembly and a reference sequence using SAMtools mpileup and bcftool&lt;/p>
+&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>bam&lt;/em> - Input sorted BAM file(s) [Url datasets]&lt;/p>
+&lt;p>&lt;em>ref&lt;/em> - Input reference sequence [Url datasets]&lt;/p>
+&lt;p>&lt;em>wout&lt;/em> - Out file with variations [String]&lt;/p>
+&lt;p>&lt;em>bN&lt;/em> - A/C/G/T only [Boolean]&lt;/p>
+&lt;p>&lt;em>bI&lt;/em> - List of sites [String]&lt;/p>
+&lt;p>&lt;em>ml&lt;/em> - BED or position list file [String]&lt;/p>
+&lt;p>&lt;em>bg&lt;/em> - Per-sample genotypes [Boolean]&lt;/p>
+&lt;p>&lt;em>mC&lt;/em> - Mapping quality downgrading coefficient [Number]&lt;/p></description></item></channel></rss>

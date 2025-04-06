@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Transcription Factor on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/</link><description>Recent content in Transcription Factor on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/index.xml" rel="self" type="application/rss+xml"/><item><title>Build Frequency Matrix Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/build-frequency-matrix-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/build-frequency-matrix-element/</guid><description>&lt;h1 id="build-frequency-matrix-element">Build Frequency Matrix Element&lt;/h1>
+&lt;p>Builds a frequency matrix. Frequency matrices are used for probabilistic recognition of transcription factor binding sites.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> fmatrix-build&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Matrix type&lt;/strong>&lt;/p>
+&lt;p>Dinucleic matrices are more detailed, while mononucleic one are more useful for small input data sets.&lt;/p>
+&lt;p>Mononucleic&lt;/p>
+&lt;p>&lt;strong>type&lt;/strong>&lt;/p>
+&lt;p>&lt;em>boolean&lt;/em>&lt;/p>
+&lt;p>Available values are:&lt;/p>
+&lt;ul>
+&lt;li>true - for Dinucleic&lt;/li>
+&lt;li>false - for Mononucleic&lt;/li>
+&lt;/ul>
+&lt;p>Input/Output Ports&lt;/p>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Build SITECON Model Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/build-sitecon-model-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/build-sitecon-model-element/</guid><description>&lt;h1 id="build-sitecon-model-element">Build SITECON Model Element&lt;/h1>
+&lt;p>Builds statistical profile for SITECON. The SITECON is a program for probabilistic recognition of transcription factor binding sites.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> sitecon-build&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Weight algorithm&lt;/strong>&lt;/p>
+&lt;p>Optional feature, in most cases applying no weight will fit. In some cases choosing algorithm 2 will increase the recognition quality.&lt;/p>
+&lt;p>None&lt;/p>
+&lt;p>&lt;strong>weight-algorithm&lt;/strong>&lt;/p>
+&lt;p>&lt;em>boolean&lt;/em>&lt;/p>
+&lt;p>Available values are:&lt;/p>
+&lt;ul>
+&lt;li>0 - for None&lt;/li>
+&lt;li>1 - for Algorithm2&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Window size, bp&lt;/strong>&lt;/p></description></item><item><title>Build Weight Matrix Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/build-weight-matrix-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/build-weight-matrix-element/</guid><description>&lt;h1 id="build-weight-matrix-element">Build Weight Matrix Element&lt;/h1>
+&lt;p>Builds a weight matrix. Weight matrices are used for probabilistic recognition of transcription factor binding sites.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> wmatrix-build&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Matrix type&lt;/strong> (required)&lt;/p>
+&lt;p>Dinucleic matrices are more detailed, while mononucleic one is more useful for small input data sets.&lt;/p>
+&lt;p>Mononucleic&lt;/p>
+&lt;p>&lt;strong>type&lt;/strong>&lt;/p>
+&lt;p>&lt;em>boolean&lt;/em>&lt;/p>
+&lt;p>Available values are:&lt;/p>
+&lt;ul>
+&lt;li>true - for Dinucleic&lt;/li>
+&lt;li>false - for Mononucleic&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Weight algorithm&lt;/strong>&lt;/p>
+&lt;p>Different weight algorithms use different functions to build weight matrices. It allows us to get better precision on different data sets. Log-odds, NLG, and Match algorithms are sensitive to input matrices with zero values, so some of them may not work on those matrices.&lt;/p></description></item><item><title>Convert Frequency Matrix Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/convert-frequency-matrix-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/convert-frequency-matrix-element/</guid><description>&lt;h1 id="convert-frequency-matrix-element">Convert Frequency Matrix Element&lt;/h1>
+&lt;p>Converts a frequency matrix to a weight matrix. Weight matrices are used for probabilistic recognition of transcription factor binding sites.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> fmatrix-to-wmatrix&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Matrix type&lt;/strong> (required)&lt;/p>
+&lt;p>Dinucleic matrices are more detailed, while mononucleic one is more useful for small input data sets.&lt;/p>
+&lt;p>Mononucleic&lt;/p>
+&lt;p>&lt;strong>type&lt;/strong>&lt;/p>
+&lt;p>&lt;em>boolean&lt;/em>&lt;/p>
+&lt;p>Available values are:&lt;/p>
+&lt;ul>
+&lt;li>true - for Dinucleic&lt;/li>
+&lt;li>false - for Mononucleic&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Weight algorithm&lt;/strong>&lt;/p></description></item><item><title>Read Frequency Matrix Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/read-frequency-matrix-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/read-frequency-matrix-element/</guid><description>&lt;h1 id="read-frequency-matrix-element">Read Frequency Matrix Element&lt;/h1>
+&lt;p>Reads frequency matrices from file(s). The files can be local or Internet URLs.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> fmatrix-read&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Input files&lt;/strong> (required)&lt;/p>
+&lt;p>Semicolon-separated list of paths to the input files.&lt;/p>
+&lt;p>&lt;strong>url-in&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>Input/Output Ports&lt;/p>
+&lt;p>The element has 1 &lt;em>output port&lt;/em>:&lt;/p>
+&lt;p>&lt;strong>Name in GUI:&lt;/strong> &lt;em>Frequency matrix&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Name in Workflow File:&lt;/strong> out-fmatrix&lt;/p>
+&lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
+&lt;p>Slot In GUI&lt;/p>
+&lt;p>Slot in Workflow File&lt;/p>
+&lt;p>Type&lt;/p></description></item><item><title>Read SITECON Model Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/read-sitecon-model-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/read-sitecon-model-element/</guid><description>&lt;h1 id="read-sitecon-model-element">Read SITECON Model Element&lt;/h1>
+&lt;p>Reads SITECON profiles from file(s). The files can be local or Internet URLs.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> sitecon-read&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Input files&lt;/strong> (required)&lt;/p>
+&lt;p>A semicolon-separated list of paths to the input files.&lt;/p>
+&lt;p>&lt;strong>url-in&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>Input/Output Ports&lt;/p>
+&lt;p>The element has 1 &lt;em>output port&lt;/em>:&lt;/p>
+&lt;p>&lt;strong>Name in GUI:&lt;/strong> &lt;em>Sitecon model&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Name in Workflow File:&lt;/strong> out-sitecon&lt;/p>
+&lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
+&lt;p>Slot In GUI&lt;/p>
+&lt;p>Slot in Workflow File&lt;/p></description></item><item><title>Read Weight Matrix Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/read-weight-matrix-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/read-weight-matrix-element/</guid><description>&lt;h1 id="read-weight-matrix-element">Read Weight Matrix Element&lt;/h1>
+&lt;p>Reads weight matrices from file(s). The files can be local or Internet URLs.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> wmatrix-read&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Input files&lt;/strong> (required)&lt;/p>
+&lt;p>Semicolon-separated list of paths to the input files.&lt;/p>
+&lt;p>&lt;strong>url-in&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>Input/Output Ports&lt;/p>
+&lt;p>And 1 &lt;em>output port&lt;/em>:&lt;/p>
+&lt;p>&lt;strong>Name in GUI:&lt;/strong> &lt;em>Weight matrix&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Name in Workflow File:&lt;/strong> out-wmatrix&lt;/p>
+&lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
+&lt;p>Slot In GUI&lt;/p>
+&lt;p>Slot in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Weight matrix&lt;/strong>&lt;/p></description></item><item><title>Search for TFBS with SITECON Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/search-for-tfbs-with-sitecon-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/search-for-tfbs-with-sitecon-element/</guid><description>&lt;h1 id="search-for-tfbs-with-sitecon-element">Search for TFBS with SITECON Element&lt;/h1>
+&lt;p>Searches each input sequence for transcription factor binding sites significantly similar to specified SITECON profiles. In case several profiles were supplied, searches with all profiles one by one and outputs merged set of annotations for each sequence.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> sitecon-search&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Result annotation&lt;/strong>&lt;/p>
+&lt;p>Name of the result annotations.&lt;/p>
+&lt;p>misc_feature&lt;/p>
+&lt;p>&lt;strong>result-name&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Search in&lt;/strong>&lt;/p>
+&lt;p>Specifies which strands should be searched: direct, complement or both.&lt;/p></description></item><item><title>Search for TFBS with Weight Matrix Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/search-for-tfbs-with-weight-matrix-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/search-for-tfbs-with-weight-matrix-element/</guid><description>&lt;h1 id="search-for-tfbs-with-weight-matrix-element">Search for TFBS with Weight Matrix Element&lt;/h1>
+&lt;p>Searches each input sequence for transcription factor binding sites significantly similar to specified weight matrices. In case several profiles were supplied, searches with all profiles one by one and outputs merged set of annotations for each sequence.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> wmatrix-search&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Result annotation&lt;/strong>&lt;/p>
+&lt;p>Name of the result annotations.&lt;/p>
+&lt;p>misc_feature&lt;/p>
+&lt;p>&lt;strong>result-name&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Search in&lt;/strong>&lt;/p>
+&lt;p>Specifies which strands should be searched: direct, complement or both.&lt;/p></description></item><item><title>Write Frequency Matrix Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/write-frequency-matrix-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/write-frequency-matrix-element/</guid><description>&lt;h1 id="write-frequency-matrix-element">Write Frequency Matrix Element&lt;/h1>
+&lt;p>Saves all input frequency matrices to specified location.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> fmatrix-write&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Output file&lt;/strong> (required)&lt;/p>
+&lt;p>Location of the output data file. If this attribute is set, the “Location” slot is not taken into account.&lt;/p>
+&lt;p>&lt;strong>url-out&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Existing file&lt;/strong>&lt;/p>
+&lt;p>If a target file already exists, you can specify how it should be handled: either overwritten, renamed or appended (if supported by file format).&lt;/p></description></item><item><title>Write SITECON Model Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/write-sitecon-model-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/write-sitecon-model-element/</guid><description>&lt;h1 id="write-sitecon-model-element">Write SITECON Model Element&lt;/h1>
+&lt;p>Saves all input SITECON profiles to a specified location.&lt;/p>
+&lt;p>&lt;strong>Type:&lt;/strong> sitecon-write&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Output file&lt;/strong> (required)&lt;/p>
+&lt;p>Location of the output data file. If this attribute is set, the “Location” slot is not taken into account.&lt;/p>
+&lt;p>&lt;strong>url-out&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Existing file&lt;/strong>&lt;/p>
+&lt;p>If a target file already exists, you can specify how it should be handled: either overwritten, renamed or appended (if supported by file format).&lt;/p></description></item><item><title>Write Weight Matrix Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/write-weight-matrix-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/write-weight-matrix-element/</guid><description>&lt;h1 id="write-weight-matrix-element">Write Weight Matrix Element&lt;/h1>
+&lt;p>Saves all input weight matrices to specified location.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> wmatrix-write&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Output file&lt;/strong> (required)&lt;/p>
+&lt;p>Location of the output data file. If this attribute is set, the “Location” slot is not taken into account.&lt;/p>
+&lt;p>&lt;strong>url-out&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Existing file&lt;/strong>&lt;/p>
+&lt;p>If a target file already exists, you can specify how it should be handled: either overwritten, renamed or appended (if supported by file format).&lt;/p></description></item></channel></rss>

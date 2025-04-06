@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NGS: Variant Analysis on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/</link><description>Recent content in NGS: Variant Analysis on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/index.xml" rel="self" type="application/rss+xml"/><item><title>Call Variants with SAMtools Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/call-variants-with-samtools-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/call-variants-with-samtools-element/</guid><description>&lt;h1 id="call-variants-with-samtools-element">Call Variants with SAMtools Element&lt;/h1>
+&lt;p>Calls SNPs and INDELS with SAMtools mpileup and bcftools.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> call_variants&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Output variants file&lt;/strong>&lt;/p>
+&lt;p>The url to the file with the extracted variations.&lt;/p>
+&lt;p>&lt;strong>Reference&lt;/strong>&lt;/p>
+&lt;p>Specify a file with the reference sequence.&lt;/p>
+&lt;p>The sequence will be used as reference for all datasets with NGS assemblies.&lt;/p>
+&lt;p>&lt;strong>Use reference from&lt;/strong>&lt;/p>
+&lt;p>Specify &amp;ldquo;File&amp;rdquo; to set a single reference sequence for all input NGS assemblies. The reference should be set in the &amp;ldquo;Reference&amp;rdquo; parameter.&lt;/p></description></item><item><title>Change Chromosome Notation for VCF Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/change-chromosome-notation-for-vcf-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/change-chromosome-notation-for-vcf-element/</guid><description>&lt;h1 id="change-chromosome-notation-for-vcf-element">Change Chromosome Notation for VCF Element&lt;/h1>
+&lt;p>Changes chromosome notation for each variant from the input, VCF or other variation files.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> rename-chromosome-in-variation&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Replace prefixes&lt;/strong>&lt;/p>
+&lt;p>Input the list of chromosome prefixes that you would like to replace. For example &amp;ldquo;NC_000&amp;rdquo;. Separate different prefixes by semicolons.&lt;/p>
+&lt;p>prefixes-to-replace&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Replace by&lt;/strong>&lt;/p>
+&lt;p>Input the prefix that should be set instead, for example &amp;ldquo;chr&amp;rdquo;.&lt;/p></description></item><item><title>Convert SnpEff Variations to Annotations Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/convert-snpeff-variations-to-annotations-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/convert-snpeff-variations-to-annotations-element/</guid><description>&lt;h1 id="convert-snpeff-variations-to-annotations-element">Convert SnpEff Variations to Annotations Element&lt;/h1>
+&lt;p>Parses information, added to variations by SnpEff, into standard annotations.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> convert-snpeff-variations-to-annotations&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Output file&lt;/strong>&lt;/p>
+&lt;p>Location of output data file. If this attribute is set, slot &amp;ldquo;Location&amp;rdquo; in port will not be used.&lt;/p>
+&lt;p>url-out&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Document format&lt;/strong>&lt;/p>
+&lt;p>Document format of the output file.&lt;/p>
+&lt;p>genbank&lt;/p>
+&lt;p>document-format&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>Input/Output Ports&lt;/p>
+&lt;p>The element has 1 &lt;em>input ports&lt;/em>:&lt;/p></description></item><item><title>Create VCF Consensus Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/create-vcf-consensus-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/create-vcf-consensus-element/</guid><description>&lt;h1 id="create-vcf-consensus-element">Create VCF Consensus Element&lt;/h1>
+&lt;p>Apply VCF variants to a fasta file to create a consensus sequence.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> vcf-consensus&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Output FASTA consensus&lt;/strong>&lt;/p>
+&lt;p>The URL to the output file with the resulting consensus.&lt;/p>
+&lt;p>consensus-url&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>Input/Output Ports&lt;/p>
+&lt;p>The element has 1 &lt;em>input ports&lt;/em>:&lt;/p>
+&lt;p>&lt;strong>Name in GUI:&lt;/strong> Input FASTA and VCF&lt;/p>
+&lt;p>&lt;strong>Name in Workflow File:&lt;/strong> in-data&lt;/p>
+&lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
+&lt;p>Slot In GUI&lt;/p>
+&lt;p>Slot in Workflow File&lt;/p></description></item><item><title>SnpEff Annotation and Filtration Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/snpeff-annotation-and-filtration-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/snpeff-annotation-and-filtration-element/</guid><description>&lt;h1 id="snpeff-annotation-and-filtration-element">SnpEff Annotation and Filtration Element&lt;/h1>
+&lt;p>Annotates and filters variations with SnpEff.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> seff&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Output directory&lt;/strong>&lt;/p>
+&lt;p>Select an output directory. Custom - specify the output directory in the &amp;lsquo;Custom directory&amp;rsquo; parameter. Workflow - internal workflow directory. Input file - the directory of the input file.&lt;/p>
+&lt;p>Input file&lt;/p>
+&lt;p>&lt;strong>out-mode&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Input format&lt;/strong>&lt;/p>
+&lt;p>Select the input format of variations.&lt;/p>
+&lt;p>VCF&lt;/p>
+&lt;p>&lt;strong>inp-format&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p></description></item></channel></rss>

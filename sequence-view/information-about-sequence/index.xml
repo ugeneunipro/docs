@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Information about Sequence on UGENE Documentation</title><link>https://ugene.net/docs/sequence-view/information-about-sequence/</link><description>Recent content in Information about Sequence on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/sequence-view/information-about-sequence/index.xml" rel="self" type="application/rss+xml"/><item><title>Melting tempeature</title><link>https://ugene.net/docs/sequence-view/information-about-sequence/melting-tempeature/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view/information-about-sequence/melting-tempeature/</guid><description>&lt;h1 id="melting-tempeature">Melting tempeature&lt;/h1>
+&lt;p>There are two algorithms for melting temperature calculation:&lt;/p>
+&lt;ul>
+&lt;li>Rough&lt;/li>
+&lt;li>Primer 3&lt;/li>
+&lt;/ul>
+&lt;p>Note, that Rough works only for DNA alphabet, it does not work for DNA extended and RNA alphabets. Primer3 works for all extended alphabets.&lt;/p>
+&lt;h2 id="rough">Rough&lt;/h2>
+&lt;p>The melting temperature is calculated as follows. For sequences of length 15 or longer:&lt;/p>
+&lt;p>&lt;strong>Tm = &lt;strong>64.9 + 41 * (nG + nC - 16.4) / (nA + nT + nG + nC)&lt;/strong>&lt;/strong>&lt;/p></description></item></channel></rss>

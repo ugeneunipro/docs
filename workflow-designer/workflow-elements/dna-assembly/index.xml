@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DNA Assembly on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/dna-assembly/</link><description>Recent content in DNA Assembly on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/workflow-elements/dna-assembly/index.xml" rel="self" type="application/rss+xml"/><item><title>Assembly Sequences with CAP3</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/dna-assembly/assembly-sequences-with-cap3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/dna-assembly/assembly-sequences-with-cap3/</guid><description>&lt;h1 id="assembly-sequences-with-cap3">Assembly Sequences with CAP3&lt;/h1>
+&lt;p>CAP3 is a contig assembly program. It allows assembly long DNA reads (up to 1000 bp).&lt;/p>
+&lt;p>Binaries can be downloaded from &lt;a href="http://seq.cs.iastate.edu/cap3.html">http://seq.cs.iastate.edu/cap3.html&lt;/a> Huang, X. and Madan, A. (1999) CAP3: A DNA Sequence Assembly Program, Genome Research, 9: 868-877.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> cap3&lt;/p>
+&lt;p>Parameters&lt;/p>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Output file&lt;/strong>&lt;/p>
+&lt;p>Write assembly results to this output file in ACE format..&lt;/p>
+&lt;p>result.ace&lt;/p>
+&lt;p>&lt;strong>out-file&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Quality cutoff for clipping&lt;/strong>&lt;/p></description></item></channel></rss>

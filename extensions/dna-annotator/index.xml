@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DNA Annotator on UGENE Documentation</title><link>https://ugene.net/docs/extensions/dna-annotator/</link><description>Recent content in DNA Annotator on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/extensions/dna-annotator/index.xml" rel="self" type="application/rss+xml"/><item><title>Find Group of Annotated Regions</title><link>https://ugene.net/docs/extensions/dna-annotator/find-group-of-annotated-regions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/dna-annotator/find-group-of-annotated-regions/</guid><description>&lt;h1 id="find-group-of-annotated-regions">Find Group of Annotated Regions&lt;/h1>
+&lt;p>The &lt;em>Find Group of Annotated Regions&lt;/em> feature provides an algorithm to search for sequence regions that contain a predefined set of annotations.&lt;/p>
+&lt;p>Open a DNA sequence in the &lt;em>Sequence View&lt;/em>. There are two ways to open the &lt;em>Find Repeats&lt;/em> dialog:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>By clicking on the toolbar button:
+&lt;img src="https://ugene.net/docs/images/65930692/96666131.png" alt="">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>By selecting the &lt;em>Analyze ‣ Find annotated regions&amp;hellip;&lt;/em> context menu item:&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3>&lt;img src="https://ugene.net/docs/images/65930692/96666132.png" alt="">&lt;/h3>
+&lt;h3 id="algorithm">Algorithm&lt;/h3>
+&lt;p>This tool has been designed to search for annotations that intersect (or completely overlap - it depends on the specified parameters) other, already existing annotations of a given sequence. Let&amp;rsquo;s look at the example:&lt;img src="https://ugene.net/docs/images/65930692/96666133.jpg" alt="">&lt;/p></description></item><item><title>Plasmid Auto Annotation</title><link>https://ugene.net/docs/extensions/dna-annotator/plasmid-auto-annotation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/dna-annotator/plasmid-auto-annotation/</guid><description>&lt;h1 id="plasmid-auto-annotation">Plasmid Auto Annotation&lt;/h1>
+&lt;p>Plasmid Auto Annotation feature allows to automatically annotate possible functional elements of the given sequence such as promoters, terminators, origin of replication, known genes, common primers and other features. Conceptually this functionality is similar to the one offered by &lt;a href="https://plasmapper.wishartlab.com/">PlasMapper&lt;/a> software. The database for plasmid auto-annotation is based on the following &lt;a href="http://www.addgene.org/tools/reference/plasmid-features/">resource.&lt;/a>&lt;/p>
+&lt;p>To activate Plasmid Auto Annotation upon your sequence use the menu item &lt;em>Analyze ‣ Annotate plasmid.&lt;/em> In the appeared dialog one can selected the features to search in sequence.&lt;/p></description></item></channel></rss>

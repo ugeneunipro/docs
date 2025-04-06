@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Annotations Editor on UGENE Documentation</title><link>https://ugene.net/docs/sequence-view/annotations-editor/</link><description>Recent content in Annotations Editor on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/sequence-view/annotations-editor/index.xml" rel="self" type="application/rss+xml"/><item><title>Automatic Annotations Highlighting</title><link>https://ugene.net/docs/sequence-view/annotations-editor/automatic-annotations-highlighting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view/annotations-editor/automatic-annotations-highlighting/</guid><description>&lt;h1 id="automatic-annotations-highlighting">Automatic Annotations Highlighting&lt;/h1>
+&lt;p>Enabling the automatic annotations highlighting allows you to automatically calculate and highlight annotations on each nucleotide sequence opened.&lt;/p>
+&lt;p>Currently, the following annotations types support the automatic highlighting:&lt;/p>
+&lt;ul>
+&lt;li>Open reading frames&lt;/li>
+&lt;li>Restriction sites&lt;/li>
+&lt;li>Plasmid features&lt;/li>
+&lt;/ul>
+&lt;p>The corresponding groups of annotations found are stored in the &lt;em>Auto-annotations&lt;/em> object in the &lt;em>Annotations editor&lt;/em>, for example:&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929453/65929454.png" alt="">&lt;/p>
+&lt;p>To disable/enable the automatic annotations calculations to use the &lt;em>Automatic annotations highlighting&lt;/em> menu button on the &lt;em>Sequence View&lt;/em> toolbar:&lt;/p></description></item><item><title>db_xref Qualifier</title><link>https://ugene.net/docs/sequence-view/annotations-editor/db-xref-qualifier/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view/annotations-editor/db-xref-qualifier/</guid><description>&lt;h1 id="db_xref-qualifier">db_xref Qualifier&lt;/h1>
+&lt;p>Some files in Genbank format contain the &lt;em>db_xref&lt;/em> qualifier. A value of this qualifier is a reference to a database.&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929460/65929461.png" alt="">&lt;/p>
+&lt;p>When you click on the value a web page is opened or a file is loaded specified in the reference. The loaded file is added to the current &lt;em>project&lt;/em>.&lt;/p></description></item><item><title>The comment Annotation</title><link>https://ugene.net/docs/sequence-view/annotations-editor/the-comment-annotation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view/annotations-editor/the-comment-annotation/</guid><description>&lt;h1 id="the-comment-annotation">The comment Annotation&lt;/h1>
+&lt;p>General information about a file in GenBank or Vector NTI Sequence format, stored in the COMMENT sections of the file, is shown in UGENE in a special &lt;em>comment&lt;/em> annotation in the &lt;em>Annotations Editor&lt;/em>.&lt;/p>
+&lt;p>The information, for example, may include the name of the file author, creation date and last modification date for the file, and so on:&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929456/65929457.png" alt="">&lt;/p></description></item><item><title>Transform into a primer pair</title><link>https://ugene.net/docs/sequence-view/annotations-editor/transform-into-a-primer-pair/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view/annotations-editor/transform-into-a-primer-pair/</guid><description>&lt;h1 id="transform-into-a-primer-pair">Transform into a primer pair&lt;/h1>
+&lt;p>UGENE has certain primers format. It allows one to use some features, which are avaliable only if this format is being recognized. Examples of thes features:&lt;/p>
+&lt;ul>
+&lt;li>Create PCR Fragment,&lt;/li>
+&lt;li>&lt;a href="primer-blast.md">Primer-BLAST&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>If you have a primer pair, which doesn&amp;rsquo;t fit to this format, these features will be unavaliable for you. To fix this issue:&lt;/p>
+&lt;ol>
+&lt;li>Select your own left and right primers.&lt;/li>
+&lt;li>Click right mouse button → Edit → Transform into a primer pair.
+&lt;img src="https://ugene.net/docs/images/96666283/96666293.png" alt="">After these steps are performed, a new primer pair, fit to UGENE format, will appear:
+&lt;img src="https://ugene.net/docs/images/96666283/96666294.png" alt="">&lt;/li>
+&lt;/ol></description></item></channel></rss>

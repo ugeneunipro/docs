@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data Flow on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-flow/</link><description>Recent content in Data Flow on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/workflow-elements/data-flow/index.xml" rel="self" type="application/rss+xml"/><item><title>Filter Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-flow/filter-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-flow/filter-element/</guid><description>&lt;h1 id="filter-element">Filter Element&lt;/h1>
+&lt;p>This element passes through only data that matches the input filter value (or values).&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> filter-by-values&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Filter by value(s)&lt;/strong>&lt;/p>
+&lt;p>Semicolon-separated list of values used to filter the input data.&lt;/p>
+&lt;p>&lt;strong>text&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>Input/Output Ports&lt;/p>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p>
+&lt;p>&lt;strong>Name in GUI:&lt;/strong> &lt;em>Input values&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Name in Workflow File:&lt;/strong> in-data&lt;/p>
+&lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
+&lt;p>Slot In GUI&lt;/p>
+&lt;p>Slot in Workflow File&lt;/p></description></item><item><title>Grouper Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-flow/grouper-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-flow/grouper-element/</guid><description>&lt;h1 id="grouper-element">Grouper Element&lt;/h1>
+&lt;p>The element groups data supplied to the specified slot by the specified property (for example, by value). Additionally, it is possible to merge data from another slots associated with the specified one.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> grouper&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>To use the &lt;em>Grouper&lt;/em> element connect the &lt;em>Grouper’s&lt;/em> input port to the required workflow element. Select the &lt;em>Grouper&lt;/em> element on the &lt;em>Scene&lt;/em> and specify &lt;em>Group slot&lt;/em> and &lt;em>Group operation&lt;/em> parameters in the &lt;em>Parameters&lt;/em> area in the &lt;em>Property Editor&lt;/em>. To merge associated data, it is possible to create as many &lt;em>Output slot(s)&lt;/em> as required (see details below).&lt;/p></description></item><item><title>Multiplexer Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-flow/multiplexer-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-flow/multiplexer-element/</guid><description>&lt;h1 id="multiplexer-element">Multiplexer Element&lt;/h1>
+&lt;p>The element allows you to join two data flows into a single data flow, i.e. to join &lt;a href="workflow-elements-and-connections.md">messages&lt;/a> from two &lt;a href="workflow-elements-and-connections.md">input ports&lt;/a> into concatenated messages and send them to the output. The concatenation approach is determined by the &lt;em>Multiplexing rule&lt;/em> parameter.&lt;/p>
+&lt;p>There are the following multiplexing rules:&lt;/p>
+&lt;ul>
+&lt;li>1 to 1&lt;/li>
+&lt;li>1 to many&lt;/li>
+&lt;/ul>
+&lt;h4 id="rule-1-to-1">Rule: 1 to 1&lt;/h4>
+&lt;p>This rule means that the multiplexer gets one message from the first input port and one message from the second input port, joins them into a single message, and transfers it to the output. This procedure is repeated while there are available messages in both input ports.&lt;/p></description></item><item><title>Sequence Marker Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-flow/sequence-marker-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-flow/sequence-marker-element/</guid><description>&lt;h1 id="sequence-marker-element">Sequence Marker Element&lt;/h1>
+&lt;p>Adds one or several marks to the input sequence depending on the sequence properties. Use this element, for example, in conjunction with the &lt;a href="filter-element.md">&lt;em>Filter&lt;/em>&lt;/a> element.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> mark-sequence&lt;/p>
+&lt;p>Parameters&lt;/p>
+&lt;p>To create a new marker group that would mark the input sequence, select the &lt;em>Add&lt;/em> button in the &lt;em>Parameters&lt;/em> area. The &lt;em>Create Marker Group&lt;/em> dialog appears:&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65930090/65930091.png" alt="">&lt;/p>
+&lt;p>Choose a type of the marker group and input a marker group name. The following types are available:&lt;/p></description></item></channel></rss>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NGS: RNA-Seq Analysis on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-rna-seq-analysis/</link><description>Recent content in NGS: RNA-Seq Analysis on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/workflow-elements/ngs-rna-seq-analysis/index.xml" rel="self" type="application/rss+xml"/><item><title>Assemble Transcripts with StringTie Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-rna-seq-analysis/assemble-transcripts-with-stringtie-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-rna-seq-analysis/assemble-transcripts-with-stringtie-element/</guid><description>&lt;h1 id="assemble-transcripts-with-stringtie-element">Assemble Transcripts with StringTie Element&lt;/h1>
+&lt;p>StringTie is a fast and highly efficient assembler of RNA-Seq alignments into potential transcripts. It uses a novel network flow algorithm as well as an optional de novo assembly step to assemble and quantitate full-length transcripts representing multiple splice variants for each gene locus.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> stringtie&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Defaultvalue&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Reference annotations&lt;/strong>&lt;/p>
+&lt;p>Use the reference annotation file (in GTF or GFF3 format) to guide the assembly process (-G).&lt;/p></description></item><item><title>Assembly Transcripts with Cufflinks Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-rna-seq-analysis/assembly-transcripts-with-cufflinks-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-rna-seq-analysis/assembly-transcripts-with-cufflinks-element/</guid><description>&lt;h1 id="assembly-transcripts-with-cufflinks-element">Assembly Transcripts with Cufflinks Element&lt;/h1>
+&lt;p>Cufflinks accept aligned RNA-Seq reads and assemble the alignments into a parsimonious set of transcripts. Cufflinks then estimate the relative abundances of these transcripts based on how many reads support each one, taking into account biases in library preparation protocols.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> cufflinks&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Output directory&lt;/strong>&lt;/p>
+&lt;p>Directory to save MACS output files.&lt;/p>
+&lt;p>&lt;strong>out-dir&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Reference annotation&lt;/strong>&lt;/p></description></item><item><title>Extract Transcript Sequences with gffread Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-rna-seq-analysis/extract-transcript-sequences-with-gffread-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-rna-seq-analysis/extract-transcript-sequences-with-gffread-element/</guid><description>&lt;h1 id="extract-transcript-sequences-with-gffread-element">Extract Transcript Sequences with gffread Element&lt;/h1>
+&lt;p>Extract transcript sequences from the genomic sequence(s) with gffread.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> gffread&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Output sequences&lt;/strong>&lt;/p>
+&lt;p>The url to the output file with the extracted sequences.&lt;/p>
+&lt;p>&lt;strong>url-out&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p>
+&lt;p>&lt;strong>Name in GUI:&lt;/strong> Input transcripts&lt;/p>
+&lt;p>&lt;strong>Name in Workflow File:&lt;/strong> in-data&lt;/p>
+&lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
+&lt;p>Slot In GUI&lt;/p>
+&lt;p>Slot in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Genomic sequence url&lt;/strong>&lt;/p></description></item><item><title>Merge Assemblies with Cuffmerge Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-rna-seq-analysis/merge-assemblies-with-cuffmerge-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-rna-seq-analysis/merge-assemblies-with-cuffmerge-element/</guid><description>&lt;h1 id="merge-assemblies-with-cuffmerge-element">Merge Assemblies with Cuffmerge Element&lt;/h1>
+&lt;p>Cuffmerge merges together several assemblies. It also handles running Cuffcompare for you and automatically filters a number of transfrags that are probably artifacts. If you have a reference file available, you can provide it to Cuffmerge in order to gracefully merge input (e.g. novel) isoforms and known isoforms and maximize overall assembly quality.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> cuffmerge&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p></description></item><item><title>StringTie Gene Abudance Report Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-rna-seq-analysis/stringtie-gene-abudance-report-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-rna-seq-analysis/stringtie-gene-abudance-report-element/</guid><description>&lt;h1 id="stringtie-gene-abudance-report-element">StringTie Gene Abudance Report Element&lt;/h1>
+&lt;p>The element summarizes gene abundance output of StringTie and saves the result into a common tab-delimited text file. The first two columns of the file are &amp;ldquo;Gene ID&amp;rdquo; and &amp;ldquo;Gene name&amp;rdquo;. Each other column contains &amp;ldquo;FPKM&amp;rdquo; values for the genes from an input gene abundance file.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> stringtie-gene-abundance-report&lt;/p>
+&lt;p>Parameters&lt;/p>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Output file&lt;/strong>&lt;/p>
+&lt;p>Specify the name of the output tab-delimited text file.&lt;/p></description></item><item><title>Test for Diff. Expression with Cuffdiff Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-rna-seq-analysis/test-for-diff-expression-with-cuffdiff-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-rna-seq-analysis/test-for-diff-expression-with-cuffdiff-element/</guid><description>&lt;h1 id="test-for-diff-expression-with-cuffdiff-element">Test for Diff. Expression with Cuffdiff Element&lt;/h1>
+&lt;p>Cuffdiff takes a transcript file as input, along with two or more fragment alignments (e.g. in SAM format) for two or more samples. It produces a number of output files that contain test results for changes in expression at the level of transcripts, primary transcripts, and genes. It also tracks changes in the relative abundance of transcripts sharing a common transcription start site, and in the relative abundances of the primary transcripts of each gene. Tracking the former allows one to see changes in splicing, and the latter lets one see changes in relative promoter use within a gene.&lt;/p></description></item></channel></rss>

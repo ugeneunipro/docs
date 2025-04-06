@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>External Tools Plugin on UGENE Documentation</title><link>https://ugene.net/docs/extensions/external-tools-plugin/</link><description>Recent content in External Tools Plugin on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/extensions/external-tools-plugin/index.xml" rel="self" type="application/rss+xml"/><item><title>Configuring External Tool</title><link>https://ugene.net/docs/extensions/external-tools-plugin/configuring-external-tool/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/external-tools-plugin/configuring-external-tool/</guid><description>&lt;h1 id="configuring-external-tool">Configuring External Tool&lt;/h1>
+&lt;p>To configure an external tool:&lt;/p>
+&lt;ol>
+&lt;li>Make sure the tool is installed on your system.&lt;/li>
+&lt;li>Set a path to the tool executable file in UGENE. It can be set on the &lt;a href="external-tools.md">&lt;em>External Tools&lt;/em>&lt;/a> tab of the &lt;em>&lt;a href="ugene-application-settings.md">Application Settings&lt;/a>&lt;/em> dialog.&lt;/li>
+&lt;/ol>
+&lt;p>If the path hasn’t been set for a tool, UGENE menu items that launch the tool are displayed in italic. For example, on the image below a path for the ClustalW external tool has been set, and paths for MAFFT and T-Coffee has not:&lt;/p></description></item></channel></rss>

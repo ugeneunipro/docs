@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>In Silico PCR on UGENE Documentation</title><link>https://ugene.net/docs/extensions/in-silico-pcr/</link><description>Recent content in In Silico PCR on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/extensions/in-silico-pcr/index.xml" rel="self" type="application/rss+xml"/><item><title>Primer Library</title><link>https://ugene.net/docs/extensions/in-silico-pcr/primer-library/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/in-silico-pcr/primer-library/</guid><description>&lt;h1 id="primer-library">Primer Library&lt;/h1>
+&lt;p>The primer library is a storage for keeping user primers. The added primers are stored between UGENE sessions.&lt;/p>
+&lt;p>Go to the &lt;em>Tools-&amp;gt;Primer-&amp;gt;Primer library&lt;/em> context menu to configure the primer library. The following window will appear:&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65930783/94076958.png" alt="">&lt;/p>
+&lt;p>Click the &lt;em>New primer&lt;/em> button to add a new primer. The following dialog will appear:&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65930783/94076959.png" alt="">&lt;/p>
+&lt;p>Input the primer sequence and primer name and click on the &lt;em>OK&lt;/em> button.&lt;/p>
+&lt;p>Select the primer and click the &lt;em>Edit primer&lt;/em> button to edit primer.&lt;/p></description></item><item><title>Primers Details</title><link>https://ugene.net/docs/extensions/in-silico-pcr/primers-details/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/in-silico-pcr/primers-details/</guid><description>&lt;h1 id="primers-details">Primers Details&lt;/h1>
+&lt;p>Click &lt;em>Show primers details&lt;/em> for seeing statistic details about primers.&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65930780/65930781.png" alt="">&lt;/p>
+&lt;p>The following dialog will appear:&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65930780/65930782.png" alt="">&lt;/p>
+&lt;p>This is a dialog with statistic details about primers: melting temperature, GC content, dimers, self-dimers, etc. If a value is not correct for its criteria then it is colored in red.&lt;/p></description></item></channel></rss>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Highlighting Alignment on UGENE Documentation</title><link>https://ugene.net/docs/alignment-editor/overview/highlighting-alignment/</link><description>Recent content in Highlighting Alignment on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/alignment-editor/overview/highlighting-alignment/index.xml" rel="self" type="application/rss+xml"/><item><title>Export Highlighting to File</title><link>https://ugene.net/docs/alignment-editor/overview/highlighting-alignment/export-highlighting-to-file/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/overview/highlighting-alignment/export-highlighting-to-file/</guid><description>&lt;h1 id="export-highlighting-to-file">Export Highlighting to File&lt;/h1>
+&lt;p>&lt;img src="https://ugene.net/docs/images/96666040/96666045.png" alt="">&lt;/p>
+&lt;p>Select the output file to export the highlighting, choose exported area and click on the &lt;em>Export&lt;/em> button. The task report will appear in the &lt;em>&lt;a href="notifications.md">Notifications&lt;/a>&lt;/em>.&lt;/p>
+&lt;p>Also, you may set additional parameters:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Indexing&lt;/strong> - select the number to start counting from:
+&lt;ul>
+&lt;li>&lt;em>1-based&lt;/em> - the first column has number &lt;strong>1&lt;/strong>,&lt;/li>
+&lt;li>&lt;em>0-based&lt;/em> - the first column has number &lt;strong>0&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Keep gaps&lt;/strong> - check if you want to store gap symbols in the result file.&lt;/li>
+&lt;li>&lt;strong>Dots instead not highlighted&lt;/strong> - replace not-highlighted bases with dots in the result file.&lt;/li>
+&lt;li>&lt;strong>Transpose output&lt;/strong> - if this checkbox is checked, the sequences will be located horizontally (not vertically, as in UGENE). May be useful, if you have a long alignment, but not many sequences.&lt;/li>
+&lt;/ul></description></item></channel></rss>

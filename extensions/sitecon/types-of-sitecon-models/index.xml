@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Types of SITECON Models on UGENE Documentation</title><link>https://ugene.net/docs/extensions/sitecon/types-of-sitecon-models/</link><description>Recent content in Types of SITECON Models on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/extensions/sitecon/types-of-sitecon-models/index.xml" rel="self" type="application/rss+xml"/><item><title>Eukaryotic</title><link>https://ugene.net/docs/extensions/sitecon/types-of-sitecon-models/eukaryotic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/sitecon/types-of-sitecon-models/eukaryotic/</guid><description>&lt;h1 id="eukaryotic">Eukaryotic&lt;/h1>
+&lt;p>&lt;strong>Name&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Description&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="http://en.wikipedia.org/wiki/Ccaat-enhancer-binding_proteins">CEBP_a&lt;/a>&lt;/p>
+&lt;p>CCAAT-enhancer-binding protein_alpha&lt;/p>
+&lt;p>&lt;a href="http://en.wikipedia.org/wiki/Ccaat-enhancer-binding_proteins">CEBP_all&lt;/a>&lt;/p>
+&lt;p>CCAAT-enhancer-binding proteins&lt;/p>
+&lt;p>&lt;a href="http://en.wikipedia.org/wiki/CLOCK">CLOCK&lt;/a>&lt;/p>
+&lt;p>Circadian Locomotor Output Cycles Kaput&lt;/p>
+&lt;p>&lt;a href="http://en.wikipedia.org/wiki/Myc">cMyc_can&lt;/a>&lt;/p>
+&lt;p>Myc (c-Myc) is a regulator gene that codes for a transcription factor. A mutated version of Myc is found in many cancers.&lt;/p>
+&lt;p>&lt;a href="http://en.wikipedia.org/wiki/CAMP_response_element#cAMP_response_element">CRE&lt;/a>&lt;/p>
+&lt;p>Cyclic AMP response element&lt;/p>
+&lt;p>&lt;a href="http://en.wikipedia.org/wiki/E2F1">E2F1&lt;/a>&lt;/p>
+&lt;p>Transcription factor E2F1 is a protein that in humans is encoded by the E2F1 gene.&lt;/p>
+&lt;p>&lt;a href="http://en.wikipedia.org/wiki/TFDP1">E2F1/DP1sel1&lt;/a>&lt;/p>
+&lt;p>E2F factors bind to DNA as homodimers or heterodimers in association with dimerization partner DP1.&lt;/p></description></item><item><title>Prokaryotic</title><link>https://ugene.net/docs/extensions/sitecon/types-of-sitecon-models/prokaryotic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/sitecon/types-of-sitecon-models/prokaryotic/</guid><description>&lt;h1 id="prokaryotic">Prokaryotic&lt;/h1>
+&lt;p>&lt;strong>Name&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Description&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=AgaR&amp;amp;quickSearch=Quick+Search">AgaR&lt;/a>&lt;/p>
+&lt;p>N-acetylgalactosamine repressor, AgaR, negatively controls the expression of the aga gene cluster&lt;/p>
+&lt;p>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=AgaC&amp;amp;quickSearch=Quick+Search">AgaC&lt;/a>&lt;/p>
+&lt;p>AgaC is the Enzyme IIC domain of a predicted N-acetylgalactosamine-transporting PEP-dependent phosphotransferase system&lt;/p>
+&lt;p>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=ArcA&amp;amp;quickSearch=Quick+Search">ArcA&lt;/a>&lt;/p>
+&lt;p>ArcA transcriptional dual regulator&lt;/p>
+&lt;p>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=ArgR&amp;amp;quickSearch=Quick+Search">ArgR&lt;/a>&lt;/p>
+&lt;p>ArgR complexed with L-arginine represses the transcription of several genes involved in biosynthesis and transport of arginine, transport of histidine, and its own synthesis and activates genes for arginine catabolism.&lt;/p>
+&lt;p>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=CpxR&amp;amp;quickSearch=Quick+Search">CpxR&lt;/a>&lt;/p>
+&lt;p>DNA-binding response regulator in two-component regulatory system with CpxA&lt;/p></description></item></channel></rss>

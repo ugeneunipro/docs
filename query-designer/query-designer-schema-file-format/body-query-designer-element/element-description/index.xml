@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Element Description on UGENE Documentation</title><link>https://ugene.net/docs/query-designer/query-designer-schema-file-format/body-query-designer-element/element-description/</link><description>Recent content in Element Description on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/query-designer/query-designer-schema-file-format/body-query-designer-element/element-description/index.xml" rel="self" type="application/rss+xml"/><item><title>Algorithm Element Description</title><link>https://ugene.net/docs/query-designer/query-designer-schema-file-format/body-query-designer-element/element-description/algorithm-element-description/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-designer-schema-file-format/body-query-designer-element/element-description/algorithm-element-description/</guid><description>&lt;h1 id="algorithm-element-description">Algorithm Element Description&lt;/h1>
+&lt;p>When you describe an algorithm element you must specify the &lt;strong>element_name&lt;/strong> and the element type.&lt;/p>
+&lt;p>The element name corresponds to the element’s &lt;em>Element Name&lt;/em> in the GUI. The name can contain only english letters, numbers, ‘_’ (underscore) and ‘-‘ (hyphen) characters.&lt;/p>
+&lt;p>See, for example, the description of an ORF element:&lt;/p>
+&lt;p>myORF {&lt;/p>
+&lt;p>type: orf;&lt;/p>
+&lt;h1 id="other-parameters">Other parameters&lt;/h1>
+&lt;p>}&lt;/p>
+&lt;p>To find the type and the parameters available for the required algorithm element refer to &lt;a href="algorithm-elements.md">&lt;em>Algorithm Elements&lt;/em>&lt;/a> chapter.&lt;/p></description></item><item><title>Constraint Element Description</title><link>https://ugene.net/docs/query-designer/query-designer-schema-file-format/body-query-designer-element/element-description/constraint-element-description/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-designer-schema-file-format/body-query-designer-element/element-description/constraint-element-description/</guid><description>&lt;h1 id="constraint-element-description">Constraint Element Description&lt;/h1>
+&lt;p>When you describe a constraint element the &lt;strong>element_name&lt;/strong> consists of two parts separated by two hyphens.&lt;/p>
+&lt;p>part1&amp;ndash;part2&lt;/p>
+&lt;p>Each part represents one of the algorithms the constraint is imposed on.&lt;/p>
+&lt;p>If the algorithm is presented as one element on a schema (like &lt;a href="orf-algorithm-element.md">&lt;em>ORF&lt;/em>&lt;/a>, &lt;a href="pattern-algorithm-element.md">&lt;em>Pattern&lt;/em>&lt;/a>) the algorithm’s part has format:&lt;/p>
+&lt;p>algorithm_element_name.unit&lt;/p>
+&lt;p>If the algorithm is presented as two subelements on a schema (like &lt;a href="repeats-algorithm-element.md">&lt;em>Repeats&lt;/em>&lt;/a>, &lt;a href="primer-algorithm-element.md">&lt;em>Primer&lt;/em>&lt;/a>) the algorithm’s part has format:&lt;/p>
+&lt;p>algorithm_element_name.left&lt;/p>
+&lt;p>or:&lt;/p>
+&lt;p>algorithm_element_name.right&lt;/p></description></item></channel></rss>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data Readers on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-readers/</link><description>Recent content in Data Readers on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/workflow-elements/data-readers/index.xml" rel="self" type="application/rss+xml"/><item><title>Read Alignment Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-readers/read-alignment-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-readers/read-alignment-element/</guid><description>&lt;h1 id="read-alignment-element">Read Alignment Element&lt;/h1>
+&lt;p>Input one or several files in one of the multiple sequence alignment formats, supported by UGENE (ClustalW, FASTA, etc.).&lt;/p>
+&lt;p>The element outputs message(s) with the alignment data.&lt;/p>
+&lt;p>See the list of all available formats &lt;a href="https://ugene.net/wiki/display/UUOUM27/Appendix+A.+Supported+File+Formats">here&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> read-msa&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Input files&lt;/strong>&lt;/p>
+&lt;p>A semicolon-separated list of paths to the input files.&lt;/p>
+&lt;p>&lt;strong>url-in&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>Input/Output Ports&lt;/p>
+&lt;p>The element has 1 &lt;em>output port&lt;/em>:&lt;/p></description></item><item><title>Read Annotations Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-readers/read-annotations-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-readers/read-annotations-element/</guid><description>&lt;h1 id="read-annotations-element">Read Annotations Element&lt;/h1>
+&lt;p>Input one or several files with annotations: a file may also contain a sequence (e.g. GenBank format) or contain annotations only (e.g. GTF format).&lt;/p>
+&lt;p>The element outputs message(s) with the annotations data.&lt;/p>
+&lt;p>See the list of all available formats &lt;a href="https://ugene.net/wiki/display/UUOUM27/Appendix+A.+Supported+File+Formats">here&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> read-annotations&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Input file(s)&lt;/strong>&lt;/p>
+&lt;p>Input files.&lt;/p>
+&lt;p>Dataset 1;&lt;/p>
+&lt;p>&lt;strong>url-in&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Mode&lt;/strong>&lt;/p>
+&lt;p>If the file contains more than one annotation table, Split mode sends them &amp;ldquo;as is&amp;rdquo; to the output,&lt;/p></description></item><item><title>Read FASTQ File with SE Reads Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-readers/read-fastq-file-with-se-reads-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-readers/read-fastq-file-with-se-reads-element/</guid><description>&lt;h1 id="read-fastq-file-with-se-reads-element">Read FASTQ File with SE Reads Element&lt;/h1>
+&lt;p>Input one or several files with NGS single-end reads in FASTQ format. The element outputs the file(s) URL(s).&lt;/p>
+&lt;p>&lt;strong>Type:&lt;/strong> get-se-reads-list&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Input file(s)&lt;/strong>&lt;/p>
+&lt;p>Input files.&lt;/p>
+&lt;p>Dataset 1;&lt;/p>
+&lt;p>&lt;strong>url1&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>output port&lt;/em>:&lt;/p>
+&lt;p>&lt;strong>Name in GUI:&lt;/strong> Output file&lt;/p>
+&lt;p>&lt;strong>Name in Workflow File:&lt;/strong> out&lt;/p>
+&lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
+&lt;p>Slot InGUI&lt;/p>
+&lt;p>Slot in Workflow File&lt;/p></description></item><item><title>Read FASTQ Files with PE Reads Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-readers/read-fastq-files-with-pe-reads-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-readers/read-fastq-files-with-pe-reads-element/</guid><description>&lt;h1 id="read-fastq-files-with-pe-reads-element">Read FASTQ Files with PE Reads Element&lt;/h1>
+&lt;p>Input one or several pairs of files with NGS paired-end reads in FASTQ format. The element outputs the corresponding pairs of URLs.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> get-pe-reads-list&lt;/p>
+&lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Input file(s)&lt;/strong>&lt;/p>
+&lt;p>Input files.&lt;/p>
+&lt;p>Dataset 1;&lt;/p>
+&lt;p>&lt;strong>url1&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Input file(s)&lt;/strong>&lt;/p>
+&lt;p>Input files.&lt;/p>
+&lt;p>Dataset 2;&lt;/p>
+&lt;p>&lt;strong>url2&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>output port&lt;/em>:&lt;/p>
+&lt;p>&lt;strong>Name in GUI:&lt;/strong> Output file&lt;/p></description></item><item><title>Read File URL(s) Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-readers/read-file-url-s-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-readers/read-file-url-s-element/</guid><description>&lt;h1 id="read-file-urls-element">Read File URL(s) Element&lt;/h1>
+&lt;p>Input one or several files in any format. The element outputs the file(s) URL(s).&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> get-file-list&lt;/p>
+&lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Input directory&lt;/strong>&lt;/p>
+&lt;p>Input directory.&lt;/p>
+&lt;p>&lt;strong>in-path&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>Specify whether to output absolute or relative paths of the files.&lt;/p>
+&lt;p>True&lt;/p>
+&lt;p>&lt;strong>absolute&lt;/strong>&lt;/p>
+&lt;p>&lt;em>boolean&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Recursive reading&lt;/strong>&lt;/p>
+&lt;p>Get files from all nested directories or just from the current one.&lt;/p>
+&lt;p>False&lt;/p>
+&lt;p>&lt;strong>recursive&lt;/strong>&lt;/p>
+&lt;p>&lt;em>boolean&lt;/em>&lt;/p></description></item><item><title>Read NGS Reads Assembly Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-readers/read-ngs-reads-assembly-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-readers/read-ngs-reads-assembly-element/</guid><description>&lt;h1 id="read-ngs-reads-assembly-element">Read NGS Reads Assembly Element&lt;/h1>
+&lt;p>Input one or several files with assembled NGS reads in SAM, BAM, or UGENEDB format.&lt;/p>
+&lt;p>The element outputs message(s) with the assembled reads data.&lt;/p>
+&lt;p>See the list of all available formats &lt;a href="https://ugene.net/wiki/display/UUOUM27/Appendix+A.+Supported+File+Formats">here&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> read-assembly&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Input file(s)&lt;/strong>&lt;/p>
+&lt;p>Input files.&lt;/p>
+&lt;p>Dataset 1;&lt;/p>
+&lt;p>&lt;strong>url-in&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>output port&lt;/em>:&lt;/p>
+&lt;p>&lt;strong>Name in GUI:&lt;/strong> Assembly&lt;/p>
+&lt;p>&lt;strong>Name in Workflow File:&lt;/strong> out-assembly&lt;/p></description></item><item><title>Read Plain Text Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-readers/read-plain-text-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-readers/read-plain-text-element/</guid><description>&lt;h1 id="read-plain-text-element">Read Plain Text Element&lt;/h1>
+&lt;p>Input one or several text files. The element outputs text message(s), read from the file(s).&lt;/p>
+&lt;p>See the list of all available formats &lt;a href="https://ugene.net/wiki/display/UUOUM27/Appendix+A.+Supported+File+Formats">here&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> read-text&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Input files&lt;/strong> (required)&lt;/p>
+&lt;p>Semicolon-separated list of paths to the input files.&lt;/p>
+&lt;p>&lt;strong>url-in&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Read by lines&lt;/strong> (required)&lt;/p>
+&lt;p>Specifies to read the input file line by line.&lt;/p>
+&lt;p>false&lt;/p>
+&lt;p>&lt;strong>read-by-lines&lt;/strong>&lt;/p>
+&lt;p>&lt;em>boolean&lt;/em>&lt;/p>
+&lt;p>Input/Output Ports&lt;/p></description></item><item><title>Read Sequence Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-readers/read-sequence-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-readers/read-sequence-element/</guid><description>&lt;h1 id="read-sequence-element">Read Sequence Element&lt;/h1>
+&lt;p>Input one or several files with nucleotide or protein sequences.&lt;/p>
+&lt;p>A file may also contain annotations. Any format, supported by UGENE, is allowed (GenBank, FASTA, etc.).&lt;/p>
+&lt;p>The element outputs message(s) with the sequence and annotations data.&lt;/p>
+&lt;p>See the list of all available formats &lt;a href="https://local.ugene.unipro.ru/wiki/display/UUOUM27/Appendix+A.+Supported+File+Formats">here&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> read-sequence&lt;/p>
+&lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Input files&lt;/strong>&lt;/p>
+&lt;p>Semicolon-separated list of datasets to the input files.&lt;/p></description></item><item><title>Read Sequence from Remote Database Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-readers/read-sequence-from-remote-database-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-readers/read-sequence-from-remote-database-element/</guid><description>&lt;h1 id="read-sequence-from-remote-database-element">Read Sequence from Remote Database Element&lt;/h1>
+&lt;p>Download sequence(s) with the specified ID(s) from one of the remote databases: NCBI, Ensembl, PDB, etc.&lt;/p>
+&lt;p>The sequences are downloaded with the associated annotations in a file format, specific for the selected database.&lt;/p>
+&lt;p>The element outputs message(s) with the sequence and annotations data.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> fetch-sequence&lt;/p>
+&lt;p>Parameters&lt;/p>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Resource IDs&lt;/strong> (required)&lt;/p>
+&lt;p>Semicolon-separated list of resource IDs in the database.&lt;/p></description></item><item><title>Read Variants Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-readers/read-variants-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-readers/read-variants-element/</guid><description>&lt;h1 id="read-variants-element">Read Variants Element&lt;/h1>
+&lt;p>Input one or several files with variants in one of the formats, supported by UGENE (e.g. VCF).&lt;/p>
+&lt;p>The element outputs message(s) with the variants data.&lt;/p>
+&lt;p>See the list of all available formats &lt;a href="https://ugene.net/wiki/display/UUOUM27/Appendix+A.+Supported+File+Formats">here&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> read-variations&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Input file(s)&lt;/strong>&lt;/p>
+&lt;p>Input file(s).&lt;/p>
+&lt;p>Dataset 1&lt;/p>
+&lt;p>&lt;strong>url-in&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>output port&lt;/em>:&lt;/p>
+&lt;p>&lt;strong>Name in GUI:&lt;/strong> Variation track&lt;/p>
+&lt;p>&lt;strong>Name in Workflow File:&lt;/strong> out-variations&lt;/p></description></item></channel></rss>

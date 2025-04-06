@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data Merging on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/data-merging/</link><description>Recent content in Data Merging on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/workflow-samples/data-merging/index.xml" rel="self" type="application/rss+xml"/><item><title>Find Substrings in Sequences</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/data-merging/find-substrings-in-sequences/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/data-merging/find-substrings-in-sequences/</guid><description>&lt;h1 id="find-substrings-in-sequences">Find Substrings in Sequences&lt;/h1>
+&lt;p>This sample workflow shows how to find substrings in input sequences, annotate them, and merge the found substring annotations with the original sequence annotations.&lt;/p>
+&lt;p>The steps of the workflow are these:&lt;/p>
+&lt;ol>
+&lt;li>The workflow reads sequences from the input sequence files (e.g. GenBank). The input data may also contain the annotations, associated with the sequences.&lt;/li>
+&lt;li>The workflow reads text strings (patterns) from the input text files.&lt;/li>
+&lt;li>The data are multiplexed using the &lt;a href="multiplexer-element.md">Multiplexer&lt;/a> element. Multiplexing rule &amp;ldquo;1 to many&amp;rdquo; is used, so each input sequence is concatenated with each pattern. The concatenating results are sent to the &lt;em>Find Substrings&lt;/em> element.&lt;/li>
+&lt;li>The &lt;em>Find Substrings&lt;/em> element searches for the specified patterns in each sequence.&lt;/li>
+&lt;li>The next element &lt;a href="grouper-element.md">Grouper&lt;/a> merges annotations, read for the sequence in the &lt;em>Read Sequence&lt;/em> element, with annotations, found for the sequence by the &lt;em>Find Substrings&lt;/em> element. A sequence ID is used to group the appropriate sets of annotations.&lt;/li>
+&lt;li>And finally, the data are written to the output file (&amp;ldquo;substrings.gb&amp;rdquo; , by default).&lt;/li>
+&lt;/ol>
+&lt;p>How to Use This Sample&lt;/p></description></item><item><title>Merge Sequences and Shift Corresponding Annotations</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/data-merging/merge-sequences-and-shift-corresponding-annotations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/data-merging/merge-sequences-and-shift-corresponding-annotations/</guid><description>&lt;h1 id="merge-sequences-and-shift-corresponding-annotations">Merge Sequences and Shift Corresponding Annotations&lt;/h1>
+&lt;p>This workflow describes how to merge sequences and manipulate with its annotations.&lt;/p>
+&lt;p>First, the workflow reads sequence(s) from file(s). Then, marks the input sequences with the sequence name marker. After marking the sequences are grouped by the marker. Sequences with equal markers are merged into one sequence. Annotations are shifted using the position of the corresponding sequence at the merged sequence. And finally, the grouped data are written into file, specified by a user.&lt;/p></description></item><item><title>Search for TFBS</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/data-merging/search-for-tfbs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/data-merging/search-for-tfbs/</guid><description>&lt;h1 id="search-for-tfbs">Search for TFBS&lt;/h1>
+&lt;p>This sample shows how to search for transcription factor binding sites (TFBS) using two different approaches - weight matrices and SITECON models - and write the found TFBS annotations into one output file.&lt;/p>
+&lt;p>The workflow steps are these:&lt;/p>
+&lt;ol>
+&lt;li>The workflow reads the input sequences.&lt;/li>
+&lt;li>Each sequence goes to the TFBS searching elements.&lt;/li>
+&lt;li>&lt;em>Read Weight Matrix&lt;/em> reads the input weight matrices. &lt;em>Read SITECON Model&lt;/em> reads the input SITECON models. The data are also transferred to the TFBS searching elements.&lt;/li>
+&lt;li>Each TFBS searching element produces the corresponding annotations.&lt;/li>
+&lt;li>After that the two annotation data flows are multiplexed into one data flow.&lt;/li>
+&lt;li>The multiplexed data and are written to the output file (&amp;ldquo;merged.gb&amp;rdquo;, by default).&lt;/li>
+&lt;/ol>
+&lt;p>How to Use This Sample&lt;/p></description></item></channel></rss>

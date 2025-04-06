@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tree Settings on UGENE Documentation</title><link>https://ugene.net/docs/phylogenetic-tree-viewer/tree-settings/</link><description>Recent content in Tree Settings on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/phylogenetic-tree-viewer/tree-settings/index.xml" rel="self" type="application/rss+xml"/><item><title>Adjusting Branch Settings</title><link>https://ugene.net/docs/phylogenetic-tree-viewer/tree-settings/adjusting-branch-settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/phylogenetic-tree-viewer/tree-settings/adjusting-branch-settings/</guid><description>&lt;h1 id="adjusting-branch-settings">Adjusting Branch Settings&lt;/h1>
+&lt;p>To adjust branch settings select the &lt;em>Tree settings Options Panel&lt;/em> tab.&lt;/p>
+&lt;p>The following settings are available:&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929737/82608265.png" alt="">&lt;/p>
+&lt;p>Here you can change the size of the tree using &lt;em>Expansion&lt;/em> slider and the curvature of the lines using the &lt;em>Curvature&lt;/em> slider.&lt;/p>
+&lt;p>Slider position returns to original position by double click on field name or on the sliders.&lt;/p>
+&lt;p>Here you also can select the color and the line width of the tree branches.&lt;/p></description></item><item><title>Adjusting Tree nodes</title><link>https://ugene.net/docs/phylogenetic-tree-viewer/tree-settings/adjusting-tree-nodes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/phylogenetic-tree-viewer/tree-settings/adjusting-tree-nodes/</guid><description>&lt;h1 id="adjusting-tree-nodes">Adjusting Tree nodes&lt;/h1>
+&lt;p>No_de shapes and Tip shapes_ are unselected by default in the _Tree settings Options Panel.
+_&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/92602405/92602412.png" alt="">&lt;/p>
+&lt;p>Selection &lt;em>Node shapes&lt;/em> option &lt;em>draws circles on&lt;/em> all internal nodes.Selection &lt;em>Tip shapes&lt;/em> option draws circles on all end nodes on the right.&lt;/p></description></item><item><title>Selecting Tree Layout and View</title><link>https://ugene.net/docs/phylogenetic-tree-viewer/tree-settings/selecting-tree-layout-and-view/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/phylogenetic-tree-viewer/tree-settings/selecting-tree-layout-and-view/</guid><description>&lt;h1 id="selecting-tree-layout-and-view">Selecting Tree Layout and View&lt;/h1>
+&lt;p>You can select one of the following tree layouts:&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>Rectangular&lt;/em>&lt;/li>
+&lt;li>&lt;em>Circular&lt;/em>&lt;/li>
+&lt;li>&lt;em>Unrooted&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;p>To do it press the &lt;em>Layout&lt;/em> toolbar button and check the required item in the appeared menu or select it in the &lt;em>Tree settings Options Panel&lt;/em> tab:&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929727/65929728.png" alt="">&lt;/p>
+&lt;p>See the example of the &lt;em>Circular&lt;/em> layout:&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929727/65929729.png" alt="">&lt;/p>
+&lt;p>Also you can select one of the following tree view:&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>Default&lt;/em>&lt;/li>
+&lt;li>&lt;em>Phylogram&lt;/em>&lt;/li>
+&lt;li>&lt;em>Cladogram&lt;/em>&lt;/li>
+&lt;/ul></description></item></channel></rss>

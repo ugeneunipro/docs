@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data Writers on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/</link><description>Recent content in Data Writers on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/index.xml" rel="self" type="application/rss+xml"/><item><title>Write Alignment Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-alignment-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-alignment-element/</guid><description>&lt;h1 id="write-alignment-element">Write Alignment Element&lt;/h1>
+&lt;p>The element gets message(s) with alignment data and saves the data to the specified file(s) in one of the multiple sequence alignment formats, supported by UGENE (ClustalW, FASTA, etc.).&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> write-msa&lt;/p>
+&lt;p>Parameters&lt;/p>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Data storage&lt;/strong>&lt;/p>
+&lt;p>Place to store workflow results: local file system or a database.&lt;/p>
+&lt;p>&lt;strong>data-storage&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Document format&lt;/strong>&lt;/p>
+&lt;p>Format of the output file.&lt;/p>
+&lt;p>clustal&lt;/p>
+&lt;p>&lt;strong>document-format&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p></description></item><item><title>Write Annotations Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-annotations-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-annotations-element/</guid><description>&lt;h1 id="write-annotations-element">Write Annotations Element&lt;/h1>
+&lt;p>The element gets the message(s) with annotations data and saves the data to the specified file(s) in one of the appropriate formats (GenBank, GTF, etc.).&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> write-annotations&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Data storage&lt;/strong>&lt;/p>
+&lt;p>Place to store workflow results: local file system or a database.&lt;/p>
+&lt;p>&lt;strong>data-storage&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Output file&lt;/strong>&lt;/p>
+&lt;p>Location of the output data file. If this attribute is set, slot “Location” in port will not be used.&lt;/p></description></item><item><title>Write FASTA Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-fasta-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-fasta-element/</guid><description>&lt;h1 id="write-fasta-element">Write FASTA Element&lt;/h1>
+&lt;p>The element gets message(s) with sequence data and saves the data to the specified file(s) in FASTA format.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> write-fasta&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Output file&lt;/strong>&lt;/p>
+&lt;p>Location of the output data file. If this attribute is set, then the “Location” slot is not taken into account.&lt;/p>
+&lt;p>&lt;strong>url-out&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Output file suffix&lt;/strong>&lt;/p>
+&lt;p>This suffix will be used for generating the output file name.&lt;/p></description></item><item><title>Write NGS Reads Assembly Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-ngs-reads-assembly-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-ngs-reads-assembly-element/</guid><description>&lt;h1 id="write-ngs-reads-assembly-element">Write NGS Reads Assembly Element&lt;/h1>
+&lt;p>The element gets message(s) with assembled reads data and saves the data to the specified file(s) in one of the appropriate formats (SAM, BAM, or UGENEDB).&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> write-assembly&lt;/p>
+&lt;p>Parameters&lt;/p>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Data storage&lt;/strong>&lt;/p>
+&lt;p>Place to store workflow results: local file system or a database.&lt;/p>
+&lt;p>&lt;strong>data-storage&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Document format&lt;/strong>&lt;/p>
+&lt;p>Document format of the output file.&lt;/p>
+&lt;p>bam&lt;/p>
+&lt;p>&lt;strong>document-format&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p></description></item><item><title>Write Plain Text Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-plain-text-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-plain-text-element/</guid><description>&lt;h1 id="write-plain-text-element">Write Plain Text Element&lt;/h1>
+&lt;p>The element gets message(s) with text data and saved the data to the specified text file(s).&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> write-text&lt;/p>
+&lt;p>Parameters&lt;/p>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Data storage&lt;/strong>&lt;/p>
+&lt;p>Place to store workflow results: local file system or a database.&lt;/p>
+&lt;p>&lt;strong>data-storage&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Output file&lt;/strong>&lt;/p>
+&lt;p>Location of the output data file. If this attribute is set, then the “Location” slot is not taken into account.&lt;/p></description></item><item><title>Write Sequence Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-sequence-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-sequence-element/</guid><description>&lt;h1 id="write-sequence-element">Write Sequence Element&lt;/h1>
+&lt;p>The element gets message(s) with sequence data and, optionally, associated annotations data and saves the data to the specified file(s) in one of the appropriate formats (GenBank, FASTA, etc.).&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> write-sequence&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Data storage&lt;/strong>&lt;/p>
+&lt;p>Place to store workflow results: local file system or a database.&lt;/p>
+&lt;p>&lt;strong>data-storage&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Output file&lt;/strong>&lt;/p>
+&lt;p>Location of the output data file. If this attribute is set, then the “Location” slot is not taken into account.&lt;/p></description></item><item><title>Write Variants Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-variants-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-variants-element/</guid><description>&lt;h1 id="write-variants-element">Write Variants Element&lt;/h1>
+&lt;p>The element gets message(s) with variations data and saves the data to the specified file(s) in one of the appropriate formats (e.g. VCF).&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> write-variations&lt;/p>
+&lt;p>Parameters&lt;/p>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Data storage&lt;/strong>&lt;/p>
+&lt;p>Place to store workflow results: local file system or a database.&lt;/p>
+&lt;p>&lt;strong>data-storage&lt;/strong>&lt;/p>
+&lt;p>&lt;em>split&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Accumulate objects&lt;/strong>&lt;/p>
+&lt;p>Accumulate all incoming data in one file or create separate files for each input.In the latter case, an incremental numerical suffix is added to the file name.&lt;/p></description></item></channel></rss>

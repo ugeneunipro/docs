@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Short Reads Vizualization on UGENE Documentation</title><link>https://ugene.net/docs/assembly-browser/short-reads-vizualization/</link><description>Recent content in Short Reads Vizualization on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/assembly-browser/short-reads-vizualization/index.xml" rel="self" type="application/rss+xml"/><item><title>Reads Highlighting</title><link>https://ugene.net/docs/assembly-browser/short-reads-vizualization/reads-highlighting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/short-reads-vizualization/reads-highlighting/</guid><description>&lt;h1 id="reads-highlighting">Reads Highlighting&lt;/h1>
+&lt;p>To apply a reads highlighting mode, select it in the &lt;em>Reads highlighting&lt;/em> menu of the &lt;em>Reads Area&lt;/em> context menu or on the &lt;em>Assembly Browser Settings&lt;/em> tab of the &lt;em>Options Panel&lt;/em>. The following modes are available:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;em>Nucleotide&lt;/em> — shows all nucleotides in different colors. It is used by default.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;em>Difference&lt;/em> — highlights gaps and nucleotides that differ from the reference sequence. You should add a reference first for correct displaying of this highlighting.&lt;/p></description></item><item><title>Reads Shadowing</title><link>https://ugene.net/docs/assembly-browser/short-reads-vizualization/reads-shadowing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/short-reads-vizualization/reads-shadowing/</guid><description>&lt;h1 id="reads-shadowing">Reads Shadowing&lt;/h1>
+&lt;p>Various modes of column highlighting are available from the &lt;em>Reads shadowing&lt;/em> item in the context menu of the &lt;em>Reads Area&lt;/em>:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;em>Disabled&lt;/em> — highlights all columns of nucleotides.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;em>Free&lt;/em> — highlights all reads that intersect a given column. In this mode you can lock a position. Click the &lt;em>Lock here&lt;/em> item in the context menu to do it. To return to a locked position, select the &lt;em>Jump to locked base&lt;/em> item in the context menu.&lt;/p></description></item></channel></rss>

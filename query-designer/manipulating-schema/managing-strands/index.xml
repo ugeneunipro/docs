@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Managing Strands on UGENE Documentation</title><link>https://ugene.net/docs/query-designer/manipulating-schema/managing-strands/</link><description>Recent content in Managing Strands on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/query-designer/manipulating-schema/managing-strands/index.xml" rel="self" type="application/rss+xml"/><item><title>Element Direction in Schema</title><link>https://ugene.net/docs/query-designer/manipulating-schema/managing-strands/element-direction-in-schema/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/manipulating-schema/managing-strands/element-direction-in-schema/</guid><description>&lt;h1 id="element-direction-in-schema">Element Direction in Schema&lt;/h1>
+&lt;p>For some &lt;em>algorithm elements&lt;/em> (e.g. &lt;em>ORF&lt;/em>) the &lt;em>Direction&lt;/em> parameter is available in the &lt;em>Property Editor&lt;/em>. It specifies the direction of the current element relatively to other elements in the schema and can take the following values:&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>Direct&lt;/em> — specifies to search the results for the element in the current strand.&lt;/li>
+&lt;li>&lt;em>Forward&lt;/em> — specifiesd to search the results for the element in the reverse complementary strand.&lt;/li>
+&lt;li>&lt;em>Any&lt;/em> — the results for the element are seached in the both strands.&lt;/li>
+&lt;/ul>
+&lt;p>Notice that an element changes it’s appearance on the &lt;em>Scene&lt;/em> when different values are selected:&lt;/p></description></item><item><title>Querying Sequence Strands</title><link>https://ugene.net/docs/query-designer/manipulating-schema/managing-strands/querying-sequence-strands/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/manipulating-schema/managing-strands/querying-sequence-strands/</guid><description>&lt;h1 id="querying-sequence-strands">Querying Sequence Strands&lt;/h1>
+&lt;p>As the &lt;strong>Example1&lt;/strong> above shows, both sequence strands are queried by default.&lt;/p>
+&lt;p>To modify this behavior select the &lt;em>Actions ‣ Query Sequence Mode&lt;/em> item in the main menu or &lt;em>Query Sequence Mode&lt;/em> toolbar button. You can choose between the following values:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;em>Direct strand&lt;/em> — the search is performed for the direct strand only.&lt;/p>
+&lt;p>Note, that the results can still be found in the complement strand if you have set the &lt;em>Any&lt;/em> or &lt;em>Backward&lt;/em> direction for an element.&lt;/p></description></item></channel></rss>

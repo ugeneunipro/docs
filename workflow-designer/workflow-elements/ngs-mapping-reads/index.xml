@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NGS: Mapping Reads on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/</link><description>Recent content in NGS: Mapping Reads on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/index.xml" rel="self" type="application/rss+xml"/><item><title>Assemble Reads with SPAdes Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/assemble-reads-with-spades-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/assemble-reads-with-spades-element/</guid><description>&lt;h1 id="assemble-reads-with-spades-element">Assemble Reads with SPAdes Element&lt;/h1>
+&lt;p>Performers assembly of input short reads.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> spades-id&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>Input data&lt;/p>
+&lt;p>Select the type of input for SPAdes. URL(s) to the input files of the selected type(s) should be provided to the corresponding port(s) of the workflow element.&lt;/p>
+&lt;p>At least one library of the following types is required:&lt;/p>
+&lt;ul>
+&lt;li>Illumina paired-end/high-quality mate-pairs/unpaired reads&lt;/li>
+&lt;li>IonTorrent paired-end/high-quality mate-pairs/unpaired reads&lt;/li>
+&lt;li>PacBio CCS reads (at least 5 reads coverage is recommended)&lt;/li>
+&lt;/ul>
+&lt;p>It is strongly suggested to provide multiple paired-end and mate-pair libraries according to their insert size (from smallest to longest).&lt;/p></description></item><item><title>Map Reads with Bowtie Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-bowtie-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-bowtie-element/</guid><description>&lt;h1 id="map-reads-with-bowtie-element">Map Reads with Bowtie Element&lt;/h1>
+&lt;p>Performs alignment of short reads with Bowtie.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> align-reads-with-bowtie&lt;/p>
+&lt;p>Parameters&lt;/p>
+&lt;p>&lt;strong>Output directory&lt;/strong>&lt;/p>
+&lt;p>Directory to save Bowtie output files.&lt;/p>
+&lt;p>&lt;strong>output-dir&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Reference genome&lt;/strong>&lt;/p>
+&lt;p>Path to an indexed reference genome.&lt;/p>
+&lt;p>&lt;strong>reference&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Output file name&lt;/strong>&lt;/p>
+&lt;p>Base name of the output file. &amp;lsquo;out.sam&amp;rsquo; by default.&lt;/p>
+&lt;p>out.sam&lt;/p>
+&lt;p>&lt;strong>outname&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Library&lt;/strong>&lt;/p>
+&lt;p>Is this library mate-paired?&lt;/p>
+&lt;p>single-end&lt;/p>
+&lt;p>&lt;strong>library&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Mode&lt;/strong>&lt;/p>
+&lt;p>When the -n option is specified (which is the default), bowtie determines which alignments are valid according to the following policy, which is similar to Maq&amp;rsquo;s default policy. In -v mode, alignments may have no more than V mismatches, where V may be a number from 0 through 3 set using the -v option. Quality values are ignored. The -v option is mutually exclusive with the -n option.&lt;/p></description></item><item><title>Map Reads with Bowtie2 Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-bowtie2-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-bowtie2-element/</guid><description>&lt;h1 id="map-reads-with-bowtie2-element">Map Reads with Bowtie2 Element&lt;/h1>
+&lt;p>Performs alignment of short reads with Bowtie2.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> align-reads-with-bowtie2&lt;/p>
+&lt;p>Parameters in GUI&lt;/p>
+&lt;p>&lt;strong>Output directory&lt;/strong>&lt;/p>
+&lt;p>Directory to save Bowtie2 output files.&lt;/p>
+&lt;p>&lt;strong>output-dir&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Reference genome&lt;/strong>&lt;/p>
+&lt;p>Path to an indexed reference genome.&lt;/p>
+&lt;p>&lt;strong>reference&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Output file name&lt;/strong>&lt;/p>
+&lt;p>Base name of the output file. &amp;lsquo;out.sam&amp;rsquo; by default.&lt;/p>
+&lt;p>out.sam&lt;/p>
+&lt;p>&lt;strong>outname&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Library&lt;/strong>&lt;/p>
+&lt;p>Is this library mate-paired?&lt;/p>
+&lt;p>single-end&lt;/p>
+&lt;p>&lt;strong>library&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Mode&lt;/strong>&lt;/p>
+&lt;p>When the -n option is specified (which is the default), bowtie determines which alignments are valid according to the following policy, which is similar to Maq&amp;rsquo;s default policy. In -v mode, alignments may have no more than V mismatches, where V may be a number from 0 through 3 set using the -v option. Quality values are ignored. The -v option is mutually exclusive with the -n option.&lt;/p></description></item><item><title>Map Reads with BWA Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-bwa-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-bwa-element/</guid><description>&lt;h1 id="map-reads-with-bwa-element">Map Reads with BWA Element&lt;/h1>
+&lt;p>Performs alignment of short reads with BWA.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> align-reads-with-bwa&lt;/p>
+&lt;p>Parameters&lt;/p>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Output directory&lt;/strong>&lt;/p>
+&lt;p>Directory to save BWA-MEM output files.&lt;/p>
+&lt;p>&lt;strong>output-dir&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Reference genome&lt;/strong>&lt;/p>
+&lt;p>Path to an indexed reference genome.&lt;/p>
+&lt;p>&lt;strong>reference&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Output file name&lt;/strong>&lt;/p>
+&lt;p>Base name of the output file. &amp;lsquo;out.sam&amp;rsquo; by default.&lt;/p>
+&lt;p>out.sam&lt;/p>
+&lt;p>&lt;strong>outname&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Library&lt;/strong>&lt;/p>
+&lt;p>Is this library mate-paired?&lt;/p>
+&lt;p>single-end&lt;/p>
+&lt;p>&lt;strong>library&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Use missing prob&lt;/strong>&lt;/p></description></item><item><title>Map Reads with BWA-MEM Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-bwa-mem-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-bwa-mem-element/</guid><description>&lt;h1 id="map-reads-with-bwa-mem-element">Map Reads with BWA-MEM Element&lt;/h1>
+&lt;p>Performs alignment of short reads with BWA-MEM.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> bwamem-id&lt;/p>
+&lt;p>Parameters&lt;/p>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Output directory&lt;/strong>&lt;/p>
+&lt;p>Directory to save BWA-MEM output files.&lt;/p>
+&lt;p>&lt;strong>output-dir&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Reference genome&lt;/strong>&lt;/p>
+&lt;p>Path to an indexed reference genome.&lt;/p>
+&lt;p>&lt;strong>reference&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Output file name&lt;/strong>&lt;/p>
+&lt;p>Base name of the output file. &amp;lsquo;out.sam&amp;rsquo; by default.&lt;/p>
+&lt;p>out.sam&lt;/p>
+&lt;p>&lt;strong>outname&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Library&lt;/strong>&lt;/p>
+&lt;p>Is this library mate-paired?&lt;/p>
+&lt;p>single-end&lt;/p>
+&lt;p>&lt;strong>library&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Number of threads&lt;/strong>&lt;/p></description></item><item><title>Map Reads with UGENE Genome Aligner Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-ugene-genome-aligner-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-ugene-genome-aligner-element/</guid><description>&lt;h1 id="map-reads-with-ugene-genome-aligner-element">Map Reads with UGENE Genome Aligner Element&lt;/h1>
+&lt;p>Unique UGENE algorithm for aligning short reads to reference genome.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> genome-aligner&lt;/p>
+&lt;p>Parameters&lt;/p>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Output file name&lt;/strong>&lt;/p>
+&lt;p>Base name of the output file. &amp;lsquo;out.sam&amp;rsquo; by default.&lt;/p>
+&lt;p>out.sam&lt;/p>
+&lt;p>&lt;strong>outname&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Reference genome&lt;/strong>&lt;/p>
+&lt;p>Path to an indexed reference genome.&lt;/p>
+&lt;p>&lt;strong>reference&lt;/strong>&lt;/p>
+&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Is absolute mismatches values?&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>true&lt;/strong> - absolute mismatches mode is used&lt;/p>
+&lt;p>&lt;strong>false&lt;/strong> - percentage mismatches mode is used&lt;/p></description></item><item><title>Map RNA-Seq Reads with TopHat Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-rna-seq-reads-with-tophat-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-rna-seq-reads-with-tophat-element/</guid><description>&lt;h1 id="map-rna-seq-reads-with-tophat-element">Map RNA-Seq Reads with TopHat Element&lt;/h1>
+&lt;p>TopHat is a program for mapping RNA-Seq reads to a long reference sequence. It uses Bowtie or Bowtie2 to map the reads and then analyzes the mapping results to identify splice junctions between exons.&lt;/p>
+&lt;p>Provide URL(s) to FASTA or FASTQ file(s) with NGS RNA-Seq reads to the input port of the element, set up the reference sequence in the parameters. The result is saved to the specified BAM file, URL to the file is passed to the output port. Several UCSC BED tracks are also produced: junctions, insertions, and deletions.&lt;/p></description></item></channel></rss>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dotplot on UGENE Documentation</title><link>https://ugene.net/docs/sequence-view-extensions/dotplot/</link><description>Recent content in Dotplot on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/sequence-view-extensions/dotplot/index.xml" rel="self" type="application/rss+xml"/><item><title>Building Dotplot for Currently Opened Sequence</title><link>https://ugene.net/docs/sequence-view-extensions/dotplot/building-dotplot-for-currently-opened-sequence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view-extensions/dotplot/building-dotplot-for-currently-opened-sequence/</guid><description>&lt;h1 id="building-dotplot-for-currently-opened-sequence">Building Dotplot for Currently Opened Sequence&lt;/h1>
+&lt;p>To build a dotplot for currently opened sequences, create a multiple view containing these sequences. It can be arranged by dragging the corresponding sequence objects (the items strated with the “[s]”) into the same &lt;em>Sequence View&lt;/em>.&lt;/p>
+&lt;p>Then right-click on the created view and select the &lt;em>Analyze ‣ Build dotplot&lt;/em> item in the context menu. Every sequence from the current multiple sequence view can be used to build a dotplot.&lt;/p></description></item><item><title>Comparing Several Dotplots</title><link>https://ugene.net/docs/sequence-view-extensions/dotplot/comparing-several-dotplots/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view-extensions/dotplot/comparing-several-dotplots/</guid><description>&lt;h1 id="comparing-several-dotplots">Comparing Several Dotplots&lt;/h1>
+&lt;p>Dotplots created for the same view are shown at the same view.&lt;/p>
+&lt;p>If the horizontal and vertical sequences of several dotplots are the same correspondingly, it is possible to lock all zooming and navigating operations for these dotplots. Press the &lt;em>Multiple view synchronization lock&lt;/em> button on the left.&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929611/65929612.png" alt="">&lt;/p></description></item><item><title>Creating Dotplot</title><link>https://ugene.net/docs/sequence-view-extensions/dotplot/creating-dotplot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view-extensions/dotplot/creating-dotplot/</guid><description>&lt;h1 id="creating-dotplot">Creating Dotplot&lt;/h1>
+&lt;p>To create a dotplot select the &lt;em>Tools ‣ Build dotplot&lt;/em> main menu item. The &lt;em>Build dotplot from sequences&lt;/em> dialog will appear:&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929583/65929584.png" alt="">&lt;/p>
+&lt;p>Here you should specify the &lt;em>File with first sequence&lt;/em>. Also you should either check the &lt;em>Compare sequence against itself&lt;/em> option or select the &lt;em>File with second sequence&lt;/em>.&lt;/p>
+&lt;p>Optionally you can select to &lt;em>Join all sequences found in the file&lt;/em> (for the first and/or for the second file). If you select to join the sequences you can also select the &lt;em>Gap size&lt;/em>. The gap of the specified size will be inserted between the joined sequences.&lt;/p></description></item><item><title>Editing Parameters</title><link>https://ugene.net/docs/sequence-view-extensions/dotplot/editing-parameters/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view-extensions/dotplot/editing-parameters/</guid><description>&lt;h1 id="editing-parameters">Editing Parameters&lt;/h1>
+&lt;p>It is possible to edit parameters of a built dotplot. Right-click on the dotplot and select the &lt;em>Dotplot ‣ Parameters&lt;/em> context menu item:&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929601/65929602.png" alt="">&lt;/p>
+&lt;p>The parameters dialog will be re-opened. See description of the available parameters &lt;a href="creating-dotplot.md">&lt;em>here&lt;/em>&lt;/a>.&lt;/p></description></item><item><title>Filtering Results</title><link>https://ugene.net/docs/sequence-view-extensions/dotplot/filtering-results/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view-extensions/dotplot/filtering-results/</guid><description>&lt;h1 id="filtering-results">Filtering Results&lt;/h1>
+&lt;p>It is possible to find features intersections and filter dotplot results. Right-click on the dotplot and select the &lt;em>Dotplot ‣ Filter results&lt;/em> context menu item. The following dialog will appear:&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929603/65929604.png" alt="">&lt;/p>
+&lt;p>Select features and click OK button. The filtered dotplot will appear.&lt;/p></description></item><item><title>Interpreting Dotplot - Identifying Matches, Mutations, Invertions, etc</title><link>https://ugene.net/docs/sequence-view-extensions/dotplot/interpreting-dotplot-identifying-matches-mutations-invertions-etc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view-extensions/dotplot/interpreting-dotplot-identifying-matches-mutations-invertions-etc/</guid><description>&lt;h1 id="interpreting-dotplot---identifying-matches-mutations-invertions-etc">Interpreting Dotplot - Identifying Matches, Mutations, Invertions, etc&lt;/h1>
+&lt;p>Using a dotplot graphic, you can identify such the following differences between the sequences:&lt;/p>
+&lt;p>&lt;strong>1. Matches&lt;/strong>&lt;/p>
+&lt;p>A &lt;em>match&lt;/em> between sequences looks like a diagonal line on the dotplot graphic, representing the continuous match (or repeat).&lt;/p>
+&lt;p>&lt;strong>2. Frame shifts&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>a. Mutations&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Mutations&lt;/em> are distinctions between sequences. On the graphic they are represented by gaps in diagonal lines. They interrupt matches.&lt;/p>
+&lt;p>&lt;strong>b. Insertions&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Insertions&lt;/em> are parts of one sequence that are missed in the another, while the surrounding parts match. In other words, an insertion is a subsequence that was inserted into a sequence.&lt;/p></description></item><item><title>Navigating in Dotplot</title><link>https://ugene.net/docs/sequence-view-extensions/dotplot/navigating-in-dotplot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view-extensions/dotplot/navigating-in-dotplot/</guid><description>&lt;h1 id="navigating-in-dotplot">Navigating in Dotplot&lt;/h1>
+&lt;p>To zoom in / zoom out a dotplot you can:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Rotate the mouse wheel.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Press corresponding zoom buttons located on the left:&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929587/65929588.png" alt="">&lt;/p>
+&lt;p>To move the zoomed region you can:&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929587/65929589.png" alt="">&lt;/p>
+&lt;ul>
+&lt;li>Hold the middle mouse button and move the mouse cursor over the zoomed region of the doplot.&lt;/li>
+&lt;li>Click on the desired region of the &lt;em>minimap&lt;/em> in the right bottom corner.&lt;/li>
+&lt;li>Activate the &lt;em>Scroll tool&lt;/em>, hold the left mouse button and move the mouse cursor over the zoomed region:&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929587/65929590.png" alt="">&lt;/p></description></item><item><title>Saving and Loading Dotplot</title><link>https://ugene.net/docs/sequence-view-extensions/dotplot/saving-and-loading-dotplot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view-extensions/dotplot/saving-and-loading-dotplot/</guid><description>&lt;h1 id="saving-and-loading-dotplot">Saving and Loading Dotplot&lt;/h1>
+&lt;p>To save a dotplot in a native format, right-click on the dotplot and select the &lt;em>Dotplot ‣ Save/Load ‣ Save&lt;/em> context menu item:&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929608/88080493.png" alt="">&lt;/p>
+&lt;p>The &lt;em>Save Dotplot&lt;/em> dialog will appear. A dotplot is saved in a file with the *.dpt extension.&lt;/p>
+&lt;p>Later the dotplot can be loaded using the &lt;em>Dotplot ‣ Save/Load ‣ Load&lt;/em> context menu item.&lt;/p></description></item><item><title>Saving Dotplot as Image</title><link>https://ugene.net/docs/sequence-view-extensions/dotplot/saving-dotplot-as-image/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view-extensions/dotplot/saving-dotplot-as-image/</guid><description>&lt;h1 id="saving-dotplot-as-image">Saving Dotplot as Image&lt;/h1>
+&lt;p>To save a dotplot as an image right-click on the dotplot and select the &lt;em>Dotplot ‣ Save/Load ‣ Save as image&lt;/em> context menu item:&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929605/88080488.png" alt="">&lt;/p>
+&lt;p>The following dialog will appear:&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929605/65929606.png" alt="">&lt;/p>
+&lt;p>Available formats are *.png, *.jpg, *.bmp, *.tiff.&lt;/p></description></item><item><title>Selecting Repeat</title><link>https://ugene.net/docs/sequence-view-extensions/dotplot/selecting-repeat/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view-extensions/dotplot/selecting-repeat/</guid><description>&lt;h1 id="selecting-repeat">Selecting Repeat&lt;/h1>
+&lt;p>To select a repeat activate the &lt;em>Select tool&lt;/em>:&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929594/65929595.png" alt="">&lt;/p>
+&lt;p>and click on the repeat:&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929594/65929596.png" alt="">&lt;/p>
+&lt;p>To deselect the repeat either click on other repeat or hold Ctrl and click somewhere on the dotplot.&lt;/p></description></item><item><title>Zooming to Selected Region</title><link>https://ugene.net/docs/sequence-view-extensions/dotplot/zooming-to-selected-region/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view-extensions/dotplot/zooming-to-selected-region/</guid><description>&lt;h1 id="zooming-to-selected-region">Zooming to Selected Region&lt;/h1>
+&lt;p>To select a dotplot region activate the &lt;em>Select tool&lt;/em>:&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929591/65929592.png" alt="">&lt;/p>
+&lt;p>hold down the left mouse button and drag the mouse cursor over the dotplot.&lt;/p>
+&lt;p>When you select a region on a dotplot the corresponding region is also selected in other &lt;em>Sequence View&lt;/em> areas (&lt;em>Sequence details view&lt;/em>, &lt;em>Sequence zoom view&lt;/em>, etc.).&lt;/p>
+&lt;p>The opposite is true as well: if you select a region in a &lt;em>Sequence View&lt;/em> area, the corresponding region is also selected in the dotplot view.&lt;/p></description></item></channel></rss>

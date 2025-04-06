@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Assembly Browser Hotkeys on UGENE Documentation</title><link>https://ugene.net/docs/assembly-browser/assembly-browser-hotkeys/</link><description>Recent content in Assembly Browser Hotkeys on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/assembly-browser/assembly-browser-hotkeys/index.xml" rel="self" type="application/rss+xml"/><item><title>Assembly Overview Hotkeys</title><link>https://ugene.net/docs/assembly-browser/assembly-browser-hotkeys/assembly-overview-hotkeys/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/assembly-browser-hotkeys/assembly-overview-hotkeys/</guid><description>&lt;h1 id="assembly-overview-hotkeys">Assembly Overview Hotkeys&lt;/h1>
+&lt;p>The following hotkeys are available for the &lt;em>Assembly Overview&lt;/em>:&lt;/p>
+&lt;p>Hotkey&lt;/p>
+&lt;p>Action&lt;/p>
+&lt;p>Shift + move mouse&lt;/p>
+&lt;p>Zoom the Assembly Overview to selection&lt;/p>
+&lt;p>Ctrl + wheel&lt;/p>
+&lt;p>Zoom the Assembly Overview&lt;/p>
+&lt;p>Alt + click&lt;/p>
+&lt;p>Zoom the Assembly Overview in 100x&lt;/p>
+&lt;p>wheel + move mouse&lt;/p>
+&lt;p>Move the Assembly Overview&lt;/p></description></item><item><title>Reads Area Hotkeys</title><link>https://ugene.net/docs/assembly-browser/assembly-browser-hotkeys/reads-area-hotkeys/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/assembly-browser-hotkeys/reads-area-hotkeys/</guid><description>&lt;h1 id="reads-area-hotkeys">Reads Area Hotkeys&lt;/h1>
+&lt;p>The following hotkeys are available for the &lt;em>Reads Area&lt;/em>:&lt;/p>
+&lt;p>Hotkey&lt;/p>
+&lt;p>Action&lt;/p>
+&lt;p>wheel&lt;/p>
+&lt;p>Zoom the Reads Area&lt;/p>
+&lt;p>double-click&lt;/p>
+&lt;p>Zoom in the Reads Area&lt;/p>
+&lt;ul>
+&lt;li>/ -&lt;/li>
+&lt;/ul>
+&lt;p>Zoom in / zoom out the Reads Area&lt;/p>
+&lt;p>click + move mouse&lt;/p>
+&lt;p>Move the Reads Area&lt;/p>
+&lt;p>arrow&lt;/p>
+&lt;p>Move one base in the corresponding direction in the Reads Area&lt;/p>
+&lt;p>Ctrl + arrow&lt;/p>
+&lt;p>Move one page in the corresponding direction in the Reads Area&lt;/p>
+&lt;p>Page Up / Page Down&lt;/p></description></item></channel></rss>

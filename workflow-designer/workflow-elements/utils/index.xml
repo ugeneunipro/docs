@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Utils on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/utils/</link><description>Recent content in Utils on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/workflow-elements/utils/index.xml" rel="self" type="application/rss+xml"/><item><title>DNA Statistics Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/utils/dna-statistics-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/utils/dna-statistics-element/</guid><description>&lt;h1 id="dna-statistics-element">DNA Statistics Element&lt;/h1>
+&lt;p>Evaluates statistic for DNA sequences.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> dna-stats&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>GC-content&lt;/strong>&lt;/p>
+&lt;p>Evaluate GC-content.&lt;/p>
+&lt;p>True&lt;/p>
+&lt;p>&lt;strong>gc-content&lt;/strong>&lt;/p>
+&lt;p>&lt;em>boolean&lt;/em>&lt;/p>
+&lt;p>&lt;strong>GC1-content&lt;/strong>&lt;/p>
+&lt;p>Evaluate GC1-content.&lt;/p>
+&lt;p>True&lt;/p>
+&lt;p>&lt;strong>gc1-content&lt;/strong>&lt;/p>
+&lt;p>&lt;em>boolean&lt;/em>&lt;/p>
+&lt;p>&lt;strong>GC2-content&lt;/strong>&lt;/p>
+&lt;p>Evaluate GC2-content.&lt;/p>
+&lt;p>True&lt;/p>
+&lt;p>&lt;strong>gc2-content&lt;/strong>&lt;/p>
+&lt;p>&lt;em>boolean&lt;/em>&lt;/p>
+&lt;p>&lt;strong>GC3-content&lt;/strong>&lt;/p>
+&lt;p>Evaluate GC3-content.&lt;/p>
+&lt;p>True&lt;/p>
+&lt;p>&lt;strong>gc3-content&lt;/strong>&lt;/p>
+&lt;p>&lt;em>boolean&lt;/em>&lt;/p>
+&lt;p>Input/Output Ports&lt;/p>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p>
+&lt;p>&lt;strong>Name in GUI:&lt;/strong> &lt;em>Input sequence&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Name in Workflow File:&lt;/strong> in-sequence&lt;/p>
+&lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
+&lt;p>Slot In GUI&lt;/p>
+&lt;p>Slot in Workflow File&lt;/p></description></item><item><title>Generate DNA Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/utils/generate-dna-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/utils/generate-dna-element/</guid><description>&lt;h1 id="generate-dna-element">Generate DNA Element&lt;/h1>
+&lt;p>Generates random DNA sequences with given nucleotide content that can be specified manually or evaluated from the reference file.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> generate-dna&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;p>Parameter&lt;/p>
+&lt;p>Description&lt;/p>
+&lt;p>Default value&lt;/p>
+&lt;p>Parameter in Workflow File&lt;/p>
+&lt;p>Type&lt;/p>
+&lt;p>&lt;strong>Length&lt;/strong>&lt;/p>
+&lt;p>Length of the resulted sequence or sequences.&lt;/p>
+&lt;p>1000 bp&lt;/p>
+&lt;p>&lt;strong>length&lt;/strong>&lt;/p>
+&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Count&lt;/strong>&lt;/p>
+&lt;p>Number of sequences to generate.&lt;/p>
+&lt;p>1&lt;/p>
+&lt;p>&lt;strong>count&lt;/strong>&lt;/p>
+&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Seed&lt;/strong>&lt;/p>
+&lt;p>Value to initialize the random generator. By default (seed = -1) the generator is initialized with the system time.&lt;/p></description></item></channel></rss>

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About UGENE on UGENE Documentation</title><link>https://ugene.net/docs/about-ugene/</link><description>Recent content in About UGENE on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/about-ugene/index.xml" rel="self" type="application/rss+xml"/><item><title>Cooperation</title><link>https://ugene.net/docs/about-ugene/cooperation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/about-ugene/cooperation/</guid><description>&lt;h1 id="cooperation">Cooperation&lt;/h1>
-&lt;ul>
-&lt;li>Can be used for education purposes in schools and universities&lt;/li>
-&lt;li>Features to be included into the next release are initiated by users&lt;/li>
-&lt;li>UGENE team is ready for collaboration in related projects, both free and commercial&lt;/li>
-&lt;/ul></description></item><item><title>Key Features</title><link>https://ugene.net/docs/about-ugene/key-features/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/about-ugene/key-features/</guid><description>&lt;h1 id="key-features">Key Features&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About UGENE on UGENE Documentation</title><link>https://ugene.net/docs/about-ugene/</link><description>Recent content in About UGENE on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/about-ugene/index.xml" rel="self" type="application/rss+xml"/><item><title>Key Features</title><link>https://ugene.net/docs/about-ugene/key-features/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/about-ugene/key-features/</guid><description>&lt;h1 id="key-features">Key Features&lt;/h1>
 &lt;ul>
 &lt;li>Creating, editing and annotating &lt;strong>nucleic&lt;/strong> acid and &lt;strong>protein&lt;/strong> sequences&lt;/li>
 &lt;li>Search through online databases: &lt;strong>NCBI&lt;/strong>, &lt;strong>ENSEMBL&lt;/strong>, &lt;strong>PDB&lt;/strong>, &lt;strong>SWISS-PROT&lt;/strong>, &lt;strong>UniProtKB/Swiss-Prot&lt;/strong>, &lt;strong>UniProtKB/TrEMBL&lt;/strong>, &lt;strong>UniProt(DAS)&lt;/strong>, &lt;strong>Ensembl Human Genes (DAS)&lt;/strong>&lt;/li>
@@ -28,9 +23,7 @@
 &lt;li>Visualization of &lt;strong>next generation sequencing data&lt;/strong> (&lt;strong>BAM&lt;/strong> files) using &lt;strong>UGENE Assembly Browser&lt;/strong>&lt;/li>
 &lt;li>PCR in silico&lt;/li>
 &lt;li>Spade de novo assembler&lt;/li>
-&lt;/ul></description></item><item><title>UGENE Workspace</title><link>https://ugene.net/docs/about-ugene/ugene-workspace/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/about-ugene/ugene-workspace/</guid><description>&lt;h1 id="ugene-workspace">UGENE Workspace&lt;/h1>
-&lt;p>&lt;a href="http://workspace.ugene.net">UGENE Workspace&lt;/a> is a secure and efficient platform designed to enhance your molecular biology research. It offers seamless integration with the UGENE desktop application, allowing you to securely store your files and access them whenever needed. Additionally, you can easily apply for support through the platform. Explore the features of &lt;a href="http://workspace.ugene.net">UGENE Workspace&lt;/a> and discover how it can simplify and streamline your research with UGENE.&lt;/p>
-&lt;p>&lt;img src="https://ugene.net/docs/images/113541174/113541182.png" alt="">&lt;/p></description></item><item><title>User Interface</title><link>https://ugene.net/docs/about-ugene/user-interface/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/about-ugene/user-interface/</guid><description>&lt;h1 id="user-interface">User Interface&lt;/h1>
+&lt;/ul></description></item><item><title>User Interface</title><link>https://ugene.net/docs/about-ugene/user-interface/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/about-ugene/user-interface/</guid><description>&lt;h1 id="user-interface">User Interface&lt;/h1>
 &lt;ul>
 &lt;li>Visual and interactive genome browsing including circular plasmid view&lt;/li>
 &lt;li>Multiple alignment editor&lt;/li>
@@ -40,4 +33,11 @@
 &lt;li>Easy to use Workflow Designer for custom computational workflows&lt;/li>
 &lt;li>Easy to use Query Designer for analyze a nucleotide sequence using different algorithms at the same time&lt;/li>
 &lt;li>Assembly Browser for visualize and efficiently browsing large next generation sequence assemblies&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;/ul></description></item><item><title>Cooperation</title><link>https://ugene.net/docs/about-ugene/cooperation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/about-ugene/cooperation/</guid><description>&lt;h1 id="cooperation">Cooperation&lt;/h1>
+&lt;ul>
+&lt;li>Can be used for education purposes in schools and universities&lt;/li>
+&lt;li>Features to be included into the next release are initiated by users&lt;/li>
+&lt;li>UGENE team is ready for collaboration in related projects, both free and commercial&lt;/li>
+&lt;/ul></description></item><item><title>UGENE Workspace</title><link>https://ugene.net/docs/about-ugene/ugene-workspace/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/about-ugene/ugene-workspace/</guid><description>&lt;h1 id="ugene-workspace">UGENE Workspace&lt;/h1>
+&lt;p>&lt;a href="http://workspace.ugene.net">UGENE Workspace&lt;/a> is a secure and efficient platform designed to enhance your molecular biology research. It offers seamless integration with the UGENE desktop application, allowing you to securely store your files and access them whenever needed. Additionally, you can easily apply for support through the platform. Explore the features of &lt;a href="http://workspace.ugene.net">UGENE Workspace&lt;/a> and discover how it can simplify and streamline your research with UGENE.&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/113541174/113541182.png" alt="">&lt;/p></description></item></channel></rss>

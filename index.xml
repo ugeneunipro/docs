@@ -5166,7 +5166,7 @@ the company, please, visit the &lt;a href="http://unipro.ru/en/">company website
 &lt;li>&lt;strong>TAR.GZ archive:&lt;/strong> does not require Internet connection to be installed&lt;/li>
 &lt;/ul>
 &lt;p>Other packages for older UGENE version are available on the web page &lt;a href="http://ugene.net/download-all.html">http://ugene.net/download-all.html&lt;/a>.&lt;/p>
-&lt;h3 id="attention-online-installer-has-been-removed-from-ugene-since-version-390">Attention: &lt;strong>O&lt;/strong>nline installer has been removed from UGENE since version 39.0.&lt;/h3>
+&lt;h3 id="attention-online-installer-has-been-removed-from-ugene-since-version-390">Attention: Online installer has been removed from UGENE since version 39.0.&lt;/h3>
 &lt;h3 id="installation-using-online-installer">Installation using online installer&lt;/h3>
 &lt;ul>
 &lt;li>
@@ -5183,16 +5183,23 @@ the company, please, visit the &lt;a href="http://unipro.ru/en/">company website
 &lt;p>&lt;img src="https://ugene.net/docs/images/113541174/113541182.png" alt="">&lt;/p></description></item><item><title>Data Analysis Tools</title><link>https://ugene.net/docs/download-and-installation/data-analysis-tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/download-and-installation/data-analysis-tools/</guid><description>&lt;h1 id="data-analysis-tools">Data Analysis Tools&lt;/h1>
 &lt;p>UGENE provides GUI for a lot of different bioinformatics tools. A tool is supplied either as embedded or external:&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>Embedded tool:&lt;/strong> the tool is integrated into the UGENE source code. Such tools are always available in UGENE independently on the UGENE package type and operating system.&lt;/li>
+&lt;li>&lt;strong>Embedded tool:&lt;/strong> the tool is integrated into the UGENE source code. Such tools are always available in UGENE
+independently on the UGENE package type and operating system.&lt;/li>
 &lt;li>&lt;strong>External tool:&lt;/strong>
 &lt;ul>
-&lt;li>&lt;strong>Integrated (supported) external tool:&lt;/strong> the tool executable file (or files) is provided with UGENE. It is launched when one uses the tool in the UGENE GUI. The result is also shown in the UGENE GUI. Note that the tool may be available on some operating systems only.&lt;/li>
-&lt;li>&lt;strong>Custom external tool:&lt;/strong> it is possible to add &lt;a href="https://local.ugene.unipro.ru/wiki/display/WDD33/Custom+Elements+with+External+Tools">any custom external tool&lt;/a> as a workflow element in the Workflow Designer. See &amp;ldquo;&lt;a href="custom-external-tools.md">Custom External Tools&lt;/a>&amp;rdquo; documentation chapter for details.&lt;/li>
+&lt;li>&lt;strong>Integrated (supported) external tool:&lt;/strong> the tool executable file (or files) is provided with UGENE. It is
+launched when one uses the tool in the UGENE GUI. The result is also shown in the UGENE GUI. Note that the tool
+may be available on some operating systems only.&lt;/li>
+&lt;li>&lt;strong>Custom external tool:&lt;/strong> it is possible to
+add &lt;a href="https://local.ugene.unipro.ru/wiki/display/WDD33/Custom+Elements+with+External+Tools">any custom external tool&lt;/a>
+as a workflow element in the Workflow Designer. See &amp;ldquo;&lt;a href="custom-external-tools.md">Custom External Tools&lt;/a>&amp;rdquo;
+documentation chapter for details.&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
 &lt;h3 id="specify-integrated-external-tools-in-the-installed-package">Specify integrated external tools in the installed package&lt;/h3>
-&lt;p>Most of the external tools (if available on the target operating system) are installed by default in the Online Installer.&lt;/p></description></item><item><title>Notifications</title><link>https://ugene.net/docs/basic-functions/ugene-window-components/notifications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/basic-functions/ugene-window-components/notifications/</guid><description>&lt;h1 id="notifications">Notifications&lt;/h1>
+&lt;p>Most of the external tools (if available on the target operating system) are installed by default in the Online
+Installer.&lt;/p></description></item><item><title>Notifications</title><link>https://ugene.net/docs/basic-functions/ugene-window-components/notifications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/basic-functions/ugene-window-components/notifications/</guid><description>&lt;h1 id="notifications">Notifications&lt;/h1>
 &lt;p>The &lt;em>Notifications&lt;/em> component shows notifications for tasks reports.&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/4227218/4456862.png" alt="">&lt;/p>
 &lt;p>If a task has finished without errors, the notification is blue. If an error has occured during the task execution, the notification is red. If a warning has occured during the task execution, the notification is yellow.&lt;/p>

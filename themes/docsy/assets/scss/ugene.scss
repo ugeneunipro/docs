@@ -1,6 +1,29 @@
+body {
+  //font-family: 'Inter', sans-serif;
+}
+
+.td-navbar {
+  background-color: #40758a;
+}
+
 main {
+  a {
+    text-decoration: none;
+    color: #3a5d96;
+  }
+
+  line-height: 1.75rem;
+
   .doc-content {
     padding-top: 4rem;
+    padding-left: 20px;
+
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 }
 

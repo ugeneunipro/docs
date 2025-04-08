@@ -1,6 +1,6 @@
 ---
 title: "About UGENE"
-weight: 1
+weight: 200
 ---
 
 
@@ -11,11 +11,3 @@ Unipro UGENE is a free cross-platform genome analysis suite. It is distributed u
 To learn more about UGENE visit [UGENE website](http://ugene.unipro.ru/).
 
 It works on Windows, macOS or Linux and requires only a few clicks to install.
-
-*   [Key Features](key-features.md)
-*   [User Interface](user-interface.md)
-*   [Cooperation](cooperation.md)
-*   [UGENE Workspace](ugene-workspace.md)
-
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

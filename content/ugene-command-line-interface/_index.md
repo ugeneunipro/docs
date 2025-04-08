@@ -1,6 +1,6 @@
 ---
 title: "UGENE Command Line Interface"
-weight: 1
+weight: 1400
 ---
 
 

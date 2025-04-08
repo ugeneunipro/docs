@@ -1,0 +1,10 @@
+{{ if .Pages }}
+<ul>
+    {{ range .Pages }}
+    <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ partial "child-pages.html" . }}
+    </li>
+    {{ end }}
+</ul>
+{{ end }}

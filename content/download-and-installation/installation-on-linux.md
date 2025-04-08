@@ -1,6 +1,6 @@
 ---
 title: "Installation on Linux"
-weight: 1
+weight: 400
 ---
 
 

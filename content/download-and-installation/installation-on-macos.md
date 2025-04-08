@@ -1,6 +1,6 @@
 ---
 title: "Installation on macOS"
-weight: 1
+weight: 300
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Sanger Reads Editor"
-weight: 1
+weight: 900
 ---
 
 

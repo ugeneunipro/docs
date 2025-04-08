@@ -1,6 +1,6 @@
 ---
 title: "Alignment Editor"
-weight: 1
+weight: 700
 ---
 
 

@@ -7,7 +7,7 @@ enableRobotsTXT = true
 canonifyURLs = true
 
 [params]
-  copyright = "2025"
+  copyright = "Unipro UGENE"
   offlineSearch = true
   ui.defaultTheme = "light"
   ui.footerAbout = false

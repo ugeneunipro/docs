@@ -1,8 +1,0 @@
-node_modules/
-/tmp
-
-# Hugo
-.hugo_build.lock
-/public
-resources/
-

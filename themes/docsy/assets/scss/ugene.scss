@@ -1,7 +1,3 @@
-body {
-  //font-family: 'Inter', sans-serif;
-}
-
 .td-navbar {
   background-color: #40758a;
 }
@@ -23,6 +19,25 @@ main {
       display: block;
       margin-left: auto;
       margin-right: auto;
+    }
+
+    table {
+      border-collapse: collapse;
+
+      th,
+      td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #f4f4f4;
+      }
+
+      tr:nth-child(even) {
+        background-color: #fafafa;
+      }
     }
   }
 }

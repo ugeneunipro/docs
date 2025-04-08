@@ -13,7 +13,7 @@ The following UGENE package delivery types are available on 64-bit Linux:
 
 Other packages for older UGENE version are available on the web page [http://ugene.net/download-all.html](http://ugene.net/download-all.html).
 
-### Attention: **O**nline installer has been removed from UGENE since version 39.0.
+### Attention: Online installer has been removed from UGENE since version 39.0.
 
 ### Installation using online installer
 

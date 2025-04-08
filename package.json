@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "dev": "hugo server --disableFastRender --watch --themesDir=./themes"
+    "dev": "hugo server --disableFastRender --watch --themesDir=./themes",
+    "dev-fast": "hugo server"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",

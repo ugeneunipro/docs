@@ -1,0 +1,8 @@
+<div class="prev-next-links-block">
+    {{ if .PrevInSection }}
+        <a href="{{ .PrevInSection.Permalink }}" class="prev-next-link">« {{ .PrevInSection.Title }}</a>
+    {{ end }}
+    {{ if .NextInSection }}
+            <a href="{{ .NextInSection.Permalink }}" class="prev-next-link">{{ .NextInSection.Title }} »</a>
+    {{ end }}
+</div>

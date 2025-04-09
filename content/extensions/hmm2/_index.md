@@ -14,7 +14,7 @@ While working on this plugin we were guided by the following principles:
 *   Be compatible with the original HMMER2 package.
 *   Create a high-performance solution utilizing modern multi-core processors and SIMD instructions.
 
-The current version of UGENE provides the user interface for three HMM2 tools: [_HMM build_](building-hmm2-model.md), _[HMM calibrate](calibrating-hmm2-model.md),_ and [_HMM search_](searching-sequence-using-hmm2-profile.md).
+The current version of UGENE provides the user interface for three HMM2 tools: [_HMM build_](building-hmm2-model), _[HMM calibrate](calibrating-hmm2-model),_ and [_HMM search_](searching-sequence-using-hmm2-profile).
 
 In the original program, the corresponding commands are: “hmmbuild”, “hmmcalibrate” and “hmmsearch”.
 

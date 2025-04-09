@@ -6,7 +6,7 @@ weight: 800
 
 # Using Script to Set Parameter Value
 
-When you select an element the _Parameters_ area of the [_Property Editor_](workflow-designer-window-components.md) displays two columns: _Name_ and _Value_.
+When you select an element the _Parameters_ area of the [_Property Editor_](introduction/workflow-designer-window-components) displays two columns: _Name_ and _Value_.
 
 Select the _Show scripting options_ item in the _Scripting mode_ menu on the toolbar or in the _Actions_ main menu.
 

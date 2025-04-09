@@ -62,7 +62,7 @@ Backbone sequence is the sequence that is added to 5' end of the primer for the 
 
 If you set "5' backbone length", then the number of bases you set from 5' end of the backbone sequence will be checked for unwanted connections. The same about "3' backbone length", but from the 3' end. If the checked end has hairpins, self- and homo-dimers you will see the following dialog:
 
-*   [Backbone details](backbone-details.md)
+*   [Backbone details](backbone-details)
 
 
 ----------------------------------------------------------

@@ -38,7 +38,7 @@ Stores a dotplot of a sequence.
 
 UGENE database files stores information for imported BAM or SAM files and can be used for converting this information into a SAM file.
 
-**See also:** [_Import BAM/SAM File_](import-bam-and-sam-files.md)
+**See also:** [_Import BAM/SAM File_](../../assembly-browser/import-bam-and-sam-files)
 
 **Short Reads FASTA**
 

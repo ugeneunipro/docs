@@ -10,7 +10,7 @@ Each Workflow Designer window consists of:
 
 **Palette**
 
-The _Elements_ tab of the palette contains [_workflow elements_](workflow-elements-and-connections.md) for most algorithms intergrated in UGENE and sets of common input / output routines. The elements are grouped into categories that reflect their uses and features. The _Samples_ tab of the palette contains examples of _[workflow](workflow-elements-and-connections.md)_.
+The _Elements_ tab of the palette contains [_workflow elements_](workflow-elements-and-connections) for most algorithms intergrated in UGENE and sets of common input / output routines. The elements are grouped into categories that reflect their uses and features. The _Samples_ tab of the palette contains examples of _[workflow](workflow-elements-and-connections)_.
 
 **Scene**
 

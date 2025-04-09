@@ -13,4 +13,4 @@ To add sequences to an opened alignment, click the _Align sequence(s) to this al
 
 Choose a file with the sequence(s) from the files system, and click _Open_.
 
-Also, you can add an already opened sequence or sequences to the alignment. To do it, select the sequence object(s) in the [Project View](ugene-terminology.md) and click the _Align sequence to this alignment_ toolbar button. The sequence(s) will be aligned to the alignment automatically.
+Also, you can add an already opened sequence or sequences to the alignment. To do it, select the sequence object(s) in the [Project View](../../basic-functions/ugene-terminology) and click the _Align sequence to this alignment_ toolbar button. The sequence(s) will be aligned to the alignment automatically.

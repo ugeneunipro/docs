@@ -11,4 +11,4 @@ Open the _Sequence View_ with a document that contains annotations. A good candi
 
 ![](/images/65929442/65929443.png)
 
-The _Export Sequence of Selected Annotations_ dialog will appear which is similar to the _Export Selected Sequences_ dialog described [_here_](exporting-sequences-to-sequence-format.md).
+The _Export Sequence of Selected Annotations_ dialog will appear which is similar to the _Export Selected Sequences_ dialog described [_here_](../../basic-functions/exporting-objects/exporting-sequences-to-sequence-format).

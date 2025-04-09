@@ -6,7 +6,7 @@ weight: 500
 
 # ORF Marker
 
-From this chapter you can learn how to search for Open Reading Frames (ORF) in a DNA sequence. The ORFs found are stored as automatic annotations. This means that if the automatic annotations highlighting has been enabled then ORFs are searched and highlighted for each sequence opened. Refer [_Automatic Annotations Highlighting_](automatic-annotations-highlighting.md) to learn more.
+From this chapter you can learn how to search for Open Reading Frames (ORF) in a DNA sequence. The ORFs found are stored as automatic annotations. This means that if the automatic annotations highlighting has been enabled then ORFs are searched and highlighted for each sequence opened. Refer [_Automatic Annotations Highlighting_](../sequence-view/annotations-editor/automatic-annotations-highlighting) to learn more.
 
 To open the _ORF Marker_ dialog, select the _Analyze ‣ Find ORFs_ item in the context menu.
 

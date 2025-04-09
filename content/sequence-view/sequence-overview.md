@@ -18,5 +18,5 @@ When the sigma button (in the left part of the _Sequence overview_) is pressed, 
 
 See also:
 
-*   [_Sequence Zoom View_](zoom-view.md)
-*   [_Sequence Details View_](details-view.md)
+*   [_Sequence Zoom View_](zoom-view)
+*   [_Sequence Details View_](details-view)

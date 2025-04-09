@@ -6,7 +6,7 @@ weight: 500
 
 # Running Schema from the Sequence View
 
-Prepare a query _schema_ and [_save_](saving-schema.md) it to a file.
+Prepare a query _schema_ and [_save_](manipulating-schema/saving-schema) it to a file.
 
 Open a nucleotide sequence that you want to analyze with this query schema. You can see the sequence displayed in the **Sequence view**.
 

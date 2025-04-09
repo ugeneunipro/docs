@@ -6,7 +6,7 @@ weight: 200
 
 # Start-End Constraint Element
 
-_[Add the Start-End constraint](adding-constraint-element.md)_ to some two _algorithm elements_. Lets denote these elements as **alg1** and **alg2**.
+_[Add the Start-End constraint](../../manipulating-query-designer-element/adding-constraint-element)_ to some two _algorithm elements_. Lets denote these elements as **alg1** and **alg2**.
 
 Parameters in GUI
 -----------------

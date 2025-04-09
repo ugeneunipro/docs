@@ -12,28 +12,28 @@ To open a tab of the Options Panel click on the corresponding icon at the right 
 More detailed information about different _Options Panel_ tabs can be found in the following chapters:
 
 *   _Options Panel in Sequence View_
-    *   [_Search in Sequence_](searching-in-sequence.md)
+    *   [_Search in Sequence_](../sequence-view/manipulating-sequence/searching-in-sequence)
     *   [_Highlighting Annotations_](highlighting-annotations.md)
     *   [_Information about Sequence_](information-about-sequence.md) (Statistics)
     *   _[In Silico PCR](in-silico-pcr.md)_
-    *   _[Circular View Settings](circular-view-settings.md)_
+    *   _[Circular View Settings](../sequence-view-extensions/circular-viewer/circular-view-settings)_
 
 *   ____Options Panel in Alignment Editor____
     *   ____[Consensus](consensus.md)____
-    *   ____[Searching in Alignment](searching-in-alignment.md)____
+    *   ____[Searching in Alignment](../alignment-editor/working-with-alignment/searching-in-alignment)____
     *   ____[Highlighting Alignment](highlighting-alignment.md)____
-    *   ____[Pairwise Alignment](pairwise-alignment.md)____
+    *   ____[Pairwise Alignment](../alignment-editor/working-with-alignment/pairwise-alignment)____
     *   ____[Tree Settings](tree-settings.md)____
-    *   ____[Export Consensus](export-consensus.md)____
+    *   ____[Export Consensus](../alignment-editor/overview/consensus/export-consensus)____
     *   ___[Statistics](statistics.md)
 
         ___
 *   ____Options Panel in Sanger Editor____
-    *   ____[Alignment Statistics](alignment-statistics.md)____
-    *   ____[Export Chromatogram Consensus](export-chromatogram-consensus.md)____
-    *   ____[Sanger Reads Settings](sanger-reads-settings.md)____
+    *   ____[Alignment Statistics](../sanger-reads-editor/working-with-chromatogram/alignment-statistics)____
+    *   ____[Export Chromatogram Consensus](../sanger-reads-editor/working-with-chromatogram/sanger-reads-consensus/export-chromatogram-consensus)____
+    *   ____[Sanger Reads Settings](../sanger-reads-editor/working-with-chromatogram/sanger-reads-settings)____
 
 *   [_Options Panel in Assembly Browser_](options-panel-in-assembly-browser.md)
-    *   [_Navigation in Assembly Browser_](navigation-in-assembly-browser.md)
-    *   [_Assembly Browser Settings_](assembly-browser-settings.md)
-    *   [_Assembly Statistic_](assembly-statistics.md)
+    *   [_Navigation in Assembly Browser_](../assembly-browser/options-panel-in-assembly-browser/navigation-in-assembly-browser)
+    *   [_Assembly Browser Settings_](../assembly-browser/options-panel-in-assembly-browser/assembly-browser-settings)
+    *   [_Assembly Statistic_](../assembly-browser/options-panel-in-assembly-browser/assembly-statistics)

@@ -12,7 +12,7 @@ UGENE automatically detects the _format_ of the _document_, but if you use the a
 
 To open the advanced dialog select one of the following:
 
-*   _Add ‣ Existing document_ item in the [_Project View_](project-view.md) context menu
+*   _Add ‣ Existing document_ item in the [_Project View_](../../ugene-window-components/project-view) context menu
 *   _File ‣ Open As_ item in the main menu
 
 To simply open the document select one of the following:

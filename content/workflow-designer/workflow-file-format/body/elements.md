@@ -15,7 +15,7 @@ element\_name {
     ...
 }
 
-See, for example, a description of the [_Read alignment_](read-alignment-element.md) element:
+See, for example, a description of the [_Read alignment_](../../workflow-elements/data-readers/read-alignment-element) element:
 
 read-msa {
     type:read-msa;
@@ -56,7 +56,7 @@ dump-info {
     }
 }
 
-The list of parameters available depend on an element. Refer to the [_Workflow Elements_](workflow-elements.md) chapter to find out the parameters for a particular element.To [_set a script value for a parameter_](using-script-to-set-parameter-value.md) use the following form:
+The list of parameters available depend on an element. Refer to the [_Workflow Elements_](workflow-elements.md) chapter to find out the parameters for a particular element.To [_set a script value for a parameter_](../../using-script-to-set-parameter-value) use the following form:
 
 parameter\_name {
     a script value

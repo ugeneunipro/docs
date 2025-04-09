@@ -14,7 +14,7 @@ Since v. 34, 64-bit versions of the operating systems are supported only:
 *   macOS 10.7+
 *   Linux
 
-Note that some external tools may be available only on particular operating systems, see details in the "[Data Analysis Tools](data-analysis-tools.md)" chapter of the manual.
+Note that some external tools may be available only on particular operating systems, see details in the "[Data Analysis Tools](data-analysis-tools)" chapter of the manual.
 
 For older packages, if required, see [http://ugene.net/download-all.html](http://ugene.net/download-all.html).
 

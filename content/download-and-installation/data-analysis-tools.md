@@ -15,7 +15,7 @@ UGENE provides GUI for a lot of different bioinformatics tools. A tool is suppli
       may be available on some operating systems only.
     * **Custom external tool:** it is possible to
       add [any custom external tool](https://local.ugene.unipro.ru/wiki/display/WDD33/Custom+Elements+with+External+Tools)
-      as a workflow element in the Workflow Designer. See "[Custom External Tools](custom-external-tools.md)"
+      as a workflow element in the Workflow Designer. See "[Custom External Tools](../basic-functions/ugene-application-settings/external-tools/custom-external-tools)"
       documentation chapter for details.
 
 ### Specify integrated external tools in the installed package

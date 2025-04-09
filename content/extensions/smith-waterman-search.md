@@ -178,7 +178,7 @@ _Minimal score_ — another simple heuristic which measures sequences similarity
 
 The results of the search are saved as annotations or as multiple alignment. To set the saving parameters go to the _Input and output_ tab of the dialog.
 
-*   If you want to save the results as annotations input [_the annotations saving_](creating-annotation.md) parameters (_Annotation name_, _Group name_, _Annotation type, Description_ and a file to save the annotation to). Also you can add qualifier with corresponding pattern subsequences to result annotations. Check the corresponding checkbox for it.
+*   If you want to save the results as annotations input [_the annotations saving_](../sequence-view/manipulating-annotations/creating-annotation) parameters (_Annotation name_, _Group name_, _Annotation type, Description_ and a file to save the annotation to). Also you can add qualifier with corresponding pattern subsequences to result annotations. Check the corresponding checkbox for it.
 *   If you want to save the results as multiple alignment select the following parameters:
 
 

@@ -47,4 +47,4 @@ Click the _Temperature_ button for choosing temperature calculation algorithm: R
 
 ![](/images/65930783/94076961.png)
 
-### More information about the temperature options see here:  [Melting tempeature](melting-tempeature.md)
+### More information about the temperature options see here:  [Melting tempeature](../../sequence-view/information-about-sequence/melting-tempeature)

@@ -33,4 +33,4 @@ After you click the _OK_ button, UGENE downloads the biological object (DNA sequ
 
 Task report with the specified information will be generated after downloading.
 
-If something goes wrong check the [_Log View_](log-view.md), it will help you to diagnose the problem.
+If something goes wrong check the [_Log View_](ugene-window-components/log-view), it will help you to diagnose the problem.

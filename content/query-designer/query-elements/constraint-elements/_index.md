@@ -12,7 +12,7 @@ When a _constraint element is added_, two _algorithm elements_ are selected.
 
 There are four types of constraints that you can impose on the positional relationship of the results obtained from the algorithms calculations: _End-Start_, _Start-End_, _End-End_ and _Start-Start_.
 
-On the image below you can see a _schema_ with [_Pattern_](pattern-algorithm-element.md) and [_ORF_](orf-algorithm-element.md) algorithm elements and an [_End-Start_](end-start-constraint-element.md) constraint:
+On the image below you can see a _schema_ with [_Pattern_](../algorithm-elements/pattern-algorithm-element) and [_ORF_](../algorithm-elements/orf-algorithm-element) algorithm elements and an [_End-Start_](end-start-constraint-element) constraint:
 
 
 ![](/images/65930685/65930686.png)

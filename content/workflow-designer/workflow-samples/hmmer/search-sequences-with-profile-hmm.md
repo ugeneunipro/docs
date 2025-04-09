@@ -10,7 +10,7 @@ This workflow reads an HMM from a file and searches input sequences for signific
 
 How to Use This Sample
 
-If you haven't used the workflow samples in UGENE before, look at the "[How to Use Sample Workflows](how-to-use-sample-workflows.md)" section of the documentation.
+If you haven't used the workflow samples in UGENE before, look at the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
 
 ##### Workflow Sample Location
 

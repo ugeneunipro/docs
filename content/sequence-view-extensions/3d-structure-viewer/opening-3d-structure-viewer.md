@@ -20,7 +20,7 @@ Notice the _Links_ button on the toolbar. When you click the button the menu app
 *   PDBsum
 *   NCBI MMDB
 
-Note that if you’re online, you can access the Protein Data Bank directly from UGENE and load a required file by its PDB ID (see [_Fetching Data from Remote Database_](fetching-data-from-remote-database.md) for details).
+Note that if you’re online, you can access the Protein Data Bank directly from UGENE and load a required file by its PDB ID (see [_Fetching Data from Remote Database_](../../basic-functions/fetching-data-from-remote-database) for details).
 
 Hint
 

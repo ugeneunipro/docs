@@ -15,4 +15,4 @@ To show/hide the _Log View_ click the _Log_ button in the main UGENE window:
 
 The hotkey for this action is Alt+3.
 
-It is possible to configure the _Log View_ settings: the level of the log to show (ERROR, INFO, DETAILS, TRACE) , the category (Algrorithms, Tasks, etc.), and the format of the log messages (format of the dates, etc.). This settings can be configured in the UGENE [_Application Settings_](logging.md).
+It is possible to configure the _Log View_ settings: the level of the log to show (ERROR, INFO, DETAILS, TRACE) , the category (Algrorithms, Tasks, etc.), and the format of the log messages (format of the dates, etc.). This settings can be configured in the UGENE [_Application Settings_](../ugene-application-settings/logging).

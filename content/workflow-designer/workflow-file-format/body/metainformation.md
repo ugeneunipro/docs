@@ -31,7 +31,7 @@ parameter-aliases {
     ...
 }
 
-The value specified for an element parameter is used as the alias for this parameter when the workflow is [_executed from the command line_](running-workflow-from-the-command-line.md).
+The value specified for an element parameter is used as the alias for this parameter when the workflow is [_executed from the command line_](../../running-workflow-from-the-command-line).
 
 See an example of setting workflow aliases:
 

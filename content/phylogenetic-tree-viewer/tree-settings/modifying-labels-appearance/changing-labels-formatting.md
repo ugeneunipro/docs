@@ -13,4 +13,4 @@ To change formatting of a tree labels select the _Labels_ _Formatting_ toolbar b
 
 Here you can select color, font, size and attributes (bold, italic, etc.) of the labels.
 
-Note that when [_a clade has been selected_](selecting-clade.md) the labels formatting settings are applied to the clade only.
+Note that when [_a clade has been selected_](../../working-with-clade/selecting-clade) the labels formatting settings are applied to the clade only.

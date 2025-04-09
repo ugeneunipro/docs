@@ -12,7 +12,7 @@ The same dialog as for a usual Primer3 calculation will be opened:
 
 ![](/images/96666247/96666251.png)
 
-The main diference is that you cannot choose task - only **check\_primers** is avaliable (which is obvious, because you need to provide at least some primers to have a result). [RTPCR Primer Design](rtpcr-primer-design.md) and [Posterior Actions](posterior-actions.md) tabs are also disabled, as far as their executions expect target sequences. After performing the calculation, you will get the result sequence with your input primers:
+The main diference is that you cannot choose task - only **check\_primers** is avaliable (which is obvious, because you need to provide at least some primers to have a result). [RTPCR Primer Design](rtpcr-primer-design) and [Posterior Actions](posterior-actions) tabs are also disabled, as far as their executions expect target sequences. After performing the calculation, you will get the result sequence with your input primers:
 
 ![](/images/96666247/96666257.png)
 

@@ -36,7 +36,7 @@ _Search for short, nearly exact matches_ — automatically adjusts the word size
 
 _Megablast_ — select this option to compare query with closely related sequences. It works best if the target percent identity is 95% or more, but it is very fast.
 
-You can see the description of the annotation saving parameters [_here_](creating-annotation.md).
+You can see the description of the annotation saving parameters [_here_](../../sequence-view/manipulating-annotations/creating-annotation).
 
 _Search timeout_ — the remote task terminated if the timeout is reached.
 

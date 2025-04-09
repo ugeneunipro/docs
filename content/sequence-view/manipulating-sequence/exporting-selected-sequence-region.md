@@ -13,4 +13,4 @@ Use the _Export ‣ Export selected sequence region_ context menu item to save s
 
 ![](/images/65929440/65929441.png)
 
-The _Export Selected Sequence Region_ dialog will appear which is similar to the _Export Selected Sequences_ dialog described [_here_](exporting-sequences-to-sequence-format.md).
+The _Export Selected Sequence Region_ dialog will appear which is similar to the _Export Selected Sequences_ dialog described [_here_](../../basic-functions/exporting-objects/exporting-sequences-to-sequence-format).

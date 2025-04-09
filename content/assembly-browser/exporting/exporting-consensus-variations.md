@@ -15,7 +15,7 @@ The _following_ dialog will appear:
 
 Select a file, mode and the file format. The following modes are available: _Variations_, _Similar_ and _All_. Variations can be exported as to a SimpleSNP or VCFv4 file.
 
-Modify, if required, the [_consensus algorithm_](consensus-sequence.md).
+Modify, if required, the [_consensus algorithm_](../consensus-sequence).
 
 The consensus is exported with gaps if the _Keep gaps_ check box has been checked.
 

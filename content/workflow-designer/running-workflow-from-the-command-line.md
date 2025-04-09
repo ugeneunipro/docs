@@ -34,7 +34,7 @@ To select ports and slots aliases use the following dialog by the _Actions->Conf
 
 Press the _Ok_ button to save aliases and close the dialog. When you create aliases you can import workflow to element by the _Actions->Import workflow to element_ main menu item.
 
-*   [_Save the workflow_](saving-workflow.md) to a file: if you follow the example, choose the _Actions ‣ Save workflow as..._ item in the main menu, browse for the file location and enter **mySchema** as the workflow name. This name will be used to launch the workflow from the command line.
+*   [_Save the workflow_](manipulating-workflow/saving-workflow) to a file: if you follow the example, choose the _Actions ‣ Save workflow as..._ item in the main menu, browse for the file location and enter **mySchema** as the workflow name. This name will be used to launch the workflow from the command line.
 *   Launch the workflow from the command line:
 
 

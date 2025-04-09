@@ -8,7 +8,7 @@ weight: 800
 
 The _Alignment Editor_ integrates several popular multiple sequence alignment algorithms. Below is the list of available algorithms and links to the documentation:
 
-*   Port of the popular [_MUSCLE3_](muscle-aligning.md) algorithm.
+*   Port of the popular [_MUSCLE3_](../../extensions/umuscle/muscle-aligning) algorithm.
 *   KAlign plugin: effective work with huge alignments.
 *   ClustalW and MAFFT: these algorithms appeared in the version 1.7.2 of UGENE with the [_External Tools_](external-tools-plugin.md) plugin.
 *   T-Coffee: this alignment algorithm is available since version 1.8.1 of UGENE with the _External Tools_ plugin.

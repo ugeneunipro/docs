@@ -6,7 +6,7 @@ weight: 500
 
 # Changing Appearance
 
-The default setting that influence the Workflow Designer appearance can be set in the [_Application Settings_](application-settings.md) dialog. The parameters are shown in the image below:
+The default setting that influence the Workflow Designer appearance can be set in the [_Application Settings_](introduction/ugene-components-and-workflow-designer/application-settings) dialog. The parameters are shown in the image below:
 
 ![](/images/2097185/2359314.png)
 

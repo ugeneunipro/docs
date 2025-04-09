@@ -30,9 +30,9 @@ You can also add an attribute. The following types are supported for attributes:
 *   Number
 *   Boolean
 
-The element created is stored in a directory that can be set in the [_Application Settings_](application-settings.md) dialog.
+The element created is stored in a directory that can be set in the [_Application Settings_](../introduction/ugene-components-and-workflow-designer/application-settings) dialog.
 
-The element also becomes available in the _Custom Elements with Scripts_ group on the [_Palette_](workflow-designer-window-components.md).
+The element also becomes available in the _Custom Elements with Scripts_ group on the [_Palette_](../introduction/workflow-designer-window-components).
 
 It is required to write a script for the element. Supported languages for the script are languages based on the ECMAScript (Javascript, QtScript).
 

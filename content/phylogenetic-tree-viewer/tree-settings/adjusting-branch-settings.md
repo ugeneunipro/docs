@@ -20,4 +20,4 @@ Slider position returns to original position by double click on field name or on
 
 Here you also can select the color and the line width of the tree branches.
 
-Note that when [_a clade has been selected_](selecting-clade.md) the branch settings _Color_ and _Line Width_ are applied to the clade only.
+Note that when [_a clade has been selected_](../working-with-clade/selecting-clade) the branch settings _Color_ and _Line Width_ are applied to the clade only.

@@ -18,11 +18,11 @@ The result output of the workflow contains the filtered and merged FASTQ files. 
 
 How to Use This Sample
 
-If you haven't used the workflow samples in UGENE before, look at the "[How to Use Sample Workflows](how-to-use-sample-workflows.md)" section of the documentation.
+If you haven't used the workflow samples in UGENE before, look at the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
 
 What's Next?
 
-[The Tuxedo workflow](rna-seq-analysis-with-tuxedo-tools.md) can be used to analyze the filtered RNA-seq data. In this case the mapping step of this workflow can be skipped, as it also present in the Tuxedo pipeline.
+[The Tuxedo workflow](rna-seq-analysis-with-tuxedo-tools) can be used to analyze the filtered RNA-seq data. In this case the mapping step of this workflow can be skipped, as it also present in the Tuxedo pipeline.
 
 ##### Workflow Sample Location
 

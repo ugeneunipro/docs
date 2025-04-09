@@ -20,11 +20,11 @@ ugene \[\[--task=\]task\_name\] \[--task\_parameter=value ...\] \[-task\_paramet
 
 Here:
 
-**task\_name** — task to execute, it can be one of the [_predefined tasks_](cli-predefined-tasks.md) or [_a task you have created_](creating-custom-cli-tasks.md).
+**task\_name** — task to execute, it can be one of the [_predefined tasks_](cli-predefined-tasks.md) or [_a task you have created_](creating-custom-cli-tasks).
 
 **task\_parameter** — parameter of the specified task. Some parameters of a task are required, like _in_ and _out_ parameters of some tasks.
 
-**option** — one of the [_CLI options_](cli-options.md).
+**option** — one of the [_CLI options_](cli-options).
 
 See the example below:
 

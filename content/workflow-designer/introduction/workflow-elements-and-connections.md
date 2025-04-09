@@ -6,7 +6,7 @@ weight: 300
 
 # Workflow Elements and Connections
 
-The [_Scene_](workflow-designer-window-components.md) is initially empty and you start with creating a workflow on it:
+The [_Scene_](workflow-designer-window-components) is initially empty and you start with creating a workflow on it:
 
 **workflow**
 
@@ -46,7 +46,7 @@ See an example of a workflow on the image below:
 
 ![](/images/1474798/2359298.png)
 
-Your first step is to [_add_](adding-element.md) necessary workflow elements, for example, by dragging them from the [_Palette_](workflow-designer-window-components.md) to the Scene[:](http://ugene.unipro.ru/documentation/wd_manual/introduction/wd_window_components.html#term-scene)
+Your first step is to [_add_](../manipulating-element/adding-element) necessary workflow elements, for example, by dragging them from the [_Palette_](workflow-designer-window-components) to the Scene[:](http://ugene.unipro.ru/documentation/wd_manual/introduction/wd_window_components.html#term-scene)
 
 ![](/images/1474798/2359300.png)
 

@@ -25,7 +25,7 @@ ORF
 
 **Direction**
 
-See the description [_here_](element-direction-in-schema.md).
+See the description [_here_](../../manipulating-schema/managing-strands/element-direction-in-schema).
 
 Any
 

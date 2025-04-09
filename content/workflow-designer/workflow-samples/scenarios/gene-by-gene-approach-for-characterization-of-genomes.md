@@ -19,7 +19,7 @@ As the result you will get the report file. With "Yes" and "No" field. "Yes" ans
 
 How to Use This Sample
 
-If you haven't used the workflow samples in UGENE before, look at the "[How to Use Sample Workflows](how-to-use-sample-workflows.md)" section of the documentation.
+If you haven't used the workflow samples in UGENE before, look at the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
 
 ##### Workflow Sample Location
 

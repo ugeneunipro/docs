@@ -10,4 +10,4 @@ To change the size of a tree use the _Zoom In_ and _Zoom Out_ toolbar button. Yo
 
 Or use the corresponding items in the _Actions_ main menu.
 
-See also: [_Zooming Clade_](zooming-clade.md).
+See also: [_Zooming Clade_](working-with-clade/zooming-clade).

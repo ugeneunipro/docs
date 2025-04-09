@@ -19,9 +19,9 @@ To search for transcription factor binding sites in a DNA sequence select the _A
 
 In the search dialog you must specify a file with PWM or PFM. You can do so by pressing the browse button and selecting the file.
 
-Also you can use the [_special interface to choose a JASPAR matrix_](searching-jaspar-database.md) by pressing the _Search JASPAR database_ button.
+Also you can use the [_special interface to choose a JASPAR matrix_](searching-jaspar-database) by pressing the _Search JASPAR database_ button.
 
-Alternative way to specify the position weight/frequency matrix is to create a specific one from an alignment or a file with several sequences with the [_build a new matrix_](building-new-matrix.md) tool.
+Alternative way to specify the position weight/frequency matrix is to create a specific one from an alignment or a file with several sequences with the [_build a new matrix_](building-new-matrix) tool.
 
 After the profile (the matrix) is loaded, you can adjust the threshold value. The threshold sets the minimal identity score for a result to pass. The more the result score is, the more it is homologically related to the aligned region. By changing the threshold you can filter low- scoring results.
 

@@ -6,7 +6,7 @@ weight: 200
 
 # Using Dashboard
 
-For each workflow which has been runned new dashboard will be opened. This dashboards will be saved in the _[selected directory](launching-workflow-designer.md)_. Also you will see this dashboard after UGENE will be runned again. Furthermore you can open the original workflow for your results by clicking on this button:
+For each workflow which has been runned new dashboard will be opened. This dashboards will be saved in the _[selected directory](../../introduction/launching-workflow-designer)_. Also you will see this dashboard after UGENE will be runned again. Furthermore you can open the original workflow for your results by clicking on this button:
 
 
 ![](/images/3244851/3407960.jpg)

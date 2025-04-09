@@ -32,7 +32,7 @@ Some information about the enzyme selected. It includes name, link to the [REBAS
 
 ### Control buttons (right side)
 
-*   **Open enzymes** - open file with enzymes in [the bairoch format](http://rebase.neb.com/rebase/rebase.f19.html). It is required if you want to update enzymes database or open a database with some limited amount of enzymes. See [Using Custom File with Enzymes](using-custom-file-with-enzymes.md) for details.
+*   **Open enzymes** - open file with enzymes in [the bairoch format](http://rebase.neb.com/rebase/rebase.f19.html). It is required if you want to update enzymes database or open a database with some limited amount of enzymes. See [Using Custom File with Enzymes](using-custom-file-with-enzymes) for details.
 *   **Export enzymes** -  export selected enzymes to the separate file (using [the bairoch format](http://rebase.neb.com/rebase/rebase.f19.html)).
 *   **Select all** - check all enzymes in the tree.
 *   **Select none** - uncheck all enzymes in the tree.

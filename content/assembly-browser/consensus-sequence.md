@@ -23,4 +23,4 @@ To leave only differences between the reference and the consensus sequences high
 
 ![](/images/65929837/65929839.png)
 
-To export a _Consensus Sequence_, right-click on it in the _Consensus Area_ and select the _Export ‣ Export consensus_ item in the context menu. For more information about consensus exporting see [_Exporting Consensus_](exporting-consensus.md).
+To export a _Consensus Sequence_, right-click on it in the _Consensus Area_ and select the _Export ‣ Export consensus_ item in the context menu. For more information about consensus exporting see [_Exporting Consensus_](exporting/exporting-consensus).

@@ -12,16 +12,16 @@ The steps of the workflow are these:
 
 1.  The workflow reads sequences from the input sequence files (e.g. GenBank). The input data may also contain the annotations, associated with the sequences.
 2.  The workflow reads text strings (patterns) from the input text files.
-3.  The data are multiplexed using the [Multiplexer](multiplexer-element.md) element. Multiplexing rule "1 to many" is used, so each input sequence is concatenated with each pattern. The concatenating results are sent to the _Find Substrings_ element.
+3.  The data are multiplexed using the [Multiplexer](../../workflow-elements/data-flow/multiplexer-element) element. Multiplexing rule "1 to many" is used, so each input sequence is concatenated with each pattern. The concatenating results are sent to the _Find Substrings_ element.
 4.  The _Find Substrings_ element searches for the specified patterns in each sequence.
-5.  The next element [Grouper](grouper-element.md) merges annotations, read for the sequence in the _Read Sequence_ element, with annotations, found for the sequence by the _Find Substrings_ element. A sequence ID is used to group the appropriate sets of annotations.
+5.  The next element [Grouper](../../workflow-elements/data-flow/grouper-element) merges annotations, read for the sequence in the _Read Sequence_ element, with annotations, found for the sequence by the _Find Substrings_ element. A sequence ID is used to group the appropriate sets of annotations.
 6.  And finally, the data are written to the output file ("substrings.gb" , by default).
 
 
 
 How to Use This Sample
 
-If you haven't used the workflow samples in UGENE before, look at the "[How to Use Sample Workflows](how-to-use-sample-workflows.md)" section of the documentation.
+If you haven't used the workflow samples in UGENE before, look at the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
 
 ##### Workflow Sample Location
 

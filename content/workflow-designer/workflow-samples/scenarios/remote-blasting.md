@@ -16,7 +16,7 @@ Internet connection is required for running this workflow sample.
 
 How to Use This Sample
 
-If you haven't used the workflow samples in UGENE before, look at the "[How to Use Sample Workflows](how-to-use-sample-workflows.md)" section of the documentation.
+If you haven't used the workflow samples in UGENE before, look at the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
 
 ##### Workflow Sample Location
 
@@ -52,7 +52,7 @@ The wizard has 3 pages.
 
     ![](/images/65930572/65930575.png)
 
-    There are also some additional parameters. Description of them can be found in the [Remote BLAST workflow element](remote-blast-element.md) chapter of the documentation.
+    There are also some additional parameters. Description of them can be found in the [Remote BLAST workflow element](../../workflow-elements/basic-analysis/remote-blast-element) chapter of the documentation.
 
 
     ![](/images/65930572/65930576.fa)

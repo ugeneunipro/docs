@@ -6,7 +6,7 @@ weight: 400
 
 # Sequence Marker Element
 
-Adds one or several marks to the input sequence depending on the sequence properties. Use this element, for example, in conjunction with the [_Filter_](filter-element.md) element.
+Adds one or several marks to the input sequence depending on the sequence properties. Use this element, for example, in conjunction with the [_Filter_](filter-element) element.
 
 **Element type:** mark-sequence
 

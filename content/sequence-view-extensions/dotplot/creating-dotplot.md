@@ -64,4 +64,4 @@ Visible diagonal lines indicate matches between sequences in the given particula
 See also:
 
 *   [_Interpreting Dotplot: Identifying Matches, Mutations, Invertions, etc._](65929597.html)
-*   [_Building Dotplot for Currently Opened Sequence_](building-dotplot-for-currently-opened-sequence.md)
+*   [_Building Dotplot for Currently Opened Sequence_](building-dotplot-for-currently-opened-sequence)

@@ -15,5 +15,5 @@ For a DNA sequence the _Sequence details view_ automatically shows complement DN
 
 See also:
 
-*   [_Navigating the Details View using the Sequence Overview_](sequence-overview.md)
-*   _[Translating Nucleotide Sequence](translating-nucleotide-sequence.md)_
+*   [_Navigating the Details View using the Sequence Overview_](sequence-overview)
+*   _[Translating Nucleotide Sequence](manipulating-sequence/translating-nucleotide-sequence)_

@@ -8,7 +8,7 @@ weight: 100
 
 ![](/images/96666040/96666045.png)
 
-Select the output file to export the highlighting, choose exported area and click on the _Export_ button. The task report will appear in the _[Notifications](notifications.md)_.
+Select the output file to export the highlighting, choose exported area and click on the _Export_ button. The task report will appear in the _[Notifications](../../../basic-functions/ugene-window-components/notifications)_.
 
 Also, you may set additional parameters:
 

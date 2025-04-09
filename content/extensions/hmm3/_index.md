@@ -14,7 +14,7 @@ While working on this plugin we were guided by the following principles:
 *   Be compatible with the original HMMER3 package.
 *   Create a high-performance solution utilizing modern multi-core processors.
 
-The current version of UGENE provides a user interface for three HMM3 tools: [_HMM3 build_](building-hmm-model.md), _[HMM3 search](searching-sequence-using-hmm-profile.md),_ and [_Phmmer search_](searching-sequence-against-sequence-database.md).
+The current version of UGENE provides a user interface for three HMM3 tools: [_HMM3 build_](building-hmm-model), _[HMM3 search](searching-sequence-using-hmm-profile),_ and [_Phmmer search_](searching-sequence-against-sequence-database).
 
 In the original program, the corresponding commands are: “hmmbuild”, “hmmsearch” and “phmmer”.
 

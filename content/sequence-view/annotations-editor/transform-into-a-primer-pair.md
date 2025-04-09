@@ -9,7 +9,7 @@ weight: 400
 UGENE has certain primers format. It allows one to use some features, which are avaliable only if this format is being recognized. Examples of thes features:
 
 *   Create PCR Fragment,
-*   [Primer-BLAST](primer-blast.md).
+*   [Primer-BLAST](../../extensions/remote-blast/primer-blast).
 
 If you have a primer pair, which doesn't fit to this format, these features will be unavaliable for you. To fix this issue:
 

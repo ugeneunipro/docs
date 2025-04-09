@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Appendix A. Supported File Formats on UGENE Documentation</title><link>https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/</link><description>Recent content in Appendix A. Supported File Formats on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/index.xml" rel="self" type="application/rss+xml"/><item><title>Other File Formats</title><link>https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/other-file-formats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/other-file-formats/</guid><description>&lt;h1 id="other-file-formats">Other File Formats&lt;/h1>
-&lt;p>File format / extension&lt;/p>
-&lt;p>Comment&lt;/p>
-&lt;p>&lt;strong>*.csv&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Example of usage:&lt;/strong> annotations can be exported to this format; the &lt;a href="weight-matrix.md">&lt;em>Weight Matrix&lt;/em>&lt;/a> matrices list can also be saved to this format.&lt;/p>
-&lt;p>&lt;strong>*.html&lt;/strong>&lt;/p>
-&lt;p>For example it is used to store reports.&lt;/p>
-&lt;p>&lt;strong>image formats: *.bmp, *.jpg, *.png, *.tiff, *.svg, etc.; *.pdf&lt;/strong>&lt;/p>
-&lt;p>These formats are used throughout the program to save screenshots, etc.&lt;/p>
-&lt;p>&lt;strong>*.txt&lt;/strong>&lt;/p>
-&lt;p>It is possible to view and modify plain text files in UGENE.&lt;/p></description></item><item><title>Specific File Formats</title><link>https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/specific-file-formats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/specific-file-formats/</guid><description>&lt;h1 id="specific-file-formats">Specific File Formats&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Appendix A. Supported File Formats on UGENE Documentation</title><link>https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/</link><description>Recent content in Appendix A. Supported File Formats on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/index.xml" rel="self" type="application/rss+xml"/><item><title>Specific File Formats</title><link>https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/specific-file-formats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/specific-file-formats/</guid><description>&lt;h1 id="specific-file-formats">Specific File Formats&lt;/h1>
 &lt;p>File format&lt;/p>
 &lt;p>File extension&lt;/p>
 &lt;p>Read&lt;/p>
@@ -82,4 +72,14 @@
 &lt;li>&lt;/li>
 &lt;/ul>
 &lt;p>A multiple sequence alignments file format.&lt;/p>
-&lt;p>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/p></description></item><item><title>Other File Formats</title><link>https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/other-file-formats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/other-file-formats/</guid><description>&lt;h1 id="other-file-formats">Other File Formats&lt;/h1>
+&lt;p>File format / extension&lt;/p>
+&lt;p>Comment&lt;/p>
+&lt;p>&lt;strong>*.csv&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Example of usage:&lt;/strong> annotations can be exported to this format; the &lt;a href="weight-matrix.md">&lt;em>Weight Matrix&lt;/em>&lt;/a> matrices list can also be saved to this format.&lt;/p>
+&lt;p>&lt;strong>*.html&lt;/strong>&lt;/p>
+&lt;p>For example it is used to store reports.&lt;/p>
+&lt;p>&lt;strong>image formats: *.bmp, *.jpg, *.png, *.tiff, *.svg, etc.; *.pdf&lt;/strong>&lt;/p>
+&lt;p>These formats are used throughout the program to save screenshots, etc.&lt;/p>
+&lt;p>&lt;strong>*.txt&lt;/strong>&lt;/p>
+&lt;p>It is possible to view and modify plain text files in UGENE.&lt;/p></description></item></channel></rss>

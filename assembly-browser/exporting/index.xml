@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Exporting on UGENE Documentation</title><link>https://ugene.net/docs/assembly-browser/exporting/</link><description>Recent content in Exporting on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/assembly-browser/exporting/index.xml" rel="self" type="application/rss+xml"/><item><title>Exporting Assembly as Image</title><link>https://ugene.net/docs/assembly-browser/exporting/exporting-assembly-as-image/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/exporting/exporting-assembly-as-image/</guid><description>&lt;h1 id="exporting-assembly-as-image">Exporting Assembly as Image&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Exporting on UGENE Documentation</title><link>https://ugene.net/docs/assembly-browser/exporting/</link><description>Recent content in Exporting on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/assembly-browser/exporting/index.xml" rel="self" type="application/rss+xml"/><item><title>Exporting Reads</title><link>https://ugene.net/docs/assembly-browser/exporting/exporting-reads/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/exporting/exporting-reads/</guid><description>&lt;h1 id="exporting-reads">Exporting Reads&lt;/h1>
+&lt;p>To export a read, right-click on it in the &lt;em>Reads Area&lt;/em> and select the &lt;em>Export ‣ Current read&lt;/em> item in the context menu.&lt;/p>
+&lt;p>The &lt;em>Export Reads&lt;/em> dialog appears:&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929841/65929842.png" alt="">&lt;/p>
+&lt;p>Select a file to export the read to and the file format. The read can be exported either to a FASTA or FASTQ file.&lt;/p>
+&lt;p>When the parameters are set click the &lt;em>Export&lt;/em> button.&lt;/p>
+&lt;p>The read is exported to the file and if the &lt;em>Add to project&lt;/em> check box has been checked it is added to the current &lt;em>project&lt;/em> from where you can &lt;em>open&lt;/em> it.&lt;/p></description></item><item><title>Exporting Visible Reads</title><link>https://ugene.net/docs/assembly-browser/exporting/exporting-visible-reads/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/exporting/exporting-visible-reads/</guid><description>&lt;h1 id="exporting-visible-reads">Exporting Visible Reads&lt;/h1>
+&lt;p>To export all reads visible in the &lt;em>Reads Area&lt;/em> select the &lt;em>Export ‣ Visible reads&lt;/em> item in the Reads Area context menu.&lt;/p>
+&lt;p>The &lt;em>Export Reads&lt;/em> dialog appears. The dialog is described in the &lt;a href="exporting-reads.md">&lt;em>Exporting Read&lt;/em>&lt;/a> section.&lt;/p></description></item><item><title>Exporting Coverage</title><link>https://ugene.net/docs/assembly-browser/exporting/exporting-coverage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/exporting/exporting-coverage/</guid><description>&lt;h1 id="exporting-coverage">Exporting Coverage&lt;/h1>
+&lt;p>To export a coverage of the assembly, select the &lt;em>Export coverage&lt;/em> item in the &lt;em>Consensus Area&lt;/em> context menu.&lt;/p>
+&lt;p>The &lt;em>Export Coverage&lt;/em> dialog appears:&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929844/65929845.png" alt="">&lt;/p>
+&lt;p>The following parameters are available:&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>Export to&lt;/em> - select the result file path,&lt;/li>
+&lt;li>&lt;em>Format&lt;/em> - assembly coverage could be saved in three different formats:
+&lt;ul>
+&lt;li>
+&lt;p>Bedgraph - the coverage shown by columns. If several columns in a row have the same occurrence, they will be joint into one column.&lt;/p></description></item><item><title>Exporting Consensus</title><link>https://ugene.net/docs/assembly-browser/exporting/exporting-consensus/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/exporting/exporting-consensus/</guid><description>&lt;h1 id="exporting-consensus">Exporting Consensus&lt;/h1>
+&lt;p>To export a consensus sequence of the assembly, select either the &lt;em>Export consensus&lt;/em> item in the &lt;em>Consensus Area&lt;/em> context menu or the &lt;em>Export ‣ Consensus&lt;/em> item in the &lt;em>Reads Area&lt;/em> context menu.&lt;/p>
+&lt;p>The &lt;em>Export Consensus&lt;/em> dialog appears:&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929846/65929847.png" alt="">&lt;/p>
+&lt;p>Select a file and the file format. The consensus can be exported to a FASTA, FASTQ, GFF, GenBank, UGENE Database or Vector NTI sequence file.&lt;/p>
+&lt;p>Modify, if required, the exported sequence name and choose the &lt;a href="consensus-sequence.md">&lt;em>consensus algorithm&lt;/em>&lt;/a>.&lt;/p></description></item><item><title>Exporting Consensus Variations</title><link>https://ugene.net/docs/assembly-browser/exporting/exporting-consensus-variations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/exporting/exporting-consensus-variations/</guid><description>&lt;h1 id="exporting-consensus-variations">Exporting Consensus Variations&lt;/h1>
+&lt;p>To export a consensus sequence variations of the assembly, select the &lt;em>Export consensus&lt;/em> &lt;em>variations&lt;/em> item in the &lt;em>Consensus Area&lt;/em> context menu.&lt;/p>
+&lt;p>The &lt;em>following&lt;/em> dialog will appear:&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929848/65929849.png" alt="">&lt;/p>
+&lt;p>Select a file, mode and the file format. The following modes are available: &lt;em>Variations&lt;/em>, &lt;em>Similar&lt;/em> and &lt;em>All&lt;/em>. Variations can be exported as to a SimpleSNP or VCFv4 file.&lt;/p>
+&lt;p>Modify, if required, the &lt;a href="consensus-sequence.md">&lt;em>consensus algorithm&lt;/em>&lt;/a>.&lt;/p>
+&lt;p>The consensus is exported with gaps if the &lt;em>Keep gaps&lt;/em> check box has been checked.&lt;/p></description></item><item><title>Exporting Assembly as Image</title><link>https://ugene.net/docs/assembly-browser/exporting/exporting-assembly-as-image/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/exporting/exporting-assembly-as-image/</guid><description>&lt;h1 id="exporting-assembly-as-image">Exporting Assembly as Image&lt;/h1>
 &lt;p>To export the visible part of the assembly as an image, select either the &lt;em>Actions ‣ Export as image&lt;/em> item in the main menu or the following button on the toolbar:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929850/96665880.png" alt="">&lt;/p>
 &lt;p>The &lt;em>Export Image&lt;/em> dialog appears:&lt;/p>
@@ -21,33 +50,4 @@
 &lt;/ol>
 &lt;p>The &lt;em>following&lt;/em> dialog will appear:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929853/65929857.png" alt="">&lt;/p>
-&lt;p>Select a file, region and the file format.&lt;/p></description></item><item><title>Exporting Consensus</title><link>https://ugene.net/docs/assembly-browser/exporting/exporting-consensus/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/exporting/exporting-consensus/</guid><description>&lt;h1 id="exporting-consensus">Exporting Consensus&lt;/h1>
-&lt;p>To export a consensus sequence of the assembly, select either the &lt;em>Export consensus&lt;/em> item in the &lt;em>Consensus Area&lt;/em> context menu or the &lt;em>Export ‣ Consensus&lt;/em> item in the &lt;em>Reads Area&lt;/em> context menu.&lt;/p>
-&lt;p>The &lt;em>Export Consensus&lt;/em> dialog appears:&lt;/p>
-&lt;p>&lt;img src="https://ugene.net/docs/images/65929846/65929847.png" alt="">&lt;/p>
-&lt;p>Select a file and the file format. The consensus can be exported to a FASTA, FASTQ, GFF, GenBank, UGENE Database or Vector NTI sequence file.&lt;/p>
-&lt;p>Modify, if required, the exported sequence name and choose the &lt;a href="consensus-sequence.md">&lt;em>consensus algorithm&lt;/em>&lt;/a>.&lt;/p></description></item><item><title>Exporting Consensus Variations</title><link>https://ugene.net/docs/assembly-browser/exporting/exporting-consensus-variations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/exporting/exporting-consensus-variations/</guid><description>&lt;h1 id="exporting-consensus-variations">Exporting Consensus Variations&lt;/h1>
-&lt;p>To export a consensus sequence variations of the assembly, select the &lt;em>Export consensus&lt;/em> &lt;em>variations&lt;/em> item in the &lt;em>Consensus Area&lt;/em> context menu.&lt;/p>
-&lt;p>The &lt;em>following&lt;/em> dialog will appear:&lt;/p>
-&lt;p>&lt;img src="https://ugene.net/docs/images/65929848/65929849.png" alt="">&lt;/p>
-&lt;p>Select a file, mode and the file format. The following modes are available: &lt;em>Variations&lt;/em>, &lt;em>Similar&lt;/em> and &lt;em>All&lt;/em>. Variations can be exported as to a SimpleSNP or VCFv4 file.&lt;/p>
-&lt;p>Modify, if required, the &lt;a href="consensus-sequence.md">&lt;em>consensus algorithm&lt;/em>&lt;/a>.&lt;/p>
-&lt;p>The consensus is exported with gaps if the &lt;em>Keep gaps&lt;/em> check box has been checked.&lt;/p></description></item><item><title>Exporting Coverage</title><link>https://ugene.net/docs/assembly-browser/exporting/exporting-coverage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/exporting/exporting-coverage/</guid><description>&lt;h1 id="exporting-coverage">Exporting Coverage&lt;/h1>
-&lt;p>To export a coverage of the assembly, select the &lt;em>Export coverage&lt;/em> item in the &lt;em>Consensus Area&lt;/em> context menu.&lt;/p>
-&lt;p>The &lt;em>Export Coverage&lt;/em> dialog appears:&lt;/p>
-&lt;p>&lt;img src="https://ugene.net/docs/images/65929844/65929845.png" alt="">&lt;/p>
-&lt;p>The following parameters are available:&lt;/p>
-&lt;ul>
-&lt;li>&lt;em>Export to&lt;/em> - select the result file path,&lt;/li>
-&lt;li>&lt;em>Format&lt;/em> - assembly coverage could be saved in three different formats:
-&lt;ul>
-&lt;li>
-&lt;p>Bedgraph - the coverage shown by columns. If several columns in a row have the same occurrence, they will be joint into one column.&lt;/p></description></item><item><title>Exporting Reads</title><link>https://ugene.net/docs/assembly-browser/exporting/exporting-reads/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/exporting/exporting-reads/</guid><description>&lt;h1 id="exporting-reads">Exporting Reads&lt;/h1>
-&lt;p>To export a read, right-click on it in the &lt;em>Reads Area&lt;/em> and select the &lt;em>Export ‣ Current read&lt;/em> item in the context menu.&lt;/p>
-&lt;p>The &lt;em>Export Reads&lt;/em> dialog appears:&lt;/p>
-&lt;p>&lt;img src="https://ugene.net/docs/images/65929841/65929842.png" alt="">&lt;/p>
-&lt;p>Select a file to export the read to and the file format. The read can be exported either to a FASTA or FASTQ file.&lt;/p>
-&lt;p>When the parameters are set click the &lt;em>Export&lt;/em> button.&lt;/p>
-&lt;p>The read is exported to the file and if the &lt;em>Add to project&lt;/em> check box has been checked it is added to the current &lt;em>project&lt;/em> from where you can &lt;em>open&lt;/em> it.&lt;/p></description></item><item><title>Exporting Visible Reads</title><link>https://ugene.net/docs/assembly-browser/exporting/exporting-visible-reads/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/exporting/exporting-visible-reads/</guid><description>&lt;h1 id="exporting-visible-reads">Exporting Visible Reads&lt;/h1>
-&lt;p>To export all reads visible in the &lt;em>Reads Area&lt;/em> select the &lt;em>Export ‣ Visible reads&lt;/em> item in the Reads Area context menu.&lt;/p>
-&lt;p>The &lt;em>Export Reads&lt;/em> dialog appears. The dialog is described in the &lt;a href="exporting-reads.md">&lt;em>Exporting Read&lt;/em>&lt;/a> section.&lt;/p></description></item></channel></rss>
+&lt;p>Select a file, region and the file format.&lt;/p></description></item></channel></rss>

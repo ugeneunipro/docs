@@ -7,14 +7,7 @@
 &lt;p>The &lt;em>Show grid&lt;/em>, &lt;em>Snap to grid&lt;/em>, &lt;em>Element style,&lt;/em> and &lt;em>Element font&lt;/em> parameters affect the view of a workflow:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/2097185/2359315.png" alt="">&lt;/p>
 &lt;p>To change the appearance of a particular element use it’s context menu submenus &lt;em>Element properties&lt;/em> and &lt;em>Element style&lt;/em>.&lt;/p>
-&lt;p>Another way to change an element style is to use the &lt;em>Element style&lt;/em> submenu in the main menu.&lt;/p></description></item><item><title>Running Workflow from the Command Line</title><link>https://ugene.net/docs/workflow-designer/running-workflow-from-the-command-line/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/running-workflow-from-the-command-line/</guid><description>&lt;h1 id="running-workflow-from-the-command-line">Running Workflow from the Command Line&lt;/h1>
-&lt;p>UGENE provides command line interface (CLI). To learn more about UGENE CLI and commands available read &lt;a href="http://ugene.unipro.ru/documentation.html">main UGENE User Manual&lt;/a>.&lt;/p>
-&lt;p>This chapter describes how you can create a new command using a &lt;em>workflow&lt;/em>.&lt;/p>
-&lt;p>To run a workflow from the command line do the following:&lt;/p>
-&lt;ul>
-&lt;li>Create the workflow in the Workflow Designer. For example on the image below the &lt;em>Align sequences with MUSCLE&lt;/em> sample workflow is used:&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://ugene.net/docs/images/2097213/2359337.png" alt="">&lt;/p></description></item><item><title>Using Script to Set Parameter Value</title><link>https://ugene.net/docs/workflow-designer/using-script-to-set-parameter-value/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/using-script-to-set-parameter-value/</guid><description>&lt;h1 id="using-script-to-set-parameter-value">Using Script to Set Parameter Value&lt;/h1>
+&lt;p>Another way to change an element style is to use the &lt;em>Element style&lt;/em> submenu in the main menu.&lt;/p></description></item><item><title>Using Script to Set Parameter Value</title><link>https://ugene.net/docs/workflow-designer/using-script-to-set-parameter-value/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/using-script-to-set-parameter-value/</guid><description>&lt;h1 id="using-script-to-set-parameter-value">Using Script to Set Parameter Value&lt;/h1>
 &lt;p>When you select an element the &lt;em>Parameters&lt;/em> area of the &lt;a href="workflow-designer-window-components.md">&lt;em>Property Editor&lt;/em>&lt;/a> displays two columns: &lt;em>Name&lt;/em> and &lt;em>Value&lt;/em>.&lt;/p>
 &lt;p>Select the &lt;em>Show scripting options&lt;/em> item in the &lt;em>Scripting mode&lt;/em> menu on the toolbar or in the &lt;em>Actions&lt;/em> main menu.&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/2097207/2359330.png" alt="">&lt;/p>
@@ -26,4 +19,11 @@
 &lt;li>not set (&lt;em>no script&lt;/em>)&lt;/li>
 &lt;li>set by user (&lt;em>user script&lt;/em>)&lt;/li>
 &lt;/ul>
-&lt;p>To set a script value (when it is available) select the &lt;em>user script&lt;/em> item in the &lt;em>Script&lt;/em> column. The following dialog appears:&lt;/p></description></item></channel></rss>
+&lt;p>To set a script value (when it is available) select the &lt;em>user script&lt;/em> item in the &lt;em>Script&lt;/em> column. The following dialog appears:&lt;/p></description></item><item><title>Running Workflow from the Command Line</title><link>https://ugene.net/docs/workflow-designer/running-workflow-from-the-command-line/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/running-workflow-from-the-command-line/</guid><description>&lt;h1 id="running-workflow-from-the-command-line">Running Workflow from the Command Line&lt;/h1>
+&lt;p>UGENE provides command line interface (CLI). To learn more about UGENE CLI and commands available read &lt;a href="http://ugene.unipro.ru/documentation.html">main UGENE User Manual&lt;/a>.&lt;/p>
+&lt;p>This chapter describes how you can create a new command using a &lt;em>workflow&lt;/em>.&lt;/p>
+&lt;p>To run a workflow from the command line do the following:&lt;/p>
+&lt;ul>
+&lt;li>Create the workflow in the Workflow Designer. For example on the image below the &lt;em>Align sequences with MUSCLE&lt;/em> sample workflow is used:&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://ugene.net/docs/images/2097213/2359337.png" alt="">&lt;/p></description></item></channel></rss>

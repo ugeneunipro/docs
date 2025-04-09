@@ -3,100 +3,88 @@ title: "Gene-by-gene Approach for Characterization of Genomes"
 weight: 400
 ---
 
-
 # Gene-by-gene Approach for Characterization of Genomes
 
-Suppose you have genomes and you want to characterize them. One of the ways to do that is to build a table of what genes are in each genome and what are not there.
+Suppose you have genomes and you want to characterize them. One of the ways to do that is to build a table of what genes
+are in each genome and what are not there.
 
-1.  Create a local BLAST db of your genome sequence/contigs. One db per one genome.
-2.  Create a file with sequences of genes you what to explore. This file will be the input file for the workflow.
-3.  Setup location and name of BLAST db you created for the first genome.
-4.  Setup output files: report location and output file with annotated (with BLAST) sequence. You might want to delete the "Write Sequence" element if you do not need output sequences.
-5.  Run the workflow.
-6.  Run the workflow on the same input and output files changing BLAST db for each genome that you have.
+## Step-by-step Instructions
 
-As the result you will get the report file. With "Yes" and "No" field. "Yes" answer means that the gene is in the genome. "No" answer MIGHT mean that there is no gene in the genome. It is a good idea to analyze all the "No" sequences using annotated files. Just open a file and find a sequence with a name of a gene that has "No" result.
+1. Create a local BLAST database of your genome sequence/contigs. One DB per genome.
+2. Create a file with sequences of genes you want to explore. This file will be the input file for the workflow.
+3. Set up location and name of the BLAST DB you created for the first genome.
+4. Set up output files: report location and (optionally) a file with annotated (via BLAST) sequences. You can delete the
+   **Write Sequence** element if you don’t need output sequences.
+5. Run the workflow.
+6. Run the workflow again on the same input and output files, changing only the BLAST DB for each genome you have.
 
-How to Use This Sample
+As a result, you'll get a report file with “Yes” and “No” values:
 
-If you haven't used the workflow samples in UGENE before, look at the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
+- “Yes” means the gene is found in the genome.
+- “No” might mean the gene is missing, but it's recommended to analyze all the “No” cases using the annotated files.
+  Just open the file and find the sequence by gene name.
 
-##### Workflow Sample Location
+---
 
-The workflow sample "Gene-by-gene Approach for Characterization of Genomes" can be found in the "Scenarios" section of the Workflow Designer samples.
+## How to Use This Sample
 
-##### Workflow Image
+If you haven't used workflow samples in UGENE before, refer
+to [How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows).
+
+---
+
+## Workflow Sample Location
+
+The workflow sample **Gene-by-gene Approach for Characterization of Genomes** is in the **Scenarios** section of the
+Workflow Designer samples.
+
+---
+
+## Workflow Image
 
 The workflow looks as follows:
 
+![Workflow image](/images/65930545/65930546.png)
 
-![](/images/65930545/65930546.png)
+---
 
-##### Workflow Wizard
+## Workflow Wizard
 
-The wizard has 3 pages.
+The wizard includes 3 pages:
 
-1.  Input sequence(s): On this page you must input sequence(s).
+### 1. Input Sequence(s)
 
+On this page you must input sequence(s):
 
-    ![](/images/65930545/65930547.png)
+![Input](/images/65930545/65930547.png)
 
-2.  BLAST search: On this page you can modify BLAST search parameters.
+---
 
+### 2. BLAST Search Settings
 
-    ![](/images/65930545/65930548.png)
+On this page, you can configure BLAST search parameters:
 
-    The following parameters are available:
+![BLAST settings](/images/65930545/65930548.png)
 
-    Search type
+| **Parameter**           | **Description**                                        |
+|-------------------------|--------------------------------------------------------|
+| **Search type**         | Select type of BLAST search.                           |
+| **Database Path**       | Path to folder with BLAST database files.              |
+| **Database Name**       | Base name for BLAST DB files.                          |
+| **Expected value**      | Statistical threshold for reporting matches (E-value). |
+| **Annotate as**         | Name to use for result annotations.                    |
+| **Gapped alignment**    | Whether to perform gapped alignment.                   |
+| **Tool Path**           | Path to external BLAST tool.                           |
+| **BLAST output**        | Path to the BLAST result file.                         |
+| **BLAST output type**   | Format of the BLAST result file.                       |
+| **Temporary directory** | Location to store temp files.                          |
+| **Gap costs**           | Cost for creating/extending a gap.                     |
+| **Match scores**        | Match reward and mismatch penalty.                     |
 
-    Select type of BLAST searches.
+---
 
-    Database Path
+### 3. Output Data
 
-    Path with database files.
+On this page you can set output options:
 
-    Database Name
-
-    Base name for BLAST DB files.
-
-    Expected value
-
-    This setting specifies the statistical significance threshold for reporting matches against database sequences.
-
-    Annotate as
-
-    Name for annotations.
-
-    Gapped alignment
-
-    Perform gapped alignment.
-
-    Tool Path
-
-    External tool path.
-
-    BLAST output
-
-    Location of BLAST output file.
-
-    BLAST output type
-
-    Type of BLAST output file.
-
-    Temporary directory
-
-    Directory for temporary files.
-
-    Gap costs
-
-    Cost to create and extend a gap in an alignment.
-
-    Match scores
-
-    Reward and penalty for matching and mismatching bases.
-
-3.  Output data: On this page you can modify output parameters.
-
-
-    ![](/images/65930545/65930549.png)
+![Output data](/images/65930545/65930549.png)

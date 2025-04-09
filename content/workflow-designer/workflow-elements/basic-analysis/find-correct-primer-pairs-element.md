@@ -3,55 +3,35 @@ title: "Find Correct Primer Pairs Element"
 weight: 900
 ---
 
-
 # Find Correct Primer Pairs Element
 
-Find correct primer pairs, which consist of valid primers without dimers.
+This element identifies correct primer pairs consisting of valid primers without dimers.
 
-**Element type:** find-primers
+---
 
-Parameters
-----------
+## Element Type
 
-Parameter
+**Element type:** `find-primers`
 
-Description
+---
 
-Default value
+## Parameters
 
-Parameter in Workflow File
+| **Parameter**      | **Description**                | **Default Value** | **Parameter in Workflow File** | **Type** |
+|--------------------|--------------------------------|-------------------|--------------------------------|----------|
+| Output report file | Path to the report output file | *(none)*          | `output-file`                  | _string_ |
 
-Type
+---
 
-**Output report file**
+## Input/Output Ports
 
-Path to the report output file.
+### Input Port
 
+| **Name in GUI** | **Name in Workflow File** | **Slot** | **Slot in Workflow File** | **Type**   |
+|-----------------|---------------------------|----------|---------------------------|------------|
+| Input sequences | `in-sequence`             | Sequence | `sequence`                | _sequence_ |
 
+---
 
-**output-file**
-
-_string_
-
-Input/Output Ports
-------------------
-
-The element has 1 _input port_:
-
-**Name in GUI:** Input sequences
-
-**Name in Workflow File:** in-sequence
-
-**Slots:**
-
-Slot In GUI
-
-Slot in **Workflow** File
-
-Type
-
-**Sequence**
-
-sequence
-
-_sequence_
+This element can be used to ensure primer design outputs only viable primer pairs suitable for PCR and other
+amplification workflows.

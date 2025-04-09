@@ -3,49 +3,54 @@ title: "Extract Consensus from Assembly"
 weight: 300
 ---
 
-
 # Extract Consensus from Assembly
 
-The workflow sample, described below, uses input assemblies to extract the consensus and save them to a FASTA.
+The workflow sample below uses input assemblies to extract consensus sequences and saves them to FASTA files.
 
-How to Use This Sample
+---
 
-If you haven't used the workflow samples in UGENE before, look at the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
+## How to Use This Sample
 
-##### Workflow Sample Location
+If you haven't used workflow samples in UGENE before, see
+the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
 
-The workflow sample "Extract Consensus from Assembly" can be found in the "NGS" section of the Workflow Designer samples.
+---
 
-##### Workflow Image
+## Workflow Sample Location
 
-The opened workflow looks as follows:
+The sample **"Extract Consensus from Assembly"** can be found in the **"NGS"** section of the Workflow Designer samples.
 
+---
+
+## Workflow Image
+
+The opened workflow looks like this:
 
 ![](/images/65930342/65930343.png)
 
-##### Workflow Wizard
+---
 
-The wizard has 1 page.
+## Workflow Wizard
 
-1.  Extract Consensus Page: On this page you must input assembly file and output file. Also you can modify other input parameters.
+The wizard has **1 page**:
 
+### 1. Extract Consensus Page
 
-    ![](/images/65930342/65930344.png)
+On this page, you must:
 
-     The following parameters are available:
+- Input an assembly file
+- Select an output file
+- Optionally modify other input parameters
 
-    Assembly
+![](/images/65930342/65930344.png)
 
-    Semicolon-separated list of pathes to the input files.
+---
 
-    Algorithm
+## Available Parameters
 
-    The algorithm of consensus extracting.
-
-    Keep gaps
-
-    Set this parameter if the result consensus must keep the gaps.
-
-    Output files
-
-    Location of output data file. If this attribute is set, slot "Location" in port will not be used.
+| **Parameter**    | **Description**                                                               |
+|------------------|-------------------------------------------------------------------------------|
+| **Assembly**     | Semicolon-separated list of paths to the input files.                         |
+| **Algorithm**    | The algorithm used for consensus extraction.                                  |
+| **Keep gaps**    | Set this to `True` if the resulting consensus must preserve gaps.             |
+| **Output files** | Path to the output file. If set, the `Location` slot in the port is not used. |

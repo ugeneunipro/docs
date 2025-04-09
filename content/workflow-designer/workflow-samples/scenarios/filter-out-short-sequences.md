@@ -3,47 +3,63 @@ title: "Filter out Short Sequences"
 weight: 700
 ---
 
-
 # Filter out Short Sequences
 
-To use this workflow input a set of sequences and set a minimum sequence length. All sequences with length less than the specified value will be filtered out. The result will be written into a FASTA file by default.
+This workflow filters out sequences shorter than a specified minimum length. The resulting sequences are written to a
+FASTA file by default.
 
-How to Use This Sample
+---
 
-If you haven't used the workflow samples in UGENE before, look at the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
+## How to Use This Sample
 
-##### Workflow Sample Location
+If you haven't used workflow samples in UGENE before, see
+the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
 
-The workflow sample "Filter out Short Sequences" can be found in the "Scenarios" section of the Workflow Designer samples.
+---
 
-##### Workflow Image
+## Workflow Sample Location
+
+The workflow sample **"Filter out Short Sequences"** is available in the **Scenarios** section of the Workflow Designer
+samples.
+
+---
+
+## Workflow Image
 
 The opened workflow looks as follows:
 
-
 ![](/images/65930557/65930558.jpg)
 
-##### Workflow Wizard
+---
 
-The wizard has 3 pages.
+## Workflow Wizard
 
-1.  Input sequence(s): On this page, input files must be set.
+The wizard consists of 3 pages:
 
+### 1. Input sequence(s)
 
-    ![](/images/65930557/65930559.jpg)
+On this page, input sequence files must be selected.
 
-2.  Filtering: The filtering parameters can be changed here.
+![](/images/65930557/65930559.jpg)
 
+---
 
-    ![](/images/65930557/65930560.jpg)
+### 2. Filtering
 
-    The following parameters are available:
+On this page, filtering parameters can be modified.
 
-    Minimum length
+![](/images/65930557/65930560.jpg)
 
-    Minimum sequence length
+#### Parameters
 
-3.  Output data: On this page, the output file can be selected:
+| **Parameter**  | **Description**         | **Default Value** | **Parameter in Workflow File** | **Type**  |
+|----------------|-------------------------|-------------------|--------------------------------|-----------|
+| Minimum length | Minimum sequence length | *(user-defined)*  | *(not specified)*              | _numeric_ |
 
+---
 
-    ![](/images/65930557/65930561.jpg)
+### 3. Output data
+
+On this page, the output file location can be configured.
+
+![](/images/65930557/65930561.jpg)

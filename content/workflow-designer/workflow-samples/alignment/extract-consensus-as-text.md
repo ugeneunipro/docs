@@ -3,62 +3,78 @@ title: "Extract Consensus as Text"
 weight: 300
 ---
 
-
 # Extract Consensus as Text
 
-For each input multiple alignment the workflow calculates the consensus and saves it to a text file, named according to the name of the input alignment.
+For each input multiple alignment, the workflow calculates the consensus and saves it to a plain text file, named
+according to the input alignment name.
 
-The JalView algorithm (denoted as "default") is used by default to calculate the consensus. For each column of the alignment it returns either "+", if there are 2 characters with high frequency in this column, or a character in uppercase or lowercase. The case of the character depends on the percentage value of the character in the column and the "threshold" value.
+By default, the **JalView** algorithm (denoted as **"default"**) is used to calculate the consensus. For each alignment
+column:
 
- Alternatively, you can use the ClustalW algorithm to calculate the consensus:
+- If two characters have high frequency, a `"+"` symbol is inserted.
+- Otherwise, a character is returned either in **uppercase** or **lowercase**, depending on the percentage value and the
+  **threshold** parameter.
 
- - If all characters in a column are exactly the same, the algorithm sets asterisk value ("\*") to the corresponding position of the consensus.
- - A colon value (":") indicates conservation between groups of strongly similar properties, i.e. the scoring value is greater than 0.5 in the Gonnet PAM 250 matrix (see documentation for details).
- - If the scoring value is less than 0.5, the period (".") value is inserted.
- - Otherwise, the algorithm inserts space (" ").
+Alternatively, you can choose the **ClustalW** algorithm:
 
-The "threshold" parameter is not applied to this algorithm.
+- `"*"` — all characters in the column are identical.
+- `":"` — conserved between strongly similar properties (score > 0.5 in the Gonnet PAM 250 matrix).
+- `"."` — conserved between weakly similar properties (score < 0.5).
+- `" "` — no conservation.
 
-How to Use This Sample
+> **Note:** The **threshold** parameter does **not apply** to the ClustalW algorithm.
 
-If you haven't used the workflow samples in UGENE before, look at the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
+---
 
-##### Workflow Sample Location
+## How to Use This Sample
 
-The workflow sample "Extract Consensus as Text" can be found in the "Alignment" section of the Workflow Designer samples.
+If you haven't used the workflow samples in UGENE before,
+see [How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows).
 
-##### Workflow Image
+---
 
-The workflow looks as follows:
+## Workflow Sample Location
 
+This sample, **"Extract Consensus as Text"**, can be found in the **"Alignment"** section of the Workflow Designer
+samples.
 
-![](/images/65930239/65930240.png)
+---
 
-##### Workflow Wizard
+## Workflow Image
 
-The wizard has 3 pages.
+The opened workflow looks as follows:
 
-1.  Input Multiple Alignments: On this page you must input multiple alignments file(s).
+![Workflow image](/images/65930239/65930240.png)
 
+---
 
-    ![](/images/65930239/65930241.png)
+## Workflow Wizard
 
-2.  Extracting Consensus Settings: On this page you can modify extracting settings.
+The wizard includes **3 pages**:
 
+### 1. Input Multiple Alignments
 
-    ![](/images/65930239/65930242.png)
+On this page, you must input multiple alignment file(s).
 
-    The following parameters are available:
+![Input page](/images/65930239/65930241.png)
 
-    Algorithm
+---
 
-    The algorithm of consensus extracting.
+### 2. Extracting Consensus Settings
 
-    Threshold
+Modify the consensus extraction parameters here.
 
-    The threshold of the algorithm.
+![Settings page](/images/65930239/65930242.png)
 
-3.  Output Files: For each input alignment the workflow outputs separate sequence file with consensus in it.
+| **Parameter** | **Description**                                                        |
+|---------------|------------------------------------------------------------------------|
+| **Algorithm** | The algorithm used for consensus calculation (`default` or `ClustalW`) |
+| **Threshold** | Percentage cutoff for JalView algorithm (ignored by ClustalW)          |
 
+---
 
-    ![](/images/65930239/65930243.png)
+### 3. Output Files
+
+Each input alignment produces a corresponding text file with the consensus string.
+
+![Output page](/images/65930239/65930243.png)

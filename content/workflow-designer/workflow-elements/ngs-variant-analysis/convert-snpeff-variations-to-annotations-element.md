@@ -3,64 +3,21 @@ title: "Convert SnpEff Variations to Annotations Element"
 weight: 300
 ---
 
-
 # Convert SnpEff Variations to Annotations Element
 
-Parses information, added to variations by SnpEff, into standard annotations.
+Parses information added to variations by SnpEff into standard annotations.
 
 **Element type:** convert-snpeff-variations-to-annotations
 
-Parameters
-----------
+## Parameters
 
-Parameter
+| Parameter           | Description                                                                             | Default value | Parameter in Workflow File | Type     |
+|---------------------|-----------------------------------------------------------------------------------------|---------------|----------------------------|----------|
+| **Output file**     | Location of output data file. If set, overrides the "Location" slot of the output port. |               | **url-out**                | _string_ |
+| **Document format** | Format of the output file.                                                              | genbank       | **document-format**        | _string_ |
 
-Description
+## Input/Output Ports
 
-Default value
-
-Parameter in Workflow File
-
-Type
-
-**Output file**
-
-Location of output data file. If this attribute is set, slot "Location" in port will not be used.
-
-
-
-url-out
-
-_string_
-
-**Document format**
-
-Document format of the output file.
-
- genbank
-
-document-format
-
-_string_
-
-Input/Output Ports
-
-The element has 1 _input ports_:
-
-**Name in GUI:** Input file URL
-
-**Name in Workflow File:** in-variations-url
-
-**Slots:**
-
-Slot In GUI
-
-Slot in Workflow File
-
-Type
-
-**Source URL**
-
-**url**
-
-_string_
+| Port Name (GUI)    | Workflow File Name  | Slots                             |
+|--------------------|---------------------|-----------------------------------|
+| **Input file URL** | `in-variations-url` | **Source URL** → `url` (_string_) |

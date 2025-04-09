@@ -3,55 +3,73 @@ title: "Extract Coverage from Assembly"
 weight: 400
 ---
 
-
 # Extract Coverage from Assembly
 
-The workflow sample, described below, allows one to extract a coverage and/or bases count from an assembly. It receives a number of assemblies and for each of them produces coverage as a tab delimited plain text file. The coverage is extracted considering a threshold value.
+This workflow sample extracts **coverage** and/or **base counts** from input assemblies. It supports multiple input
+assemblies and produces for each of them a tab-delimited plain text output. Coverage values are filtered based on the
+provided threshold parameter.
 
-How to Use This Sample
+---
 
-If you haven't used the workflow samples in UGENE before, look at the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
+## How to Use This Sample
 
-##### Workflow Sample Location
+If you haven't used workflow samples in UGENE before, refer to
+the [How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows) section of the documentation.
 
-The workflow sample "Extract Coverage from Assembly" can be found in the "NGS" section of the Workflow Designer samples.
+---
 
-##### Workflow Image
+## Workflow Sample Location
 
-The opened workflow looks as follows:
+The workflow sample **"Extract Coverage from Assembly"** is available in the **"NGS"** section of the Workflow Designer
+samples.
 
+---
 
-![](/images/65930345/65930346.png)
+## Workflow Image
 
-##### Workflow Wizard
+The workflow appears as follows:
 
-The wizard has 3 pages.
+![Workflow Image](/images/65930345/65930346.png)
 
-1.  Input assembly (-ies) Page: On this page you must input assembly(-ies).
+---
 
+## Workflow Wizard
 
-    ![](/images/65930345/65930347.png)
+The wizard consists of **3 pages**:
 
-2.  Extract parameters Page: Here you can optionally modify extract parameters.
+---
 
+### 1. Input Assembly(ies)
 
-    ![](/images/65930345/65930348.png)
+On this page, input one or more assembly files.
 
-     The following parameters are available:
+![Input Page](/images/65930345/65930347.png)
 
-    Format
+---
 
-    Format to store the output.
+### 2. Extract Parameters
 
-    Export
+Configure the extraction parameters:
 
-    Data type to export.
+![Extract Parameters Page](/images/65930345/65930348.png)
 
-    Threshold
+| **Parameter** | **Description**                                  |
+|---------------|--------------------------------------------------|
+| **Format**    | Output file format (tab-delimited plain text).   |
+| **Export**    | Type of data to export: coverage or base counts. |
+| **Threshold** | Minimum coverage value to include in the output. |
 
-    The minimum coverage value to export.
+---
 
-3.  Output data Page: On this page you can select an output file:
+### 3. Output Data
 
+On this page, select the destination for the output file.
 
-    ![](/images/65930345/65930349.png)
+![Output Page](/images/65930345/65930349.png)
+
+---
+
+## Output Example
+
+Each output file will contain coverage data per base or region, based on the selected export mode and threshold.
+

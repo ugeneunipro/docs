@@ -3,65 +3,40 @@ title: "End-End Constraint Element"
 weight: 300
 ---
 
-
 # End-End Constraint Element
 
-[_Add the End-End constraint_](../../manipulating-query-designer-element/adding-constraint-element) to some two _algorithm elements_. Lets denote these elements as **alg1** and **alg2**.
+[Add the End-End constraint](../../manipulating-query-designer-element/adding-constraint-element) to two _algorithm
+elements_. Let's denote these elements as **alg1** and **alg2**.
 
-Parameters in GUI
------------------
+---
 
-Parameter
-
-Description
-
-Default value
-
-**Min distance**
-
-Minimum distance between an **alg1** annotation end and an **alg2** annotation end.
-
-0bp
-
-**Max distance**
-
-Maximum distance between an **alg1** annotation end and an **alg2** annotation end.
-
-0bp
-
-**Constraint Explanation:**
+## Constraint Explanation
 
 Let:
 
-**alg1\_annot\_end** := the last nucleotide of an annotation obtained from the **alg1**.
+- **alg1_annot_end** := the last nucleotide of an annotation obtained from **alg1**
+- **alg2_annot_end** := the last nucleotide of an annotation obtained from **alg2**
 
-**alg2\_annot\_end** := the last nucleotide of an annotation obtained from the **alg2**.
+The result annotations must satisfy the following rule:
 
-The result annotations should comply with the rule:
+**Min distance** ≤ Distance(**alg1_annot_end**, **alg2_annot_end**) ≤ **Max distance**
 
-**Min distance** <= Distance(**alg1\_annot\_end**, **alg2\_annot\_end**) <= **Max distance**
+---
 
-Parameters in Schema File
--------------------------
+## Parameters in GUI
 
-**Type:** distance
+| **Parameter** | **Description**                                                                     | **Default Value** |
+|---------------|-------------------------------------------------------------------------------------|-------------------|
+| Min distance  | Minimum distance between an **alg1** annotation end and an **alg2** annotation end. | 0bp               |
+| Max distance  | Maximum distance between an **alg1** annotation end and an **alg2** annotation end. | 0bp               |
 
-**Distance-type:** end-to-end
+---
 
-Parameter
+## Parameters in Schema File
 
-Parameter in the GUI
-
-Type
-
-**min**
-
-**Min distance**
-
-_numeric_
-
-**max**
-
-**Max distance**
-
-_numeric_
+| **Parameter**   | **Parameter in GUI** | **Type**     |
+|-----------------|----------------------|--------------|
+| `min`           | Min distance         | _numeric_    |
+| `max`           | Max distance         | _numeric_    |
+| `type`          | *(not in GUI)*       | `distance`   |
+| `distance-type` | *(not in GUI)*       | `end-to-end` |

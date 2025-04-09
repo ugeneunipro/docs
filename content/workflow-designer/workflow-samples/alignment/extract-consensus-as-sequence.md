@@ -3,61 +3,76 @@ title: "Extract Consensus as Sequence"
 weight: 200
 ---
 
-
 # Extract Consensus as Sequence
 
-For each input multiple alignment the workflow calculates the consensus and saves it to a fasta file, named according to the name of the input alignment.
+For each input multiple alignment the workflow calculates the consensus and saves it to a FASTA file, named according to
+the name of the input alignment.
 
-The "strict" algorithm with the "threshold" parameter set to "100%" is used by default to calculate the consensus. It means that the consensus will only contain characters that are the same in ALL sequences of the alignment. Decreasing the threshold will result in taking into account only the specified percentage number of the sequences, i.e. if the threshold is "80%" and 82% of the sequences have "A" at a certain column position, the consensus will also contain "A" at this position.
+The **"strict"** algorithm with the **"threshold"** parameter set to **"100%"** is used by default to calculate the
+consensus. It means that the consensus will only contain characters that are the same in **all** sequences of the
+alignment. Decreasing the threshold will result in taking into account only the specified percentage number of the
+sequences — e.g., if the threshold is **80%** and **82%** of the sequences have "A" at a certain column position, the
+consensus will also contain "A" at this position.
 
- Also, you may select another algorithm to calculate the consensus. The algorithm, proposed by Victor Levitsky, uses the extended DNA alphabet. The greater the "threshold" value selected for this algorithm, the more rare characters are taken into account. The specified value must be between 50% and 100%.
+Alternatively, you may select another algorithm to calculate the consensus. The algorithm, proposed by **Victor Levitsky
+**, uses the **extended DNA alphabet**. The greater the **threshold** value selected for this algorithm, the more rare
+characters are taken into account. The specified value must be between **50% and 100%**.
 
- Finally, there is "Keep gaps" parameter that specifies whether the result sequence must contain gaps, or they must be skipped. By default, the gaps are kept in the result consensus sequence.
+Finally, there is a **"Keep gaps"** parameter that specifies whether the resulting sequence must contain gaps or whether
+they should be skipped. By default, gaps are **kept** in the result consensus sequence.
 
-How to Use This Sample
+---
 
-If you haven't used the workflow samples in UGENE before, look at the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
+## How to Use This Sample
 
-##### Workflow Sample Location
+If you haven't used the workflow samples in UGENE before, look at
+the [How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows) section of the documentation.
 
-The workflow sample "Extract Consensus as Sequence" can be found in the "Alignment" section of the Workflow Designer samples.
+---
 
-##### Workflow Image
+## Workflow Sample Location
 
-The workflow looks as follows:
+The sample **"Extract Consensus as Sequence"** can be found in the **"Alignment"** section of the Workflow Designer
+samples.
 
+---
 
-![](/images/65930234/65930235.png)
+## Workflow Image
 
-##### Workflow Wizard
+The opened workflow looks as follows:
 
-The wizard has 3 pages.
+![Workflow image](/images/65930234/65930235.png)
 
-1.  Input Multiple Alignments: On this page you must input multiple alignments file(s).
+---
 
+## Workflow Wizard
 
-    ![](/images/65930234/65930236.png)
+The wizard has **3 pages**:
 
-2.  Extracting Consensus Settings: On this page you can modify extracting settings.
+### 1. Input Multiple Alignments
 
+On this page, you must input one or more multiple alignment files.
 
-    ![](/images/65930234/65930237.png)
+![Input page](/images/65930234/65930236.png)
 
-    The following parameters are available:
+---
 
-    Algorithm
+### 2. Extracting Consensus Settings
 
-    The algorithm of consensus extracting.
+On this page, you can configure consensus extraction parameters.
 
-    Threshold
+![Settings page](/images/65930234/65930237.png)
 
-    The threshold of the algorithm.
+| **Parameter** | **Description**                                    |
+|---------------|----------------------------------------------------|
+| **Algorithm** | The algorithm used to extract the consensus        |
+| **Threshold** | The minimum percentage to include a character      |
+| **Keep gaps** | Whether to preserve gaps in the consensus sequence |
 
-    Keep gaps
+---
 
-    Set this parameter if the result consensus must keep the gaps.
+### 3. Output Files
 
-3.  Output Files: For each input alignment the workflow outputs separate sequence file with consensus in it.
+For each input alignment, the workflow produces a separate FASTA file with the consensus sequence.
 
-
-    ![](/images/65930234/65930238.png)
+![Output page](/images/65930234/65930238.png)

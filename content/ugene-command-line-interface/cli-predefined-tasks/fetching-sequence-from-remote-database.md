@@ -3,45 +3,41 @@ title: "Fetching Sequence from Remote Database"
 weight: 2500
 ---
 
-
 # Fetching Sequence from Remote Database
 
-**Task Name:** fetch-sequence
+**Task Name:** `fetch-sequence`
 
-Fetches a sequence from a remote database. The supported databases are accesed via alias.
+Fetches a sequence from a remote database. The supported databases are accessed via alias.
 
-Database
+---
 
-Alias
+## Supported Databases
 
-NCBI Genbank (DNA)
+| **Database**           | **Alias**         |
+|------------------------|-------------------|
+| NCBI Genbank (DNA)     | `genbank`         |
+| NCBI Genbank (protein) | `genbank-protein` |
+| Protein Data Bank      | `pdb`             |
+| SwissProt              | `swissprot`       |
+| UniProt                | `uniprot`         |
 
-genbank
+---
 
-NCBI Genbank (protein)
+## Parameters
 
-genbank-protein
+- **`--db`** — Database alias to read from.
+  _Type: `String`, Required._
 
-Protein Data Bank
+- **`--id`** — Semicolon-separated list of resource IDs in the database.
+  _Type: `String`, Required._
 
-pdb
+- **`--save-dir`** — Directory to store sequence files loaded from the database.
+  _Type: `String`, Optional._
 
-SwissProt
+---
 
-swissprot
+## Example
 
-Uniprot
-
-uniprot
-
-**Parameters:**
-
-_db_ — database alias to read from. \[String, Required\]
-
-_id_ — semicolon-separated list of resource IDs in the database. \[String, Required\]
-
-_save-dir_ — directory to store sequence files loaded from the database. \[String, Optional\]
-
-**Example:**
-
+```bash
 ugene fetch-sequence --db=PDB --id=3INS;1CRN
+```

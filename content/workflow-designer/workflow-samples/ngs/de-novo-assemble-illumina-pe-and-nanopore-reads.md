@@ -3,62 +3,60 @@ title: "De novo Assemble Illumina PE and Nanopore Reads"
 weight: 800
 ---
 
-
 # De novo Assemble Illumina PE and Nanopore Reads
 
-The workflow sample, described below, takes FASTQ files with paired-end Illumina reads and FASTQ file(s) with Oxford Nanopore reads and assembles these data de novo with SPAdes.
+The workflow sample, described below, takes FASTQ files with paired-end Illumina reads and FASTQ file(s) with Oxford
+Nanopore reads and assembles these data de novo with SPAdes.
 
-How to Use This Sample
+## How to Use This Sample
 
-If you haven't used the workflow samples in UGENEbefore, look at the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
+If you haven't used the workflow samples in UGENE before, look at
+the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
 
-##### Workflow Sample Location
+### Workflow Sample Location
 
-The workflow sample "De novo Assemble Illumina PE and Nanopore Reads" can be found in the "NGS" section of the Workflow Designer samples.
+The workflow sample "De novo Assemble Illumina PE and Nanopore Reads" can be found in the "NGS" section of the Workflow
+Designer samples.
 
-##### Workflow Image
+### Workflow Image
 
 The opened workflow looks as follows:
 
-
 ![](/images/65930362/65930363.jpg)
 
-##### Workflow Wizard
+### Workflow Wizard
 
 The wizard has 4 pages.
 
-1.  Input data: Illumina reads: On this page, files with Illumina reads must be set.
+#### 1. Input data: Illumina reads
 
+On this page, files with Illumina reads must be set.
 
-    ![](/images/65930362/65930364.jpg)
+![](/images/65930362/65930364.jpg)
 
-2.  Input data: Nanopore reads: The Nanopore reads must be set on this page.
+#### 2. Input data: Nanopore reads
 
+The Nanopore reads must be set on this page.
 
-    ![](/images/65930362/65930365.jpg)
+![](/images/65930362/65930365.jpg)
 
-3.  SPAdes settings: Default SPAdes parameters can be changed here.
+#### 3. SPAdes settings
 
+Default SPAdes parameters can be changed here.
 
-    ![](/images/65930362/65930366.jpg)
+![](/images/65930362/65930366.jpg)
 
-    The following parameters are available:
+The following parameters are available:
 
-    Dataset type
+| Parameter            | Description                                                                                                                                                                                                     |
+|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Dataset type**     | Select the input dataset type:<br>- **Standard isolate** *(default)*<br>- **Multiple displacement amplification** (`--sc`)                                                                                      |
+| **Running mode**     | By default, SPAdes performs both **read error correction** and **assembly**.<br>You can select one of the modes:<br>- `--only-error-correction` — only error correction<br>- `--only-assembler` — only assembly |
+| **Error correction** | - **BayesHammer** is used for Illumina reads<br>- **IonHammer** is used for IonTorrent reads<br>⚠️ Do not use error correction if input reads have no quality data (e.g. FASTA input files are provided)        |
+| **K-mers**           | Set one or more k-mer sizes (`-k`) to be used during assembly. If not specified, SPAdes will choose values automatically based on read length.                                                                  |
 
-    Select the input dataset type: standard isolate (the default value) or multiple displacement amplification (corresponds to --sc).
+#### 4. Output Files Page
 
-    Running mode
+On this page, you can select an output directory:
 
-    By default, SPAdes performs both read error correction and assembly. You can select leave one of only (corresponds to --only-assembler, --only-error-correction).
-
-    Error correction is performed using BayesHammer module in case of Illumina input reads andIonHammer in case of IonTorrent data. Note that you should not use error correction in case input reads do not have quality information(e.g. FASTA input files are provided).
-
-    K-mers
-
-    k-mer sizes (-k).
-
-4.  Output Files Page: On this page, you can select an output directory:
-
-
-    ![](/images/65930362/65930367.jpg)
+![](/images/65930362/65930367.jpg)

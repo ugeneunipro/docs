@@ -3,88 +3,45 @@ title: "Extract Consensus from Assembly Element"
 weight: 300
 ---
 
-
 # Extract Consensus from Assembly Element
 
-Extract the consensus sequence from the incoming assembly.
+Extracts the consensus sequence from the incoming assembly.
 
-**Element type:** extract-consensus
+---
 
-Parameters
+## Element Type
 
-Parameter
+**Element type:** `extract-consensus`
 
-Description
+---
 
-Default value
+## Parameters
 
-Parameter in Workflow File
+| **Parameter** | **Description**                                           | **Default Value** | **Parameter in Workflow File** | **Type**  |
+|---------------|-----------------------------------------------------------|-------------------|--------------------------------|-----------|
+| **Algorithm** | The algorithm of consensus extracting.                    | Default           | `algorithm`                    | _string_  |
+| **Keep gaps** | If set to `True`, the result consensus will contain gaps. | True              | `keep-gaps`                    | _boolean_ |
 
-Type
+---
 
-**Algorithm**
+## Input/Output Ports
 
-The algorithm of consensus extracting.
+### Input Port
 
-Default
+- **Name in GUI:** `in-assembly`
+- **Name in Workflow File:** `in-assembly`
 
-**algorithm**
+| **Slot In GUI** | **Slot in Workflow File** | **Type**   |
+|-----------------|---------------------------|------------|
+| Assembly data   | `assembly`                | _assembly_ |
 
-_string_
+---
 
-**Keep gaps**
+### Output Port
 
-Set this parameter if the result consensus must keep the gaps.
+- **Name in GUI:** `out-sequence`
+- **Name in Workflow File:** `out-sequence`
 
-True
-
-**keep-gaps**
-
-_boolean_
-
-Input/Output Ports
-------------------
-
-The element has 1 _input port_:
-
-**Name in GUI:** in-assembly
-
-**Name in Workflow File:** in-assembly
-
-**Slots:**
-
-
-
-Slot In GUI
-
-Slot in Workflow File
-
-Type
-
-**Assembly data**
-
-**assembly**
-
-_assembly_
-
-And 1 _outut port_:
-
-**Name in GUI:** out-sequence
-
-**Name in Workflow File:** out-sequence
-
-**Slots:**
-
-
-
-Slot In GUI
-
-Slot in Workflow File
-
-Type
-
-**Sequence**
-
-**sequence**
-
-_string_
+| **Slot In GUI** | **Slot in Workflow File** | **Type** |
+|-----------------|---------------------------|----------|
+| Sequence        | `sequence`                | _string_ |

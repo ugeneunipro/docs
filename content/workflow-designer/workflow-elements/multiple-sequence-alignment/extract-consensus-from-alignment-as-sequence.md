@@ -3,95 +3,42 @@ title: "Extract Consensus from Alignment as Sequence"
 weight: 800
 ---
 
-
 # Extract Consensus from Alignment as Sequence
 
-Extract the consensus sequence from the incoming multiple sequence alignment.
+Extract the consensus sequence from an incoming multiple sequence alignment (MSA) and output it as a sequence.
 
-**Element type:** extract-msa-consensus-sequence
+**Element type:** `extract-msa-consensus-sequence`
 
-Parameters
-----------
+---
 
-Parameter
+## Parameters
 
-Description
+| **Parameter** | **Description**                                                   | **Default value** | **Parameter in Workflow File** | **Type**  |
+|---------------|-------------------------------------------------------------------|-------------------|--------------------------------|-----------|
+| **Algorithm** | The algorithm used to calculate the consensus.                    | _(none)_          | `algorithm`                    | _string_  |
+| **Threshold** | The threshold used by the algorithm (e.g., percentage agreement). | `100`             | `threshold`                    | _numeric_ |
+| **Keep gaps** | Whether gaps should be kept in the resulting consensus sequence.  | `True`            | `keep-gaps`                    | _boolean_ |
 
-Default value
+---
 
-Parameter in Workflow File
+## Input/Output Ports
 
-Type
+### Input Port
 
-**Algorithm**
+- **Name in GUI:** `in-msa`
+- **Name in Workflow File:** `in-msa`
+- **Slots:**
 
-The algorithm of consensus extracting.
+| **Slot In GUI** | **Slot in Workflow File** | **Type** |
+|-----------------|---------------------------|----------|
+| MSA             | `msa`                     | _msa_    |
 
+### Output Port
 
+- **Name in GUI:** `out-sequence`
+- **Name in Workflow File:** `out-sequence`
+- **Slots:**
 
-**algorithm**
-
-_string_
-
-**Threshold**
-
-The threshold of the algorithm.
-
-100
-
-**threshold**
-
-_numeric_
-
-**Keep gaps**
-
-Set this parameter if the result consensus must keep the gaps.
-
-True
-
-**keep-gaps**
-
-_boolean_
-
-Input/Output Ports
-------------------
-
-The element has 1 _input port_:
-
-**Name in GUI:** _in-msa_
-
-**Name in Workflow File:** in-msa
-
-**Slots:**
-
-Slot In GUI
-
-Slot in Workflow File
-
-Type
-
-**MSA**
-
-**msa**
-
-_msa_
-
-And 1 _output port_:
-
-**Name in GUI:** _out-sequence_
-
-**Name in Workflow File:** out-sequence
-
-**Slots:**
-
-Slot In GUI
-
-Slot in Workflow File
-
-Type
-
-**Sequence**
-
-**sequence**
-
-_seq_
+| **Slot In GUI** | **Slot in Workflow File** | **Type** |
+|-----------------|---------------------------|----------|
+| Sequence        | `sequence`                | _seq_    |

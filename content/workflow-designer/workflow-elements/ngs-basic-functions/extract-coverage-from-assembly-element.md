@@ -3,76 +3,48 @@ title: "Extract Coverage from Assembly Element"
 weight: 400
 ---
 
-
 # Extract Coverage from Assembly Element
 
-Extract the coverage and bases count from the incoming assembly.
+This workflow element extracts **coverage** and/or **base counts** from the incoming assembly data.
 
-**Element type:** extract-assembly-coverage
+**Element type:** `extract-assembly-coverage`
 
- Parameters
+---
 
-**Output file**
+## Parameters
 
-Location of output data file. If this attribute is set, slot "Location" in port will not be used.
+| **Parameter**   | **Description**                                                                 | **Default Value**       | **Parameter in Workflow File** | **Type**  |
+|-----------------|---------------------------------------------------------------------------------|-------------------------|--------------------------------|-----------|
+| **Output file** | Path to the output data file. If this is set, slot `Location` will not be used. | `assembly_coverage.txt` | `url-out`                      | _string_  |
+| **Export**      | Type of data to export: `coverage` or `base-count`.                             | `coverage`              | `export-type`                  | _string_  |
+| **Threshold**   | Minimum coverage value to include in the output.                                | `1`                     | `threshold`                    | _numeric_ |
 
-assembly\_coverage.txt
+---
 
-**url-out**
+## Input/Output Ports
 
-_string_
+### Input Port
 
-**Export**
+| **Name in GUI** | **Name in Workflow File** | **Slot**      | **Slot in Workflow File** | **Type**   |
+|-----------------|---------------------------|---------------|---------------------------|------------|
+| `in-assembly`   | `in-assembly`             | Assembly data | `assembly`                | _assembly_ |
 
-Data type to export.
+### Output Port
 
-coverage
+_(None defined directly in the current schema – output is handled via the file path parameter `url-out`.)_
 
-**export-type**
+---
 
-_string_
+## Example
 
-**Treshold**
+To extract base coverage from a single assembly file:
 
-The minimum coverage value to export.
+```bash
+ugene workflow run \
+  --element extract-assembly-coverage \
+  --url-out ./coverage.txt \
+  --export-type coverage \
+  --threshold 5
+```
 
-1
-
-**threshold**
-
-_numeric_
-
-Parameter
-
-Description
-
-Default value
-
-Parameter in Workflow File
-
-Type
-
-Input/Output Ports
-------------------
-
-The element has 1 _input port_:
-
-**Name in GUI:** in-assembly
-
-**Name in Workflow File:** in-assembly
-
-**Slots:**
-
-
-
-**Assembly data**
-
-**assembly**
-
-_assembly_
-
-Slot In GUI
-
-Slot in Workflow File
-
-Type
+This will output coverage data for all positions with at least 5x coverage.

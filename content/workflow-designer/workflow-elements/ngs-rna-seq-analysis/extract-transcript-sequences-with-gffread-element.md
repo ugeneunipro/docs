@@ -3,81 +3,52 @@ title: "Extract Transcript Sequences with gffread Element"
 weight: 300
 ---
 
-
 # Extract Transcript Sequences with gffread Element
 
-Extract transcript sequences from the genomic sequence(s) with gffread.
+This workflow element uses **gffread** to extract transcript sequences from provided genomic sequences and GFF/GTF
+annotation files.
 
-**Element type:** gffread
+**Element type:** `gffread`
 
-Parameters
-----------
+---
 
-Parameter
+## Parameters
 
-Description
+| **Parameter**        | **Description**                                             | **Default Value** | **Parameter in Workflow File** | **Type** |
+|----------------------|-------------------------------------------------------------|-------------------|--------------------------------|----------|
+| **Output sequences** | Path to the output FASTA file with the extracted sequences. | *(not set)*       | `url-out`                      | _string_ |
 
-Default value
+---
 
-Parameter in Workflow File
+## Input/Output Ports
 
-Type
+### Input Port
 
-**Output sequences**
+| **Name in GUI**     | **Name in Workflow File** | **Slot**             | **Slot in Workflow File** | **Type** |
+|---------------------|---------------------------|----------------------|---------------------------|----------|
+| `Input transcripts` | `in-data`                 | Genomic sequence url | `genome`                  | _string_ |
+|                     |                           | Transcripts url      | `transcripts`             | _string_ |
 
-The url to the output file with the extracted sequences.
+### Output Port
 
+| **Name in GUI**           | **Name in Workflow File** | **Slot**  | **Slot in Workflow File** | **Type** |
+|---------------------------|---------------------------|-----------|---------------------------|----------|
+| `Extracted sequences url` | `extracted-data`          | sequences | `sequences`               | _string_ |
 
+---
 
-**url-out**
+## Example
 
-_string_
+You can use this element in a workflow to extract coding sequences (CDS) or full transcript sequences using a reference
+genome and GFF/GTF file.
 
-Input/Output Ports
-------------------
+```bash
+ugene workflow run \
+  --element gffread \
+  --genome genome.fa \
+  --transcripts annotations.gtf \
+  --url-out transcripts.fa
+  ```
 
-The element has 1 _input port_:
-
-**Name in GUI:** Input transcripts
-
-**Name in  Workflow File:** in-data
-
-**Slots:**
-
-Slot In GUI
-
-Slot in Workflow File
-
-Type
-
-**Genomic sequence url**
-
-**genome**
-
-__string__
-
-**Transcripts url**
-
-**transcripts**
-
-_string_
-
-And 1 _output port_:
-
-**Name in GUI:** Extracted sequences url
-
-**Name in Workflow File:** extracted-data
-
-**Slots:**
-
-Slot In GUI
-
-Slot in Workflow File
-
-Type
-
-**sequences**
-
-**sequences**
-
-__string__
+This will output transcripts.fa containing the sequences of all transcripts described in annotations.gtf, extracted from
+genome.fa.

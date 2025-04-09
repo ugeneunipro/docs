@@ -3,64 +3,38 @@ title: "Filter Element"
 weight: 100
 ---
 
-
 # Filter Element
 
 This element passes through only data that matches the input filter value (or values).
 
-**Element type:** filter-by-values
+**Element type:** `filter-by-values`
 
-Parameters
-----------
+---
 
-Parameter
+## Parameters
 
-Description
+| **Parameter**      | **Description**                                     | **Default Value** | **Parameter in Workflow File** | **Type** |
+|--------------------|-----------------------------------------------------|-------------------|--------------------------------|----------|
+| Filter by value(s) | Semicolon-separated list of values used for filter. | *(none)*          | `text`                         | _string_ |
 
-Default value
+---
 
-Parameter in Workflow File
+## Input/Output Ports
 
-Type
+### Input Port
 
-**Filter by value(s)**
+- **Name in GUI:** `Input values`
+- **Name in Workflow File:** `in-data`
 
-Semicolon-separated list of values used to filter the input data.
+| Slot In GUI  | Slot in Workflow File | Type     |
+|--------------|-----------------------|----------|
+| Input values | `text`                | _string_ |
 
+### Output Port
 
+- **Name in GUI:** `Passing values (by Filter)`
+- **Name in Workflow File:** `filtered-data`
 
-**text**
-
-_string_
-
-
-
-
-
-Input/Output Ports
-
-The element has 1 _input port_:
-
-**Name in GUI:** _Input values_
-
-**Name in Workflow File:** in-data
-
-**Slots:**
-
-Slot In GUI
-
-Slot in Workflow File
-
-Type
-
-**Input values**
-
-**text**
-
-_string_
-
-The element has 1 _output port_:
-
-**Name in GUI:** _Passing values (by Filter)_
-
-**Name in Workflow File:** filtered-data
+| Slot In GUI       | Slot in Workflow File        | Type                                  |
+|-------------------|------------------------------|---------------------------------------|
+| *(same as input)* | *(not explicitly specified)* | *(inferred from context as _string_)* |

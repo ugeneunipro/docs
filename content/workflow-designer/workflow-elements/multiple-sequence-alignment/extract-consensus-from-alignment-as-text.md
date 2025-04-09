@@ -3,85 +3,41 @@ title: "Extract Consensus from Alignment as Text"
 weight: 900
 ---
 
-
 # Extract Consensus from Alignment as Text
 
-Extract the consensus string from the incoming multiple sequence alignment.
+Extract the consensus string from an incoming multiple sequence alignment (MSA) and output it as plain text.
 
-**Element type:** extract-msa-consensus-string
+**Element type:** `extract-msa-consensus-string`
 
-Parameters
-----------
+---
 
-Parameter
+## Parameters
 
-Description
+| **Parameter** | **Description**                                                   | **Default value** | **Parameter in Workflow File** | **Type**  |
+|---------------|-------------------------------------------------------------------|-------------------|--------------------------------|-----------|
+| **Algorithm** | The algorithm used to calculate the consensus.                    | _(none)_          | `algorithm`                    | _string_  |
+| **Threshold** | The threshold used by the algorithm (e.g., percentage agreement). | `100`             | `threshold`                    | _numeric_ |
 
-Default value
+---
 
-Parameter in Workflow File
+## Input/Output Ports
 
-Type
+### Input Port
 
-**Algorithm**
+- **Name in GUI:** `in-msa`
+- **Name in Workflow File:** `in-msa`
+- **Slots:**
 
-The algorithm of consensus extracting.
+| **Slot In GUI** | **Slot in Workflow File** | **Type** |
+|-----------------|---------------------------|----------|
+| MSA             | `msa`                     | _msa_    |
 
+### Output Port
 
+- **Name in GUI:** `out-sequence`
+- **Name in Workflow File:** `out-text`
+- **Slots:**
 
-**algorithm**
-
-_string_
-
-**Threshold**
-
-The threshold of the algorithm.
-
-100
-
-**threshold**
-
-_numeric_
-
-Input/Output Ports
-------------------
-
-The element has 1 _input port_:
-
-**Name in GUI:** _in-msa_
-
-**Name in Workflow File:** in-msa
-
-**Slots:**
-
-Slot In GUI
-
-Slot in Workflow File
-
-Type
-
-**MSA**
-
-**msa**
-
-_msa_
-
-And 1 _output port_:
-
-**Name in GUI:** _out-sequence_
-
-**Name in Workflow File:** out-text
-
-**Slots:**
-
-Slot In GUI
-
-Slot in Workflow File
-
-Type
-
-**Plain text**
-
-**text**
-
-_string_
+| **Slot In GUI** | **Slot in Workflow File** | **Type** |
+|-----------------|---------------------------|----------|
+| Plain text      | `text`                    | _string_ |

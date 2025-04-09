@@ -3,88 +3,47 @@ title: "FASTQ Merger Element"
 weight: 500
 ---
 
-
 # FASTQ Merger Element
 
 Merges input sequences to one output file.
 
-**Element type:** MergeFastq
+**Element type:** `MergeFastq`
 
- Parameters
+---
 
-Parameter
+## Parameters
 
-Description
+| **Parameter**        | **Description**                                                                                                                                                                              | **Default Value** | **Parameter in Workflow File** | **Type** |
+|----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|--------------------------------|----------|
+| **Output directory** | Select an output directory. Custom – specify the output directory in the 'Custom directory' parameter. Workflow – internal workflow directory. Input file – the directory of the input file. | *(not set)*       | `out-mode`                     | _string_ |
+| **Output file name** | A name of an output file. If default or empty value is provided, the output name is the name of the first file with additional extension.                                                    | *(not set)*       | `out-name`                     | _string_ |
 
-Default value
+---
 
-Parameter in Workflow File
+## Input/Output Ports
 
-Type
+### Input Port
 
-**Output directory**
+| **Name in GUI** | **Name in Workflow File** | **Slot**   | **Slot in Workflow File** | **Type** |
+|-----------------|---------------------------|------------|---------------------------|----------|
+| Input File      | `in-file`                 | Source URL | `url`                     | _string_ |
 
-Select an output directory. Custom - specify the output directory in the 'Custom directory' parameter. Workflow - internal workflow directory. Input file - the directory of the input file.
+### Output Port
 
+| **Name in GUI** | **Name in Workflow File** | **Slot**   | **Slot in Workflow File** | **Type** |
+|-----------------|---------------------------|------------|---------------------------|----------|
+| Output File     | `out-file`                | Source URL | `url`                     | _string_ |
 
+---
 
-**out-mode**
+## Example
 
-_string_
+```bash
+ugene workflow run \
+  --element MergeFastq \
+  --url input1.fastq,input2.fastq,input3.fastq \
+  --out-name merged_output.fastq
+```
 
-**Output file name**
-
-A name of an output file. If default of empty value is provided the output name is the name of the first file with additional extention.
-
-
-
-**out-name**
-
-_string_
-
-Input/Output Ports
-------------------
-
-The element has 1 _input port_:
-
-**Name in GUI:** Input File
-
-**Name in Workflow File:** in-file
-
-**Slots:**
-
-
-
-Slot In GUI
-
-Slot in Workflow File
-
-Type
-
-**Source URL**
-
-**url**
-
-_string_
-
-The element has 1 _output port_:
-
-**Name in GUI:** Output File
-
-**Name in Workflow File:** out-file
-
-**Slots:**
-
-
-
-Slot In GUI
-
-Slot in Workflow File
-
-Type
-
-**Source URL**
-
-**url**
-
-_string_
+This command merges multiple FASTQ files into one. Use `--out-mode` and `--custom-dir` if you want to set a specific
+output location.

@@ -1,6 +1,6 @@
 ---
 title: "Resizing and Moving Algorithm Element"
-weight: 1
+weight: 400
 ---
 
 

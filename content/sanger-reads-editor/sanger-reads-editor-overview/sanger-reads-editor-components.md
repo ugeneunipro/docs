@@ -1,6 +1,6 @@
 ---
 title: "Sanger Reads Editor Components"
-weight: 1
+weight: 200
 ---
 
 
@@ -8,5 +8,5 @@ weight: 1
 
 Here is the default layout of the editor:
 
-  
+
 ![](/images/65929759/65929760.png)

@@ -1,6 +1,6 @@
 ---
 title: "HMM3"
-weight: 1
+weight: 1700
 ---
 
 
@@ -24,11 +24,3 @@ To access these tools select the _Tools ‣ HMMER tools_ submenu of the program 
 ![](/images/54363788/56852533.png)
 
 We highly recommend reading the original HMMER3 documentation to learn how to use utilities provided by the plugin.
-
-*   [Building HMM Model](building-hmm-model.md)
-*   [Searching Sequence Using HMM Profile](searching-sequence-using-hmm-profile.md)
-*   [Searching Sequence Against Sequence Database](searching-sequence-against-sequence-database.md)
-
-
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

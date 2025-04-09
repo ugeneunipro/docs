@@ -1,6 +1,6 @@
 ---
 title: "Map NGS Reads with UGENE Genome Aligner"
-weight: 1
+weight: 300
 ---
 
 

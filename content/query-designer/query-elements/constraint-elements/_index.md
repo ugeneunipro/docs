@@ -1,6 +1,6 @@
 ---
 title: "Constraint Elements"
-weight: 1
+weight: 200
 ---
 
 
@@ -34,11 +34,3 @@ The constraint is:
 0bp <= Distance(**pattern\_annot\_end**, **orf\_annot\_start**) <= 100bp
 
 Find the details on each constraint element below.
-
-*   [End-Start Constraint Element](end-start-constraint-element.md)
-*   [Start-End Constraint Element](start-end-constraint-element.md)
-*   [End-End Constraint Element](end-end-constraint-element.md)
-*   [Start-Start Constraint Element](start-start-constraint-element.md)
-
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

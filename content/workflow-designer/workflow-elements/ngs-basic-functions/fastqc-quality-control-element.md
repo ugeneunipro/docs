@@ -1,6 +1,6 @@
 ---
 title: "FastQC Quality Control Element"
-weight: 1
+weight: 700
 ---
 
 

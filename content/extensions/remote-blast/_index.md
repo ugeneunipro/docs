@@ -1,6 +1,6 @@
 ---
 title: "Remote BLAST"
-weight: 1
+weight: 600
 ---
 
 
@@ -98,10 +98,3 @@ _Matrix_ — key element in evaluating the quality of a pair-wise sequence align
 _Service_ — blastp service which needs to be performed: plain, psi or phi.
 
 The _Advanced options_ tab is not available when the _cdd_ search is selected.
-
-*   [Primer-BLAST](primer-blast.md)
-*   [Exporting BLAST Results to Alignment](exporting-blast-results-to-alignment.md)
-*   [Fetching Sequences from Remote Database](fetching-sequences-from-remote-database.md)
-
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 ---
 title: "Search for Transcription Factor Binding Sites (TFBS) in Genomic Sequences"
-weight: 1
+weight: 100
 ---
 
 

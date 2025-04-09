@@ -1,6 +1,6 @@
 ---
 title: "Deleting Element"
-weight: 1
+weight: 500
 ---
 
 

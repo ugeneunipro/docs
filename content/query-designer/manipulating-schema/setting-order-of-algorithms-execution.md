@@ -1,6 +1,6 @@
 ---
 title: "Setting Order of Algorithms Execution"
-weight: 1
+weight: 500
 ---
 
 

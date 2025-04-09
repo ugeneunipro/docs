@@ -1,6 +1,6 @@
 ---
 title: "ChIP-seq Analysis with Cistrome Tools"
-weight: 1
+weight: 200
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Split Alignment into Sequences Element"
-weight: 1
+weight: 1300
 ---
 
 

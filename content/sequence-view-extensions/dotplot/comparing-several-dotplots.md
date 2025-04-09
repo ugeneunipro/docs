@@ -1,6 +1,6 @@
 ---
 title: "Comparing Several Dotplots"
-weight: 1
+weight: 1100
 ---
 
 

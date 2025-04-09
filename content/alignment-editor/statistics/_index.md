@@ -1,6 +1,6 @@
 ---
 title: "Statistics"
-weight: 1
+weight: 300
 ---
 
 
@@ -20,9 +20,3 @@ Also you can change the distance algorithm, select the profile mode and exclude 
 To update the column use _Automatic update_ checkbox or press corresponding button to update.
 
 To generate distance matrix and grid profile see the documentation below:
-
-*   [Distance Matrix](distance-matrix.md)
-*   [Grid Profile](grid-profile.md)
-
-
--------------------------------------------------------------------------------------------------------

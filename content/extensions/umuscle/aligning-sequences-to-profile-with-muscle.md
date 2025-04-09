@@ -1,6 +1,6 @@
 ---
 title: "Aligning Sequences to Profile with MUSCLE"
-weight: 1
+weight: 300
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Workflow Designer Settings"
-weight: 1
+weight: 900
 ---
 
 
@@ -8,5 +8,5 @@ weight: 1
 
 Use this tab to configure the Workflow Designer settings:
 
-  
+
 ![](/images/65929366/65929367.png)

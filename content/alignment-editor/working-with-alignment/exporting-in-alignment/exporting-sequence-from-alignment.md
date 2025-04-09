@@ -1,6 +1,6 @@
 ---
 title: "Exporting Sequence from Alignment"
-weight: 1
+weight: 200
 ---
 
 

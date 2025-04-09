@@ -1,6 +1,6 @@
 ---
 title: "Convert seq-qual Pair to FASTQ"
-weight: 1
+weight: 100
 ---
 
 

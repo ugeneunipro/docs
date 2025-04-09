@@ -1,6 +1,6 @@
 ---
 title: "Aligning with ClustalW"
-weight: 1
+weight: 1400
 ---
 
 

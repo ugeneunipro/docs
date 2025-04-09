@@ -1,6 +1,6 @@
 ---
 title: "Filter BAM SAM Files Element"
-weight: 1
+weight: 800
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Translating Nucleotide Sequence"
-weight: 1
+weight: 300
 ---
 
 

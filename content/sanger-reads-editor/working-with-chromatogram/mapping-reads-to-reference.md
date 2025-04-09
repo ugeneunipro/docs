@@ -1,6 +1,6 @@
 ---
 title: "Mapping Reads to Reference"
-weight: 1
+weight: 100
 ---
 
 

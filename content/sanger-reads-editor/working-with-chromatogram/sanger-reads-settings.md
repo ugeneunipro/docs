@@ -1,6 +1,6 @@
 ---
 title: "Sanger Reads Settings"
-weight: 1
+weight: 900
 ---
 
 

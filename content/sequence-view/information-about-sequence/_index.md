@@ -1,6 +1,6 @@
 ---
 title: "Information about Sequence"
-weight: 1
+weight: 700
 ---
 
 

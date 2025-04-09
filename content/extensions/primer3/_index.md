@@ -1,6 +1,6 @@
 ---
 title: "Primer3"
-weight: 1
+weight: 3100
 ---
 
 
@@ -48,11 +48,3 @@ The result annotations could have a set of the following qualifiers:
 
 
 However there is one additional feature available which is not originally a part of Primer3 tool. It allows user design primers for RT-PCR experiments by choosing which exons/introns to span with the primer product. This feature is described in detailed below. When you select the parameters you can save and load settings with a help of the corresponding buttons in the right corner of the dialog.
-
-*   [Primer3 (no target sequence)](96666247.html)
-*   [Posterior Actions](posterior-actions.md)
-*   [RTPCR Primer Design](rtpcr-primer-design.md)
-
-
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

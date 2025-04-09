@@ -1,12 +1,7 @@
 ---
 title: "Transcriptomics"
-weight: 1
+weight: 1000
 ---
 
 
 # Transcriptomics
-
-*   [Search for Transcription Factor Binding Sites (TFBS) in Genomic Sequences](65930593.html)
-
-
---------------------------------------------------------------------------------------------------

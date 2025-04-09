@@ -1,6 +1,6 @@
 ---
 title: "De novo Assemble Illumina PE and Nanopore Reads"
-weight: 1
+weight: 800
 ---
 
 

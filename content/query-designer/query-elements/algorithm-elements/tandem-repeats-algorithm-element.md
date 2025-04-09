@@ -1,6 +1,6 @@
 ---
 title: "Tandem Repeats Algorithm Element"
-weight: 1
+weight: 1200
 ---
 
 

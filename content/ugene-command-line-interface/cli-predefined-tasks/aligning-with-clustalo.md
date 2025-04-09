@@ -1,6 +1,6 @@
 ---
 title: "Aligning with ClustalO"
-weight: 1
+weight: 1500
 ---
 
 

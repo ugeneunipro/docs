@@ -1,6 +1,6 @@
 ---
 title: "In Silico PCR"
-weight: 1
+weight: 1100
 ---
 
 
@@ -80,9 +80,3 @@ There are three columns in the table:
 
 
 ![](/images/65930776/94078801.png)
-
-*   [Primers Details](primers-details.md)
-*   [Primer Library](primer-library.md)
-
-
------------------------------------------------------------------------------------------------------------

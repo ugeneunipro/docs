@@ -1,6 +1,6 @@
 ---
 title: "Primer Algorithm Element"
-weight: 1
+weight: 600
 ---
 
 

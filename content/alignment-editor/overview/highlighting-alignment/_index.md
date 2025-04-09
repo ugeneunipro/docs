@@ -1,6 +1,6 @@
 ---
 title: "Highlighting Alignment"
-weight: 1
+weight: 500
 ---
 
 
@@ -72,5 +72,3 @@ To use dots instead of symbols which are not highlighted check the _Use dots_ ch
 ### _Export highlighted_
 
 Also you can export highlighting with a help of the _Export_ button in the _Options Panel_ or by the _Export->Export highlighted_ context menu item. Check the corresponding page fpr details.
-
-*   [Export Highlighting to File](export-highlighting-to-file.md)

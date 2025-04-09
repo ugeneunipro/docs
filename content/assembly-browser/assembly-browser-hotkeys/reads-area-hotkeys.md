@@ -1,6 +1,6 @@
 ---
 title: "Reads Area Hotkeys"
-weight: 1
+weight: 200
 ---
 
 

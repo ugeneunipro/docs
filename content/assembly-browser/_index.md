@@ -17,39 +17,3 @@ On the other hand, this allows one to overview the whole assembly and navigate i
 The Assembly Browser has been tested on different BAM/SAM files from the [1000 Genomes Project](http://www.1000genomes.org/about) and other sources.
 
 Read the documentation below to learn more about the Assembly Browser features.
-
-*   [Import BAM and SAM Files](import-bam-and-sam-files.md)
-*   [Browsing and Zooming Assembly](browsing-and-zooming-assembly.md)
-    *   [Opening Assembly Browser Window](opening-assembly-browser-window.md)
-    *   [Assembly Browser Window](assembly-browser-window.md)
-    *   [Assembly Browser Window Components](assembly-browser-window-components.md)
-    *   [Reads Area Description](reads-area-description.md)
-    *   [Assembly Overview Description](assembly-overview-description.md)
-    *   [Ruler and Coverage Graph Description](ruler-and-coverage-graph-description.md)
-    *   [Go to Position in Assembly](go-to-position-in-assembly.md)
-    *   [Using Bookmarks for Navigation in Assembly Data](using-bookmarks-for-navigation-in-assembly-data.md)
-*   [Getting Information About Read](getting-information-about-read.md)
-*   [Short Reads Vizualization](short-reads-vizualization.md)
-    *   [Reads Highlighting](reads-highlighting.md)
-    *   [Reads Shadowing](reads-shadowing.md)
-*   [Associating Reference Sequence](associating-reference-sequence.md)
-*   [Associating Variations](associating-variations.md)
-*   [Consensus Sequence](consensus-sequence.md)
-*   [Exporting](exporting.md)
-    *   [Exporting Reads](exporting-reads.md)
-    *   [Exporting Visible Reads](exporting-visible-reads.md)
-    *   [Exporting Coverage](exporting-coverage.md)
-    *   [Exporting Consensus](exporting-consensus.md)
-    *   [Exporting Consensus Variations](exporting-consensus-variations.md)
-    *   [Exporting Assembly as Image](exporting-assembly-as-image.md)
-    *   [Exporting Assembly Region](exporting-assembly-region.md)
-*   [Options Panel in Assembly Browser](options-panel-in-assembly-browser.md)
-    *   [Navigation in Assembly Browser](navigation-in-assembly-browser.md)
-    *   [Assembly Statistics](assembly-statistics.md)
-    *   [Assembly Browser Settings](assembly-browser-settings.md)
-*   [Assembly Browser Hotkeys](assembly-browser-hotkeys.md)
-    *   [Assembly Overview Hotkeys](assembly-overview-hotkeys.md)
-    *   [Reads Area Hotkeys](reads-area-hotkeys.md)
-
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 ---
 title: "Fetching Sequences from Local BLAST Database"
-weight: 1
+weight: 300
 ---
 
 

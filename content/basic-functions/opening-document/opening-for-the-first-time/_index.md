@@ -1,6 +1,6 @@
 ---
 title: "Opening for the First Time"
-weight: 1
+weight: 100
 ---
 
 
@@ -23,8 +23,3 @@ To simply open the document select one of the following:
 or drag the file to the UGENE window. Also it is able to drag and drop documents (not objects) between opened UGENEs.
 
 Documents created not by UGENE are [_locked_](http://ugene.unipro.ru/documentation/manual/basic_functions/locked_documents.html#locked-documents). To be able to edit the document you should save a copy of the document and continue working with the copy.
-
-*   [Advanced Dialog Options](advanced-dialog-options.md)
-
-
-------------------------------------------------------------------------

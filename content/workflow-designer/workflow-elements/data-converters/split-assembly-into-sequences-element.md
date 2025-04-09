@@ -1,6 +1,6 @@
 ---
 title: "Split Assembly into Sequences Element"
-weight: 1
+weight: 500
 ---
 
 

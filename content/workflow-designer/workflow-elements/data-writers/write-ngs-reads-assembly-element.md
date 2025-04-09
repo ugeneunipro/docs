@@ -1,6 +1,6 @@
 ---
 title: "Write NGS Reads Assembly Element"
-weight: 1
+weight: 400
 ---
 
 

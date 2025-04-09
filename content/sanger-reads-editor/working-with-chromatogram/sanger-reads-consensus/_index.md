@@ -1,6 +1,6 @@
 ---
 title: "Sanger Reads Consensus"
-weight: 1
+weight: 400
 ---
 
 
@@ -16,8 +16,3 @@ To switch the consensus mode go to the _Consensus_ _tab_ of the _Options Panel_:
 
 
 ![](/images/65929772/65929773.png)
-
-*   [Export Chromatogram Consensus](export-chromatogram-consensus.md)
-
-
-------------------------------------------------------------------------------------

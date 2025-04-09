@@ -1,6 +1,6 @@
 ---
 title: "Adjusting Clade Settings"
-weight: 1
+weight: 500
 ---
 
 

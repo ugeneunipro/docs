@@ -1,6 +1,6 @@
 ---
 title: "Zooming and Fonts"
-weight: 1
+weight: 600
 ---
 
 

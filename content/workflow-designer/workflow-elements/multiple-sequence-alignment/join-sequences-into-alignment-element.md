@@ -1,6 +1,6 @@
 ---
 title: "Join Sequences into Alignment Element"
-weight: 1
+weight: 1100
 ---
 
 

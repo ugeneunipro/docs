@@ -1,6 +1,6 @@
 ---
 title: "Annotations Editor"
-weight: 1
+weight: 900
 ---
 
 
@@ -28,11 +28,3 @@ For documents created not by UGENE annotations are grouped by their names. For a
 Groups can contain both annotations and other groups. The numbers in the brackets after a group name in the _Annotations editor_ are the count of subgroups and annotations in the current group.
 
 A single annotation is allowed to be presented in several groups simultaneously. An annotation is physically removed from the document when it does not belong to any group.
-
-*   [Automatic Annotations Highlighting](automatic-annotations-highlighting.md)
-*   [db\_xref Qualifier](db_xref-qualifier.md)
-*   [The comment Annotation](the-comment-annotation.md)
-*   [Transform into a primer pair](transform-into-a-primer-pair.md)
-
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 ---
 title: "Show on Translation"
-weight: 1
+weight: 300
 ---
 
 

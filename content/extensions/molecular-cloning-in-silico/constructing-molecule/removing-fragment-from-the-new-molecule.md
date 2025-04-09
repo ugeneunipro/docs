@@ -1,6 +1,6 @@
 ---
 title: "Removing Fragment from the New Molecule"
-weight: 1
+weight: 400
 ---
 
 

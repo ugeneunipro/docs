@@ -1,6 +1,6 @@
 ---
 title: "Trim and Map Sanger Reads"
-weight: 1
+weight: 100
 ---
 
 

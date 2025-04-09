@@ -1,6 +1,6 @@
 ---
 title: "Aligning Sequences"
-weight: 1
+weight: 800
 ---
 
 

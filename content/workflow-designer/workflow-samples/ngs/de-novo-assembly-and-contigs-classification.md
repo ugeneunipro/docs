@@ -1,6 +1,6 @@
 ---
 title: "De Novo Assembly and Contigs Classification"
-weight: 1
+weight: 1000
 ---
 
 

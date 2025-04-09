@@ -1,6 +1,6 @@
 ---
 title: "MAFFT"
-weight: 1
+weight: 2000
 ---
 
 

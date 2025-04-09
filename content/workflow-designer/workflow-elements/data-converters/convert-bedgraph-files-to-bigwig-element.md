@@ -1,6 +1,6 @@
 ---
 title: "Convert bedGraph Files to bigWig Element"
-weight: 1
+weight: 100
 ---
 
 

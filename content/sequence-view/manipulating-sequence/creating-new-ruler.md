@@ -1,6 +1,6 @@
 ---
 title: "Creating New Ruler"
-weight: 1
+weight: 500
 ---
 
 

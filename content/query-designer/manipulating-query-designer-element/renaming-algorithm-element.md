@@ -1,6 +1,6 @@
 ---
 title: "Renaming Algorithm Element"
-weight: 1
+weight: 300
 ---
 
 

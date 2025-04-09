@@ -1,6 +1,6 @@
 ---
 title: "Custom Elements with Scripts"
-weight: 1
+weight: 600
 ---
 
 
@@ -46,12 +46,3 @@ The _Script editor_ dialog will appear:
 As you can see there are predefined variables for the ports and the attributes in the script. The variables for the input slots begin with the “in\_” prefix, variables for the output slots begin with the “out\_” prefix. It is possible to load a script from a file (use the _Used script_ field to do it).
 
 For each supported data type UGENE provides a number of functions that can be used in the scripts.
-
-*   [Functions Supported for Multiple Alignment Data](functions-supported-for-multiple-alignment-data.md)
-*   [Functions Supported for Sequence Data](functions-supported-for-sequence-data.md)
-*   [Functions Supported for Set of Annotations Data](functions-supported-for-set-of-annotations-data.md)
-*   [Functions Supported for Files](functions-supported-for-files.md)
-*   [Common Function](common-function.md)
-
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

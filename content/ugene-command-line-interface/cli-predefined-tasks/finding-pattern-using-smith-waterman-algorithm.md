@@ -1,6 +1,6 @@
 ---
 title: "Finding Pattern Using Smith-Waterman Algorithm"
-weight: 1
+weight: 600
 ---
 
 

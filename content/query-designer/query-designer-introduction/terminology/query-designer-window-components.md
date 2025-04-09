@@ -1,6 +1,6 @@
 ---
 title: "Query Designer Window Components"
-weight: 1
+weight: 100
 ---
 
 

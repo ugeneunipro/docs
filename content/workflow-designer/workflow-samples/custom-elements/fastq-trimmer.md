@@ -1,6 +1,6 @@
 ---
 title: "FASTQ Trimmer"
-weight: 1
+weight: 200
 ---
 
 

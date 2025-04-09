@@ -1,6 +1,6 @@
 ---
 title: "Remove Duplicates in BAM Files Element"
-weight: 1
+weight: 1200
 ---
 
 

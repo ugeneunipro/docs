@@ -1,6 +1,6 @@
 ---
 title: "Map Reads with Bowtie2 Element"
-weight: 1
+weight: 300
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 title: "System Requirements"
-weight: 500
+weight: 100
 ---
 
 

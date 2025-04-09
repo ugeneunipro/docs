@@ -1,6 +1,6 @@
 ---
 title: "Plugins Viewer"
-weight: 1
+weight: 1800
 ---
 
 

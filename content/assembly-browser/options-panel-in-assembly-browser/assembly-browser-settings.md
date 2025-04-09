@@ -1,6 +1,6 @@
 ---
 title: "Assembly Browser Settings"
-weight: 1
+weight: 300
 ---
 
 

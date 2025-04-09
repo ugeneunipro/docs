@@ -1,6 +1,6 @@
 ---
 title: "Dashboard"
-weight: 1
+weight: 700
 ---
 
 
@@ -18,9 +18,3 @@ If a workflow uses external tools the following tab appears on dashboard:
 The following picture shows the sketch of the the dashboard:
 
 ![](/images/3244811/3407950.jpg)
-
-*   [Dashboard Window Components](dashboard-window-components.md)
-*   [Using Dashboard](using-dashboard.md)
-
-
--------------------------------------------------------------------------------------------------------------------------------------

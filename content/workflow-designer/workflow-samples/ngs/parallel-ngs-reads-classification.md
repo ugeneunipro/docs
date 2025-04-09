@@ -1,6 +1,6 @@
 ---
 title: "Parallel NGS Reads Classification"
-weight: 1
+weight: 1100
 ---
 
 

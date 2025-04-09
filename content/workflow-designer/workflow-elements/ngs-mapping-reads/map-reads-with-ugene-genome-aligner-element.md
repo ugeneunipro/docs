@@ -1,6 +1,6 @@
 ---
 title: "Map Reads with UGENE Genome Aligner Element"
-weight: 1
+weight: 600
 ---
 
 

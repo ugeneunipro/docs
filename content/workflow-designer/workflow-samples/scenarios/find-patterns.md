@@ -1,6 +1,6 @@
 ---
 title: "Find Patterns"
-weight: 1
+weight: 300
 ---
 
 

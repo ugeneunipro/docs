@@ -1,6 +1,6 @@
 ---
 title: "Extracting Sequence"
-weight: 1
+weight: 300
 ---
 
 

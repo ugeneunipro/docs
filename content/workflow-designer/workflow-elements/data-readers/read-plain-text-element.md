@@ -1,6 +1,6 @@
 ---
 title: "Read Plain Text Element"
-weight: 1
+weight: 700
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Locking and Synchronize Ranges of Several Sequences"
-weight: 1
+weight: 1400
 ---
 
 

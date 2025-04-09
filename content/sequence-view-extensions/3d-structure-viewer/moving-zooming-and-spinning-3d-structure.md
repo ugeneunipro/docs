@@ -1,6 +1,6 @@
 ---
 title: "Moving, Zooming and Spinning 3D Structure"
-weight: 1
+weight: 300
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 title: "DNA Statistics"
-weight: 1
+weight: 300
 ---
 
 

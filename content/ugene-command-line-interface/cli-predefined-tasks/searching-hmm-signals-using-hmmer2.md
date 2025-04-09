@@ -1,6 +1,6 @@
 ---
 title: "Searching HMM Signals Using HMMER2"
-weight: 1
+weight: 1200
 ---
 
 

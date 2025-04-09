@@ -1,6 +1,6 @@
 ---
 title: "Search for Inverted Repeats"
-weight: 1
+weight: 200
 ---
 
 

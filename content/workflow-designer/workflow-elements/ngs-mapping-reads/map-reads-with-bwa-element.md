@@ -1,6 +1,6 @@
 ---
 title: "Map Reads with BWA Element"
-weight: 1
+weight: 400
 ---
 
 

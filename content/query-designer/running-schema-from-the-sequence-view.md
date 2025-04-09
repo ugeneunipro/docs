@@ -1,6 +1,6 @@
 ---
 title: "Running Schema from the Sequence View"
-weight: 1
+weight: 500
 ---
 
 

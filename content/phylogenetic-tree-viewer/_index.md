@@ -20,25 +20,3 @@ To load a tree from a file follow the instruction described in the [_Opening Doc
 To build a tree from a multiple sequence alignment see the [_Building Phylogenetic Tree_](building-phylogenetic-tree.md) paragraph.
 
 To learn what you can do with a tree using UGENE Phylogenetic Tree Viewer read the documentation below.
-
-*   [Tree Settings](tree-settings.md)
-    *   [Selecting Tree Layout and View](selecting-tree-layout-and-view.md)
-    *   [Modifying Labels Appearance](modifying-labels-appearance.md)
-        *   [Showing and Hiding Labels](showing-and-hiding-labels.md)
-        *   [Aligning Labels](aligning-labels.md)
-        *   [Changing Labels Formatting](changing-labels-formatting.md)
-    *   [Adjusting Branch Settings](adjusting-branch-settings.md)
-    *   [Adjusting Tree nodes](adjusting-tree-nodes.md)
-*   [Zooming Tree](zooming-tree.md)
-*   [Working with Clade](working-with-clade.md)
-    *   [Selecting Clade](selecting-clade.md)
-    *   [Collapsing and Expanding Branches](collapsing-and-expanding-branches.md)
-    *   [Swapping Siblings](swapping-siblings.md)
-    *   [Zooming Clade](zooming-clade.md)
-    *   [Adjusting Clade Settings](adjusting-clade-settings.md)
-    *   [Changing Root](changing-root.md)
-*   [Exporting Tree Image](exporting-tree-image.md)
-*   [Printing Tree](printing-tree.md)
-
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

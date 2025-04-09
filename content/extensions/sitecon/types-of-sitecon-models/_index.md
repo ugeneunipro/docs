@@ -1,13 +1,7 @@
 ---
 title: "Types of SITECON Models"
-weight: 1
+weight: 200
 ---
 
 
 # Types of SITECON Models
-
-*   [Eukaryotic](eukaryotic.md)
-*   [Prokaryotic](prokaryotic.md)
-
-
--------------------------------------------------------------------------------------------

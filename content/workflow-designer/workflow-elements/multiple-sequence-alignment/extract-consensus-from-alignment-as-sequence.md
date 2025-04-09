@@ -1,6 +1,6 @@
 ---
 title: "Extract Consensus from Alignment as Sequence"
-weight: 1
+weight: 800
 ---
 
 

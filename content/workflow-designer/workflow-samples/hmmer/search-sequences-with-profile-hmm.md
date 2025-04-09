@@ -1,6 +1,6 @@
 ---
 title: "Search Sequences with Profile HMM"
-weight: 1
+weight: 200
 ---
 
 

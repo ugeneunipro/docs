@@ -1,13 +1,7 @@
 ---
 title: "Managing Strands"
-weight: 1
+weight: 600
 ---
 
 
 # Managing Strands
-
-*   [Element Direction in Schema](element-direction-in-schema.md)
-*   [Querying Sequence Strands](querying-sequence-strands.md)
-
-
----------------------------------------------------------------------------------------------------------------------------------------------------------

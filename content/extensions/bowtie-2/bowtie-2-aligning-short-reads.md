@@ -1,6 +1,6 @@
 ---
 title: "Bowtie 2 Aligning Short Reads"
-weight: 1
+weight: 100
 ---
 
 

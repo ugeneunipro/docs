@@ -1,6 +1,6 @@
 ---
 title: "How to Create and Run Schema"
-weight: 1
+weight: 300
 ---
 
 

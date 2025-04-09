@@ -1,6 +1,6 @@
 ---
 title: "Smith-Waterman Algorithm Element"
-weight: 1
+weight: 1100
 ---
 
 

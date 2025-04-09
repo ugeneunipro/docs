@@ -1,6 +1,6 @@
 ---
 title: "Running Schema from the Query Designer"
-weight: 1
+weight: 700
 ---
 
 

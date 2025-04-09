@@ -1,6 +1,6 @@
 ---
 title: "Body"
-weight: 1
+weight: 200
 ---
 
 
@@ -16,10 +16,3 @@ workflow schema\_name {
     # Metainformation (aliases and visual information)
 
 }
-
-*   [Elements](elements.md)
-*   [Dataflow](dataflow.md)
-*   [Metainformation](metainformation.md)
-
-
---------------------------------------------------------------------------------------------------------------------------------------

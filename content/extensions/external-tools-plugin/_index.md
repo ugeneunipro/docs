@@ -1,6 +1,6 @@
 ---
 title: "External Tools Plugin"
-weight: 1
+weight: 3300
 ---
 
 
@@ -13,8 +13,3 @@ To use an external tool from UGENE, the tool needs to be installed on the system
 Otherwise, if you’ve installed the UGENE Standard Package, you would need to configure an external tool in order to use it. Note that in this case you can download the package with all the external tools from [this page](http://ugene.unipro.ru/external.html).
 
 To learn how to configure an external tool, read below.
-
-*   [Configuring External Tool](configuring-external-tool.md)
-
-
-----------------------------------------------------------------------------

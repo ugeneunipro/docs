@@ -1,6 +1,6 @@
 ---
 title: "Changing Algorithm Element Appearance"
-weight: 1
+weight: 600
 ---
 
 

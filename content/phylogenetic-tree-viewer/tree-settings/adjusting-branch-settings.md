@@ -1,6 +1,6 @@
 ---
 title: "Adjusting Branch Settings"
-weight: 1
+weight: 300
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Insert subsequence"
-weight: 1
+weight: 200
 ---
 
 

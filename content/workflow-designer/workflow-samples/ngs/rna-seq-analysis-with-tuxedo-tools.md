@@ -1,6 +1,6 @@
 ---
 title: "RNA-seq Analysis with Tuxedo Tools"
-weight: 1
+weight: 1400
 ---
 
 

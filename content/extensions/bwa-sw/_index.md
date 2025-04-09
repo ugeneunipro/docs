@@ -1,6 +1,6 @@
 ---
 title: "BWA-SW"
-weight: 1
+weight: 2500
 ---
 
 
@@ -14,9 +14,3 @@ Open _Tools ‣ Align to reference_ submenu of the main menu.
 ![](/images/65930874/65930875.png)
 
 Select the _Align short reads_ item to align short reads to a DNA sequence using _BWA-SW_. Or select the _Build index_ item to build an index for a DNA sequence which can be used to optimize aligning of short reads.
-
-*   [Aligning Short Reads with BWA-SW](aligning-short-reads-with-bwa-sw.md)
-*   [Building Index for BWA-SW](building-index-for-bwa-sw.md)
-
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 ---
 title: "Aligning Short Reads with BWA-SW"
-weight: 1
+weight: 100
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Selecting Restriction Enzymes"
-weight: 1
+weight: 100
 ---
 
 

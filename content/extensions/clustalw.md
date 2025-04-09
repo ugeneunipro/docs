@@ -1,6 +1,6 @@
 ---
 title: "ClustalW"
-weight: 1
+weight: 1900
 ---
 
 

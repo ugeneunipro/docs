@@ -1,6 +1,6 @@
 ---
 title: "Read FASTQ File with SE Reads Element"
-weight: 1
+weight: 300
 ---
 
 

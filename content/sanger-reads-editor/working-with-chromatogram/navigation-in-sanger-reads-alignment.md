@@ -1,6 +1,6 @@
 ---
 title: "Navigation in Sanger Reads Alignment"
-weight: 1
+weight: 600
 ---
 
 

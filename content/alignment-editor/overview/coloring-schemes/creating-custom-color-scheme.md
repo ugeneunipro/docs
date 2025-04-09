@@ -1,6 +1,6 @@
 ---
 title: "Creating Custom Color Scheme"
-weight: 1
+weight: 100
 ---
 
 

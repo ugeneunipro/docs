@@ -1,6 +1,6 @@
 ---
 title: "Coloring Schemes"
-weight: 1
+weight: 400
 ---
 
 
@@ -57,7 +57,3 @@ The following schemes options are available for an amino acids alignment:
 *   _UGENE_ — this is the default coloring scheme, the following background colors are used for the residues: positive (KRH) - yellow, aromatic (FWY) - green, large alphatic hydrophobic (ILM) - blue, small hydrophobic (ST) - rose, GP - red, EX - gray.
 *   _Zappo_ — amino acids residues are colored according to their physicochemical properties: alphatic/hydrophobic (residues ILVAM) - rose, aromatic (FWY) - orange, positive (KRH) - dark blue, negative (DE) - red, hydrophilic (STNQ) - light green, conformationally special (PG) - magenta, cysteine (C) - yellow.
 *   A [custom scheme](https://local.ugene.unipro.ru/wiki/display/UUOUM32/Creating+Custom+Color+Scheme) can be created and used with colors that depend on a character.
-
-
-
-*   [Creating Custom Color Scheme](creating-custom-color-scheme.md)

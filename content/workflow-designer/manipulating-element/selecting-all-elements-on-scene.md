@@ -1,6 +1,6 @@
 ---
 title: "Selecting All Elements on Scene"
-weight: 1
+weight: 600
 ---
 
 

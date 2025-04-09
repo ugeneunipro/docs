@@ -1,6 +1,6 @@
 ---
 title: "Sequence Quality Trimmer Element"
-weight: 1
+weight: 2100
 ---
 
 

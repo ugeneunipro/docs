@@ -1,6 +1,6 @@
 ---
 title: "Align with MAFFT Element"
-weight: 1
+weight: 500
 ---
 
 

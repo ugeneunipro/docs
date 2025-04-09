@@ -1,6 +1,6 @@
 ---
 title: "Restriction Analysis"
-weight: 1
+weight: 900
 ---
 
 
@@ -96,13 +96,3 @@ But, if you also set **Uncut area** to 60-90 you will not find enzymes at all an
 
 
 The information about enzymes was obtained from the [REBASE](http://rebase.neb.com/rebase/rebase.html) database. For each enzyme in the list a brief description is available (the accession ID in the database, the recognition sequence, etc.). If you’re online you can get more detailed information about an enzyme selected by clicking the _REBASE Info_ button.
-
-*   [Selecting Restriction Enzymes](selecting-restriction-enzymes.md)
-*   [Using Custom File with Enzymes](using-custom-file-with-enzymes.md)
-*   [Filtering by Number of Hits](filtering-by-number-of-hits.md)
-*   [Excluding Region](excluding-region.md)
-*   [Circular Molecule](circular-molecule.md)
-*   [Results](results.md)
-
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

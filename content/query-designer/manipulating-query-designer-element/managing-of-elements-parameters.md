@@ -1,6 +1,6 @@
 ---
 title: "Managing of Elements Parameters"
-weight: 1
+weight: 500
 ---
 
 

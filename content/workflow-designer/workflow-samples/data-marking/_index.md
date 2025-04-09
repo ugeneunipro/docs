@@ -1,13 +1,7 @@
 ---
 title: "Data Marking"
-weight: 1
+weight: 400
 ---
 
 
 # Data Marking
-
-*   [Marking by Annotation Number](marking-by-annotation-number.md)
-*   [Marking by Length](marking-by-length.md)
-
-
--------------------------------------------------------------------------------------------------------------------------------------------

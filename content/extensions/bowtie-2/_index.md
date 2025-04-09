@@ -1,6 +1,6 @@
 ---
 title: "Bowtie 2"
-weight: 1
+weight: 2300
 ---
 
 
@@ -16,9 +16,3 @@ Open _Tools ‣ Align to reference_ submenu of the main menu.
 Select the _Align short reads_ item to align short reads to a DNA sequence.
 
 Or select the _Build index_ item to build an index for a DNA sequence which can be used to optimize aligning of the short reads to the sequence:
-
-*   [Bowtie 2 Aligning Short Reads](bowtie-2-aligning-short-reads.md)
-*   [Building Index for Bowtie 2](building-index-for-bowtie-2.md)
-
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------

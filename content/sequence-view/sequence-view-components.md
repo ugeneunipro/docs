@@ -1,6 +1,6 @@
 ---
 title: "Sequence View Components"
-weight: 1
+weight: 100
 ---
 
 

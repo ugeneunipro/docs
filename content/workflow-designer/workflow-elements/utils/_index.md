@@ -1,13 +1,7 @@
 ---
 title: "Utils"
-weight: 1
+weight: 1500
 ---
 
 
 # Utils
-
-*   [DNA Statistics Element](dna-statistics-element.md)
-*   [Generate DNA Element](generate-dna-element.md)
-
-
--------------------------------------------------------------------------------------------------------------------------------------

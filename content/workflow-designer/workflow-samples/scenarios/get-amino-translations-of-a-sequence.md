@@ -1,6 +1,6 @@
 ---
 title: "Get Amino Translations of a Sequence"
-weight: 1
+weight: 1100
 ---
 
 

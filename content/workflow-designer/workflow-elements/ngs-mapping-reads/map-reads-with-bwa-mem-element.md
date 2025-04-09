@@ -1,6 +1,6 @@
 ---
 title: "Map Reads with BWA-MEM Element"
-weight: 1
+weight: 500
 ---
 
 

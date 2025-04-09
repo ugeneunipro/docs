@@ -1,6 +1,6 @@
 ---
 title: "Selecting Detail Level"
-weight: 1
+weight: 500
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Interpreting Dotplot - Identifying Matches, Mutations, Invertions, etc"
-weight: 1
+weight: 500
 ---
 
 

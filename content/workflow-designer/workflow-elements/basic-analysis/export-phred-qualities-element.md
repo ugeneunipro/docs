@@ -1,6 +1,6 @@
 ---
 title: "Export PHRED Qualities Element"
-weight: 1
+weight: 500
 ---
 
 

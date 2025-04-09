@@ -1,6 +1,6 @@
 ---
 title: "Dashboard Window Components"
-weight: 1
+weight: 100
 ---
 
 

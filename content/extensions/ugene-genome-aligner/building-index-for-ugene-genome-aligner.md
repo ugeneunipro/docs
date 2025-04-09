@@ -1,6 +1,6 @@
 ---
 title: "Building Index for UGENE Genome Aligner"
-weight: 1
+weight: 100
 ---
 
 

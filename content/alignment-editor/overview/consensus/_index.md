@@ -1,6 +1,6 @@
 ---
 title: "Consensus"
-weight: 1
+weight: 700
 ---
 
 
@@ -40,8 +40,3 @@ There are several consensus modes:
 *   **Strict** — if a character percentage in a column is higher than the specified threshold, the character is shown in the consensus at this position. Otherwise, a gap character (‘—’)  is shown.
 
 Also the _General tab_ shows the general information about an alignment and allows one to set up a reference sequence. The following chapter describes how to export a consensus sequence:
-
-*   [Export Consensus](export-consensus.md)
-
-
-----------------------------------------------------------

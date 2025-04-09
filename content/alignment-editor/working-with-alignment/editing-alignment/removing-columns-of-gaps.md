@@ -1,6 +1,6 @@
 ---
 title: "Removing Columns of Gaps"
-weight: 1
+weight: 800
 ---
 
 

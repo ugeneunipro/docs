@@ -1,6 +1,6 @@
 ---
 title: "Building Index for BWA-MEM"
-weight: 1
+weight: 200
 ---
 
 

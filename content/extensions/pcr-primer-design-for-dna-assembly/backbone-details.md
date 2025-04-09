@@ -1,6 +1,6 @@
 ---
 title: "Backbone details"
-weight: 1
+weight: 100
 ---
 
 
@@ -8,7 +8,7 @@ weight: 1
 
 If hairpins, self- or hetero-dimers have been found in the backbone sequence, this dialog appears.
 
-  
+
 
 ![](/images/71958585/71958637.png)
 

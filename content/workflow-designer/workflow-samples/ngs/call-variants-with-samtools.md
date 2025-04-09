@@ -1,6 +1,6 @@
 ---
 title: "Call Variants with SAMtools"
-weight: 1
+weight: 1600
 ---
 
 

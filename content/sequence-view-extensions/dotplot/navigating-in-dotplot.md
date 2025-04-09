@@ -1,6 +1,6 @@
 ---
 title: "Navigating in Dotplot"
-weight: 1
+weight: 200
 ---
 
 

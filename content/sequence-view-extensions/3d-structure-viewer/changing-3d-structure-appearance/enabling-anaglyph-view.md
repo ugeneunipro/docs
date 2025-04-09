@@ -1,6 +1,6 @@
 ---
 title: "Enabling Anaglyph View"
-weight: 1
+weight: 600
 ---
 
 

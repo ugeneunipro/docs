@@ -1,6 +1,6 @@
 ---
 title: "Building Index for BWA-SW"
-weight: 1
+weight: 200
 ---
 
 

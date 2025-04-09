@@ -1,6 +1,6 @@
 ---
 title: "BLAST"
-weight: 1
+weight: 700
 ---
 
 
@@ -31,10 +31,3 @@ To make _BLAST_ tools available from UGENE:
 2.  Set the paths to the executables, you are going to use, on the [_External tools_](external-tools-plugin.md) tab of UGENE [_Application Settings_](ugene-application-settings.md) dialog.
 
 After you’ve finished this configuration you can access the tools from the _Tools ‣ BLAST_ + submenu of the main menu.
-
-*   [Creating Database](creating-database.md)
-*   [Making Request to Database](making-request-to-database.md)
-*   [Fetching Sequences from Local BLAST Database](fetching-sequences-from-local-blast-database.md)
-
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

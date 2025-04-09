@@ -1,6 +1,6 @@
 ---
 title: "Weight Matrix"
-weight: 1
+weight: 3000
 ---
 
 
@@ -56,10 +56,3 @@ Note that in case of selecting JASPAR or UNIPROBE matrix, the resulting annotati
 ![](/images/65930906/65930911.png)
 
 See also:
-
-*   [Searching JASPAR Database](searching-jaspar-database.md)
-*   [Building New Matrix](building-new-matrix.md)
-
-
-
---------------------------------------------------------------------------------------------------------------------------------------------

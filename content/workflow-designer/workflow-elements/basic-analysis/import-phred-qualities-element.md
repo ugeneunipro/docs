@@ -1,6 +1,6 @@
 ---
 title: "Import PHRED Qualities Element"
-weight: 1
+weight: 1500
 ---
 
 

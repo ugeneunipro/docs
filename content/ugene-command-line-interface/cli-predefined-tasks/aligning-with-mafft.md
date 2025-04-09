@@ -1,6 +1,6 @@
 ---
 title: "Aligning with MAFFT"
-weight: 1
+weight: 1700
 ---
 
 

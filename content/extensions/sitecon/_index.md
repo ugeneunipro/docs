@@ -1,6 +1,6 @@
 ---
 title: "SITECON"
-weight: 1
+weight: 1400
 ---
 
 
@@ -15,12 +15,3 @@ To cite SITECON use the following article:
 UGENE version of SITECON provides a tool for recognition of potential binding sites for over [_90 types_](types-of-sitecon-models.md) of transcription factors. Also UGENE version of SITECON provides a tool for recognition of potential binding sites basing site alignment proposed by user. For the detailed method description see the [original SITECON site](http://wwwmgs.bionet.nsc.ru/cgi-bin/mgs/sitecon/sitecon.pl?stage=0).
 
 Data about used context-dependent conformational and physicochemical properties are available in the [PROPERTY Database](http://wwwmgs.bionet.nsc.ru/mgs/gnw/bdna).
-
-*   [SITECON Searching Transcription Factors Binding Sites](sitecon-searching-transcription-factors-binding-sites.md)
-*   [Types of SITECON Models](types-of-sitecon-models.md)
-    *   [Eukaryotic](eukaryotic.md)
-    *   [Prokaryotic](prokaryotic.md)
-*   [Building SITECON Model](building-sitecon-model.md)
-
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

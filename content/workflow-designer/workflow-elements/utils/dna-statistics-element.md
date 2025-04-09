@@ -1,6 +1,6 @@
 ---
 title: "DNA Statistics Element"
-weight: 1
+weight: 100
 ---
 
 

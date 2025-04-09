@@ -1,6 +1,6 @@
 ---
 title: "Working with Several 3D Structures Views"
-weight: 1
+weight: 800
 ---
 
 

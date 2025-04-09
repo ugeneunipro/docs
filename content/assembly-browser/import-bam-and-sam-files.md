@@ -1,6 +1,6 @@
 ---
 title: "Import BAM and SAM Files"
-weight: 1
+weight: 100
 ---
 
 

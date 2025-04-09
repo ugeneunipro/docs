@@ -1,6 +1,6 @@
 ---
 title: "DNA Flexibility"
-weight: 1
+weight: 200
 ---
 
 
@@ -97,9 +97,3 @@ A minimum value is used when N characters is present in a dinucleotide:
 
 *   **CN**, **NC**, **GN**, **NG**, **NN**: 7.2
 *   **AN**, **NA**, **TN**, **NT** : 7.6
-
-*   [Configuring Dialog Settings](configuring-dialog-settings.md)
-*   [Result Annotations](result-annotations.md)
-
-
--------------------------------------------------------------------------------------------------------------------------------------------

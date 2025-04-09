@@ -1,6 +1,6 @@
 ---
 title: "Searching Sequence Using HMM2 Profile"
-weight: 1
+weight: 300
 ---
 
 

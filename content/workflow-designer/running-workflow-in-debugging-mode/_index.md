@@ -1,6 +1,6 @@
 ---
 title: "Running Workflow in Debugging Mode"
-weight: 1
+weight: 1000
 ---
 
 
@@ -15,10 +15,3 @@ After that the two new buttons appears on the main toolbar:
 
 
 ![](/images/65930029/65930031.jpg)
-
-*   [Creating Breakpoints](creating-breakpoints.md)
-*   [Manipulating Breakpoints](manipulating-breakpoints.md)
-*   [How to open and save intermediate breakpoint results](how-to-open-and-save-intermediate-breakpoint-results.md)
-
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

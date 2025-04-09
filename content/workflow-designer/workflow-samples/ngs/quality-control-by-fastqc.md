@@ -1,6 +1,6 @@
 ---
 title: "Quality Control by FastQC"
-weight: 1
+weight: 600
 ---
 
 

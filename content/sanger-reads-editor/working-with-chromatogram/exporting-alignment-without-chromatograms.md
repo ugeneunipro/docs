@@ -1,6 +1,6 @@
 ---
 title: "Exporting Alignment without Chromatograms"
-weight: 1
+weight: 800
 ---
 
 

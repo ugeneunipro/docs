@@ -1,6 +1,6 @@
 ---
 title: "Details View"
-weight: 1
+weight: 600
 ---
 
 

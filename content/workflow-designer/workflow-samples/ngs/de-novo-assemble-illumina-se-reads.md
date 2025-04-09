@@ -1,6 +1,6 @@
 ---
 title: "De novo Assemble Illumina SE Reads"
-weight: 1
+weight: 900
 ---
 
 

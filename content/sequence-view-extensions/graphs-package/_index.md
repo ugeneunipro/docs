@@ -1,6 +1,6 @@
 ---
 title: "Graphs Package"
-weight: 1
+weight: 400
 ---
 
 
@@ -30,10 +30,3 @@ To remove it click on the hint. Also, you can delete all labels by _Graph->Delet
 All graphs are always aligned with the range shown in the _Sequence zoom view_. It means that if you change the visible range in the overview (either by zooming or scrolling) the graph will also be updated. The minimum and maximum values of the visible range are shown at the right lower and upper corners of the graph.
 
 To close a graph, uncheck its item in the popup menu.
-
-*   [Description of Graphs](description-of-graphs.md)
-*   [Graph Settings](graph-settings.md)
-*   [Saving Graph Cuttoffs as Annotations](saving-graph-cuttoffs-as-annotations.md)
-
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

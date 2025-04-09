@@ -1,6 +1,6 @@
 ---
 title: "Changing Schema Appearance"
-weight: 1
+weight: 400
 ---
 
 

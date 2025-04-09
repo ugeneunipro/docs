@@ -1,6 +1,6 @@
 ---
 title: "Alignment Color Scheme"
-weight: 1
+weight: 700
 ---
 
 

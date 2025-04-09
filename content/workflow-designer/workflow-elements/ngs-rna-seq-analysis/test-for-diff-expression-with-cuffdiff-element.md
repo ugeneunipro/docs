@@ -1,6 +1,6 @@
 ---
 title: "Test for Diff. Expression with Cuffdiff Element"
-weight: 1
+weight: 600
 ---
 
 

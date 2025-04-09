@@ -1,6 +1,6 @@
 ---
 title: "Element Description"
-weight: 1
+weight: 100
 ---
 
 
@@ -30,9 +30,3 @@ A number.
 A boolean data type.
 
 Available values are _true_ / _false_, _0_ / _1_ and _yes_ / _no_.
-
-*   [Algorithm Element Description](algorithm-element-description.md)
-*   [Constraint Element Description](constraint-element-description.md)
-
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 ---
 title: "Changing Labels Formatting"
-weight: 1
+weight: 300
 ---
 
 

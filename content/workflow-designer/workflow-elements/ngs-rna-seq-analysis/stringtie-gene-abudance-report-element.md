@@ -1,6 +1,6 @@
 ---
 title: "StringTie Gene Abudance Report Element"
-weight: 1
+weight: 500
 ---
 
 

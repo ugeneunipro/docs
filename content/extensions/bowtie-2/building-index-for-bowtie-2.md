@@ -1,6 +1,6 @@
 ---
 title: "Building Index for Bowtie 2"
-weight: 1
+weight: 200
 ---
 
 

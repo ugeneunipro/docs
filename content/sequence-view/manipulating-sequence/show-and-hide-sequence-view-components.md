@@ -1,6 +1,6 @@
 ---
 title: "Show and hide Sequence View Components"
-weight: 1
+weight: 100
 ---
 
 

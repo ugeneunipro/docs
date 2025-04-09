@@ -1,6 +1,6 @@
 ---
 title: "Selecting Repeat"
-weight: 1
+weight: 400
 ---
 
 

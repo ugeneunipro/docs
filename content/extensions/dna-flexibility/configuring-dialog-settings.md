@@ -1,6 +1,6 @@
 ---
 title: "Configuring Dialog Settings"
-weight: 1
+weight: 100
 ---
 
 

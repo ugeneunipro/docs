@@ -1,6 +1,6 @@
 ---
 title: "Highlighting Annotations"
-weight: 1
+weight: 400
 ---
 
 
@@ -16,11 +16,3 @@ By default the tab shows annotations names of the opened _Sequence View_.
 If you want to see all annotation names, click the _Show all annotation names_ link. The _Previous annotation_ and _Next annotation_ buttons seek to the previous or to the next annotation of the view correspondingly.
 
 Find below information about annotations names’ properties that you can configure.
-
-*   [Annotations Color](annotations-color.md)
-*   [Annotations Visability](annotations-visability.md)
-*   [Show on Translation](show-on-translation.md)
-*   [Captions on Annotations](captions-on-annotations.md)
-
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

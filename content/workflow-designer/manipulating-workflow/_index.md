@@ -1,6 +1,6 @@
 ---
 title: "Manipulating Workflow"
-weight: 1
+weight: 400
 ---
 
 
@@ -13,15 +13,3 @@ The designed workflow can be dispalyed in a neat self-describing layout and expo
 You can validate created or modified workflow before running it.
 
 If you need, you can stop a workflow execution.
-
-*   [Creating New Workflow](creating-new-workflow.md)
-*   [Loading Workflow](loading-workflow.md)
-*   [Saving Workflow](saving-workflow.md)
-*   [Exporting Workflow as Image](exporting-workflow-as-image.md)
-*   [Validating Workflow](validating-workflow.md)
-*   [Running Workflow](running-workflow.md)
-*   [Dashboard](dashboard.md)
-*   [Stopping and Pausing Workflow](stopping-and-pausing-workflow.md)
-
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

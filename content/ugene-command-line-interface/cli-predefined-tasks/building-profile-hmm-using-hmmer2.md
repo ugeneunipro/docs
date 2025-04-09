@@ -1,6 +1,6 @@
 ---
 title: "Building Profile HMM Using HMMER2"
-weight: 1
+weight: 1100
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 title: "RNA-Seq Analysis with TopHat and StringTie"
-weight: 1
+weight: 1300
 ---
 
 

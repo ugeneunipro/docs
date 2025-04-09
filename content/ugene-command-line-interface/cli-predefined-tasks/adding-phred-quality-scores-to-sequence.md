@@ -1,6 +1,6 @@
 ---
 title: "Adding Phred Quality Scores to Sequence"
-weight: 1
+weight: 700
 ---
 
 

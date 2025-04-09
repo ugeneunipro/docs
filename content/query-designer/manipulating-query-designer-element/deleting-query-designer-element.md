@@ -1,6 +1,6 @@
 ---
 title: "Deleting Query Designer Element"
-weight: 1
+weight: 700
 ---
 
 

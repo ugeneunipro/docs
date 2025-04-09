@@ -1,6 +1,6 @@
 ---
 title: "FASTQ Merger Element"
-weight: 1
+weight: 500
 ---
 
 

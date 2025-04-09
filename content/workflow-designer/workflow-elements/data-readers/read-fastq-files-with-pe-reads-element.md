@@ -1,6 +1,6 @@
 ---
 title: "Read FASTQ Files with PE Reads Element"
-weight: 1
+weight: 400
 ---
 
 

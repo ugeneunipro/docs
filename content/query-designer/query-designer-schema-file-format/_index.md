@@ -1,6 +1,6 @@
 ---
 title: "Query Designer Schema File Format"
-weight: 1
+weight: 600
 ---
 
 
@@ -14,14 +14,3 @@ The best way to learn schema file format is to study an existent \*.uql file. Fo
 ![](/images/65930661/65930662.png)
 
 The file consists of the header and the body. Check the description of each part below.
-
-*   [Header Query Designer Element](header-query-designer-element.md)
-*   [Body Query Designer Element](body-query-designer-element.md)
-    *   [Element Description](element-description.md)
-        *   [Algorithm Element Description](algorithm-element-description.md)
-        *   [Constraint Element Description](constraint-element-description.md)
-    *   [Metainformation Query Designer Element](metainformation-query-designer-element.md)
-
-
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 ---
 title: "Find Repeats Element"
-weight: 1
+weight: 1100
 ---
 
 

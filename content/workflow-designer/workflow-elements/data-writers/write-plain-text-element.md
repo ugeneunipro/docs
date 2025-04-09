@@ -1,6 +1,6 @@
 ---
 title: "Write Plain Text Element"
-weight: 1
+weight: 500
 ---
 
 

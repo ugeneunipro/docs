@@ -1,6 +1,6 @@
 ---
 title: "Showing and Hiding Labels"
-weight: 1
+weight: 100
 ---
 
 

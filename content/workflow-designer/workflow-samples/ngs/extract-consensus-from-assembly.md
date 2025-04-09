@@ -1,6 +1,6 @@
 ---
 title: "Extract Consensus from Assembly"
-weight: 1
+weight: 300
 ---
 
 

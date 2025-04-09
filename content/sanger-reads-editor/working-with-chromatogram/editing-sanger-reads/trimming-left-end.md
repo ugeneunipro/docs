@@ -1,6 +1,6 @@
 ---
 title: "Trimming Left End"
-weight: 1
+weight: 700
 ---
 
 

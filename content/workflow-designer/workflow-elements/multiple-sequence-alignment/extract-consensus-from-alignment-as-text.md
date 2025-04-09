@@ -1,6 +1,6 @@
 ---
 title: "Extract Consensus from Alignment as Text"
-weight: 1
+weight: 900
 ---
 
 

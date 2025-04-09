@@ -1,6 +1,6 @@
 ---
 title: "Assembly Sequences with CAP3"
-weight: 1
+weight: 100
 ---
 
 

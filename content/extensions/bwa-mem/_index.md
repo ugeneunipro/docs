@@ -1,6 +1,6 @@
 ---
 title: "BWA-MEM"
-weight: 1
+weight: 2600
 ---
 
 
@@ -14,9 +14,3 @@ Open _Tools ‣ Align to reference_ submenu of the main menu.
 ![](/images/65930881/65930882.png)
 
 Select the _Align short reads_ item to align short reads to a DNA sequence using _BWA-MEM_. Or select the _Build index_ item to build an index for a DNA sequence which can be used to optimize aligning of short reads.
-
-*   [Aligning Short Reads with BWA-MEM](aligning-short-reads-with-bwa-mem.md)
-*   [Building Index for BWA-MEM](building-index-for-bwa-mem.md)
-
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------

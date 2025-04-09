@@ -1,6 +1,6 @@
 ---
 title: "Sequence Toolbars"
-weight: 1
+weight: 300
 ---
 
 
@@ -8,8 +8,8 @@ weight: 1
 
 A brief description of the sequence toolbars buttons is shown on the picture below:
 
-  
-![](/images/65929377/65929378.png)  
+
+![](/images/65929377/65929378.png)
 
 See also:
 

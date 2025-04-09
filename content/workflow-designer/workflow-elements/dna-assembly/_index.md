@@ -1,12 +1,7 @@
 ---
 title: "DNA Assembly"
-weight: 1
+weight: 600
 ---
 
 
 # DNA Assembly
-
-*   [Assembly Sequences with CAP3](assembly-sequences-with-cap3.md)
-
-
-----------------------------------------------------------------------------------

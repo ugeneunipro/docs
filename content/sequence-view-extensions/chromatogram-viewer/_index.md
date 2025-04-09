@@ -1,6 +1,6 @@
 ---
 title: "Chromatogram Viewer"
-weight: 1
+weight: 300
 ---
 
 
@@ -35,9 +35,3 @@ Also you can show/hide different signals of chromatogram and quality bars with a
 
 
 ![](/images/65929556/65929560.png)
-
-*   [Exporting Chromatogram Data](exporting-chromatogram-data.md)
-*   [Viewing Two Chromatograms Simultaneously](viewing-two-chromatograms-simultaneously.md)
-
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

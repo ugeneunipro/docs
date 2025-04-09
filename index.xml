@@ -48,32 +48,61 @@ the company, please, visit the &lt;a href="http://unipro.ru/en/">company website
 &lt;p>}&lt;/p>
 &lt;p>To find the type and the parameters available for the required algorithm element refer to &lt;a href="algorithm-elements.md">&lt;em>Algorithm Elements&lt;/em>&lt;/a> chapter.&lt;/p></description></item><item><title>Align Profile to Profile with MUSCLE Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-profile-to-profile-with-muscle-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-profile-to-profile-with-muscle-element/</guid><description>&lt;h1 id="align-profile-to-profile-with-muscle-element">Align Profile to Profile with MUSCLE Element&lt;/h1>
 &lt;p>Aligns second profile to master profile with MUSCLE aligner.&lt;/p>
-&lt;h2 id="type-align-profile-to-profile">&lt;strong>Type:&lt;/strong> align-profile-to-profile&lt;/h2>
+&lt;p>&lt;strong>Type:&lt;/strong> align-profile-to-profile&lt;/p>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
 &lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p>
-&lt;p>&lt;strong>Name in GUI:&lt;/strong> in-profiles&lt;/p>
-&lt;p>&lt;strong>Name in Workflow File:&lt;/strong> in-profiles&lt;/p>
-&lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
-&lt;p>Slot In GUI&lt;/p>
-&lt;p>Slot in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Master profile&lt;/strong>&lt;/p>
-&lt;p>master-msa&lt;/p>
-&lt;p>&lt;em>malignment&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Second profile&lt;/strong>&lt;/p>
-&lt;p>second-msa&lt;/p>
-&lt;p>&lt;em>malignment&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Name in GUI:&lt;/strong> in-profiles
+&lt;strong>Name in Workflow File:&lt;/strong> in-profiles
+&lt;strong>Slots:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot In GUI&lt;/th>
+ &lt;th>Slot in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Master profile&lt;/strong>&lt;/td>
+ &lt;td>master-msa&lt;/td>
+ &lt;td>&lt;em>malignment&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Second profile&lt;/strong>&lt;/td>
+ &lt;td>second-msa&lt;/td>
+ &lt;td>&lt;em>malignment&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
 &lt;p>And 1 &lt;em>output port&lt;/em>:&lt;/p>
-&lt;p>&lt;strong>Name in GUI:&lt;/strong> out-msa&lt;/p>
-&lt;p>&lt;strong>Name in Workflow File:&lt;/strong> out-msa&lt;/p>
-&lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
-&lt;p>Slot In GUI&lt;/p>
-&lt;p>Slot in Workflow File&lt;/p></description></item><item><title>Align Sequences with MUSCLE</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/alignment/align-sequences-with-muscle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/alignment/align-sequences-with-muscle/</guid><description>&lt;h1 id="align-sequences-with-muscle">Align Sequences with MUSCLE&lt;/h1>
-&lt;p>This workflow performs multiple sequence alignment with MUSCLE algorithm and saves the resulting alignment to Stockholm document. Source data can be of any format containing sequences or alignments.&lt;/p>
-&lt;p>How to Use This Sample&lt;/p>
-&lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENE before, look at the &amp;ldquo;&lt;a href="how-to-use-sample-workflows.md">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p>
+&lt;p>&lt;strong>Name in GUI:&lt;/strong> out-msa
+&lt;strong>Name in Workflow File:&lt;/strong> out-msa
+&lt;strong>Slots:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot In GUI&lt;/th>
+ &lt;th>Slot in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>MSA&lt;/strong>&lt;/td>
+ &lt;td>msa&lt;/td>
+ &lt;td>&lt;em>malignment&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Align Sequences with MUSCLE</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/alignment/align-sequences-with-muscle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/alignment/align-sequences-with-muscle/</guid><description>&lt;h1 id="align-sequences-with-muscle">Align Sequences with MUSCLE&lt;/h1>
+&lt;p>This workflow performs multiple sequence alignment with MUSCLE algorithm and saves the resulting alignment to Stockholm
+document. Source data can be of any format containing sequences or alignments.&lt;/p>
+&lt;h2 id="how-to-use-this-sample">How to Use This Sample&lt;/h2>
+&lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENE before, look at
+the &amp;ldquo;&lt;a href="how-to-use-sample-workflows.md">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p>
 &lt;h5 id="workflow-sample-location">Workflow Sample Location&lt;/h5>
-&lt;p>The workflow sample &amp;ldquo;Align Sequences with MUSCLE&amp;rdquo; can be found in the &amp;ldquo;Alignment&amp;rdquo; section of the Workflow Designer samples.&lt;/p></description></item><item><title>Aligning Short Reads with BWA</title><link>https://ugene.net/docs/extensions/bwa/aligning-short-reads-with-bwa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/bwa/aligning-short-reads-with-bwa/</guid><description>&lt;h1 id="aligning-short-reads-with-bwa">Aligning Short Reads with BWA&lt;/h1>
+&lt;p>The workflow sample &amp;ldquo;Align Sequences with MUSCLE&amp;rdquo; can be found in the &amp;ldquo;Alignment&amp;rdquo; section of the Workflow Designer
+samples.&lt;/p></description></item><item><title>Aligning Short Reads with BWA</title><link>https://ugene.net/docs/extensions/bwa/aligning-short-reads-with-bwa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/bwa/aligning-short-reads-with-bwa/</guid><description>&lt;h1 id="aligning-short-reads-with-bwa">Aligning Short Reads with BWA&lt;/h1>
 &lt;p>When you select the &lt;em>Tools ‣ DNA Assembly ‣ Align short reads&lt;/em> item in the main menu, the &lt;em>Align Short Reads&lt;/em> dialog appears. Set value of the &lt;em>Align short reads method&lt;/em> parameter to &lt;em>BWA&lt;/em>. The dialog looks as follows:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65930870/65930871.png" alt="">&lt;/p>
 &lt;p>There are the following parameters:&lt;/p>
@@ -1004,30 +1033,63 @@ url-in:/home/user/pkinase.sto;
 &lt;p>Aligns multiple sequence alignments (MSAs) supplied with ClustalO.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> ClustalO&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Number of iterations&lt;/strong>&lt;/p>
-&lt;p>Number of (combined guide-tree/HMM) iterations.&lt;/p>
-&lt;p>1&lt;/p>
-&lt;p>&lt;strong>num-iterations&lt;/strong>&lt;/p>
-&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Number of guidetree iterations&lt;/strong>&lt;/p>
-&lt;p>Maximum number guidetree iterations.&lt;/p>
-&lt;p>0&lt;/p>
-&lt;p>&lt;strong>max-guidetree-iterations&lt;/strong>&lt;/p>
-&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Number of HMM iterations&lt;/strong>&lt;/p>
-&lt;p>Maximum number of HMM iterations.&lt;/p>
-&lt;p>0&lt;/p>
-&lt;p>&lt;strong>max-hmm-iterations&lt;/strong>&lt;/p>
-&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Set auto options&lt;/strong>&lt;/p>
-&lt;p>Set options automatically (might overwrite some of your options).&lt;/p>
-&lt;p>False&lt;/p>
-&lt;p>&lt;strong>set-auto&lt;/strong>&lt;/p></description></item><item><title>Aligning Labels</title><link>https://ugene.net/docs/phylogenetic-tree-viewer/tree-settings/modifying-labels-appearance/aligning-labels/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/phylogenetic-tree-viewer/tree-settings/modifying-labels-appearance/aligning-labels/</guid><description>&lt;h1 id="aligning-labels">Aligning Labels&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Number of iterations&lt;/strong>&lt;/td>
+ &lt;td>Number of (combined guide-tree/HMM) iterations.&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;strong>num-iterations&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Number of guidetree iterations&lt;/strong>&lt;/td>
+ &lt;td>Maximum number guidetree iterations.&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>max-guidetree-iterations&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Number of HMM iterations&lt;/strong>&lt;/td>
+ &lt;td>Maximum number of HMM iterations.&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>max-hmm-iterations&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Set auto options&lt;/strong>&lt;/td>
+ &lt;td>Set options automatically (might overwrite some of your options).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>set-auto&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Tool path&lt;/strong>&lt;/td>
+ &lt;td>Path to the ClustalO tool. The default path can be set in the UGENE application settings.&lt;/td>
+ &lt;td>Default&lt;/td>
+ &lt;td>&lt;strong>path&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Temporary directory&lt;/strong>&lt;/td>
+ &lt;td>Directory to store temporary files.&lt;/td>
+ &lt;td>Default&lt;/td>
+ &lt;td>&lt;strong>temp-dir&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Aligning Labels</title><link>https://ugene.net/docs/phylogenetic-tree-viewer/tree-settings/modifying-labels-appearance/aligning-labels/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/phylogenetic-tree-viewer/tree-settings/modifying-labels-appearance/aligning-labels/</guid><description>&lt;h1 id="aligning-labels">Aligning Labels&lt;/h1>
 &lt;p>To align a tree labels press the &lt;em>Align labels&lt;/em> toolbar button or in the &lt;em>Tree settings Options Panel&lt;/em> tab check the &lt;em>Align label&lt;/em> item.&lt;/p>
 &lt;p>See the example of aligning labels below:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929733/65929734.png" alt="">&lt;/p></description></item><item><title>Aligning Profile to Profile with MUSCLE</title><link>https://ugene.net/docs/extensions/umuscle/aligning-profile-to-profile-with-muscle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/umuscle/aligning-profile-to-profile-with-muscle/</guid><description>&lt;h1 id="aligning-profile-to-profile-with-muscle">Aligning Profile to Profile with MUSCLE&lt;/h1>
@@ -1766,14 +1828,118 @@ ORF.unit--Repeat.right {
 &lt;p>Slider position returns to original position by double click on field name or on the sliders.&lt;/p>
 &lt;p>Here you also can select the color and the line width of the tree branches.&lt;/p></description></item><item><title>Align with ClustalW Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-clustalw-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-clustalw-element/</guid><description>&lt;h1 id="align-with-clustalw-element">Align with ClustalW Element&lt;/h1>
 &lt;p>Aligns multiple sequence alignments (MSAs) supplied with ClustalW.&lt;/p>
-&lt;p>ClustalW is a general-purpose multiple sequence alignment program for DNA or proteins. Visit &lt;a href="http://www.clustal.org/">http://www.clustal.org/&lt;/a> to learn more about it.&lt;/p>
-&lt;p>Clustal is used as an external tool from UGENE and it must be installed on your system. To learn more about the external tools, please, read the main &lt;a href="http://ugene.unipro.ru/documentation.html">UGENE User Manual&lt;/a>.&lt;/p>
+&lt;p>ClustalW is a general-purpose multiple sequence alignment program for DNA or proteins.
+Visit &lt;a href="http://www.clustal.org/">http://www.clustal.org/&lt;/a> to learn more about it.&lt;/p>
+&lt;p>Clustal is used as an external tool from UGENE and it must be installed on your system. To learn more about the external
+tools, please, read the main &lt;a href="http://ugene.unipro.ru/documentation.html">UGENE User Manual&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> clustalw&lt;/p>
-&lt;p>Parameters&lt;/p>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p></description></item><item><title>Aligning Sequences to Profile with MUSCLE</title><link>https://ugene.net/docs/extensions/umuscle/aligning-sequences-to-profile-with-muscle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/umuscle/aligning-sequences-to-profile-with-muscle/</guid><description>&lt;h1 id="aligning-sequences-to-profile-with-muscle">Aligning Sequences to Profile with MUSCLE&lt;/h1>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Weight matrix&lt;/strong>&lt;/td>
+ &lt;td>For proteins, it is a scoring table which describes the similarity of each amino acid to each other. For DNA it is the scores assigned to matches and mismatches.&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>&lt;strong>matrix&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>Available values are:&lt;br>0 - for IUB&lt;br>1 - for ClustalW&lt;br>2 - for BLOSUM&lt;br>3 - for PAM&lt;br>4 - for GONNET&lt;br>5 - for ID&lt;br>-1 - for default matrix&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>End gaps&lt;/strong>&lt;/td>
+ &lt;td>The penalty for closing a gap.&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>close-gap-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap distance&lt;/strong>&lt;/td>
+ &lt;td>The gap separation penalty. Tries to decrease the chances of gaps being too close to each other.&lt;/td>
+ &lt;td>4.42&lt;/td>
+ &lt;td>&lt;strong>gap-distance&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap extension penalty&lt;/strong>&lt;/td>
+ &lt;td>The penalty for extending a gap.&lt;/td>
+ &lt;td>8.52&lt;/td>
+ &lt;td>&lt;strong>gap-ext-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap open penalty&lt;/strong>&lt;/td>
+ &lt;td>The penalty for opening a gap.&lt;/td>
+ &lt;td>53.90&lt;/td>
+ &lt;td>&lt;strong>gap-open-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Hydrophilic gaps off&lt;/strong>&lt;/td>
+ &lt;td>Hydrophilic gap penalties are used to increase the chances of a gap within a run (5 or more residues) of hydrophilic amino acids.&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>no-hydrophilic-gaps&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Residue-specific gaps off&lt;/strong>&lt;/td>
+ &lt;td>Residue-specific penalties are amino specific gap penalties that reduce or increase the gap opening penalties at each position in the alignment.&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>no-residue-specific-gaps&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Iteration type&lt;/strong>&lt;/td>
+ &lt;td>Alignment improvement iteration type.&lt;/td>
+ &lt;td>None&lt;/td>
+ &lt;td>&lt;strong>iteration-type&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>Available values are:&lt;br>0 - for None&lt;br>1 - for Tree&lt;br>2 - for Alignment&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Number of iterations&lt;/strong>&lt;/td>
+ &lt;td>The maximum number of iterations to perform.&lt;/td>
+ &lt;td>3&lt;/td>
+ &lt;td>&lt;strong>iterations-max-num&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Tool path&lt;/strong> (required)&lt;/td>
+ &lt;td>Path to the ClustalW tool. The default path can be set in the UGENE Application Settings.&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>&lt;strong>path&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Temporary directory&lt;/strong>&lt;/td>
+ &lt;td>Directory to store temporary files.&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>&lt;strong>temp-dir&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Aligning Sequences to Profile with MUSCLE</title><link>https://ugene.net/docs/extensions/umuscle/aligning-sequences-to-profile-with-muscle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/umuscle/aligning-sequences-to-profile-with-muscle/</guid><description>&lt;h1 id="aligning-sequences-to-profile-with-muscle">Aligning Sequences to Profile with MUSCLE&lt;/h1>
 &lt;p>Another feature provided by the plugin is aligning a set of unaligned sequences to an existing profile. To use this feature select the &lt;em>Align ‣ Align sequences to profile with MUSCLE&lt;/em> context menu item.&lt;/p>
 &lt;p>This option is not available in the original MUSCLE package (v3.7) and is a new functionality for original MUSCLE users. In this mode each sequence from the input file is aligned to the active profile separately and is merged to the result alignment only after all sequences are processed. For example, the alignment in the picture above can be used as a profile again. And the added profile can be used as a set of sequences. The result of such sequences-to-profile alignment is presented on the picture below:&lt;/p></description></item><item><title>Alignment Appearance</title><link>https://ugene.net/docs/sanger-reads-editor/working-with-chromatogram/alignment-appearance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sanger-reads-editor/working-with-chromatogram/alignment-appearance/</guid><description>&lt;h1 id="alignment-appearance">Alignment Appearance&lt;/h1>
 &lt;p>To perform zoom operations use the corresponding buttons on the editor toolbar.&lt;/p>
@@ -2409,21 +2575,53 @@ This can be also done from UGENE using option &lt;a href="fetching-data-from-rem
 _&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/92602405/92602412.png" alt="">&lt;/p>
 &lt;p>Selection &lt;em>Node shapes&lt;/em> option &lt;em>draws circles on&lt;/em> all internal nodes.Selection &lt;em>Tip shapes&lt;/em> option draws circles on all end nodes on the right.&lt;/p></description></item><item><title>Align with Kalign Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-kalign-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-kalign-element/</guid><description>&lt;h1 id="align-with-kalign-element">Align with Kalign Element&lt;/h1>
-&lt;p>Aligns multiple sequence alignments (MSAs) supplied with Kalign. Kalign is a fast and accurate multiple sequence alignment tool. The original version of the tool can be found on &lt;a href="http://msa.sbc.su.se/">http://msa.sbc.su.se&lt;/a>.&lt;/p>
+&lt;p>Aligns multiple sequence alignments (MSAs) supplied with Kalign. Kalign is a fast and accurate multiple sequence
+alignment tool. The original version of the tool can be found on &lt;a href="http://msa.sbc.su.se/">http://msa.sbc.su.se&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> kalign&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Gap extension penalty&lt;/strong>&lt;/p>
-&lt;p>The penalty for extending a gap.&lt;/p>
-&lt;p>8.52&lt;/p>
-&lt;p>&lt;strong>gap-ext-penalty&lt;/strong>&lt;/p>
-&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Gap open penalty&lt;/strong>&lt;/p>
-&lt;p>The penalty for opening/closing a gap. Half the value will be subtracted from the alignment score when opening, and half when closing a gap.&lt;/p></description></item><item><title>Captions on Annotations</title><link>https://ugene.net/docs/sequence-view/manipulating-annotations/highlighting-annotations/captions-on-annotations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view/manipulating-annotations/highlighting-annotations/captions-on-annotations/</guid><description>&lt;h1 id="captions-on-annotations">Captions on Annotations&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap extension penalty&lt;/strong>&lt;/td>
+ &lt;td>The penalty for extending a gap.&lt;/td>
+ &lt;td>8.52&lt;/td>
+ &lt;td>&lt;strong>gap-ext-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap open penalty&lt;/strong>&lt;/td>
+ &lt;td>The penalty for opening/closing a gap. Half the value will be subtracted from the alignment score when opening, and half when closing a gap.&lt;/td>
+ &lt;td>54.90&lt;/td>
+ &lt;td>&lt;strong>gap-open-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Terminal gap penalty&lt;/strong>&lt;/td>
+ &lt;td>The penalty to extend gaps from the N/C terminal of protein or 5’/3’ terminal of nucleotide sequences.&lt;/td>
+ &lt;td>4.42&lt;/td>
+ &lt;td>&lt;strong>terminal-gap-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Bonus score&lt;/strong>&lt;/td>
+ &lt;td>A bonus score that is added to each pair of aligned residues.&lt;/td>
+ &lt;td>0.02&lt;/td>
+ &lt;td>&lt;strong>bonus-score&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Captions on Annotations</title><link>https://ugene.net/docs/sequence-view/manipulating-annotations/highlighting-annotations/captions-on-annotations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view/manipulating-annotations/highlighting-annotations/captions-on-annotations/</guid><description>&lt;h1 id="captions-on-annotations">Captions on Annotations&lt;/h1>
 &lt;p>It is possible to show a value of a qualifier of an annotation instead of the annotation type name in the &lt;em>Sequence Zoom View&lt;/em>. To enable this option for an annotation type check the &lt;em>Show value of qualifier&lt;/em> check box and input the values of the required qualifiers in the text field nearby this check box. See the image below.&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929480/65929481.png" alt="">&lt;/p>
 &lt;p>If you input several qualifiers names (separated by comma), then the first found qualifier is taken into account and shown on the annotation.&lt;/p></description></item><item><title>Changing Schema Appearance</title><link>https://ugene.net/docs/query-designer/manipulating-schema/changing-schema-appearance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/manipulating-schema/changing-schema-appearance/</guid><description>&lt;h1 id="changing-schema-appearance">Changing Schema Appearance&lt;/h1>
@@ -2870,9 +3068,62 @@ _&lt;/p>
 &lt;p>Note that the settings are not applied to the &lt;a href="collapsing-and-expanding-branches.md">&lt;em>collapsed&lt;/em>&lt;/a> branches (if any).&lt;/p>
 &lt;p>See an example of changing branch settings for a clade:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929750/65929751.png" alt="">&lt;/p></description></item><item><title>Align with MAFFT Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-mafft-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-mafft-element/</guid><description>&lt;h1 id="align-with-mafft-element">Align with MAFFT Element&lt;/h1>
-&lt;p>Originally, MAFFT is a multiple sequence alignment program for unix-like operating systems. Currently, Windows version is also available.&lt;/p>
-&lt;p>MAFFT is used as an external tool from UGENE and it must be installed on your system. To learn more about the external tools, please, read main &lt;a href="http://ugene.unipro.ru/documentation.html">UGENE User Manual&lt;/a>.&lt;/p>
-&lt;p>MAFFT is used as an external tool from UGENE and it must be installed on your system. To learn more about the external tools, please, read main &lt;a href="http://ugene.unipro.ru/documentation.html">UGENE User Manual&lt;/a>.&lt;/p></description></item><item><title>Application Settings</title><link>https://ugene.net/docs/workflow-designer/introduction/ugene-components-and-workflow-designer/application-settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/introduction/ugene-components-and-workflow-designer/application-settings/</guid><description>&lt;h1 id="application-settings">Application Settings&lt;/h1>
+&lt;p>Originally, MAFFT is a multiple sequence alignment program for unix-like operating systems. Currently, Windows version
+is also available.&lt;/p>
+&lt;p>MAFFT is used as an external tool from UGENE and it must be installed on your system. To learn more about the external
+tools, please, read main &lt;a href="http://ugene.unipro.ru/documentation.html">UGENE User Manual&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> mafft&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Offset&lt;/strong>&lt;/td>
+ &lt;td>Works like gap extension penalty.&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>gap-ext-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap open penalty&lt;/strong>&lt;/td>
+ &lt;td>Gap open penalty.&lt;/td>
+ &lt;td>1.53&lt;/td>
+ &lt;td>&lt;strong>gap-open-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max iteration&lt;/strong>&lt;/td>
+ &lt;td>Maximum number of iterative refinement.&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>iterations-max-num&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Tool path&lt;/strong> (default)&lt;/td>
+ &lt;td>Path to the ClustalW tool. The default path can be set in the UGENE application settings.&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>&lt;strong>path&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Temporary directory&lt;/strong>&lt;/td>
+ &lt;td>Directory to store temporary files.&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>&lt;strong>temp-dir&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Application Settings</title><link>https://ugene.net/docs/workflow-designer/introduction/ugene-components-and-workflow-designer/application-settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/introduction/ugene-components-and-workflow-designer/application-settings/</guid><description>&lt;h1 id="application-settings">Application Settings&lt;/h1>
 &lt;p>To change common Workflow Designer setting select the &lt;em>Settings ‣ Preferences&amp;hellip;&lt;/em> main menu item and select the &lt;em>Workflow Designer&lt;/em> tab in the opened &lt;em>Application Settings&lt;/em> dialog.&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929900/65929901.png" alt="">&lt;/p></description></item><item><title>Assembly Overview Description</title><link>https://ugene.net/docs/assembly-browser/browsing-and-zooming-assembly/assembly-overview-description/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/browsing-and-zooming-assembly/assembly-overview-description/</guid><description>&lt;h1 id="assembly-overview-description">Assembly Overview Description&lt;/h1>
 &lt;p>The &lt;em>Assembly Overview&lt;/em> shows a coverage overview of the assembly. The longer the depth of a line in the overview and the deeper the color, the more reads are located in this region.&lt;/p>

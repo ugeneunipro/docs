@@ -1,80 +1,328 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Multiple Sequence Alignment on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/</link><description>Recent content in Multiple Sequence Alignment on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/index.xml" rel="self" type="application/rss+xml"/><item><title>Align Profile to Profile with MUSCLE Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-profile-to-profile-with-muscle-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-profile-to-profile-with-muscle-element/</guid><description>&lt;h1 id="align-profile-to-profile-with-muscle-element">Align Profile to Profile with MUSCLE Element&lt;/h1>
 &lt;p>Aligns second profile to master profile with MUSCLE aligner.&lt;/p>
-&lt;h2 id="type-align-profile-to-profile">&lt;strong>Type:&lt;/strong> align-profile-to-profile&lt;/h2>
+&lt;p>&lt;strong>Type:&lt;/strong> align-profile-to-profile&lt;/p>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
 &lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p>
-&lt;p>&lt;strong>Name in GUI:&lt;/strong> in-profiles&lt;/p>
-&lt;p>&lt;strong>Name in Workflow File:&lt;/strong> in-profiles&lt;/p>
-&lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
-&lt;p>Slot In GUI&lt;/p>
-&lt;p>Slot in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Master profile&lt;/strong>&lt;/p>
-&lt;p>master-msa&lt;/p>
-&lt;p>&lt;em>malignment&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Second profile&lt;/strong>&lt;/p>
-&lt;p>second-msa&lt;/p>
-&lt;p>&lt;em>malignment&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Name in GUI:&lt;/strong> in-profiles
+&lt;strong>Name in Workflow File:&lt;/strong> in-profiles
+&lt;strong>Slots:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot In GUI&lt;/th>
+ &lt;th>Slot in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Master profile&lt;/strong>&lt;/td>
+ &lt;td>master-msa&lt;/td>
+ &lt;td>&lt;em>malignment&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Second profile&lt;/strong>&lt;/td>
+ &lt;td>second-msa&lt;/td>
+ &lt;td>&lt;em>malignment&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
 &lt;p>And 1 &lt;em>output port&lt;/em>:&lt;/p>
-&lt;p>&lt;strong>Name in GUI:&lt;/strong> out-msa&lt;/p>
-&lt;p>&lt;strong>Name in Workflow File:&lt;/strong> out-msa&lt;/p>
-&lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
-&lt;p>Slot In GUI&lt;/p>
-&lt;p>Slot in Workflow File&lt;/p></description></item><item><title>Align with ClustalO Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-clustalo-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-clustalo-element/</guid><description>&lt;h1 id="align-with-clustalo-element">Align with ClustalO Element&lt;/h1>
+&lt;p>&lt;strong>Name in GUI:&lt;/strong> out-msa
+&lt;strong>Name in Workflow File:&lt;/strong> out-msa
+&lt;strong>Slots:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot In GUI&lt;/th>
+ &lt;th>Slot in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>MSA&lt;/strong>&lt;/td>
+ &lt;td>msa&lt;/td>
+ &lt;td>&lt;em>malignment&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Align with ClustalO Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-clustalo-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-clustalo-element/</guid><description>&lt;h1 id="align-with-clustalo-element">Align with ClustalO Element&lt;/h1>
 &lt;p>Aligns multiple sequence alignments (MSAs) supplied with ClustalO.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> ClustalO&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Number of iterations&lt;/strong>&lt;/p>
-&lt;p>Number of (combined guide-tree/HMM) iterations.&lt;/p>
-&lt;p>1&lt;/p>
-&lt;p>&lt;strong>num-iterations&lt;/strong>&lt;/p>
-&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Number of guidetree iterations&lt;/strong>&lt;/p>
-&lt;p>Maximum number guidetree iterations.&lt;/p>
-&lt;p>0&lt;/p>
-&lt;p>&lt;strong>max-guidetree-iterations&lt;/strong>&lt;/p>
-&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Number of HMM iterations&lt;/strong>&lt;/p>
-&lt;p>Maximum number of HMM iterations.&lt;/p>
-&lt;p>0&lt;/p>
-&lt;p>&lt;strong>max-hmm-iterations&lt;/strong>&lt;/p>
-&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Set auto options&lt;/strong>&lt;/p>
-&lt;p>Set options automatically (might overwrite some of your options).&lt;/p>
-&lt;p>False&lt;/p>
-&lt;p>&lt;strong>set-auto&lt;/strong>&lt;/p></description></item><item><title>Align with ClustalW Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-clustalw-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-clustalw-element/</guid><description>&lt;h1 id="align-with-clustalw-element">Align with ClustalW Element&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Number of iterations&lt;/strong>&lt;/td>
+ &lt;td>Number of (combined guide-tree/HMM) iterations.&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;strong>num-iterations&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Number of guidetree iterations&lt;/strong>&lt;/td>
+ &lt;td>Maximum number guidetree iterations.&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>max-guidetree-iterations&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Number of HMM iterations&lt;/strong>&lt;/td>
+ &lt;td>Maximum number of HMM iterations.&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>max-hmm-iterations&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Set auto options&lt;/strong>&lt;/td>
+ &lt;td>Set options automatically (might overwrite some of your options).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>set-auto&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Tool path&lt;/strong>&lt;/td>
+ &lt;td>Path to the ClustalO tool. The default path can be set in the UGENE application settings.&lt;/td>
+ &lt;td>Default&lt;/td>
+ &lt;td>&lt;strong>path&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Temporary directory&lt;/strong>&lt;/td>
+ &lt;td>Directory to store temporary files.&lt;/td>
+ &lt;td>Default&lt;/td>
+ &lt;td>&lt;strong>temp-dir&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Align with ClustalW Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-clustalw-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-clustalw-element/</guid><description>&lt;h1 id="align-with-clustalw-element">Align with ClustalW Element&lt;/h1>
 &lt;p>Aligns multiple sequence alignments (MSAs) supplied with ClustalW.&lt;/p>
-&lt;p>ClustalW is a general-purpose multiple sequence alignment program for DNA or proteins. Visit &lt;a href="http://www.clustal.org/">http://www.clustal.org/&lt;/a> to learn more about it.&lt;/p>
-&lt;p>Clustal is used as an external tool from UGENE and it must be installed on your system. To learn more about the external tools, please, read the main &lt;a href="http://ugene.unipro.ru/documentation.html">UGENE User Manual&lt;/a>.&lt;/p>
+&lt;p>ClustalW is a general-purpose multiple sequence alignment program for DNA or proteins.
+Visit &lt;a href="http://www.clustal.org/">http://www.clustal.org/&lt;/a> to learn more about it.&lt;/p>
+&lt;p>Clustal is used as an external tool from UGENE and it must be installed on your system. To learn more about the external
+tools, please, read the main &lt;a href="http://ugene.unipro.ru/documentation.html">UGENE User Manual&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> clustalw&lt;/p>
-&lt;p>Parameters&lt;/p>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p></description></item><item><title>Align with Kalign Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-kalign-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-kalign-element/</guid><description>&lt;h1 id="align-with-kalign-element">Align with Kalign Element&lt;/h1>
-&lt;p>Aligns multiple sequence alignments (MSAs) supplied with Kalign. Kalign is a fast and accurate multiple sequence alignment tool. The original version of the tool can be found on &lt;a href="http://msa.sbc.su.se/">http://msa.sbc.su.se&lt;/a>.&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Weight matrix&lt;/strong>&lt;/td>
+ &lt;td>For proteins, it is a scoring table which describes the similarity of each amino acid to each other. For DNA it is the scores assigned to matches and mismatches.&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>&lt;strong>matrix&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>Available values are:&lt;br>0 - for IUB&lt;br>1 - for ClustalW&lt;br>2 - for BLOSUM&lt;br>3 - for PAM&lt;br>4 - for GONNET&lt;br>5 - for ID&lt;br>-1 - for default matrix&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>End gaps&lt;/strong>&lt;/td>
+ &lt;td>The penalty for closing a gap.&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>close-gap-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap distance&lt;/strong>&lt;/td>
+ &lt;td>The gap separation penalty. Tries to decrease the chances of gaps being too close to each other.&lt;/td>
+ &lt;td>4.42&lt;/td>
+ &lt;td>&lt;strong>gap-distance&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap extension penalty&lt;/strong>&lt;/td>
+ &lt;td>The penalty for extending a gap.&lt;/td>
+ &lt;td>8.52&lt;/td>
+ &lt;td>&lt;strong>gap-ext-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap open penalty&lt;/strong>&lt;/td>
+ &lt;td>The penalty for opening a gap.&lt;/td>
+ &lt;td>53.90&lt;/td>
+ &lt;td>&lt;strong>gap-open-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Hydrophilic gaps off&lt;/strong>&lt;/td>
+ &lt;td>Hydrophilic gap penalties are used to increase the chances of a gap within a run (5 or more residues) of hydrophilic amino acids.&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>no-hydrophilic-gaps&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Residue-specific gaps off&lt;/strong>&lt;/td>
+ &lt;td>Residue-specific penalties are amino specific gap penalties that reduce or increase the gap opening penalties at each position in the alignment.&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>no-residue-specific-gaps&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Iteration type&lt;/strong>&lt;/td>
+ &lt;td>Alignment improvement iteration type.&lt;/td>
+ &lt;td>None&lt;/td>
+ &lt;td>&lt;strong>iteration-type&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>Available values are:&lt;br>0 - for None&lt;br>1 - for Tree&lt;br>2 - for Alignment&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Number of iterations&lt;/strong>&lt;/td>
+ &lt;td>The maximum number of iterations to perform.&lt;/td>
+ &lt;td>3&lt;/td>
+ &lt;td>&lt;strong>iterations-max-num&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Tool path&lt;/strong> (required)&lt;/td>
+ &lt;td>Path to the ClustalW tool. The default path can be set in the UGENE Application Settings.&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>&lt;strong>path&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Temporary directory&lt;/strong>&lt;/td>
+ &lt;td>Directory to store temporary files.&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>&lt;strong>temp-dir&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Align with Kalign Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-kalign-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-kalign-element/</guid><description>&lt;h1 id="align-with-kalign-element">Align with Kalign Element&lt;/h1>
+&lt;p>Aligns multiple sequence alignments (MSAs) supplied with Kalign. Kalign is a fast and accurate multiple sequence
+alignment tool. The original version of the tool can be found on &lt;a href="http://msa.sbc.su.se/">http://msa.sbc.su.se&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> kalign&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Gap extension penalty&lt;/strong>&lt;/p>
-&lt;p>The penalty for extending a gap.&lt;/p>
-&lt;p>8.52&lt;/p>
-&lt;p>&lt;strong>gap-ext-penalty&lt;/strong>&lt;/p>
-&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Gap open penalty&lt;/strong>&lt;/p>
-&lt;p>The penalty for opening/closing a gap. Half the value will be subtracted from the alignment score when opening, and half when closing a gap.&lt;/p></description></item><item><title>Align with MAFFT Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-mafft-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-mafft-element/</guid><description>&lt;h1 id="align-with-mafft-element">Align with MAFFT Element&lt;/h1>
-&lt;p>Originally, MAFFT is a multiple sequence alignment program for unix-like operating systems. Currently, Windows version is also available.&lt;/p>
-&lt;p>MAFFT is used as an external tool from UGENE and it must be installed on your system. To learn more about the external tools, please, read main &lt;a href="http://ugene.unipro.ru/documentation.html">UGENE User Manual&lt;/a>.&lt;/p>
-&lt;p>MAFFT is used as an external tool from UGENE and it must be installed on your system. To learn more about the external tools, please, read main &lt;a href="http://ugene.unipro.ru/documentation.html">UGENE User Manual&lt;/a>.&lt;/p></description></item><item><title>Align with MUSCLE Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-muscle-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-muscle-element/</guid><description>&lt;h1 id="align-with-muscle-element">Align with MUSCLE Element&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap extension penalty&lt;/strong>&lt;/td>
+ &lt;td>The penalty for extending a gap.&lt;/td>
+ &lt;td>8.52&lt;/td>
+ &lt;td>&lt;strong>gap-ext-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap open penalty&lt;/strong>&lt;/td>
+ &lt;td>The penalty for opening/closing a gap. Half the value will be subtracted from the alignment score when opening, and half when closing a gap.&lt;/td>
+ &lt;td>54.90&lt;/td>
+ &lt;td>&lt;strong>gap-open-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Terminal gap penalty&lt;/strong>&lt;/td>
+ &lt;td>The penalty to extend gaps from the N/C terminal of protein or 5’/3’ terminal of nucleotide sequences.&lt;/td>
+ &lt;td>4.42&lt;/td>
+ &lt;td>&lt;strong>terminal-gap-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Bonus score&lt;/strong>&lt;/td>
+ &lt;td>A bonus score that is added to each pair of aligned residues.&lt;/td>
+ &lt;td>0.02&lt;/td>
+ &lt;td>&lt;strong>bonus-score&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Align with MAFFT Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-mafft-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-mafft-element/</guid><description>&lt;h1 id="align-with-mafft-element">Align with MAFFT Element&lt;/h1>
+&lt;p>Originally, MAFFT is a multiple sequence alignment program for unix-like operating systems. Currently, Windows version
+is also available.&lt;/p>
+&lt;p>MAFFT is used as an external tool from UGENE and it must be installed on your system. To learn more about the external
+tools, please, read main &lt;a href="http://ugene.unipro.ru/documentation.html">UGENE User Manual&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> mafft&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Offset&lt;/strong>&lt;/td>
+ &lt;td>Works like gap extension penalty.&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>gap-ext-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap open penalty&lt;/strong>&lt;/td>
+ &lt;td>Gap open penalty.&lt;/td>
+ &lt;td>1.53&lt;/td>
+ &lt;td>&lt;strong>gap-open-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max iteration&lt;/strong>&lt;/td>
+ &lt;td>Maximum number of iterative refinement.&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>iterations-max-num&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Tool path&lt;/strong> (default)&lt;/td>
+ &lt;td>Path to the ClustalW tool. The default path can be set in the UGENE application settings.&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>&lt;strong>path&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Temporary directory&lt;/strong>&lt;/td>
+ &lt;td>Directory to store temporary files.&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>&lt;strong>temp-dir&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Align with MUSCLE Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-muscle-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-muscle-element/</guid><description>&lt;h1 id="align-with-muscle-element">Align with MUSCLE Element&lt;/h1>
 &lt;p>MUSCLE is public domain multiple alignment software for protein and nucleotide sequences. MUSCLE stands for MUltiple Sequence Comparison by Log-Expectation.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> muscle&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>

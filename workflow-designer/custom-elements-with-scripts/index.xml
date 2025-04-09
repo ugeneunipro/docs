@@ -37,5 +37,5 @@
 &lt;li>&lt;strong>readFile&lt;/strong> (QString url) - reads the file with the specified url.&lt;/li>
 &lt;/ul></description></item><item><title>Common Function</title><link>https://ugene.net/docs/workflow-designer/custom-elements-with-scripts/common-function/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/custom-elements-with-scripts/common-function/</guid><description>&lt;h1 id="common-function">Common Function&lt;/h1>
 &lt;ul>
-&lt;li>&lt;strong>printToLog&lt;/strong> (parameter) - prints the results to the &lt;a href="65929892.html">&lt;em>Log View&lt;/em>&lt;/a>.&lt;/li>
+&lt;li>&lt;strong>printToLog&lt;/strong> (parameter) - prints the results to the &lt;a href="https://ugene.net/docs/workflow-designer/introduction/ugene-components-and-workflow-designer/task-view-notifications-and-log-view">&lt;em>Log View&lt;/em>&lt;/a>.&lt;/li>
 &lt;/ul></description></item></channel></rss>

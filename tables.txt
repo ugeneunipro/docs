@@ -1,9 +1,3 @@
-Align-Profile-to-Profile-with-MUSCLE-Element_65930136.html
-Align-Sequences-with-MUSCLE_65930229.html
-Align-with-ClustalO-Element_65930137.html
-Align-with-ClustalW-Element_65930138.html
-Align-with-Kalign-Element_65930139.html
-Align-with-MAFFT-Element_65930140.html
 Align-with-MUSCLE-Element_65930141.html
 Align-with-T-Coffee-Element_65930142.html
 Amino-Acid-Translation-Element_65930095.html

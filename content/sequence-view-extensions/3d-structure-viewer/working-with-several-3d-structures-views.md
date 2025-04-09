@@ -30,7 +30,7 @@ Below you can see the 3D Structure Viewer with two views:
 
 To select an active view click on the view area or select an appropriate value in the _Active view_ combo box on the toolbar.
 
-To synchronize the views press the _Synchronize 3D Structure Views_ sticky button on the toolbar (see the image above). When the button has been pressed the 3D structures are [_moved, zoomed and spinned_](65929540.html) synchronously. Press the button again to stop the views synchronization.
+To synchronize the views press the _Synchronize 3D Structure Views_ sticky button on the toolbar (see the image above). When the button has been pressed the 3D structures are [_moved, zoomed and spinned_](/docs/sequence-view-extensions/3d-structure-viewer/moving-zooming-and-spinning-3d-structure) synchronously. Press the button again to stop the views synchronization.
 
 The views that are no more required can be closed by selecting the _Close_ button in the 3D Structure Viewer context menu.
 

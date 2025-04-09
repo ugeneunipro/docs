@@ -3,7 +3,7 @@
 document. Source data can be of any format containing sequences or alignments.&lt;/p>
 &lt;h2 id="how-to-use-this-sample">How to Use This Sample&lt;/h2>
 &lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENE before, look at
-the &amp;ldquo;&lt;a href="how-to-use-sample-workflows.md">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p>
+the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p>
 &lt;h5 id="workflow-sample-location">Workflow Sample Location&lt;/h5>
 &lt;p>The workflow sample &amp;ldquo;Align Sequences with MUSCLE&amp;rdquo; can be found in the &amp;ldquo;Alignment&amp;rdquo; section of the Workflow Designer
 samples.&lt;/p></description></item><item><title>Extract Consensus as Sequence</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/alignment/extract-consensus-as-sequence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/alignment/extract-consensus-as-sequence/</guid><description>&lt;h1 id="extract-consensus-as-sequence">Extract Consensus as Sequence&lt;/h1>

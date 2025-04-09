@@ -6,7 +6,7 @@
 &lt;li>macOS 10.7+&lt;/li>
 &lt;li>Linux&lt;/li>
 &lt;/ul>
-&lt;p>Note that some external tools may be available only on particular operating systems, see details in the &amp;ldquo;&lt;a href="data-analysis-tools.md">Data Analysis Tools&lt;/a>&amp;rdquo; chapter of the manual.&lt;/p>
+&lt;p>Note that some external tools may be available only on particular operating systems, see details in the &amp;ldquo;&lt;a href="data-analysis-tools">Data Analysis Tools&lt;/a>&amp;rdquo; chapter of the manual.&lt;/p>
 &lt;p>For older packages, if required, see &lt;a href="http://ugene.net/download-all.html">http://ugene.net/download-all.html&lt;/a>.&lt;/p>
 &lt;h4 id="ram">&lt;strong>RAM&lt;/strong>&lt;/h4>
 &lt;p>512 Mb RAM is required. At least 2 Gb RAM is recommended.&lt;/p>
@@ -53,7 +53,7 @@ launched when one uses the tool in the UGENE GUI. The result is also shown in th
 may be available on some operating systems only.&lt;/li>
 &lt;li>&lt;strong>Custom external tool:&lt;/strong> it is possible to
 add &lt;a href="https://local.ugene.unipro.ru/wiki/display/WDD33/Custom+Elements+with+External+Tools">any custom external tool&lt;/a>
-as a workflow element in the Workflow Designer. See &amp;ldquo;&lt;a href="custom-external-tools.md">Custom External Tools&lt;/a>&amp;rdquo;
+as a workflow element in the Workflow Designer. See &amp;ldquo;&lt;a href="../basic-functions/ugene-application-settings/external-tools/custom-external-tools">Custom External Tools&lt;/a>&amp;rdquo;
 documentation chapter for details.&lt;/li>
 &lt;/ul>
 &lt;/li>

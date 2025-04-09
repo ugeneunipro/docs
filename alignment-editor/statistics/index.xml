@@ -9,4 +9,4 @@
 &lt;p>Using the &lt;em>Alignment Editor&lt;/em> you can create a statistic profile of a multiple sequence alignment.&lt;/p>
 &lt;p>The alignment grid profile shows positional amino acid or nucleotide counts highlighted according to the frequency of symbols in a row.&lt;/p>
 &lt;p>To create a grid profile, use the &lt;em>Statistics ‣ Generate grid profile&lt;/em> item in the &lt;em>Actions&lt;/em> main menu or in the context menu.&lt;/p>
-&lt;p>To learn more about this feature, refer to the &lt;a href="dna-statistics.md">&lt;em>DNA Statistics&lt;/em>&lt;/a> plugin documentation.&lt;/p></description></item></channel></rss>
+&lt;p>To learn more about this feature, refer to the &lt;a href="../../extensions/dna-statistics">&lt;em>DNA Statistics&lt;/em>&lt;/a> plugin documentation.&lt;/p></description></item></channel></rss>

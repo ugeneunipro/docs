@@ -4,7 +4,7 @@
 &lt;p>&lt;img src="https://ugene.net/docs/images/65930599/65930600.png" alt="">&lt;/p>
 &lt;p>Alternatively, you can create/edit a schema using a text editor.&lt;/p>
 &lt;p>When the schema has been created and all its parameters have been set you can run it for a nucleotide sequence. The results are saved as a set of annotations to the specified file in the Genbank format. Also when you have a query designer scheme you can analyze a nucleotide sequence from the sequence view with the help of this schema. Call the &lt;em>Analyze-&amp;gt;Analyze with query schema&lt;/em> context menu item for this.&lt;/p></description></item><item><title>Running Schema from the Sequence View</title><link>https://ugene.net/docs/query-designer/running-schema-from-the-sequence-view/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/running-schema-from-the-sequence-view/</guid><description>&lt;h1 id="running-schema-from-the-sequence-view">Running Schema from the Sequence View&lt;/h1>
-&lt;p>Prepare a query &lt;em>schema&lt;/em> and &lt;a href="saving-schema.md">&lt;em>save&lt;/em>&lt;/a> it to a file.&lt;/p>
+&lt;p>Prepare a query &lt;em>schema&lt;/em> and &lt;a href="manipulating-schema/saving-schema">&lt;em>save&lt;/em>&lt;/a> it to a file.&lt;/p>
 &lt;p>Open a nucleotide sequence that you want to analyze with this query schema. You can see the sequence displayed in the &lt;strong>Sequence view&lt;/strong>.&lt;/p>
 &lt;p>To learn more about the &lt;strong>Sequence view&lt;/strong> read the main UGENE User Manual.&lt;/p>
 &lt;p>Select the &lt;em>Analyze ‣ Analyze with Query Schema&lt;/em> item in the &lt;em>Actions&lt;/em> main menu or in the context menu:&lt;/p></description></item></channel></rss>

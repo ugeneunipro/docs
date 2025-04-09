@@ -70,7 +70,7 @@
 &lt;p>Name of the result annotations.&lt;/p>
 &lt;p>ORF&lt;/p>
 &lt;p>&lt;strong>Direction&lt;/strong>&lt;/p>
-&lt;p>See the description &lt;a href="element-direction-in-schema.md">&lt;em>here&lt;/em>&lt;/a>.&lt;/p>
+&lt;p>See the description &lt;a href="../../manipulating-schema/managing-strands/element-direction-in-schema">&lt;em>here&lt;/em>&lt;/a>.&lt;/p>
 &lt;p>Any&lt;/p>
 &lt;p>&lt;strong>Allow alternative codons&lt;/strong>&lt;/p>
 &lt;p>Allows / disallows ORFs starting with alternative initiation codons, accordingly to the current translation table.&lt;/p>
@@ -172,7 +172,7 @@
 &lt;p>Name of the result annotations.&lt;/p>
 &lt;p>misc_feature&lt;/p>
 &lt;p>&lt;strong>Direction&lt;/strong>&lt;/p>
-&lt;p>See the description &lt;a href="element-direction-in-schema.md">&lt;em>here&lt;/em>&lt;/a>.&lt;/p>
+&lt;p>See the description &lt;a href="../../manipulating-schema/managing-strands/element-direction-in-schema">&lt;em>here&lt;/em>&lt;/a>.&lt;/p>
 &lt;p>Any&lt;/p>
 &lt;p>&lt;strong>Min Err1&lt;/strong>&lt;/p>
 &lt;p>Filters the results by minumum value of Error type I.&lt;/p>
@@ -191,7 +191,7 @@
 &lt;p>Name of the result annotations.&lt;/p>
 &lt;p>misc_feature&lt;/p>
 &lt;p>&lt;strong>Direction&lt;/strong>&lt;/p>
-&lt;p>See the description &lt;a href="element-direction-in-schema.md">&lt;em>here&lt;/em>&lt;/a>.&lt;/p>
+&lt;p>See the description &lt;a href="../../manipulating-schema/managing-strands/element-direction-in-schema">&lt;em>here&lt;/em>&lt;/a>.&lt;/p>
 &lt;p>Any&lt;/p>
 &lt;p>&lt;strong>Algorithm&lt;/strong>&lt;/p>
 &lt;p>Algorithm version. Depending on the computer configuration the following values may be available:&lt;/p>
@@ -216,7 +216,7 @@
 &lt;p>Name of the result annotations.&lt;/p>
 &lt;p>repeate_unit&lt;/p>
 &lt;p>&lt;strong>Direction&lt;/strong>&lt;/p>
-&lt;p>See the description &lt;a href="element-direction-in-schema.md">&lt;em>here&lt;/em>&lt;/a>.&lt;/p>
+&lt;p>See the description &lt;a href="../../manipulating-schema/managing-strands/element-direction-in-schema">&lt;em>here&lt;/em>&lt;/a>.&lt;/p>
 &lt;p>Any&lt;/p>
 &lt;p>&lt;strong>Algorithm&lt;/strong>&lt;/p>
 &lt;p>The algorithm parameter allows one to select the search algorithm. The default and a fast one is the optimized suffix array algorithm.&lt;/p>
@@ -232,7 +232,7 @@
 &lt;p>Name of the result annotations.&lt;/p>
 &lt;p>misc_feature&lt;/p>
 &lt;p>&lt;strong>Direction&lt;/strong>&lt;/p>
-&lt;p>See the description &lt;a href="element-direction-in-schema.md">&lt;em>here&lt;/em>&lt;/a>.&lt;/p>
+&lt;p>See the description &lt;a href="../../manipulating-schema/managing-strands/element-direction-in-schema">&lt;em>here&lt;/em>&lt;/a>.&lt;/p>
 &lt;p>Any&lt;/p>
 &lt;p>&lt;strong>Matrix&lt;/strong>&lt;/p>
 &lt;p>Path to the profile.&lt;/p>

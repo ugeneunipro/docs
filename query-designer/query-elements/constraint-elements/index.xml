@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Constraint Elements on UGENE Documentation</title><link>https://ugene.net/docs/query-designer/query-elements/constraint-elements/</link><description>Recent content in Constraint Elements on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/query-designer/query-elements/constraint-elements/index.xml" rel="self" type="application/rss+xml"/><item><title>End-Start Constraint Element</title><link>https://ugene.net/docs/query-designer/query-elements/constraint-elements/end-start-constraint-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/constraint-elements/end-start-constraint-element/</guid><description>&lt;h1 id="end-start-constraint-element">End-Start Constraint Element&lt;/h1>
-&lt;p>&lt;a href="adding-constraint-element.md">&lt;em>Add the End-Start constraint&lt;/em>&lt;/a> to some two &lt;em>algorithm elements&lt;/em>. Lets denote these elements as &lt;strong>alg1&lt;/strong> and &lt;strong>alg2&lt;/strong>.&lt;/p>
+&lt;p>&lt;a href="../../manipulating-query-designer-element/adding-constraint-element">&lt;em>Add the End-Start constraint&lt;/em>&lt;/a> to some two &lt;em>algorithm elements&lt;/em>. Lets denote these elements as &lt;strong>alg1&lt;/strong> and &lt;strong>alg2&lt;/strong>.&lt;/p>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
 &lt;p>Parameter&lt;/p>
 &lt;p>Description&lt;/p>
@@ -13,7 +13,7 @@
 &lt;p>&lt;strong>Constraint Explanation:&lt;/strong>&lt;/p>
 &lt;p>Let:&lt;/p>
 &lt;p>&lt;strong>alg1_annot_end&lt;/strong> := the last nucleotide of an annotation obtained from the &lt;strong>alg1&lt;/strong>.&lt;/p></description></item><item><title>Start-End Constraint Element</title><link>https://ugene.net/docs/query-designer/query-elements/constraint-elements/start-end-constraint-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/constraint-elements/start-end-constraint-element/</guid><description>&lt;h1 id="start-end-constraint-element">Start-End Constraint Element&lt;/h1>
-&lt;p>&lt;em>&lt;a href="adding-constraint-element.md">Add the Start-End constraint&lt;/a>&lt;/em> to some two &lt;em>algorithm elements&lt;/em>. Lets denote these elements as &lt;strong>alg1&lt;/strong> and &lt;strong>alg2&lt;/strong>.&lt;/p>
+&lt;p>&lt;em>&lt;a href="../../manipulating-query-designer-element/adding-constraint-element">Add the Start-End constraint&lt;/a>&lt;/em> to some two &lt;em>algorithm elements&lt;/em>. Lets denote these elements as &lt;strong>alg1&lt;/strong> and &lt;strong>alg2&lt;/strong>.&lt;/p>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
 &lt;p>Parameter&lt;/p>
 &lt;p>Description&lt;/p>
@@ -27,7 +27,7 @@
 &lt;p>&lt;strong>Constraint Explanation:&lt;/strong>&lt;/p>
 &lt;p>Let:&lt;/p>
 &lt;p>&lt;strong>alg1_annot_start&lt;/strong> := the first nucleotide of an annotation obtained from the &lt;strong>alg1&lt;/strong>.&lt;/p></description></item><item><title>End-End Constraint Element</title><link>https://ugene.net/docs/query-designer/query-elements/constraint-elements/end-end-constraint-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/constraint-elements/end-end-constraint-element/</guid><description>&lt;h1 id="end-end-constraint-element">End-End Constraint Element&lt;/h1>
-&lt;p>&lt;a href="adding-constraint-element.md">&lt;em>Add the End-End constraint&lt;/em>&lt;/a> to some two &lt;em>algorithm elements&lt;/em>. Lets denote these elements as &lt;strong>alg1&lt;/strong> and &lt;strong>alg2&lt;/strong>.&lt;/p>
+&lt;p>&lt;a href="../../manipulating-query-designer-element/adding-constraint-element">&lt;em>Add the End-End constraint&lt;/em>&lt;/a> to some two &lt;em>algorithm elements&lt;/em>. Lets denote these elements as &lt;strong>alg1&lt;/strong> and &lt;strong>alg2&lt;/strong>.&lt;/p>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
 &lt;p>Parameter&lt;/p>
 &lt;p>Description&lt;/p>
@@ -41,7 +41,7 @@
 &lt;p>&lt;strong>Constraint Explanation:&lt;/strong>&lt;/p>
 &lt;p>Let:&lt;/p>
 &lt;p>&lt;strong>alg1_annot_end&lt;/strong> := the last nucleotide of an annotation obtained from the &lt;strong>alg1&lt;/strong>.&lt;/p></description></item><item><title>Start-Start Constraint Element</title><link>https://ugene.net/docs/query-designer/query-elements/constraint-elements/start-start-constraint-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/constraint-elements/start-start-constraint-element/</guid><description>&lt;h1 id="start-start-constraint-element">Start-Start Constraint Element&lt;/h1>
-&lt;p>&lt;a href="adding-constraint-element.md">&lt;em>Add the Start-Start constraint&lt;/em>&lt;/a> to some two &lt;em>algorithm elements&lt;/em>. Lets denote these elements as &lt;strong>alg1&lt;/strong> and &lt;strong>alg2&lt;/strong>.&lt;/p>
+&lt;p>&lt;a href="../../manipulating-query-designer-element/adding-constraint-element">&lt;em>Add the Start-Start constraint&lt;/em>&lt;/a> to some two &lt;em>algorithm elements&lt;/em>. Lets denote these elements as &lt;strong>alg1&lt;/strong> and &lt;strong>alg2&lt;/strong>.&lt;/p>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
 &lt;p>Parameter&lt;/p>
 &lt;p>Description&lt;/p>

@@ -64,7 +64,7 @@
 &lt;li>&lt;/li>
 &lt;/ul>
 &lt;p>UGENE database files stores information for imported BAM or SAM files and can be used for converting this information into a SAM file.&lt;/p>
-&lt;p>&lt;strong>See also:&lt;/strong> &lt;a href="import-bam-and-sam-files.md">&lt;em>Import BAM/SAM File&lt;/em>&lt;/a>&lt;/p>
+&lt;p>&lt;strong>See also:&lt;/strong> &lt;a href="../../assembly-browser/import-bam-and-sam-files">&lt;em>Import BAM/SAM File&lt;/em>&lt;/a>&lt;/p>
 &lt;p>&lt;strong>Short Reads FASTA&lt;/strong>&lt;/p>
 &lt;p>*.srfa, *.srfasta&lt;/p>
 &lt;ul>

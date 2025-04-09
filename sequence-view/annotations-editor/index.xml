@@ -18,7 +18,7 @@
 &lt;p>UGENE has certain primers format. It allows one to use some features, which are avaliable only if this format is being recognized. Examples of thes features:&lt;/p>
 &lt;ul>
 &lt;li>Create PCR Fragment,&lt;/li>
-&lt;li>&lt;a href="primer-blast.md">Primer-BLAST&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="../../extensions/remote-blast/primer-blast">Primer-BLAST&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;p>If you have a primer pair, which doesn&amp;rsquo;t fit to this format, these features will be unavaliable for you. To fix this issue:&lt;/p>
 &lt;ol>

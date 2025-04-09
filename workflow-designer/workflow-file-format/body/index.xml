@@ -6,7 +6,7 @@ parameter2:value2;
 ...
 &lt;/code>&lt;/pre>
 &lt;p>}&lt;/p>
-&lt;p>See, for example, a description of the &lt;a href="read-alignment-element.md">&lt;em>Read alignment&lt;/em>&lt;/a> element:&lt;/p>
+&lt;p>See, for example, a description of the &lt;a href="../../workflow-elements/data-readers/read-alignment-element">&lt;em>Read alignment&lt;/em>&lt;/a> element:&lt;/p>
 &lt;p>read-msa {
 type:read-msa;
 name:&amp;ldquo;Read alignment&amp;rdquo;;

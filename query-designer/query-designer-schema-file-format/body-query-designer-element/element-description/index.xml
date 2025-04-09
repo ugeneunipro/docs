@@ -10,9 +10,9 @@
 &lt;p>When you describe a constraint element the &lt;strong>element_name&lt;/strong> consists of two parts separated by two hyphens.&lt;/p>
 &lt;p>part1&amp;ndash;part2&lt;/p>
 &lt;p>Each part represents one of the algorithms the constraint is imposed on.&lt;/p>
-&lt;p>If the algorithm is presented as one element on a schema (like &lt;a href="orf-algorithm-element.md">&lt;em>ORF&lt;/em>&lt;/a>, &lt;a href="pattern-algorithm-element.md">&lt;em>Pattern&lt;/em>&lt;/a>) the algorithm’s part has format:&lt;/p>
+&lt;p>If the algorithm is presented as one element on a schema (like &lt;a href="../../../query-elements/algorithm-elements/orf-algorithm-element">&lt;em>ORF&lt;/em>&lt;/a>, &lt;a href="../../../query-elements/algorithm-elements/pattern-algorithm-element">&lt;em>Pattern&lt;/em>&lt;/a>) the algorithm’s part has format:&lt;/p>
 &lt;p>algorithm_element_name.unit&lt;/p>
-&lt;p>If the algorithm is presented as two subelements on a schema (like &lt;a href="repeats-algorithm-element.md">&lt;em>Repeats&lt;/em>&lt;/a>, &lt;a href="primer-algorithm-element.md">&lt;em>Primer&lt;/em>&lt;/a>) the algorithm’s part has format:&lt;/p>
+&lt;p>If the algorithm is presented as two subelements on a schema (like &lt;a href="../../../query-elements/algorithm-elements/repeats-algorithm-element">&lt;em>Repeats&lt;/em>&lt;/a>, &lt;a href="../../../query-elements/algorithm-elements/primer-algorithm-element">&lt;em>Primer&lt;/em>&lt;/a>) the algorithm’s part has format:&lt;/p>
 &lt;p>algorithm_element_name.left&lt;/p>
 &lt;p>or:&lt;/p>
 &lt;p>algorithm_element_name.right&lt;/p></description></item></channel></rss>

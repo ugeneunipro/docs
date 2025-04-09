@@ -418,54 +418,167 @@ external tools, please, read main &lt;a href="http://ugene.unipro.ru/documentati
 &lt;/table>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
 &lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Extract Consensus from Alignment as Sequence</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/extract-consensus-from-alignment-as-sequence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/extract-consensus-from-alignment-as-sequence/</guid><description>&lt;h1 id="extract-consensus-from-alignment-as-sequence">Extract Consensus from Alignment as Sequence&lt;/h1>
-&lt;p>Extract the consensus sequence from the incoming multiple sequence alignment.&lt;/p>
-&lt;p>&lt;strong>Element type:&lt;/strong> extract-msa-consensus-sequence&lt;/p>
+&lt;p>Extract the consensus sequence from an incoming multiple sequence alignment (MSA) and output it as a sequence.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> &lt;code>extract-msa-consensus-sequence&lt;/code>&lt;/p>
+&lt;hr>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Algorithm&lt;/strong>&lt;/p>
-&lt;p>The algorithm of consensus extracting.&lt;/p>
-&lt;p>&lt;strong>algorithm&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Threshold&lt;/strong>&lt;/p>
-&lt;p>The threshold of the algorithm.&lt;/p>
-&lt;p>100&lt;/p>
-&lt;p>&lt;strong>threshold&lt;/strong>&lt;/p>
-&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Keep gaps&lt;/strong>&lt;/p>
-&lt;p>Set this parameter if the result consensus must keep the gaps.&lt;/p>
-&lt;p>True&lt;/p>
-&lt;p>&lt;strong>keep-gaps&lt;/strong>&lt;/p>
-&lt;p>&lt;em>boolean&lt;/em>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Parameter&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Default value&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Parameter in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Algorithm&lt;/strong>&lt;/td>
+ &lt;td>The algorithm used to calculate the consensus.&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;td>&lt;code>algorithm&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Threshold&lt;/strong>&lt;/td>
+ &lt;td>The threshold used by the algorithm (e.g., percentage agreement).&lt;/td>
+ &lt;td>&lt;code>100&lt;/code>&lt;/td>
+ &lt;td>&lt;code>threshold&lt;/code>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Keep gaps&lt;/strong>&lt;/td>
+ &lt;td>Whether gaps should be kept in the resulting consensus sequence.&lt;/td>
+ &lt;td>&lt;code>True&lt;/code>&lt;/td>
+ &lt;td>&lt;code>keep-gaps&lt;/code>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
-&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Extract Consensus from Alignment as Text</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/extract-consensus-from-alignment-as-text/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/extract-consensus-from-alignment-as-text/</guid><description>&lt;h1 id="extract-consensus-from-alignment-as-text">Extract Consensus from Alignment as Text&lt;/h1>
-&lt;p>Extract the consensus string from the incoming multiple sequence alignment.&lt;/p>
-&lt;p>&lt;strong>Element type:&lt;/strong> extract-msa-consensus-string&lt;/p>
+&lt;h3 id="input-port">Input Port&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Name in GUI:&lt;/strong> &lt;code>in-msa&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Name in Workflow File:&lt;/strong> &lt;code>in-msa&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Slots:&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Slot In GUI&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Slot in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>MSA&lt;/td>
+ &lt;td>&lt;code>msa&lt;/code>&lt;/td>
+ &lt;td>&lt;em>msa&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="output-port">Output Port&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Name in GUI:&lt;/strong> &lt;code>out-sequence&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Name in Workflow File:&lt;/strong> &lt;code>out-sequence&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Slots:&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Slot In GUI&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Slot in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Sequence&lt;/td>
+ &lt;td>&lt;code>sequence&lt;/code>&lt;/td>
+ &lt;td>&lt;em>seq&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Extract Consensus from Alignment as Text</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/extract-consensus-from-alignment-as-text/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/extract-consensus-from-alignment-as-text/</guid><description>&lt;h1 id="extract-consensus-from-alignment-as-text">Extract Consensus from Alignment as Text&lt;/h1>
+&lt;p>Extract the consensus string from an incoming multiple sequence alignment (MSA) and output it as plain text.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> &lt;code>extract-msa-consensus-string&lt;/code>&lt;/p>
+&lt;hr>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Algorithm&lt;/strong>&lt;/p>
-&lt;p>The algorithm of consensus extracting.&lt;/p>
-&lt;p>&lt;strong>algorithm&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Threshold&lt;/strong>&lt;/p>
-&lt;p>The threshold of the algorithm.&lt;/p>
-&lt;p>100&lt;/p>
-&lt;p>&lt;strong>threshold&lt;/strong>&lt;/p>
-&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Parameter&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Default value&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Parameter in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Algorithm&lt;/strong>&lt;/td>
+ &lt;td>The algorithm used to calculate the consensus.&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;td>&lt;code>algorithm&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Threshold&lt;/strong>&lt;/td>
+ &lt;td>The threshold used by the algorithm (e.g., percentage agreement).&lt;/td>
+ &lt;td>&lt;code>100&lt;/code>&lt;/td>
+ &lt;td>&lt;code>threshold&lt;/code>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
-&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p>
-&lt;p>&lt;strong>Name in GUI:&lt;/strong> &lt;em>in-msa&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Name in Workflow File:&lt;/strong> in-msa&lt;/p>
-&lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
-&lt;p>Slot In GUI&lt;/p>
-&lt;p>Slot in Workflow File&lt;/p></description></item><item><title>In Silico PCR Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/in-silico-pcr-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/in-silico-pcr-element/</guid><description>&lt;h1 id="in-silico-pcr-element">In Silico PCR Element&lt;/h1>
+&lt;h3 id="input-port">Input Port&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Name in GUI:&lt;/strong> &lt;code>in-msa&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Name in Workflow File:&lt;/strong> &lt;code>in-msa&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Slots:&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Slot In GUI&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Slot in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>MSA&lt;/td>
+ &lt;td>&lt;code>msa&lt;/code>&lt;/td>
+ &lt;td>&lt;em>msa&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="output-port">Output Port&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Name in GUI:&lt;/strong> &lt;code>out-sequence&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Name in Workflow File:&lt;/strong> &lt;code>out-text&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Slots:&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Slot In GUI&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Slot in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Plain text&lt;/td>
+ &lt;td>&lt;code>text&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>In Silico PCR Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/in-silico-pcr-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/in-silico-pcr-element/</guid><description>&lt;h1 id="in-silico-pcr-element">In Silico PCR Element&lt;/h1>
 &lt;p>Simulates PCR for input sequences and primer pairs. Creates the table with the PCR statistics.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> in-silico-pcr&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>

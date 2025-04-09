@@ -87,219 +87,867 @@ read &lt;a href="https://doc.ugene.net/wiki/display/UM/About+the+Query+Designer"
 &lt;/table>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
 &lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>CD-Search Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/cd-search-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/cd-search-element/</guid><description>&lt;h1 id="cd-search-element">CD-Search Element&lt;/h1>
-&lt;p>Finds conserved domains in protein sequences. In case conserved domains database is downloaded the search can be executed on local machine. The search can be submitted to the NCBI for remote execution.&lt;/p>
+&lt;p>Finds conserved domains in protein sequences.
+If the conserved domains database is downloaded, the search can be executed locally.
+Otherwise, the search can be submitted to the NCBI for remote execution.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> cd-search&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Annotate as&lt;/strong>&lt;/p>
-&lt;p>Name of the result annotations marking found conserved domains.&lt;/p>
-&lt;p>CDD result&lt;/p>
-&lt;p>&lt;strong>result-name&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Database&lt;/strong>&lt;/p>
-&lt;p>Currently, CD-Search is offered with the following search databases:&lt;/p></description></item><item><title>Collocation Search Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/collocation-search-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/collocation-search-element/</guid><description>&lt;h1 id="collocation-search-element">Collocation Search Element&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Annotate as&lt;/strong>&lt;/td>
+ &lt;td>Name of the result annotations marking found conserved domains.&lt;/td>
+ &lt;td>CDD result&lt;/td>
+ &lt;td>&lt;strong>result-name&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Database&lt;/strong>&lt;/td>
+ &lt;td>CD-Search is offered with the following databases: &lt;br>&lt;br>• &lt;strong>CDD&lt;/strong> – superset including curated and imported domains&lt;br>• &lt;strong>Pfam&lt;/strong> – curated seed alignments&lt;br>• &lt;strong>SMART&lt;/strong> – domain alignments, some limitations&lt;br>• &lt;strong>TIGRFAM&lt;/strong> – curated HMM alignments&lt;br>• &lt;strong>COG&lt;/strong> – orthologous protein families&lt;br>• &lt;strong>KOG&lt;/strong> – eukaryotic orthologs&lt;br>• &lt;strong>Prk&lt;/strong> – protein kinases&lt;/td>
+ &lt;td>CDD&lt;/td>
+ &lt;td>&lt;strong>db-name&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Database directory&lt;/strong>&lt;/td>
+ &lt;td>Specifies path to local copy of the database used for local search.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>db-path&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Local search&lt;/strong>&lt;/td>
+ &lt;td>If &lt;code>True&lt;/code>, performs search locally. If &lt;code>False&lt;/code>, submits query to NCBI for remote execution.&lt;/td>
+ &lt;td>True&lt;/td>
+ &lt;td>&lt;strong>local-search&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Expect value&lt;/strong>&lt;/td>
+ &lt;td>Modifies the &lt;a href="http://www.ncbi.nlm.nih.gov/BLAST/blastcgihelp.shtml#expect">E-value&lt;/a> threshold for filtering results. A typical cutoff is 0.01. Results with E-values &amp;gt; 1 are usually considered unreliable.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>e-val&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Port Name (GUI)&lt;/th>
+ &lt;th>Workflow File Name&lt;/th>
+ &lt;th>Slots&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Input sequence&lt;/strong>&lt;/td>
+ &lt;td>&lt;code>in-sequence&lt;/code>&lt;/td>
+ &lt;td>&lt;strong>Sequence&lt;/strong> → &lt;code>sequence&lt;/code> (&lt;em>sequence&lt;/em>)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Annotations&lt;/strong>&lt;/td>
+ &lt;td>&lt;code>out-annotations&lt;/code>&lt;/td>
+ &lt;td>&lt;strong>Set of annotations&lt;/strong> → &lt;code>annotations&lt;/code> (&lt;em>annotation-table&lt;/em>)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Collocation Search Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/collocation-search-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/collocation-search-element/</guid><description>&lt;h1 id="collocation-search-element">Collocation Search Element&lt;/h1>
 &lt;p>Finds groups of specified annotations in each supplied set of annotations, stores found regions as annotations.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> collocated-annotation-search&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Result type&lt;/strong>&lt;/p>
-&lt;p>Copy original annotations or annotate found regions with new ones.&lt;/p>
-&lt;p>Create new annotations&lt;/p>
-&lt;p>&lt;strong>result-type&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Result annotation&lt;/strong> (required)&lt;/p>
-&lt;p>Name of the result annotation to mark found collocations.&lt;/p>
-&lt;p>misc_feature&lt;/p>
-&lt;p>&lt;strong>result-name&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Include boundaries&lt;/strong>&lt;/p>
-&lt;p>Include most left and most right boundary annotations regions into result or exclude them.&lt;/p></description></item><item><title>Export PHRED Qualities Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/export-phred-qualities-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/export-phred-qualities-element/</guid><description>&lt;h1 id="export-phred-qualities-element">Export PHRED Qualities Element&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Result type&lt;/strong>&lt;/td>
+ &lt;td>Copy original annotations or annotate found regions with new ones.&lt;/td>
+ &lt;td>Create new annotations&lt;/td>
+ &lt;td>&lt;strong>result-type&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Result annotation&lt;/strong>&lt;/td>
+ &lt;td>Name of the result annotation to mark found collocations. &lt;strong>(Required)&lt;/strong>&lt;/td>
+ &lt;td>misc_feature&lt;/td>
+ &lt;td>&lt;strong>result-name&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Include boundaries&lt;/strong>&lt;/td>
+ &lt;td>Include the most left and most right boundary annotations in the result or exclude them.&lt;/td>
+ &lt;td>True&lt;/td>
+ &lt;td>&lt;strong>include-boundary&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Group of annotations&lt;/strong>&lt;/td>
+ &lt;td>List of annotation names to search. Found regions will contain all the named annotations. &lt;strong>(Required)&lt;/strong>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>annotations&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Region size&lt;/strong>&lt;/td>
+ &lt;td>Maximum allowed distance between the interesting annotations in a group.&lt;/td>
+ &lt;td>1000&lt;/td>
+ &lt;td>&lt;strong>region-size&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Must fit into region&lt;/strong>&lt;/td>
+ &lt;td>Whether annotations must entirely fit within the specified region to form a group.&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>must-fit&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Port Name (GUI)&lt;/th>
+ &lt;th>Workflow File Name&lt;/th>
+ &lt;th>Slots&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Input data&lt;/strong>&lt;/td>
+ &lt;td>&lt;code>in-sequence&lt;/code>&lt;/td>
+ &lt;td>&lt;strong>Sequence&lt;/strong> → &lt;code>sequence&lt;/code> (&lt;em>sequence&lt;/em>)&lt;br>&lt;strong>Set of annotations&lt;/strong> → &lt;code>annotations&lt;/code> (&lt;em>annotation-table-list&lt;/em>)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Group annotations&lt;/strong>&lt;/td>
+ &lt;td>&lt;code>out-annotations&lt;/code>&lt;/td>
+ &lt;td>&lt;strong>Set of annotations&lt;/strong> → &lt;code>annotations&lt;/code> (&lt;em>annotation-table&lt;/em>)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Export PHRED Qualities Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/export-phred-qualities-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/export-phred-qualities-element/</guid><description>&lt;h1 id="export-phred-qualities-element">Export PHRED Qualities Element&lt;/h1>
 &lt;p>Export corresponding PHRED quality scores from input sequences.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> export-phred-qualities&lt;/p>
+&lt;hr>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>&lt;strong>PHRED output&lt;/strong>&lt;/p>
-&lt;p>Path to file with PHRED quality scores.&lt;/p>
-&lt;p>&lt;strong>url-out&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Parameter&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Default value&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Parameter in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>PHRED output&lt;/td>
+ &lt;td>Path to file with PHRED quality scores.&lt;/td>
+ &lt;td>–&lt;/td>
+ &lt;td>url-out&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
-&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p>
-&lt;p>&lt;strong>Name in GUI:&lt;/strong> DNA sequences&lt;/p>
-&lt;p>&lt;strong>Name in Workflow File:&lt;/strong> in-sequence&lt;/p>
-&lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
-&lt;p>Slot In GUI&lt;/p>
-&lt;p>Slot in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Sequence&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>sequence&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p></description></item><item><title>Fetch Sequences by ID From Annotation Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/fetch-sequences-by-id-from-annotation-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/fetch-sequences-by-id-from-annotation-element/</guid><description>&lt;h1 id="fetch-sequences-by-id-from-annotation-element">Fetch Sequences by ID From Annotation Element&lt;/h1>
+&lt;h3 id="input-port">Input port&lt;/h3>
+&lt;p>&lt;strong>Name in GUI:&lt;/strong> DNA sequences
+&lt;strong>Name in Workflow File:&lt;/strong> in-sequence&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Slot in GUI&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Slot in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Sequence&lt;/td>
+ &lt;td>sequence&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Fetch Sequences by ID From Annotation Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/fetch-sequences-by-id-from-annotation-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/fetch-sequences-by-id-from-annotation-element/</guid><description>&lt;h1 id="fetch-sequences-by-id-from-annotation-element">Fetch Sequences by ID From Annotation Element&lt;/h1>
 &lt;p>Parses annotations to find any IDs and fetches corresponding sequences.&lt;/p>
-&lt;p>&lt;strong>Element type:&lt;/strong> fetch-sequence&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> &lt;code>fetch-sequence&lt;/code>&lt;/p>
+&lt;hr>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Save file to directory&lt;/strong>&lt;/p>
-&lt;p>The directory to store sequence files loaded from a database.&lt;/p>
-&lt;p>default&lt;/p>
-&lt;p>&lt;strong>save-dir&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>NCBI database&lt;/strong>&lt;/p>
-&lt;p>The database to read from.&lt;/p>
-&lt;p>nucleotide&lt;/p>
-&lt;p>Available values are:&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Parameter&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Default Value&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Parameter in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Save file to directory&lt;/td>
+ &lt;td>The directory to store sequence files loaded from a database&lt;/td>
+ &lt;td>&lt;code>default&lt;/code>&lt;/td>
+ &lt;td>&lt;code>save-dir&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>NCBI database&lt;/td>
+ &lt;td>The database to read from&lt;/td>
+ &lt;td>&lt;code>nucleotide&lt;/code>&lt;/td>
+ &lt;td>&lt;code>database&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>Available values for &lt;strong>NCBI database&lt;/strong>:&lt;/p>
 &lt;ul>
-&lt;li>nucleotide&lt;/li>
-&lt;li>protein&lt;/li>
+&lt;li>&lt;code>nucleotide&lt;/code>&lt;/li>
+&lt;li>&lt;code>protein&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;p>&lt;strong>database&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;hr>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
-&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Filter Annotation by Name Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/filter-annotation-by-name-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/filter-annotation-by-name-element/</guid><description>&lt;h1 id="filter-annotation-by-name-element">Filter Annotation by Name Element&lt;/h1>
+&lt;h3 id="input-port">Input Port&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Name in GUI:&lt;/strong> &lt;code>Input annotations&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Name in Workflow File:&lt;/strong> &lt;code>in-annotations&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot In GUI&lt;/th>
+ &lt;th>Slot in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Set of annotations&lt;/td>
+ &lt;td>&lt;code>annotations&lt;/code>&lt;/td>
+ &lt;td>&lt;em>annotation-table&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="output-port">Output Port&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Name in GUI:&lt;/strong> &lt;code>Sequence&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Name in Workflow File:&lt;/strong> &lt;code>out-sequence&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot In GUI&lt;/th>
+ &lt;th>Slot in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Set of annotations&lt;/td>
+ &lt;td>&lt;code>annotations&lt;/code>&lt;/td>
+ &lt;td>&lt;em>annotation-table&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Sequence&lt;/td>
+ &lt;td>&lt;code>sequence&lt;/code>&lt;/td>
+ &lt;td>&lt;em>sequence&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Filter Annotation by Name Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/filter-annotation-by-name-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/filter-annotation-by-name-element/</guid><description>&lt;h1 id="filter-annotation-by-name-element">Filter Annotation by Name Element&lt;/h1>
 &lt;p>Filters annotations by name.&lt;/p>
-&lt;p>&lt;strong>Element type:&lt;/strong> filter-annotations&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> &lt;code>filter-annotations&lt;/code>&lt;/p>
+&lt;hr>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Annotation names&lt;/strong>&lt;/p>
-&lt;p>List of annotation names, separated by spaces, that will be accepted or filtered.&lt;/p>
-&lt;p>&lt;strong>annotation-names&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Annotation names file&lt;/strong>&lt;/p>
-&lt;p>File with annotation names, separated with whitespaces which will be accepted or filtered.&lt;/p>
-&lt;p>&lt;strong>annotation-names-file&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Accept or filter&lt;/strong>&lt;/p>
-&lt;p>Selects the name filter: accept specified names or accept all except specified.&lt;/p></description></item><item><title>Filter Annotations by Qualifier</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/filter-annotations-by-qualifier/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/filter-annotations-by-qualifier/</guid><description>&lt;h1 id="filter-annotations-by-qualifier">Filter Annotations by Qualifier&lt;/h1>
-&lt;p>Filters annotations by qualifier.&lt;/p>
-&lt;p>&lt;strong>Element type:&lt;/strong> filter-annotations-by-qualifier&lt;/p>
-&lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Qualifier name&lt;/strong>&lt;/p>
-&lt;p>Name of the qualifier to use for filtering.&lt;/p>
-&lt;p>&lt;strong>qualifier-name&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Qualifier value&lt;/strong>&lt;/p>
-&lt;p>Text value of the qualifier to apply as filtering criteria.&lt;/p>
-&lt;p>&lt;strong>qualifier-value&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Accept or filter&lt;/strong>&lt;/p>
-&lt;p>Selects the name filter: accept specified names or accept all except specified.&lt;/p>
-&lt;p>True&lt;/p>
-&lt;p>&lt;strong>accept-or-filter&lt;/strong>&lt;/p>
-&lt;p>&lt;em>boolean&lt;/em>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Parameter&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Default Value&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Parameter in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Annotation names&lt;/td>
+ &lt;td>List of annotation names, separated by spaces, that will be accepted or filtered.&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;td>&lt;code>annotation-names&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Annotation names file&lt;/td>
+ &lt;td>File with annotation names, separated with whitespaces which will be accepted or filtered.&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;td>&lt;code>annotation-names-file&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Accept or filter&lt;/td>
+ &lt;td>Selects the name filter: accept specified names or accept all except specified.&lt;/td>
+ &lt;td>&lt;code>True&lt;/code>&lt;/td>
+ &lt;td>&lt;code>accept-or-filter&lt;/code>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
-&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Find Correct Primer Pairs Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/find-correct-primer-pairs-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/find-correct-primer-pairs-element/</guid><description>&lt;h1 id="find-correct-primer-pairs-element">Find Correct Primer Pairs Element&lt;/h1>
-&lt;p>Find correct primer pairs, which consist of valid primers without dimers.&lt;/p>
-&lt;p>&lt;strong>Element type:&lt;/strong> find-primers&lt;/p>
-&lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Output report file&lt;/strong>&lt;/p>
-&lt;p>Path to the report output file.&lt;/p>
-&lt;p>&lt;strong>output-file&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
-&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p>
-&lt;p>&lt;strong>Name in GUI:&lt;/strong> Input sequences&lt;/p>
-&lt;p>&lt;strong>Name in Workflow File:&lt;/strong> in-sequence&lt;/p>
-&lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
-&lt;p>Slot In GUI&lt;/p>
-&lt;p>Slot in &lt;strong>Workflow&lt;/strong> File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Sequence&lt;/strong>&lt;/p>
-&lt;p>sequence&lt;/p>
-&lt;p>&lt;em>sequence&lt;/em>&lt;/p></description></item><item><title>Find Pattern Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/find-pattern-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/find-pattern-element/</guid><description>&lt;h1 id="find-pattern-element">Find Pattern Element&lt;/h1>
-&lt;p>Searches regions in a sequence similar to a pattern sequence. Outputs a set of annotations.&lt;/p>
-&lt;p>&lt;strong>Element type:&lt;/strong> search&lt;/p>
-&lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Annotate as&lt;/strong>&lt;/p>
-&lt;p>Name of the result annotation.&lt;/p>
-&lt;p>misc_feature&lt;/p>
-&lt;p>&lt;strong>result-name&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Pattern(s)&lt;/strong>&lt;/p>
-&lt;p>Semicolon-separated list of patterns to search for.&lt;/p>
-&lt;p>&lt;strong>pattern&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Pattern file&lt;/strong>&lt;/p>
-&lt;p>Load pattern from file in any sequence format or in newline-delimited format.&lt;/p>
-&lt;p>&lt;strong>pattern_file&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Use pattern name&lt;/strong>&lt;/p></description></item><item><title>Find Repeats Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/find-repeats-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/find-repeats-element/</guid><description>&lt;h1 id="find-repeats-element">Find Repeats Element&lt;/h1>
-&lt;p>Finds repeats in each supplied sequence, stores found regions as annotations.&lt;/p>
-&lt;p>&lt;strong>Element type:&lt;/strong> repeats-search&lt;/p>
-&lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Annotate as&lt;/strong> (required)&lt;/p>
-&lt;p>Name of the result annotation to mark found repeats.&lt;/p>
-&lt;p>repeat_unit&lt;/p>
-&lt;p>&lt;strong>result-name&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Algorithm&lt;/strong>&lt;/p>
-&lt;p>Control over variations of the algorithm.&lt;/p>
-&lt;p>Auto&lt;/p>
-&lt;p>&lt;strong>algorithm&lt;/strong>&lt;/p>
-&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
-&lt;p>Available values are:&lt;/p>
+&lt;h3 id="input-port">Input Port&lt;/h3>
 &lt;ul>
-&lt;li>0 - algorithm choosed automaticly&lt;/li>
-&lt;li>1 - for diagonal algorithm&lt;/li>
-&lt;li>2 - for suffix index algorithm&lt;/li>
+&lt;li>&lt;strong>Name in GUI:&lt;/strong> &lt;code>Input annotations&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Name in Workflow File:&lt;/strong> &lt;code>in-annotations&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;p>&lt;strong>Filter nested&lt;/strong>&lt;/p></description></item><item><title>Gene-by-gene approach report</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/gene-by-gene-approach-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/gene-by-gene-approach-report/</guid><description>&lt;h1 id="gene-by-gene-approach-report">Gene-by-gene approach report&lt;/h1>
-&lt;p>Output a table of genes found in a reference sequence.&lt;/p>
-&lt;p>&lt;strong>Element type:&lt;/strong> genebygene-report-id&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot In GUI&lt;/th>
+ &lt;th>Slot in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Set of annotations&lt;/td>
+ &lt;td>&lt;code>annotations&lt;/code>&lt;/td>
+ &lt;td>&lt;em>annotation-table&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="output-port">Output Port&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Name in GUI:&lt;/strong> &lt;code>Result annotations&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Name in Workflow File:&lt;/strong> &lt;code>out-annotations&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot In GUI&lt;/th>
+ &lt;th>Slot in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Set of annotations&lt;/td>
+ &lt;td>&lt;code>annotations&lt;/code>&lt;/td>
+ &lt;td>&lt;em>annotation-table&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Filter Annotations by Qualifier</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/filter-annotations-by-qualifier/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/filter-annotations-by-qualifier/</guid><description>&lt;h1 id="filter-annotations-by-qualifier">Filter Annotations by Qualifier&lt;/h1>
+&lt;p>Filters annotations by qualifier.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> &lt;code>filter-annotations-by-qualifier&lt;/code>&lt;/p>
+&lt;hr>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Output file&lt;/strong>&lt;/p>
-&lt;p>File to store a report.&lt;/p>
-&lt;p>&lt;strong>output-file&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Annotation name&lt;/strong>&lt;/p>
-&lt;p>Annotation name used to compare genes and reference genomes.&lt;/p>
-&lt;p>blast-result&lt;/p>
-&lt;p>&lt;strong>annotation_name&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Existing file&lt;/strong>&lt;/p>
-&lt;p>If a target report already exists you should specify how to handle that. Merge two table in one. Overwrite or Rename existing file.&lt;/p></description></item><item><title>Get Sequences by Annotations Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/get-sequences-by-annotations-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/get-sequences-by-annotations-element/</guid><description>&lt;h1 id="get-sequences-by-annotations-element">Get Sequences by Annotations Element&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Parameter&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Default Value&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Parameter in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Qualifier name&lt;/td>
+ &lt;td>Name of the qualifier to use for filtering.&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;td>&lt;code>qualifier-name&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Qualifier value&lt;/td>
+ &lt;td>Text value of the qualifier to apply as filtering criteria.&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;td>&lt;code>qualifier-value&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Accept or filter&lt;/td>
+ &lt;td>Selects the name filter: accept specified names or accept all except specified.&lt;/td>
+ &lt;td>&lt;code>True&lt;/code>&lt;/td>
+ &lt;td>&lt;code>accept-or-filter&lt;/code>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;h3 id="input-port">Input Port&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Name in GUI:&lt;/strong> &lt;code>Input annotations&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Name in Workflow File:&lt;/strong> &lt;code>in-annotations&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot In GUI&lt;/th>
+ &lt;th>Slot in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Set of annotations&lt;/td>
+ &lt;td>&lt;code>annotations&lt;/code>&lt;/td>
+ &lt;td>&lt;em>annotation-table&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="output-port">Output Port&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Name in GUI:&lt;/strong> &lt;code>Result annotations&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Name in Workflow File:&lt;/strong> &lt;code>out-annotations&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot In GUI&lt;/th>
+ &lt;th>Slot in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Set of annotations&lt;/td>
+ &lt;td>&lt;code>annotations&lt;/code>&lt;/td>
+ &lt;td>&lt;em>annotation-table&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Find Correct Primer Pairs Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/find-correct-primer-pairs-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/find-correct-primer-pairs-element/</guid><description>&lt;h1 id="find-correct-primer-pairs-element">Find Correct Primer Pairs Element&lt;/h1>
+&lt;p>This element identifies correct primer pairs consisting of valid primers without dimers.&lt;/p>
+&lt;hr>
+&lt;h2 id="element-type">Element Type&lt;/h2>
+&lt;p>&lt;strong>Element type:&lt;/strong> &lt;code>find-primers&lt;/code>&lt;/p>
+&lt;hr>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Parameter&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Default Value&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Parameter in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Output report file&lt;/td>
+ &lt;td>Path to the report output file&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;td>&lt;code>output-file&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;h3 id="input-port">Input Port&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Name in GUI&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Name in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Slot&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Slot in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Input sequences&lt;/td>
+ &lt;td>&lt;code>in-sequence&lt;/code>&lt;/td>
+ &lt;td>Sequence&lt;/td>
+ &lt;td>&lt;code>sequence&lt;/code>&lt;/td>
+ &lt;td>&lt;em>sequence&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;p>This element can be used to ensure primer design outputs only viable primer pairs suitable for PCR and other
+amplification workflows.&lt;/p></description></item><item><title>Find Pattern Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/find-pattern-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/find-pattern-element/</guid><description>&lt;h1 id="find-pattern-element">Find Pattern Element&lt;/h1>
+&lt;p>Searches regions in a sequence similar to a pattern sequence. Outputs a set of annotations.&lt;/p>
+&lt;hr>
+&lt;h2 id="element-type">Element Type&lt;/h2>
+&lt;p>&lt;strong>Element type:&lt;/strong> &lt;code>search&lt;/code>&lt;/p>
+&lt;hr>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Parameter&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Default Value&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Parameter in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Annotate as&lt;/td>
+ &lt;td>Name of the result annotation&lt;/td>
+ &lt;td>&lt;code>misc_feature&lt;/code>&lt;/td>
+ &lt;td>&lt;code>result-name&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pattern(s)&lt;/td>
+ &lt;td>Semicolon-separated list of patterns to search for&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;code>pattern&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pattern file&lt;/td>
+ &lt;td>Load pattern from file in any sequence format or in newline-delimited format&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;code>pattern_file&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Use pattern name&lt;/td>
+ &lt;td>Use names from pattern file as annotation names&lt;/td>
+ &lt;td>&lt;code>False&lt;/code>&lt;/td>
+ &lt;td>&lt;code>use-names&lt;/code>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Max Mismatches&lt;/td>
+ &lt;td>Maximum allowed mismatches between substring and pattern&lt;/td>
+ &lt;td>&lt;code>0&lt;/code>&lt;/td>
+ &lt;td>&lt;code>max-mismatches-num&lt;/code>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Search in&lt;/td>
+ &lt;td>Strand(s) to search: 0 = both, 1 = direct, 2 = complement&lt;/td>
+ &lt;td>&lt;code>both strands (0)&lt;/code>&lt;/td>
+ &lt;td>&lt;code>strand&lt;/code>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Allow Insertions/Deletions&lt;/td>
+ &lt;td>Allow indels when searching&lt;/td>
+ &lt;td>&lt;code>False&lt;/code>&lt;/td>
+ &lt;td>&lt;code>allow-ins-del&lt;/code>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Support ambiguous bases&lt;/td>
+ &lt;td>Enables ambiguous base handling (disables indels)&lt;/td>
+ &lt;td>&lt;code>False&lt;/code>&lt;/td>
+ &lt;td>&lt;code>ambiguous&lt;/code>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Search in Translation&lt;/td>
+ &lt;td>Translate nucleotide sequence to protein and search in protein sequence&lt;/td>
+ &lt;td>&lt;code>False&lt;/code>&lt;/td>
+ &lt;td>&lt;code>amino&lt;/code>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Qualifier name for pattern name&lt;/td>
+ &lt;td>Name of qualifier used to store pattern name in the result annotations&lt;/td>
+ &lt;td>&lt;code>pattern_name&lt;/code>&lt;/td>
+ &lt;td>&lt;code>pattern-name-qual&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;h3 id="input-port">Input Port&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Name in GUI&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Name in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Slot&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Slot in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Input data&lt;/td>
+ &lt;td>&lt;code>in-sequence&lt;/code>&lt;/td>
+ &lt;td>Sequence&lt;/td>
+ &lt;td>&lt;code>sequence&lt;/code>&lt;/td>
+ &lt;td>&lt;em>sequence&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>Plain text&lt;/td>
+ &lt;td>&lt;code>text&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="output-port">Output Port&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Name in GUI&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Name in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Slot&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Slot in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Pattern annotations&lt;/td>
+ &lt;td>&lt;code>out-annotations&lt;/code>&lt;/td>
+ &lt;td>Set of annotations&lt;/td>
+ &lt;td>&lt;code>annotations&lt;/code>&lt;/td>
+ &lt;td>&lt;em>annotation-table&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;p>This element is useful for detecting motifs or other predefined nucleotide or protein patterns in biological sequences
+with support for flexible matching and ambiguity handling.&lt;/p></description></item><item><title>Find Repeats Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/find-repeats-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/find-repeats-element/</guid><description>&lt;h1 id="find-repeats-element">Find Repeats Element&lt;/h1>
+&lt;p>Finds repeats in each supplied sequence and stores found regions as annotations.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> &lt;code>repeats-search&lt;/code>&lt;/p>
+&lt;hr>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Parameter&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Default Value&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Parameter in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Annotate as&lt;/strong>&lt;/td>
+ &lt;td>Name of the result annotation to mark found repeats.&lt;/td>
+ &lt;td>&lt;code>repeat_unit&lt;/code>&lt;/td>
+ &lt;td>&lt;code>result-name&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Algorithm&lt;/strong>&lt;/td>
+ &lt;td>Control over variations of the algorithm.&lt;/td>
+ &lt;td>&lt;code>Auto&lt;/code>&lt;/td>
+ &lt;td>&lt;code>algorithm&lt;/code>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;em>0&lt;/em> - automatic selection&lt;br>&lt;em>1&lt;/em> - diagonal algorithm&lt;br>&lt;em>2&lt;/em> - suffix index algorithm&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Filter nested&lt;/strong>&lt;/td>
+ &lt;td>Filters nested repeats.&lt;/td>
+ &lt;td>&lt;code>True&lt;/code>&lt;/td>
+ &lt;td>&lt;code>filter-nested&lt;/code>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Identity&lt;/strong>&lt;/td>
+ &lt;td>Repeats identity in percent.&lt;/td>
+ &lt;td>&lt;code>100&lt;/code>&lt;/td>
+ &lt;td>&lt;code>identity&lt;/code>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Inverted&lt;/strong>&lt;/td>
+ &lt;td>Specifies whether to search for inverted repeats.&lt;/td>
+ &lt;td>&lt;code>False&lt;/code>&lt;/td>
+ &lt;td>&lt;code>inverted&lt;/code>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max distance&lt;/strong>&lt;/td>
+ &lt;td>Maximum distance between the repeats.&lt;/td>
+ &lt;td>&lt;code>5000&lt;/code>&lt;/td>
+ &lt;td>&lt;code>max-distance&lt;/code>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min distance&lt;/strong>&lt;/td>
+ &lt;td>Minimum distance between the repeats.&lt;/td>
+ &lt;td>&lt;code>0&lt;/code>&lt;/td>
+ &lt;td>&lt;code>min-distance&lt;/code>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min length&lt;/strong>&lt;/td>
+ &lt;td>Minimum length of the repeats.&lt;/td>
+ &lt;td>&lt;code>5&lt;/code>&lt;/td>
+ &lt;td>&lt;code>min-length&lt;/code>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Parallel threads&lt;/strong>&lt;/td>
+ &lt;td>Number of parallel threads used for the task.&lt;/td>
+ &lt;td>&lt;code>Auto (0)&lt;/code>&lt;/td>
+ &lt;td>&lt;code>threads&lt;/code>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;em>0&lt;/em> = use autodetected number of threads&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;h3 id="input-port">Input Port&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Name in GUI:&lt;/strong> &lt;code>Input sequence&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Name in Workflow File:&lt;/strong> &lt;code>in-sequence&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Slots:&lt;/strong>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot In GUI&lt;/th>
+ &lt;th>Slot in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Sequence&lt;/td>
+ &lt;td>&lt;code>sequence&lt;/code>&lt;/td>
+ &lt;td>&lt;em>sequence&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="output-port">Output Port&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Name in GUI:&lt;/strong> &lt;code>Repeat annotations&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Name in Workflow File:&lt;/strong> &lt;code>out-annotations&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Slots:&lt;/strong>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot In GUI&lt;/th>
+ &lt;th>Slot in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Set of annotations&lt;/td>
+ &lt;td>&lt;code>annotations&lt;/code>&lt;/td>
+ &lt;td>&lt;em>annotation-table&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;/li>
+&lt;/ul></description></item><item><title>Gene-by-gene approach report</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/gene-by-gene-approach-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/gene-by-gene-approach-report/</guid><description>&lt;h1 id="gene-by-gene-approach-report">Gene-by-gene Approach Report&lt;/h1>
+&lt;p>Outputs a table of genes found in a reference sequence.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> &lt;code>genebygene-report-id&lt;/code>&lt;/p>
+&lt;hr>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Parameter&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Default value&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Parameter in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file&lt;/strong>&lt;/td>
+ &lt;td>Path to store the final report.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;code>output-file&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Annotation name&lt;/strong>&lt;/td>
+ &lt;td>Name of the annotation used to compare genes with reference genomes.&lt;/td>
+ &lt;td>&lt;code>blast-result&lt;/code>&lt;/td>
+ &lt;td>&lt;code>annotation_name&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Existing file&lt;/strong>&lt;/td>
+ &lt;td>How to handle an existing output file: &lt;code>Merge&lt;/code>, &lt;code>Overwrite&lt;/code>, or &lt;code>Rename&lt;/code>.&lt;/td>
+ &lt;td>&lt;code>Merge&lt;/code>&lt;/td>
+ &lt;td>&lt;code>existing&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Identity cutoff&lt;/strong>&lt;/td>
+ &lt;td>Required identity between gene sequence length and annotation length (percent). BLAST identity is checked after.&lt;/td>
+ &lt;td>&lt;code>90.0000%&lt;/code>&lt;/td>
+ &lt;td>&lt;code>identity&lt;/code>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;h3 id="input-port">Input Port&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Name in GUI&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Name in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Slot in GUI&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Slot in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Gene by gene report data&lt;/td>
+ &lt;td>&lt;code>in-data&lt;/code>&lt;/td>
+ &lt;td>Input annotations&lt;/td>
+ &lt;td>&lt;code>gene-ann&lt;/code>&lt;/td>
+ &lt;td>&lt;em>ann-table-list&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>Input sequences&lt;/td>
+ &lt;td>&lt;code>gene-seq&lt;/code>&lt;/td>
+ &lt;td>&lt;em>seq&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Get Sequences by Annotations Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/get-sequences-by-annotations-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/get-sequences-by-annotations-element/</guid><description>&lt;h1 id="get-sequences-by-annotations-element">Get Sequences by Annotations Element&lt;/h1>
 &lt;p>Extracts annotated regions from the input sequence.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> extract-annotated-sequence&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>

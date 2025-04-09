@@ -235,27 +235,86 @@ biases in library preparation protocols.&lt;/p>
 &lt;/table>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
 &lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Extract Transcript Sequences with gffread Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-rna-seq-analysis/extract-transcript-sequences-with-gffread-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-rna-seq-analysis/extract-transcript-sequences-with-gffread-element/</guid><description>&lt;h1 id="extract-transcript-sequences-with-gffread-element">Extract Transcript Sequences with gffread Element&lt;/h1>
-&lt;p>Extract transcript sequences from the genomic sequence(s) with gffread.&lt;/p>
-&lt;p>&lt;strong>Element type:&lt;/strong> gffread&lt;/p>
+&lt;p>This workflow element uses &lt;strong>gffread&lt;/strong> to extract transcript sequences from provided genomic sequences and GFF/GTF
+annotation files.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> &lt;code>gffread&lt;/code>&lt;/p>
+&lt;hr>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Output sequences&lt;/strong>&lt;/p>
-&lt;p>The url to the output file with the extracted sequences.&lt;/p>
-&lt;p>&lt;strong>url-out&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Parameter&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Default Value&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Parameter in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Output sequences&lt;/strong>&lt;/td>
+ &lt;td>Path to the output FASTA file with the extracted sequences.&lt;/td>
+ &lt;td>&lt;em>(not set)&lt;/em>&lt;/td>
+ &lt;td>&lt;code>url-out&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
-&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p>
-&lt;p>&lt;strong>Name in GUI:&lt;/strong> Input transcripts&lt;/p>
-&lt;p>&lt;strong>Name in Workflow File:&lt;/strong> in-data&lt;/p>
-&lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
-&lt;p>Slot In GUI&lt;/p>
-&lt;p>Slot in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Genomic sequence url&lt;/strong>&lt;/p></description></item><item><title>Merge Assemblies with Cuffmerge Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-rna-seq-analysis/merge-assemblies-with-cuffmerge-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-rna-seq-analysis/merge-assemblies-with-cuffmerge-element/</guid><description>&lt;h1 id="merge-assemblies-with-cuffmerge-element">Merge Assemblies with Cuffmerge Element&lt;/h1>
+&lt;h3 id="input-port">Input Port&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Name in GUI&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Name in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Slot&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Slot in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>Input transcripts&lt;/code>&lt;/td>
+ &lt;td>&lt;code>in-data&lt;/code>&lt;/td>
+ &lt;td>Genomic sequence url&lt;/td>
+ &lt;td>&lt;code>genome&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>Transcripts url&lt;/td>
+ &lt;td>&lt;code>transcripts&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="output-port">Output Port&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Name in GUI&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Name in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Slot&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Slot in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>Extracted sequences url&lt;/code>&lt;/td>
+ &lt;td>&lt;code>extracted-data&lt;/code>&lt;/td>
+ &lt;td>sequences&lt;/td>
+ &lt;td>&lt;code>sequences&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="example">Example&lt;/h2>
+&lt;p>You can use this element in a workflow to extract coding sequences (CDS) or full transcript sequences using a reference
+genome and GFF/GTF file.&lt;/p></description></item><item><title>Merge Assemblies with Cuffmerge Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-rna-seq-analysis/merge-assemblies-with-cuffmerge-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-rna-seq-analysis/merge-assemblies-with-cuffmerge-element/</guid><description>&lt;h1 id="merge-assemblies-with-cuffmerge-element">Merge Assemblies with Cuffmerge Element&lt;/h1>
 &lt;p>Cuffmerge merges together several assemblies. It also handles running Cuffcompare for you and automatically filters a number of transfrags that are probably artifacts. If you have a reference file available, you can provide it to Cuffmerge in order to gracefully merge input (e.g. novel) isoforms and known isoforms and maximize overall assembly quality.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> cuffmerge&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>

@@ -1,28 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Scenarios on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/</link><description>Recent content in Scenarios on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/index.xml" rel="self" type="application/rss+xml"/><item><title>Filter Sequence That Match a Pattern</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/filter-sequence-that-match-a-pattern/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/filter-sequence-that-match-a-pattern/</guid><description>&lt;h1 id="filter-sequence-that-match-a-pattern">Filter Sequence That Match a Pattern&lt;/h1>
-&lt;p>Using thist workflow you can select (or reject) only those sequence that match any pattern you input.&lt;/p>
-&lt;p>How to Use This Sample&lt;/p>
-&lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENE before, look at the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p>
-&lt;h5 id="workflow-sample-location">Workflow Sample Location&lt;/h5>
-&lt;p>The workflow sample &amp;ldquo;Filter Sequence That Match a Pattern&amp;rdquo; can be found in the &amp;ldquo;Scenarios&amp;rdquo; section of the Workflow Designer samples.&lt;/p></description></item><item><title>Search for Inverted Repeats</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/search-for-inverted-repeats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/search-for-inverted-repeats/</guid><description>&lt;h1 id="search-for-inverted-repeats">Search for Inverted Repeats&lt;/h1>
+&lt;p>This workflow allows filtering sequences that match (or do not match) user-specified patterns.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-to-use-this-sample">How to Use This Sample&lt;/h2>
+&lt;p>If you haven&amp;rsquo;t used workflow samples in UGENE before, refer to
+the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p>
+&lt;hr>
+&lt;h2 id="workflow-sample-location">Workflow Sample Location&lt;/h2>
+&lt;p>The workflow sample &lt;strong>&amp;ldquo;Filter Sequence That Match a Pattern&amp;rdquo;&lt;/strong> is available in the &lt;strong>Scenarios&lt;/strong> section of the Workflow
+Designer samples.&lt;/p>
+&lt;hr>
+&lt;h2 id="workflow-image">Workflow Image&lt;/h2>
+&lt;p>The workflow looks as follows:&lt;/p></description></item><item><title>Search for Inverted Repeats</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/search-for-inverted-repeats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/search-for-inverted-repeats/</guid><description>&lt;h1 id="search-for-inverted-repeats">Search for Inverted Repeats&lt;/h1>
 &lt;p>For each input sequence the workflow performs a search of inverted repeats.&lt;/p>
 &lt;p>Then it saves the repeats found on the direct strand to the &amp;ldquo;direct_strand_repeat_units.fa&amp;rdquo; file and the complement ones to the &amp;ldquo;compl_strand_repeat_units.fa&amp;rdquo; file.&lt;/p>
 &lt;p>How to Use This Sample&lt;/p>
 &lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENE before, look at the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p>
 &lt;h5 id="workflow-sample-location">Workflow Sample Location&lt;/h5>
 &lt;p>The workflow sample &amp;ldquo;Search for Inverted Repeats&amp;rdquo; can be found in the &amp;ldquo;Scwnarios&amp;rdquo; section of the Workflow Designer samples.&lt;/p></description></item><item><title>Find Patterns</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/find-patterns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/find-patterns/</guid><description>&lt;h1 id="find-patterns">Find Patterns&lt;/h1>
-&lt;p>This simple workflow finds patterns in you sequences and save them as annotations. You can use the workflow to map primers, regulatory signals, genes, etc. It loads any set of sequences from your files or folders and finds patterns in them.&lt;/p>
-&lt;p>How to Use This Sample&lt;/p>
-&lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENE before, look at the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p></description></item><item><title>Gene-by-gene Approach for Characterization of Genomes</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/gene-by-gene-approach-for-characterization-of-genomes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/gene-by-gene-approach-for-characterization-of-genomes/</guid><description>&lt;h1 id="gene-by-gene-approach-for-characterization-of-genomes">Gene-by-gene Approach for Characterization of Genomes&lt;/h1>
-&lt;p>Suppose you have genomes and you want to characterize them. One of the ways to do that is to build a table of what genes are in each genome and what are not there.&lt;/p>
+&lt;p>This simple workflow finds patterns in your sequences and saves them as annotations. You can use the workflow to map
+primers, regulatory signals, genes, etc. It loads any set of sequences from your files or folders and finds patterns in
+them.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-to-use-this-sample">How to Use This Sample&lt;/h2>
+&lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENE before, look at
+the &lt;a href="../../introduction/how-to-use-sample-workflows">&amp;ldquo;How to Use Sample Workflows&amp;rdquo;&lt;/a> section of the documentation.&lt;/p>
+&lt;hr>
+&lt;h2 id="workflow-sample-location">Workflow Sample Location&lt;/h2>
+&lt;p>The workflow sample &lt;strong>&amp;ldquo;Find Patterns&amp;rdquo;&lt;/strong> can be found in the &lt;strong>&amp;ldquo;Scenarios&amp;rdquo;&lt;/strong> section of the Workflow Designer samples.&lt;/p></description></item><item><title>Gene-by-gene Approach for Characterization of Genomes</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/gene-by-gene-approach-for-characterization-of-genomes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/gene-by-gene-approach-for-characterization-of-genomes/</guid><description>&lt;h1 id="gene-by-gene-approach-for-characterization-of-genomes">Gene-by-gene Approach for Characterization of Genomes&lt;/h1>
+&lt;p>Suppose you have genomes and you want to characterize them. One of the ways to do that is to build a table of what genes
+are in each genome and what are not there.&lt;/p>
+&lt;h2 id="step-by-step-instructions">Step-by-step Instructions&lt;/h2>
 &lt;ol>
-&lt;li>Create a local BLAST db of your genome sequence/contigs. One db per one genome.&lt;/li>
-&lt;li>Create a file with sequences of genes you what to explore. This file will be the input file for the workflow.&lt;/li>
-&lt;li>Setup location and name of BLAST db you created for the first genome.&lt;/li>
-&lt;li>Setup output files: report location and output file with annotated (with BLAST) sequence. You might want to delete the &amp;ldquo;Write Sequence&amp;rdquo; element if you do not need output sequences.&lt;/li>
+&lt;li>Create a local BLAST database of your genome sequence/contigs. One DB per genome.&lt;/li>
+&lt;li>Create a file with sequences of genes you want to explore. This file will be the input file for the workflow.&lt;/li>
+&lt;li>Set up location and name of the BLAST DB you created for the first genome.&lt;/li>
+&lt;li>Set up output files: report location and (optionally) a file with annotated (via BLAST) sequences. You can delete the
+&lt;strong>Write Sequence&lt;/strong> element if you don’t need output sequences.&lt;/li>
 &lt;li>Run the workflow.&lt;/li>
-&lt;li>Run the workflow on the same input and output files changing BLAST db for each genome that you have.&lt;/li>
+&lt;li>Run the workflow again on the same input and output files, changing only the BLAST DB for each genome you have.&lt;/li>
 &lt;/ol>
-&lt;p>As the result you will get the report file. With &amp;ldquo;Yes&amp;rdquo; and &amp;ldquo;No&amp;rdquo; field. &amp;ldquo;Yes&amp;rdquo; answer means that the gene is in the genome. &amp;ldquo;No&amp;rdquo; answer MIGHT mean that there is no gene in the genome. It is a good idea to analyze all the &amp;ldquo;No&amp;rdquo; sequences using annotated files. Just open a file and find a sequence with a name of a gene that has &amp;ldquo;No&amp;rdquo; result.&lt;/p></description></item><item><title>Group Primer Pairs</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/group-primer-pairs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/group-primer-pairs/</guid><description>&lt;h1 id="group-primer-pairs">Group Primer Pairs&lt;/h1>
+&lt;p>As a result, you&amp;rsquo;ll get a report file with “Yes” and “No” values:&lt;/p></description></item><item><title>Group Primer Pairs</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/group-primer-pairs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/group-primer-pairs/</guid><description>&lt;h1 id="group-primer-pairs">Group Primer Pairs&lt;/h1>
 &lt;p>The workflow helps determining different primer pairs that can be used in the same experiment.&lt;/p>
 &lt;p>First, you input a set of primers&amp;rsquo; sequences in the following order: pair1_direct_primer, pair1_reverse_primer, pair2_direct_primer, pair2_reverse_primer, etc. This could be a multifasta file, for example.&lt;/p>
 &lt;p>Second, the primers are checked for heterodimer formations. If there is no such formations between all primers in two or more primer pairs, it means that these pairs can be put simultaneously in the same reaction tube, so the workflow GROUPS these primer pairs.&lt;/p></description></item><item><title>Intersect Annotations</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/intersect-annotations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/intersect-annotations/</guid><description>&lt;h1 id="intersect-annotations">Intersect Annotations&lt;/h1>
@@ -31,9 +48,16 @@
 &lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENE before, look at the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p>
 &lt;h5 id="workflow-sample-location">Workflow Sample Location&lt;/h5>
 &lt;p>The workflow sample &amp;ldquo;Intersect Annotations&amp;rdquo; can be found in the &amp;ldquo;Scenarios&amp;rdquo; section of the Workflow Designer samples.&lt;/p></description></item><item><title>Filter out Short Sequences</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/filter-out-short-sequences/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/filter-out-short-sequences/</guid><description>&lt;h1 id="filter-out-short-sequences">Filter out Short Sequences&lt;/h1>
-&lt;p>To use this workflow input a set of sequences and set a minimum sequence length. All sequences with length less than the specified value will be filtered out. The result will be written into a FASTA file by default.&lt;/p>
-&lt;p>How to Use This Sample&lt;/p>
-&lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENE before, look at the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p></description></item><item><title>Merge Sequences and Annotations</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/merge-sequences-and-annotations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/merge-sequences-and-annotations/</guid><description>&lt;h1 id="merge-sequences-and-annotations">Merge Sequences and Annotations&lt;/h1>
+&lt;p>This workflow filters out sequences shorter than a specified minimum length. The resulting sequences are written to a
+FASTA file by default.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-to-use-this-sample">How to Use This Sample&lt;/h2>
+&lt;p>If you haven&amp;rsquo;t used workflow samples in UGENE before, see
+the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p>
+&lt;hr>
+&lt;h2 id="workflow-sample-location">Workflow Sample Location&lt;/h2>
+&lt;p>The workflow sample &lt;strong>&amp;ldquo;Filter out Short Sequences&amp;rdquo;&lt;/strong> is available in the &lt;strong>Scenarios&lt;/strong> section of the Workflow Designer
+samples.&lt;/p></description></item><item><title>Merge Sequences and Annotations</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/merge-sequences-and-annotations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/merge-sequences-and-annotations/</guid><description>&lt;h1 id="merge-sequences-and-annotations">Merge Sequences and Annotations&lt;/h1>
 &lt;p>This sample workflow shows how to merge input sequences with sets of annotations.&lt;/p>
 &lt;p>For example, you may have sequences in FASTA format and annotations in GFF format, and you would like to merge them and save the result into GenBank files.&lt;/p>
 &lt;p>The steps of the workflow are these:&lt;/p>

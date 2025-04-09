@@ -1,23 +1,72 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data Flow on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-flow/</link><description>Recent content in Data Flow on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/workflow-elements/data-flow/index.xml" rel="self" type="application/rss+xml"/><item><title>Filter Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-flow/filter-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-flow/filter-element/</guid><description>&lt;h1 id="filter-element">Filter Element&lt;/h1>
 &lt;p>This element passes through only data that matches the input filter value (or values).&lt;/p>
-&lt;p>&lt;strong>Element type:&lt;/strong> filter-by-values&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> &lt;code>filter-by-values&lt;/code>&lt;/p>
+&lt;hr>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Filter by value(s)&lt;/strong>&lt;/p>
-&lt;p>Semicolon-separated list of values used to filter the input data.&lt;/p>
-&lt;p>&lt;strong>text&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>Input/Output Ports&lt;/p>
-&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p>
-&lt;p>&lt;strong>Name in GUI:&lt;/strong> &lt;em>Input values&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Name in Workflow File:&lt;/strong> in-data&lt;/p>
-&lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
-&lt;p>Slot In GUI&lt;/p>
-&lt;p>Slot in Workflow File&lt;/p></description></item><item><title>Grouper Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-flow/grouper-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-flow/grouper-element/</guid><description>&lt;h1 id="grouper-element">Grouper Element&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Parameter&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Default Value&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Parameter in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Filter by value(s)&lt;/td>
+ &lt;td>Semicolon-separated list of values used for filter.&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;td>&lt;code>text&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;h3 id="input-port">Input Port&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Name in GUI:&lt;/strong> &lt;code>Input values&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Name in Workflow File:&lt;/strong> &lt;code>in-data&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot In GUI&lt;/th>
+ &lt;th>Slot in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Input values&lt;/td>
+ &lt;td>&lt;code>text&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="output-port">Output Port&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Name in GUI:&lt;/strong> &lt;code>Passing values (by Filter)&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Name in Workflow File:&lt;/strong> &lt;code>filtered-data&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot In GUI&lt;/th>
+ &lt;th>Slot in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;em>(same as input)&lt;/em>&lt;/td>
+ &lt;td>&lt;em>(not explicitly specified)&lt;/em>&lt;/td>
+ &lt;td>&lt;em>(inferred from context as &lt;em>string&lt;/em>)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Grouper Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-flow/grouper-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-flow/grouper-element/</guid><description>&lt;h1 id="grouper-element">Grouper Element&lt;/h1>
 &lt;p>The element groups data supplied to the specified slot by the specified property (for example, by value). Additionally, it is possible to merge data from another slots associated with the specified one.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> grouper&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>

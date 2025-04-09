@@ -1,14 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Algorithm Elements on UGENE Documentation</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/</link><description>Recent content in Algorithm Elements on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/query-designer/query-elements/algorithm-elements/index.xml" rel="self" type="application/rss+xml"/><item><title>CDD Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/cdd-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/cdd-algorithm-element/</guid><description>&lt;h1 id="cdd-algorithm-element">CDD Algorithm Element&lt;/h1>
-&lt;p>When the &lt;em>element&lt;/em> is used the input nucleotide sequence is translated into 6 amino sequences. The translated sequences are used to query the NCBI Conserved Domain Database (CDD).&lt;/p>
+&lt;p>When the &lt;em>element&lt;/em> is used the input nucleotide sequence is translated into 6 amino sequences.
+The translated sequences are used to query the NCBI Conserved Domain Database (CDD).&lt;/p>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>&lt;strong>Annotate As&lt;/strong>&lt;/p>
-&lt;p>Name of the result annotations.&lt;/p>
-&lt;p>CDD result&lt;/p>
-&lt;p>&lt;strong>Expected value&lt;/strong>&lt;/p>
-&lt;p>It is also called E-value. Describes the number of hits one can “expect” to see by chance when searching a database of a particular size.&lt;/p></description></item><item><title>Base Content Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/base-content-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/base-content-algorithm-element/</guid><description>&lt;h1 id="base-content-algorithm-element">Base Content Algorithm Element&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Annotate As&lt;/strong>&lt;/td>
+ &lt;td>Name of the result annotations.&lt;/td>
+ &lt;td>CDD result&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Expected value&lt;/strong>&lt;/td>
+ &lt;td>E-value: number of expected hits by chance when searching a database of a particular size.&lt;/td>
+ &lt;td>10&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min length&lt;/strong>&lt;/td>
+ &lt;td>Minimum result length.&lt;/td>
+ &lt;td>50bp&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max length&lt;/strong>&lt;/td>
+ &lt;td>Maximum result length.&lt;/td>
+ &lt;td>5000bp&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Pattern&lt;/strong>&lt;/td>
+ &lt;td>Filter for annotation: the qualifier value must contain the specified pattern.&lt;/td>
+ &lt;td>(none)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="parameters-in-schema-file">Parameters in Schema File&lt;/h2>
+&lt;p>&lt;strong>Type:&lt;/strong> CDD&lt;/p></description></item><item><title>Base Content Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/base-content-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/base-content-algorithm-element/</guid><description>&lt;h1 id="base-content-algorithm-element">Base Content Algorithm Element&lt;/h1>
 &lt;p>Searches regions in a sequence that contain a specified percentage of a certain base.&lt;/p>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
 &lt;table>
@@ -53,28 +84,44 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="parameters-in-schema-file">Parameters in Schema File&lt;/h2>
-&lt;p>&lt;strong>Type:&lt;/strong> base-content&lt;/p></description></item><item><title>Gc Content Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/gc-content-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/gc-content-algorithm-element/</guid><description>&lt;h1 id="gc-content-algorithm-element">Gc Content Algorithm Element&lt;/h1>
-&lt;p>Searches regions in a sequence with GC content in the specified range.&lt;/p>
+&lt;p>&lt;strong>Type:&lt;/strong> base-content&lt;/p></description></item><item><title>GC Content Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/gc-content-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/gc-content-algorithm-element/</guid><description>&lt;h1 id="gc-content-algorithm-element">GC Content Algorithm Element&lt;/h1>
+&lt;p>Searches regions in a sequence where the GC content falls within a specified range.&lt;/p>
+&lt;hr>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>&lt;strong>Min GC content&lt;/strong>&lt;/p>
-&lt;p>Min GC content value in percents.&lt;/p>
-&lt;p>20%&lt;/p>
-&lt;p>&lt;strong>Max GC content&lt;/strong>&lt;/p>
-&lt;p>Max GC content value in percents.&lt;/p>
-&lt;p>40%&lt;/p>
-&lt;p>&lt;strong>Min length&lt;/strong>&lt;/p>
-&lt;p>Minimum length of a region.&lt;/p>
-&lt;p>50bp&lt;/p>
-&lt;p>&lt;strong>Max length&lt;/strong>&lt;/p>
-&lt;p>Maximum length of a region.&lt;/p>
-&lt;p>1000bp&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Parameter&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Default value&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Min GC content&lt;/strong>&lt;/td>
+ &lt;td>Minimum GC content value in percents.&lt;/td>
+ &lt;td>20%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max GC content&lt;/strong>&lt;/td>
+ &lt;td>Maximum GC content value in percents.&lt;/td>
+ &lt;td>40%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min length&lt;/strong>&lt;/td>
+ &lt;td>Minimum length of a region.&lt;/td>
+ &lt;td>50 bp&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max length&lt;/strong>&lt;/td>
+ &lt;td>Maximum length of a region.&lt;/td>
+ &lt;td>1000 bp&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
 &lt;h2 id="parameters-in-schema-file">Parameters in Schema File&lt;/h2>
-&lt;p>&lt;strong>Type:&lt;/strong> find-gc&lt;/p>
-&lt;p>Parameter&lt;/p>
-&lt;p>Parameter in the GUI&lt;/p></description></item><item><title>HMM3 Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/hmm3-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/hmm3-algorithm-element/</guid><description>&lt;h1 id="hmm3-algorithm-element">HMM3 Algorithm Element&lt;/h1>
+&lt;p>&lt;strong>Element type:&lt;/strong> &lt;code>find-gc&lt;/code>&lt;/p></description></item><item><title>HMM3 Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/hmm3-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/hmm3-algorithm-element/</guid><description>&lt;h1 id="hmm3-algorithm-element">HMM3 Algorithm Element&lt;/h1>
 &lt;p>Searches a sequence for significantly similar sequence matches with one or more profile HMM and saves the results as annotations.&lt;/p>
 &lt;p>The search is performed using HMMER3 &lt;strong>hmmsearch&lt;/strong> tool integrated into UGENE.&lt;/p>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>

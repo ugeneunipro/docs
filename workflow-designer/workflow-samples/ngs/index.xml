@@ -1,20 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NGS on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/</link><description>Recent content in NGS on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/workflow-samples/ngs/index.xml" rel="self" type="application/rss+xml"/><item><title>ChIP-Seq Coverage</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/chip-seq-coverage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/chip-seq-coverage/</guid><description>&lt;h1 id="chip-seq-coverage">ChIP-Seq Coverage&lt;/h1>
-&lt;p>The workflow sample, described below, prepare ChIP-Seq processed data (with BedTools and bedGraphToBigWig) for visualization in a genome browser. For input BED-file produces BigWig file.&lt;/p>
-&lt;p>How to Use This Sample&lt;/p>
-&lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENE before, look at the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p>
-&lt;h5 id="workflow-sample-location">Workflow Sample Location&lt;/h5>
-&lt;p>The workflow sample &amp;ldquo;ChIP-Seq Coverage&amp;rdquo; can be found in the &amp;ldquo;NGS&amp;rdquo; section of the Workflow Designer samples.&lt;/p></description></item><item><title>ChIP-seq Analysis with Cistrome Tools</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/chip-seq-analysis-with-cistrome-tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/chip-seq-analysis-with-cistrome-tools/</guid><description>&lt;h1 id="chip-seq-analysis-with-cistrome-tools">ChIP-seq Analysis with Cistrome Tools&lt;/h1>
+&lt;p>This workflow sample prepares ChIP-Seq processed data (using &lt;strong>BedTools&lt;/strong> and &lt;strong>bedGraphToBigWig&lt;/strong>) for visualization in
+a genome browser.
+Given a BED file as input, it produces a &lt;strong>BigWig&lt;/strong> file.&lt;/p>
+&lt;h2 id="how-to-use-this-sample">How to Use This Sample&lt;/h2>
+&lt;p>If you haven&amp;rsquo;t used workflow samples in UGENE before, check the section:
+&amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo;&lt;/p>
+&lt;h3 id="workflow-sample-location">Workflow Sample Location&lt;/h3>
+&lt;p>The sample &lt;strong>&amp;ldquo;ChIP-Seq Coverage&amp;rdquo;&lt;/strong> is available in the &lt;strong>&amp;ldquo;NGS&amp;rdquo;&lt;/strong> section of the Workflow Designer.&lt;/p>
+&lt;h3 id="workflow-image">Workflow Image&lt;/h3>
+&lt;p>The opened workflow looks like this:&lt;/p></description></item><item><title>ChIP-seq Analysis with Cistrome Tools</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/chip-seq-analysis-with-cistrome-tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/chip-seq-analysis-with-cistrome-tools/</guid><description>&lt;h1 id="chip-seq-analysis-with-cistrome-tools">ChIP-seq Analysis with Cistrome Tools&lt;/h1>
 &lt;p>&lt;strong>Attention! Cistrome Tools&lt;/strong> was removed &lt;strong>in UGENE 42.0 version.&lt;/strong>&lt;/p>
-&lt;p>The component for ChIP-seq data analysis is not installed by default. To use this sample, add the component via the UGENE Online Installer or, if you used an offline installer, manually configure the package, see &amp;ldquo;&lt;a href="https://ugene.net/docs/wiki/pages/createpage.action?spaceKey=UM&amp;amp;title=Configure+ChIP-Seq+Analysis+Data&amp;amp;linkCreation=true&amp;amp;fromPageId=65930320">Configure ChIP-seq Analysis Data&lt;/a>&amp;rdquo; chapter of the manual. This manual availavle until &lt;strong>UGENE 39.version.&lt;/strong>&lt;/p>
-&lt;p>to check which genes are nearby so can be regarded as potential regulated genes, then perform GO analysis;The ChIP-seq pipeline “Cistrome” integrated into UGENE allows one to do the following analysis steps: peak calling and annotating, motif search and gene ontology. ChIP-seq analysis is started from MACS tool. CEAS then takes peak regions and signal wiggle file to check which chromosome is enriched with binding/modification sites, whether bindings events are significant at gene features like promoters, gene bodies, exons, introns or UTRs, and the signal aggregation at gene transcription start/end sites or meta-gene bodies (average all genes). Then peaks are investigated in these ways:&lt;/p></description></item><item><title>Extract Consensus from Assembly</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/extract-consensus-from-assembly/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/extract-consensus-from-assembly/</guid><description>&lt;h1 id="extract-consensus-from-assembly">Extract Consensus from Assembly&lt;/h1>
-&lt;p>The workflow sample, described below, uses input assemblies to extract the consensus and save them to a FASTA.&lt;/p>
-&lt;p>How to Use This Sample&lt;/p>
-&lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENE before, look at the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p>
-&lt;h5 id="workflow-sample-location">Workflow Sample Location&lt;/h5>
-&lt;p>The workflow sample &amp;ldquo;Extract Consensus from Assembly&amp;rdquo; can be found in the &amp;ldquo;NGS&amp;rdquo; section of the Workflow Designer samples.&lt;/p></description></item><item><title>Extract Coverage from Assembly</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/extract-coverage-from-assembly/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/extract-coverage-from-assembly/</guid><description>&lt;h1 id="extract-coverage-from-assembly">Extract Coverage from Assembly&lt;/h1>
-&lt;p>The workflow sample, described below, allows one to extract a coverage and/or bases count from an assembly. It receives a number of assemblies and for each of them produces coverage as a tab delimited plain text file. The coverage is extracted considering a threshold value.&lt;/p>
-&lt;p>How to Use This Sample&lt;/p>
-&lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENE before, look at the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p></description></item><item><title>Extract Transcript Sequences</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/extract-transcript-sequences/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/extract-transcript-sequences/</guid><description>&lt;h1 id="extract-transcript-sequences">Extract Transcript Sequences&lt;/h1>
+&lt;p>The component for ChIP-seq data analysis is not installed by default. To use this sample, add the component via the
+UGENE Online Installer or, if you used an offline installer, manually configure the package,
+see &amp;ldquo;&lt;a href="https://ugene.net/docs/wiki/pages/createpage.action?spaceKey=UM&amp;amp;title=Configure+ChIP-Seq+Analysis+Data&amp;amp;linkCreation=true&amp;amp;fromPageId=65930320">Configure ChIP-Seq Analysis Data&lt;/a>&amp;rdquo;
+chapter of the manual (available until &lt;strong>UGENE 39.version&lt;/strong>).&lt;/p>
+&lt;p>The ChIP-seq pipeline “Cistrome” integrated into UGENE allows the following analysis steps:&lt;/p></description></item><item><title>Extract Consensus from Assembly</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/extract-consensus-from-assembly/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/extract-consensus-from-assembly/</guid><description>&lt;h1 id="extract-consensus-from-assembly">Extract Consensus from Assembly&lt;/h1>
+&lt;p>The workflow sample below uses input assemblies to extract consensus sequences and saves them to FASTA files.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-to-use-this-sample">How to Use This Sample&lt;/h2>
+&lt;p>If you haven&amp;rsquo;t used workflow samples in UGENE before, see
+the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p>
+&lt;hr>
+&lt;h2 id="workflow-sample-location">Workflow Sample Location&lt;/h2>
+&lt;p>The sample &lt;strong>&amp;ldquo;Extract Consensus from Assembly&amp;rdquo;&lt;/strong> can be found in the &lt;strong>&amp;ldquo;NGS&amp;rdquo;&lt;/strong> section of the Workflow Designer samples.&lt;/p>
+&lt;hr>
+&lt;h2 id="workflow-image">Workflow Image&lt;/h2>
+&lt;p>The opened workflow looks like this:&lt;/p></description></item><item><title>Extract Coverage from Assembly</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/extract-coverage-from-assembly/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/extract-coverage-from-assembly/</guid><description>&lt;h1 id="extract-coverage-from-assembly">Extract Coverage from Assembly&lt;/h1>
+&lt;p>This workflow sample extracts &lt;strong>coverage&lt;/strong> and/or &lt;strong>base counts&lt;/strong> from input assemblies. It supports multiple input
+assemblies and produces for each of them a tab-delimited plain text output. Coverage values are filtered based on the
+provided threshold parameter.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-to-use-this-sample">How to Use This Sample&lt;/h2>
+&lt;p>If you haven&amp;rsquo;t used workflow samples in UGENE before, refer to
+the &lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a> section of the documentation.&lt;/p>
+&lt;hr>
+&lt;h2 id="workflow-sample-location">Workflow Sample Location&lt;/h2>
+&lt;p>The workflow sample &lt;strong>&amp;ldquo;Extract Coverage from Assembly&amp;rdquo;&lt;/strong> is available in the &lt;strong>&amp;ldquo;NGS&amp;rdquo;&lt;/strong> section of the Workflow Designer
+samples.&lt;/p></description></item><item><title>Extract Transcript Sequences</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/extract-transcript-sequences/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/extract-transcript-sequences/</guid><description>&lt;h1 id="extract-transcript-sequences">Extract Transcript Sequences&lt;/h1>
 &lt;p>This workflow uses input transcripts and genomic sequences to generate a FASTA file with the DNA sequences for the transcripts. Please make sure that contig or chromosome names in the transcript file(s) have corresponding entries in the input sequence(s).&lt;/p>
 &lt;p>How to Use This Sample&lt;/p>
 &lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENE before, look at the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p>
@@ -23,44 +45,55 @@
 &lt;p>FastQC aims to provide a simple way to do some quality control checks on raw sequence data coming from high througput sequencing pipelines. It provides a molecular set of analyses which you can use to give a quick impression of whether your data has any problems of which you should be aware before doing any further analysis.&lt;/p>
 &lt;p>How to Use This Sample&lt;/p>
 &lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENE before, look at the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p></description></item><item><title>De novo Assemble Illumina PE Reads</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/de-novo-assemble-illumina-pe-reads/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/de-novo-assemble-illumina-pe-reads/</guid><description>&lt;h1 id="de-novo-assemble-illumina-pe-reads">De novo Assemble Illumina PE Reads&lt;/h1>
-&lt;p>The workflow sample, described below, takes FASTQ files with paired-end Illumina reads as input and process them as follows:&lt;/p>
+&lt;p>The workflow sample, described below, takes FASTQ files with paired-end Illumina reads as input and processes them as
+follows:&lt;/p>
 &lt;ul>
 &lt;li>Improve reads quality with Trimmomatic&lt;/li>
 &lt;li>Provide FastQC quality reports&lt;/li>
 &lt;li>De novo assemble reads with SPAdes&lt;/li>
 &lt;/ul>
-&lt;p>How to Use This Sample&lt;/p>
-&lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENE before, look at the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p>
-&lt;h5 id="workflow-sample-location">Workflow Sample Location&lt;/h5>
-&lt;p>The workflow sample &amp;ldquo;De novo Assemble Illumina PE Reads&amp;rdquo; can be found in the &amp;ldquo;NGS&amp;rdquo; section of the Workflow Designer samples.&lt;/p></description></item><item><title>De novo Assemble Illumina PE and Nanopore Reads</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/de-novo-assemble-illumina-pe-and-nanopore-reads/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/de-novo-assemble-illumina-pe-and-nanopore-reads/</guid><description>&lt;h1 id="de-novo-assemble-illumina-pe-and-nanopore-reads">De novo Assemble Illumina PE and Nanopore Reads&lt;/h1>
-&lt;p>The workflow sample, described below, takes FASTQ files with paired-end Illumina reads and FASTQ file(s) with Oxford Nanopore reads and assembles these data de novo with SPAdes.&lt;/p>
-&lt;p>How to Use This Sample&lt;/p>
-&lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENEbefore, look at the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p>
-&lt;h5 id="workflow-sample-location">Workflow Sample Location&lt;/h5>
-&lt;p>The workflow sample &amp;ldquo;De novo Assemble Illumina PE and Nanopore Reads&amp;rdquo; can be found in the &amp;ldquo;NGS&amp;rdquo; section of the Workflow Designer samples.&lt;/p></description></item><item><title>De novo Assemble Illumina SE Reads</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/de-novo-assemble-illumina-se-reads/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/de-novo-assemble-illumina-se-reads/</guid><description>&lt;h1 id="de-novo-assemble-illumina-se-reads">De novo Assemble Illumina SE Reads&lt;/h1>
-&lt;p>The workflow sample, described below, takes FASTQ files with single-end Illumina reads as input and process them as follows:&lt;/p>
+&lt;h2 id="how-to-use-this-sample">How to Use This Sample&lt;/h2>
+&lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENE before, look at
+the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p>
+&lt;hr>
+&lt;h3 id="workflow-sample-location">Workflow Sample Location&lt;/h3>
+&lt;p>The workflow sample &lt;strong>&amp;ldquo;De novo Assemble Illumina PE Reads&amp;rdquo;&lt;/strong> can be found in the &lt;strong>&amp;ldquo;NGS&amp;rdquo;&lt;/strong> section of the Workflow
+Designer samples.&lt;/p></description></item><item><title>De novo Assemble Illumina PE and Nanopore Reads</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/de-novo-assemble-illumina-pe-and-nanopore-reads/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/de-novo-assemble-illumina-pe-and-nanopore-reads/</guid><description>&lt;h1 id="de-novo-assemble-illumina-pe-and-nanopore-reads">De novo Assemble Illumina PE and Nanopore Reads&lt;/h1>
+&lt;p>The workflow sample, described below, takes FASTQ files with paired-end Illumina reads and FASTQ file(s) with Oxford
+Nanopore reads and assembles these data de novo with SPAdes.&lt;/p>
+&lt;h2 id="how-to-use-this-sample">How to Use This Sample&lt;/h2>
+&lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENE before, look at
+the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p>
+&lt;h3 id="workflow-sample-location">Workflow Sample Location&lt;/h3>
+&lt;p>The workflow sample &amp;ldquo;De novo Assemble Illumina PE and Nanopore Reads&amp;rdquo; can be found in the &amp;ldquo;NGS&amp;rdquo; section of the Workflow
+Designer samples.&lt;/p></description></item><item><title>De novo Assemble Illumina SE Reads</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/de-novo-assemble-illumina-se-reads/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/de-novo-assemble-illumina-se-reads/</guid><description>&lt;h1 id="de-novo-assemble-illumina-se-reads">De novo Assemble Illumina SE Reads&lt;/h1>
+&lt;p>This workflow sample takes FASTQ files with &lt;strong>single-end Illumina reads&lt;/strong> as input and processes them as follows:&lt;/p>
 &lt;ul>
-&lt;li>Improve reads quality with Trimmomatic&lt;/li>
-&lt;li>Provide FastQC quality reports&lt;/li>
-&lt;li>De novo assemble reads with SPAdes&lt;/li>
+&lt;li>Improves read quality using &lt;strong>Trimmomatic&lt;/strong>&lt;/li>
+&lt;li>Generates quality reports using &lt;strong>FastQC&lt;/strong>&lt;/li>
+&lt;li>Performs &lt;strong>de novo assembly&lt;/strong> using &lt;strong>SPAdes&lt;/strong>&lt;/li>
 &lt;/ul>
-&lt;p>How to Use This Sample&lt;/p>
-&lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENEbefore, look at the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p>
-&lt;h5 id="workflow-sample-location">Workflow Sample Location&lt;/h5>
-&lt;p>The workflow sample &amp;ldquo;De novo Assemble Illumina PE Reads&amp;rdquo; can be found in the &amp;ldquo;NGS&amp;rdquo; section of the Workflow Designer samples.&lt;/p></description></item><item><title>De Novo Assembly and Contigs Classification</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/de-novo-assembly-and-contigs-classification/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/de-novo-assembly-and-contigs-classification/</guid><description>&lt;h1 id="de-novo-assembly-and-contigs-classification">De Novo Assembly and Contigs Classification&lt;/h1>
-&lt;p>&lt;strong>Attention: Metagenomics was available before v40.&lt;/strong>&lt;/p>
-&lt;p>The workflow sample, described below, takes FASTQ files with metagenomic NGS reads as input and process them as follows:&lt;/p>
+&lt;hr>
+&lt;h2 id="how-to-use-this-sample">How to Use This Sample&lt;/h2>
+&lt;p>If you haven&amp;rsquo;t used workflow samples in UGENE before, check
+the &lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a> section of the documentation.&lt;/p>
+&lt;hr>
+&lt;h2 id="workflow-sample-location">Workflow Sample Location&lt;/h2>
+&lt;p>The workflow sample &lt;strong>&amp;ldquo;De novo Assemble Illumina SE Reads&amp;rdquo;&lt;/strong> is available in the &lt;strong>&amp;ldquo;NGS&amp;rdquo;&lt;/strong> section of the Workflow
+Designer samples.&lt;/p></description></item><item><title>De Novo Assembly and Contigs Classification</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/de-novo-assembly-and-contigs-classification/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/de-novo-assembly-and-contigs-classification/</guid><description>&lt;h1 id="de-novo-assembly-and-contigs-classification">De Novo Assembly and Contigs Classification&lt;/h1>
+&lt;p>⚠️ &lt;strong>Attention:&lt;/strong> The &lt;em>Metagenomics&lt;/em> workflow was available &lt;strong>before UGENE v40&lt;/strong>.&lt;/p>
+&lt;p>This workflow takes FASTQ files with &lt;strong>metagenomic NGS reads&lt;/strong> as input and processes them as follows:&lt;/p>
 &lt;ul>
-&lt;li>Improve reads quality with Trimmomatic&lt;/li>
-&lt;li>Provide FastQC reads quality reports&lt;/li>
-&lt;li>De novo assembly:
-Assemble the reads into contigs with SPAdes&lt;/li>
-&lt;li>Classification:
-Classify the assembled contigs with Kraken&lt;/li>
-&lt;li>Provide general classification report&lt;/li>
+&lt;li>Improves read quality with &lt;strong>Trimmomatic&lt;/strong>&lt;/li>
+&lt;li>Provides quality reports using &lt;strong>FastQC&lt;/strong>&lt;/li>
+&lt;li>Performs &lt;strong>de novo assembly&lt;/strong> with &lt;strong>SPAdes&lt;/strong>&lt;/li>
+&lt;li>Classifies contigs using &lt;strong>Kraken&lt;/strong>&lt;/li>
+&lt;li>Generates a general &lt;strong>classification report&lt;/strong>&lt;/li>
 &lt;/ul>
-&lt;p>How to Use This Sample&lt;/p>
-&lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENEbefore, look at the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p></description></item><item><title>Parallel NGS Reads Classification</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/parallel-ngs-reads-classification/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/parallel-ngs-reads-classification/</guid><description>&lt;h1 id="parallel-ngs-reads-classification">Parallel NGS Reads Classification&lt;/h1>
+&lt;hr>
+&lt;h2 id="how-to-use-this-sample">How to Use This Sample&lt;/h2>
+&lt;p>If you&amp;rsquo;re new to UGENE workflows, check
+the &lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a> section.&lt;/p></description></item><item><title>Parallel NGS Reads Classification</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/parallel-ngs-reads-classification/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/parallel-ngs-reads-classification/</guid><description>&lt;h1 id="parallel-ngs-reads-classification">Parallel NGS Reads Classification&lt;/h1>
 &lt;p>&lt;strong>Attention: Metagenomics was available before v40.&lt;/strong>&lt;/p>
 &lt;p>The workflow sample, described below, takes FASTQ files with metagenomic NGS reads as input and process them as follows:&lt;/p>
 &lt;ul>

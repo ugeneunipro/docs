@@ -1,70 +1,232 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data Converters on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-converters/</link><description>Recent content in Data Converters on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/workflow-elements/data-converters/index.xml" rel="self" type="application/rss+xml"/><item><title>Convert bedGraph Files to bigWig Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-converters/convert-bedgraph-files-to-bigwig-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-converters/convert-bedgraph-files-to-bigwig-element/</guid><description>&lt;h1 id="convert-bedgraph-files-to-bigwig-element">Convert bedGraph Files to bigWig Element&lt;/h1>
 &lt;p>Convert bedGraph files to bigWig.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> bgtbw-bam&lt;/p>
-&lt;p>Parameters&lt;/p>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Output directory&lt;/strong>&lt;/p>
-&lt;p>Select an output directory. Custom - specify the output directory in the &amp;lsquo;Custom directory&amp;rsquo; parameter. Workflow - internal workflow directory. Input file - the directory of the input file.&lt;/p>
-&lt;p>Input file&lt;/p>
-&lt;p>&lt;strong>out-mode&lt;/strong>&lt;/p>
-&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Custom directory&lt;/strong>&lt;/p>
-&lt;p>Specify the output directory.&lt;/p>
-&lt;p>&lt;strong>custom-dir&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Genome&lt;/strong>&lt;/p>
-&lt;p>File with genome length.&lt;/p></description></item><item><title>Convert Text to Sequence Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-converters/convert-text-to-sequence-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-converters/convert-text-to-sequence-element/</guid><description>&lt;h1 id="convert-text-to-sequence-element">Convert Text to Sequence Element&lt;/h1>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Output directory&lt;/strong>&lt;/td>
+ &lt;td>Select an output directory. Options:&lt;br>Custom – use &amp;lsquo;Custom directory&amp;rsquo; param&lt;br>Workflow – internal dir&lt;br>Input file – directory of the input file&lt;/td>
+ &lt;td>Input file&lt;/td>
+ &lt;td>&lt;strong>out-mode&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Custom directory&lt;/strong>&lt;/td>
+ &lt;td>Specify the output directory path.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>custom-dir&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Genome&lt;/strong>&lt;/td>
+ &lt;td>File with genome length.&lt;/td>
+ &lt;td>human.hg18&lt;/td>
+ &lt;td>&lt;strong>genome&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output name&lt;/strong>&lt;/td>
+ &lt;td>Output filename. If left empty, the first input file name is used with additional extension.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>out-name&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Block size&lt;/strong>&lt;/td>
+ &lt;td>Number of items to bundle in R-tree.&lt;/td>
+ &lt;td>256&lt;/td>
+ &lt;td>&lt;strong>bs&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Items per slot&lt;/strong>&lt;/td>
+ &lt;td>Data points bundled at the lowest level.&lt;/td>
+ &lt;td>1024&lt;/td>
+ &lt;td>&lt;strong>its&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Uncompressed&lt;/strong>&lt;/td>
+ &lt;td>If true, do not use compression.&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>unc&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Port Name (GUI)&lt;/th>
+ &lt;th>Workflow File Name&lt;/th>
+ &lt;th>Slots&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>BedGraph files&lt;/strong>&lt;/td>
+ &lt;td>&lt;code>in-file&lt;/code>&lt;/td>
+ &lt;td>&lt;strong>Source URL&lt;/strong> → &lt;code>url&lt;/code> (&lt;em>string&lt;/em>)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>BigWig files&lt;/strong>&lt;/td>
+ &lt;td>&lt;code>out-file&lt;/code>&lt;/td>
+ &lt;td>&lt;strong>Source URL&lt;/strong> → &lt;code>url&lt;/code> (&lt;em>string&lt;/em>)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Convert Text to Sequence Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-converters/convert-text-to-sequence-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-converters/convert-text-to-sequence-element/</guid><description>&lt;h1 id="convert-text-to-sequence-element">Convert Text to Sequence Element&lt;/h1>
 &lt;p>Converts the input text to a sequence.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> convert-text-to-sequence&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Sequence name&lt;/strong> (required)&lt;/p>
-&lt;p>Result sequence name.&lt;/p>
-&lt;p>&lt;em>Sequence&lt;/em>&lt;/p>
-&lt;p>&lt;strong>sequence-name&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Sequence alphabet&lt;/strong>&lt;/p>
-&lt;p>Alphabet of the sequence. Chooose &lt;em>Auto&lt;/em> to auto-detect the alphabet or one of the following values:&lt;/p>
-&lt;ul>
-&lt;li>&lt;em>All symbols&lt;/em>&lt;/li>
-&lt;li>&lt;em>Extended DNA&lt;/em>&lt;/li>
-&lt;li>&lt;em>Extended RNA&lt;/em>&lt;/li>
-&lt;li>&lt;em>Standard DNA&lt;/em>&lt;/li>
-&lt;li>&lt;em>Standard RNA&lt;/em>&lt;/li>
-&lt;li>&lt;em>Standard amino&lt;/em>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;em>Auto&lt;/em>&lt;/p>
-&lt;p>&lt;strong>alphabet&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Skip unknown symbols&lt;/strong>&lt;/p></description></item><item><title>File Format Conversion Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-converters/file-format-conversion-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-converters/file-format-conversion-element/</guid><description>&lt;h1 id="file-format-conversion-element">File Format Conversion Element&lt;/h1>
-&lt;p>Converts the file to the selected format if it is not excluded.&lt;/p>
-&lt;p>&lt;strong>Element type:&lt;/strong> files-conversion&lt;/p>
-&lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Document format&lt;/strong>&lt;/p>
-&lt;p>Document format of the output file.&lt;/p>
-&lt;p>&lt;strong>document-format&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Excluded formats&lt;/strong>&lt;/p>
-&lt;p>The input file won&amp;rsquo;t be converted to any of the selected formats.&lt;/p>
-&lt;p>&lt;strong>excluded-formats&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Sequence name&lt;/strong> (required)&lt;/td>
+ &lt;td>Result sequence name.&lt;/td>
+ &lt;td>&lt;em>Sequence&lt;/em>&lt;/td>
+ &lt;td>&lt;strong>sequence-name&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Sequence alphabet&lt;/strong>&lt;/td>
+ &lt;td>Alphabet of the sequence. Choose &lt;em>Auto&lt;/em> to auto-detect, or select:&lt;br>• &lt;em>All symbols&lt;/em>&lt;br>• &lt;em>Extended DNA&lt;/em>&lt;br>• &lt;em>Extended RNA&lt;/em>&lt;br>• &lt;em>Standard DNA&lt;/em>&lt;br>• &lt;em>Standard RNA&lt;/em>&lt;br>• &lt;em>Standard amino&lt;/em>&lt;/td>
+ &lt;td>&lt;em>Auto&lt;/em>&lt;/td>
+ &lt;td>&lt;strong>alphabet&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Skip unknown symbols&lt;/strong>&lt;/td>
+ &lt;td>If &lt;em>True&lt;/em>, ignores symbols not in the selected alphabet.&lt;/td>
+ &lt;td>&lt;em>True&lt;/em>&lt;/td>
+ &lt;td>&lt;strong>skip-unknown&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Replace unknown with&lt;/strong>&lt;/td>
+ &lt;td>Replaces unknown symbols with specified character.&lt;/td>
+ &lt;td>&lt;em>N&lt;/em>&lt;/td>
+ &lt;td>&lt;strong>replace-unknown-with&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
-&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p>
-&lt;p>&lt;strong>Name in GUI:&lt;/strong> File&lt;/p>
-&lt;p>&lt;strong>Name in Workflow File:&lt;/strong> in-file&lt;/p></description></item><item><title>Reverse Complement Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-converters/reverse-complement-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-converters/reverse-complement-element/</guid><description>&lt;h1 id="reverse-complement-element">Reverse Complement Element&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Port Name (GUI)&lt;/th>
+ &lt;th>Workflow File Name&lt;/th>
+ &lt;th>Slots&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Input text&lt;/strong>&lt;/td>
+ &lt;td>&lt;code>in-text&lt;/code>&lt;/td>
+ &lt;td>&lt;strong>Plain text&lt;/strong> → &lt;code>text&lt;/code> (&lt;em>string&lt;/em>)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output sequence&lt;/strong>&lt;/td>
+ &lt;td>&lt;code>out-sequence&lt;/code>&lt;/td>
+ &lt;td>&lt;strong>Sequence&lt;/strong> → &lt;code>sequence&lt;/code> (&lt;em>sequence&lt;/em>)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>File Format Conversion Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-converters/file-format-conversion-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-converters/file-format-conversion-element/</guid><description>&lt;h1 id="file-format-conversion-element">File Format Conversion Element&lt;/h1>
+&lt;p>Converts the file to the selected format if it is not excluded.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> &lt;code>files-conversion&lt;/code>&lt;/p>
+&lt;hr>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Parameter&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Default Value&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Parameter in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Document format&lt;/td>
+ &lt;td>Document format of the output file.&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;td>&lt;code>document-format&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Excluded formats&lt;/td>
+ &lt;td>The input file won&amp;rsquo;t be converted to any of the selected formats.&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;td>&lt;code>excluded-formats&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;h3 id="input-port">Input Port&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Name in GUI:&lt;/strong> &lt;code>File&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Name in Workflow File:&lt;/strong> &lt;code>in-file&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot In GUI&lt;/th>
+ &lt;th>Slot in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Source URL&lt;/td>
+ &lt;td>&lt;code>input-url&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="output-port">Output Port&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Name in GUI:&lt;/strong> &lt;code>File&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Name in Workflow File:&lt;/strong> &lt;code>out-file&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot In GUI&lt;/th>
+ &lt;th>Slot in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Source URL&lt;/td>
+ &lt;td>&lt;code>output-url&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Reverse Complement Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-converters/reverse-complement-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-converters/reverse-complement-element/</guid><description>&lt;h1 id="reverse-complement-element">Reverse Complement Element&lt;/h1>
 &lt;p>Converts input sequence into its reverse, complement or reverse-complement counterpart.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> reverse-complement&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>

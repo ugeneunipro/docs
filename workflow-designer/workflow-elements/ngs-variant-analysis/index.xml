@@ -353,58 +353,150 @@
 &lt;/table>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
 &lt;p>The element has 2 &lt;em>input ports&lt;/em>:&lt;/p></description></item><item><title>Change Chromosome Notation for VCF Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/change-chromosome-notation-for-vcf-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/change-chromosome-notation-for-vcf-element/</guid><description>&lt;h1 id="change-chromosome-notation-for-vcf-element">Change Chromosome Notation for VCF Element&lt;/h1>
-&lt;p>Changes chromosome notation for each variant from the input, VCF or other variation files.&lt;/p>
+&lt;p>Changes chromosome notation for each variant from the input VCF or other variation files.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> rename-chromosome-in-variation&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Replace prefixes&lt;/strong>&lt;/p>
-&lt;p>Input the list of chromosome prefixes that you would like to replace. For example &amp;ldquo;NC_000&amp;rdquo;. Separate different prefixes by semicolons.&lt;/p>
-&lt;p>prefixes-to-replace&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Replace by&lt;/strong>&lt;/p>
-&lt;p>Input the prefix that should be set instead, for example &amp;ldquo;chr&amp;rdquo;.&lt;/p></description></item><item><title>Convert SnpEff Variations to Annotations Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/convert-snpeff-variations-to-annotations-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/convert-snpeff-variations-to-annotations-element/</guid><description>&lt;h1 id="convert-snpeff-variations-to-annotations-element">Convert SnpEff Variations to Annotations Element&lt;/h1>
-&lt;p>Parses information, added to variations by SnpEff, into standard annotations.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Replace prefixes&lt;/strong>&lt;/td>
+ &lt;td>Input the list of chromosome prefixes to replace (e.g., &lt;code>NC_000&lt;/code>). Separate multiple values with &lt;code>;&lt;/code>.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>prefixes-to-replace&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Replace by&lt;/strong>&lt;/td>
+ &lt;td>Input the prefix to use instead (e.g., &lt;code>chr&lt;/code>).&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>prefix-replace-with&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Port Name (GUI)&lt;/th>
+ &lt;th>Workflow File Name&lt;/th>
+ &lt;th>Slots&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Input file URL&lt;/strong>&lt;/td>
+ &lt;td>&lt;code>in-file&lt;/code>&lt;/td>
+ &lt;td>&lt;strong>Source URL&lt;/strong> → &lt;code>url&lt;/code> (&lt;em>string&lt;/em>)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file URL&lt;/strong>&lt;/td>
+ &lt;td>&lt;code>out-file&lt;/code>&lt;/td>
+ &lt;td>&lt;strong>Produced URL&lt;/strong> → &lt;code>url&lt;/code> (&lt;em>string&lt;/em>)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Convert SnpEff Variations to Annotations Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/convert-snpeff-variations-to-annotations-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/convert-snpeff-variations-to-annotations-element/</guid><description>&lt;h1 id="convert-snpeff-variations-to-annotations-element">Convert SnpEff Variations to Annotations Element&lt;/h1>
+&lt;p>Parses information added to variations by SnpEff into standard annotations.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> convert-snpeff-variations-to-annotations&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Output file&lt;/strong>&lt;/p>
-&lt;p>Location of output data file. If this attribute is set, slot &amp;ldquo;Location&amp;rdquo; in port will not be used.&lt;/p>
-&lt;p>url-out&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Document format&lt;/strong>&lt;/p>
-&lt;p>Document format of the output file.&lt;/p>
-&lt;p>genbank&lt;/p>
-&lt;p>document-format&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>Input/Output Ports&lt;/p>
-&lt;p>The element has 1 &lt;em>input ports&lt;/em>:&lt;/p></description></item><item><title>Create VCF Consensus Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/create-vcf-consensus-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/create-vcf-consensus-element/</guid><description>&lt;h1 id="create-vcf-consensus-element">Create VCF Consensus Element&lt;/h1>
-&lt;p>Apply VCF variants to a fasta file to create a consensus sequence.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file&lt;/strong>&lt;/td>
+ &lt;td>Location of output data file. If set, overrides the &amp;ldquo;Location&amp;rdquo; slot of the output port.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>url-out&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Document format&lt;/strong>&lt;/td>
+ &lt;td>Format of the output file.&lt;/td>
+ &lt;td>genbank&lt;/td>
+ &lt;td>&lt;strong>document-format&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Port Name (GUI)&lt;/th>
+ &lt;th>Workflow File Name&lt;/th>
+ &lt;th>Slots&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Input file URL&lt;/strong>&lt;/td>
+ &lt;td>&lt;code>in-variations-url&lt;/code>&lt;/td>
+ &lt;td>&lt;strong>Source URL&lt;/strong> → &lt;code>url&lt;/code> (&lt;em>string&lt;/em>)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Create VCF Consensus Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/create-vcf-consensus-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/create-vcf-consensus-element/</guid><description>&lt;h1 id="create-vcf-consensus-element">Create VCF Consensus Element&lt;/h1>
+&lt;p>Apply VCF variants to a FASTA file to create a consensus sequence.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> vcf-consensus&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Output FASTA consensus&lt;/strong>&lt;/p>
-&lt;p>The URL to the output file with the resulting consensus.&lt;/p>
-&lt;p>consensus-url&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>Input/Output Ports&lt;/p>
-&lt;p>The element has 1 &lt;em>input ports&lt;/em>:&lt;/p>
-&lt;p>&lt;strong>Name in GUI:&lt;/strong> Input FASTA and VCF&lt;/p>
-&lt;p>&lt;strong>Name in Workflow File:&lt;/strong> in-data&lt;/p>
-&lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
-&lt;p>Slot In GUI&lt;/p>
-&lt;p>Slot in Workflow File&lt;/p></description></item><item><title>SnpEff Annotation and Filtration Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/snpeff-annotation-and-filtration-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/snpeff-annotation-and-filtration-element/</guid><description>&lt;h1 id="snpeff-annotation-and-filtration-element">SnpEff Annotation and Filtration Element&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Output FASTA consensus&lt;/strong>&lt;/td>
+ &lt;td>The URL to the output file with the resulting consensus.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>consensus-url&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Port Name (GUI)&lt;/th>
+ &lt;th>Workflow File Name&lt;/th>
+ &lt;th>Slots&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Input FASTA and VCF&lt;/strong>&lt;/td>
+ &lt;td>&lt;code>in-data&lt;/code>&lt;/td>
+ &lt;td>&lt;strong>Fasta url&lt;/strong> → &lt;code>fasta&lt;/code> (&lt;em>string&lt;/em>)&lt;br>&lt;strong>VCF url&lt;/strong> → &lt;code>vcf&lt;/code> (&lt;em>string&lt;/em>)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Fasta consensus URL&lt;/strong>&lt;/td>
+ &lt;td>&lt;code>out-consensus&lt;/code>&lt;/td>
+ &lt;td>&lt;strong>out-consensus&lt;/strong> → &lt;code>out-consensus&lt;/code> (&lt;em>string&lt;/em>)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>SnpEff Annotation and Filtration Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/snpeff-annotation-and-filtration-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/snpeff-annotation-and-filtration-element/</guid><description>&lt;h1 id="snpeff-annotation-and-filtration-element">SnpEff Annotation and Filtration Element&lt;/h1>
 &lt;p>Annotates and filters variations with SnpEff.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> seff&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>

@@ -7,7 +7,20 @@ the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How t
 &lt;h5 id="workflow-sample-location">Workflow Sample Location&lt;/h5>
 &lt;p>The workflow sample &amp;ldquo;Align Sequences with MUSCLE&amp;rdquo; can be found in the &amp;ldquo;Alignment&amp;rdquo; section of the Workflow Designer
 samples.&lt;/p></description></item><item><title>Extract Consensus as Sequence</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/alignment/extract-consensus-as-sequence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/alignment/extract-consensus-as-sequence/</guid><description>&lt;h1 id="extract-consensus-as-sequence">Extract Consensus as Sequence&lt;/h1>
-&lt;p>For each input multiple alignment the workflow calculates the consensus and saves it to a fasta file, named according to the name of the input alignment.&lt;/p>
-&lt;p>The &amp;ldquo;strict&amp;rdquo; algorithm with the &amp;ldquo;threshold&amp;rdquo; parameter set to &amp;ldquo;100%&amp;rdquo; is used by default to calculate the consensus. It means that the consensus will only contain characters that are the same in ALL sequences of the alignment. Decreasing the threshold will result in taking into account only the specified percentage number of the sequences, i.e. if the threshold is &amp;ldquo;80%&amp;rdquo; and 82% of the sequences have &amp;ldquo;A&amp;rdquo; at a certain column position, the consensus will also contain &amp;ldquo;A&amp;rdquo; at this position.&lt;/p></description></item><item><title>Extract Consensus as Text</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/alignment/extract-consensus-as-text/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/alignment/extract-consensus-as-text/</guid><description>&lt;h1 id="extract-consensus-as-text">Extract Consensus as Text&lt;/h1>
-&lt;p>For each input multiple alignment the workflow calculates the consensus and saves it to a text file, named according to the name of the input alignment.&lt;/p>
-&lt;p>The JalView algorithm (denoted as &amp;ldquo;default&amp;rdquo;) is used by default to calculate the consensus. For each column of the alignment it returns either &amp;ldquo;+&amp;rdquo;, if there are 2 characters with high frequency in this column, or a character in uppercase or lowercase. The case of the character depends on the percentage value of the character in the column and the &amp;ldquo;threshold&amp;rdquo; value.&lt;/p></description></item></channel></rss>
+&lt;p>For each input multiple alignment the workflow calculates the consensus and saves it to a FASTA file, named according to
+the name of the input alignment.&lt;/p>
+&lt;p>The &lt;strong>&amp;ldquo;strict&amp;rdquo;&lt;/strong> algorithm with the &lt;strong>&amp;ldquo;threshold&amp;rdquo;&lt;/strong> parameter set to &lt;strong>&amp;ldquo;100%&amp;rdquo;&lt;/strong> is used by default to calculate the
+consensus. It means that the consensus will only contain characters that are the same in &lt;strong>all&lt;/strong> sequences of the
+alignment. Decreasing the threshold will result in taking into account only the specified percentage number of the
+sequences — e.g., if the threshold is &lt;strong>80%&lt;/strong> and &lt;strong>82%&lt;/strong> of the sequences have &amp;ldquo;A&amp;rdquo; at a certain column position, the
+consensus will also contain &amp;ldquo;A&amp;rdquo; at this position.&lt;/p></description></item><item><title>Extract Consensus as Text</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/alignment/extract-consensus-as-text/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/alignment/extract-consensus-as-text/</guid><description>&lt;h1 id="extract-consensus-as-text">Extract Consensus as Text&lt;/h1>
+&lt;p>For each input multiple alignment, the workflow calculates the consensus and saves it to a plain text file, named
+according to the input alignment name.&lt;/p>
+&lt;p>By default, the &lt;strong>JalView&lt;/strong> algorithm (denoted as &lt;strong>&amp;ldquo;default&amp;rdquo;&lt;/strong>) is used to calculate the consensus. For each alignment
+column:&lt;/p>
+&lt;ul>
+&lt;li>If two characters have high frequency, a &lt;code>&amp;quot;+&amp;quot;&lt;/code> symbol is inserted.&lt;/li>
+&lt;li>Otherwise, a character is returned either in &lt;strong>uppercase&lt;/strong> or &lt;strong>lowercase&lt;/strong>, depending on the percentage value and the
+&lt;strong>threshold&lt;/strong> parameter.&lt;/li>
+&lt;/ul>
+&lt;p>Alternatively, you can choose the &lt;strong>ClustalW&lt;/strong> algorithm:&lt;/p></description></item></channel></rss>

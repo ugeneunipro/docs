@@ -1,18 +1,71 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Constraint Elements on UGENE Documentation</title><link>https://ugene.net/docs/query-designer/query-elements/constraint-elements/</link><description>Recent content in Constraint Elements on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/query-designer/query-elements/constraint-elements/index.xml" rel="self" type="application/rss+xml"/><item><title>End-Start Constraint Element</title><link>https://ugene.net/docs/query-designer/query-elements/constraint-elements/end-start-constraint-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/constraint-elements/end-start-constraint-element/</guid><description>&lt;h1 id="end-start-constraint-element">End-Start Constraint Element&lt;/h1>
-&lt;p>&lt;a href="../../manipulating-query-designer-element/adding-constraint-element">&lt;em>Add the End-Start constraint&lt;/em>&lt;/a> to some two &lt;em>algorithm elements&lt;/em>. Lets denote these elements as &lt;strong>alg1&lt;/strong> and &lt;strong>alg2&lt;/strong>.&lt;/p>
-&lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>&lt;strong>Min distance&lt;/strong>&lt;/p>
-&lt;p>Minimum distance between an &lt;strong>alg1&lt;/strong> annotation end and an &lt;strong>alg2&lt;/strong> annotation start.&lt;/p>
-&lt;p>0bp&lt;/p>
-&lt;p>&lt;strong>Max distance&lt;/strong>&lt;/p>
-&lt;p>Maximum distance between an &lt;strong>alg1&lt;/strong> annotation end and an &lt;strong>alg2&lt;/strong> annotation start.&lt;/p>
-&lt;p>0bp&lt;/p>
-&lt;p>&lt;strong>Constraint Explanation:&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="../../manipulating-query-designer-element/adding-constraint-element">Add the End-Start constraint&lt;/a> to two &lt;em>algorithm
+elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/strong> and &lt;strong>alg2&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;h2 id="constraint-explanation">Constraint Explanation&lt;/h2>
 &lt;p>Let:&lt;/p>
-&lt;p>&lt;strong>alg1_annot_end&lt;/strong> := the last nucleotide of an annotation obtained from the &lt;strong>alg1&lt;/strong>.&lt;/p></description></item><item><title>Start-End Constraint Element</title><link>https://ugene.net/docs/query-designer/query-elements/constraint-elements/start-end-constraint-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/constraint-elements/start-end-constraint-element/</guid><description>&lt;h1 id="start-end-constraint-element">Start-End Constraint Element&lt;/h1>
+&lt;ul>
+&lt;li>&lt;strong>alg1_annot_end&lt;/strong> := the last nucleotide of an annotation obtained from &lt;strong>alg1&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>alg2_annot_start&lt;/strong> := the first nucleotide of an annotation obtained from &lt;strong>alg2&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>The result annotations must satisfy the following rule:&lt;/p>
+&lt;p>&lt;strong>Min distance&lt;/strong> ≤ Distance(&lt;strong>alg1_annot_end&lt;/strong>, &lt;strong>alg2_annot_start&lt;/strong>) ≤ &lt;strong>Max distance&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Parameter&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Default Value&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Min distance&lt;/td>
+ &lt;td>Minimum distance between an &lt;strong>alg1&lt;/strong> annotation end and an &lt;strong>alg2&lt;/strong> annotation start.&lt;/td>
+ &lt;td>0bp&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Max distance&lt;/td>
+ &lt;td>Maximum distance between an &lt;strong>alg1&lt;/strong> annotation end and an &lt;strong>alg2&lt;/strong> annotation start.&lt;/td>
+ &lt;td>0bp&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="parameters-in-schema-file">Parameters in Schema File&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Parameter&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Parameter in GUI&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>min&lt;/code>&lt;/td>
+ &lt;td>Min distance&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>max&lt;/code>&lt;/td>
+ &lt;td>Max distance&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>type&lt;/code>&lt;/td>
+ &lt;td>&lt;em>(not in GUI)&lt;/em>&lt;/td>
+ &lt;td>&lt;code>distance&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>distance-type&lt;/code>&lt;/td>
+ &lt;td>&lt;em>(not in GUI)&lt;/em>&lt;/td>
+ &lt;td>&lt;code>end-to-start&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Start-End Constraint Element</title><link>https://ugene.net/docs/query-designer/query-elements/constraint-elements/start-end-constraint-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/constraint-elements/start-end-constraint-element/</guid><description>&lt;h1 id="start-end-constraint-element">Start-End Constraint Element&lt;/h1>
 &lt;p>&lt;em>&lt;a href="../../manipulating-query-designer-element/adding-constraint-element">Add the Start-End constraint&lt;/a>&lt;/em> to some two &lt;em>algorithm elements&lt;/em>. Lets denote these elements as &lt;strong>alg1&lt;/strong> and &lt;strong>alg2&lt;/strong>.&lt;/p>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
 &lt;p>Parameter&lt;/p>
@@ -27,20 +80,73 @@
 &lt;p>&lt;strong>Constraint Explanation:&lt;/strong>&lt;/p>
 &lt;p>Let:&lt;/p>
 &lt;p>&lt;strong>alg1_annot_start&lt;/strong> := the first nucleotide of an annotation obtained from the &lt;strong>alg1&lt;/strong>.&lt;/p></description></item><item><title>End-End Constraint Element</title><link>https://ugene.net/docs/query-designer/query-elements/constraint-elements/end-end-constraint-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/constraint-elements/end-end-constraint-element/</guid><description>&lt;h1 id="end-end-constraint-element">End-End Constraint Element&lt;/h1>
-&lt;p>&lt;a href="../../manipulating-query-designer-element/adding-constraint-element">&lt;em>Add the End-End constraint&lt;/em>&lt;/a> to some two &lt;em>algorithm elements&lt;/em>. Lets denote these elements as &lt;strong>alg1&lt;/strong> and &lt;strong>alg2&lt;/strong>.&lt;/p>
-&lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>&lt;strong>Min distance&lt;/strong>&lt;/p>
-&lt;p>Minimum distance between an &lt;strong>alg1&lt;/strong> annotation end and an &lt;strong>alg2&lt;/strong> annotation end.&lt;/p>
-&lt;p>0bp&lt;/p>
-&lt;p>&lt;strong>Max distance&lt;/strong>&lt;/p>
-&lt;p>Maximum distance between an &lt;strong>alg1&lt;/strong> annotation end and an &lt;strong>alg2&lt;/strong> annotation end.&lt;/p>
-&lt;p>0bp&lt;/p>
-&lt;p>&lt;strong>Constraint Explanation:&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="../../manipulating-query-designer-element/adding-constraint-element">Add the End-End constraint&lt;/a> to two &lt;em>algorithm
+elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/strong> and &lt;strong>alg2&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;h2 id="constraint-explanation">Constraint Explanation&lt;/h2>
 &lt;p>Let:&lt;/p>
-&lt;p>&lt;strong>alg1_annot_end&lt;/strong> := the last nucleotide of an annotation obtained from the &lt;strong>alg1&lt;/strong>.&lt;/p></description></item><item><title>Start-Start Constraint Element</title><link>https://ugene.net/docs/query-designer/query-elements/constraint-elements/start-start-constraint-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/constraint-elements/start-start-constraint-element/</guid><description>&lt;h1 id="start-start-constraint-element">Start-Start Constraint Element&lt;/h1>
+&lt;ul>
+&lt;li>&lt;strong>alg1_annot_end&lt;/strong> := the last nucleotide of an annotation obtained from &lt;strong>alg1&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>alg2_annot_end&lt;/strong> := the last nucleotide of an annotation obtained from &lt;strong>alg2&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>The result annotations must satisfy the following rule:&lt;/p>
+&lt;p>&lt;strong>Min distance&lt;/strong> ≤ Distance(&lt;strong>alg1_annot_end&lt;/strong>, &lt;strong>alg2_annot_end&lt;/strong>) ≤ &lt;strong>Max distance&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Parameter&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Default Value&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Min distance&lt;/td>
+ &lt;td>Minimum distance between an &lt;strong>alg1&lt;/strong> annotation end and an &lt;strong>alg2&lt;/strong> annotation end.&lt;/td>
+ &lt;td>0bp&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Max distance&lt;/td>
+ &lt;td>Maximum distance between an &lt;strong>alg1&lt;/strong> annotation end and an &lt;strong>alg2&lt;/strong> annotation end.&lt;/td>
+ &lt;td>0bp&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="parameters-in-schema-file">Parameters in Schema File&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Parameter&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Parameter in GUI&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>min&lt;/code>&lt;/td>
+ &lt;td>Min distance&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>max&lt;/code>&lt;/td>
+ &lt;td>Max distance&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>type&lt;/code>&lt;/td>
+ &lt;td>&lt;em>(not in GUI)&lt;/em>&lt;/td>
+ &lt;td>&lt;code>distance&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>distance-type&lt;/code>&lt;/td>
+ &lt;td>&lt;em>(not in GUI)&lt;/em>&lt;/td>
+ &lt;td>&lt;code>end-to-end&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Start-Start Constraint Element</title><link>https://ugene.net/docs/query-designer/query-elements/constraint-elements/start-start-constraint-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/constraint-elements/start-start-constraint-element/</guid><description>&lt;h1 id="start-start-constraint-element">Start-Start Constraint Element&lt;/h1>
 &lt;p>&lt;a href="../../manipulating-query-designer-element/adding-constraint-element">&lt;em>Add the Start-Start constraint&lt;/em>&lt;/a> to some two &lt;em>algorithm elements&lt;/em>. Lets denote these elements as &lt;strong>alg1&lt;/strong> and &lt;strong>alg2&lt;/strong>.&lt;/p>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
 &lt;p>Parameter&lt;/p>

@@ -1,56 +1,193 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Utils on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/utils/</link><description>Recent content in Utils on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/workflow-elements/utils/index.xml" rel="self" type="application/rss+xml"/><item><title>DNA Statistics Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/utils/dna-statistics-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/utils/dna-statistics-element/</guid><description>&lt;h1 id="dna-statistics-element">DNA Statistics Element&lt;/h1>
-&lt;p>Evaluates statistic for DNA sequences.&lt;/p>
-&lt;p>&lt;strong>Element type:&lt;/strong> dna-stats&lt;/p>
+&lt;p>Evaluates statistics for DNA sequences.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> &lt;code>dna-stats&lt;/code>&lt;/p>
+&lt;hr>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>GC-content&lt;/strong>&lt;/p>
-&lt;p>Evaluate GC-content.&lt;/p>
-&lt;p>True&lt;/p>
-&lt;p>&lt;strong>gc-content&lt;/strong>&lt;/p>
-&lt;p>&lt;em>boolean&lt;/em>&lt;/p>
-&lt;p>&lt;strong>GC1-content&lt;/strong>&lt;/p>
-&lt;p>Evaluate GC1-content.&lt;/p>
-&lt;p>True&lt;/p>
-&lt;p>&lt;strong>gc1-content&lt;/strong>&lt;/p>
-&lt;p>&lt;em>boolean&lt;/em>&lt;/p>
-&lt;p>&lt;strong>GC2-content&lt;/strong>&lt;/p>
-&lt;p>Evaluate GC2-content.&lt;/p>
-&lt;p>True&lt;/p>
-&lt;p>&lt;strong>gc2-content&lt;/strong>&lt;/p>
-&lt;p>&lt;em>boolean&lt;/em>&lt;/p>
-&lt;p>&lt;strong>GC3-content&lt;/strong>&lt;/p>
-&lt;p>Evaluate GC3-content.&lt;/p>
-&lt;p>True&lt;/p>
-&lt;p>&lt;strong>gc3-content&lt;/strong>&lt;/p>
-&lt;p>&lt;em>boolean&lt;/em>&lt;/p>
-&lt;p>Input/Output Ports&lt;/p>
-&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p>
-&lt;p>&lt;strong>Name in GUI:&lt;/strong> &lt;em>Input sequence&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Name in Workflow File:&lt;/strong> in-sequence&lt;/p>
-&lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
-&lt;p>Slot In GUI&lt;/p>
-&lt;p>Slot in Workflow File&lt;/p></description></item><item><title>Generate DNA Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/utils/generate-dna-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/utils/generate-dna-element/</guid><description>&lt;h1 id="generate-dna-element">Generate DNA Element&lt;/h1>
-&lt;p>Generates random DNA sequences with given nucleotide content that can be specified manually or evaluated from the reference file.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Parameter&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Default Value&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Parameter in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>GC-content&lt;/td>
+ &lt;td>Evaluate GC-content&lt;/td>
+ &lt;td>&lt;code>True&lt;/code>&lt;/td>
+ &lt;td>&lt;code>gc-content&lt;/code>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>GC1-content&lt;/td>
+ &lt;td>Evaluate GC1-content&lt;/td>
+ &lt;td>&lt;code>True&lt;/code>&lt;/td>
+ &lt;td>&lt;code>gc1-content&lt;/code>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>GC2-content&lt;/td>
+ &lt;td>Evaluate GC2-content&lt;/td>
+ &lt;td>&lt;code>True&lt;/code>&lt;/td>
+ &lt;td>&lt;code>gc2-content&lt;/code>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>GC3-content&lt;/td>
+ &lt;td>Evaluate GC3-content&lt;/td>
+ &lt;td>&lt;code>True&lt;/code>&lt;/td>
+ &lt;td>&lt;code>gc3-content&lt;/code>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;h3 id="input-port">Input Port&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Name in GUI:&lt;/strong> &lt;em>Input sequence&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Name in Workflow File:&lt;/strong> &lt;code>in-sequence&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot In GUI&lt;/th>
+ &lt;th>Slot in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Sequence&lt;/td>
+ &lt;td>&lt;code>sequence&lt;/code>&lt;/td>
+ &lt;td>&lt;em>sequence&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h3 id="output-port">Output Port&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Name in GUI:&lt;/strong> &lt;em>Result annotation&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Name in Workflow File:&lt;/strong> &lt;code>out-annotations&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot In GUI&lt;/th>
+ &lt;th>Slot in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Set of annotations&lt;/td>
+ &lt;td>&lt;code>annotations&lt;/code>&lt;/td>
+ &lt;td>&lt;em>annotation-table-list&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Generate DNA Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/utils/generate-dna-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/utils/generate-dna-element/</guid><description>&lt;h1 id="generate-dna-element">Generate DNA Element&lt;/h1>
+&lt;p>Generates random DNA sequences with given nucleotide content that can be specified manually or evaluated from the
+reference file.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> generate-dna&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Length&lt;/strong>&lt;/p>
-&lt;p>Length of the resulted sequence or sequences.&lt;/p>
-&lt;p>1000 bp&lt;/p>
-&lt;p>&lt;strong>length&lt;/strong>&lt;/p>
-&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Count&lt;/strong>&lt;/p>
-&lt;p>Number of sequences to generate.&lt;/p>
-&lt;p>1&lt;/p>
-&lt;p>&lt;strong>count&lt;/strong>&lt;/p>
-&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Seed&lt;/strong>&lt;/p>
-&lt;p>Value to initialize the random generator. By default (seed = -1) the generator is initialized with the system time.&lt;/p></description></item></channel></rss>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Length&lt;/strong>&lt;/td>
+ &lt;td>Length of the resulted sequence or sequences.&lt;/td>
+ &lt;td>1000 bp&lt;/td>
+ &lt;td>&lt;strong>length&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Count&lt;/strong>&lt;/td>
+ &lt;td>Number of sequences to generate.&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;strong>count&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Seed&lt;/strong>&lt;/td>
+ &lt;td>Value to initialize the random generator. By default (seed = -1) the generator is initialized with the system time.&lt;/td>
+ &lt;td>-1&lt;/td>
+ &lt;td>&lt;strong>seed&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Content&lt;/strong>&lt;/td>
+ &lt;td>Specifies how the nucleotide content of the sequence(s) should be generated. It can be either taken from the reference file or input manually.&lt;/td>
+ &lt;td>manual&lt;/td>
+ &lt;td>&lt;strong>content&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Algorithm&lt;/strong>&lt;/td>
+ &lt;td>Algorithm for generating random sequence(s). Two algorithms are available: GC Content and GC Skew.&lt;/td>
+ &lt;td>GC Content&lt;/td>
+ &lt;td>&lt;strong>algorithm&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Window size&lt;/strong>&lt;/td>
+ &lt;td>The DNA sequence generation is divided into windows of the specified size. In each window the bases ratio is kept.&lt;/td>
+ &lt;td>1000&lt;/td>
+ &lt;td>&lt;strong>window-size&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Reference&lt;/strong>&lt;/td>
+ &lt;td>Path to the reference file (could be a sequence or an alignment).&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>reference-url&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>A&lt;/strong>&lt;/td>
+ &lt;td>Adenine content.&lt;/td>
+ &lt;td>25%&lt;/td>
+ &lt;td>&lt;strong>percent-a&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>C&lt;/strong>&lt;/td>
+ &lt;td>Cytosine content.&lt;/td>
+ &lt;td>25%&lt;/td>
+ &lt;td>&lt;strong>percent-c&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>G&lt;/strong>&lt;/td>
+ &lt;td>Guanine content.&lt;/td>
+ &lt;td>25%&lt;/td>
+ &lt;td>&lt;strong>percent-g&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>T&lt;/strong>&lt;/td>
+ &lt;td>Thymine content.&lt;/td>
+ &lt;td>25%&lt;/td>
+ &lt;td>&lt;strong>percent-t&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>GC Skew&lt;/strong>&lt;/td>
+ &lt;td>GC Skew is calculated as (G - C) / (G + C).&lt;/td>
+ &lt;td>0.25&lt;/td>
+ &lt;td>&lt;strong>gc-skew&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>Available values for &lt;strong>Content&lt;/strong>:&lt;/p></description></item></channel></rss>

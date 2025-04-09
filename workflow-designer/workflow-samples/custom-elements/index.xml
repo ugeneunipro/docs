@@ -4,12 +4,16 @@
 &lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENE before, look at the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p></description></item><item><title>FASTQ Trimmer</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/custom-elements/fastq-trimmer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/custom-elements/fastq-trimmer/</guid><description>&lt;h1 id="fastq-trimmer">FASTQ Trimmer&lt;/h1>
 &lt;p>The workflow scans each input sequence from the end to find the first position where the quality is greater or equal to the minimum quality threshold. Then it trims the sequence to that position. If a the whole sequence has quality less than the threshold or the length of the output sequence less than the minimum length threshold then the sequence is skipped.&lt;/p>
 &lt;p>How to Use This Sample&lt;/p></description></item><item><title>Dump Sequence Info</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/custom-elements/dump-sequence-info/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/custom-elements/dump-sequence-info/</guid><description>&lt;h1 id="dump-sequence-info">Dump Sequence Info&lt;/h1>
-&lt;p>This workflow dump sequence name and sequence size to output for all incoming sequences.&lt;/p>
-&lt;p>How to Use This Sample&lt;/p>
-&lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENE before, look at the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p>
-&lt;h5 id="workflow-sample-location">Workflow Sample Location&lt;/h5>
-&lt;p>The workflow sample &amp;ldquo;Dump Sequence Info&amp;rdquo; can be found in the &amp;ldquo;Custom Elements&amp;rdquo; section of the Workflow Designer samples.&lt;/p>
-&lt;h5 id="workflow-image">Workflow Image&lt;/h5>
+&lt;p>This workflow dumps the sequence name and sequence size to output for all incoming sequences.&lt;/p>
+&lt;h2 id="how-to-use-this-sample">How to Use This Sample&lt;/h2>
+&lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENE before, look at
+the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p>
+&lt;hr>
+&lt;h3 id="workflow-sample-location">Workflow Sample Location&lt;/h3>
+&lt;p>The workflow sample &lt;strong>&amp;ldquo;Dump Sequence Info&amp;rdquo;&lt;/strong> can be found in the &lt;strong>&amp;ldquo;Custom Elements&amp;rdquo;&lt;/strong> section of the Workflow Designer
+samples.&lt;/p>
+&lt;hr>
+&lt;h3 id="workflow-image">Workflow Image&lt;/h3>
 &lt;p>The workflow looks as follows:&lt;/p></description></item><item><title>LinkData Fetch</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/custom-elements/linkdata-fetch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/custom-elements/linkdata-fetch/</guid><description>&lt;h1 id="linkdata-fetch">LinkData Fetch&lt;/h1>
 &lt;p>This workflow fetches sequence from LinkData by specified work ID, filename, subject ID, property ID and writes result in file in FASTA format.&lt;/p>
 &lt;p>How to Use This Sample&lt;/p>

@@ -228,24 +228,54 @@
 &lt;p>&lt;em>in&lt;/em> — semicolon-separated list of input sequence files to search TFBS in. [String, Required]&lt;/p>
 &lt;p>&lt;em>inmodel&lt;/em> — input SITECON profile(s). If several profiles have been supplied, searches with all profiles one by one and outputs merged set of annotations for each input sequence. [String, Required]&lt;/p>
 &lt;p>&lt;em>out&lt;/em> — output Genbank file. [String, Required]&lt;/p></description></item><item><title>Fetching Sequence from Remote Database</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/fetching-sequence-from-remote-database/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/fetching-sequence-from-remote-database/</guid><description>&lt;h1 id="fetching-sequence-from-remote-database">Fetching Sequence from Remote Database&lt;/h1>
-&lt;p>&lt;strong>Task Name:&lt;/strong> fetch-sequence&lt;/p>
-&lt;p>Fetches a sequence from a remote database. The supported databases are accesed via alias.&lt;/p>
-&lt;p>Database&lt;/p>
-&lt;p>Alias&lt;/p>
-&lt;p>NCBI Genbank (DNA)&lt;/p>
-&lt;p>genbank&lt;/p>
-&lt;p>NCBI Genbank (protein)&lt;/p>
-&lt;p>genbank-protein&lt;/p>
-&lt;p>Protein Data Bank&lt;/p>
-&lt;p>pdb&lt;/p>
-&lt;p>SwissProt&lt;/p>
-&lt;p>swissprot&lt;/p>
-&lt;p>Uniprot&lt;/p>
-&lt;p>uniprot&lt;/p>
-&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
-&lt;p>&lt;em>db&lt;/em> — database alias to read from. [String, Required]&lt;/p>
-&lt;p>&lt;em>id&lt;/em> — semicolon-separated list of resource IDs in the database. [String, Required]&lt;/p>
-&lt;p>&lt;em>save-dir&lt;/em> — directory to store sequence files loaded from the database. [String, Optional]&lt;/p></description></item><item><title>Gene-by-Gene Report</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/gene-by-gene-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/gene-by-gene-report/</guid><description>&lt;h1 id="gene-by-gene-report">Gene-by-Gene Report&lt;/h1>
+&lt;p>&lt;strong>Task Name:&lt;/strong> &lt;code>fetch-sequence&lt;/code>&lt;/p>
+&lt;p>Fetches a sequence from a remote database. The supported databases are accessed via alias.&lt;/p>
+&lt;hr>
+&lt;h2 id="supported-databases">Supported Databases&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Database&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Alias&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>NCBI Genbank (DNA)&lt;/td>
+ &lt;td>&lt;code>genbank&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>NCBI Genbank (protein)&lt;/td>
+ &lt;td>&lt;code>genbank-protein&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Protein Data Bank&lt;/td>
+ &lt;td>&lt;code>pdb&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>SwissProt&lt;/td>
+ &lt;td>&lt;code>swissprot&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>UniProt&lt;/td>
+ &lt;td>&lt;code>uniprot&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>&lt;code>--db&lt;/code>&lt;/strong> — Database alias to read from.
+&lt;em>Type: &lt;code>String&lt;/code>, Required.&lt;/em>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>&lt;code>--id&lt;/code>&lt;/strong> — Semicolon-separated list of resource IDs in the database.
+&lt;em>Type: &lt;code>String&lt;/code>, Required.&lt;/em>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>&lt;code>--save-dir&lt;/code>&lt;/strong> — Directory to store sequence files loaded from the database.
+&lt;em>Type: &lt;code>String&lt;/code>, Optional.&lt;/em>&lt;/p></description></item><item><title>Gene-by-Gene Report</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/gene-by-gene-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/gene-by-gene-report/</guid><description>&lt;h1 id="gene-by-gene-report">Gene-by-Gene Report&lt;/h1>
 &lt;p>&lt;strong>Task Name:&lt;/strong> gene-by-gene&lt;/p>
 &lt;p>Suppose you have genomes and you want to characterize them. One of the ways to do that is to build a table of what genes are in each genome and what are not there.&lt;/p>
 &lt;p>1. Create a local BLAST db of your genome sequence/contigs. One db per one genome.

@@ -1,20 +1,190 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Types of SITECON Models on UGENE Documentation</title><link>https://ugene.net/docs/extensions/sitecon/types-of-sitecon-models/</link><description>Recent content in Types of SITECON Models on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/extensions/sitecon/types-of-sitecon-models/index.xml" rel="self" type="application/rss+xml"/><item><title>Eukaryotic</title><link>https://ugene.net/docs/extensions/sitecon/types-of-sitecon-models/eukaryotic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/sitecon/types-of-sitecon-models/eukaryotic/</guid><description>&lt;h1 id="eukaryotic">Eukaryotic&lt;/h1>
-&lt;p>&lt;strong>Name&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Description&lt;/strong>&lt;/p>
-&lt;p>&lt;a href="http://en.wikipedia.org/wiki/Ccaat-enhancer-binding_proteins">CEBP_a&lt;/a>&lt;/p>
-&lt;p>CCAAT-enhancer-binding protein_alpha&lt;/p>
-&lt;p>&lt;a href="http://en.wikipedia.org/wiki/Ccaat-enhancer-binding_proteins">CEBP_all&lt;/a>&lt;/p>
-&lt;p>CCAAT-enhancer-binding proteins&lt;/p>
-&lt;p>&lt;a href="http://en.wikipedia.org/wiki/CLOCK">CLOCK&lt;/a>&lt;/p>
-&lt;p>Circadian Locomotor Output Cycles Kaput&lt;/p>
-&lt;p>&lt;a href="http://en.wikipedia.org/wiki/Myc">cMyc_can&lt;/a>&lt;/p>
-&lt;p>Myc (c-Myc) is a regulator gene that codes for a transcription factor. A mutated version of Myc is found in many cancers.&lt;/p>
-&lt;p>&lt;a href="http://en.wikipedia.org/wiki/CAMP_response_element#cAMP_response_element">CRE&lt;/a>&lt;/p>
-&lt;p>Cyclic AMP response element&lt;/p>
-&lt;p>&lt;a href="http://en.wikipedia.org/wiki/E2F1">E2F1&lt;/a>&lt;/p>
-&lt;p>Transcription factor E2F1 is a protein that in humans is encoded by the E2F1 gene.&lt;/p>
-&lt;p>&lt;a href="http://en.wikipedia.org/wiki/TFDP1">E2F1/DP1sel1&lt;/a>&lt;/p>
-&lt;p>E2F factors bind to DNA as homodimers or heterodimers in association with dimerization partner DP1.&lt;/p></description></item><item><title>Prokaryotic</title><link>https://ugene.net/docs/extensions/sitecon/types-of-sitecon-models/prokaryotic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/sitecon/types-of-sitecon-models/prokaryotic/</guid><description>&lt;h1 id="prokaryotic">Prokaryotic&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Types of SITECON Models on UGENE Documentation</title><link>https://ugene.net/docs/extensions/sitecon/types-of-sitecon-models/</link><description>Recent content in Types of SITECON Models on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/extensions/sitecon/types-of-sitecon-models/index.xml" rel="self" type="application/rss+xml"/><item><title>Eukaryotic</title><link>https://ugene.net/docs/extensions/sitecon/types-of-sitecon-models/eukaryotic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/sitecon/types-of-sitecon-models/eukaryotic/</guid><description>&lt;h1 id="eukaryotic-transcription-factors">Eukaryotic Transcription Factors&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/Ccaat-enhancer-binding_proteins">CEBP_a&lt;/a>&lt;/td>
+ &lt;td>CCAAT-enhancer-binding protein alpha&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/Ccaat-enhancer-binding_proteins">CEBP_all&lt;/a>&lt;/td>
+ &lt;td>CCAAT-enhancer-binding proteins&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/CLOCK">CLOCK&lt;/a>&lt;/td>
+ &lt;td>Circadian Locomotor Output Cycles Kaput&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/Myc">cMyc_can&lt;/a>&lt;/td>
+ &lt;td>Regulator gene coding for transcription factor; often mutated in cancer&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/CAMP_response_element#cAMP_response_element">CRE&lt;/a>&lt;/td>
+ &lt;td>Cyclic AMP response element&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/E2F1">E2F1&lt;/a>&lt;/td>
+ &lt;td>Transcription factor E2F1, encoded by E2F1 gene&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/TFDP1">E2F1/DP1sel1&lt;/a>&lt;/td>
+ &lt;td>E2F-DP1 dimers binding DNA&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/EGR1">EGR1&lt;/a>&lt;/td>
+ &lt;td>Early growth response protein 1&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/KLF1">EKLf&lt;/a>&lt;/td>
+ &lt;td>Erythroid Kruppel-like Factor&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/Estrogen_receptor_beta">ER2&lt;/a>&lt;/td>
+ &lt;td>Estrogen receptor beta&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/GATA_transcription_factor">GATA_all&lt;/a>&lt;/td>
+ &lt;td>Family binding “GATA” DNA sequence&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/GATA1">GATA-1&lt;/a>&lt;/td>
+ &lt;td>GATA-binding factor 1&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/GATA2">GATA-2&lt;/a>&lt;/td>
+ &lt;td>GATA-binding protein 2&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/GATA3">GATA-3&lt;/a>&lt;/td>
+ &lt;td>Trans-acting T-cell transcription factor GATA-3&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/HMGB1">HMG-1&lt;/a>&lt;/td>
+ &lt;td>High-mobility group protein 1&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/Hepatocyte_nuclear_factors#HNF1">HNF-1&lt;/a>&lt;/td>
+ &lt;td>Hepatocyte nuclear factor 1&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/Hepatocyte_nuclear_factors#HNF3">HNF-3&lt;/a>&lt;/td>
+ &lt;td>Hepatocyte nuclear factor 3&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/Hepatocyte_nuclear_factors#HNF4">HNF-4&lt;/a>&lt;/td>
+ &lt;td>Hepatocyte nuclear factor 4&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/Interferon_regulatory_factor">IRF&lt;/a>&lt;/td>
+ &lt;td>Interferon regulatory factors&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/Interferon#Downstream_signaling">isre&lt;/a>&lt;/td>
+ &lt;td>Interferon stimulation response element&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/MyoD">MyoD&lt;/a>&lt;/td>
+ &lt;td>Myogenic regulatory factor&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/Myogenin">MyOGsel3&lt;/a>&lt;/td>
+ &lt;td>Myogenin&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/Neurofibromin_1">NF-1&lt;/a>&lt;/td>
+ &lt;td>Neurofibromin 1&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/NFE2">NF-E2&lt;/a>&lt;/td>
+ &lt;td>NF-E2 45 kDa subunit, encoded by NFE2&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/NFAT">NFATp&lt;/a>&lt;/td>
+ &lt;td>Nuclear factor of activated T-cells (NFAT) complex component&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/NF-%CE%BAB">NFkB_all&lt;/a>&lt;/td>
+ &lt;td>Nuclear factor kappa-light-chain-enhancer of activated B cells&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/RELA">NFkB_hetero&lt;/a>&lt;/td>
+ &lt;td>p50/p65 (RELA) heterodimer form of NF-kB&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/REL">NFkB_homo&lt;/a>&lt;/td>
+ &lt;td>c-Rel protein, member of NF-kB family&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/NFYA">Nfy&lt;/a>&lt;/td>
+ &lt;td>Nuclear transcription factor Y&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/NFE2L2">Nrf2&lt;/a>&lt;/td>
+ &lt;td>Nuclear factor (erythroid-derived 2)-like 2&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/Oct-1">Oct-1&lt;/a>&lt;/td>
+ &lt;td>Octamer transcription factor 1&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/Octamer_transcription_factor">Oct_all&lt;/a>&lt;/td>
+ &lt;td>Octamer transcription factors&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/P53">p53&lt;/a>&lt;/td>
+ &lt;td>Protein 53&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/Paramedian_pontine_reticular_formation">PPRF&lt;/a>&lt;/td>
+ &lt;td>Paramedian pontine reticular formation&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/SPI1">Pu1&lt;/a>&lt;/td>
+ &lt;td>SPI1 gene-encoded protein&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/CREB">setCREB&lt;/a>&lt;/td>
+ &lt;td>cAMP response element-binding&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/CREB">setCREBzag&lt;/a>&lt;/td>
+ &lt;td>cAMP response element-binding&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/Serum_response_factor">SRE_san&lt;/a>&lt;/td>
+ &lt;td>Serum response element&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/Serum_response_factor">SRF&lt;/a>&lt;/td>
+ &lt;td>Serum response factor&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/STAT1">STAT1&lt;/a>&lt;/td>
+ &lt;td>Signal Transducer and Activator of Transcription 1&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/STAT_protein">STAT&lt;/a>&lt;/td>
+ &lt;td>Signal Transducer and Activator of Transcription&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/NK2_homeobox_1">TTF1&lt;/a>&lt;/td>
+ &lt;td>Thyroid transcription factor 1&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/USF1">USF&lt;/a>&lt;/td>
+ &lt;td>Upstream stimulatory factors&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://en.wikipedia.org/wiki/YY1">yy1&lt;/a>&lt;/td>
+ &lt;td>YY1 gene-encoded protein&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Prokaryotic</title><link>https://ugene.net/docs/extensions/sitecon/types-of-sitecon-models/prokaryotic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/sitecon/types-of-sitecon-models/prokaryotic/</guid><description>&lt;h1 id="prokaryotic">Prokaryotic&lt;/h1>
 &lt;p>&lt;strong>Name&lt;/strong>&lt;/p>
 &lt;p>&lt;strong>Description&lt;/strong>&lt;/p>
 &lt;p>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=AgaR&amp;amp;quickSearch=Quick+Search">AgaR&lt;/a>&lt;/p>

@@ -1,12 +1,64 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NGS: Basic Functions on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/</link><description>Recent content in NGS: Basic Functions on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/index.xml" rel="self" type="application/rss+xml"/><item><title>CASAVA FASTQ Filter Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/casava-fastq-filter-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/casava-fastq-filter-element/</guid><description>&lt;h1 id="casava-fastq-filter-element">CASAVA FASTQ Filter Element&lt;/h1>
-&lt;p>Reads in FASTQ file produced by CASAVA 1.8 contain &amp;lsquo;N&amp;rsquo; or &amp;lsquo;Y&amp;rsquo; as a part of an idetifier. &amp;lsquo;Y&amp;rsquo; if a read if filtered, &amp;lsquo;N&amp;rsquo; if the read if the read is not filtered. The workflow cleans up the filtered reads. For example: @HWI-ST880:181:D1WRUACXX:8:1102:4905:2125 1:N:0:TAAGGG CTTACATAACTACTGACCATGCTCTCTCTTGTCTGTCTCTTATACACATCT + 111442222322324232AAFFHIJJJJJJIHIIF111CGGFHIG???FGB @HWI-ST880:181:D1WRUACXX:8:1102:7303:2101 1:Y:0:TAAGGG TCCTTACTGTCTGAGCAATGGGATTCCATCTTTTACGATCTAGACATGGCT + 11++4222322.&lt;/p>
+&lt;p>Reads in FASTQ file produced by CASAVA 1.8 contain &amp;lsquo;N&amp;rsquo; or &amp;lsquo;Y&amp;rsquo; as a part of an identifier.
+&amp;lsquo;Y&amp;rsquo; if a read is filtered, &amp;lsquo;N&amp;rsquo; if the read is not filtered. The workflow cleans up the filtered reads.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> CASAVAFilter&lt;/p>
-&lt;p>Parameters&lt;/p>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p></description></item><item><title>Cut Adapter Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/cut-adapter-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/cut-adapter-element/</guid><description>&lt;h1 id="cut-adapter-element">Cut Adapter Element&lt;/h1>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Output directory&lt;/strong>&lt;/td>
+ &lt;td>Select an output directory. &lt;code>Custom&lt;/code> – use &amp;ldquo;Custom directory&amp;rdquo;. &lt;code>Workflow&lt;/code> – use internal directory. &lt;code>Input file&lt;/code> – use input file directory.&lt;/td>
+ &lt;td>Input file&lt;/td>
+ &lt;td>&lt;strong>out-mode&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Custom directory&lt;/strong>&lt;/td>
+ &lt;td>Specify the output directory if &amp;ldquo;Custom&amp;rdquo; is selected.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>custom-dir&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file name&lt;/strong>&lt;/td>
+ &lt;td>Name of the output file. If empty, the name of the first file with an added extension will be used.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>out-name&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Port Name (GUI)&lt;/th>
+ &lt;th>Workflow File Name&lt;/th>
+ &lt;th>Slots&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Input File&lt;/strong>&lt;/td>
+ &lt;td>&lt;code>in-file&lt;/code>&lt;/td>
+ &lt;td>&lt;strong>Source URL&lt;/strong> → &lt;code>url&lt;/code> (&lt;em>string&lt;/em>)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output File&lt;/strong>&lt;/td>
+ &lt;td>&lt;code>out-file&lt;/code>&lt;/td>
+ &lt;td>&lt;strong>Source URL&lt;/strong> → &lt;code>url&lt;/code> (&lt;em>string&lt;/em>)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Cut Adapter Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/cut-adapter-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/cut-adapter-element/</guid><description>&lt;h1 id="cut-adapter-element">Cut Adapter Element&lt;/h1>
 &lt;p>Removes adapter sequences.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> CutAdaptFastq&lt;/p>
 &lt;p>Parameters&lt;/p>

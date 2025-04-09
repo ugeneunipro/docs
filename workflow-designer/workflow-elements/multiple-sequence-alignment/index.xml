@@ -323,37 +323,101 @@ tools, please, read main &lt;a href="http://ugene.unipro.ru/documentation.html">
 &lt;/table>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
 &lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Align with MUSCLE Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-muscle-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-muscle-element/</guid><description>&lt;h1 id="align-with-muscle-element">Align with MUSCLE Element&lt;/h1>
-&lt;p>MUSCLE is public domain multiple alignment software for protein and nucleotide sequences. MUSCLE stands for MUltiple Sequence Comparison by Log-Expectation.&lt;/p>
+&lt;p>MUSCLE is public domain multiple alignment software for protein and nucleotide sequences. MUSCLE stands for MUltiple
+Sequence Comparison by Log-Expectation.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> muscle&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Mode&lt;/strong>&lt;/p>
-&lt;p>Selector of preset configurations, that give you the choice of optimizing accuracy, speed, or some compromise between the two. The default favors accuracy.&lt;/p>
-&lt;p>MUSCLE default&lt;/p>
-&lt;p>&lt;strong>mode&lt;/strong>&lt;/p>
-&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
-&lt;p>Availables values are:&lt;/p>
-&lt;ul>
-&lt;li>0 - for MUSCLE default&lt;/li>
-&lt;li>1 - for Large alignment&lt;/li>
-&lt;li>2 - for Refine only&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>Stable order&lt;/strong>&lt;/p></description></item><item><title>Align with T-Coffee Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-t-coffee-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-t-coffee-element/</guid><description>&lt;h1 id="align-with-t-coffee-element">Align with T-Coffee Element&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Mode&lt;/strong>&lt;/td>
+ &lt;td>Selector of preset configurations, that give you the choice of optimizing accuracy, speed, or some compromise between the two. The default favors accuracy.&lt;/td>
+ &lt;td>MUSCLE default&lt;/td>
+ &lt;td>&lt;strong>mode&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>Available values are:&lt;br>0 - for MUSCLE default&lt;br>1 - for Large alignment&lt;br>2 - for Refine only&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Stable order&lt;/strong>&lt;/td>
+ &lt;td>Do not rearrange aligned sequences (-stable switch of MUSCLE). Otherwise, MUSCLE re-arranges sequences so that similar sequences are adjacent in the output file. This makes the alignment easier to evaluate by eye.&lt;/td>
+ &lt;td>True&lt;/td>
+ &lt;td>&lt;strong>stable&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Align with T-Coffee Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-t-coffee-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-t-coffee-element/</guid><description>&lt;h1 id="align-with-t-coffee-element">Align with T-Coffee Element&lt;/h1>
 &lt;p>T-Coffee is a multiple sequence alignment package.&lt;/p>
-&lt;p>T-Coffee is used as an external tool from UGENE and it must be installed on your system. To learn more about the external tools, please, read main &lt;a href="http://ugene.unipro.ru/documentation.html">UGENE User Manual&lt;/a>.&lt;/p>
+&lt;p>T-Coffee is used as an external tool from UGENE and it must be installed on your system. To learn more about the
+external tools, please, read main &lt;a href="http://ugene.unipro.ru/documentation.html">UGENE User Manual&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> tcoffee&lt;/p>
-&lt;p>Parameters&lt;/p>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Gap extension penalty&lt;/strong>&lt;/p>
-&lt;p>Gap Extension Penalty. Positive values give rewards to gaps and prevent the alignment of unrelated segments.&lt;/p></description></item><item><title>Extract Consensus from Alignment as Sequence</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/extract-consensus-from-alignment-as-sequence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/extract-consensus-from-alignment-as-sequence/</guid><description>&lt;h1 id="extract-consensus-from-alignment-as-sequence">Extract Consensus from Alignment as Sequence&lt;/h1>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap extension penalty&lt;/strong>&lt;/td>
+ &lt;td>Gap Extension Penalty. Positive values give rewards to gaps and prevent the alignment of unrelated segments.&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>gap-ext-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap open penalty&lt;/strong>&lt;/td>
+ &lt;td>Gap open penalty. Must be negative, best matches get a score of 1000.&lt;/td>
+ &lt;td>-50&lt;/td>
+ &lt;td>&lt;strong>gap-open-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max iteration&lt;/strong>&lt;/td>
+ &lt;td>Number of iteration on the progressive alignment. 0 - no iteration, -1 - Nseq iterations.&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>iterations-max-num&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Tool path&lt;/strong> (required)&lt;/td>
+ &lt;td>Path to the ClustalW tool. The default path can be set in the UGENE Application Settings.&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>&lt;strong>path&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Temporary directory&lt;/strong>&lt;/td>
+ &lt;td>Directory to store temporary files.&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>&lt;strong>temp-dir&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Extract Consensus from Alignment as Sequence</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/extract-consensus-from-alignment-as-sequence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/extract-consensus-from-alignment-as-sequence/</guid><description>&lt;h1 id="extract-consensus-from-alignment-as-sequence">Extract Consensus from Alignment as Sequence&lt;/h1>
 &lt;p>Extract the consensus sequence from the incoming multiple sequence alignment.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> extract-msa-consensus-sequence&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>

@@ -1,16 +1,140 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DNA Assembly on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/dna-assembly/</link><description>Recent content in DNA Assembly on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/workflow-elements/dna-assembly/index.xml" rel="self" type="application/rss+xml"/><item><title>Assembly Sequences with CAP3</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/dna-assembly/assembly-sequences-with-cap3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/dna-assembly/assembly-sequences-with-cap3/</guid><description>&lt;h1 id="assembly-sequences-with-cap3">Assembly Sequences with CAP3&lt;/h1>
 &lt;p>CAP3 is a contig assembly program. It allows assembly long DNA reads (up to 1000 bp).&lt;/p>
-&lt;p>Binaries can be downloaded from &lt;a href="http://seq.cs.iastate.edu/cap3.html">http://seq.cs.iastate.edu/cap3.html&lt;/a> Huang, X. and Madan, A. (1999) CAP3: A DNA Sequence Assembly Program, Genome Research, 9: 868-877.&lt;/p>
+&lt;p>Binaries can be downloaded from &lt;a href="http://seq.cs.iastate.edu/cap3.html">http://seq.cs.iastate.edu/cap3.html&lt;/a>
+Huang, X. and Madan, A. (1999) CAP3: A DNA Sequence Assembly Program, Genome Research, 9: 868-877.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> cap3&lt;/p>
-&lt;p>Parameters&lt;/p>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Output file&lt;/strong>&lt;/p>
-&lt;p>Write assembly results to this output file in ACE format..&lt;/p>
-&lt;p>result.ace&lt;/p>
-&lt;p>&lt;strong>out-file&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Quality cutoff for clipping&lt;/strong>&lt;/p></description></item></channel></rss>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file&lt;/strong>&lt;/td>
+ &lt;td>Write assembly results to this output file in ACE format.&lt;/td>
+ &lt;td>result.ace&lt;/td>
+ &lt;td>&lt;strong>out-file&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Quality cutoff for clipping&lt;/strong>&lt;/td>
+ &lt;td>Base quality cutoff for clipping (-c).&lt;/td>
+ &lt;td>12&lt;/td>
+ &lt;td>&lt;strong>clipping-cutoff&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Clipping range&lt;/strong>&lt;/td>
+ &lt;td>Set a number which unit is base. It will get the refGenes in n bases from peak center. (&amp;ndash;distance).&lt;/td>
+ &lt;td>100&lt;/td>
+ &lt;td>&lt;strong>clipping-range&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Quality cutoff for differences&lt;/strong>&lt;/td>
+ &lt;td>Base quality cutoff for differences (-b).&lt;/td>
+ &lt;td>20&lt;/td>
+ &lt;td>&lt;strong>diff-cutoff&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Maximum difference score&lt;/strong>&lt;/td>
+ &lt;td>Max qscore sum at differences (-d). If an overlap contains lots of differences at bases of high quality, then the overlap is removed.&lt;/td>
+ &lt;td>200&lt;/td>
+ &lt;td>&lt;strong>diff-max-qscore&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Match score factor&lt;/strong>&lt;/td>
+ &lt;td>Affects similarity score of an overlap (-m).&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>&lt;strong>match-score-factor&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Mismatch score factor&lt;/strong>&lt;/td>
+ &lt;td>Affects similarity score of an overlap (-n).&lt;/td>
+ &lt;td>-5&lt;/td>
+ &lt;td>&lt;strong>mismatch-score-factor&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap penalty factor&lt;/strong>&lt;/td>
+ &lt;td>Affects similarity score of an overlap (-g).&lt;/td>
+ &lt;td>6&lt;/td>
+ &lt;td>&lt;strong>gap-penalty-factor&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Overlap similarity score cutoff&lt;/strong>&lt;/td>
+ &lt;td>If the similarity score of an overlap is less than this cutoff (-s), the overlap is removed.&lt;/td>
+ &lt;td>900&lt;/td>
+ &lt;td>&lt;strong>overlap-sim-score-cutoff&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Overlap length cutoff&lt;/strong>&lt;/td>
+ &lt;td>Overlaps must be at least this long in bp (-o).&lt;/td>
+ &lt;td>40&lt;/td>
+ &lt;td>&lt;strong>overlap-length-cutoff&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Overlap percent identity cutoff&lt;/strong>&lt;/td>
+ &lt;td>Overlaps must meet or exceed this percent identity (-p).&lt;/td>
+ &lt;td>90&lt;/td>
+ &lt;td>&lt;strong>overlap-perc-id-cutoff&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max number of word matches&lt;/strong>&lt;/td>
+ &lt;td>Upper limit for the number of word matches considered (-t). Controls tradeoff between accuracy and speed.&lt;/td>
+ &lt;td>300&lt;/td>
+ &lt;td>&lt;strong>max-num-word-matches&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Band expansion size&lt;/strong>&lt;/td>
+ &lt;td>CAP3 expands alignment bands by this size (-a).&lt;/td>
+ &lt;td>20&lt;/td>
+ &lt;td>&lt;strong>band-exp-size&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max gap length in an overlap&lt;/strong>&lt;/td>
+ &lt;td>Maximum length of gap in overlaps allowed (-f).&lt;/td>
+ &lt;td>20&lt;/td>
+ &lt;td>&lt;strong>max-gap-in-overlap&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Assembly reverse reads&lt;/strong>&lt;/td>
+ &lt;td>Whether to consider reverse orientation reads in assembly (-r).&lt;/td>
+ &lt;td>True&lt;/td>
+ &lt;td>&lt;strong>assembly-reverse&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>CAP3 tool path&lt;/strong>&lt;/td>
+ &lt;td>Path to the CAP3 executable.&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>&lt;strong>path&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Temporary directory&lt;/strong>&lt;/td>
+ &lt;td>Directory for temporary files.&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>&lt;strong>tmp-dir&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item></channel></rss>

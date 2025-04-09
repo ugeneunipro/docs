@@ -131,79 +131,422 @@ samples.&lt;/p></description></item><item><title>Aligning Short Reads with BWA</
 &lt;p>Translates a sequence into its amino translation or translations.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> sequence-translation&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Translate from&lt;/strong>&lt;/p>
-&lt;p>Specifies position that should be used to translate the sequence from: first, second, third or all (three output amino sequences would be generated).&lt;/p>
-&lt;p>all&lt;/p>
-&lt;p>&lt;strong>pos-2-translate&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>Available values are:&lt;/p>
-&lt;ul>
-&lt;li>all&lt;/li>
-&lt;li>first&lt;/li>
-&lt;li>second&lt;/li>
-&lt;li>third&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>Auto selected genetic code&lt;/strong>&lt;/p>
-&lt;p>Specifies that genetic code should be selected automatically.&lt;/p></description></item><item><title>Annotations Color</title><link>https://ugene.net/docs/sequence-view/manipulating-annotations/highlighting-annotations/annotations-color/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view/manipulating-annotations/highlighting-annotations/annotations-color/</guid><description>&lt;h1 id="annotations-color">Annotations Color&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Translate from&lt;/strong>&lt;/td>
+ &lt;td>Specifies position that should be used to translate the sequence from: first, second, third or all (three output amino sequences would be generated).&lt;/td>
+ &lt;td>all&lt;/td>
+ &lt;td>&lt;strong>pos-2-translate&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>Available values are:&lt;br>• all&lt;br>• first&lt;br>• second&lt;br>• third&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Auto selected genetic code&lt;/strong>&lt;/td>
+ &lt;td>Specifies that genetic code should be selected automatically.&lt;/td>
+ &lt;td>True&lt;/td>
+ &lt;td>&lt;strong>auto-translation&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Genetic code&lt;/strong>&lt;/td>
+ &lt;td>Genetic code that should be used to translate the input nucleotide sequence.&lt;/td>
+ &lt;td>The Standard Genetic Code&lt;/td>
+ &lt;td>&lt;strong>genetic-code&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Annotations Color</title><link>https://ugene.net/docs/sequence-view/manipulating-annotations/highlighting-annotations/annotations-color/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view/manipulating-annotations/highlighting-annotations/annotations-color/</guid><description>&lt;h1 id="annotations-color">Annotations Color&lt;/h1>
 &lt;p>To change a color of all annotations of a certain type click on the corresponding color box in the annotations types table and select the required color in the appeared &lt;em>Select Color&lt;/em> dialog.&lt;/p></description></item><item><title>Assemble Reads with SPAdes Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/assemble-reads-with-spades-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/assemble-reads-with-spades-element/</guid><description>&lt;h1 id="assemble-reads-with-spades-element">Assemble Reads with SPAdes Element&lt;/h1>
 &lt;p>Performers assembly of input short reads.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> spades-id&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>Input data&lt;/p>
-&lt;p>Select the type of input for SPAdes. URL(s) to the input files of the selected type(s) should be provided to the corresponding port(s) of the workflow element.&lt;/p>
-&lt;p>At least one library of the following types is required:&lt;/p>
-&lt;ul>
-&lt;li>Illumina paired-end/high-quality mate-pairs/unpaired reads&lt;/li>
-&lt;li>IonTorrent paired-end/high-quality mate-pairs/unpaired reads&lt;/li>
-&lt;li>PacBio CCS reads (at least 5 reads coverage is recommended)&lt;/li>
-&lt;/ul>
-&lt;p>It is strongly suggested to provide multiple paired-end and mate-pair libraries according to their insert size (from smallest to longest).&lt;/p></description></item><item><title>Assemble Transcripts with StringTie Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-rna-seq-analysis/assemble-transcripts-with-stringtie-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-rna-seq-analysis/assemble-transcripts-with-stringtie-element/</guid><description>&lt;h1 id="assemble-transcripts-with-stringtie-element">Assemble Transcripts with StringTie Element&lt;/h1>
-&lt;p>StringTie is a fast and highly efficient assembler of RNA-Seq alignments into potential transcripts. It uses a novel network flow algorithm as well as an optional de novo assembly step to assemble and quantitate full-length transcripts representing multiple splice variants for each gene locus.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Input data&lt;/strong>&lt;/td>
+ &lt;td>Select the type of input for SPAdes. URL(s) to the input files of the selected type(s) should be provided to the corresponding port(s) of the workflow element.&lt;br>&lt;br>At least one library of the following types is required:&lt;br>• Illumina paired-end/high-quality mate-pairs/unpaired reads&lt;br>• IonTorrent paired-end/high-quality mate-pairs/unpaired reads&lt;br>• PacBio CCS reads (at least 5 reads coverage is recommended)&lt;br>&lt;br>It is strongly suggested to provide multiple paired-end and mate-pair libraries according to their insert size (from smallest to longest).&lt;br>&lt;br>Additionally, one may input Oxford Nanopore reads, Sanger reads, contigs generated by other assembler(s), etc. Note that Illumina and IonTorrent libraries should not be assembled together. All other types of input data are compatible.&lt;br>&lt;br>It is also possible to set up reads orientation (forward-reverse (fr), reverse-forward (rf), forward-forward (ff)) and specify whether paired reads are separate or interlaced.&lt;br>&lt;br>Illumina, IonTorrent or PacBio CCS reads should be provided in FASTQ format. Illumina or PacBio reads may also be provided in FASTA format. Error correction should be skipped in this case (see the &amp;ldquo;Running mode&amp;rdquo; parameter). Sanger, Oxford Nanopore, and PacBio CLR reads can be provided in both formats since SPAdes does not run error correction for these types of data.&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>&lt;strong>output-dir&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Dataset type&lt;/strong>&lt;/td>
+ &lt;td>Input dataset type.&lt;/td>
+ &lt;td>Multi Cell&lt;/td>
+ &lt;td>&lt;strong>dataset-type&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Running mode&lt;/strong>&lt;/td>
+ &lt;td>Running mode.&lt;/td>
+ &lt;td>Error correction and assembly&lt;/td>
+ &lt;td>&lt;strong>running-mode&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>K-mers&lt;/strong>&lt;/td>
+ &lt;td>k-mersizes (-k).&lt;/td>
+ &lt;td>auto&lt;/td>
+ &lt;td>&lt;strong>k-mer&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Number of threads&lt;/strong>&lt;/td>
+ &lt;td>Number of threads (-t).&lt;/td>
+ &lt;td>16&lt;/td>
+ &lt;td>&lt;strong>threads&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Memory limit (Gb)&lt;/strong>&lt;/td>
+ &lt;td>Memory limit (-m).&lt;/td>
+ &lt;td>250&lt;/td>
+ &lt;td>&lt;strong>memlimit&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output folder&lt;/strong>&lt;/td>
+ &lt;td>Folder to save Spades output files.&lt;/td>
+ &lt;td>Auto&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Assemble Transcripts with StringTie Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-rna-seq-analysis/assemble-transcripts-with-stringtie-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-rna-seq-analysis/assemble-transcripts-with-stringtie-element/</guid><description>&lt;h1 id="assemble-transcripts-with-stringtie-element">Assemble Transcripts with StringTie Element&lt;/h1>
+&lt;p>StringTie is a fast and highly efficient assembler of RNA-Seq alignments into potential transcripts. It uses a novel
+network flow algorithm as well as an optional de novo assembly step to assemble and quantitate full-length transcripts
+representing multiple splice variants for each gene locus.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> stringtie&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Defaultvalue&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Reference annotations&lt;/strong>&lt;/p>
-&lt;p>Use the reference annotation file (in GTF or GFF3 format) to guide the assembly process (-G).&lt;/p></description></item><item><title>Assembly Overview Hotkeys</title><link>https://ugene.net/docs/assembly-browser/assembly-browser-hotkeys/assembly-overview-hotkeys/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/assembly-browser-hotkeys/assembly-overview-hotkeys/</guid><description>&lt;h1 id="assembly-overview-hotkeys">Assembly Overview Hotkeys&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Reference annotations&lt;/strong>&lt;/td>
+ &lt;td>Use the reference annotation file (in GTF or GFF3 format) to guide the assembly process (-G). The output will include expressed reference transcripts as well as any novel transcripts that are assembled.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>reference-annotations&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Reads orientation&lt;/strong>&lt;/td>
+ &lt;td>Select the NGS libraries type: unstranded, stranded fr-secondstrand (&amp;ndash;fr), or stranded fr-firststand (&amp;ndash;rf).&lt;/td>
+ &lt;td>Unstranded&lt;/td>
+ &lt;td>&lt;strong>reads-orientation&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Label&lt;/strong>&lt;/td>
+ &lt;td>Use the specified string as the prefix for the name of the output transcripts (-l).&lt;/td>
+ &lt;td>STRG&lt;/td>
+ &lt;td>&lt;strong>label&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min isoform fraction&lt;/strong>&lt;/td>
+ &lt;td>Specify the minimum isoform abundance of the predicted transcripts as a fraction of the most abundant transcript assembled at a given locus (-f). Lower abundance transcripts are often artifacts of incompletely spliced precursors of processed transcripts.&lt;/td>
+ &lt;td>0.1&lt;/td>
+ &lt;td>&lt;strong>min-isoform-fraction&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min assembled transcript length&lt;/strong>&lt;/td>
+ &lt;td>Specify the minimum length for the predicted transcripts (-m).&lt;/td>
+ &lt;td>200&lt;/td>
+ &lt;td>&lt;strong>min-isoform-fraction&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min anchor length for junctions&lt;/strong>&lt;/td>
+ &lt;td>Junctions that don&amp;rsquo;t have spliced reads that align them with at least this amount of bases on both sides are filtered out (-a).&lt;/td>
+ &lt;td>10&lt;/td>
+ &lt;td>&lt;strong>min-anchor-length&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min junction coverage&lt;/strong>&lt;/td>
+ &lt;td>There should be at least this many spliced reads that align across a junction (-j). This number can be fractional since some reads align in more than one place. A read that aligns in n places will contribute 1/n to the junction coverage.&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;strong>min-junction-coverage&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Trim transcripts based on coverage&lt;/strong>&lt;/td>
+ &lt;td>By default StringTie adjusts the predicted transcript&amp;rsquo;s start and/or stop coordinates based on sudden drops in coverage. Set to &amp;ldquo;False&amp;rdquo; to disable trimming (-t).&lt;/td>
+ &lt;td>True&lt;/td>
+ &lt;td>&lt;strong>trim-transcripts&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>bool&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min coverage for assembled transcripts&lt;/strong>&lt;/td>
+ &lt;td>Specifies the minimum read coverage allowed for the predicted transcripts (-c). A transcript with lower coverage than this value is not shown in the output. This number can be fractional.&lt;/td>
+ &lt;td>2.5&lt;/td>
+ &lt;td>&lt;strong>min-coverage&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min locus gap separation&lt;/strong>&lt;/td>
+ &lt;td>Reads mapped closer than this distance are merged into the same processing bundle (-g).&lt;/td>
+ &lt;td>50 bp&lt;/td>
+ &lt;td>&lt;strong>min-locus-gap&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Fraction covered by multi-hit reads&lt;/strong>&lt;/td>
+ &lt;td>Max fraction of multi-mapped reads allowed at a locus (-M). A read aligning in n places contributes 1/n to coverage.&lt;/td>
+ &lt;td>0.95&lt;/td>
+ &lt;td>&lt;strong>multi-hit-fraction&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Skip assembling for sequences&lt;/strong>&lt;/td>
+ &lt;td>Ignore all read alignments for the specified reference sequences (-x). Useful for skipping mitochondrial genome, etc. Case sensitive.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>skip-sequences&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Multi-mapping correction&lt;/strong>&lt;/td>
+ &lt;td>Enables or disables multi-mapping correction (-u).&lt;/td>
+ &lt;td>Enabled&lt;/td>
+ &lt;td>&lt;strong>multi-mapping-correction&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>bool&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Verbose log&lt;/strong>&lt;/td>
+ &lt;td>Enable detailed logging (-v). Messages go to UGENE log and dashboard.&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>verbose-log&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>bool&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Number of threads&lt;/strong>&lt;/td>
+ &lt;td>Number of processing threads to use (-p).&lt;/td>
+ &lt;td>8&lt;/td>
+ &lt;td>&lt;strong>threads&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output transcripts file&lt;/strong>&lt;/td>
+ &lt;td>Primary GTF output file with assembled transcripts.&lt;/td>
+ &lt;td>Auto&lt;/td>
+ &lt;td>&lt;strong>transcripts-output-url&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Enable gene abundance output&lt;/strong>&lt;/td>
+ &lt;td>Generate gene abundances file (-A). File URL is passed to an output slot.&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>gene-abundance-output&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>bool&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Assembly Overview Hotkeys</title><link>https://ugene.net/docs/assembly-browser/assembly-browser-hotkeys/assembly-overview-hotkeys/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/assembly-browser-hotkeys/assembly-overview-hotkeys/</guid><description>&lt;h1 id="assembly-overview-hotkeys">Assembly Overview Hotkeys&lt;/h1>
 &lt;p>The following hotkeys are available for the &lt;em>Assembly Overview&lt;/em>:&lt;/p>
-&lt;p>Hotkey&lt;/p>
-&lt;p>Action&lt;/p>
-&lt;p>Shift + move mouse&lt;/p>
-&lt;p>Zoom the Assembly Overview to selection&lt;/p>
-&lt;p>Ctrl + wheel&lt;/p>
-&lt;p>Zoom the Assembly Overview&lt;/p>
-&lt;p>Alt + click&lt;/p>
-&lt;p>Zoom the Assembly Overview in 100x&lt;/p>
-&lt;p>wheel + move mouse&lt;/p>
-&lt;p>Move the Assembly Overview&lt;/p></description></item><item><title>Assembly Sequences with CAP3</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/dna-assembly/assembly-sequences-with-cap3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/dna-assembly/assembly-sequences-with-cap3/</guid><description>&lt;h1 id="assembly-sequences-with-cap3">Assembly Sequences with CAP3&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Hotkey&lt;/th>
+ &lt;th>Action&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Shift + move mouse&lt;/strong>&lt;/td>
+ &lt;td>Zoom the Assembly Overview to selection&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Ctrl + wheel&lt;/strong>&lt;/td>
+ &lt;td>Zoom the Assembly Overview&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Alt + click&lt;/strong>&lt;/td>
+ &lt;td>Zoom the Assembly Overview in 100x&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>wheel + move mouse&lt;/strong>&lt;/td>
+ &lt;td>Move the Assembly Overview&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Assembly Sequences with CAP3</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/dna-assembly/assembly-sequences-with-cap3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/dna-assembly/assembly-sequences-with-cap3/</guid><description>&lt;h1 id="assembly-sequences-with-cap3">Assembly Sequences with CAP3&lt;/h1>
 &lt;p>CAP3 is a contig assembly program. It allows assembly long DNA reads (up to 1000 bp).&lt;/p>
-&lt;p>Binaries can be downloaded from &lt;a href="http://seq.cs.iastate.edu/cap3.html">http://seq.cs.iastate.edu/cap3.html&lt;/a> Huang, X. and Madan, A. (1999) CAP3: A DNA Sequence Assembly Program, Genome Research, 9: 868-877.&lt;/p>
+&lt;p>Binaries can be downloaded from &lt;a href="http://seq.cs.iastate.edu/cap3.html">http://seq.cs.iastate.edu/cap3.html&lt;/a>
+Huang, X. and Madan, A. (1999) CAP3: A DNA Sequence Assembly Program, Genome Research, 9: 868-877.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> cap3&lt;/p>
-&lt;p>Parameters&lt;/p>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Output file&lt;/strong>&lt;/p>
-&lt;p>Write assembly results to this output file in ACE format..&lt;/p>
-&lt;p>result.ace&lt;/p>
-&lt;p>&lt;strong>out-file&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Quality cutoff for clipping&lt;/strong>&lt;/p></description></item><item><title>Automatic Annotations Highlighting</title><link>https://ugene.net/docs/sequence-view/annotations-editor/automatic-annotations-highlighting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view/annotations-editor/automatic-annotations-highlighting/</guid><description>&lt;h1 id="automatic-annotations-highlighting">Automatic Annotations Highlighting&lt;/h1>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file&lt;/strong>&lt;/td>
+ &lt;td>Write assembly results to this output file in ACE format.&lt;/td>
+ &lt;td>result.ace&lt;/td>
+ &lt;td>&lt;strong>out-file&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Quality cutoff for clipping&lt;/strong>&lt;/td>
+ &lt;td>Base quality cutoff for clipping (-c).&lt;/td>
+ &lt;td>12&lt;/td>
+ &lt;td>&lt;strong>clipping-cutoff&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Clipping range&lt;/strong>&lt;/td>
+ &lt;td>Set a number which unit is base. It will get the refGenes in n bases from peak center. (&amp;ndash;distance).&lt;/td>
+ &lt;td>100&lt;/td>
+ &lt;td>&lt;strong>clipping-range&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Quality cutoff for differences&lt;/strong>&lt;/td>
+ &lt;td>Base quality cutoff for differences (-b).&lt;/td>
+ &lt;td>20&lt;/td>
+ &lt;td>&lt;strong>diff-cutoff&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Maximum difference score&lt;/strong>&lt;/td>
+ &lt;td>Max qscore sum at differences (-d). If an overlap contains lots of differences at bases of high quality, then the overlap is removed.&lt;/td>
+ &lt;td>200&lt;/td>
+ &lt;td>&lt;strong>diff-max-qscore&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Match score factor&lt;/strong>&lt;/td>
+ &lt;td>Affects similarity score of an overlap (-m).&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>&lt;strong>match-score-factor&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Mismatch score factor&lt;/strong>&lt;/td>
+ &lt;td>Affects similarity score of an overlap (-n).&lt;/td>
+ &lt;td>-5&lt;/td>
+ &lt;td>&lt;strong>mismatch-score-factor&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap penalty factor&lt;/strong>&lt;/td>
+ &lt;td>Affects similarity score of an overlap (-g).&lt;/td>
+ &lt;td>6&lt;/td>
+ &lt;td>&lt;strong>gap-penalty-factor&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Overlap similarity score cutoff&lt;/strong>&lt;/td>
+ &lt;td>If the similarity score of an overlap is less than this cutoff (-s), the overlap is removed.&lt;/td>
+ &lt;td>900&lt;/td>
+ &lt;td>&lt;strong>overlap-sim-score-cutoff&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Overlap length cutoff&lt;/strong>&lt;/td>
+ &lt;td>Overlaps must be at least this long in bp (-o).&lt;/td>
+ &lt;td>40&lt;/td>
+ &lt;td>&lt;strong>overlap-length-cutoff&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Overlap percent identity cutoff&lt;/strong>&lt;/td>
+ &lt;td>Overlaps must meet or exceed this percent identity (-p).&lt;/td>
+ &lt;td>90&lt;/td>
+ &lt;td>&lt;strong>overlap-perc-id-cutoff&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max number of word matches&lt;/strong>&lt;/td>
+ &lt;td>Upper limit for the number of word matches considered (-t). Controls tradeoff between accuracy and speed.&lt;/td>
+ &lt;td>300&lt;/td>
+ &lt;td>&lt;strong>max-num-word-matches&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Band expansion size&lt;/strong>&lt;/td>
+ &lt;td>CAP3 expands alignment bands by this size (-a).&lt;/td>
+ &lt;td>20&lt;/td>
+ &lt;td>&lt;strong>band-exp-size&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max gap length in an overlap&lt;/strong>&lt;/td>
+ &lt;td>Maximum length of gap in overlaps allowed (-f).&lt;/td>
+ &lt;td>20&lt;/td>
+ &lt;td>&lt;strong>max-gap-in-overlap&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Assembly reverse reads&lt;/strong>&lt;/td>
+ &lt;td>Whether to consider reverse orientation reads in assembly (-r).&lt;/td>
+ &lt;td>True&lt;/td>
+ &lt;td>&lt;strong>assembly-reverse&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>CAP3 tool path&lt;/strong>&lt;/td>
+ &lt;td>Path to the CAP3 executable.&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>&lt;strong>path&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Temporary directory&lt;/strong>&lt;/td>
+ &lt;td>Directory for temporary files.&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>&lt;strong>tmp-dir&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Automatic Annotations Highlighting</title><link>https://ugene.net/docs/sequence-view/annotations-editor/automatic-annotations-highlighting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view/annotations-editor/automatic-annotations-highlighting/</guid><description>&lt;h1 id="automatic-annotations-highlighting">Automatic Annotations Highlighting&lt;/h1>
 &lt;p>Enabling the automatic annotations highlighting allows you to automatically calculate and highlight annotations on each nucleotide sequence opened.&lt;/p>
 &lt;p>Currently, the following annotations types support the automatic highlighting:&lt;/p>
 &lt;ul>
@@ -229,31 +572,45 @@ samples.&lt;/p></description></item><item><title>Aligning Short Reads with BWA</
 &lt;p>There are the following parameters:&lt;/p>
 &lt;p>&lt;em>Reference sequence&lt;/em> — DNA sequence to align short reads to. This parameter is required.&lt;/p>
 &lt;p>&lt;em>Result file name&lt;/em> — file in SAM format to write the result of the alignment into. This parameter is required.&lt;/p></description></item><item><title>Build Frequency Matrix Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/build-frequency-matrix-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/build-frequency-matrix-element/</guid><description>&lt;h1 id="build-frequency-matrix-element">Build Frequency Matrix Element&lt;/h1>
-&lt;p>Builds a frequency matrix. Frequency matrices are used for probabilistic recognition of transcription factor binding sites.&lt;/p>
+&lt;p>Builds a frequency matrix. Frequency matrices are used for probabilistic recognition of transcription factor binding
+sites.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> fmatrix-build&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Matrix type&lt;/strong>&lt;/p>
-&lt;p>Dinucleic matrices are more detailed, while mononucleic one are more useful for small input data sets.&lt;/p>
-&lt;p>Mononucleic&lt;/p>
-&lt;p>&lt;strong>type&lt;/strong>&lt;/p>
-&lt;p>&lt;em>boolean&lt;/em>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Matrix type&lt;/strong>&lt;/td>
+ &lt;td>Dinucleic matrices are more detailed, while mononucleic ones are more useful for small input data sets.&lt;/td>
+ &lt;td>Mononucleic&lt;/td>
+ &lt;td>&lt;strong>type&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
 &lt;p>Available values are:&lt;/p>
 &lt;ul>
-&lt;li>true - for Dinucleic&lt;/li>
-&lt;li>false - for Mononucleic&lt;/li>
+&lt;li>&lt;code>true&lt;/code> – for Dinucleic&lt;/li>
+&lt;li>&lt;code>false&lt;/code> – for Mononucleic&lt;/li>
 &lt;/ul>
-&lt;p>Input/Output Ports&lt;/p>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
 &lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Build HMM from Alignment and test it</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/hmmer/build-hmm-from-alignment-and-test-it/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/hmmer/build-hmm-from-alignment-and-test-it/</guid><description>&lt;h1 id="build-hmm-from-alignment-and-test-it">Build HMM from Alignment and test it&lt;/h1>
-&lt;p>This workflow builds a new profile HMM from input alignment, calibrates the HMM and saves to a file. Then runs a test HMM search over sample sequence and saves test results to Genbank file.&lt;/p>
-&lt;p>How to Use This Sample&lt;/p>
-&lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENE before, look at the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p>
+&lt;p>This workflow builds a new profile HMM from input alignment, calibrates the HMM and saves to a file. Then runs a test
+HMM search over sample sequence and saves test results to Genbank file.&lt;/p>
+&lt;h2 id="how-to-use-this-sample">How to Use This Sample&lt;/h2>
+&lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENE before, look at
+the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p>
 &lt;h5 id="workflow-sample-location">Workflow Sample Location&lt;/h5>
-&lt;p>The workflow sample &amp;ldquo;Build HMM from Alignment and test it&amp;rdquo; can be found in the &amp;ldquo;HMMER&amp;rdquo; section of the Workflow Designer samples.&lt;/p></description></item><item><title>Building HMM Model</title><link>https://ugene.net/docs/extensions/hmm3/building-hmm-model/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/hmm3/building-hmm-model/</guid><description>&lt;h1 id="building-hmm-model">Building HMM Model&lt;/h1>
+&lt;p>The workflow sample &amp;ldquo;Build HMM from Alignment and test it&amp;rdquo; can be found in the &amp;ldquo;HMMER&amp;rdquo; section of the Workflow Designer
+samples.&lt;/p></description></item><item><title>Building HMM Model</title><link>https://ugene.net/docs/extensions/hmm3/building-hmm-model/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/hmm3/building-hmm-model/</guid><description>&lt;h1 id="building-hmm-model">Building HMM Model&lt;/h1>
 &lt;p>The &lt;em>HMM3 build&lt;/em> tool is used to build a new HMM profile from a multiple alignment. You can use any alignment file formats supported by UGENE.&lt;/p>
 &lt;p>The output HMM profile format is compatible with the HMMER3 package, but it is not compatible with the HMMER2.&lt;/p>
 &lt;p>The &lt;em>HMM3 build&lt;/em> automatically calibrates the target model.&lt;/p>
@@ -275,29 +632,420 @@ samples.&lt;/p></description></item><item><title>Aligning Short Reads with BWA</
 &lt;p>Calls SNPs and INDELS with SAMtools mpileup and bcftools.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> call_variants&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Output variants file&lt;/strong>&lt;/p>
-&lt;p>The url to the file with the extracted variations.&lt;/p>
-&lt;p>&lt;strong>Reference&lt;/strong>&lt;/p>
-&lt;p>Specify a file with the reference sequence.&lt;/p>
-&lt;p>The sequence will be used as reference for all datasets with NGS assemblies.&lt;/p>
-&lt;p>&lt;strong>Use reference from&lt;/strong>&lt;/p>
-&lt;p>Specify &amp;ldquo;File&amp;rdquo; to set a single reference sequence for all input NGS assemblies. The reference should be set in the &amp;ldquo;Reference&amp;rdquo; parameter.&lt;/p></description></item><item><title>CASAVA FASTQ Filter</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/custom-elements/casava-fastq-filter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/custom-elements/casava-fastq-filter/</guid><description>&lt;h1 id="casava-fastq-filter">CASAVA FASTQ Filter&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Output variants file&lt;/strong>&lt;/td>
+ &lt;td>The URL to the file with the extracted variations.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Reference&lt;/strong>&lt;/td>
+ &lt;td>File with the reference sequence for all NGS assemblies.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Use reference from&lt;/strong>&lt;/td>
+ &lt;td>&lt;code>File&lt;/code> (use same reference for all inputs) or &lt;code>Input port&lt;/code> (different references via input port).&lt;/td>
+ &lt;td>File&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Illumina-1.3+ encoding&lt;/strong>&lt;/td>
+ &lt;td>Assume Illumina 1.3+ quality encoding (mpileup &lt;code>-6&lt;/code>).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>illumina13-encoding&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Count anomalous read pairs&lt;/strong>&lt;/td>
+ &lt;td>Do not skip anomalous read pairs (mpileup &lt;code>-A&lt;/code>).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>use_orphan&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Disable BAQ computation&lt;/strong>&lt;/td>
+ &lt;td>Disable base alignment quality calculation (mpileup &lt;code>-B&lt;/code>).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>disable_baq&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Mapping quality downgrade&lt;/strong>&lt;/td>
+ &lt;td>Downgrade mapping quality for mismatched reads (mpileup &lt;code>-C&lt;/code>). Recommended for BWA: 50.&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>capq_thres&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max reads per BAM&lt;/strong>&lt;/td>
+ &lt;td>Limit number of reads per position (mpileup &lt;code>-d&lt;/code>).&lt;/td>
+ &lt;td>250&lt;/td>
+ &lt;td>&lt;strong>max_depth&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Extended BAQ computation&lt;/strong>&lt;/td>
+ &lt;td>Improves MNP sensitivity (mpileup &lt;code>-E&lt;/code>).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>ext_baq&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>BED or position list file&lt;/strong>&lt;/td>
+ &lt;td>Regions to generate pileup for (mpileup &lt;code>-l&lt;/code>).&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>bed&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Pileup region&lt;/strong>&lt;/td>
+ &lt;td>Region to generate pileup (mpileup &lt;code>-r&lt;/code>).&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>reg&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Minimum mapping quality&lt;/strong>&lt;/td>
+ &lt;td>Minimum mapping quality for alignments (mpileup &lt;code>-q&lt;/code>).&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>min_mq&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Minimum base quality&lt;/strong>&lt;/td>
+ &lt;td>Minimum base quality (mpileup &lt;code>-Q&lt;/code>).&lt;/td>
+ &lt;td>13&lt;/td>
+ &lt;td>&lt;strong>min_baseq&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap extension error&lt;/strong>&lt;/td>
+ &lt;td>Error probability for gap extension (mpileup &lt;code>-e&lt;/code>).&lt;/td>
+ &lt;td>20&lt;/td>
+ &lt;td>&lt;strong>extQ&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Homopolymer error coefficient&lt;/strong>&lt;/td>
+ &lt;td>Error model coefficient for indels in homopolymers (mpileup &lt;code>-h&lt;/code>).&lt;/td>
+ &lt;td>100&lt;/td>
+ &lt;td>&lt;strong>tandemQ&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>No INDELs&lt;/strong>&lt;/td>
+ &lt;td>Do not call INDELs (mpileup &lt;code>-I&lt;/code>).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>no_indel&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max INDEL depth&lt;/strong>&lt;/td>
+ &lt;td>Skip INDELs above per-sample depth (mpileup &lt;code>-L&lt;/code>).&lt;/td>
+ &lt;td>250&lt;/td>
+ &lt;td>&lt;strong>max_indel_depth&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap open error&lt;/strong>&lt;/td>
+ &lt;td>Gap open error probability (mpileup &lt;code>-o&lt;/code>).&lt;/td>
+ &lt;td>40&lt;/td>
+ &lt;td>&lt;strong>openQ&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Platform list for indels&lt;/strong>&lt;/td>
+ &lt;td>Comma-separated list of platforms for indels (mpileup &lt;code>-P&lt;/code>).&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>pl_list&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Retain all alternates&lt;/strong>&lt;/td>
+ &lt;td>Keep all alternate alleles (bcftools view &lt;code>-A&lt;/code>).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>keepalt&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Indicate PL&lt;/strong>&lt;/td>
+ &lt;td>PL from older SAMtools versions (bcftools view &lt;code>-F&lt;/code>).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>fix_pl&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>No genotype information&lt;/strong>&lt;/td>
+ &lt;td>Suppress genotypes (bcftools view &lt;code>-G&lt;/code>).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>no_geno&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>A/C/G/T only&lt;/strong>&lt;/td>
+ &lt;td>Skip sites where REF is not A/C/G/T (bcftools view &lt;code>-N&lt;/code>).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>acgt_only&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>List of sites&lt;/strong>&lt;/td>
+ &lt;td>Limit to listed sites (bcftools view &lt;code>-l&lt;/code>).&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>bcf_bed&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>QCALL likelihood&lt;/strong>&lt;/td>
+ &lt;td>Output QCALL format (bcftools view &lt;code>-Q&lt;/code>).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>qcall&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Sample list&lt;/strong>&lt;/td>
+ &lt;td>File with sample names and ploidy (bcftools view &lt;code>-s&lt;/code>).&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>samples&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min sample fraction&lt;/strong>&lt;/td>
+ &lt;td>Skip loci if &amp;lt; fraction of samples are covered (bcftools view &lt;code>-d&lt;/code>).&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>min_smpl_frac&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Per-sample genotypes&lt;/strong>&lt;/td>
+ &lt;td>Call genotypes (bcftools view &lt;code>-g&lt;/code>).&lt;/td>
+ &lt;td>True&lt;/td>
+ &lt;td>&lt;strong>call_gt&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>INDEL-to-SNP ratio&lt;/strong>&lt;/td>
+ &lt;td>Expected mutation ratio (bcftools view &lt;code>-i&lt;/code>).&lt;/td>
+ &lt;td>-1&lt;/td>
+ &lt;td>&lt;strong>indel_frac&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>**Max P(ref&lt;/td>
+ &lt;td>D)**&lt;/td>
+ &lt;td>Site considered variant if probability of reference is below (bcftools view).&lt;/td>
+ &lt;td>0.5&lt;/td>
+ &lt;td>&lt;strong>pref&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Allele frequency prior&lt;/strong>&lt;/td>
+ &lt;td>Allele frequency prior: &lt;code>full&lt;/code>, &lt;code>cond2&lt;/code>, &lt;code>flat&lt;/code>, or previous run output (bcftools view &lt;code>-P&lt;/code>).&lt;/td>
+ &lt;td>full&lt;/td>
+ &lt;td>&lt;strong>ptype&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Mutation rate&lt;/strong>&lt;/td>
+ &lt;td>Mutation rate (bcftools view &lt;code>-t&lt;/code>).&lt;/td>
+ &lt;td>0.001&lt;/td>
+ &lt;td>&lt;strong>theta&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Pair/trio calling&lt;/strong>&lt;/td>
+ &lt;td>Enable pair/trio calling (bcftools view &lt;code>-T&lt;/code>).&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>ccall&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>N group-1 samples&lt;/strong>&lt;/td>
+ &lt;td>Number of group-1 samples for association test (bcftools view &lt;code>-1&lt;/code>).&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>n1&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>N permutations&lt;/strong>&lt;/td>
+ &lt;td>Permutations for association test (bcftools view &lt;code>-U&lt;/code>).&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>n_perm&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min P(chi²)&lt;/strong>&lt;/td>
+ &lt;td>Threshold for P(chi²) to perform permutations.&lt;/td>
+ &lt;td>0.01&lt;/td>
+ &lt;td>&lt;strong>min_perm_p&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min RMS quality&lt;/strong>&lt;/td>
+ &lt;td>Minimum RMS mapping quality for SNPs (varFilter &lt;code>-Q&lt;/code>).&lt;/td>
+ &lt;td>10&lt;/td>
+ &lt;td>&lt;strong>min-qual&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min read depth&lt;/strong>&lt;/td>
+ &lt;td>Minimum read depth (varFilter &lt;code>-d&lt;/code>).&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>&lt;strong>min-dep&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max read depth&lt;/strong>&lt;/td>
+ &lt;td>Maximum read depth (varFilter &lt;code>-D&lt;/code>).&lt;/td>
+ &lt;td>10000000&lt;/td>
+ &lt;td>&lt;strong>max-dep&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Alternate bases&lt;/strong>&lt;/td>
+ &lt;td>Minimum alternate base count (varFilter &lt;code>-a&lt;/code>).&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>&lt;strong>min-alt-bases&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap size&lt;/strong>&lt;/td>
+ &lt;td>SNPs within this distance of a gap are filtered (varFilter &lt;code>-w&lt;/code>).&lt;/td>
+ &lt;td>3&lt;/td>
+ &lt;td>&lt;strong>gap-size&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Window size&lt;/strong>&lt;/td>
+ &lt;td>Filtering window for adjacent gaps (varFilter &lt;code>-W&lt;/code>).&lt;/td>
+ &lt;td>10&lt;/td>
+ &lt;td>&lt;strong>window&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Strand bias&lt;/strong>&lt;/td>
+ &lt;td>P-value threshold for strand bias (varFilter &lt;code>-1&lt;/code>).&lt;/td>
+ &lt;td>0.0001&lt;/td>
+ &lt;td>&lt;strong>min-strand&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>BaseQ bias&lt;/strong>&lt;/td>
+ &lt;td>Minimum P-value for baseQ bias (varFilter &lt;code>-2&lt;/code>).&lt;/td>
+ &lt;td>1e-100&lt;/td>
+ &lt;td>&lt;strong>min-baseQ&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>MapQ bias&lt;/strong>&lt;/td>
+ &lt;td>Minimum P-value for mapping quality bias (varFilter &lt;code>-3&lt;/code>).&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>min-mapQ&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>End distance bias&lt;/strong>&lt;/td>
+ &lt;td>Minimum P-value for bias near sequence ends (varFilter &lt;code>-4&lt;/code>).&lt;/td>
+ &lt;td>0.0001&lt;/td>
+ &lt;td>&lt;strong>min-end-distance&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>HWE&lt;/strong>&lt;/td>
+ &lt;td>Minimum P-value for Hardy-Weinberg Equilibrium + F&amp;lt;0 (varFilter &lt;code>-e&lt;/code>).&lt;/td>
+ &lt;td>0.0001&lt;/td>
+ &lt;td>&lt;strong>min-hwe&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Log filtered&lt;/strong>&lt;/td>
+ &lt;td>Print filtered variants to log (varFilter &lt;code>-p&lt;/code>).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>print-filtered&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 2 &lt;em>input ports&lt;/em>:&lt;/p></description></item><item><title>CASAVA FASTQ Filter</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/custom-elements/casava-fastq-filter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/custom-elements/casava-fastq-filter/</guid><description>&lt;h1 id="casava-fastq-filter">CASAVA FASTQ Filter&lt;/h1>
 &lt;p>Reads in FASTQ file produced by CASAVA 1.8 contain &amp;lsquo;N&amp;rsquo; or &amp;lsquo;Y&amp;rsquo; as a part of an idetifier. &amp;lsquo;Y&amp;rsquo; if a read if filtered, &amp;lsquo;N&amp;rsquo; if the read if the read is not filtered. The workflow cleans up the filtered reads.&lt;/p>
 &lt;p>How to Use This Sample&lt;/p>
 &lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENE before, look at the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p></description></item><item><title>CASAVA FASTQ Filter Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/casava-fastq-filter-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/casava-fastq-filter-element/</guid><description>&lt;h1 id="casava-fastq-filter-element">CASAVA FASTQ Filter Element&lt;/h1>
-&lt;p>Reads in FASTQ file produced by CASAVA 1.8 contain &amp;lsquo;N&amp;rsquo; or &amp;lsquo;Y&amp;rsquo; as a part of an idetifier. &amp;lsquo;Y&amp;rsquo; if a read if filtered, &amp;lsquo;N&amp;rsquo; if the read if the read is not filtered. The workflow cleans up the filtered reads. For example: @HWI-ST880:181:D1WRUACXX:8:1102:4905:2125 1:N:0:TAAGGG CTTACATAACTACTGACCATGCTCTCTCTTGTCTGTCTCTTATACACATCT + 111442222322324232AAFFHIJJJJJJIHIIF111CGGFHIG???FGB @HWI-ST880:181:D1WRUACXX:8:1102:7303:2101 1:Y:0:TAAGGG TCCTTACTGTCTGAGCAATGGGATTCCATCTTTTACGATCTAGACATGGCT + 11++4222322.&lt;/p>
+&lt;p>Reads in FASTQ file produced by CASAVA 1.8 contain &amp;lsquo;N&amp;rsquo; or &amp;lsquo;Y&amp;rsquo; as a part of an identifier.
+&amp;lsquo;Y&amp;rsquo; if a read is filtered, &amp;lsquo;N&amp;rsquo; if the read is not filtered. The workflow cleans up the filtered reads.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> CASAVAFilter&lt;/p>
-&lt;p>Parameters&lt;/p>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p></description></item><item><title>CDD Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/cdd-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/cdd-algorithm-element/</guid><description>&lt;h1 id="cdd-algorithm-element">CDD Algorithm Element&lt;/h1>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Output directory&lt;/strong>&lt;/td>
+ &lt;td>Select an output directory. &lt;code>Custom&lt;/code> – use &amp;ldquo;Custom directory&amp;rdquo;. &lt;code>Workflow&lt;/code> – use internal directory. &lt;code>Input file&lt;/code> – use input file directory.&lt;/td>
+ &lt;td>Input file&lt;/td>
+ &lt;td>&lt;strong>out-mode&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Custom directory&lt;/strong>&lt;/td>
+ &lt;td>Specify the output directory if &amp;ldquo;Custom&amp;rdquo; is selected.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>custom-dir&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file name&lt;/strong>&lt;/td>
+ &lt;td>Name of the output file. If empty, the name of the first file with an added extension will be used.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>out-name&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Port Name (GUI)&lt;/th>
+ &lt;th>Workflow File Name&lt;/th>
+ &lt;th>Slots&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Input File&lt;/strong>&lt;/td>
+ &lt;td>&lt;code>in-file&lt;/code>&lt;/td>
+ &lt;td>&lt;strong>Source URL&lt;/strong> → &lt;code>url&lt;/code> (&lt;em>string&lt;/em>)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output File&lt;/strong>&lt;/td>
+ &lt;td>&lt;code>out-file&lt;/code>&lt;/td>
+ &lt;td>&lt;strong>Source URL&lt;/strong> → &lt;code>url&lt;/code> (&lt;em>string&lt;/em>)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>CDD Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/cdd-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/cdd-algorithm-element/</guid><description>&lt;h1 id="cdd-algorithm-element">CDD Algorithm Element&lt;/h1>
 &lt;p>When the &lt;em>element&lt;/em> is used the input nucleotide sequence is translated into 6 amino sequences. The translated sequences are used to query the NCBI Conserved Domain Database (CDD).&lt;/p>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
 &lt;p>Parameter&lt;/p>
@@ -1105,22 +1853,48 @@ url-in:/home/user/pkinase.sto;
 &lt;p>You can turn off the &lt;em>Sequence offsets&lt;/em> by unchecking the &lt;em>Actions ‣ View ‣ Show offsets&lt;/em> main menu item or &lt;em>View ‣ Show offsets&lt;/em> context menu item.&lt;/p></description></item><item><title>Alignment Statistics</title><link>https://ugene.net/docs/sanger-reads-editor/working-with-chromatogram/alignment-statistics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sanger-reads-editor/working-with-chromatogram/alignment-statistics/</guid><description>&lt;h1 id="alignment-statistics">Alignment Statistics&lt;/h1>
 &lt;p>To show statistics use the &lt;em>General&lt;/em> tab of the &lt;em>Options Panel&lt;/em>:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929765/65929766.png" alt="">&lt;/p></description></item><item><title>Annotate with UQL Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/annotate-with-uql-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/annotate-with-uql-element/</guid><description>&lt;h1 id="annotate-with-uql-element">Annotate with UQL Element&lt;/h1>
-&lt;p>Analyzes a nucleotide sequence with a UGENE Query Language (UQL) workflow. The workflow specifies a set of features to search for and their positional relationship.&lt;/p>
-&lt;p>To learn more about UQL workflows read &lt;a href="https://doc.ugene.net/wiki/display/UM/About+the+Query+Designer">UGENE Query Designer Manual&lt;/a>.&lt;/p>
+&lt;p>Analyzes a nucleotide sequence with a UGENE Query Language (UQL) workflow. The workflow specifies a set of features to
+search for and their positional relationship.&lt;/p>
+&lt;p>To learn more about UQL workflows
+read &lt;a href="https://doc.ugene.net/wiki/display/UM/About+the+Query+Designer">UGENE Query Designer Manual&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> query&lt;/p>
-&lt;p>Parameters&lt;/p>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Workflow&lt;/strong> (required)&lt;/p>
-&lt;p>UQL workflow file.&lt;/p>
-&lt;p>&lt;strong>schema&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Merge&lt;/strong>&lt;/p>
-&lt;p>Merges regions of each result into a single annotation.&lt;/p>
-&lt;p>False&lt;/p></description></item><item><title>Annotations Visability</title><link>https://ugene.net/docs/sequence-view/manipulating-annotations/highlighting-annotations/annotations-visability/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view/manipulating-annotations/highlighting-annotations/annotations-visability/</guid><description>&lt;h1 id="annotations-visability">Annotations Visability&lt;/h1>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Workflow&lt;/strong> (required)&lt;/td>
+ &lt;td>UQL workflow file.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>schema&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Merge&lt;/strong>&lt;/td>
+ &lt;td>Merges regions of each result into a single annotation.&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>merge&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Offset&lt;/strong>&lt;/td>
+ &lt;td>If the &lt;em>Merge&lt;/em> parameter is set to &lt;em>True&lt;/em>, adds left and right offsets of the specified length to the annotation.&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>offset&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Annotations Visability</title><link>https://ugene.net/docs/sequence-view/manipulating-annotations/highlighting-annotations/annotations-visability/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view/manipulating-annotations/highlighting-annotations/annotations-visability/</guid><description>&lt;h1 id="annotations-visability">Annotations Visability&lt;/h1>
 &lt;p>To show/hide annotations with a certain name, select this name in the annotations names table and check/uncheck the &lt;em>Show annotations&lt;/em> check box below. Another way to show/hide the annotations is to select the &lt;em>Enable/Disable highlighting&lt;/em> item in the context menu of an annotation.&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929476/65929477.png" alt="">&lt;/p></description></item><item><title>Assembly Browser Window</title><link>https://ugene.net/docs/assembly-browser/browsing-and-zooming-assembly/assembly-browser-window/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/browsing-and-zooming-assembly/assembly-browser-window/</guid><description>&lt;h1 id="assembly-browser-window">Assembly Browser Window&lt;/h1>
 &lt;p>The opened window contains the list of well-covered regions of the assembly:&lt;/p>
@@ -1141,54 +1915,202 @@ url-in:/home/user/pkinase.sto;
 &lt;li>URI&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929861/65929862.png" alt="">&lt;/p></description></item><item><title>Assembly Transcripts with Cufflinks Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-rna-seq-analysis/assembly-transcripts-with-cufflinks-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-rna-seq-analysis/assembly-transcripts-with-cufflinks-element/</guid><description>&lt;h1 id="assembly-transcripts-with-cufflinks-element">Assembly Transcripts with Cufflinks Element&lt;/h1>
-&lt;p>Cufflinks accept aligned RNA-Seq reads and assemble the alignments into a parsimonious set of transcripts. Cufflinks then estimate the relative abundances of these transcripts based on how many reads support each one, taking into account biases in library preparation protocols.&lt;/p>
+&lt;p>Cufflinks accept aligned RNA-Seq reads and assemble the alignments into a parsimonious set of transcripts. Cufflinks
+then estimate the relative abundances of these transcripts based on how many reads support each one, taking into account
+biases in library preparation protocols.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> cufflinks&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Output directory&lt;/strong>&lt;/p>
-&lt;p>Directory to save MACS output files.&lt;/p>
-&lt;p>&lt;strong>out-dir&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Reference annotation&lt;/strong>&lt;/p></description></item><item><title>Base Content Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/base-content-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/base-content-algorithm-element/</guid><description>&lt;h1 id="base-content-algorithm-element">Base Content Algorithm Element&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Output directory&lt;/strong>&lt;/td>
+ &lt;td>Directory to save MACS output files.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>out-dir&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Reference annotation&lt;/strong>&lt;/td>
+ &lt;td>Use the supplied reference annotation to estimate isoform expression. Novel transcripts will not be assembled. Alignments not compatible with any reference transcript are ignored.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>ref-annotation&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>RABT annotation&lt;/strong>&lt;/td>
+ &lt;td>Use the supplied reference annotation to guide Reference Annotation Based Transcript (RABT) assembly. Adds faux-reads. Output includes reference transcripts and any novel transcripts.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>rabt-annotation&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Library type&lt;/strong>&lt;/td>
+ &lt;td>Specifies RNA-Seq protocol.&lt;/td>
+ &lt;td>Standart Illumina&lt;/td>
+ &lt;td>&lt;strong>library-type&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Mask file&lt;/strong>&lt;/td>
+ &lt;td>Reads from transcripts in this file are ignored (e.g. rRNA, mitochondrial). Masking improves robustness of abundance estimates.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>mask-file&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Multi-read correct&lt;/strong>&lt;/td>
+ &lt;td>Enable procedure to better weight reads mapping to multiple genome locations.&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>multi-read-correct&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min isoform fraction&lt;/strong>&lt;/td>
+ &lt;td>Filters out very low abundance transcripts that may be unreliable or artifacts. Also filters introns with few supporting alignments.&lt;/td>
+ &lt;td>0.1&lt;/td>
+ &lt;td>&lt;strong>min-isoform-fraction&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Frag bias correct&lt;/strong>&lt;/td>
+ &lt;td>Run bias correction algorithm using provided multi-FASTA file of the genome. Improves abundance estimates.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>frag-bias-correct&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Pre-mRNA fraction&lt;/strong>&lt;/td>
+ &lt;td>Filters intronic alignments if they are likely pre-mRNA. Value defines threshold for intron depth vs. splice reads.&lt;/td>
+ &lt;td>0.15&lt;/td>
+ &lt;td>&lt;strong>pre-mrna-fraction&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Cufflinks tool path&lt;/strong>&lt;/td>
+ &lt;td>Path to the Cufflinks external tool in UGENE.&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>&lt;strong>path&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Temporary directory&lt;/strong>&lt;/td>
+ &lt;td>Directory for temporary files.&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>&lt;strong>tmp-dir&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Base Content Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/base-content-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/base-content-algorithm-element/</guid><description>&lt;h1 id="base-content-algorithm-element">Base Content Algorithm Element&lt;/h1>
 &lt;p>Searches regions in a sequence that contain a specified percentage of a certain base.&lt;/p>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>&lt;strong>Annotate As&lt;/strong>&lt;/p>
-&lt;p>Name of the result annotations.&lt;/p>
-&lt;p>misc_feature&lt;/p>
-&lt;p>&lt;strong>Base&lt;/strong>&lt;/p>
-&lt;p>Specifies the base, i.e. A, C, G or T.&lt;/p>
-&lt;p>You must specify a value!&lt;/p>
-&lt;p>&lt;strong>Percentage&lt;/strong>&lt;/p>
-&lt;p>Percentage of the base in a region. The value must be &amp;gt;= 50%.&lt;/p>
-&lt;p>90%&lt;/p>
-&lt;p>&lt;strong>Min Length&lt;/strong>&lt;/p>
-&lt;p>Minimum length of a region. The value must be &amp;gt;= 5.&lt;/p></description></item><item><title>Build SITECON Model Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/build-sitecon-model-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/build-sitecon-model-element/</guid><description>&lt;h1 id="build-sitecon-model-element">Build SITECON Model Element&lt;/h1>
-&lt;p>Builds statistical profile for SITECON. The SITECON is a program for probabilistic recognition of transcription factor binding sites.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Annotate As&lt;/strong>&lt;/td>
+ &lt;td>Name of the result annotations.&lt;/td>
+ &lt;td>misc_feature&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Base&lt;/strong>&lt;/td>
+ &lt;td>Specifies the base, i.e. A, C, G or T.&lt;/td>
+ &lt;td>You must specify a value!&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Percentage&lt;/strong>&lt;/td>
+ &lt;td>Percentage of the base in a region. The value must be &amp;gt;= 50%.&lt;/td>
+ &lt;td>90%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min Length&lt;/strong>&lt;/td>
+ &lt;td>Minimum length of a region. The value must be &amp;gt;= 5.&lt;/td>
+ &lt;td>5 bp&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max Length&lt;/strong>&lt;/td>
+ &lt;td>Maximum length of a region.&lt;/td>
+ &lt;td>5 bp&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Direction&lt;/strong>&lt;/td>
+ &lt;td>See the description &lt;a href="http://ugene.unipro.ru/documentation/qd_manual/manipulating_schema/managing_strands.html#managing-strands">&lt;em>here&lt;/em>&lt;/a>.&lt;/td>
+ &lt;td>Any&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="parameters-in-schema-file">Parameters in Schema File&lt;/h2>
+&lt;p>&lt;strong>Type:&lt;/strong> base-content&lt;/p></description></item><item><title>Build SITECON Model Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/build-sitecon-model-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/transcription-factor/build-sitecon-model-element/</guid><description>&lt;h1 id="build-sitecon-model-element">Build SITECON Model Element&lt;/h1>
+&lt;p>Builds statistical profile for SITECON. The SITECON is a program for probabilistic recognition of transcription factor
+binding sites.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> sitecon-build&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Weight algorithm&lt;/strong>&lt;/p>
-&lt;p>Optional feature, in most cases applying no weight will fit. In some cases choosing algorithm 2 will increase the recognition quality.&lt;/p>
-&lt;p>None&lt;/p>
-&lt;p>&lt;strong>weight-algorithm&lt;/strong>&lt;/p>
-&lt;p>&lt;em>boolean&lt;/em>&lt;/p>
-&lt;p>Available values are:&lt;/p>
-&lt;ul>
-&lt;li>0 - for None&lt;/li>
-&lt;li>1 - for Algorithm2&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>Window size, bp&lt;/strong>&lt;/p></description></item><item><title>Building Index for Bowtie</title><link>https://ugene.net/docs/extensions/bowtie/building-index-for-bowtie/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/bowtie/building-index-for-bowtie/</guid><description>&lt;h1 id="building-index-for-bowtie">Building Index for Bowtie&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Weight algorithm&lt;/strong>&lt;/td>
+ &lt;td>Optional feature. In most cases, applying no weight will fit. In some cases, choosing algorithm 2 will increase the recognition quality.&lt;/td>
+ &lt;td>None&lt;/td>
+ &lt;td>&lt;strong>weight-algorithm&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>Available values are:&lt;br>• &lt;code>0&lt;/code> - for None&lt;br>• &lt;code>1&lt;/code> - for Algorithm2&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Window size, bp&lt;/strong>&lt;/td>
+ &lt;td>Window is used to pick out the most important alignment region and is located at the center of the alignment. Must not be greater than alignment length. Recommended: ≤ 50 bp.&lt;/td>
+ &lt;td>40&lt;/td>
+ &lt;td>&lt;strong>window-size&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Calibration length&lt;/strong>&lt;/td>
+ &lt;td>Length of random synthetic sequences used to calibrate the profile. Should not be less than window size.&lt;/td>
+ &lt;td>1M&lt;/td>
+ &lt;td>&lt;strong>calibrate-length&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Random seed&lt;/strong>&lt;/td>
+ &lt;td>A positive integer to generate reproducible results.&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>seed&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Building Index for Bowtie</title><link>https://ugene.net/docs/extensions/bowtie/building-index-for-bowtie/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/bowtie/building-index-for-bowtie/</guid><description>&lt;h1 id="building-index-for-bowtie">Building Index for Bowtie&lt;/h1>
 &lt;p>To build &lt;em>Bowtie&lt;/em> index select the &lt;em>Tools ‣ NGS data analysis ‣ Build index for reads mapping&lt;/em> item in the main menu. The &lt;em>Build Index&lt;/em> dialog appears. Set the &lt;em>Map&lt;/em> &lt;em>short reads method&lt;/em> parameter to &lt;em>Bowtie&lt;/em>.&lt;/p>
 &lt;p>The dialog looks as follows:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65930855/88080479.png" alt="">&lt;/p>
@@ -1969,23 +2891,49 @@ tools, please, read the main &lt;a href="http://ugene.unipro.ru/documentation.ht
 &lt;p>Builds a weight matrix. Weight matrices are used for probabilistic recognition of transcription factor binding sites.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> wmatrix-build&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Matrix type&lt;/strong> (required)&lt;/p>
-&lt;p>Dinucleic matrices are more detailed, while mononucleic one is more useful for small input data sets.&lt;/p>
-&lt;p>Mononucleic&lt;/p>
-&lt;p>&lt;strong>type&lt;/strong>&lt;/p>
-&lt;p>&lt;em>boolean&lt;/em>&lt;/p>
-&lt;p>Available values are:&lt;/p>
-&lt;ul>
-&lt;li>true - for Dinucleic&lt;/li>
-&lt;li>false - for Mononucleic&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>Weight algorithm&lt;/strong>&lt;/p>
-&lt;p>Different weight algorithms use different functions to build weight matrices. It allows us to get better precision on different data sets. Log-odds, NLG, and Match algorithms are sensitive to input matrices with zero values, so some of them may not work on those matrices.&lt;/p></description></item><item><title>Building SITECON Model</title><link>https://ugene.net/docs/extensions/sitecon/building-sitecon-model/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/sitecon/building-sitecon-model/</guid><description>&lt;h1 id="building-sitecon-model">Building SITECON Model&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Matrix type&lt;/strong> (required)&lt;/td>
+ &lt;td>Dinucleic matrices are more detailed, while mononucleic one is more useful for small input data sets.&lt;/td>
+ &lt;td>Mononucleic&lt;/td>
+ &lt;td>&lt;strong>type&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>Available values are:&lt;br>• &lt;code>true&lt;/code> – for Dinucleic&lt;br>• &lt;code>false&lt;/code> – for Mononucleic&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Weight algorithm&lt;/strong>&lt;/td>
+ &lt;td>Different weight algorithms use different functions to build weight matrices. Some may not work on matrices with zero values.&lt;/td>
+ &lt;td>Berg and Von Hippel&lt;/td>
+ &lt;td>&lt;strong>weight-algorithm&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>Available values are:&lt;br>• Berg and von Hippel&lt;br>• Log-odds&lt;br>• Match&lt;br>• NLG&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Building SITECON Model</title><link>https://ugene.net/docs/extensions/sitecon/building-sitecon-model/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/sitecon/building-sitecon-model/</guid><description>&lt;h1 id="building-sitecon-model">Building SITECON Model&lt;/h1>
 &lt;p>To build a new SITECON model call the &lt;em>&lt;em>Tools ‣ Search for TFBS ‣&lt;/em> Build SITECON model from alignment&lt;/em> main menu item. The following dialog will appear:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65930802/65930803.png" alt="">&lt;/p>
 &lt;p>Here you need to select a nucleotide alignment and an output model. Optionally, you can change other parameters. After that click on the &lt;em>Build&lt;/em> button.&lt;/p></description></item><item><title>Calculating Molecular Surface</title><link>https://ugene.net/docs/sequence-view-extensions/3d-structure-viewer/changing-3d-structure-appearance/calculating-molecular-surface/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view-extensions/3d-structure-viewer/changing-3d-structure-appearance/calculating-molecular-surface/</guid><description>&lt;h1 id="calculating-molecular-surface">Calculating Molecular Surface&lt;/h1>
@@ -3510,26 +4458,46 @@ The same operation can be performed via &lt;em>Actions-&amp;gt;Edit&lt;/em> main
 &lt;p>It is possible to hide the column, if select _Hide &amp;lsquo;_db_xref&amp;rsquo; &lt;em>column&lt;/em> context menu item.&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929487/96665822.png" alt="">&lt;/p></description></item><item><title>Adjusting fragment ends</title><link>https://ugene.net/docs/extensions/molecular-cloning-in-silico/constructing-molecule/adjusting-fragment-ends/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/molecular-cloning-in-silico/constructing-molecule/adjusting-fragment-ends/</guid><description>&lt;h1 id="adjusting-fragment-ends">Adjusting fragment ends&lt;/h1>
 &lt;p>Click &amp;ldquo;Ajust 5&amp;rsquo;/3&amp;rsquo; end&amp;rdquo; to make the 5&amp;rsquo;/3&amp;rsquo; end of a selected fragment fits to the correspondig 3&amp;rsquo;/5&amp;rsquo; end of the on the fragment above/below.&lt;/p></description></item><item><title>Align with MUSCLE Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-muscle-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-muscle-element/</guid><description>&lt;h1 id="align-with-muscle-element">Align with MUSCLE Element&lt;/h1>
-&lt;p>MUSCLE is public domain multiple alignment software for protein and nucleotide sequences. MUSCLE stands for MUltiple Sequence Comparison by Log-Expectation.&lt;/p>
+&lt;p>MUSCLE is public domain multiple alignment software for protein and nucleotide sequences. MUSCLE stands for MUltiple
+Sequence Comparison by Log-Expectation.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> muscle&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Mode&lt;/strong>&lt;/p>
-&lt;p>Selector of preset configurations, that give you the choice of optimizing accuracy, speed, or some compromise between the two. The default favors accuracy.&lt;/p>
-&lt;p>MUSCLE default&lt;/p>
-&lt;p>&lt;strong>mode&lt;/strong>&lt;/p>
-&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
-&lt;p>Availables values are:&lt;/p>
-&lt;ul>
-&lt;li>0 - for MUSCLE default&lt;/li>
-&lt;li>1 - for Large alignment&lt;/li>
-&lt;li>2 - for Refine only&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>Stable order&lt;/strong>&lt;/p></description></item><item><title>Associating Variations</title><link>https://ugene.net/docs/assembly-browser/associating-variations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/associating-variations/</guid><description>&lt;h1 id="associating-variations">Associating Variations&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Mode&lt;/strong>&lt;/td>
+ &lt;td>Selector of preset configurations, that give you the choice of optimizing accuracy, speed, or some compromise between the two. The default favors accuracy.&lt;/td>
+ &lt;td>MUSCLE default&lt;/td>
+ &lt;td>&lt;strong>mode&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>Available values are:&lt;br>0 - for MUSCLE default&lt;br>1 - for Large alignment&lt;br>2 - for Refine only&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Stable order&lt;/strong>&lt;/td>
+ &lt;td>Do not rearrange aligned sequences (-stable switch of MUSCLE). Otherwise, MUSCLE re-arranges sequences so that similar sequences are adjacent in the output file. This makes the alignment easier to evaluate by eye.&lt;/td>
+ &lt;td>True&lt;/td>
+ &lt;td>&lt;strong>stable&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Associating Variations</title><link>https://ugene.net/docs/assembly-browser/associating-variations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/associating-variations/</guid><description>&lt;h1 id="associating-variations">Associating Variations&lt;/h1>
 &lt;p>To associate variations with the assembly, &lt;a href="opening-document.md">&lt;em>open the sequence&lt;/em>&lt;/a> (the sequence must be loaded) and drag it to the &lt;em>Assembly Reference Area&lt;/em>:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929834/65929835.png" alt="">&lt;/p>
 &lt;p>The variations will appear under the &lt;em>Consensus Sequence&lt;/em>:&lt;/p>
@@ -3758,16 +4726,60 @@ The same operation can be performed via &lt;em>Actions-&amp;gt;Edit&lt;/em> main
 &lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
 &lt;p>ugene join-quality &amp;ndash;in=e_coli.fa &amp;ndash;quality=e_coli.qual &amp;ndash;out=res.fastq&lt;/p></description></item><item><title>Align with T-Coffee Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-t-coffee-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-t-coffee-element/</guid><description>&lt;h1 id="align-with-t-coffee-element">Align with T-Coffee Element&lt;/h1>
 &lt;p>T-Coffee is a multiple sequence alignment package.&lt;/p>
-&lt;p>T-Coffee is used as an external tool from UGENE and it must be installed on your system. To learn more about the external tools, please, read main &lt;a href="http://ugene.unipro.ru/documentation.html">UGENE User Manual&lt;/a>.&lt;/p>
+&lt;p>T-Coffee is used as an external tool from UGENE and it must be installed on your system. To learn more about the
+external tools, please, read main &lt;a href="http://ugene.unipro.ru/documentation.html">UGENE User Manual&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> tcoffee&lt;/p>
-&lt;p>Parameters&lt;/p>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Gap extension penalty&lt;/strong>&lt;/p>
-&lt;p>Gap Extension Penalty. Positive values give rewards to gaps and prevent the alignment of unrelated segments.&lt;/p></description></item><item><title>Alignment Color Scheme</title><link>https://ugene.net/docs/basic-functions/ugene-application-settings/alignment-color-scheme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/basic-functions/ugene-application-settings/alignment-color-scheme/</guid><description>&lt;h1 id="alignment-color-scheme">Alignment Color Scheme&lt;/h1>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap extension penalty&lt;/strong>&lt;/td>
+ &lt;td>Gap Extension Penalty. Positive values give rewards to gaps and prevent the alignment of unrelated segments.&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>gap-ext-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap open penalty&lt;/strong>&lt;/td>
+ &lt;td>Gap open penalty. Must be negative, best matches get a score of 1000.&lt;/td>
+ &lt;td>-50&lt;/td>
+ &lt;td>&lt;strong>gap-open-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max iteration&lt;/strong>&lt;/td>
+ &lt;td>Number of iteration on the progressive alignment. 0 - no iteration, -1 - Nseq iterations.&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>iterations-max-num&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Tool path&lt;/strong> (required)&lt;/td>
+ &lt;td>Path to the ClustalW tool. The default path can be set in the UGENE Application Settings.&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>&lt;strong>path&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Temporary directory&lt;/strong>&lt;/td>
+ &lt;td>Directory to store temporary files.&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>&lt;strong>temp-dir&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Alignment Color Scheme</title><link>https://ugene.net/docs/basic-functions/ugene-application-settings/alignment-color-scheme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/basic-functions/ugene-application-settings/alignment-color-scheme/</guid><description>&lt;h1 id="alignment-color-scheme">Alignment Color Scheme&lt;/h1>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929359/65929360.png" alt="">&lt;/p>
 &lt;p>On the &lt;em>Alignment Color Scheme&lt;/em> tab you can create, change and delete custom color schemes.&lt;/p></description></item><item><title>Consensus Sequence</title><link>https://ugene.net/docs/assembly-browser/consensus-sequence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/consensus-sequence/</guid><description>&lt;h1 id="consensus-sequence">Consensus Sequence&lt;/h1>
 &lt;p>A consensus sequence can be found in the &lt;em>Consensus Area&lt;/em> under a reference sequence. It refers to the most common nucleotide at a particular position.&lt;/p>
@@ -5064,9 +6076,12 @@ Pay attention to &lt;em>Quality&lt;/em> slider, it is present for JPG format onl
 &lt;p>&lt;em>out&lt;/em> — output file in the ClustalW format. [String, Required]&lt;/p>
 &lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
 &lt;p>ugene align-kalign &amp;ndash;in=COI.aln &amp;ndash;out=COI_aligned.aln&lt;/p></description></item><item><title>Call Variants with SAMtools</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/call-variants-with-samtools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/call-variants-with-samtools/</guid><description>&lt;h1 id="call-variants-with-samtools">Call Variants with SAMtools&lt;/h1>
-&lt;p>Call variants in UGENE can be done using SAMtools mpileup and bcftools view utilities. To read additional information about SAMtools and its utilities visit &lt;a href="http://samtools.sourceforge.net/">SAMTools homepage&lt;/a>. Both utilities are embedded into UGENE and there is no need in additional configuration.&lt;/p>
-&lt;p>How to Use This Sample&lt;/p>
-&lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENE before, look at the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p></description></item><item><title>Intersect Annotations Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/intersect-annotations-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/intersect-annotations-element/</guid><description>&lt;h1 id="intersect-annotations-element">Intersect Annotations Element&lt;/h1>
+&lt;p>Call variants in UGENE can be done using SAMtools mpileup and bcftools view utilities. To read additional information
+about SAMtools and its utilities visit &lt;a href="http://samtools.sourceforge.net/">SAMTools homepage&lt;/a>. Both utilities are
+embedded into UGENE and there is no need in additional configuration.&lt;/p>
+&lt;h2 id="how-to-use-this-sample">How to Use This Sample&lt;/h2>
+&lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENE before, look at
+the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p></description></item><item><title>Intersect Annotations Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/intersect-annotations-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/intersect-annotations-element/</guid><description>&lt;h1 id="intersect-annotations-element">Intersect Annotations Element&lt;/h1>
 &lt;p>Intersects two sets of annotations denoted as A and B.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> intersect-annotations&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>

@@ -2,18 +2,357 @@
 &lt;p>Calls SNPs and INDELS with SAMtools mpileup and bcftools.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> call_variants&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Output variants file&lt;/strong>&lt;/p>
-&lt;p>The url to the file with the extracted variations.&lt;/p>
-&lt;p>&lt;strong>Reference&lt;/strong>&lt;/p>
-&lt;p>Specify a file with the reference sequence.&lt;/p>
-&lt;p>The sequence will be used as reference for all datasets with NGS assemblies.&lt;/p>
-&lt;p>&lt;strong>Use reference from&lt;/strong>&lt;/p>
-&lt;p>Specify &amp;ldquo;File&amp;rdquo; to set a single reference sequence for all input NGS assemblies. The reference should be set in the &amp;ldquo;Reference&amp;rdquo; parameter.&lt;/p></description></item><item><title>Change Chromosome Notation for VCF Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/change-chromosome-notation-for-vcf-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/change-chromosome-notation-for-vcf-element/</guid><description>&lt;h1 id="change-chromosome-notation-for-vcf-element">Change Chromosome Notation for VCF Element&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Output variants file&lt;/strong>&lt;/td>
+ &lt;td>The URL to the file with the extracted variations.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Reference&lt;/strong>&lt;/td>
+ &lt;td>File with the reference sequence for all NGS assemblies.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Use reference from&lt;/strong>&lt;/td>
+ &lt;td>&lt;code>File&lt;/code> (use same reference for all inputs) or &lt;code>Input port&lt;/code> (different references via input port).&lt;/td>
+ &lt;td>File&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Illumina-1.3+ encoding&lt;/strong>&lt;/td>
+ &lt;td>Assume Illumina 1.3+ quality encoding (mpileup &lt;code>-6&lt;/code>).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>illumina13-encoding&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Count anomalous read pairs&lt;/strong>&lt;/td>
+ &lt;td>Do not skip anomalous read pairs (mpileup &lt;code>-A&lt;/code>).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>use_orphan&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Disable BAQ computation&lt;/strong>&lt;/td>
+ &lt;td>Disable base alignment quality calculation (mpileup &lt;code>-B&lt;/code>).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>disable_baq&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Mapping quality downgrade&lt;/strong>&lt;/td>
+ &lt;td>Downgrade mapping quality for mismatched reads (mpileup &lt;code>-C&lt;/code>). Recommended for BWA: 50.&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>capq_thres&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max reads per BAM&lt;/strong>&lt;/td>
+ &lt;td>Limit number of reads per position (mpileup &lt;code>-d&lt;/code>).&lt;/td>
+ &lt;td>250&lt;/td>
+ &lt;td>&lt;strong>max_depth&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Extended BAQ computation&lt;/strong>&lt;/td>
+ &lt;td>Improves MNP sensitivity (mpileup &lt;code>-E&lt;/code>).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>ext_baq&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>BED or position list file&lt;/strong>&lt;/td>
+ &lt;td>Regions to generate pileup for (mpileup &lt;code>-l&lt;/code>).&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>bed&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Pileup region&lt;/strong>&lt;/td>
+ &lt;td>Region to generate pileup (mpileup &lt;code>-r&lt;/code>).&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>reg&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Minimum mapping quality&lt;/strong>&lt;/td>
+ &lt;td>Minimum mapping quality for alignments (mpileup &lt;code>-q&lt;/code>).&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>min_mq&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Minimum base quality&lt;/strong>&lt;/td>
+ &lt;td>Minimum base quality (mpileup &lt;code>-Q&lt;/code>).&lt;/td>
+ &lt;td>13&lt;/td>
+ &lt;td>&lt;strong>min_baseq&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap extension error&lt;/strong>&lt;/td>
+ &lt;td>Error probability for gap extension (mpileup &lt;code>-e&lt;/code>).&lt;/td>
+ &lt;td>20&lt;/td>
+ &lt;td>&lt;strong>extQ&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Homopolymer error coefficient&lt;/strong>&lt;/td>
+ &lt;td>Error model coefficient for indels in homopolymers (mpileup &lt;code>-h&lt;/code>).&lt;/td>
+ &lt;td>100&lt;/td>
+ &lt;td>&lt;strong>tandemQ&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>No INDELs&lt;/strong>&lt;/td>
+ &lt;td>Do not call INDELs (mpileup &lt;code>-I&lt;/code>).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>no_indel&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max INDEL depth&lt;/strong>&lt;/td>
+ &lt;td>Skip INDELs above per-sample depth (mpileup &lt;code>-L&lt;/code>).&lt;/td>
+ &lt;td>250&lt;/td>
+ &lt;td>&lt;strong>max_indel_depth&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap open error&lt;/strong>&lt;/td>
+ &lt;td>Gap open error probability (mpileup &lt;code>-o&lt;/code>).&lt;/td>
+ &lt;td>40&lt;/td>
+ &lt;td>&lt;strong>openQ&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Platform list for indels&lt;/strong>&lt;/td>
+ &lt;td>Comma-separated list of platforms for indels (mpileup &lt;code>-P&lt;/code>).&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>pl_list&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Retain all alternates&lt;/strong>&lt;/td>
+ &lt;td>Keep all alternate alleles (bcftools view &lt;code>-A&lt;/code>).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>keepalt&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Indicate PL&lt;/strong>&lt;/td>
+ &lt;td>PL from older SAMtools versions (bcftools view &lt;code>-F&lt;/code>).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>fix_pl&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>No genotype information&lt;/strong>&lt;/td>
+ &lt;td>Suppress genotypes (bcftools view &lt;code>-G&lt;/code>).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>no_geno&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>A/C/G/T only&lt;/strong>&lt;/td>
+ &lt;td>Skip sites where REF is not A/C/G/T (bcftools view &lt;code>-N&lt;/code>).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>acgt_only&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>List of sites&lt;/strong>&lt;/td>
+ &lt;td>Limit to listed sites (bcftools view &lt;code>-l&lt;/code>).&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>bcf_bed&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>QCALL likelihood&lt;/strong>&lt;/td>
+ &lt;td>Output QCALL format (bcftools view &lt;code>-Q&lt;/code>).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>qcall&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Sample list&lt;/strong>&lt;/td>
+ &lt;td>File with sample names and ploidy (bcftools view &lt;code>-s&lt;/code>).&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>samples&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min sample fraction&lt;/strong>&lt;/td>
+ &lt;td>Skip loci if &amp;lt; fraction of samples are covered (bcftools view &lt;code>-d&lt;/code>).&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>min_smpl_frac&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Per-sample genotypes&lt;/strong>&lt;/td>
+ &lt;td>Call genotypes (bcftools view &lt;code>-g&lt;/code>).&lt;/td>
+ &lt;td>True&lt;/td>
+ &lt;td>&lt;strong>call_gt&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>INDEL-to-SNP ratio&lt;/strong>&lt;/td>
+ &lt;td>Expected mutation ratio (bcftools view &lt;code>-i&lt;/code>).&lt;/td>
+ &lt;td>-1&lt;/td>
+ &lt;td>&lt;strong>indel_frac&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>**Max P(ref&lt;/td>
+ &lt;td>D)**&lt;/td>
+ &lt;td>Site considered variant if probability of reference is below (bcftools view).&lt;/td>
+ &lt;td>0.5&lt;/td>
+ &lt;td>&lt;strong>pref&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Allele frequency prior&lt;/strong>&lt;/td>
+ &lt;td>Allele frequency prior: &lt;code>full&lt;/code>, &lt;code>cond2&lt;/code>, &lt;code>flat&lt;/code>, or previous run output (bcftools view &lt;code>-P&lt;/code>).&lt;/td>
+ &lt;td>full&lt;/td>
+ &lt;td>&lt;strong>ptype&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Mutation rate&lt;/strong>&lt;/td>
+ &lt;td>Mutation rate (bcftools view &lt;code>-t&lt;/code>).&lt;/td>
+ &lt;td>0.001&lt;/td>
+ &lt;td>&lt;strong>theta&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Pair/trio calling&lt;/strong>&lt;/td>
+ &lt;td>Enable pair/trio calling (bcftools view &lt;code>-T&lt;/code>).&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>ccall&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>N group-1 samples&lt;/strong>&lt;/td>
+ &lt;td>Number of group-1 samples for association test (bcftools view &lt;code>-1&lt;/code>).&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>n1&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>N permutations&lt;/strong>&lt;/td>
+ &lt;td>Permutations for association test (bcftools view &lt;code>-U&lt;/code>).&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>n_perm&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min P(chi²)&lt;/strong>&lt;/td>
+ &lt;td>Threshold for P(chi²) to perform permutations.&lt;/td>
+ &lt;td>0.01&lt;/td>
+ &lt;td>&lt;strong>min_perm_p&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min RMS quality&lt;/strong>&lt;/td>
+ &lt;td>Minimum RMS mapping quality for SNPs (varFilter &lt;code>-Q&lt;/code>).&lt;/td>
+ &lt;td>10&lt;/td>
+ &lt;td>&lt;strong>min-qual&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min read depth&lt;/strong>&lt;/td>
+ &lt;td>Minimum read depth (varFilter &lt;code>-d&lt;/code>).&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>&lt;strong>min-dep&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max read depth&lt;/strong>&lt;/td>
+ &lt;td>Maximum read depth (varFilter &lt;code>-D&lt;/code>).&lt;/td>
+ &lt;td>10000000&lt;/td>
+ &lt;td>&lt;strong>max-dep&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Alternate bases&lt;/strong>&lt;/td>
+ &lt;td>Minimum alternate base count (varFilter &lt;code>-a&lt;/code>).&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>&lt;strong>min-alt-bases&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap size&lt;/strong>&lt;/td>
+ &lt;td>SNPs within this distance of a gap are filtered (varFilter &lt;code>-w&lt;/code>).&lt;/td>
+ &lt;td>3&lt;/td>
+ &lt;td>&lt;strong>gap-size&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Window size&lt;/strong>&lt;/td>
+ &lt;td>Filtering window for adjacent gaps (varFilter &lt;code>-W&lt;/code>).&lt;/td>
+ &lt;td>10&lt;/td>
+ &lt;td>&lt;strong>window&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Strand bias&lt;/strong>&lt;/td>
+ &lt;td>P-value threshold for strand bias (varFilter &lt;code>-1&lt;/code>).&lt;/td>
+ &lt;td>0.0001&lt;/td>
+ &lt;td>&lt;strong>min-strand&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>BaseQ bias&lt;/strong>&lt;/td>
+ &lt;td>Minimum P-value for baseQ bias (varFilter &lt;code>-2&lt;/code>).&lt;/td>
+ &lt;td>1e-100&lt;/td>
+ &lt;td>&lt;strong>min-baseQ&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>MapQ bias&lt;/strong>&lt;/td>
+ &lt;td>Minimum P-value for mapping quality bias (varFilter &lt;code>-3&lt;/code>).&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>min-mapQ&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>End distance bias&lt;/strong>&lt;/td>
+ &lt;td>Minimum P-value for bias near sequence ends (varFilter &lt;code>-4&lt;/code>).&lt;/td>
+ &lt;td>0.0001&lt;/td>
+ &lt;td>&lt;strong>min-end-distance&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>HWE&lt;/strong>&lt;/td>
+ &lt;td>Minimum P-value for Hardy-Weinberg Equilibrium + F&amp;lt;0 (varFilter &lt;code>-e&lt;/code>).&lt;/td>
+ &lt;td>0.0001&lt;/td>
+ &lt;td>&lt;strong>min-hwe&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Log filtered&lt;/strong>&lt;/td>
+ &lt;td>Print filtered variants to log (varFilter &lt;code>-p&lt;/code>).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>print-filtered&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 2 &lt;em>input ports&lt;/em>:&lt;/p></description></item><item><title>Change Chromosome Notation for VCF Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/change-chromosome-notation-for-vcf-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-variant-analysis/change-chromosome-notation-for-vcf-element/</guid><description>&lt;h1 id="change-chromosome-notation-for-vcf-element">Change Chromosome Notation for VCF Element&lt;/h1>
 &lt;p>Changes chromosome notation for each variant from the input, VCF or other variation files.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> rename-chromosome-in-variation&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>

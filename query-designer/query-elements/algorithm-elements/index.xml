@@ -11,20 +11,49 @@
 &lt;p>It is also called E-value. Describes the number of hits one can “expect” to see by chance when searching a database of a particular size.&lt;/p></description></item><item><title>Base Content Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/base-content-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/base-content-algorithm-element/</guid><description>&lt;h1 id="base-content-algorithm-element">Base Content Algorithm Element&lt;/h1>
 &lt;p>Searches regions in a sequence that contain a specified percentage of a certain base.&lt;/p>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>&lt;strong>Annotate As&lt;/strong>&lt;/p>
-&lt;p>Name of the result annotations.&lt;/p>
-&lt;p>misc_feature&lt;/p>
-&lt;p>&lt;strong>Base&lt;/strong>&lt;/p>
-&lt;p>Specifies the base, i.e. A, C, G or T.&lt;/p>
-&lt;p>You must specify a value!&lt;/p>
-&lt;p>&lt;strong>Percentage&lt;/strong>&lt;/p>
-&lt;p>Percentage of the base in a region. The value must be &amp;gt;= 50%.&lt;/p>
-&lt;p>90%&lt;/p>
-&lt;p>&lt;strong>Min Length&lt;/strong>&lt;/p>
-&lt;p>Minimum length of a region. The value must be &amp;gt;= 5.&lt;/p></description></item><item><title>Gc Content Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/gc-content-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/gc-content-algorithm-element/</guid><description>&lt;h1 id="gc-content-algorithm-element">Gc Content Algorithm Element&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Annotate As&lt;/strong>&lt;/td>
+ &lt;td>Name of the result annotations.&lt;/td>
+ &lt;td>misc_feature&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Base&lt;/strong>&lt;/td>
+ &lt;td>Specifies the base, i.e. A, C, G or T.&lt;/td>
+ &lt;td>You must specify a value!&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Percentage&lt;/strong>&lt;/td>
+ &lt;td>Percentage of the base in a region. The value must be &amp;gt;= 50%.&lt;/td>
+ &lt;td>90%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min Length&lt;/strong>&lt;/td>
+ &lt;td>Minimum length of a region. The value must be &amp;gt;= 5.&lt;/td>
+ &lt;td>5 bp&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max Length&lt;/strong>&lt;/td>
+ &lt;td>Maximum length of a region.&lt;/td>
+ &lt;td>5 bp&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Direction&lt;/strong>&lt;/td>
+ &lt;td>See the description &lt;a href="http://ugene.unipro.ru/documentation/qd_manual/manipulating_schema/managing_strands.html#managing-strands">&lt;em>here&lt;/em>&lt;/a>.&lt;/td>
+ &lt;td>Any&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="parameters-in-schema-file">Parameters in Schema File&lt;/h2>
+&lt;p>&lt;strong>Type:&lt;/strong> base-content&lt;/p></description></item><item><title>Gc Content Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/gc-content-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/gc-content-algorithm-element/</guid><description>&lt;h1 id="gc-content-algorithm-element">Gc Content Algorithm Element&lt;/h1>
 &lt;p>Searches regions in a sequence with GC content in the specified range.&lt;/p>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
 &lt;p>Parameter&lt;/p>

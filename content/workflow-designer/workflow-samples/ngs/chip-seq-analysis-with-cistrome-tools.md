@@ -5,37 +5,32 @@ weight: 200
 
 # ChIP-seq Analysis with Cistrome Tools
 
-**Attention! Cistrome Tools** was removed **in UGENE 42.0 version.**
+**Attention! Cistrome Tools** was removed in **UGENE 42.0 version.**
 
-The component for ChIP-seq data analysis is not installed by default. To use this sample, add the component via the
-UGENE Online Installer or, if you used an offline installer, manually configure the package,
-see "[Configure ChIP-Seq Analysis Data](/wiki/pages/createpage.action?spaceKey=UM&title=Configure+ChIP-Seq+Analysis+Data&linkCreation=true&fromPageId=65930320)"
-chapter of the manual (available until **UGENE 39.version**).
+The component for ChIP-seq data analysis is not installed by default. To use this sample, add the component via the UGENE Online Installer or, if you used an offline installer, manually configure the package, see the "[Configure ChIP-Seq Analysis Data](/wiki/pages/createpage.action?spaceKey=UM&title=Configure+ChIP-Seq+Analysis+Data&linkCreation=true&fromPageId=65930320)" chapter of the manual (available until **UGENE 39.version**).
 
 The ChIP-seq pipeline “Cistrome” integrated into UGENE allows the following analysis steps:
 
-- peak calling and annotating
-- motif search
-- gene ontology analysis
+- Peak calling and annotating
+- Motif search
+- Gene ontology analysis
 
-ChIP-seq analysis is started from the MACS tool. CEAS then takes peak regions and signal wiggle file to:
+ChIP-seq analysis is initiated with the MACS tool. CEAS then takes peak regions and signal wiggle file to:
 
-- check chromosome enrichment,
-- identify binding significance at features (promoters, gene bodies, etc.),
-- calculate signal aggregation at TSS/TTS or metagene bodies.
+- Check chromosome enrichment
+- Identify binding significance at features (promoters, gene bodies, etc.)
+- Calculate signal aggregation at TSS/TTS or metagene bodies
 
 Then peaks are investigated for:
 
-1. Conservation scores at binding sites;
-2. DNA motifs at binding sites.
+1. Conservation scores at binding sites
+2. DNA motifs at binding sites
 
-This is based on the [General ChIP-seq pipeline from Cistrome](http://cistrome.org/ap/workflow/list_published) on
-Galaxy.
+This is based on the [General ChIP-seq pipeline from Cistrome](http://cistrome.org/ap/workflow/list_published) on Galaxy.
 
 ## How to Use This Sample
 
-If you haven't used workflow samples in UGENE before,
-see "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)".
+If you haven't used workflow samples in UGENE before, see "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)".
 
 ### Workflow Sample Location
 
@@ -67,7 +62,7 @@ MACS parameters:
 
 | Parameter           | Description                                              |
 |---------------------|----------------------------------------------------------|
-| Genome size         | e.g., Human: 2700 Mbp, Mouse: 1870 Mbp, etc.             |
+| Genome size         | e.g., Human: 2,700 Mbp, Mouse: 1,870 Mbp, etc.           |
 | P-value             | Default 0.00001. Looser: 0.001                           |
 | Tag size            | Optional. Input 0 to auto-detect.                        |
 | Keep duplicates     | Options: `auto`, `all`, or number.                       |

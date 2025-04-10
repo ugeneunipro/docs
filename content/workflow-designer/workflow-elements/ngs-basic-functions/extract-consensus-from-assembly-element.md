@@ -19,8 +19,8 @@ Extracts the consensus sequence from the incoming assembly.
 
 | **Parameter** | **Description**                                           | **Default Value** | **Parameter in Workflow File** | **Type**  |
 |---------------|-----------------------------------------------------------|-------------------|--------------------------------|-----------|
-| **Algorithm** | The algorithm of consensus extracting.                    | Default           | `algorithm`                    | _string_  |
-| **Keep gaps** | If set to `True`, the result consensus will contain gaps. | True              | `keep-gaps`                    | _boolean_ |
+| **Algorithm** | The algorithm for extracting consensus.                   | Default           | `algorithm`                    | _string_  |
+| **Keep gaps** | If set to `True`, the resulting consensus will contain gaps. | True              | `keep-gaps`                    | _boolean_ |
 
 ---
 
@@ -31,7 +31,7 @@ Extracts the consensus sequence from the incoming assembly.
 - **Name in GUI:** `in-assembly`
 - **Name in Workflow File:** `in-assembly`
 
-| **Slot In GUI** | **Slot in Workflow File** | **Type**   |
+| **Slot in GUI** | **Slot in Workflow File** | **Type**   |
 |-----------------|---------------------------|------------|
 | Assembly data   | `assembly`                | _assembly_ |
 
@@ -42,6 +42,6 @@ Extracts the consensus sequence from the incoming assembly.
 - **Name in GUI:** `out-sequence`
 - **Name in Workflow File:** `out-sequence`
 
-| **Slot In GUI** | **Slot in Workflow File** | **Type** |
+| **Slot in GUI** | **Slot in Workflow File** | **Type** |
 |-----------------|---------------------------|----------|
 | Sequence        | `sequence`                | _string_ |

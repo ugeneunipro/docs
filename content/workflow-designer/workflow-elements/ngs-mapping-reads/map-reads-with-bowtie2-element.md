@@ -16,8 +16,6 @@ Parameters in GUI
 
 Directory to save Bowtie2 output files.
 
-
-
 **output-dir**
 
 _string_
@@ -25,8 +23,6 @@ _string_
 **Reference genome**
 
 Path to an indexed reference genome.
-
-
 
 **reference**
 
@@ -36,8 +32,6 @@ _string_
 
 Base name of the output file. 'out.sam' by default.
 
-out.sam
-
 **outname**
 
 _string_
@@ -46,7 +40,7 @@ _string_
 
 Is this library mate-paired?
 
-single-end
+**single-end**
 
 **library**
 
@@ -54,9 +48,9 @@ _string_
 
 **Mode**
 
-When the -n option is specified (which is the default), bowtie determines which alignments are valid according to the following policy, which is similar to Maq's default policy. In -v mode, alignments may have no more than V mismatches, where V may be a number from 0 through 3 set using the -v option. Quality values are ignored. The -v option is mutually exclusive with the -n option.
+When the -n option is specified (which is the default), Bowtie determines which alignments are valid according to the following policy, which is similar to Maq's default policy. In -v mode, alignments may have no more than V mismatches, where V may be a number from 0 through 3 set using the -v option. Quality values are ignored. The -v option is mutually exclusive with the -n option.
 
-\--end-to-end
+**--end-to-end**
 
 **mode**
 
@@ -64,29 +58,23 @@ _string_
 
 **Number of mismatches**
 
-Sets the number of mismatches to allowed in a seed alignment. Can be set to 0 or 1. Setting this higher makes alignment slower (often much slower) but increases sensitivity.
+Sets the number of mismatches allowed in a seed alignment. Can be set to 0 or 1. Setting this higher makes alignment slower (often much slower) but increases sensitivity.
 
-0
-
-**mismatches\_number**
+**mismatches_number**
 
 _numeric_
 
 **Seed length (--L)**
 
-Sets the length of the seed substrings to align. Smaller values make alignment slower but more senstive.
+Sets the length of the seed substrings to align. Smaller values make alignment slower but more sensitive.
 
-20
-
-**seed\_len**
+**seed_len**
 
 _numeric_
 
 **Add columns to allow gaps (--dpad)**
 
 "Pads" dynamic programming problems by the specified number of columns on either side to allow gaps.
-
-15
 
 **dpad**
 
@@ -96,8 +84,6 @@ _numeric_
 
 Disallow gaps within a specified number of positions of the beginning or end of the read.
 
-4
-
 **gbar**
 
 _numeric_
@@ -106,17 +92,13 @@ _numeric_
 
 Use as the seed for pseudo-random number generator.
 
-0
-
 **seed**
 
 _numeric_
 
 **Threads**
 
-Launch specified number of parallel search threads. Threads will run on separate processors/cores and synchronize when parsing reads and outputting alignments. Searching for alignments is highly parallel, and speedup is close to linear.
-
-1
+Launch the specified number of parallel search threads. Threads will run on separate processors/cores and synchronize when parsing reads and outputting alignments. Searching for alignments is highly parallel, and speedup is close to linear.
 
 **threads**
 
@@ -124,9 +106,7 @@ _numeric_
 
 **No unpaired alignments (--no-mixed)**
 
-If Bowtie2 cannot find a paired-end alignment for a pair, by default it will go on to look for unpaired alignments for the constituent mates. This is called "mixed mode." To disable mixed mode, set this option. Bowtie2 runs a little faster in the mixed mode, but will only consider the alignment status of pairs per se, not individual mates.
-
-False
+If Bowtie2 cannot find a paired-end alignment for a pair, by default it will go on to look for unpaired alignments for the constituent mates. This is called "mixed mode." To disable mixed mode, set this option. Bowtie2 runs a little faster in mixed mode, but will only consider the alignment status of pairs per se, not individual mates.
 
 **nomixed**
 
@@ -136,17 +116,13 @@ _boolean_
 
 By default, Bowtie2 looks for discordant alignments if it cannot find any concordant alignments. A discordant alignment is an alignment where both mates align uniquely, but that does not satisfy the paired-end constraints. This option disables that behavior.
 
-False
-
 **nodiscordant**
 
 _boolean_
 
 **No forward orientation (--nofw)**
 
-If --nofw is specified, bowtie will not attempt to align against the forward reference strand.
-
-False
+If --nofw is specified, Bowtie will not attempt to align against the forward reference strand.
 
 **nofw**
 
@@ -154,9 +130,7 @@ _boolean_
 
 **No reverse-complement orientation (--norc)**
 
-If --norc is specified, bowtie will not attempt to align against the reverse-complement reference strand.
-
-False
+If --norc is specified, Bowtie will not attempt to align against the reverse-complement reference strand.
 
 **norc**
 
@@ -166,8 +140,6 @@ _boolean_
 
 If one mate alignment overlaps the other at all, consider that to be non-concordant. Default: mates can overlap in a concordant alignment.
 
-False
-
 **nooverlap**
 
 _boolean_
@@ -176,24 +148,31 @@ _boolean_
 
 If one mate alignment contains the other, consider that to be non-concordant. Default: a mate can contain the other in a concordant alignment.
 
-False
-
 **nocontain**
 
 _boolean_
 
-Parameter
+| Parameter          | Description                                                                                           | Default value |
+|--------------------|-------------------------------------------------------------------------------------------------------|---------------|
+| Output directory   | Directory to save Bowtie2 output files.                                                               | out.sam       |
+| Reference genome   | Path to an indexed reference genome.                                                                  |               |
+| Output file name   | Base name of the output file. 'out.sam' by default.                                                   | out.sam       |
+| Library            | Is this library mate-paired?                                                                          | single-end    |
+| Mode               | Determines valid alignments; includes options -n or -v for mismatches.                                | --end-to-end  |
+| Number of mismatches | Sets allowed mismatches in a seed alignment.                                                      | 0             |
+| Seed length        | Length of seed substrings to align. Smaller values increase sensitivity but slow down alignment.      | 20            |
+| Add columns for gaps | Pad dynamic programming columns for allowing gaps.                                                  | 15            |
+| Disallow gaps      | Prevent gaps within specified positions from read ends.                                              | 4             |
+| Seed               | Seed for pseudo-random number generator.                                                             | 0             |
+| Threads            | Number of parallel threads. Speedup is close to linear with more threads.                            | 1             |
+| No unpaired alignments | Disable mixed mode in paired-end alignments.                                                     | False         |
+| No discordant alignments | Disable searching for discordant alignments.                                                  | False         |
+| No forward orientation | Prevent alignment against forward reference strand.                                             | False         |
+| No reverse-complement orientation | Prevent alignment against reverse-complement reference strand.                        | False         |
+| No overlapping mates | Consider overlapping mates as non-concordant.                                                     | False         |
+| No mates containing one another | Consider mates containing each other as non-concordant.                                | False         |
 
-Description
-
-Default value
-
-Parameter in Workflow File
-
-Type
-
-Input/Output Ports
-------------------
+## Input/Output Ports
 
 The element has 1 _input port_:
 
@@ -203,25 +182,17 @@ The element has 1 _input port_:
 
 **Slots:**
 
-**URL of a file with mate reads**
-
-**readsurl**
-
-_string_
-
-**URL of a file with reads**
-
-**readspairedurl**
+- **URL of a file with mate reads**
+- **readsurl**
 
 _string_
 
-Slot In GUI
+- **URL of a file with reads**
+- **readspairedurl**
 
-Slot in Workflow File
+_string_
 
-Type
-
-And 1 _out__put port_:
+And 1 _output port_:
 
 **Name in GUI:** Bowtie2 output data
 
@@ -229,14 +200,7 @@ And 1 _out__put port_:
 
 **Slots:**
 
-Slot In GUI
-
-Slot in Workflow File
-
-Type
-
-**Assembly URL**
-
-**assembly-out**
+- **Assembly URL**
+- **assembly-out**
 
 _string_

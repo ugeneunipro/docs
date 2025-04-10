@@ -5,7 +5,7 @@ weight: 1000
 
 # Find Pattern Element
 
-Searches regions in a sequence similar to a pattern sequence. Outputs a set of annotations.
+Searches regions in a sequence that are similar to a pattern sequence. It outputs a set of annotations.
 
 ---
 

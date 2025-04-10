@@ -13,41 +13,16 @@ Saves all input HMM3 profiles to the specified locations.
 Parameters
 ----------
 
-Parameter
+| Parameter       | Description                                                                                                      | Default value | Parameter in Workflow File | Type    |
+|-----------------|------------------------------------------------------------------------------------------------------------------|---------------|---------------------------|---------|
+| **Output file** | Location of the output data file. If this attribute is set, the “Location” slot is not taken into account.       |               | **url-out**                | _string_ |
+| **Existing file** | If a target file already exists, you can specify how it should be handled: either overwritten, renamed, or appended (if supported by file format). If the Rename option is chosen, the existing file will be renamed. | Rename        | **write-mode**             | _numeric_ |
 
-Description
+Available values for **write-mode** are:
 
-Default value
-
-Parameter in Workflow File
-
-Type
-
-**Output file**
-
-Location of the output data file. If this attribute is set, the “Location” slot is not taken into account.
-
-
-
-**url-out**
-
-_string_
-
-**Existing file**
-
-If a target file already exists, you can specify how it should be handled: either overwritten, renamed or appended (if supported by file format). If Rename option is chosen existing file will be renamed.
-
-Rename
-
-**write-mode**
-
-_numeric_
-
-Available values are:
-
-*   0 - for overwrite
-*   1 - for append
-*   2 - for rename
+- 0 - for overwrite
+- 1 - for append
+- 2 - for rename
 
 Input/Output Ports
 ------------------
@@ -60,20 +35,7 @@ The element has 1 _input port_:
 
 **Slots:**
 
-Slot In GUI
-
-Slot in Workflow File
-
-Type
-
-**HMM profile**
-
-**hmm3-profile**
-
-_hmm3-profile_
-
-**Location**
-
-**url**
-
-_string_
+| Slot In GUI   | Slot in Workflow File | Type          |
+|---------------|-----------------------|---------------|
+| **HMM profile** | **hmm3-profile**      | _hmm3-profile_ |
+| **Location**  | **url**               | _string_      |

@@ -1,31 +1,27 @@
 ---
-title: "Searching Sequence Using HMM Profile"
+title: "Sequence Search Using HMM Profile"
 weight: 200
 ---
 
+# Sequence Search Using HMM Profile
 
-# Searching Sequence Using HMM Profile
+The _HMM3 search_ tool reads an HMM profile from a file and searches a sequence for significantly similar sequence matches.
 
-The _HMM3 search_ tool reads a HMM profile from a file and searches a sequence for significantly similar sequence matches.
+The sequence must be selected in the _Project View_, or there must be an active _Sequence View_ window opened.
 
-The sequence must be selected in the _Project View_ or there must be an active _Sequence View_ window opened.
+If the selected sequence is nucleic and the profile HMM is built from an amino acid alignment, the sequence will be automatically translated and searched in all possible frames (total of 6).
 
-If the selected sequence is nucleic and profile HMM is built from amino alignment, the sequence will be automatically translated and searched in all possible frames (6 totally).
+If a profile HMM is built for nucleotide alignment, the search is performed for both strands (direct and complement).
 
-If a profile HMM is built for nucleic alignment, the search is performed for both strands (direct and complement).
-
-The _HMM3 search_ accepts the HMMER2 HMM profiles (amino only) as a backward compatibility feature. An interesting post about using the HMMER2 models with the HMMER3 is available on the [Sean Eddy’s blog](http://selab.janelia.org/people/eddys/blog/?p=117).
-
+The _HMM3 search_ accepts the HMMER2 HMM profiles (amino acid only) as a backward compatibility feature. An interesting post about using the HMMER2 models with the HMMER3 is available on [Sean Eddy’s blog](http://selab.janelia.org/people/eddys/blog/?p=117).
 
 ![](/images/65930823/65930824.png)
 
-For example, reporting thresholds options can be configured using the dialog:
-
+For example, reporting threshold options can be configured using the dialog:
 
 ![](/images/65930823/65930825.png)
 
-The search results are stored as sequence annotations in the Genbank file format.
-
+The search results are stored as sequence annotations in the GenBank file format.
 
 ![](/images/65930823/65930826.png)
 

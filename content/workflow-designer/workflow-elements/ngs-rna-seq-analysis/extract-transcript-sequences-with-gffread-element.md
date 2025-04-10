@@ -5,8 +5,7 @@ weight: 300
 
 # Extract Transcript Sequences with gffread Element
 
-This workflow element uses **gffread** to extract transcript sequences from provided genomic sequences and GFF/GTF
-annotation files.
+This workflow element uses **gffread** to extract transcript sequences from provided genomic sequences and GFF/GTF annotation files.
 
 **Element type:** `gffread`
 
@@ -26,21 +25,20 @@ annotation files.
 
 | **Name in GUI**     | **Name in Workflow File** | **Slot**             | **Slot in Workflow File** | **Type** |
 |---------------------|---------------------------|----------------------|---------------------------|----------|
-| `Input transcripts` | `in-data`                 | Genomic sequence url | `genome`                  | _string_ |
-|                     |                           | Transcripts url      | `transcripts`             | _string_ |
+| `Input transcripts` | `in-data`                 | Genomic sequence URL | `genome`                  | _string_ |
+|                     |                           | Transcripts URL      | `transcripts`             | _string_ |
 
 ### Output Port
 
 | **Name in GUI**           | **Name in Workflow File** | **Slot**  | **Slot in Workflow File** | **Type** |
 |---------------------------|---------------------------|-----------|---------------------------|----------|
-| `Extracted sequences url` | `extracted-data`          | sequences | `sequences`               | _string_ |
+| `Extracted sequences URL` | `extracted-data`          | sequences | `sequences`               | _string_ |
 
 ---
 
 ## Example
 
-You can use this element in a workflow to extract coding sequences (CDS) or full transcript sequences using a reference
-genome and GFF/GTF file.
+You can use this element in a workflow to extract coding sequences (CDS) or full transcript sequences using a reference genome and GFF/GTF file.
 
 ```bash
 ugene workflow run \
@@ -48,7 +46,6 @@ ugene workflow run \
   --genome genome.fa \
   --transcripts annotations.gtf \
   --url-out transcripts.fa
-  ```
+```
 
-This will output transcripts.fa containing the sequences of all transcripts described in annotations.gtf, extracted from
-genome.fa.
+This will output `transcripts.fa` containing the sequences of all transcripts described in `annotations.gtf`, extracted from `genome.fa`.

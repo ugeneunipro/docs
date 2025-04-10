@@ -3,16 +3,15 @@ title: "Workflow Elements"
 weight: 1200
 ---
 
-
 # Workflow Elements
 
-This section contains detailed description of all workflow elements presented in the Workflow Designer.
+This section contains a detailed description of all workflow elements presented in the Workflow Designer.
 
-For each element you can find:
+For each element, you can find:
 
-*   Description of the parameters used in the GUI
-*   Corresponding parameters names used in a workflow file
-*   Information about input and output ports
+*   Description of the parameters used in the GUI.
+*   Corresponding parameter names used in a workflow file.
+*   Information about input and output ports.
 
 The type of a parameter can be one of the following:
 
@@ -26,7 +25,7 @@ A number.
 
 **boolean**
 
-A boolean data type. Available values are: true / false, 0 / 1 and yes / no.
+A boolean data type. Available values are: true/false, 0/1, and yes/no.
 
 A port’s slot type can be one of the following:
 
@@ -52,15 +51,15 @@ A list of different tables of annotations
 
 **ebwt-index**
 
- Bowtie index
+Bowtie index
 
 **hmm2-profile**
 
-A HMM profile of HMMER2 package
+An HMM profile of the HMMER2 package
 
 **fmatrix**
 
- Frequency matrix
+Frequency matrix
 
 **wmatrix**
 
@@ -68,7 +67,7 @@ Weight matrix
 
 **sitecon-model**
 
- SITECON model
+SITECON model
 
 **assembly**
 
@@ -78,7 +77,6 @@ Assembly
 
 Variation track
 
-To search an element use the name filter or press the _Ctrl+F_ shortcut that moves you to the name filter also:
-
+To search for an element, use the name filter or press the _Ctrl+F_ shortcut, which moves you to the name filter also:
 
 ![](/images/65930053/65930054.jpg)

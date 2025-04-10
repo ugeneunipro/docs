@@ -5,7 +5,7 @@ weight: 800
 
 # Extract Consensus from Alignment as Sequence
 
-Extract the consensus sequence from an incoming multiple sequence alignment (MSA) and output it as a sequence.
+Extracts the consensus sequence from an incoming multiple sequence alignment (MSA) and outputs it as a sequence.
 
 **Element type:** `extract-msa-consensus-sequence`
 
@@ -17,7 +17,7 @@ Extract the consensus sequence from an incoming multiple sequence alignment (MSA
 |---------------|-------------------------------------------------------------------|-------------------|--------------------------------|-----------|
 | **Algorithm** | The algorithm used to calculate the consensus.                    | _(none)_          | `algorithm`                    | _string_  |
 | **Threshold** | The threshold used by the algorithm (e.g., percentage agreement). | `100`             | `threshold`                    | _numeric_ |
-| **Keep gaps** | Whether gaps should be kept in the resulting consensus sequence.  | `True`            | `keep-gaps`                    | _boolean_ |
+| **Keep gaps** | Determines whether gaps should be kept in the resulting consensus sequence.  | `True`            | `keep-gaps`                    | _boolean_ |
 
 ---
 

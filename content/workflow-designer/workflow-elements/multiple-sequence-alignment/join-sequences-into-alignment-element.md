@@ -3,7 +3,6 @@ title: "Join Sequences into Alignment Element"
 weight: 1100
 ---
 
-
 # Join Sequences into Alignment Element
 
 Creates a multiple sequence alignment from sequences.
@@ -19,17 +18,9 @@ The element has 1 _input port_:
 
 **Slots:**
 
-Slot In GUI
-
-Slot in Workflow File
-
-Type
-
-**Sequence**
-
-**sequence**
-
-_sequence_
+| Slot In GUI   | Slot in Workflow File | Type     |
+|---------------|------------------------|----------|
+| **Sequence**  | **sequence**           | _sequence_ |
 
 And 1 _output port_:
 
@@ -39,14 +30,6 @@ And 1 _output port_:
 
 **Slots:**
 
-Slot In GUI
-
-Slot in Workflow File
-
-Type
-
-**MSA**
-
-**msa**
-
-_msa_
+| Slot In GUI | Slot in Workflow File | Type |
+|-------------|------------------------|------|
+| **MSA**     | **msa**                | _msa_ |

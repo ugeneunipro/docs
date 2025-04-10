@@ -3,7 +3,7 @@ title: "Filter Sequence That Match a Pattern"
 weight: 100
 ---
 
-# Filter Sequence That Match a Pattern
+# Filter Sequence That Matches a Pattern
 
 This workflow allows filtering sequences that match (or do not match) user-specified patterns.
 
@@ -11,15 +11,13 @@ This workflow allows filtering sequences that match (or do not match) user-speci
 
 ## How to Use This Sample
 
-If you haven't used workflow samples in UGENE before, refer to
-the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
+If you haven't used workflow samples in UGENE before, refer to the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
 
 ---
 
 ## Workflow Sample Location
 
-The workflow sample **"Filter Sequence That Match a Pattern"** is available in the **Scenarios** section of the Workflow
-Designer samples.
+The workflow sample **"Filter Sequence That Match a Pattern"** is available in the **Scenarios** section of the Workflow Designer samples.
 
 ---
 
@@ -57,7 +55,7 @@ On this page, patterns must be specified, and search parameters can be configure
 | Use pattern name           | Use names of pattern sequences as annotation names (if loaded from file)      | False             | _boolean_ |
 | Max Mismatches             | Maximum number of mismatches allowed between a substring and a pattern        | 0                 | _numeric_ |
 | Allow Insertions/Deletions | Consider insertions/deletions in search                                       | False             | _boolean_ |
-| Search in Translation      | Translate nucleotide sequence to protein and search in translated sequence    | False             | _boolean_ |
+| Search in Translation      | Translate nucleotide sequence into protein and search in translated sequence  | False             | _boolean_ |
 | Support ambiguous bases    | Handle ambiguous bases correctly (disables insertions/deletions when enabled) | False             | _boolean_ |
 | Qualifier name             | Name of the qualifier in result annotations containing the pattern name       | pattern           | _string_  |
 

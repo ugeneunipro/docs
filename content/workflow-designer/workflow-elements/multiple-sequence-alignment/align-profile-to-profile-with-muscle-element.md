@@ -5,7 +5,7 @@ weight: 100
 
 # Align Profile to Profile with MUSCLE Element
 
-Aligns second profile to master profile with MUSCLE aligner.
+Aligns the second profile to the master profile using the MUSCLE aligner.
 
 **Type:** align-profile-to-profile
 
@@ -13,8 +13,8 @@ Aligns second profile to master profile with MUSCLE aligner.
 
 The element has 1 _input port_:
 
-**Name in GUI:** in-profiles
-**Name in Workflow File:** in-profiles
+**Name in GUI:** in-profiles  
+**Name in Workflow File:** in-profiles  
 **Slots:**
 
 | Slot In GUI        | Slot in Workflow File | Type         |
@@ -24,8 +24,8 @@ The element has 1 _input port_:
 
 And 1 _output port_:
 
-**Name in GUI:** out-msa
-**Name in Workflow File:** out-msa
+**Name in GUI:** out-msa  
+**Name in Workflow File:** out-msa  
 **Slots:**
 
 | Slot In GUI | Slot in Workflow File | Type         |

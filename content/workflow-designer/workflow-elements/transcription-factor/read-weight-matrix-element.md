@@ -3,54 +3,26 @@ title: "Read Weight Matrix Element"
 weight: 700
 ---
 
-
 # Read Weight Matrix Element
 
 Reads weight matrices from file(s). The files can be local or Internet URLs.
 
 **Element type:** wmatrix-read
 
-Parameters
-----------
+## Parameters
 
-Parameter
+| Parameter   | Description                                         | Default value | Parameter in Workflow File | Type   |
+|-------------|-----------------------------------------------------|---------------|----------------------------|--------|
+| **Input files** (required) | Semicolon-separated list of paths to the input files. |               | **url-in**                 | _string_ |
 
-Description
-
-Default value
-
-Parameter in Workflow File
-
-Type
-
-**Input files** (required)
-
-Semicolon-separated list of paths to the input files.
-
-
-
-**url-in**
-
-_string_
-
-Input/Output Ports
+## Input/Output Ports
 
 And 1 _output port_:
+
+| Slot In GUI   | Slot in Workflow File | Type     |
+|---------------|-----------------------|----------|
+| **Weight matrix** | **wmatrix**         | _wmatrix_ | 
 
 **Name in GUI:** _Weight matrix_
 
 **Name in Workflow File:** out-wmatrix
-
-**Slots:**
-
-Slot In GUI
-
-Slot in Workflow File
-
-Type
-
-**Weight matrix**
-
-**wmatrix**
-
-_wmatrix_

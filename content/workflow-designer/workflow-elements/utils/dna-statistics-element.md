@@ -13,12 +13,12 @@ Evaluates statistics for DNA sequences.
 
 ## Parameters
 
-| **Parameter** | **Description**      | **Default Value** | **Parameter in Workflow File** | **Type**  |
-|---------------|----------------------|-------------------|--------------------------------|-----------|
-| GC-content    | Evaluate GC-content  | `True`            | `gc-content`                   | _boolean_ |
-| GC1-content   | Evaluate GC1-content | `True`            | `gc1-content`                  | _boolean_ |
-| GC2-content   | Evaluate GC2-content | `True`            | `gc2-content`                  | _boolean_ |
-| GC3-content   | Evaluate GC3-content | `True`            | `gc3-content`                  | _boolean_ |
+| **Parameter**  | **Description**         | **Default Value** | **Parameter in Workflow File** | **Type**   |
+|----------------|-------------------------|-------------------|--------------------------------|------------|
+| GC-content     | Evaluate GC-content     | `True`            | `gc-content`                   | _boolean_  |
+| GC1-content    | Evaluate GC1-content    | `True`            | `gc1-content`                  | _boolean_  |
+| GC2-content    | Evaluate GC2-content    | `True`            | `gc2-content`                  | _boolean_  |
+| GC3-content    | Evaluate GC3-content    | `True`            | `gc3-content`                  | _boolean_  |
 
 ---
 

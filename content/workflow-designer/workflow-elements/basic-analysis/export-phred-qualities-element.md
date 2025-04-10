@@ -5,7 +5,7 @@ weight: 500
 
 # Export PHRED Qualities Element
 
-Export corresponding PHRED quality scores from input sequences.
+Export the corresponding PHRED quality scores from input sequences.
 
 **Element type:** export-phred-qualities
 
@@ -13,9 +13,9 @@ Export corresponding PHRED quality scores from input sequences.
 
 ## Parameters
 
-| **Parameter** | **Description**                         | **Default value** | **Parameter in Workflow File** | **Type** |
-|---------------|-----------------------------------------|-------------------|--------------------------------|----------|
-| PHRED output  | Path to file with PHRED quality scores. | –                 | url-out                        | _string_ |
+| **Parameter**   | **Description**                           | **Default value** | **Parameter in Workflow File** | **Type**  |
+|-----------------|-------------------------------------------|-------------------|--------------------------------|-----------|
+| PHRED output    | Path to the file with PHRED quality scores. | –                 | url-out                        | _string_  |
 
 ---
 
@@ -23,9 +23,9 @@ Export corresponding PHRED quality scores from input sequences.
 
 ### Input port
 
-**Name in GUI:** DNA sequences
+**Name in GUI:** DNA sequences  
 **Name in Workflow File:** in-sequence
 
-| **Slot in GUI** | **Slot in Workflow File** | **Type** |
-|-----------------|---------------------------|----------|
-| Sequence        | sequence                  | _string_ |
+| **Slot in GUI** | **Slot in Workflow File** | **Type**  |
+|-----------------|---------------------------|-----------|
+| Sequence        | sequence                  | _string_  |

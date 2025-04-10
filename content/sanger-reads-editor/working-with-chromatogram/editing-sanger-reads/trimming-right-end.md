@@ -3,11 +3,10 @@ title: "Trimming Right End"
 weight: 800
 ---
 
+# Trimming the Right End
 
-# Trimming Right End
+To trim the right end in the _Sanger Reads Editor_, select the symbol immediately before the portion you wish to trim, then use _Ctrl+Shift+Del_ or select _Edit_–>_Trim right end_ from the context menu to activate the edit mode.
 
-To trim right end in the _Sanger Reads Editor_ select the previous symbol before trimming part and use _Ctrl+Shift+Del_ or _Edit_–>_Trim right end_ context menu for switching the edit mode on.
+After trimming, the edit mode is automatically switched off.
 
-After that the edit mode is switched off.
-
-You always can cancel the changes pressing _Ctrl+Z_.
+You can always cancel the changes by pressing _Ctrl+Z_.

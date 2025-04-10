@@ -3,14 +3,15 @@ title: "Search for Transcription Factor Binding Sites (TFBS) in Genomic Sequence
 weight: 100
 ---
 
-
 # Search for Transcription Factor Binding Sites (TFBS) in Genomic Sequences
 
-This workflow predicts binding sites for number of transcription factors of interest using SITECON algorithm. The present workflow sample is designed for simultaneous recognition of binding sites for 3 different transcription factor types, you can expand it for recognition of any desired number of transription factor types.SITECON - is a program pakage for recognition of potential transcription factor binding sites basing on the data about conservative conformational and physicochemical properties revealed on the basis of the binding sites sets analysis.Citing SITECON Please cite:Oshchepkov D.Y., Vityaev E.E., Grigorovich D.A., Ignatieva E.V., Khlebodarova T.M.SITECON:a tool for detecting conservative conformational and physicochemicalproperties in transcription factor binding site alignments and for siterecognition. // Nucleic Acids Res. 2004 Jul 1;32(Web Server issue):W208-12.
+This workflow predicts binding sites for a number of transcription factors of interest using the SITECON algorithm. The current workflow sample is designed for the simultaneous recognition of binding sites for three different transcription factor types. You can expand it for the recognition of any desired number of transcription factor types. SITECON is a program package for the recognition of potential transcription factor binding sites based on the data about conservative conformational and physicochemical properties revealed from the analysis of binding site sets. 
+
+Citing SITECON: Please cite: Oshchepkov D.Y., Vityaev E.E., Grigorovich D.A., Ignatieva E.V., Khlebodarova T.M. SITECON: a tool for detecting conservative conformational and physicochemical properties in transcription factor binding site alignments and for site recognition. // Nucleic Acids Res. 2004 Jul 1;32(Web Server issue):W208-12.
 
 How to Use This Sample
 
-If you haven't used the workflow samples in UGENE before, look at the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
+If you haven't used the workflow samples in UGENE before, check the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
 
 ##### Workflow Sample Location
 
@@ -20,58 +21,31 @@ The workflow sample "Search for Transcription Factor Binding Sites (TFBS) in Gen
 
 The workflow looks as follows:
 
-
 ![](/images/65930593/65930594.png)
 
 ##### Workflow Wizard
 
 The wizard has 5 pages.
 
-1.  Input sequence(s): On this page you must input sequence(s).
+1. **Input sequence(s):** On this page, you must input sequence(s).
 
+   ![](/images/65930593/65930595.png)
 
-    ![](/images/65930593/65930595.png)
+2. **Search for TFBS 1, 2, 3:** On these pages, you can modify search for TFBS parameters.
 
-2.  Search for TFBS 1, 2, 3: On these pages you can modify search for TFBS parameters.
+   ![](/images/65930593/65930596.png)
 
+   The following parameters are available:
 
-    ![](/images/65930593/65930596.png)
+   | Parameter        | Description |
+   |------------------|-------------|
+   | Input file(s)    | Semicolon-separated list of paths to the input files. |
+   | Result annotation | Annotation name for marking found regions. |
+   | Search in        | Which strands should be searched: direct, complement, or both. |
+   | Min score        | Recognition quality percentage threshold. To switch off this filter, choose the lowest value. |
+   | Min Err 1        | Alternative setting for filtering results. Minimal value of Error type I. Note that all thresholds (by score, by Err1, and by Err2) are applied when filtering results. To switch off this filter, choose "0" value. |
+   | Max Err 2        | Alternative setting for filtering results. Max value of Error type II. Note that all thresholds (by score, by Err1, and by Err2) are applied when filtering results. To switch off this filter, choose "1" value. |
 
-    The following parameters are available:
+3. **Output data:** On this page, you can modify the output parameters.
 
-    Input file(s)
-
-    Semicolon-separated list of paths to the input files.
-
-    Result annotation
-
-    Annotation name for marking found regions.
-
-    Search in
-
-    Which strands should be searched: direct, complement or both.
-
-    Min score
-
-    Recognition quality percentage threshold.
-
-    If you need to switch off this filter choose the lowest value
-
-    Min Err 1
-
-    Alternative setting for filtering results, minimal value of Error type I.
-    Note that all thresholds (by score, by err1 and by err2) are applied when filtering results.
-
-    If you need to switch off this filter choose "0" value
-
-    Max Err 2
-
-    Alternative setting for filtering results, max value of Error type II.
-    Note that all thresholds (by score, by err1 and by err2) are applied when filtering results.
-
-    If you need to switch off this filter choose "1" value
-
-3.  Output data: On this page you can modify output parameters.
-
-
-    ![](/images/65930593/65930597.png)
+   ![](/images/65930593/65930597.png)

@@ -3,43 +3,28 @@ title: "Start-Start Constraint Element"
 weight: 400
 ---
 
-
 # Start-Start Constraint Element
 
-[_Add the Start-Start constraint_](../../manipulating-query-designer-element/adding-constraint-element) to some two _algorithm elements_. Lets denote these elements as **alg1** and **alg2**.
+[_Add the Start-Start constraint_](../../manipulating-query-designer-element/adding-constraint-element) to two _algorithm elements_. Let's denote these elements as **alg1** and **alg2**.
 
 Parameters in GUI
 -----------------
 
-Parameter
-
-Description
-
-Default value
-
-**Min distance**
-
-Minimum distance between an **alg1** annotation start and an **alg2** annotation start.
-
-0bp
-
-**Max distance**
-
-Maximum distance between an **alg1** annotation start and an **alg2** annotation start.
-
-0bp
+| Parameter       | Description                                                                         | Default Value |
+|-----------------|-------------------------------------------------------------------------------------|---------------|
+| **Min distance** | Minimum distance between an **alg1** annotation start and an **alg2** annotation start. | 0bp           |
+| **Max distance** | Maximum distance between an **alg1** annotation start and an **alg2** annotation start. | 0bp           |
 
 **Constraint Explanation:**
 
 Let:
 
-**alg1\_annot\_start** := the first nucleotide of an annotation obtained from the **alg1**.
+- **alg1_annot_start** := the first nucleotide of an annotation obtained from **alg1**.
+- **alg2_annot_start** := the first nucleotide of an annotation obtained from **alg2**.
 
-**alg2\_annot\_start** := the first nucleotide of an annotation obtained from the **alg2**.
+The resulting annotations should comply with the rule:
 
-The result annotations should comply with the rule:
-
-**Min distance** <= Distance(**alg1\_annot\_start**, **alg2\_annot\_start**) <= **Max distance**
+**Min distance** <= Distance(**alg1_annot_start**, **alg2_annot_start**) <= **Max distance**
 
 Parameters in Schema File
 -------------------------
@@ -48,20 +33,7 @@ Parameters in Schema File
 
 **Distance-type:** start-to-start
 
-Parameter
-
-Parameter in the GUI
-
-Type
-
-**min**
-
-**Min distance**
-
-_numeric_
-
-**max**
-
-**Max distance**
-
-_numeric_
+| Parameter | Parameter in the GUI | Type     |
+|-----------|----------------------|----------|
+| **min**   | **Min distance**     | _numeric_ |
+| **max**   | **Max distance**     | _numeric_ |

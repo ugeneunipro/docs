@@ -5,23 +5,19 @@ weight: 400
 
 # Extract Coverage from Assembly
 
-This workflow sample extracts **coverage** and/or **base counts** from input assemblies. It supports multiple input
-assemblies and produces for each of them a tab-delimited plain text output. Coverage values are filtered based on the
-provided threshold parameter.
+This workflow sample extracts **coverage** and/or **base counts** from input assemblies. It supports multiple input assemblies and produces a tab-delimited plain text output for each of them. Coverage values are filtered based on the provided threshold parameter.
 
 ---
 
 ## How to Use This Sample
 
-If you haven't used workflow samples in UGENE before, refer to
-the [How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows) section of the documentation.
+If you haven't used workflow samples in UGENE before, refer to the [How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows) section of the documentation.
 
 ---
 
 ## Workflow Sample Location
 
-The workflow sample **"Extract Coverage from Assembly"** is available in the **"NGS"** section of the Workflow Designer
-samples.
+The workflow sample **"Extract Coverage from Assembly"** is available in the **"NGS"** section of the Workflow Designer samples.
 
 ---
 
@@ -72,4 +68,3 @@ On this page, select the destination for the output file.
 ## Output Example
 
 Each output file will contain coverage data per base or region, based on the selected export mode and threshold.
-

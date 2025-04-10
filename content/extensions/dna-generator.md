@@ -3,34 +3,32 @@ title: "DNA Generator"
 weight: 400
 ---
 
-
 # DNA Generator
 
-DNA sequence generator is a tool that generates a random DNA sequence with specified nucleotide content. To generate a random DNA sequence select the _Tools→Random sequence generator_ item in the main menu. The dialog will appear:
-
+The DNA sequence generator is a tool that generates a random DNA sequence with a specified nucleotide content. To generate a random DNA sequence, select the _Tools→Random sequence generator_ item in the main menu. The dialog will appear:
 
 ![](/images/65930704/65930705.png)
 
 The following parameters are available:
 
-_Length_ - Length of the resulted sequence(s) (using '1000' bp by default).
+- _Length_ - The length of the resulting sequence(s) (default is '1000' bp).
 
-_Window size_ - The DNA sequence generation is divided into windows of the specified size. In each window, the ratio of the base, defined by other parameters, is kept (using '1000' by default).
+- _Window size_ - The DNA sequence generation is divided into windows of the specified size. In each window, the ratio of the base, defined by other parameters, is maintained (default is '1000').
 
-_Number of sequences_ - the number of sequences to generate (using '1' by default).
+- _Number of sequences_ - The number of sequences to generate (default is '1').
 
-_Initialize random generator manually_ - value to initialize the random generator.
+- _Initialize random generator manually_ - Value to initialize the random generator.
 
-_Reference_ - path to the reference file (could be a sequence or an alignment).
+- _Reference_ - Path to the reference file (could be a sequence or an alignment).
 
-_Base content_ - set the base content percents manually.
+- _Base content_ - Set the base content percentages manually.
 
-_GC Skew -_ set the GC skew of the resulted sequence.
+- _GC Skew_ - Set the GC skew of the resulting sequence.
 
-_Output file - output file._
+- _Output file_ - Output file.
 
-_Format_ - output file format (using 'fasta' by default).
+- _Format_ - Output file format (default is 'fasta').
 
-_Add to project_ - adds the generated sequence(s) to the project.
+- _Add to project_ - Adds the generated sequence(s) to the project.
 
-Once the _Generate_ button has been pressed, the sequence(s) are created.
+Once the _Generate_ button is pressed, the sequence(s) are created.

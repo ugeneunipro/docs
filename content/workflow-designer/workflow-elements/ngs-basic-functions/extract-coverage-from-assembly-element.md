@@ -5,7 +5,7 @@ weight: 400
 
 # Extract Coverage from Assembly Element
 
-This workflow element extracts **coverage** and/or **base counts** from the incoming assembly data.
+This workflow element extracts **coverage** and/or **base counts** from incoming assembly data.
 
 **Element type:** `extract-assembly-coverage`
 
@@ -15,7 +15,7 @@ This workflow element extracts **coverage** and/or **base counts** from the inco
 
 | **Parameter**   | **Description**                                                                 | **Default Value**       | **Parameter in Workflow File** | **Type**  |
 |-----------------|---------------------------------------------------------------------------------|-------------------------|--------------------------------|-----------|
-| **Output file** | Path to the output data file. If this is set, slot `Location` will not be used. | `assembly_coverage.txt` | `url-out`                      | _string_  |
+| **Output file** | Path to the output data file. If this is set, the slot `Location` will not be used. | `assembly_coverage.txt` | `url-out`                      | _string_  |
 | **Export**      | Type of data to export: `coverage` or `base-count`.                             | `coverage`              | `export-type`                  | _string_  |
 | **Threshold**   | Minimum coverage value to include in the output.                                | `1`                     | `threshold`                    | _numeric_ |
 

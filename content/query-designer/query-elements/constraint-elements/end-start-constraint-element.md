@@ -17,7 +17,7 @@ Let:
 - **alg1_annot_end** := the last nucleotide of an annotation obtained from **alg1**
 - **alg2_annot_start** := the first nucleotide of an annotation obtained from **alg2**
 
-The result annotations must satisfy the following rule:
+The resulting annotations must satisfy the following rule:
 
 **Min distance** ≤ Distance(**alg1_annot_end**, **alg2_annot_start**) ≤ **Max distance**
 

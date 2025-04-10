@@ -3,13 +3,13 @@ title: "Metainformation"
 weight: 300
 ---
 
-
 # Metainformation
 
 A metainformation block sets visual parameters of the workflow and aliases for running it from the command line.
 
-Each block starts with **.meta** keyword and consists of the aliases and visual blocks:
+Each block starts with the **.meta** keyword and consists of the aliases and visual blocks:
 
+```
 .meta {
     aliases {
         # The workflow aliases
@@ -20,21 +20,24 @@ Each block starts with **.meta** keyword and consists of the aliases and visual 
         # ...
     }
 }
+```
 
-Parameter Aliases
------------------
+## Parameter Aliases
 
 The block starts with the **parameter-aliases** keyword and has the following format:
 
+```
 parameter-aliases {
-    element\_name.parameter\_name:value;
+    element_name.parameter_name:value;
     ...
 }
+```
 
-The value specified for an element parameter is used as the alias for this parameter when the workflow is [_executed from the command line_](../../running-workflow-from-the-command-line).
+The value specified for an element parameter is used as the alias for this parameter when the workflow is [executed from the command line](../../running-workflow-from-the-command-line).
 
 See an example of setting workflow aliases:
 
+```
 .meta {
     parameter-aliases {
         read-msa.url-in:in;
@@ -42,57 +45,55 @@ See an example of setting workflow aliases:
     }
     ...
 }
+```
 
-Visual
+## Visual
 
-The block starts with the **visual** keyword. It describes the appearance of the workflow in a Workflow Designer window, i.e. appearance of the workflow _elements_ and _connections_:
+The block starts with the **visual** keyword. It describes the appearance of the workflow in a Workflow Designer window, i.e., the appearance of the workflow _elements_ and _connections_:
 
+```
 visual {
-
     # Elements appearance
-    element\_name1 {
-        element\_appearance\_parameter1:value1;
-        element\_appearance\_parameter2:value2;
+    element_name1 {
+        element_appearance_parameter1:value1;
+        element_appearance_parameter2:value2;
         ...
     }
-    element\_name2 {
+    element_name2 {
         ...
     }
     ...
 
 
     # Connections appearance
-    element1\_name.port1\_name->element2\_name.port2\_name {
-        connection\_appearance\_parameter1:value3;
+    element1_name.port1_name->element2_name.port2_name {
+        connection_appearance_parameter1:value3;
         ...
     }
     ...
 }
+```
 
-To describe an element appearance the following parameters are used:
+To describe an element's appearance, the following parameters are used:
 
-*   **description** — description of the element in the _Property Editor_. It is in HTML format.
+- **description** — description of the element in the _Property Editor_. It is in HTML format.
+- **tooltip** — tooltip shown on the element.
+- **pos** — position of the element, assuming that the bottom right corner of the window is (0, 0) position.
+- **style** — style of the element. The following values are available:
+  - **ext** — for extended element style
+  - **simple** — for minimal element style
+- **bounds** — defines the bounds of the element rectangle in the extended style.
+- **bg-color-ext** — color of the element in the extended style. The color must be specified in the RGBA format.
+- **bg-color-simple** — color of the element in the minimal style.
+- **port_name.angle** — position of the port on the element. Here the _port_name_ must be replaced by the name of the port.
 
-*   **tooltip** — tooltip shown on the element.
+For now, the only parameter that describes a connection's appearance is:
 
-*   **pos** — position of the element, assuming that bottom right corner of the window is (0, 0) position.
-
-*   **style** — style of the element. The following values are available:
-
-    *   **ext** — for extended element style
-    *   **simple** — for minimal element style
-
-*   ****bounds** —** defines the bounds of the element rectangle in the extended style.
-*   **bg-color-ext** — color of the element in the extended style. The color must be specified in the RGBA format.
-*   **bg-color-simple** — color of the element in the minimal style.
-*   **port\_name.angle** — position of the port on the element. Here the _port\_name_ must be replaced by the name of the port.
-
-For now, the only parameter that describes a connection appearance is:
-
-*   **text-pos** — position of the text near the connection arrow.
+- **text-pos** — position of the text near the connection arrow.
 
 For example:
 
+```
 visual {
     read-sequence {
         description:"";
@@ -109,3 +110,4 @@ visual {
     read-sequence.out-sequence->write-sequence.in-sequence {
         text-pos:"-27.5 -24";
     }
+}

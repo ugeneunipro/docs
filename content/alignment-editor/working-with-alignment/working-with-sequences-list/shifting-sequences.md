@@ -3,10 +3,9 @@ title: "Shifting Sequences"
 weight: 400
 ---
 
-
 # Shifting Sequences
 
-To change an order of sequences in a multiple sequence alignment do the following:
+To change the order of sequences in a multiple sequence alignment, do the following:
 
-*   select sequence or sequences in the sequences names list by click or by click and drag correspondingly.
-*   click and drag on selected region to shift it.
+* Select a sequence or sequences in the sequence names list by clicking or by clicking and dragging correspondingly.
+* Click and drag on the selected region to shift it.

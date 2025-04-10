@@ -5,8 +5,7 @@ weight: 100
 
 # Build Frequency Matrix Element
 
-Builds a frequency matrix. Frequency matrices are used for probabilistic recognition of transcription factor binding
-sites.
+This component constructs a frequency matrix. Frequency matrices are used for the probabilistic recognition of transcription factor binding sites.
 
 **Element type:** fmatrix-build
 
@@ -14,7 +13,7 @@ sites.
 
 | Parameter       | Description                                                                                             | Default value | Parameter in Workflow File | Type      |
 |-----------------|---------------------------------------------------------------------------------------------------------|---------------|----------------------------|-----------|
-| **Matrix type** | Dinucleic matrices are more detailed, while mononucleic ones are more useful for small input data sets. | Mononucleic   | **type**                   | _boolean_ |
+| **Matrix type** | Dinucleic matrices are more detailed, while mononucleic ones are more useful for small input datasets. | Mononucleic   | **type**                   | _boolean_ |
 
 Available values are:
 
@@ -25,8 +24,8 @@ Available values are:
 
 The element has 1 _input port_:
 
-**Name in GUI:** _Input alignment_
-**Name in Workflow File:** in-msa
+**Name in GUI:** _Input alignment_  
+**Name in Workflow File:** in-msa  
 **Slots:**
 
 | Slot In GUI | Slot in Workflow File | Type  |
@@ -35,8 +34,8 @@ The element has 1 _input port_:
 
 And 1 _output port_:
 
-**Name in GUI:** _Frequency matrix_
-**Name in Workflow File:** out-fmatrix
+**Name in GUI:** _Frequency matrix_  
+**Name in Workflow File:** out-fmatrix  
 **Slots:**
 
 | Slot In GUI          | Slot in Workflow File | Type      |

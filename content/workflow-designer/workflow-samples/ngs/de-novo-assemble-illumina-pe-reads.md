@@ -5,8 +5,7 @@ weight: 700
 
 # De novo Assemble Illumina PE Reads
 
-The workflow sample, described below, takes FASTQ files with paired-end Illumina reads as input and processes them as
-follows:
+The workflow sample, described below, takes FASTQ files with paired-end Illumina reads as input and processes them as follows:
 
 * Improve reads quality with Trimmomatic
 * Provide FastQC quality reports
@@ -14,15 +13,13 @@ follows:
 
 ## How to Use This Sample
 
-If you haven't used the workflow samples in UGENE before, look at
-the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
+If you haven't used the workflow samples in UGENE before, look at the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
 
 ---
 
 ### Workflow Sample Location
 
-The workflow sample **"De novo Assemble Illumina PE Reads"** can be found in the **"NGS"** section of the Workflow
-Designer samples.
+The workflow sample **"De novo Assemble Illumina PE Reads"** can be found in the **"NGS"** section of the Workflow Designer samples.
 
 ---
 
@@ -40,7 +37,7 @@ The wizard has 4 pages.
 
 ---
 
-#### 1. Input data: Illumina paired-end reads
+#### 1. Input Data: Illumina Paired-End Reads
 
 On this page, files with Illumina paired-end reads must be set.
 
@@ -48,13 +45,13 @@ On this page, files with Illumina paired-end reads must be set.
 
 ---
 
-#### 2. Trimmomatic settings
+#### 2. Trimmomatic Settings
 
 The Trimmomatic parameters can be changed here:
 
 ![](/images/65930355/65930358.jpg)
 
-To configure trimming steps use the following button:
+To configure trimming steps, use the following button:
 
 ![](/images/65930355/65930359.jpg)
 
@@ -75,14 +72,13 @@ Click the _**Add new step**_ button and select a step. The following options are
 - **TOPHRED33**
 - **TOPHRED64**
 
-Each step has its own parameters (see original document for detailed explanations).
+Each step has its own parameters (see the original document for detailed explanations).
 
-To remove a step use the _**Remove selected step**_ button. The pink highlighting means the required parameter has not
-been set.
+To remove a step, use the _**Remove selected step**_ button. The pink highlighting means the required parameter has not been set.
 
 ---
 
-#### 3. SPAdes settings
+#### 3. SPAdes Settings
 
 Default SPAdes parameters can be changed here.
 

@@ -1,16 +1,17 @@
 ---
-title: "Resizing and Moving Algorithm Element"
-weight: 400
----
 
+title: "Resizing and Moving Algorithm Element"
+
+weight: 400
+
+---
 
 # Resizing and Moving Algorithm Element
 
-An _algorithm element_ can be moved around on the _Scene_ by dragging it and can be resized by dragging its borders.
+An _algorithm element_ can be moved around on the _Scene_ by dragging it, and it can be resized by dragging its borders.
 
-But if some constraints are imposed on the element, then the element can only be moved / resized within the bounds of the constraints.
+However, if there are constraints imposed on the element, then it can only be moved or resized within the bounds of those constraints.
 
-On the image below you can see constraints highlighted in green when an element is moved:
-
+In the image below, you can see constraints highlighted in green when an element is moved:
 
 ![](/images/65930631/65930632.png)

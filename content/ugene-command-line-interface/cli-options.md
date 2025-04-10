@@ -3,29 +3,32 @@ title: "CLI Options"
 weight: 100
 ---
 
-
 # CLI Options
 
 _\--help | -h \[<option\_name> | <task\_name>\]_
 
 Shows help information. For example:
 
+```shell
 ugene --help                      ## Shows general UGENE CLI help.
 ugene -h
 
-ugene --help=<option\_name>        ## Shows help for the <option\_name> option.
-ugene -h <option\_name>
+ugene --help=<option_name>        ## Shows help for the <option_name> option.
+ugene -h <option_name>
 
-ugene --help=<task\_name>          ## Shows help for the <task\_name> task.
-ugene -h <task\_name>
+ugene --help=<task_name>          ## Shows help for the <task_name> task.
+ugene -h <task_name>
+```
 
-_\--task=<task\_name> \[<task\_parameter>=value ...\]_
+_\--task=<task_name> \[<task_parameter>=value ...\]_
 
 Specifies the task to run. A user-defined UGENE workflow schema can be used as a task name. For example:
 
-ugene --task=align --in=COI.aln -out result.aln
+```shell
+ugene --task=align --in=COI.aln --out=result.aln
 
-ugene --task=C:\\myschema.uwl --in=COI.aln --out=res.aln
+ugene --task=C:\myschema.uwl --in=COI.aln --out=res.aln
+```
 
 _\--log-no-task-progress_
 
@@ -37,26 +40,28 @@ Sets the log level per category. If a category is not specified, the log level i
 
 The following categories are available:
 
-*   *   “Algorithms”
-    *   “Console”
-    *   “Core Services”
-    *   “Input/Output”
-    *   “Performance”
-    *   “Remote Service”
-    *   “Scripts”
-    *   “Tasks”.
+*   “Algorithms”
+*   “Console”
+*   “Core Services”
+*   “Input/Output”
+*   “Performance”
+*   “Remote Service”
+*   “Scripts”
+*   “Tasks”
 
-The following log levels are available: TRACE, DETAILS, INFO, ERROR or NONE.
+The following log levels are available: TRACE, DETAILS, INFO, ERROR, or NONE.
 
 By default, loglevel=ERROR.
 
 For example:
 
+```shell
 ugene --log-level=NONE
 
 ugene --log-level="Tasks=DETAILS, Console=DETAILS"
+```
 
-_\--log-format="<format\_string>"_
+_\--log-format="<format_string>"_
 
 Specifies the format of a log line.
 
@@ -68,80 +73,69 @@ _\--license_
 
 Shows license information.
 
-_\--lang=language\_code_
+_\--lang=language_code_
 
-Specifies the language to use (e.g. for the log output). The following values are available:
+Specifies the language to use (e.g., for the log output). The following values are available:
 
-*   *   _CS_ (Czech)
-    *   _EN_ (English)
-    *   _RU_ (Russian)
+*   _CS_ (Czech)
+*   _EN_ (English)
+*   _RU_ (Russian)
 
 _\--log-color-output_
 
-If log output is enabled, this option make it colored: _ERROR_ messages are displayed in red, _DETAILS_ messages are displayed in green, _TRACE_ messages are displayed in blue.
+If log output is enabled, this option makes it colored: _ERROR_ messages are displayed in red, _DETAILS_ messages are displayed in green, _TRACE_ messages are displayed in blue.
 
 \--_session-db_
 
-Session database is stored in the temporary file that is created for every UGENE run. But it can supplied with the command line argument. If the supplied file does not exest it will be created. The session database file is removed after closing of UGENE.
+Session database is stored in the temporary file that is created for every UGENE run. But it can be supplied with the command line argument. If the supplied file does not exist, it will be created. The session database file is removed after closing UGENE.
 
 For example:
 
+```shell
 ugene --session-db=D:/session.ugenedb
+```
 
 \--_version_
 
 Shows version information.
 
-\--_tmp-dir=<path\_to\_file>_
+\--_tmp-dir=<path_to_file>_
 
-Path to teporary folder.
+Path to temporary folder.
 
-\--_ini-file=<path\_to\_file>_
+\--_ini-file=<path_to_file>_
 
-Loads configuration from the specified .ini file. By default the UGENE.ini file is used.
+Loads configuration from the specified .ini file. By default, the UGENE.ini file is used.
 
 \--_genome-aligner_
 
-UGENE Genome Aligner is an efficient and fast tool for short read alignment. It has 2 work modes: build index and align short reads (default mode).
-If there is no index available for reference sequence it will be built on the fly.
+UGENE Genome Aligner is an efficient and fast tool for short read alignment. It has two work modes: build index and align short reads (default mode). If there is no index available for the reference sequence, it will be built on the fly.
 
 Usage: _ugene --genome-aligner { --option\[=argument\] }_
 
 The following options are available:
 
-
-_\--build-index_ Use this flag to only build index for reference sequence.
-
-_\--reference_ Path to reference genome sequence
-
-_\--short-reads_ Path to short-reads data in FASTA or FASTQ format
-
-_\--index_ Path to prebuilt index (base file name or with .idx extension). If not set, index is searched in system temporary directory. If --build-index option is applied, index will be saved to specified
-path.
-
-_\--result_ Path to output alignment in UGENEDB or SAM format (see --sam)
-
-_\--memsize_ Memory size (in Mbs) reserved for short-reads. The bigger value the faster algorithm works. Default value depends on available system memory.
-
-_\--ref-size_ Index fragmentation size (in Mbs). Small fragments better fit into RAM, allowing to load more short reads. Default value is 10.
-
-_\--n-mis_ Absolute amount of allowed mismatches per every short-read (mutually exclusive with --pt-mis). Default value is 0.
-
-_\--pt-mis_ Percentage amount of allowed mismatches per every short-read (mutually exclusive with --n-mis). Default value is 0.
-
-_\--rev-comp_ Use both the read and its reverse complement during the aligning.
-
-_\--best_ Report only about best alignments (in terms of mismatches).
-
-_\--omit-size_ Omit reads with qualities lower than the specified value. Reads which have no qualities are not omitted. Default value is 0.
-
-_\--sam_ Output aligned reads in SAM format. Default value is false.
+* _\--build-index_ Use this flag to only build the index for the reference sequence.
+* _\--reference_ Path to reference genome sequence
+* _\--short-reads_ Path to short reads data in FASTA or FASTQ format
+* _\--index_ Path to prebuilt index (base file name or with .idx extension). If not set, the index is searched in the system temporary directory. If --build-index option is applied, the index will be saved to the specified path.
+* _\--result_ Path to output alignment in UGENEDB or SAM format (see --sam)
+* _\--memsize_ Memory size (in MBs) reserved for short reads. The bigger the value, the faster the algorithm works. Default value depends on available system memory.
+* _\--ref-size_ Index fragmentation size (in MBs). Small fragments better fit into RAM, allowing loading more short reads. Default value is 10.
+* _\--n-mis_ Absolute amount of allowed mismatches per every short read (mutually exclusive with --pt-mis). Default value is 0.
+* _\--pt-mis_ Percentage amount of allowed mismatches per every short read (mutually exclusive with --n-mis). Default value is 0.
+* _\--rev-comp_ Use both the read and its reverse complement during the aligning.
+* _\--best_ Report only the best alignments (in terms of mismatches).
+* _\--omit-size_ Omit reads with qualities lower than the specified value. Reads which have no qualities are not omitted. Default value is 0.
+* _\--sam_ Output aligned reads in SAM format. Default value is false.
 
 For example:
 
-Build index for reference sequence:
+Build index for the reference sequence:
+```shell
 ugene --genome-aligner --build-index --reference=/path/to/ref
+```
 
-
-Align short reads using existing index:
+Align short reads using the existing index:
+```shell
 ugene --genome-aligner --reference=/path/to/ref --short-reads=/path/to/reads --result=/path/to/result

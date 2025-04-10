@@ -6,33 +6,32 @@ weight: 100
 
 # System Requirements
 
-#### **Operating system**
+#### **Operating System**
 
-Since v. 34, 64-bit versions of the operating systems are supported only:
+Starting from version 34, only 64-bit versions of the following operating systems are supported:
 
 *   Windows 8+
 *   macOS 10.7+
 *   Linux
 
-Note that some external tools may be available only on particular operating systems, see details in the "[Data Analysis Tools](data-analysis-tools)" chapter of the manual.
+Please note that some external tools may only be available on specific operating systems. For more details, refer to the "[Data Analysis Tools](data-analysis-tools)" chapter of the manual.
 
-For older packages, if required, see [http://ugene.net/download-all.html](http://ugene.net/download-all.html).
+For older packages, if needed, visit [http://ugene.net/download-all.html](http://ugene.net/download-all.html).
 
 #### **RAM**
 
-512 Mb RAM is required. At least 2 Gb RAM is recommended.
+A minimum of 512 MB of RAM is required. At least 2 GB of RAM is recommended for optimal performance.
 
-#### **Disk space**
+#### **Disk Space**
 
-The minimum required disk space depends on the installed UGENE components. At least 1 Gb is recommended. For installing all components, including NGS modules for ChIP-seq and metagenomic data processing, about 250Gb is required.
+The minimum required disk space depends on the UGENE components installed. At least 1 GB is recommended. To install all components, including NGS modules for ChIP-seq and metagenomic data processing, approximately 250 GB is required.
 
 #### **Display**
 
-It is recommended to set the screen resolution to 1280 x 720 or greater.
+A screen resolution of 1280 x 720 or greater is recommended.
 
 #### **Internet**
 
-Internet connection is required for a few tasks like loading data from online databases.
+An internet connection is required for certain tasks, such as loading data from online databases.
 
-
-UGENE takes care to use the capabilities of your system: the more RAM and cores you have, the more quickly you'll get results of your calculations.
+UGENE leverages your system's capabilities: the more RAM and cores available, the faster you will obtain the results of your calculations.

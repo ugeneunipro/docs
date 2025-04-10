@@ -5,7 +5,7 @@ weight: 800
 
 # Filter Annotations by Qualifier
 
-Filters annotations by qualifier.
+This element filters annotations based on a specified qualifier.
 
 **Element type:** `filter-annotations-by-qualifier`
 
@@ -15,9 +15,9 @@ Filters annotations by qualifier.
 
 | **Parameter**    | **Description**                                                                 | **Default Value** | **Parameter in Workflow File** | **Type**  |
 |------------------|---------------------------------------------------------------------------------|-------------------|--------------------------------|-----------|
-| Qualifier name   | Name of the qualifier to use for filtering.                                     | *(none)*          | `qualifier-name`               | _string_  |
-| Qualifier value  | Text value of the qualifier to apply as filtering criteria.                     | *(none)*          | `qualifier-value`              | _string_  |
-| Accept or filter | Selects the name filter: accept specified names or accept all except specified. | `True`            | `accept-or-filter`             | _boolean_ |
+| Qualifier name   | Name of the qualifier used for filtering.                                       | *(none)*          | `qualifier-name`               | _string_  |
+| Qualifier value  | Text value of the qualifier to apply as a filtering criterion.                  | *(none)*          | `qualifier-value`              | _string_  |
+| Accept or filter | Determines whether to accept specified names or accept all except the specified.| `True`            | `accept-or-filter`             | _boolean_ |
 
 ---
 

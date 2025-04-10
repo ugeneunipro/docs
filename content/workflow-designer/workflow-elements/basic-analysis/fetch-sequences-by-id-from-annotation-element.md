@@ -5,7 +5,7 @@ weight: 600
 
 # Fetch Sequences by ID From Annotation Element
 
-Parses annotations to find any IDs and fetches corresponding sequences.
+This function parses annotations to find any IDs and fetches the corresponding sequences.
 
 **Element type:** `fetch-sequence`
 
@@ -13,10 +13,10 @@ Parses annotations to find any IDs and fetches corresponding sequences.
 
 ## Parameters
 
-| **Parameter**          | **Description**                                              | **Default Value** | **Parameter in Workflow File** | **Type** |
-|------------------------|--------------------------------------------------------------|-------------------|--------------------------------|----------|
-| Save file to directory | The directory to store sequence files loaded from a database | `default`         | `save-dir`                     | _string_ |
-| NCBI database          | The database to read from                                    | `nucleotide`      | `database`                     | _string_ |
+| **Parameter**          | **Description**                                                   | **Default Value** | **Parameter in Workflow File** | **Type** |
+|------------------------|-------------------------------------------------------------------|-------------------|--------------------------------|----------|
+| Save file to directory | The directory to store sequence files loaded from a database.     | `default`         | `save-dir`                     | _string_ |
+| NCBI database          | The database to read from.                                        | `nucleotide`      | `database`                     | _string_ |
 
 Available values for **NCBI database**:
 

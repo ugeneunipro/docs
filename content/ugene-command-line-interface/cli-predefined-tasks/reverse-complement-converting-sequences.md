@@ -3,27 +3,26 @@ title: "Reverse-Complement Converting Sequences"
 weight: 2700
 ---
 
-
 # Reverse-Complement Converting Sequences
 
 **Task Name:** revcompl
 
-Convert input sequence into its reverse, complement or reverse-complement counterpart and write result sequence to file
+Convert an input sequence into its reverse, complement, or reverse-complement counterpart and write the resulting sequence to a file.
 
 **Parameters:**
 
-_type_ - Type of operation. Available are 'Reverse Complement', 'Complement' and 'Reverse' (using 'Reverse Complement' by default) \[String\]
+- _type_ - Type of operation. Available options are 'Reverse Complement', 'Complement', and 'Reverse' ('Reverse Complement' is used by default) \[String\]
 
- _in_ - Input file \[Url datasets\]
+- _in_ - Input file \[URL datasets\]
 
- _accumulate_ - Accumulate all incoming data in one file or create separate files for each input. In the latter case, an incremental numerical suffix is added to the file name (using 'True' by default) \[Boolean\]
+- _accumulate_ - Accumulate all incoming data in one file or create separate files for each input. In the latter case, an incremental numerical suffix is added to the file name ('True' is used by default) \[Boolean\]
 
- _format_ - Output file format (using 'fasta' by default) \[String\]
+- _format_ - Output file format ('fasta' is used by default) \[String\]
 
- _split_ - Split each incoming sequence on several parts (using '1' by default) \[Number\]
+- _split_ - Split each incoming sequence into several parts ('1' is used by default) \[Number\]
 
- _out_ - Output file \[String\]
+- _out_ - Output file \[String\]
 
 **Example:**
 
-ugene revcompl --in=human\_T1.fa --out=human\_T1\_result.fa --format=fasta --type=reverse
+ugene revcompl --in=human_T1.fa --out=human_T1_result.fa --format=fasta --type=reverse

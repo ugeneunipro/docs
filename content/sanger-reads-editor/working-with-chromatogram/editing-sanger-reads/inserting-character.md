@@ -3,11 +3,10 @@ title: "Inserting Character"
 weight: 100
 ---
 
+# Inserting a Character
 
-# Inserting Character
+To insert a nucleotide into a read in the _Sanger Reads Editor_, select a nucleotide or a gap at the desired location in the _Chromatogram Area_. Switch to editing mode by pressing _Shift+I_, choosing _Edit_ -> _Insert character/gap_ in the context menu, or selecting _Actions -> Edit -> Insert character/gap_ in the main menu. Once the cursor is blinking, type the character you wish to insert. Afterward, the editing mode will be turned off.
 
-To insert a nucleotide into a read in the _Sanger Reads Editor_, select a nucleotide or a gap in the corresponding location in the _Chromatogram Area_ and switch to the editing mode by pressing _Shift+I_, selecting _Edit_–>_Insert character/gap_ in the context menu, or selecting _Actions->Edit->Insert character/gap_ in the main menu. While the cursor is blinking, press a character on the keyboard that you want to insert. After that the editing mode is switched off.
-
-Note that if you press the '-' character on the keyboard while being in the editing mode, a gap is inserted. The other way to insert a gap is by pressing _Space_, see the [Inserting Gap](inserting-gap) chapter.
+Note that if you press the '-' key on the keyboard while in editing mode, a gap will be inserted. Another way to insert a gap is by pressing _Space_, as explained in the [Inserting Gap](inserting-gap) chapter.
 
 You can always cancel the changes by pressing _Ctrl+Z_.

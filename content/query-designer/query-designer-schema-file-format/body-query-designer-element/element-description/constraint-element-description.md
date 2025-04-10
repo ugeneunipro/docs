@@ -3,20 +3,19 @@ title: "Constraint Element Description"
 weight: 200
 ---
 
-
 # Constraint Element Description
 
-When you describe a constraint element the **element\_name** consists of two parts separated by two hyphens.
+When describing a constraint element, the **element\_name** consists of two parts separated by two hyphens:
 
 part1--part2
 
 Each part represents one of the algorithms the constraint is imposed on.
 
-If the algorithm is presented as one element on a schema (like [_ORF_](../../../query-elements/algorithm-elements/orf-algorithm-element), [_Pattern_](../../../query-elements/algorithm-elements/pattern-algorithm-element)) the algorithm’s part has format:
+If the algorithm is presented as a single element in a schema (like [_ORF_](../../../query-elements/algorithm-elements/orf-algorithm-element) or [_Pattern_](../../../query-elements/algorithm-elements/pattern-algorithm-element)), the algorithm’s part has the format:
 
 algorithm\_element\_name.unit
 
-If the algorithm is presented as two subelements on a schema (like [_Repeats_](../../../query-elements/algorithm-elements/repeats-algorithm-element), [_Primer_](../../../query-elements/algorithm-elements/primer-algorithm-element)) the algorithm’s part has format:
+If the algorithm is presented as two subelements in a schema (like [_Repeats_](../../../query-elements/algorithm-elements/repeats-algorithm-element) or [_Primer_](../../../query-elements/algorithm-elements/primer-algorithm-element)), the algorithm’s part has the format:
 
 algorithm\_element\_name.left
 
@@ -26,7 +25,7 @@ algorithm\_element\_name.right
 
 depending on the subelement the constraint is imposed on.
 
-Also you should specify the constraint type parameter (currently the only available type is _distance_):
+You should also specify the constraint type parameter (currently, the only available type is _distance_):
 
 type: distance;
 
@@ -34,7 +33,7 @@ And specify one of the distance types, for example:
 
 distance-type: end-to-start;
 
-**Example1:** The constraint is imposed on **myORF** and **myPattern** algorithm elements:
+**Example 1:** The constraint is imposed on **myORF** and **myPattern** algorithm elements:
 
 myORF.unit--myPattern.unit {
 
@@ -44,7 +43,7 @@ myORF.unit--myPattern.unit {
    # Other parameters
 }
 
-**Example2:** The constraint is imposed on **myORF** algorithm element and the left **myRepeats** algorithm subelement:
+**Example 2:** The constraint is imposed on the **myORF** algorithm element and the left **myRepeats** algorithm subelement:
 
 myORF.unit--myRepeats.left {
 

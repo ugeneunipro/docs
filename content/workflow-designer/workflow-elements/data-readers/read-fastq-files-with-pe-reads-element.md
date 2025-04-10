@@ -3,7 +3,6 @@ title: "Read FASTQ Files with PE Reads Element"
 weight: 400
 ---
 
-
 # Read FASTQ Files with PE Reads Element
 
 Input one or several pairs of files with NGS paired-end reads in FASTQ format. The element outputs the corresponding pairs of URLs.
@@ -13,37 +12,10 @@ Input one or several pairs of files with NGS paired-end reads in FASTQ format. T
 Parameters in GUI
 -----------------
 
-Parameter
-
-Description
-
-Default value
-
-Parameter in Workflow File
-
-Type
-
-**Input file(s)**
-
-Input files.
-
-Dataset 1;
-
-**url1**
-
-_string_
-
-**Input file(s)**
-
-Input files.
-
-Dataset 2;
-
-**url2**
-
-_string_
-
-
+| Parameter       | Description  | Default value  | Parameter in Workflow File | Type   |
+|-----------------|--------------|----------------|----------------------------|--------|
+| **Input file(s)** | Input files. | Dataset 1;     | **url1**                   | _string_ |
+| **Input file(s)** | Input files. | Dataset 2;     | **url2**                   | _string_ |
 
 Input/Output Ports
 ------------------
@@ -56,20 +28,7 @@ The element has 1 _output port_:
 
 **Slots:**
 
-Slot In GUI
-
-Slot in Workflow File
-
-Type
-
-**Source URL 1**
-
-**reads-url1**
-
-_string_
-
-**Source URL 2**
-
-**reads-url2**
-
-_string_
+| Slot In GUI     | Slot in Workflow File | Type     |
+|-----------------|-----------------------|----------|
+| **Source URL 1** | **reads-url1**        | _string_ |
+| **Source URL 2** | **reads-url2**        | _string_ |

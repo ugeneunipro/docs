@@ -3,24 +3,23 @@ title: "Posterior Actions"
 weight: 200
 ---
 
-
 # Posterior Actions
 
-This tab contains actions, which could be processed for found primers.
+This tab contains actions that could be processed for found primers.
 
 ![](/images/96665900/96665902.png)
 
-Check complementary
--------------------
+Check Complementarity
+---------------------
 
-The "Check complementary" subprocess is responsible for result primers filtering. If primer pair has selfdimers or heterodimer with **dimer length**/**dimer GC-content** more or equal, than was set, this primer will be filtered and won't be considered as a result of Primer3 calculation.
+The "Check Complementarity" subprocess is responsible for filtering the result primers. If a primer pair has self-dimers or heterodimers with **dimer length**/**dimer GC-content** equal to or exceeding the set limits, this primer pair will be filtered out and will not be considered as a result of the Primer3 calculation.
 
-If "Check complementary" has been checked, the result report will contain the additional table, which shows filtered primers and why have they been filtered:
+If "Check Complementarity" is enabled, the result report will contain an additional table that shows filtered primers and explains why they have been filtered:
 
 ![](/images/96665900/96665905.png)
 
-Primer pairs on **green** lines are fit to the set parameters and have not been filtered.
+Primer pairs on **green** lines fit the set parameters and have not been filtered.
 
-Primer pairs on **red** lines have some problem values, which are marked in bold - and that is why they have been excluded from the result. For example, the first pair has been filtered, because their heterodimer has too hight GC-content (75%).
+Primer pairs on **red** lines have problematic values, which are marked in bold — and that is why they have been excluded from the result. For example, the first pair has been filtered out because their heterodimer has a GC-content that is too high (75%).
 
-The same report but in CSV format you can recieve by checking **Generate CSV report**.
+The same report but in CSV format can be received by checking **Generate CSV report**.

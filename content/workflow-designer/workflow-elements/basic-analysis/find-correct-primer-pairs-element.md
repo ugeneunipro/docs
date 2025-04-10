@@ -33,5 +33,4 @@ This element identifies correct primer pairs consisting of valid primers without
 
 ---
 
-This element can be used to ensure primer design outputs only viable primer pairs suitable for PCR and other
-amplification workflows.
+This element can be used to ensure that primer design outputs only viable primer pairs suitable for PCR and other amplification workflows.

@@ -6,7 +6,7 @@ weight: 200
 
 # Aligning Labels
 
-To align a tree labels press the _Align labels_ toolbar button or in the _Tree settings Options Panel_ tab check the _Align label_ item.
+To align the tree labels, press the _Align labels_ toolbar button, or in the _Tree Settings Options Panel_ tab, check the _Align label_ item.
 
 See the example of aligning labels below:
 

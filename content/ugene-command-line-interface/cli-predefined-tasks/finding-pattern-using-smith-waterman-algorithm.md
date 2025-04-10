@@ -1,10 +1,9 @@
 ---
-title: "Finding Pattern Using Smith-Waterman Algorithm"
+title: "Finding Patterns Using the Smith-Waterman Algorithm"
 weight: 600
 ---
 
-
-# Finding Pattern Using Smith-Waterman Algorithm
+# Finding Patterns Using the Smith-Waterman Algorithm
 
 **Task Name:** find-sw
 
@@ -12,36 +11,36 @@ Searches for a pattern in a nucleotide or protein sequence using the Smith-Water
 
 **Parameters:**
 
-_in_ — input sequence file. \[String, Required\]
+_in_ — Input sequence file. \[String, Required\]
 
-_out_ — output file with the annotations. \[String, Required\]
+_out_ — Output file with the annotations. \[String, Required\]
 
-_name_ — name of the annotated regions. \[String, Optional, Default: “misc\_feature”\]
+_name_ — Name of the annotated regions. \[String, Optional, Default: “misc\_feature”\]
 
-_ptrn_ — subsequence pattern to search for (e.g. _AGGCCT_). \[String, Required\]
+_ptrn_ — Subsequence pattern to search for (e.g., _AGGCCT_). \[String, Required\]
 
-_score_ — percent identity between the pattern and a subsequence. \[Number, Optional, Default: 90\]
+_score_ — Percent identity between the pattern and a subsequence. \[Number, Optional, Default: 90\]
 
-_matrix_ — scoring matrix. \[String, Optional, Default: “Auto”\]
+_matrix_ — Scoring matrix. \[String, Optional, Default: “Auto”\]
 
-Among others the following values are available:
+Among others, the following values are available:
 
-*   *   blosum62
-    *   dna
-    *   rna
-    *   dayhoff
-    *   gonnet
-    *   pam250
-    *   etc.
+- blosum62
+- dna
+- rna
+- dayhoff
+- gonnet
+- pam250
+- etc.
 
-The matrices available are stored in the $UGENE\\data\\weight\_matrix directory.
+The available matrices are stored in the $UGENE\\data\\weight\_matrix directory.
 
-_filter_ — results filtering strategy. \[String, Optional, Default: “filter-intersections”\]
+_filter_ — Results filtering strategy. \[String, Optional, Default: “filter-intersections”\]
 
 The following values are available:
 
-*   *   filter-intersections
-    *   none
+- filter-intersections
+- none
 
 **Example:**
 

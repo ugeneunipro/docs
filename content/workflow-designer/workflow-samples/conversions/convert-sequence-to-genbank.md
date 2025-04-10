@@ -5,19 +5,15 @@ weight: 400
 
 # Convert Sequence to Genbank
 
-This workflow converts sequence file(s) of any format (including PDB, alignments, etc.) to GenBank document(s).
-If the source format supports annotations, they are saved as feature tables in the target file.
-Sequence meta-information (accessions, etc.) is preserved as well.
+This workflow converts sequence file(s) of any format (including PDB, alignments, etc.) to GenBank documents. If the source format supports annotations, they are saved as feature tables in the target file. Sequence meta-information (accessions, etc.) is preserved as well.
 
 ## How to Use This Sample
 
-If you haven't used the workflow samples in UGENE before, refer to the
-"[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
+If you haven't used the workflow samples in UGENE before, refer to the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
 
 ### Workflow Sample Location
 
-The workflow sample **"Convert Sequence to Genbank"** is located in the **"Conversions"** section of the Workflow
-Designer samples.
+The workflow sample **"Convert Sequence to Genbank"** is located in the **"Conversions"** section of the Workflow Designer samples.
 
 ### Workflow Image
 

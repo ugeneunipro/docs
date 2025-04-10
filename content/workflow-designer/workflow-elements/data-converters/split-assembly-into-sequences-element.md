@@ -6,7 +6,7 @@ weight: 500
 
 # Split Assembly into Sequences Element
 
-Splits assembly into sequences(reads).
+Splits assembly into sequences (reads).
 
 **Element type:** reverse-complement
 
@@ -20,19 +20,11 @@ The element has 1 _input port_:
 
 **Slots:**
 
-Slot In GUI
+| Slot In GUI     | Slot in Workflow File | Type      |
+|-----------------|-----------------------|-----------|
+| Assembly data   | assembly              | _assembly_|
 
-Slot in Workflow File
-
-Type
-
-**Assembly data**
-
-**assembly**
-
-_assembly_
-
-And 1 _out__put port_:
+And 1 _output port_:
 
 **Name in GUI:** out-sequence
 
@@ -40,14 +32,6 @@ And 1 _out__put port_:
 
 **Slots:**
 
-Slot In GUI
-
-Slot in Workflow File
-
-Type
-
-**Sequence**
-
-**seq**
-
-_string_
+| Slot In GUI | Slot in Workflow File | Type     |
+|-------------|-----------------------|----------|
+| Sequence    | seq                   | _string_ |

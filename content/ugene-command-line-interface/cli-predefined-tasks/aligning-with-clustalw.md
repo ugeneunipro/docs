@@ -3,7 +3,6 @@ title: "Aligning with ClustalW"
 weight: 1400
 ---
 
-
 # Aligning with ClustalW
 
 **Task Name:** align-clustalw
@@ -14,16 +13,16 @@ ClustalW is used as an [_external tool_](http://ugene.unipro.ru/documentation/ma
 
 **Parameters:**
 
-_toolpath_ — path to the ClustalW executable. By default, the path specified in the _Application Settings_ is applied. \[String, Optional, Default: “default”\]
+- _toolpath_ — path to the ClustalW executable. By default, the path specified in the _Application Settings_ is applied. \[String, Optional, Default: “default”\]
 
-_tmpdir_ — directory for temporary files. \[String, Optional\]
+- _tmpdir_ — directory for temporary files. \[String, Optional\]
 
-_in_ — semicolon-separated list of input files. \[String, Required\]
+- _in_ — semicolon-separated list of input files. \[String, Required\]
 
-_out_ — output file. \[String, Required\]
+- _out_ — output file. \[String, Required\]
 
-_format_ — format of the output file. \[String, Optional\]
+- _format_ — format of the output file. \[String, Optional\]
 
 **Example:**
 
-ugene align-clustalw  --in=COI.aln --out=COI.sto --format=stockholm
+`ugene align-clustalw --in=COI.aln --out=COI.sto --format=stockholm`

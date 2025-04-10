@@ -5,8 +5,8 @@ weight: 100
 
 # CASAVA FASTQ Filter Element
 
-Reads in FASTQ file produced by CASAVA 1.8 contain 'N' or 'Y' as a part of an identifier.
-'Y' if a read is filtered, 'N' if the read is not filtered. The workflow cleans up the filtered reads.
+Reads in a FASTQ file produced by CASAVA 1.8 contain 'N' or 'Y' as part of an identifier.
+'Y' indicates a read is filtered, 'N' indicates the read is not filtered. The workflow cleans up the filtered reads.
 
 **Element type:** CASAVAFilter
 

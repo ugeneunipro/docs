@@ -1,5 +1,5 @@
 ---
-title: "Gene-by-gene approach report"
+title: "Gene-by-gene Approach Report"
 weight: 1200
 ---
 
@@ -13,12 +13,12 @@ Outputs a table of genes found in a reference sequence.
 
 ## Parameters
 
-| **Parameter**       | **Description**                                                                                                  | **Default value** | **Parameter in Workflow File** | **Type**  |
-|---------------------|------------------------------------------------------------------------------------------------------------------|-------------------|--------------------------------|-----------|
-| **Output file**     | Path to store the final report.                                                                                  |                   | `output-file`                  | _string_  |
-| **Annotation name** | Name of the annotation used to compare genes with reference genomes.                                             | `blast-result`    | `annotation_name`              | _string_  |
-| **Existing file**   | How to handle an existing output file: `Merge`, `Overwrite`, or `Rename`.                                        | `Merge`           | `existing`                     | _string_  |
-| **Identity cutoff** | Required identity between gene sequence length and annotation length (percent). BLAST identity is checked after. | `90.0000%`        | `identity`                     | _numeric_ |
+| **Parameter**       | **Description**                                                                                           | **Default value** | **Parameter in Workflow File** | **Type**  |
+|---------------------|-----------------------------------------------------------------------------------------------------------|-------------------|--------------------------------|-----------|
+| **Output file**     | Path to store the final report.                                                                           |                   | `output-file`                  | _string_  |
+| **Annotation name** | Name of the annotation used to compare genes with reference genomes.                                      | `blast-result`    | `annotation_name`              | _string_  |
+| **Existing file**   | How to handle an existing output file: `Merge`, `Overwrite`, or `Rename`.                                 | `Merge`           | `existing`                     | _string_  |
+| **Identity cutoff** | Required identity between gene sequence length and annotation length (percent). BLAST identity is checked afterward. | `90.0000%`        | `identity`                     | _numeric_ |
 
 ---
 

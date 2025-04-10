@@ -1,7 +1,6 @@
 ---
-title: "APPENDIXES"
+title: "APPENDICES"
 weight: 1500
 ---
 
-
-# APPENDIXES
+# APPENDICES

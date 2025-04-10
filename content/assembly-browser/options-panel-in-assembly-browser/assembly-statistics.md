@@ -12,7 +12,7 @@ The _Assembly Statistics_ tab includes the following _Assembly Information_:
 *   Length — the length of the assembly.
 *   Reads — the number of reads in the assembly.
 
-Also the tab can include the _Reference Information_ if it is available in the assembly file. For example:
+Also, the tab can include the _Reference Information_ if it is available in the assembly file. For example:
 
 *   MD5
 *   Species

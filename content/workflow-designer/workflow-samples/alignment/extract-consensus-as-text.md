@@ -5,15 +5,12 @@ weight: 300
 
 # Extract Consensus as Text
 
-For each input multiple alignment, the workflow calculates the consensus and saves it to a plain text file, named
-according to the input alignment name.
+For each input multiple alignment, the workflow calculates the consensus and saves it to a plain text file, named according to the input alignment name.
 
-By default, the **JalView** algorithm (denoted as **"default"**) is used to calculate the consensus. For each alignment
-column:
+By default, the **JalView** algorithm (denoted as **"default"**) is used to calculate the consensus. For each alignment column:
 
 - If two characters have high frequency, a `"+"` symbol is inserted.
-- Otherwise, a character is returned either in **uppercase** or **lowercase**, depending on the percentage value and the
-  **threshold** parameter.
+- Otherwise, a character is returned either in **uppercase** or **lowercase**, depending on the percentage value and the **threshold** parameter.
 
 Alternatively, you can choose the **ClustalW** algorithm:
 
@@ -28,15 +25,13 @@ Alternatively, you can choose the **ClustalW** algorithm:
 
 ## How to Use This Sample
 
-If you haven't used the workflow samples in UGENE before,
-see [How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows).
+If you haven't used the workflow samples in UGENE before, see [How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows).
 
 ---
 
 ## Workflow Sample Location
 
-This sample, **"Extract Consensus as Text"**, can be found in the **"Alignment"** section of the Workflow Designer
-samples.
+This sample, **"Extract Consensus as Text"**, can be found in the **"Alignment"** section of the Workflow Designer samples.
 
 ---
 

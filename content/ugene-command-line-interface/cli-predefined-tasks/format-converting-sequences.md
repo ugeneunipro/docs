@@ -20,11 +20,11 @@ _format_ — format of the output file. \[String, Optional\]
 
 The following values are available:
 
-*   *   fasta
-    *   fastq
-    *   genbank
-    *   gff
-    *   raw
+- fasta
+- fastq
+- genbank
+- gff
+- raw
 
 **Example:**
 

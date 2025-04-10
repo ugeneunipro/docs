@@ -3,20 +3,19 @@ title: "Adding Phred Quality Scores to Sequence"
 weight: 700
 ---
 
-
 # Adding Phred Quality Scores to Sequence
 
 **Task Name:** join-quality
 
-Adds Phread quality scores to a sequence and saves the result to the output FASTQ file.
+Adds Phred quality scores to a sequence and saves the result to the output FASTQ file.
 
 **Parameters:**
 
-_in_ — input sequence file. \[String, Required\]
-
-_quality_ — input Phred quality scores file. \[String, Required\]
-
-_out_ — output FASTQ file. \[String, Required\]
+| Parameter | Description | Type | Requirement |
+|-----------|-------------|------|-------------|
+| _in_ | Input sequence file. | String | Required |
+| _quality_ | Input Phred quality scores file. | String | Required |
+| _out_ | Output FASTQ file. | String | Required |
 
 **Example:**
 

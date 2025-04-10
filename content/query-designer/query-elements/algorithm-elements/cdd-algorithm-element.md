@@ -5,8 +5,7 @@ weight: 100
 
 # CDD Algorithm Element
 
-When the _element_ is used the input nucleotide sequence is translated into 6 amino sequences.
-The translated sequences are used to query the NCBI Conserved Domain Database (CDD).
+When the _element_ is used, the input nucleotide sequence is translated into six amino acid sequences. The translated sequences are used to query the NCBI Conserved Domain Database (CDD).
 
 ## Parameters in GUI
 

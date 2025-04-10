@@ -8,11 +8,12 @@ weight: 200
 
 The body begins with the **workflow** keyword followed by the name of the workflow and curly braces:
 
-workflow schema\_name {
+```
+workflow schema_name {
 
     # Description of the elements
     # Description of the dataflow
     # Description of the iterations
-    # Metainformation (aliases and visual information)
+    # Meta-information (aliases and visual information)
 
 }

@@ -11,10 +11,10 @@ The dashboard is a central place to view the overall progress of a single workfl
 *   Overview tab
 *   Input tab
 
-If a workflow uses external tools the following tab appears on dashboard:
+If a workflow uses external tools, the following tab appears on the dashboard:
 
 *   External Tools tab
 
-The following picture shows the sketch of the the dashboard:
+The following picture shows a sketch of the dashboard:
 
 ![](/images/3244811/3407950.jpg)

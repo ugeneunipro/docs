@@ -13,7 +13,7 @@ Parses information added to variations by SnpEff into standard annotations.
 
 | Parameter           | Description                                                                             | Default value | Parameter in Workflow File | Type     |
 |---------------------|-----------------------------------------------------------------------------------------|---------------|----------------------------|----------|
-| **Output file**     | Location of output data file. If set, overrides the "Location" slot of the output port. |               | **url-out**                | _string_ |
+| **Output file**     | Location of the output data file. If set, overrides the "Location" slot of the output port. |               | **url-out**                | _string_ |
 | **Document format** | Format of the output file.                                                              | genbank       | **document-format**        | _string_ |
 
 ## Input/Output Ports

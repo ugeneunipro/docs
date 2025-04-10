@@ -5,22 +5,19 @@ weight: 700
 
 # Filter out Short Sequences
 
-This workflow filters out sequences shorter than a specified minimum length. The resulting sequences are written to a
-FASTA file by default.
+This workflow filters out sequences shorter than a specified minimum length. The resulting sequences are written to a FASTA file by default.
 
 ---
 
 ## How to Use This Sample
 
-If you haven't used workflow samples in UGENE before, see
-the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
+If you haven't used workflow samples in UGENE before, see the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
 
 ---
 
 ## Workflow Sample Location
 
-The workflow sample **"Filter out Short Sequences"** is available in the **Scenarios** section of the Workflow Designer
-samples.
+The workflow sample **"Filter out Short Sequences"** is available in the **Scenarios** section of the Workflow Designer samples.
 
 ---
 

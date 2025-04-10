@@ -3,26 +3,25 @@ title: "Serial NGS Reads Classification"
 weight: 1200
 ---
 
-
 # Serial NGS Reads Classification
 
-**Attention:  Metagenomics was available before v40.**
+**Attention: Metagenomics was available before v40.**
 
-The workflow sample, described below, takes FASTQ files with metagenomic NGS reads as input and process them as follows:
+The workflow sample, described below, takes FASTQ files with metagenomic NGS reads as input and processes them as follows:
 
 *   Improve reads quality with Trimmomatic
 *   Provide FastQC reads quality reports
 *   Classification:
-    Classify the pre-processed reads with Kraken
-    Get reads that were not classified by Kraken
-    Classify these reads with CLARK
-    Get reads that were not classified (in case of SE reads)
-    Classify these reads with DIAMOND (in case of SE reads)
-    Provide general classification reports
+    *   Classify the pre-processed reads with Kraken
+    *   Get reads that were not classified by Kraken
+    *   Classify these reads with CLARK
+    *   Get reads that were not classified (in the case of SE reads)
+    *   Classify these reads with DIAMOND (in the case of SE reads)
+    *   Provide general classification reports
 
-How to Use This Sample
+**How to Use This Sample**
 
-If you haven't used the workflow samples in UGENEbefore, look at the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
+If you haven't used the workflow samples in UGENE before, look at the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
 
 ##### Workflow Sample Location
 
@@ -32,52 +31,48 @@ The workflow sample "Serial NGS Reads Classification" can be found in the "NGS" 
 
 The opened workflow for single-end reads looks as follows:
 
-
 ![](/images/65930393/65930394.jpg)
 
 The opened workflow for paired-end reads looks as follows:
-
 
 ![](/images/65930393/65930395.jpg)
 
 ##### Workflow Wizard
 
-The wizard has 5 pages.
+The wizard has five pages.
 
-1.  Input data: On this page, input files must be set.
-
+1. **Input Data:** On this page, input files must be set.
 
     ![](/images/65930393/65930396.jpg)
 
-2.  Trimmomatic settings: The Trimmomatic parameters can be changed here.
-
+2. **Trimmomatic Settings:** The Trimmomatic parameters can be changed here.
 
     ![](/images/65930393/65930397.jpg)
 
-    To configure trimming steps use the following button:
-
+    To configure trimming steps, use the following button:
 
     ![](/images/65930393/65930398.jpg)
 
     The following dialog will appear:
 
-
     ![](/images/65930393/65930399.jpg)
 
-    Click the _Add new_ ste_p_ button and select a step. The following options are available:
+    Click the _Add new step_ button and select a step. The following options are available:
 
-    *   ILLUMINACLIP: Cutadapterandotherillumina-specific sequences from the read.
-    *   SLIDINGWINDOW: Perform a sliding window trimming, cutting once the average quality within the window falls below a threshold.
-    *   LEADING: Cut bases off the start of a read, if below a threshold quality.
-    *   TRAILING: Cut bases off the end of a read, if below a threshold quality.
-    *   CROP: Cut the read to a specified length.
-    *   HEADCROP: Cut the specified number of bases from the start of the read.
-    *   MINLEN: Drop the read if it is below a specified length.
-    *   AVGQUAL: Drop the read if the average quality is below the specified level.
-    *   TOPHRED33: Convert quality scores to Phred-33.
-    *   TOPHRED64: Convert quality scores to Phred-64.
+    | Step           | Description                                                                                                             |
+    |----------------|-------------------------------------------------------------------------------------------------------------------------|
+    | **ILLUMINACLIP** | Cut adapter and other Illumina-specific sequences from the read.                                                        |
+    | **SLIDINGWINDOW** | Perform a sliding window trimming, cutting once the average quality within the window falls below a threshold.          |
+    | **LEADING**       | Cut bases off the start of a read if below a threshold quality.                                                        |
+    | **TRAILING**      | Cut bases off the end of a read if below a threshold quality.                                                          |
+    | **CROP**          | Cut the read to a specified length.                                                                                   |
+    | **HEADCROP**      | Cut the specified number of bases from the start of the read.                                                          |
+    | **MINLEN**        | Drop the read if it is below a specified length.                                                                      |
+    | **AVGQUAL**       | Drop the read if the average quality is below the specified level.                                                     |
+    | **TOPHRED33**     | Convert quality scores to Phred-33.                                                                                   |
+    | **TOPHRED64**     | Convert quality scores to Phred-64.                                                                                   |
 
-    Each step has the own parameters:
+    Each step has its own parameters:
 
     **AVGQUAL**
 
@@ -89,7 +84,7 @@ The wizard has 5 pages.
 
     **CROP**
 
-    This step removes bases regardless of quality from the end of thread, so that the readhas maximally the specified length after this step has been performed. Steps performed after CROP might of course further shorten the read.
+    This step removes bases regardless of quality from the end of the read so that the read has at most the specified length after this step has been performed. Steps performed after CROP might further shorten the read.
 
     Input the following values:
 
@@ -107,23 +102,22 @@ The wizard has 5 pages.
 
     This step is used to find and remove Illumina adapters.
 
-    Trimmomatic first compares short sections of an adapter and a read. If they match enough, the entire alignment between the read and adapter is scored. For paired-end reads, the "palindrome" approach is also used to improve the result. See Trimmomatic manual for details.
+    Trimmomatic first compares short sections of an adapter and a read. If they match enough, the entire alignment between the read and adapter is scored. For paired-end reads, the "palindrome" approach is also used to improve the result. See the Trimmomatic manual for details.
 
     Input the following values:
 
-    *   Adapter sequences: a FASTA file with the adapter sequences. Files for TruSeq2 (GAII machines), TruSeq3 (HiSeq and MiSeq machines) and Nextera kits for SE and PE reads are now available by default. The naming of the various sequences within the specified file determines how they are used.
+    *   Adapter sequences: a FASTA file with the adapter sequences. Files for TruSeq2 (GAII machines), TruSeq3 (HiSeq and MiSeq machines), and Nextera kits for SE and PE reads are now available by default. The naming of the various sequences within the specified file determines how they are used.
     *   Seed mismatches: the maximum mismatch count in short sections which will still allow a full match to be performed.
     *   Simple clip threshold: a threshold for simple alignment mode. Values between 7 and 15 are recommended. A perfect match of a 12 base sequence will score just over 7, while 25 bases are needed to score 15.
-    *   Palindrome clip threshold: a threshold for palindrome alignment mode. For palindromic matches, a longer alignment is possible. Therefore the threshold can be in the range of 30. Even though this threshold is very high (requiring a match of almost 50 bases) Trimmomatic is still able to identify very, very short adapter fragments.
+    *   Palindrome clip threshold: a threshold for palindrome alignment mode. For palindromic matches, a longer alignment is possible. Therefore, a threshold can be in the range of 30. Even though this threshold is very high (requiring a match of almost 50 bases), Trimmomatic is still able to identify very short adapter fragments.
 
-    There are also two optional parameters for palindrome mode: Min adapter length and Keep both reads. Use the following dialog. To call the dialog press the _Optional_ button.
-
+    There are also two optional parameters for palindrome mode: Min adapter length and Keep both reads. Use the following dialog. To call the dialog, press the _Optional_ button.
 
     ![](/images/65930393/65930400.jpg)
 
     **LEADING**
 
-    This step removes low-quality bases from the beginning. As long as a base has a value below this threshold the base is removed and the next base will be investigated.
+    This step removes low-quality bases from the beginning. As long as a base has a value below this threshold, the base is removed, and the next base will be investigated.
 
     Input the following values:
 
@@ -131,12 +125,12 @@ The wizard has 5 pages.
 
     **MAXINFO**
 
-    This step performs an adaptive quality trim, balancing the benefits of retaining longer reads against the costs of retaining bases with errors. See [Trimmomatic manual](http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/TrimmomaticManual_V0.32.pdf) for details.
+    This step performs an adaptive quality trim, balancing the benefits of retaining longer reads against the costs of retaining bases with errors. See the [Trimmomatic manual](http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/TrimmomaticManual_V0.32.pdf) for details.
 
     Input the following values:
 
-    *   Target length: the read length which is likely to allow the location of the read within the target sequence. Extremely short reads, which can be placed into many different locations, provide little value. Typically, the length would be in the order of 40 bases, however, the value also depends on the size and complexity of the target sequence.
-    *   Strictness: the balance between preserving as much read length as possible vs. removal of incorrect bases. A low value of this parameter (0.8) favours read correctness.
+    *   Target length: the read length which is likely to allow the location of the read within the target sequence. Extremely short reads, which can be placed into many different locations, provide little value. Typically, the length would be in the order of 40 bases; however, the value also depends on the size and complexity of the target sequence.
+    *   Strictness: the balance between preserving as much read length as possible vs. removal of incorrect bases. A low value of this parameter (0.8) favors read correctness.
 
     **MINLEN**
 
@@ -148,11 +142,11 @@ The wizard has 5 pages.
 
     **SLIDINGWINDOW**
 
-    This step performs a sliding window trimming, cutting once the average quality within the window falls below a threshold. By considering multiple bases, a single poor quality base will not cause the removal of high-quality data later in the read.
+    This step performs a sliding window trimming, cutting once the average quality within the window falls below a threshold. By considering multiple bases, a single poor-quality base will not cause the removal of high-quality data later in the read.
 
     Input the following values:
 
-    *   Window size: the number of bases to an average across.
+    *   Window size: the number of bases to average across.
     *   Quality threshold: the average quality required.
 
     **TOPHRED33**
@@ -165,79 +159,42 @@ The wizard has 5 pages.
 
     **TRAILING**
 
-    This step removes low-quality bases from the end. As long as a base has a value below this threshold the base is removed and the next base (i.e. the preceding one) will be investigated. This approach can be used removing the special Illumina " low-quality segment" regions (which are marked with a quality score of 2), but SLIDINGWINDOW or MAXINFO are recommended instead.
+    This step removes low-quality bases from the end. As long as a base has a value below this threshold, the base is removed, and the next base (i.e., the preceding one) will be investigated. This approach can be used to remove the special Illumina "low-quality segment" regions (which are marked with a quality score of 2), but SLIDINGWINDOW or MAXINFO are recommended instead.
 
     Input the following values:
 
     *   Quality threshold: the minimum quality required to keep a base.
 
-    To remove a step use the _Remove selected step_ button. The pink highlighting means the required parameter has not been set.
+    To remove a step, use the _Remove selected step_ button. The pink highlighting means the required parameter has not been set.
 
-
-
-3.  Kraken settings: Default Kraken parameters can be changed here.
-
-
-
+3. **Kraken Settings:** Default Kraken parameters can be changed here.
 
     The following parameters are available:
 
-    Database
+    | Parameter            | Description                                                                 |
+    |----------------------|-----------------------------------------------------------------------------|
+    | **Database**         | A path to the folder with the Kraken database files.                        |
+    | **Quick operation**  | Stop classification of an input read after the certain number of hits. The value can be specified in the "Minimum number of hits" parameter. |
 
-    A path to the folder with the Kraken database files.
-
-    Quick operation
-
-    Stop classification of an input read after the certain number of hits.
-    The value can be specified in the "Minimum number of hits" parameter.
-
-4.  CLARK settings: Default CLARK parameters can be changed here.
-
-
-
+4. **CLARK Settings:** Default CLARK parameters can be changed here.
 
     The following parameters are available:
 
-    Database
+    | Parameter                    | Description                                                                                                         |
+    |------------------------------|---------------------------------------------------------------------------------------------------------------------|
+    | **Database**                 | A folder that should be used to store the database files.                                                           |
+    | **K-mer length**             | This value is critical for the classification accuracy and speed.                                                   |
+    |                              | For high sensitivity, it is recommended to set this value to 20 or 21 (along with the "Full" mode).                    |
+    |                              | However, if precision and the speed are the main concern, use any value between 26 and 32.                            |
+    |                              | Note that the higher the value, the higher is the RAM usage. So, as a good trade-off between speed, precision, and RAM usage, it is recommended to set this value to 31 (along with the "Default" or "Express" mode). |
+    | **Minimum k-mer frequency**  | Minimum of k-mer frequency/occurrence for the discriminative k-mers (-t).                                           |
+    |                              | For example, for 1 (or 2), the program will discard any discriminative k-mer that appear only once (or, less than twice). |
+    | **Mode**                     | Set the mode of the execution (-m):                                                                              |
+    |                              | "Full" to get detailed results, confidence scores, and other statistics.                                          |
+    |                              | "Default" to get results summary and perform the best trade-off between classification speed, accuracy and RAM usage. |
+    |                              | "Express" to get results summary with the highest speed possible.                                                 |
+    | **Sampling factor value**    |                                                                                                                     |
+    | **Gap**                      | "Gap" or number of non-overlapping k-mers to pass when creating the database (-п).                                  |
+    |                              | Increase the value if it is required to reduce the RAM usage. Note that this will degrade the sensitivity.          |
 
-    A folder that should be used to store the database files.
-
-    K-mer length
-
-    This value is critical for the classification accuracy and speed.
-
-    For high sensitivity, it is recommended to set this value to 20 or 21 (along with the "Full" mode).
-
-    However, if the precision and the speed are the main concern, use any value between 26 and 32.
-
-    Note that the higher the value, the higher is the RAM usage. So, as a good tradeoff between speed, precision, and RAM usage, it is recommended to set this value to 31 (along with the "Default" or "Express" mode).
-
-    Minimum k-mer frequency
-
-    Minimum of k-mer frequency/occurrence for the discriminative k-mers(-t).
-    For example, for 1 (or, 2), the program will discard any discriminative k-mer that appear only once (or, less than twice).
-
-    Mode
-
-     Set the mode of the execution (-m):
-
-    *   "Full" to get detailed results, confidence scores, and other statistics.
-    *   "Default" to get results summary and perform the best trade-off between classification speed, accuracy and RAM usage.
-    *   "Express" to get results summary with the highest speed possible.
-
-    Sampling factor value
-
-
-
-    Gap
-
-     "Gap" or number of non-overlapping k-mers to pass when creating the database (-п).
-
-
-    Increase the value if it is required to reduce the RAM usage. Note that this will degrade the sensitivity.
-
-
-
-
-
-5.  Output Files Page: On this page, you can select an output directory:
+5. **Output Files Page:** On this page, you can select an output directory.

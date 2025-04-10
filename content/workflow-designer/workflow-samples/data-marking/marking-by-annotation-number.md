@@ -6,11 +6,11 @@ weight: 100
 
 # Marking by Annotation Number
 
-This sample describes how to identify sequences with the specified number of annotations.
+This sample describes how to identify sequences with a specified number of annotations.
 
-First, the schema reads sequences input by a user. Then, each sequence is marked either with the "Good" or with the "Rest" mark, depending on the number of the sequence annotations. After marking, the sequences are filtered by the marks. And finally, the filtered sequences are written into files, specified by a user.
+First, the schema reads sequences input by a user. Then, each sequence is marked with either the "Good" mark or the "Rest" mark, depending on the number of annotations in the sequence. After marking, the sequences are filtered by the marks. Finally, the filtered sequences are written into files specified by the user.
 
-By default, a sequence with 1 or more annotations is marked as "Good". You can configure this value in the _Sequence Marker_ element parameters. Also, it is possible to set up the annotation names that should be taken into account.
+By default, a sequence with 1 or more annotations is marked as "Good." You can configure this value in the _Sequence Marker_ element parameters. It is also possible to set up the annotation names that should be taken into account.
 
 How to Use This Sample
 

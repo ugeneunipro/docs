@@ -1,9 +1,8 @@
 ---
-title: "Adjusting fragment ends"
+title: "Adjusting Fragment Ends"
 weight: 600
 ---
 
+# Adjusting Fragment Ends
 
-# Adjusting fragment ends
-
-Click "Ajust 5'/3' end" to make the 5'/3' end of a selected fragment fits to the correspondig 3'/5' end of the on the fragment above/below.
+Click "Adjust 5'/3' End" to make the 5'/3' end of a selected fragment fit to the corresponding 3'/5' end of the fragment above/below.

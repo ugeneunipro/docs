@@ -48,7 +48,7 @@ Average = (Sum of dinucleotide flexibility angles in the window) / (window size 
 
 ## Handling Unknown Bases (N)
 
-If the sequence contains ambiguous base `N`, the following minimum angle values are used:
+If the sequence contains an ambiguous base `N`, the following minimum angle values are used:
 
 - **CN, NC, GN, NG, NN** → _7.2_
 - **AN, NA, TN, NT** → _7.6_

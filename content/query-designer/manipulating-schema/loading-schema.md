@@ -3,7 +3,6 @@ title: "Loading Schema"
 weight: 200
 ---
 
-
 # Loading Schema
 
 To load an existing _schema_ from the _Query Designer_, select the _Actions ‣ Load Schema_ item in the main menu or use the _Load schema_ toolbar button.

@@ -3,7 +3,6 @@ title: "Context Menus"
 weight: 400
 ---
 
-
 # Context Menus
 
 Some features are also available through context menus over corresponding areas, e.g.:

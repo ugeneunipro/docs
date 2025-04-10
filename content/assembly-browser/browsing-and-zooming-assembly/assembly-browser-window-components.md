@@ -3,36 +3,34 @@ title: "Assembly Browser Window Components"
 weight: 300
 ---
 
-
 # Assembly Browser Window Components
 
-An Assembly Browser window consists of:
+An Assembly Browser window consists of the following components:
 
 **Assembly Overview**
 
- By default, shows the whole assembly overview. Can be resized to provide an overview of an assembly part.
+By default, this shows the entire assembly overview. It can be resized to provide an overview of part of an assembly.
 
- **Reference Area**
+**Reference Area**
 
- Shows the reference sequence.
+This shows the reference sequence.
 
- **Consensus Area**
+**Consensus Area**
 
- Shows the consensus sequence.
+This shows the consensus sequence.
 
- **Ruler**
+**Ruler**
 
- Shows the coordinates in the _Reads Area_.
+This shows the coordinates in the _Reads Area_.
 
- **Reads Area**
+**Reads Area**
 
- Displays the reads.
+This displays the reads.
 
- **Coverage Graph**
+**Coverage Graph**
 
- Shows the coverage of the Reads Area.
+This shows the coverage of the Reads Area.
 
 See the example below:
-
 
 ![](/images/65929804/65929805.png)

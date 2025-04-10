@@ -25,13 +25,13 @@ Fetches a sequence from a remote database. The supported databases are accessed 
 
 ## Parameters
 
-- **`--db`** — Database alias to read from.
+- **`--db`** — Database alias to read from.  
   _Type: `String`, Required._
 
-- **`--id`** — Semicolon-separated list of resource IDs in the database.
+- **`--id`** — Semicolon-separated list of resource IDs in the database.  
   _Type: `String`, Required._
 
-- **`--save-dir`** — Directory to store sequence files loaded from the database.
+- **`--save-dir`** — Directory to store sequence files loaded from the database.  
   _Type: `String`, Optional._
 
 ---
@@ -40,4 +40,3 @@ Fetches a sequence from a remote database. The supported databases are accessed 
 
 ```bash
 ugene fetch-sequence --db=PDB --id=3INS;1CRN
-```

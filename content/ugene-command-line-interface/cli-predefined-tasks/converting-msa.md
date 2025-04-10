@@ -3,7 +3,6 @@ title: "Converting MSA"
 weight: 200
 ---
 
-
 # Converting MSA
 
 **Task Name:** convert-msa
@@ -20,14 +19,14 @@ _format_ — format of the output file. \[String, Optional\]
 
 The following values are available:
 
-*   *   clustal (default)
-    *   fasta
-    *   mega
-    *   msf
-    *   nexus
-    *   phylip-interleaved
-    *   phylip-sequential
-    *   stockholm
+*   clustal (default)
+*   fasta
+*   mega
+*   msf
+*   nexus
+*   phylip-interleaved
+*   phylip-sequential
+*   stockholm
 
 **Example:**
 

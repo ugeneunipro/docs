@@ -6,8 +6,7 @@ weight: 700
 
 # Go to Position in Assembly
 
-To go to the required position in an assembly use the following field located on the Assembly Browser toolbar.
-
+To navigate to a specific position in an assembly, use the following field located on the Assembly Browser toolbar.
 
 ![](/images/65929814/65929815.png)
 

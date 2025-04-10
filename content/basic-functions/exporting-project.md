@@ -6,7 +6,7 @@ weight: 1400
 
 # Exporting Project
 
-All the open documents and bookmarks (along with the corresponding views states) can be saved within a project file. To do so, select _File ‣ Export Project_. It will invoke the _Export project_ dialog, where you can select the destination of the project file.
+All open documents and bookmarks (along with the corresponding view states) can be saved within a project file. To do so, select _File ‣ Export Project_. This will open the _Export Project_ dialog, where you can select the destination of the project file.
 
 
 ![](/images/65929324/65929325.png)

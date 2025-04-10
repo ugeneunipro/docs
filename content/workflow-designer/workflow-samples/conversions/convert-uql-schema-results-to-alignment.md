@@ -5,7 +5,7 @@ weight: 300
 
 # Convert UQL Schema Results to Alignment
 
-This schema allows analyzing a sequence using a Query and saving the results as an alignment of selected features.
+This schema allows you to analyze a sequence using a query and save the results as an alignment of selected features.
 
 ## How to Use This Sample
 

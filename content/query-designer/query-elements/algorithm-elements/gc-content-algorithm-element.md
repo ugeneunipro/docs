@@ -5,18 +5,18 @@ weight: 300
 
 # GC Content Algorithm Element
 
-Searches regions in a sequence where the GC content falls within a specified range.
+Identifies regions in a sequence where the GC content falls within a specified range.
 
 ---
 
 ## Parameters in GUI
 
-| **Parameter**      | **Description**                       | **Default value** |
-|--------------------|---------------------------------------|-------------------|
-| **Min GC content** | Minimum GC content value in percents. | 20%               |
-| **Max GC content** | Maximum GC content value in percents. | 40%               |
-| **Min length**     | Minimum length of a region.           | 50 bp             |
-| **Max length**     | Maximum length of a region.           | 1000 bp           |
+| **Parameter**      | **Description**                                  | **Default Value** |
+|--------------------|--------------------------------------------------|-------------------|
+| **Min GC content** | Minimum GC content value in percentage.          | 20%               |
+| **Max GC content** | Maximum GC content value in percentage.          | 40%               |
+| **Min length**     | Minimum length of a region in base pairs.        | 50 bp             |
+| **Max length**     | Maximum length of a region in base pairs.        | 1000 bp           |
 
 ---
 

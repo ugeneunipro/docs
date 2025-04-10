@@ -42,7 +42,7 @@ Calls SNPs and INDELS with SAMtools mpileup and bcftools.
 | **Min sample fraction**           | Skip loci if < fraction of samples are covered (bcftools view `-d`).                              | 0                                                                             | **min_smpl_frac**          | _numeric_ |
 | **Per-sample genotypes**          | Call genotypes (bcftools view `-g`).                                                              | True                                                                          | **call_gt**                | _boolean_ |
 | **INDEL-to-SNP ratio**            | Expected mutation ratio (bcftools view `-i`).                                                     | -1                                                                            | **indel_frac**             | _numeric_ |
-| **Max P(ref                       | D)**                                                                                              | Site considered variant if probability of reference is below (bcftools view). | 0.5                        | **pref**  | _numeric_  |
+| **Max P(ref | D)**               | Site considered variant if probability of reference is below (bcftools view).                      | 0.5                                                                           | **pref**                   | _numeric_ |
 | **Allele frequency prior**        | Allele frequency prior: `full`, `cond2`, `flat`, or previous run output (bcftools view `-P`).     | full                                                                          | **ptype**                  | _string_  |
 | **Mutation rate**                 | Mutation rate (bcftools view `-t`).                                                               | 0.001                                                                         | **theta**                  | _numeric_ |
 | **Pair/trio calling**             | Enable pair/trio calling (bcftools view `-T`).                                                    |                                                                               | **ccall**                  | _string_  |
@@ -66,7 +66,7 @@ Calls SNPs and INDELS with SAMtools mpileup and bcftools.
 
 The element has 2 _input ports_:
 
-**Name in GUI:** Input assembly
+**Name in GUI:** Input assembly  
 **Name in Workflow File:** in-assembly
 
 | Slot In GUI      | Slot in Workflow File | Type     |
@@ -74,7 +74,7 @@ The element has 2 _input ports_:
 | **Dataset name** | **dataset**           | _string_ |
 | **Source url**   | **url**               | _string_ |
 
-**Name in GUI:** Input sequences
+**Name in GUI:** Input sequences  
 **Name in Workflow File:** in-sequence
 
 | Slot In GUI    | Slot in Workflow File | Type     |
@@ -83,7 +83,7 @@ The element has 2 _input ports_:
 
 And 1 _output port_:
 
-**Name in GUI:** Output variations
+**Name in GUI:** Output variations  
 **Name in Workflow File:** out-variations
 
 | Slot In GUI         | Slot in Workflow File | Type        |

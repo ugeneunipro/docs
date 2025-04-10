@@ -1,15 +1,12 @@
 ---
-title: "Adjusting Tree nodes"
+title: "Adjusting Tree Nodes"
 weight: 400
 ---
 
+# Adjusting Tree Nodes
 
-# Adjusting Tree nodes
-
-No_de shapes and Tip shapes_ are unselected by default in the _Tree settings Options Panel.
-_
-
+Node shapes and Tip shapes are unselected by default in the Tree Settings Options Panel.
 
 ![](/images/92602405/92602412.png)
 
-Selection _Node shapes_ option _draws circles on_ all internal nodes.Selection _Tip shapes_ option draws circles on all end nodes on the right.
+Selecting the Node shapes option draws circles on all internal nodes. Selecting the Tip shapes option draws circles on all end nodes on the right.

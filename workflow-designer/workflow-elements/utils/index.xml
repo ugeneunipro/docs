@@ -89,8 +89,7 @@
  &lt;/tr>
  &lt;/tbody>
 &lt;/table></description></item><item><title>Generate DNA Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/utils/generate-dna-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/utils/generate-dna-element/</guid><description>&lt;h1 id="generate-dna-element">Generate DNA Element&lt;/h1>
-&lt;p>Generates random DNA sequences with given nucleotide content that can be specified manually or evaluated from the
-reference file.&lt;/p>
+&lt;p>Generates random DNA sequences with a given nucleotide content that can be specified manually or evaluated from the reference file.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> generate-dna&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
 &lt;table>
@@ -106,7 +105,7 @@ reference file.&lt;/p>
  &lt;tbody>
  &lt;tr>
  &lt;td>&lt;strong>Length&lt;/strong>&lt;/td>
- &lt;td>Length of the resulted sequence or sequences.&lt;/td>
+ &lt;td>Length of the resulting sequence or sequences.&lt;/td>
  &lt;td>1000 bp&lt;/td>
  &lt;td>&lt;strong>length&lt;/strong>&lt;/td>
  &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
@@ -120,7 +119,7 @@ reference file.&lt;/p>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Seed&lt;/strong>&lt;/td>
- &lt;td>Value to initialize the random generator. By default (seed = -1) the generator is initialized with the system time.&lt;/td>
+ &lt;td>Value to initialize the random generator. By default (seed = -1), the generator is initialized with the system time.&lt;/td>
  &lt;td>-1&lt;/td>
  &lt;td>&lt;strong>seed&lt;/strong>&lt;/td>
  &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
@@ -141,7 +140,7 @@ reference file.&lt;/p>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Window size&lt;/strong>&lt;/td>
- &lt;td>The DNA sequence generation is divided into windows of the specified size. In each window the bases ratio is kept.&lt;/td>
+ &lt;td>The DNA sequence generation is divided into windows of the specified size. In each window, the base ratio is kept.&lt;/td>
  &lt;td>1000&lt;/td>
  &lt;td>&lt;strong>window-size&lt;/strong>&lt;/td>
  &lt;td>&lt;em>numeric&lt;/em>&lt;/td>

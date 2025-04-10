@@ -187,13 +187,229 @@
 &lt;/table></description></item><item><title>Prokaryotic</title><link>https://ugene.net/docs/extensions/sitecon/types-of-sitecon-models/prokaryotic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/sitecon/types-of-sitecon-models/prokaryotic/</guid><description>&lt;h1 id="prokaryotic">Prokaryotic&lt;/h1>
 &lt;p>&lt;strong>Name&lt;/strong>&lt;/p>
 &lt;p>&lt;strong>Description&lt;/strong>&lt;/p>
-&lt;p>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=AgaR&amp;amp;quickSearch=Quick+Search">AgaR&lt;/a>&lt;/p>
-&lt;p>N-acetylgalactosamine repressor, AgaR, negatively controls the expression of the aga gene cluster&lt;/p>
-&lt;p>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=AgaC&amp;amp;quickSearch=Quick+Search">AgaC&lt;/a>&lt;/p>
-&lt;p>AgaC is the Enzyme IIC domain of a predicted N-acetylgalactosamine-transporting PEP-dependent phosphotransferase system&lt;/p>
-&lt;p>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=ArcA&amp;amp;quickSearch=Quick+Search">ArcA&lt;/a>&lt;/p>
-&lt;p>ArcA transcriptional dual regulator&lt;/p>
-&lt;p>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=ArgR&amp;amp;quickSearch=Quick+Search">ArgR&lt;/a>&lt;/p>
-&lt;p>ArgR complexed with L-arginine represses the transcription of several genes involved in biosynthesis and transport of arginine, transport of histidine, and its own synthesis and activates genes for arginine catabolism.&lt;/p>
-&lt;p>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=CpxR&amp;amp;quickSearch=Quick+Search">CpxR&lt;/a>&lt;/p>
-&lt;p>DNA-binding response regulator in two-component regulatory system with CpxA&lt;/p></description></item></channel></rss>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Name&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=AgaR&amp;amp;quickSearch=Quick+Search">AgaR&lt;/a>&lt;/td>
+ &lt;td>N-acetylgalactosamine repressor, AgaR, negatively controls the expression of the aga gene cluster.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=AgaC&amp;amp;quickSearch=Quick+Search">AgaC&lt;/a>&lt;/td>
+ &lt;td>AgaC is the Enzyme IIC domain of a predicted N-acetylgalactosamine-transporting PEP-dependent phosphotransferase system.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=ArcA&amp;amp;quickSearch=Quick+Search">ArcA&lt;/a>&lt;/td>
+ &lt;td>ArcA is a transcriptional dual regulator.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=ArgR&amp;amp;quickSearch=Quick+Search">ArgR&lt;/a>&lt;/td>
+ &lt;td>ArgR complexed with L-arginine represses the transcription of several genes involved in the biosynthesis and transport of arginine, transport of histidine, and its own synthesis, and activates genes for arginine catabolism.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=CpxR&amp;amp;quickSearch=Quick+Search">CpxR&lt;/a>&lt;/td>
+ &lt;td>CpxR is a DNA-binding response regulator in a two-component regulatory system with CpxA.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=Crp&amp;amp;quickSearch=Quick+Search">Crp&lt;/a>&lt;/td>
+ &lt;td>cAMP receptor protein.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=CysB&amp;amp;quickSearch=Quick+Search">CysB&lt;/a>&lt;/td>
+ &lt;td>Cysteine B.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=CytR&amp;amp;quickSearch=Quick+Search">CytR&lt;/a>&lt;/td>
+ &lt;td>Cytidine Regulator.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=DeoR&amp;amp;quickSearch=Quick+Search">DeoR&lt;/a>&lt;/td>
+ &lt;td>Deoxyribose Regulator.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=DnaA&amp;amp;quickSearch=Quick+Search">DnaA&lt;/a>&lt;/td>
+ &lt;td>DnaA is the linchpin element in the initiation of DNA replication in E. coli.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=FadR&amp;amp;quickSearch=Quick+Search">FadR&lt;/a>&lt;/td>
+ &lt;td>Fatty acid degradation Regulon.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=fis&amp;amp;quickSearch=Quick+Search">fis&lt;/a>&lt;/td>
+ &lt;td>Factor for inversion stimulation.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=FlhDC&amp;amp;quickSearch=Quick+Search">FlhDC&lt;/a>&lt;/td>
+ &lt;td>Operon that encodes two transcriptional regulators.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=Fnr&amp;amp;quickSearch=Quick+Search">Fnr&lt;/a>&lt;/td>
+ &lt;td>FNR is the primary transcriptional regulator that mediates the transition from aerobic to anaerobic growth through the regulation of hundreds of genes.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=Frur&amp;amp;quickSearch=Quick+Search">Frur&lt;/a>&lt;/td>
+ &lt;td>Fructose repressor.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=FUR&amp;amp;quickSearch=Quick+Search">FUR&lt;/a>&lt;/td>
+ &lt;td>Ferric Uptake Regulation.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=GALR&amp;amp;quickSearch=Quick+Search">GALR&lt;/a>&lt;/td>
+ &lt;td>Galactose repressor.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=GALS&amp;amp;quickSearch=Quick+Search">GALS&lt;/a>&lt;/td>
+ &lt;td>Galactose isorepressor.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=GLPR&amp;amp;quickSearch=Quick+Search">GLPR&lt;/a>&lt;/td>
+ &lt;td>sn-Glycerol-3-phosphate repressor.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=GNTP&amp;amp;quickSearch=Quick+Search">GNTP&lt;/a>&lt;/td>
+ &lt;td>Member of the GntP family transporters.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=HNS&amp;amp;quickSearch=Quick+Search">HNS&lt;/a>&lt;/td>
+ &lt;td>Histone-like nucleoid structuring protein.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=ICLR&amp;amp;quickSearch=Quick+Search">ICLR&lt;/a>&lt;/td>
+ &lt;td>Isocitrate lyase Regulator.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=IHF&amp;amp;quickSearch=Quick+Search">IHF&lt;/a>&lt;/td>
+ &lt;td>Integration host factor.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=ISCR&amp;amp;quickSearch=Quick+Search">ISCR1&lt;/a>&lt;/td>
+ &lt;td>Iron-sulfur cluster Regulator 1.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=ISCR&amp;amp;quickSearch=Quick+Search">ISCR3&lt;/a>&lt;/td>
+ &lt;td>Iron-sulfur cluster Regulator 3.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=LEXA&amp;amp;quickSearch=Quick+Search">LEXA&lt;/a>&lt;/td>
+ &lt;td>LexA represses the transcription of several genes involved in the cellular response to DNA damage or inhibition of DNA replication.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=Lrp&amp;amp;quickSearch=Quick+Search">Lrp&lt;/a>&lt;/td>
+ &lt;td>Leucine-responsive regulatory protein.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=MALT&amp;amp;quickSearch=Quick+Search">MALT&lt;/a>&lt;/td>
+ &lt;td>Maltose regulator.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=MARA&amp;amp;quickSearch=Quick+Search">MARA&lt;/a>&lt;/td>
+ &lt;td>Multiple antibiotic resistance.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=MELR&amp;amp;quickSearch=Quick+Search">MELR&lt;/a>&lt;/td>
+ &lt;td>Melibiose regulator.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=MEtJ&amp;amp;quickSearch=Quick+Search">MEtJ&lt;/a>&lt;/td>
+ &lt;td>MetJ represses the expression of genes involved in the biosynthesis and transport of methionine.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=MetR&amp;amp;quickSearch=Quick+Search">MetR1&lt;/a>&lt;/td>
+ &lt;td>MetR participates in controlling several genes involved in methionine biosynthesis and a gene involved in protection against nitric oxide.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=MLC&amp;amp;quickSearch=Quick+Search">MLC&lt;/a>&lt;/td>
+ &lt;td>DgsA, better known as Mlc, “makes large colonies,” is a transcriptional dual regulator that controls the expression of a number of genes encoding enzymes of the Escherichia coli phosphotransferase (PTS) and phosphoenolpyruvate (PEP) systems.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=MODE&amp;amp;quickSearch=Quick+Search">MODE&lt;/a>&lt;/td>
+ &lt;td>Molybdate-responsive transcription factor.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=NAC&amp;amp;quickSearch=Quick+Search">NAC&lt;/a>&lt;/td>
+ &lt;td>Nitrogen assimilation control.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=NAGC&amp;amp;quickSearch=Quick+Search">NAGC_new2&lt;/a>&lt;/td>
+ &lt;td>N-acetylglucosamine.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=NANR&amp;amp;quickSearch=Quick+Search">NANR&lt;/a>&lt;/td>
+ &lt;td>N-acetyl-neuraminic acid regulator.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=NARL&amp;amp;quickSearch=Quick+Search">NARL2&lt;/a>&lt;/td>
+ &lt;td>Nitrate/nitrite response regulator NarL.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=NARL&amp;amp;quickSearch=Quick+Search">NARL&lt;/a>&lt;/td>
+ &lt;td>Nitrate/nitrite response regulator NarL.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=NARP&amp;amp;quickSearch=Quick+Search">NARP&lt;/a>&lt;/td>
+ &lt;td>Nitrate/nitrite response regulator NarP.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=NIRC&amp;amp;quickSearch=Quick+Search">NIRC&lt;/a>&lt;/td>
+ &lt;td>NirC is a nitrite transporter which is a member of the FNT family of formate and nitrite transporters.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=OmpC&amp;amp;quickSearch=Quick+Search">OmpC&lt;/a>&lt;/td>
+ &lt;td>OmpC is a member of the GMP family.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=OxyR&amp;amp;quickSearch=Quick+Search">OxyR&lt;/a>&lt;/td>
+ &lt;td>Oxidative stress regulator.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=PHOB&amp;amp;quickSearch=Quick+Search">PHOB&lt;/a>&lt;/td>
+ &lt;td>PhoB is a dual transcription regulator that activates the expression of the Pho regulon in response to environmental Pi.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=PHOP&amp;amp;quickSearch=Quick+Search">PHOP&lt;/a>&lt;/td>
+ &lt;td>Member of the two-component regulatory system phoQ/phoP involved in adaptation to low Mg2+ environments and the control of acid resistance genes.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=PurR&amp;amp;quickSearch=Quick+Search">PurR&lt;/a>&lt;/td>
+ &lt;td>The PurR dimer controls several genes involved in purine nucleotide biosynthesis and its own synthesis.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=RcsB&amp;amp;quickSearch=Quick+Search">RcsB_1&lt;/a>&lt;/td>
+ &lt;td>Regulator capsule synthesis B.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=RcsB&amp;amp;quickSearch=Quick+Search">RcsB_2&lt;/a>&lt;/td>
+ &lt;td>Regulator capsule synthesis B.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=ROB&amp;amp;quickSearch=Quick+Search">Rob2&lt;/a>&lt;/td>
+ &lt;td>Right origin-binding protein.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=ROB&amp;amp;quickSearch=Quick+Search">ROB&lt;/a>&lt;/td>
+ &lt;td>Right origin-binding protein.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=soxS&amp;amp;quickSearch=Quick+Search">soxS&lt;/a>&lt;/td>
+ &lt;td>SoxS is a dual transcriptional activator and participates in the removal of superoxide and nitric oxide, and protection from organic solvents and antibiotics.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=TORR&amp;amp;quickSearch=Quick+Search">TORR&lt;/a>&lt;/td>
+ &lt;td>TorR response regulator.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=TRPR&amp;amp;quickSearch=Quick+Search">TRPR&lt;/a>&lt;/td>
+ &lt;td>Tryptophan (trp) transcriptional repressor.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="http://biocyc.org/ECOLI/substring-search?type=NIL&amp;amp;object=TyrR&amp;amp;quickSearch=Quick+Search">TyrR&lt;/a>&lt;/td>
+ &lt;td>Tyrosine repressor.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item></channel></rss>

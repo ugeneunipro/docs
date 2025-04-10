@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>BLAST on UGENE Documentation</title><link>https://ugene.net/docs/extensions/blast/</link><description>Recent content in BLAST on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/extensions/blast/index.xml" rel="self" type="application/rss+xml"/><item><title>Creating Database</title><link>https://ugene.net/docs/extensions/blast/creating-database/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/blast/creating-database/</guid><description>&lt;h1 id="creating-database">Creating Database&lt;/h1>
-&lt;p>To format a BLAST database do the following:&lt;/p>
+&lt;p>To format a BLAST database, do the following:&lt;/p>
 &lt;ul>
 &lt;li>Open &lt;em>Tools ‣ BLAST ‣ BLAST make database&lt;/em>.&lt;/li>
 &lt;/ul>
 &lt;p>The &lt;em>Make Blast Database&lt;/em> dialog appears:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65930721/65930722.png" alt="">&lt;/p>
-&lt;p>Here you must select the input files. If all the files you want to use are located in one directory, you can simply select the directory with the files. By default, only the files are taken into account with *.fa and *.fasta extensions. You can change this by specifying either &lt;em>Include files filter&lt;/em> or exclude &lt;em>files filter&lt;/em>.&lt;/p></description></item><item><title>Making Request to Database</title><link>https://ugene.net/docs/extensions/blast/making-request-to-database/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/blast/making-request-to-database/</guid><description>&lt;h1 id="making-request-to-database">Making Request to Database&lt;/h1>
-&lt;p>To make a request to a local BLAST database do the following:&lt;/p>
+&lt;p>Here, you must select the input files. If all the files you want to use are located in one directory, you can simply select the directory with the files. By default, only files with *.fa and *.fasta extensions are taken into account. You can change this by specifying either an &lt;em>Include files filter&lt;/em> or an &lt;em>Exclude files filter&lt;/em>.&lt;/p></description></item><item><title>Making Request to Database</title><link>https://ugene.net/docs/extensions/blast/making-request-to-database/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/blast/making-request-to-database/</guid><description>&lt;h1 id="making-request-to-database">Making Request to Database&lt;/h1>
+&lt;p>To make a request to a local BLAST database, do the following:&lt;/p>
 &lt;ul>
 &lt;li>Open &lt;em>Tools ‣ BLAST ‣ BLAST search&lt;/em>.&lt;/li>
 &lt;/ul>
-&lt;p>If there is a sequence opened you can also initiate the request to a local BLAST database from the &lt;em>Sequence View&lt;/em>:&lt;/p>
+&lt;p>If there is a sequence opened, you can also initiate the request to a local BLAST database from the &lt;em>Sequence View&lt;/em>:&lt;/p>
 &lt;ul>
-&lt;li>Select the &lt;em>Analyze ‣ Query with local BLAST&lt;/em> item in the context menu or in the &lt;em>Actions&lt;/em> the main menu.&lt;/li>
+&lt;li>Select the &lt;em>Analyze ‣ Query with local BLAST&lt;/em> item in the context menu or in the &lt;em>Actions&lt;/em> menu in the main menu.&lt;/li>
 &lt;/ul>
 &lt;p>The &lt;em>Request to local BLAST database&lt;/em> dialog will appear:&lt;/p></description></item><item><title>Fetching Sequences from Local BLAST Database</title><link>https://ugene.net/docs/extensions/blast/fetching-sequences-from-local-blast-database/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/blast/fetching-sequences-from-local-blast-database/</guid><description>&lt;h1 id="fetching-sequences-from-local-blast-database">Fetching Sequences from Local BLAST Database&lt;/h1>
-&lt;p>To fetch sequences from the BLAST database do the following:&lt;/p>
+&lt;p>To fetch sequences from the BLAST database, do the following:&lt;/p>
 &lt;ul>
-&lt;li>Open &lt;em>Tools ‣ BLAST ‣ BLAST&lt;/em> &lt;em>query database&lt;/em>.&lt;/li>
+&lt;li>Open &lt;em>Tools ‣ BLAST ‣ BLAST query database&lt;/em>.&lt;/li>
 &lt;/ul>
-&lt;p>The &lt;em>Fetch Sequence from BLAST database&lt;/em> dialog will appear. It &lt;em>fetch sequences by &amp;lsquo;id&amp;rsquo; from &amp;lsquo;blast result&amp;rsquo;&lt;/em> context menu item of the blast result.&lt;/p>
+&lt;p>The &lt;em>Fetch Sequence from BLAST Database&lt;/em> dialog will appear. It fetches sequences by &amp;lsquo;id&amp;rsquo; from the &amp;lsquo;blast result&amp;rsquo; context menu item of the BLAST result.&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65930731/65930732.jpg" alt="">&lt;/p>
-&lt;p>Here you need to select a query ID, database, type of file(s) and output path. After that click on the &lt;em>Fetch&lt;/em> button. To fetch sequences for several annotations at the same time select the blast results with &lt;em>Ctrl&lt;/em> key and call the &lt;em>Fetch sequences from local BLAST database-&amp;gt;Fetch sequences by &amp;lsquo;id&amp;rsquo; from &amp;lsquo;blast result&amp;rsquo;&lt;/em> context menu item.&lt;/p></description></item></channel></rss>
+&lt;p>Here you need to select a query ID, database, type of file(s), and output path. After that, click on the &lt;em>Fetch&lt;/em> button. To fetch sequences for several annotations at the same time, select the BLAST results with the &lt;em>Ctrl&lt;/em> key and call the &lt;em>Fetch sequences from local BLAST database-&amp;gt;Fetch sequences by &amp;lsquo;id&amp;rsquo; from &amp;lsquo;blast result&amp;rsquo;&lt;/em> context menu item.&lt;/p></description></item></channel></rss>

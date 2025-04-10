@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Terminology on UGENE Documentation</title><link>https://ugene.net/docs/query-designer/query-designer-introduction/terminology/</link><description>Recent content in Terminology on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/query-designer/query-designer-introduction/terminology/index.xml" rel="self" type="application/rss+xml"/><item><title>Query Designer Window Components</title><link>https://ugene.net/docs/query-designer/query-designer-introduction/terminology/query-designer-window-components/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-designer-introduction/terminology/query-designer-window-components/</guid><description>&lt;h1 id="query-designer-window-components">Query Designer Window Components&lt;/h1>
 &lt;p>Each &lt;em>Query Designer&lt;/em> window consists of:&lt;/p>
 &lt;p>&lt;strong>Palette&lt;/strong>&lt;/p>
-&lt;p>The palette of the &lt;em>elements&lt;/em>.&lt;/p>
+&lt;p>The palette contains the available &lt;em>elements&lt;/em>.&lt;/p>
 &lt;p>&lt;strong>Scene&lt;/strong>&lt;/p>
-&lt;p>The main drawing scene is the place where &lt;em>elements&lt;/em> are constructed into a &lt;em>schema&lt;/em>.&lt;/p>
+&lt;p>The main drawing scene is where &lt;em>elements&lt;/em> are assembled into a &lt;em>schema&lt;/em>.&lt;/p>
 &lt;p>&lt;strong>Property Editor&lt;/strong>&lt;/p>
-&lt;p>Provides information about a currently selected &lt;em>element&lt;/em> and allows configuring it.&lt;/p>
-&lt;p>On the image below you can see these components in a maximized &lt;em>Query Designer&lt;/em> window:&lt;/p>
+&lt;p>This component provides information about the currently selected &lt;em>element&lt;/em> and allows you to configure it.&lt;/p>
+&lt;p>In the image below, you can see these components in a maximized &lt;em>Query Designer&lt;/em> window:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65930606/65930607.png" alt="">&lt;/p>
 &lt;p>All these components are resizable and can be adjusted to individual needs.&lt;/p></description></item><item><title>Schema Elements</title><link>https://ugene.net/docs/query-designer/query-designer-introduction/terminology/schema-elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-designer-introduction/terminology/schema-elements/</guid><description>&lt;h1 id="schema-elements">Schema Elements&lt;/h1>
-&lt;p>The &lt;em>Scene&lt;/em> is initially empty and you start with creating a &lt;em>schema&lt;/em> on it:&lt;/p>
-&lt;p>&lt;strong>schema&lt;/strong>&lt;/p>
-&lt;p>A schema is a visual representation of the query that would be used to analyze a nucleotide sequence. It consists of &lt;em>elements&lt;/em>.&lt;/p>
-&lt;p>&lt;strong>element&lt;/strong>&lt;/p>
+&lt;p>The &lt;em>Scene&lt;/em> is initially empty, and you start by creating a &lt;em>schema&lt;/em> on it.&lt;/p>
+&lt;p>&lt;strong>Schema&lt;/strong>&lt;/p>
+&lt;p>A schema is a visual representation of the query used to analyze a nucleotide sequence. It consists of &lt;em>elements&lt;/em>.&lt;/p>
+&lt;p>&lt;strong>Element&lt;/strong>&lt;/p>
 &lt;p>An element of a &lt;em>schema&lt;/em>. There are two types of elements: &lt;em>algorithm elements&lt;/em> and &lt;em>constraint elements&lt;/em>.&lt;/p>
-&lt;p>&lt;strong>algorithm element&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Algorithm Element&lt;/strong>&lt;/p>
 &lt;p>An element of a &lt;em>schema&lt;/em> that represents an algorithm used to analyze a nucleotide sequence.&lt;/p></description></item></channel></rss>

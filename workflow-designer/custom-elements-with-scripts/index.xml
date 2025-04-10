@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Custom Elements with Scripts on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/custom-elements-with-scripts/</link><description>Recent content in Custom Elements with Scripts on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/custom-elements-with-scripts/index.xml" rel="self" type="application/rss+xml"/><item><title>Functions Supported for Multiple Alignment Data</title><link>https://ugene.net/docs/workflow-designer/custom-elements-with-scripts/functions-supported-for-multiple-alignment-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/custom-elements-with-scripts/functions-supported-for-multiple-alignment-data/</guid><description>&lt;h1 id="functions-supported-for-multiple-alignment-data">Functions Supported for Multiple Alignment Data&lt;/h1>
 &lt;ul>
-&lt;li>&lt;strong>createAlignment&lt;/strong> (Sequence seq1, Sequence seq2, &amp;hellip;) — returns the alignment created from the sequences.&lt;/li>
-&lt;li>&lt;strong>addToAlignment&lt;/strong> (MAlignment aln, Sequence seq, int row = -1) — adds the sequence to the specified row of the alignment. If the “row” parameter is not specified the sequence is added to the end of the alignment.&lt;/li>
-&lt;li>&lt;strong>sequenceFromAlignment&lt;/strong> (MAlignment aln, int row) — returns the sequence from the specified row of the alignment.&lt;/li>
-&lt;li>&lt;strong>findInAlignment&lt;/strong> (MAlignment aln, Sequence seq) — searches the alignment for the specified string. Return the number of the row if the sequence has been found or “-1” if it hasn’t been found.&lt;/li>
-&lt;li>&lt;strong>findInAlignment&lt;/strong> (MAlignment aln, QString name) — searches the alignment for a sequence with the specified name.&lt;/li>
-&lt;li>&lt;strong>removeFromAlignment&lt;/strong> (MAlignment aln, int row) — removes a sequence from the specified row of the alignment.&lt;/li>
-&lt;li>&lt;strong>rowNum&lt;/strong> (MAlignment aln) — returns the number of rows in the alignment.&lt;/li>
-&lt;li>&lt;strong>columnNum&lt;/strong> (MAlignment aln) — returns the length of the alignment.&lt;/li>
-&lt;li>&lt;strong>alignmentAlphabetType&lt;/strong> (MAlignment aln) — returns the alignment’s alphabet.&lt;/li>
+&lt;li>&lt;strong>createAlignment&lt;/strong> (Sequence seq1, Sequence seq2, &amp;hellip;) — Returns the alignment created from the sequences.&lt;/li>
+&lt;li>&lt;strong>addToAlignment&lt;/strong> (MAlignment aln, Sequence seq, int row = -1) — Adds the sequence to the specified row of the alignment. If the “row” parameter is not specified, the sequence is added to the end of the alignment.&lt;/li>
+&lt;li>&lt;strong>sequenceFromAlignment&lt;/strong> (MAlignment aln, int row) — Returns the sequence from the specified row of the alignment.&lt;/li>
+&lt;li>&lt;strong>findInAlignment&lt;/strong> (MAlignment aln, Sequence seq) — Searches the alignment for the specified sequence. Returns the number of the row if the sequence has been found or “-1” if it hasn’t been found.&lt;/li>
+&lt;li>&lt;strong>findInAlignment&lt;/strong> (MAlignment aln, QString name) — Searches the alignment for a sequence with the specified name.&lt;/li>
+&lt;li>&lt;strong>removeFromAlignment&lt;/strong> (MAlignment aln, int row) — Removes a sequence from the specified row of the alignment.&lt;/li>
+&lt;li>&lt;strong>rowNum&lt;/strong> (MAlignment aln) — Returns the number of rows in the alignment.&lt;/li>
+&lt;li>&lt;strong>columnNum&lt;/strong> (MAlignment aln) — Returns the length of the alignment.&lt;/li>
+&lt;li>&lt;strong>alignmentAlphabetType&lt;/strong> (MAlignment aln) — Returns the alignment’s alphabet type.&lt;/li>
 &lt;/ul></description></item><item><title>Functions Supported for Sequence Data</title><link>https://ugene.net/docs/workflow-designer/custom-elements-with-scripts/functions-supported-for-sequence-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/custom-elements-with-scripts/functions-supported-for-sequence-data/</guid><description>&lt;h1 id="functions-supported-for-sequence-data">Functions Supported for Sequence Data&lt;/h1>
 &lt;ul>
-&lt;li>&lt;strong>subsequence&lt;/strong> (Sequence seq, int beg, int end) - returns the subsequence between the “beg” and “end” parameters.&lt;/li>
-&lt;li>&lt;strong>complement&lt;/strong> (Sequence seq) - returns the complement sequence.&lt;/li>
-&lt;li>&lt;strong>translate&lt;/strong> (Sequence seq, int offset = 0) - returns one of the three sequence translations. Which one is returned is determined by the “offset” parameter.&lt;/li>
+&lt;li>&lt;strong>subsequence&lt;/strong> (Sequence seq, int beg, int end) - returns the subsequence between the &amp;ldquo;beg&amp;rdquo; and &amp;ldquo;end&amp;rdquo; parameters.&lt;/li>
+&lt;li>&lt;strong>complement&lt;/strong> (Sequence seq) - returns the complement of the sequence.&lt;/li>
+&lt;li>&lt;strong>translate&lt;/strong> (Sequence seq, int offset = 0) - returns one of the three sequence translations. The &amp;ldquo;offset&amp;rdquo; parameter determines which one is returned.&lt;/li>
 &lt;li>&lt;strong>size&lt;/strong> (Sequence seq) - returns the length of the sequence.&lt;/li>
 &lt;li>&lt;strong>getName&lt;/strong> (Sequence seq) - returns the name of the sequence.&lt;/li>
 &lt;li>&lt;strong>alphabetType&lt;/strong> (Sequence seq) - returns the alphabet of the sequence.&lt;/li>
-&lt;li>&lt;strong>charAt&lt;/strong> (Sequence seq, int ind) - returns the symbol located in the “ind” position of the sequence.&lt;/li>
-&lt;li>&lt;strong>hasQuality&lt;/strong> (Sequence seq) - determines whether the sequence has the “Quality” parameter.&lt;/li>
-&lt;li>&lt;strong>getMinimumQuality&lt;/strong> (Sequence seq) - returns the minimum value of the “Quality”.&lt;/li>
-&lt;li>&lt;strong>isAmino&lt;/strong> (Sequence seq) - returns true if it is amino acid sequence.&lt;/li>
-&lt;li>&lt;strong>concatSequence&lt;/strong> (Sequence1 seq1, Sequence2 seq2,&amp;hellip;) - returns the one sequence consists of the all input sequences.&lt;/li>
-&lt;li>&lt;strong>sequenceFromText&lt;/strong> (QString &amp;quot; &amp;ldquo;) - returns the sequence consists of the input text.&lt;/li>
+&lt;li>&lt;strong>charAt&lt;/strong> (Sequence seq, int ind) - returns the symbol located at the &amp;ldquo;ind&amp;rdquo; position of the sequence.&lt;/li>
+&lt;li>&lt;strong>hasQuality&lt;/strong> (Sequence seq) - determines whether the sequence has the &amp;ldquo;Quality&amp;rdquo; parameter.&lt;/li>
+&lt;li>&lt;strong>getMinimumQuality&lt;/strong> (Sequence seq) - returns the minimum value of the &amp;ldquo;Quality&amp;rdquo;.&lt;/li>
+&lt;li>&lt;strong>isAmino&lt;/strong> (Sequence seq) - returns true if it is an amino acid sequence.&lt;/li>
+&lt;li>&lt;strong>concatSequence&lt;/strong> (Sequence1 seq1, Sequence2 seq2,&amp;hellip;) - returns one sequence consisting of all input sequences.&lt;/li>
+&lt;li>&lt;strong>sequenceFromText&lt;/strong> (QString &amp;quot; &amp;ldquo;) - returns the sequence consisting of the input text.&lt;/li>
 &lt;/ul></description></item><item><title>Functions Supported for Set of Annotations Data</title><link>https://ugene.net/docs/workflow-designer/custom-elements-with-scripts/functions-supported-for-set-of-annotations-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/custom-elements-with-scripts/functions-supported-for-set-of-annotations-data/</guid><description>&lt;h1 id="functions-supported-for-set-of-annotations-data">Functions Supported for Set of Annotations Data&lt;/h1>
 &lt;ul>
 &lt;li>&lt;strong>annotatedRegions&lt;/strong> (Sequence seq, AnnotationTable anns, QString name) — returns subsequences of the annotations with the specified “name”.&lt;/li>
 &lt;li>&lt;strong>addQualifier&lt;/strong> (AnnotationTable anns, QString qual, QString val, QString name = “”) — sets the qualifier in the annotations with the specified “name” to the specified value. If the “name” is not specified, then all annotations are taken into account.&lt;/li>
 &lt;li>&lt;strong>getLocation&lt;/strong> (AnnotationTable anns, int ind) — returns the annotation location with the specified index.&lt;/li>
-&lt;li>&lt;strong>filterByQualifier&lt;/strong> (AnnotationsTable anns, QString qual, QString val) - returns the qualifier with the specified value.&lt;/li>
-&lt;li>&lt;strong>hasAnnotationName&lt;/strong> - (AnnotationsTable anns, QString &amp;quot; &amp;ldquo;) - returns the annotation with the specified name there is or there is not.&lt;/li>
+&lt;li>&lt;strong>filterByQualifier&lt;/strong> (AnnotationTable anns, QString qual, QString val) — returns the qualifier with the specified value.&lt;/li>
+&lt;li>&lt;strong>hasAnnotationName&lt;/strong> (AnnotationTable anns, QString &amp;quot; &amp;ldquo;) — checks if there is an annotation with the specified name.&lt;/li>
 &lt;/ul></description></item><item><title>Functions Supported for Files</title><link>https://ugene.net/docs/workflow-designer/custom-elements-with-scripts/functions-supported-for-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/custom-elements-with-scripts/functions-supported-for-files/</guid><description>&lt;h1 id="functions-supported-for-files">Functions Supported for Files&lt;/h1>
 &lt;ul>
-&lt;li>&lt;strong>writeFile&lt;/strong> (QString url, QString &amp;quot; &amp;ldquo;) - writes the specified text data to the file with specified url.&lt;/li>
-&lt;li>&lt;strong>appendFile&lt;/strong> (QString url, QString &amp;quot; &amp;ldquo;) - appends the specified text data to the end of the file with the specified url.&lt;/li>
-&lt;li>&lt;strong>readFile&lt;/strong> (QString url) - reads the file with the specified url.&lt;/li>
+&lt;li>&lt;strong>writeFile&lt;/strong> (QString url, QString &amp;quot; &amp;ldquo;) - writes the specified text data to the file with the specified URL.&lt;/li>
+&lt;li>&lt;strong>appendFile&lt;/strong> (QString url, QString &amp;quot; &amp;ldquo;) - appends the specified text data to the end of the file with the specified URL.&lt;/li>
+&lt;li>&lt;strong>readFile&lt;/strong> (QString url) - reads the file with the specified URL.&lt;/li>
 &lt;/ul></description></item><item><title>Common Function</title><link>https://ugene.net/docs/workflow-designer/custom-elements-with-scripts/common-function/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/custom-elements-with-scripts/common-function/</guid><description>&lt;h1 id="common-function">Common Function&lt;/h1>
 &lt;ul>
 &lt;li>&lt;strong>printToLog&lt;/strong> (parameter) - prints the results to the &lt;a href="https://ugene.net/docs/workflow-designer/introduction/ugene-components-and-workflow-designer/task-view-notifications-and-log-view">&lt;em>Log View&lt;/em>&lt;/a>.&lt;/li>

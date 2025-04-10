@@ -15,7 +15,7 @@
  &lt;tbody>
  &lt;tr>
  &lt;td>&lt;strong>Output directory&lt;/strong>&lt;/td>
- &lt;td>Select an output directory. Options:&lt;br>Custom – use &amp;lsquo;Custom directory&amp;rsquo; param&lt;br>Workflow – internal dir&lt;br>Input file – directory of the input file&lt;/td>
+ &lt;td>Select an output directory. Options:&lt;br>Custom – use &amp;lsquo;Custom directory&amp;rsquo; parameter&lt;br>Workflow – internal directory&lt;br>Input file – directory of the input file&lt;/td>
  &lt;td>Input file&lt;/td>
  &lt;td>&lt;strong>out-mode&lt;/strong>&lt;/td>
  &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
@@ -36,7 +36,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Output name&lt;/strong>&lt;/td>
- &lt;td>Output filename. If left empty, the first input file name is used with additional extension.&lt;/td>
+ &lt;td>Output filename. If left empty, the first input file name is used with an additional extension.&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;strong>out-name&lt;/strong>&lt;/td>
  &lt;td>&lt;em>string&lt;/em>&lt;/td>
@@ -86,7 +86,7 @@
  &lt;/tr>
  &lt;/tbody>
 &lt;/table></description></item><item><title>Convert Text to Sequence Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-converters/convert-text-to-sequence-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-converters/convert-text-to-sequence-element/</guid><description>&lt;h1 id="convert-text-to-sequence-element">Convert Text to Sequence Element&lt;/h1>
-&lt;p>Converts the input text to a sequence.&lt;/p>
+&lt;p>Converts the input text into a sequence.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> convert-text-to-sequence&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
 &lt;table>
@@ -123,7 +123,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Replace unknown with&lt;/strong>&lt;/td>
- &lt;td>Replaces unknown symbols with specified character.&lt;/td>
+ &lt;td>Replaces unknown symbols with a specified character.&lt;/td>
  &lt;td>&lt;em>N&lt;/em>&lt;/td>
  &lt;td>&lt;strong>replace-unknown-with&lt;/strong>&lt;/td>
  &lt;td>&lt;em>string&lt;/em>&lt;/td>
@@ -227,51 +227,98 @@
  &lt;/tr>
  &lt;/tbody>
 &lt;/table></description></item><item><title>Reverse Complement Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-converters/reverse-complement-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-converters/reverse-complement-element/</guid><description>&lt;h1 id="reverse-complement-element">Reverse Complement Element&lt;/h1>
-&lt;p>Converts input sequence into its reverse, complement or reverse-complement counterpart.&lt;/p>
+&lt;p>This component converts an input sequence into its reverse, complement, or reverse-complement counterpart.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> reverse-complement&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Operation type&lt;/strong>&lt;/p>
-&lt;p>Selects either to produce the reverse, complement, or reverse-complement sequence.&lt;/p>
-&lt;p>Reverse Complement&lt;/p>
-&lt;p>&lt;strong>op-type&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Operation type&lt;/strong>&lt;/td>
+ &lt;td>Selects whether to produce the reverse, complement, or reverse-complement sequence.&lt;/td>
+ &lt;td>Reverse Complement&lt;/td>
+ &lt;td>&lt;strong>op-type&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
 &lt;p>Available values are:&lt;/p>
 &lt;ul>
 &lt;li>reverse-complement&lt;/li>
 &lt;li>complement&lt;/li>
 &lt;li>reverse&lt;/li>
 &lt;/ul>
-&lt;p>Input/Output Ports&lt;/p>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
 &lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p>
-&lt;p>&lt;strong>Name in GUI:&lt;/strong> &lt;em>Input sequence&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Name in Workflow File:&lt;/strong> in-sequence&lt;/p>
-&lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
-&lt;p>Slot In GUI&lt;/p></description></item><item><title>Split Assembly into Sequences Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-converters/split-assembly-into-sequences-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-converters/split-assembly-into-sequences-element/</guid><description>&lt;h1 id="split-assembly-into-sequences-element">Split Assembly into Sequences Element&lt;/h1>
-&lt;p>Splits assembly into sequences(reads).&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Name in GUI:&lt;/strong> &lt;em>Input sequence&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Name in Workflow File:&lt;/strong> in-sequence&lt;/li>
+&lt;/ul>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot in GUI&lt;/th>
+ &lt;th>Slot in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Sequence&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>sequence&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>sequence&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>And 1 &lt;em>output port&lt;/em>:&lt;/p></description></item><item><title>Split Assembly into Sequences Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-converters/split-assembly-into-sequences-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-converters/split-assembly-into-sequences-element/</guid><description>&lt;h1 id="split-assembly-into-sequences-element">Split Assembly into Sequences Element&lt;/h1>
+&lt;p>Splits assembly into sequences (reads).&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> reverse-complement&lt;/p>
 &lt;p>Input/Output Ports&lt;/p>
 &lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p>
 &lt;p>&lt;strong>Name in GUI:&lt;/strong> in-assembly&lt;/p>
 &lt;p>&lt;strong>Name in Workflow File:&lt;/strong> in-assembly&lt;/p>
 &lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
-&lt;p>Slot In GUI&lt;/p>
-&lt;p>Slot in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Assembly data&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>assembly&lt;/strong>&lt;/p>
-&lt;p>&lt;em>assembly&lt;/em>&lt;/p>
-&lt;p>And 1 &lt;em>out__put port&lt;/em>:&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot In GUI&lt;/th>
+ &lt;th>Slot in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Assembly data&lt;/td>
+ &lt;td>assembly&lt;/td>
+ &lt;td>&lt;em>assembly&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>And 1 &lt;em>output port&lt;/em>:&lt;/p>
 &lt;p>&lt;strong>Name in GUI:&lt;/strong> out-sequence&lt;/p>
 &lt;p>&lt;strong>Name in Workflow File:&lt;/strong> out-sequence&lt;/p>
 &lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
-&lt;p>Slot In GUI&lt;/p>
-&lt;p>Slot in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Sequence&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>seq&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p></description></item></channel></rss>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot In GUI&lt;/th>
+ &lt;th>Slot in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Sequence&lt;/td>
+ &lt;td>seq&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item></channel></rss>

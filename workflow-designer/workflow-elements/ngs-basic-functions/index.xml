@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NGS: Basic Functions on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/</link><description>Recent content in NGS: Basic Functions on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/index.xml" rel="self" type="application/rss+xml"/><item><title>CASAVA FASTQ Filter Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/casava-fastq-filter-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/casava-fastq-filter-element/</guid><description>&lt;h1 id="casava-fastq-filter-element">CASAVA FASTQ Filter Element&lt;/h1>
-&lt;p>Reads in FASTQ file produced by CASAVA 1.8 contain &amp;lsquo;N&amp;rsquo; or &amp;lsquo;Y&amp;rsquo; as a part of an identifier.
-&amp;lsquo;Y&amp;rsquo; if a read is filtered, &amp;lsquo;N&amp;rsquo; if the read is not filtered. The workflow cleans up the filtered reads.&lt;/p>
+&lt;p>Reads in a FASTQ file produced by CASAVA 1.8 contain &amp;lsquo;N&amp;rsquo; or &amp;lsquo;Y&amp;rsquo; as part of an identifier.
+&amp;lsquo;Y&amp;rsquo; indicates a read is filtered, &amp;lsquo;N&amp;rsquo; indicates the read is not filtered. The workflow cleans up the filtered reads.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> CASAVAFilter&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
 &lt;table>
@@ -75,35 +75,35 @@
  &lt;tbody>
  &lt;tr>
  &lt;td>&lt;strong>Output directory&lt;/strong>&lt;/td>
- &lt;td>Select an output directory. Custom – specify the output directory in the &amp;lsquo;Custom directory&amp;rsquo; parameter. Workflow – internal workflow directory. Input file – the directory of the input file.&lt;/td>
+ &lt;td>Select an output directory. &amp;ldquo;Custom&amp;rdquo; – specify the output directory in the &amp;lsquo;Custom directory&amp;rsquo; parameter. &amp;ldquo;Workflow&amp;rdquo; – internal workflow directory. &amp;ldquo;Input file&amp;rdquo; – the directory of the input file.&lt;/td>
  &lt;td>Input file&lt;/td>
  &lt;td>&lt;strong>out-mode&lt;/strong>&lt;/td>
  &lt;td>&lt;em>string&lt;/em>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Output file name&lt;/strong>&lt;/td>
- &lt;td>A name of an output file. If default or empty value is provided, the output name is the name of the first file with an additional extension.&lt;/td>
+ &lt;td>The name of an output file. If a default or empty value is provided, the output name is the name of the first file with an additional extension.&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;strong>out-name&lt;/strong>&lt;/td>
  &lt;td>&lt;em>string&lt;/em>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>FASTA file with 3&amp;rsquo; adapters&lt;/strong>&lt;/td>
- &lt;td>A FASTA file with one or multiple sequences of adapter that were ligated to the 3&amp;rsquo; end. The adapter itself and anything that follows is trimmed. If the adapter sequence ends with the &lt;code>$&lt;/code> character, the adapter is anchored to the end of the read and only found if it is a suffix of the read.&lt;/td>
+ &lt;td>A FASTA file with one or more sequences of adapters that were ligated to the 3&amp;rsquo; end. The adapter itself and anything that follows is trimmed. If the adapter sequence ends with the &lt;code>$&lt;/code> character, it is anchored to the end of the read and only found if it is a suffix of the read.&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;strong>adapters-url&lt;/strong>&lt;/td>
  &lt;td>&lt;em>string&lt;/em>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>FASTA file with 5&amp;rsquo; adapters&lt;/strong>&lt;/td>
- &lt;td>A FASTA file with one or multiple sequences of adapters that were ligated to the 5&amp;rsquo; end. If the adapter sequence starts with the character &lt;code>^&lt;/code>, the adapter is anchored. Anchored adapters must appear in their entirety at the 5&amp;rsquo; end of the read (as a prefix). Otherwise, they may be partially or fully trimmed.&lt;/td>
+ &lt;td>A FASTA file with one or more sequences of adapters that were ligated to the 5&amp;rsquo; end. If the adapter sequence starts with the character &lt;code>^&lt;/code>, it is anchored. Anchored adapters must appear in their entirety at the 5&amp;rsquo; end of the read (as a prefix). Otherwise, they may be partially or fully trimmed.&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;strong>front-url&lt;/strong>&lt;/td>
  &lt;td>&lt;em>string&lt;/em>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>FASTA file with 5&amp;rsquo; and 3&amp;rsquo; adapters&lt;/strong>&lt;/td>
- &lt;td>A FASTA file with one or multiple sequences of adapters that were ligated to the 5&amp;rsquo; end or 3&amp;rsquo; end.&lt;/td>
+ &lt;td>A FASTA file with one or more sequences of adapters that were ligated to the 5&amp;rsquo; end or 3&amp;rsquo; end.&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;strong>anywhere-url&lt;/strong>&lt;/td>
  &lt;td>&lt;em>string&lt;/em>&lt;/td>
@@ -151,14 +151,14 @@
  &lt;tbody>
  &lt;tr>
  &lt;td>&lt;strong>Algorithm&lt;/strong>&lt;/td>
- &lt;td>The algorithm of consensus extracting.&lt;/td>
+ &lt;td>The algorithm for extracting consensus.&lt;/td>
  &lt;td>Default&lt;/td>
  &lt;td>&lt;code>algorithm&lt;/code>&lt;/td>
  &lt;td>&lt;em>string&lt;/em>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Keep gaps&lt;/strong>&lt;/td>
- &lt;td>If set to &lt;code>True&lt;/code>, the result consensus will contain gaps.&lt;/td>
+ &lt;td>If set to &lt;code>True&lt;/code>, the resulting consensus will contain gaps.&lt;/td>
  &lt;td>True&lt;/td>
  &lt;td>&lt;code>keep-gaps&lt;/code>&lt;/td>
  &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
@@ -175,7 +175,7 @@
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th>&lt;strong>Slot In GUI&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Slot in GUI&lt;/strong>&lt;/th>
  &lt;th>&lt;strong>Slot in Workflow File&lt;/strong>&lt;/th>
  &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
  &lt;/tr>
@@ -197,7 +197,7 @@
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th>&lt;strong>Slot In GUI&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Slot in GUI&lt;/strong>&lt;/th>
  &lt;th>&lt;strong>Slot in Workflow File&lt;/strong>&lt;/th>
  &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
  &lt;/tr>
@@ -210,7 +210,7 @@
  &lt;/tr>
  &lt;/tbody>
 &lt;/table></description></item><item><title>Extract Coverage from Assembly Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/extract-coverage-from-assembly-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/extract-coverage-from-assembly-element/</guid><description>&lt;h1 id="extract-coverage-from-assembly-element">Extract Coverage from Assembly Element&lt;/h1>
-&lt;p>This workflow element extracts &lt;strong>coverage&lt;/strong> and/or &lt;strong>base counts&lt;/strong> from the incoming assembly data.&lt;/p>
+&lt;p>This workflow element extracts &lt;strong>coverage&lt;/strong> and/or &lt;strong>base counts&lt;/strong> from incoming assembly data.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> &lt;code>extract-assembly-coverage&lt;/code>&lt;/p>
 &lt;hr>
 &lt;h2 id="parameters">Parameters&lt;/h2>
@@ -227,7 +227,7 @@
  &lt;tbody>
  &lt;tr>
  &lt;td>&lt;strong>Output file&lt;/strong>&lt;/td>
- &lt;td>Path to the output data file. If this is set, slot &lt;code>Location&lt;/code> will not be used.&lt;/td>
+ &lt;td>Path to the output data file. If this is set, the slot &lt;code>Location&lt;/code> will not be used.&lt;/td>
  &lt;td>&lt;code>assembly_coverage.txt&lt;/code>&lt;/td>
  &lt;td>&lt;code>url-out&lt;/code>&lt;/td>
  &lt;td>&lt;em>string&lt;/em>&lt;/td>
@@ -273,7 +273,7 @@
 &lt;/table>
 &lt;h3 id="output-port">Output Port&lt;/h3>
 &lt;p>&lt;em>(None defined directly in the current schema – output is handled via the file path parameter &lt;code>url-out&lt;/code>.)&lt;/em>&lt;/p></description></item><item><title>FASTQ Merger Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/fastq-merger-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/fastq-merger-element/</guid><description>&lt;h1 id="fastq-merger-element">FASTQ Merger Element&lt;/h1>
-&lt;p>Merges input sequences to one output file.&lt;/p>
+&lt;p>Merges input sequences into one output file.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> &lt;code>MergeFastq&lt;/code>&lt;/p>
 &lt;hr>
 &lt;h2 id="parameters">Parameters&lt;/h2>
@@ -297,7 +297,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Output file name&lt;/strong>&lt;/td>
- &lt;td>A name of an output file. If default or empty value is provided, the output name is the name of the first file with additional extension.&lt;/td>
+ &lt;td>The name of the output file. If the default or an empty value is provided, the output name is the name of the first file with an additional extension.&lt;/td>
  &lt;td>&lt;em>(not set)&lt;/em>&lt;/td>
  &lt;td>&lt;code>out-name&lt;/code>&lt;/td>
  &lt;td>&lt;em>string&lt;/em>&lt;/td>
@@ -354,13 +354,72 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> --element MergeFastq &lt;span style="color:#ae81ff">\
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> --url input1.fastq,input2.fastq,input3.fastq &lt;span style="color:#ae81ff">\
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> --out-name merged_output.fastq
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This command merges multiple FASTQ files into one. Use &lt;code>--out-mode&lt;/code> and &lt;code>--custom-dir&lt;/code> if you want to set a specific
-output location.&lt;/p></description></item><item><title>FASTQ Quality Trimmer Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/fastq-quality-trimmer-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/fastq-quality-trimmer-element/</guid><description>&lt;h1 id="fastq-quality-trimmer-element">FASTQ Quality Trimmer Element&lt;/h1>
-&lt;p>The workflow scans each input sequence from the end to find the first position where the quality is greater or equal to
-the minimum quality threshold. Then it trims the sequence to that position. If the whole sequence has quality less than
-the threshold or the length of the output sequence is less than the minimum length threshold, then the sequence is
-skipped.&lt;/p>
-&lt;p>&lt;strong>Element type:&lt;/strong> &lt;code>QualityTrim&lt;/code>&lt;/p></description></item><item><title>Filter BAM SAM Files Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/filter-bam-sam-files-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/filter-bam-sam-files-element/</guid><description>&lt;h1 id="filter-bam-sam-files-element">Filter BAM SAM Files Element&lt;/h1>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This command merges multiple FASTQ files into one. Use &lt;code>--out-mode&lt;/code> and &lt;code>--custom-dir&lt;/code> if you want to set a specific output location.&lt;/p></description></item><item><title>FASTQ Quality Trimmer Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/fastq-quality-trimmer-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/fastq-quality-trimmer-element/</guid><description>&lt;h1 id="fastq-quality-trimmer-element">FASTQ Quality Trimmer Element&lt;/h1>
+&lt;p>The workflow scans each input sequence from the end to find the first position where the quality is greater than or equal to the minimum quality threshold. Then it trims the sequence to that position. If the entire sequence has a quality lower than the threshold or if the length of the output sequence is less than the minimum length threshold, then the sequence is skipped.&lt;/p></description></item><item><title>FastQC Quality Control Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/fastqc-quality-control-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/fastqc-quality-control-element/</guid><description>&lt;h1 id="fastqc-quality-control-element">FastQC Quality Control Element&lt;/h1>
+&lt;p>This element generates quality control reports for short read sequencing data using &lt;strong>FastQC&lt;/strong>.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> &lt;code>fastqc&lt;/code>&lt;/p>
+&lt;hr>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Parameter&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Default Value&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Parameter in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file&lt;/strong>&lt;/td>
+ &lt;td>Name of the resulting FastQC report file. If not set, the input file name is used.&lt;/td>
+ &lt;td>Input file&lt;/td>
+ &lt;td>&lt;code>out-file&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>List of adapters&lt;/strong>&lt;/td>
+ &lt;td>Optional file with adapter sequences. Format: &lt;code>name&amp;lt;TAB&amp;gt;sequence&lt;/code>. Lines starting with &lt;code>#&lt;/code> are ignored.&lt;/td>
+ &lt;td>&lt;em>(not set)&lt;/em>&lt;/td>
+ &lt;td>&lt;code>adapter&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>List of contaminants&lt;/strong>&lt;/td>
+ &lt;td>Optional file with contaminants to screen for. Same format as adapters.&lt;/td>
+ &lt;td>&lt;em>(not set)&lt;/em>&lt;/td>
+ &lt;td>&lt;code>contaminants&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;h3 id="input-port">Input Port&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Name in GUI&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Name in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Slot&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Slot in Workflow File&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Type&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>Short reads&lt;/code>&lt;/td>
+ &lt;td>&lt;code>in-file&lt;/code>&lt;/td>
+ &lt;td>Source URL&lt;/td>
+ &lt;td>&lt;code>url&lt;/code>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="example">Example&lt;/h2>
+&lt;p>You can use this element to generate FastQC reports in a larger workflow:&lt;/p></description></item><item><title>Filter BAM SAM Files Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/filter-bam-sam-files-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/filter-bam-sam-files-element/</guid><description>&lt;h1 id="filter-bam-sam-files-element">Filter BAM SAM Files Element&lt;/h1>
 &lt;p>Filters BAM/SAM files using SAMTools view.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> &lt;code>filter-bam&lt;/code>&lt;/p>
 &lt;hr>
@@ -378,14 +437,14 @@ skipped.&lt;/p>
  &lt;tbody>
  &lt;tr>
  &lt;td>Output folder&lt;/td>
- &lt;td>Select an output directory. Custom – specify the output directory in the &amp;lsquo;Custom directory&amp;rsquo; parameter. Workflow – internal workflow dir. Input file – use its dir.&lt;/td>
+ &lt;td>Select an output directory. Custom – specify the output directory in the &amp;lsquo;Custom directory&amp;rsquo; parameter. Workflow – internal workflow directory. Input file – use its directory.&lt;/td>
  &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
  &lt;td>&lt;code>out-mode&lt;/code>&lt;/td>
  &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Output name&lt;/td>
- &lt;td>Name of an output BAM/SAM file. If empty, uses the name of the first input file with &lt;code>.filtered&lt;/code> extension.&lt;/td>
+ &lt;td>Name of an output BAM/SAM file. If empty, uses the name of the first input file with a &lt;code>.filtered&lt;/code> extension.&lt;/td>
  &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
  &lt;td>&lt;code>out-name&lt;/code>&lt;/td>
  &lt;td>&lt;em>string&lt;/em>&lt;/td>
@@ -399,7 +458,7 @@ skipped.&lt;/p>
  &lt;/tr>
  &lt;tr>
  &lt;td>Region&lt;/td>
- &lt;td>Regions to filter (BAM only). Example: &lt;code>chr2&lt;/code>, &lt;code>chr2:1000&lt;/code>, or &lt;code>chr2:1000-2000&lt;/code>. Multiple regions separated by space.&lt;/td>
+ &lt;td>Regions to filter (BAM only). Example: &lt;code>chr2&lt;/code>, &lt;code>chr2:1000&lt;/code>, or &lt;code>chr2:1000-2000&lt;/code>. Multiple regions are separated by space.&lt;/td>
  &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
  &lt;td>&lt;code>region&lt;/code>&lt;/td>
  &lt;td>&lt;em>string&lt;/em>&lt;/td>
@@ -473,144 +532,412 @@ skipped.&lt;/p>
 &lt;/table></description></item><item><title>Genome Coverage Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/genome-coverage-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/genome-coverage-element/</guid><description>&lt;h1 id="genome-coverage-element">Genome Coverage Element&lt;/h1>
 &lt;p>Calculates genome coverage using bedtools genomecov.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> genomecov&lt;/p>
-&lt;p>Parameters&lt;/p>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Output directory&lt;/strong>&lt;/p>
-&lt;p>Select an output directory. Custom - specify the output directory in the &amp;lsquo;Custom directory&amp;rsquo; parameter. Workflow - internal workflow directory. Input file - the directory of the input file.&lt;/p>
-&lt;p>Input file&lt;/p>
-&lt;p>&lt;strong>out-mode&lt;/strong>&lt;/p>
-&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Custom directory&lt;/strong>&lt;/p>
-&lt;p>Specify the output directory.&lt;/p>
-&lt;p>&lt;strong>custom-dir&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Output file name&lt;/strong>&lt;/p>
-&lt;p>A name of an output file. If default of empty value is provided the output name is the name of the first file with additional extention.&lt;/p></description></item><item><title>Improve Reads with Trimmomatic Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/improve-reads-with-trimmomatic-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/improve-reads-with-trimmomatic-element/</guid><description>&lt;h1 id="improve-reads-with-trimmomatic-element">Improve Reads with Trimmomatic Element&lt;/h1>
-&lt;p>Trimmomatic is a fast, multithreaded command line tool that can be used to trim and crop Illumina (FASTQ) data as well as to remove adapters.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Output directory&lt;/strong>&lt;/td>
+ &lt;td>Select an output directory. Custom - specify the output directory in the &amp;lsquo;Custom directory&amp;rsquo; parameter. Workflow - internal workflow directory. Input file - the directory of the input file.&lt;/td>
+ &lt;td>Input file&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>out-mode&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Custom directory&lt;/strong>&lt;/td>
+ &lt;td>Specify the output directory.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>custom-dir&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file name&lt;/strong>&lt;/td>
+ &lt;td>A name of an output file. If a default or empty value is provided the output name is the name of the first file with an additional extension.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>out-name&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Genome&lt;/strong>&lt;/td>
+ &lt;td>To prevent the extension of intervals beyond chromosome boundaries, bedtools slop requires a genome file defining the length of each chromosome or contig (-g).&lt;/td>
+ &lt;td>human.hg18&lt;/td>
+ &lt;td>&lt;strong>genome&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Report mode&lt;/strong>&lt;/td>
+ &lt;td>Histogram - Compute a histogram of coverage.&lt;br>Per-base (0-based) (-dz) - Compute the depth of feature coverage for each base on each chromosome (0-based).&lt;br>Per-base (1-based) (-d) - Compute the depth of feature coverage for each base on each chromosome (1-based).&lt;br>BEDGRAPH (-bg) - Produces genome-wide coverage output in BEDGRAPH format.&lt;br>BEDGRAPH (including uncovered) (-bga) - Produces genome-wide coverage output in BEDGRAPH format (including uncovered).&lt;/td>
+ &lt;td>Histogram&lt;/td>
+ &lt;td>&lt;strong>mode-id&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Split&lt;/strong>&lt;/td>
+ &lt;td>Treat &amp;ldquo;split&amp;rdquo; BAM or BED12 entries as distinct BED intervals when computing coverage. For BAM files, this uses the CIGAR &amp;ldquo;N&amp;rdquo; and &amp;ldquo;D&amp;rdquo; operations to infer the blocks for computing coverage. For BED12 files, this uses the BlockCount, BlockStarts, and BlockEnds fields (i.e., columns 10,11,12) (-split).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>split-id&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Strand&lt;/strong>&lt;/td>
+ &lt;td>Calculate coverage of intervals from a specific strand. With BED files, requires at least 6 columns (strand is column 6) (-strand).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>strand-id&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>5 prime&lt;/strong>&lt;/td>
+ &lt;td>Calculate coverage of 5&amp;rsquo; positions (instead of the entire interval) (-5).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>prime5-id&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>3 prime&lt;/strong>&lt;/td>
+ &lt;td>Calculate coverage of 3&amp;rsquo; positions (instead of the entire interval) (-3).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>prime3-id&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max&lt;/strong>&lt;/td>
+ &lt;td>Combine all positions with a depth &amp;gt;= max into a single bin in the histogram (-max).&lt;/td>
+ &lt;td>2147483647&lt;/td>
+ &lt;td>&lt;strong>max-id&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Scale&lt;/strong>&lt;/td>
+ &lt;td>Scale the coverage by a constant factor. Each coverage value is multiplied by this factor before being reported. Useful for normalizing coverage by, e.g., reads per million (RPM). Default is 1.0; i.e., unscaled (-scale).&lt;/td>
+ &lt;td>1.00000&lt;/td>
+ &lt;td>&lt;strong>scale-id&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Trackline&lt;/strong>&lt;/td>
+ &lt;td>Adds a UCSC/Genome-Browser track line definition in the first line of the output (-trackline).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>trackline-id&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Trackopts&lt;/strong>&lt;/td>
+ &lt;td>Writes additional track line definition parameters in the first line (-trackopts).&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>trackopts-id&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>Input/Output Ports&lt;/p></description></item><item><title>Improve Reads with Trimmomatic Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/improve-reads-with-trimmomatic-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/improve-reads-with-trimmomatic-element/</guid><description>&lt;h1 id="improve-reads-with-trimmomatic-element">Improve Reads with Trimmomatic Element&lt;/h1>
+&lt;p>Trimmomatic is a fast, multithreaded command line tool that can be used to trim and crop Illumina (FASTQ) data, as well as to remove adapters.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> trimmomatic&lt;/p>
-&lt;p>Parameters&lt;/p>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Input data&lt;/strong>&lt;/p>
-&lt;p>Set the type of the input reads: single-end (SE) or paired-end (PE).
-One or two slots of the input port are used depending on the value of the parameter. Pass URL(s) to data to these slots.
-Note that the paired-end mode will use additional information contained in paired reads to better find an adapter or PCR primer fragments introduced by the library preparation process.&lt;/p></description></item><item><title>Merge BAM Files Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/merge-bam-files-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/merge-bam-files-element/</guid><description>&lt;h1 id="merge-bam-files-element">Merge BAM Files Element&lt;/h1>
+&lt;h3 id="parameters">Parameters&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default Value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Input data&lt;/strong>&lt;/td>
+ &lt;td>Set the type of the input reads: single-end (SE) or paired-end (PE). One or two slots of the input port are used depending on the value of the parameter. Pass URL(s) to data to these slots. Note that the paired-end mode will use additional information contained in paired reads to better find adapters or PCR primer fragments introduced by the library preparation process.&lt;/td>
+ &lt;td>SE reads&lt;/td>
+ &lt;td>&lt;strong>input-data&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Trimming steps&lt;/strong>&lt;/td>
+ &lt;td>Configure trimming steps that should be performed by Trimmomatic.&lt;/td>
+ &lt;td>configure steps&lt;/td>
+ &lt;td>&lt;strong>trimming-steps&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file&lt;/strong>&lt;/td>
+ &lt;td>Specify the output file name.&lt;/td>
+ &lt;td>auto&lt;/td>
+ &lt;td>&lt;strong>output-url&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Generate detailed log&lt;/strong>&lt;/td>
+ &lt;td>Select &amp;ldquo;True&amp;rdquo; to generate a file with a log of all read trimmings, indicating details such as the thread name, the surviving sequence length, the location of the first surviving base, and the amount trimmed from the start and end of the read.&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>generate-log&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>bool&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Number of threads&lt;/strong>&lt;/td>
+ &lt;td>Use multiple threads (-threads).&lt;/td>
+ &lt;td>8&lt;/td>
+ &lt;td>&lt;strong>threads&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>To configure trimming steps, use the following button:&lt;/p></description></item><item><title>Merge BAM Files Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/merge-bam-files-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/merge-bam-files-element/</guid><description>&lt;h1 id="merge-bam-files-element">Merge BAM Files Element&lt;/h1>
 &lt;p>Merge BAM files using SAMTools merge.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> merge-bam&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Output directory&lt;/strong>&lt;/p>
-&lt;p>Select an output directory. Custom - specify the output directory in the &amp;lsquo;Custom directory&amp;rsquo; parameter. Workflow - internal workflow directory. Input file - the directory of the input file.&lt;/p>
-&lt;p>&lt;strong>out-mode&lt;/strong>&lt;/p>
-&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Custom directory&lt;/strong>&lt;/p>
-&lt;p>Custom output directory.&lt;/p>
-&lt;p>&lt;strong>custom-dir&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Output BAM name&lt;/strong>&lt;/p>
-&lt;p>A name of an output BAM file. If default of empty value is provided the output name is the name of the first BAM file with .merged.bam extention.&lt;/p></description></item><item><title>Remove Duplicates in BAM Files Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/remove-duplicates-in-bam-files-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/remove-duplicates-in-bam-files-element/</guid><description>&lt;h1 id="remove-duplicates-in-bam-files-element">Remove Duplicates in BAM Files Element&lt;/h1>
-&lt;p>Remove PCR duplicates of BAM files using SAMTools rmdup.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Output directory&lt;/strong>&lt;/td>
+ &lt;td>Select an output directory. Options include: Custom - specify the output directory in the &amp;lsquo;Custom directory&amp;rsquo; parameter; Workflow - internal workflow directory; Input file - the directory of the input file.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>out-mode&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Custom directory&lt;/strong>&lt;/td>
+ &lt;td>Custom output directory.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>custom-dir&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output BAM name&lt;/strong>&lt;/td>
+ &lt;td>A name for the output BAM file. If a default or empty value is provided, the output name is the name of the first BAM file with a .merged.bam extension.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>out-name&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Remove Duplicates in BAM Files Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/remove-duplicates-in-bam-files-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/remove-duplicates-in-bam-files-element/</guid><description>&lt;h1 id="remove-duplicates-in-bam-files-element">Remove Duplicates in BAM Files Element&lt;/h1>
+&lt;p>Remove PCR duplicates from BAM files using SAMTools rmdup.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> rmdup-bam&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Output directory&lt;/strong>&lt;/p>
-&lt;p>Select an output directory. Custom - specify the output directory in the &amp;lsquo;Custom directory&amp;rsquo; parameter. Workflow - internal workflow directory. Input file - the directory of the input file.&lt;/p>
-&lt;p>Input file&lt;/p>
-&lt;p>&lt;strong>out-mode&lt;/strong>&lt;/p>
-&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Output BAM name&lt;/strong>&lt;/p>
-&lt;p>A name of an output file. If default of empty value is provided the output name is the name of the first file with additional extention.&lt;/p></description></item><item><title>Slopbed Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/slopbed-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/slopbed-element/</guid><description>&lt;h1 id="slopbed-element">Slopbed Element&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default Value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Output directory&lt;/strong>&lt;/td>
+ &lt;td>Select an output directory. Custom - specify the output directory in the &amp;lsquo;Custom directory&amp;rsquo; parameter. Workflow - internal workflow directory. Input file - the directory of the input file.&lt;/td>
+ &lt;td>Input file&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>out-mode&lt;/strong>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output BAM name&lt;/strong>&lt;/td>
+ &lt;td>A name for the output file. If the default or empty value is provided, the output name is the name of the first file with an additional extension.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>out-name&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Remove for single-end reads&lt;/strong>&lt;/td>
+ &lt;td>Remove duplicates for single-end reads. By default, the command works for paired-end reads only (-s).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>remove-single-end&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Treat as single-end&lt;/strong>&lt;/td>
+ &lt;td>Treat paired-end reads as single-end reads (-S).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>treat_reads&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Slopbed Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/slopbed-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/slopbed-element/</guid><description>&lt;h1 id="slopbed-element">Slopbed Element&lt;/h1>
 &lt;p>Increases the size of each feature in files using bedtools slop.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> slopbed&lt;/p>
-&lt;p>Parameters&lt;/p>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Output directory&lt;/strong>&lt;/p>
-&lt;p>Select an output directory. Custom - specify the output directory in the &amp;lsquo;Custom directory&amp;rsquo; parameter. Workflow - internal workflow directory. Input file - the directory of the input file.&lt;/p>
-&lt;p>Input file&lt;/p>
-&lt;p>&lt;strong>out-mode&lt;/strong>&lt;/p>
-&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Custom directory&lt;/strong>&lt;/p>
-&lt;p>Specify the output directory.&lt;/p>
-&lt;p>&lt;strong>custom-dir&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Output file name&lt;/strong>&lt;/p></description></item><item><title>Sort BAM Files Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/sort-bam-files-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/sort-bam-files-element/</guid><description>&lt;h1 id="sort-bam-files-element">Sort BAM Files Element&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Output directory&lt;/strong>&lt;/td>
+ &lt;td>Select an output directory. Custom - specify the output directory in the &amp;lsquo;Custom directory&amp;rsquo; parameter. Workflow - internal workflow directory. Input file - the directory of the input file.&lt;/td>
+ &lt;td>Input file&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>out-mode&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Custom directory&lt;/strong>&lt;/td>
+ &lt;td>Specify the output directory.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>custom-dir&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file name&lt;/strong>&lt;/td>
+ &lt;td>A name of an output file. If a default or empty value is provided, the output name is the name of the first file with an additional extension.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>out-name&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Genome&lt;/strong>&lt;/td>
+ &lt;td>To prevent the extension of intervals beyond chromosome boundaries, bedtools slop requires a genome file defining the length of each chromosome or contig (-g).&lt;/td>
+ &lt;td>human.hg18&lt;/td>
+ &lt;td>&lt;strong>genome-id&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Each direction increase&lt;/strong>&lt;/td>
+ &lt;td>Increase the BED/GFF/VCF entry by the same number of base pairs in each direction. If this parameter is used, -l and -r are ignored. Enter 0 to disable (-b).&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>b-id&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Subtract from start&lt;/strong>&lt;/td>
+ &lt;td>The number of base pairs to subtract from the start coordinate. Enter 0 to disable (-l).&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>l-id&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Add to end&lt;/strong>&lt;/td>
+ &lt;td>The number of base pairs to add to the end coordinate. Enter 0 to disable (-r).&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>r-id&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Strand-based&lt;/strong>&lt;/td>
+ &lt;td>Define -l and -r based on strand. For example, if used, -l 500 for a negative-stranded feature will add 500 bp to the end coordinate (-s).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>s-id&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>As fraction&lt;/strong>&lt;/td>
+ &lt;td>Define -l and -r as a fraction of the feature&amp;rsquo;s length. E.g., if used on a 1000 bp feature, -l 0.50, will add 500 bp upstream (-pct).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>pct-id&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Print header&lt;/strong>&lt;/td>
+ &lt;td>Print the header from the input file prior to results (-header).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>header-id&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>Input/Output Ports&lt;/p></description></item><item><title>Sort BAM Files Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/sort-bam-files-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/sort-bam-files-element/</guid><description>&lt;h1 id="sort-bam-files-element">Sort BAM Files Element&lt;/h1>
 &lt;p>Sort BAM Files using SAMTools Sort.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> Sort-bam&lt;/p>
-&lt;p>Parameters&lt;/p>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Output directory&lt;/strong>&lt;/p>
-&lt;p>Select an output directory. Custom - specify the output directory in the &amp;lsquo;Custom directory&amp;rsquo; parameter. Workflow - internal workflow directory. Input file - the directory of the input file.&lt;/p>
-&lt;p>Input file&lt;/p>
-&lt;p>&lt;strong>out-mode&lt;/strong>&lt;/p>
-&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Custom directory&lt;/strong>&lt;/p>
-&lt;p>Specify the output directory.&lt;/p>
-&lt;p>&lt;strong>custom-dir&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Output BAM name&lt;/strong>&lt;/p>
-&lt;p>A name of an output file. If default of empty value is provided the output name is the name of the first file with additional extention.&lt;/p></description></item><item><title/><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/fastqc-quality-control-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-basic-functions/fastqc-quality-control-element/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>---
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>title: &amp;#34;FastQC Quality Control Element&amp;#34;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>weight: 700
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>---
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span># FastQC Quality Control Element
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>This element generates quality control reports for short read sequencing data using &lt;span style="font-weight:bold">**FastQC**&lt;/span>.
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="font-weight:bold">**Element type:**&lt;/span> &lt;span style="color:#e6db74">`fastqc`&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>---
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## Parameters
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>| &lt;span style="font-weight:bold">**Parameter**&lt;/span> | &lt;span style="font-weight:bold">**Description**&lt;/span> | &lt;span style="font-weight:bold">**Default Value**&lt;/span> | &lt;span style="font-weight:bold">**Parameter in Workflow File**&lt;/span> | &lt;span style="font-weight:bold">**Type**&lt;/span> |
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>|--------------------------|----------------------------------------------------------------------------------------------------------|--------------------|--------------------------------|------------|
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>| &lt;span style="font-weight:bold">**Output file**&lt;/span> | Name of the resulting FastQC report file. If not set, uses the input file name. | Input file | &lt;span style="color:#e6db74">`out-file`&lt;/span> | &lt;span style="font-style:italic">_string_&lt;/span> |
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>| &lt;span style="font-weight:bold">**List of adapters**&lt;/span> | Optional file with adapter sequences. Format: &lt;span style="color:#e6db74">`name&amp;lt;TAB&amp;gt;sequence`&lt;/span>. Lines starting with &lt;span style="color:#e6db74">`#`&lt;/span> are ignored. | &lt;span style="font-style:italic">*(not set)*&lt;/span> | &lt;span style="color:#e6db74">`adapter`&lt;/span> | &lt;span style="font-style:italic">_string_&lt;/span> |
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>| &lt;span style="font-weight:bold">**List of contaminants**&lt;/span> | Optional file with contaminants to screen for. Same format as adapters. | &lt;span style="font-style:italic">*(not set)*&lt;/span> | &lt;span style="color:#e6db74">`contaminants`&lt;/span> | &lt;span style="font-style:italic">_string_&lt;/span> |
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>---
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## Input/Output Ports
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">### Input Port
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>| &lt;span style="font-weight:bold">**Name in GUI**&lt;/span> | &lt;span style="font-weight:bold">**Name in Workflow File**&lt;/span> | &lt;span style="font-weight:bold">**Slot**&lt;/span> | &lt;span style="font-weight:bold">**Slot in Workflow File**&lt;/span> | &lt;span style="font-weight:bold">**Type**&lt;/span> |
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>|-----------------|----------------------------|--------------|----------------------------|------------|
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>| &lt;span style="color:#e6db74">`Short reads`&lt;/span> | &lt;span style="color:#e6db74">`in-file`&lt;/span> | Source URL | &lt;span style="color:#e6db74">`url`&lt;/span> | &lt;span style="font-style:italic">_string_&lt;/span> |
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>---
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## Example
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>You can use this element to generate FastQC reports in a larger workflow:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>```bash
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ugene workflow run \
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> --element fastqc \
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> --url input_reads.fastq \
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> --out-file fastqc_report.html
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>If you wish to customize adapter or contaminant lists:&lt;/p></description></item></channel></rss>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default Value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Output directory&lt;/strong>&lt;/td>
+ &lt;td>Select an output directory. Custom - specify the output directory in the &amp;lsquo;Custom directory&amp;rsquo; parameter. Workflow - internal workflow directory. Input file - the directory of the input file.&lt;/td>
+ &lt;td>Input file&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>out-mode&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>out-mode&lt;/td>
+ &lt;td>numeric&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Custom directory&lt;/strong>&lt;/td>
+ &lt;td>Specify the output directory.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>custom-dir&lt;/td>
+ &lt;td>string&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output BAM name&lt;/strong>&lt;/td>
+ &lt;td>A name for the output file. If the default or an empty value is provided, the output name is the name of the first file with an additional extension.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>out-name&lt;/td>
+ &lt;td>string&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Build index&lt;/strong>&lt;/td>
+ &lt;td>Build index for the sorted file with SAMTools index.&lt;/td>
+ &lt;td>human.hg18&lt;/td>
+ &lt;td>index&lt;/td>
+ &lt;td>boolean&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item></channel></rss>

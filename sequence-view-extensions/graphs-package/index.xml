@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Graphs Package on UGENE Documentation</title><link>https://ugene.net/docs/sequence-view-extensions/graphs-package/</link><description>Recent content in Graphs Package on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/sequence-view-extensions/graphs-package/index.xml" rel="self" type="application/rss+xml"/><item><title>Description of Graphs</title><link>https://ugene.net/docs/sequence-view-extensions/graphs-package/description-of-graphs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view-extensions/graphs-package/description-of-graphs/</guid><description>&lt;h1 id="description-of-graphs">Description of Graphs&lt;/h1>
-&lt;p>Find below the detailed description of each graph. Note that characters A, C, G and T in the formulas denote the number of corresponding nucleotide in a window.&lt;/p>
+&lt;p>Below is a detailed description of each graph. Note that the characters A, C, G, and T in the formulas represent the number of corresponding nucleotides in a window.&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>&lt;em>DNA Flexibility&lt;/em> — searches for regions of high DNA helix flexibility in a DNA sequence. The average &lt;em>Threshold&lt;/em> in a window is calculated by the following formula:&lt;/p>
-&lt;p>(sum of flexibility angles in the window) / (the window size - 1)&lt;/p></description></item><item><title>Graph Settings</title><link>https://ugene.net/docs/sequence-view-extensions/graphs-package/graph-settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view-extensions/graphs-package/graph-settings/</guid><description>&lt;h1 id="graph-settings">Graph Settings&lt;/h1>
-&lt;p>To change settings of a graph, select the _Graph-&amp;gt;_&lt;em>Graph settings&lt;/em> item in the graph context menu. The &lt;em>Graph Settings&lt;/em> dialog appears:&lt;/p>
+&lt;p>&lt;em>DNA Flexibility&lt;/em> — Identifies regions of high DNA helix flexibility in a DNA sequence. The average &lt;em>Threshold&lt;/em> in a window is calculated using the following formula:&lt;/p>
+&lt;p>[
+\frac{\text{sum of flexibility angles in the window}}{\text{window size} - 1}
+]&lt;/p>
+&lt;p>For more detailed information, see the &lt;a href="https://ugene.unipro.ru/wiki/display/UUOUM/DNA+Flexibility">&lt;em>DNA Flexibility&lt;/em>&lt;/a> section.&lt;/p></description></item><item><title>Graph Settings</title><link>https://ugene.net/docs/sequence-view-extensions/graphs-package/graph-settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view-extensions/graphs-package/graph-settings/</guid><description>&lt;h1 id="graph-settings">Graph Settings&lt;/h1>
+&lt;p>To change the settings of a graph, select the &lt;em>Graph -&amp;gt; Graph settings&lt;/em> item in the graph context menu. The &lt;em>Graph Settings&lt;/em> dialog will appear:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929576/65929577.png" alt="">&lt;/p>
 &lt;p>The following parameters are available:&lt;/p>
-&lt;p>&lt;em>Window&lt;/em> — the number of bases in a window.&lt;/p>
-&lt;p>&lt;em>Steps per window&lt;/em> — the number of steps in window. The &lt;em>Step&lt;/em> is calculated as &lt;em>Window&lt;/em> / &lt;em>Steps per window&lt;/em>.&lt;/p>
-&lt;p>&lt;em>Default color&lt;/em> — the default color of line of graph (or lines of graphs for &lt;em>GC Frame Plot&lt;/em>).&lt;/p></description></item><item><title>Saving Graph Cuttoffs as Annotations</title><link>https://ugene.net/docs/sequence-view-extensions/graphs-package/saving-graph-cuttoffs-as-annotations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view-extensions/graphs-package/saving-graph-cuttoffs-as-annotations/</guid><description>&lt;h1 id="saving-graph-cuttoffs-as-annotations">Saving Graph Cuttoffs as Annotations&lt;/h1>
-&lt;p>To save graph cuttoffs as annotations select the &lt;em>Graph-&amp;gt;Save cuttoffs as annotations&lt;/em> item in the graph contex menu. The following dialog will appear:&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>Window&lt;/em> — the number of bases in a window.&lt;/li>
+&lt;li>&lt;em>Steps per window&lt;/em> — the number of steps in the window. The &lt;em>Step&lt;/em> is calculated as &lt;em>Window&lt;/em> / &lt;em>Steps per window&lt;/em>.&lt;/li>
+&lt;li>&lt;em>Default color&lt;/em> — the default color of the graph line (or lines of graphs for &lt;em>GC Frame Plot&lt;/em>).&lt;/li>
+&lt;/ul>
+&lt;p>Checking the &lt;em>Cutoff for minimum and maximum values&lt;/em> checkbox enables the following settings:&lt;/p></description></item><item><title>Saving Graph Cutoffs as Annotations</title><link>https://ugene.net/docs/sequence-view-extensions/graphs-package/saving-graph-cuttoffs-as-annotations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view-extensions/graphs-package/saving-graph-cuttoffs-as-annotations/</guid><description>&lt;h1 id="saving-graph-cutoffs-as-annotations">Saving Graph Cutoffs as Annotations&lt;/h1>
+&lt;p>To save graph cutoffs as annotations, select the &lt;em>Graph-&amp;gt;Save cutoffs as annotations&lt;/em> item in the graph context menu. The following dialog will appear:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929579/65929580.png" alt="">&lt;/p>
 &lt;p>The following parameters are available:&lt;/p>
-&lt;p>&lt;em>Maximum cutoff&lt;/em> - maximum cutoff value.&lt;/p>
-&lt;p>&lt;em>Minimum cutoff&lt;/em> - minimum cutoff value.&lt;/p>
-&lt;p>&lt;em>Around cutoff values&lt;/em> - saves the values around cutoffs values.&lt;/p>
-&lt;p>&lt;em>Between cutoff values&lt;/em> - saves the values between cutoffs values.&lt;/p>
-&lt;p>In the &lt;em>Save annotation(s) to&lt;/em> group you can set up a file to store annotations. It could be either an existing annotation table object, a new annotation table or auto-annotations table (if it is available).&lt;/p></description></item></channel></rss>
+&lt;ul>
+&lt;li>&lt;em>Maximum cutoff&lt;/em> - maximum cutoff value.&lt;/li>
+&lt;li>&lt;em>Minimum cutoff&lt;/em> - minimum cutoff value.&lt;/li>
+&lt;li>&lt;em>Around cutoff values&lt;/em> - saves the values around cutoff values.&lt;/li>
+&lt;li>&lt;em>Between cutoff values&lt;/em> - saves the values between cutoff values.&lt;/li>
+&lt;/ul>
+&lt;p>In the &lt;em>Save annotation(s) to&lt;/em> group, you can set up a file to store annotations. It could be either an existing annotation table object, a new annotation table, or an auto-annotations table (if it is available).&lt;/p></description></item></channel></rss>

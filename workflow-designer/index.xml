@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Workflow Designer on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/</link><description>Recent content in Workflow Designer on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/index.xml" rel="self" type="application/rss+xml"/><item><title>About the Workflow Designer</title><link>https://ugene.net/docs/workflow-designer/about-the-workflow-designer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/about-the-workflow-designer/</guid><description>&lt;h1 id="about-the-workflow-designer">About the Workflow Designer&lt;/h1>
-&lt;p>The &lt;em>Workflow Designer&lt;/em> allows a molecular biologist to create and run complex computational workflow schemas even if he or she is not familiar with any programming language.&lt;/p>
-&lt;p>The workflow schemas comprise reproducible, reusable and self-documented research routines, with a simple and unambiguous visual representation suitable for publications.&lt;/p>
+&lt;p>The &lt;em>Workflow Designer&lt;/em> allows a molecular biologist to create and run complex computational workflow schemas, even if he or she is not familiar with any programming language.&lt;/p>
+&lt;p>The workflow schemas comprise reproducible, reusable, and self-documented research routines, with a simple and unambiguous visual representation suitable for publications.&lt;/p>
 &lt;p>The workflow schemas can be run both locally and remotely, either using a graphical interface or launched from the command line.&lt;/p></description></item><item><title>Changing Appearance</title><link>https://ugene.net/docs/workflow-designer/changing-appearance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/changing-appearance/</guid><description>&lt;h1 id="changing-appearance">Changing Appearance&lt;/h1>
-&lt;p>The default setting that influence the Workflow Designer appearance can be set in the &lt;a href="introduction/ugene-components-and-workflow-designer/application-settings">&lt;em>Application Settings&lt;/em>&lt;/a> dialog. The parameters are shown in the image below:&lt;/p>
+&lt;p>The default settings that influence the Workflow Designer&amp;rsquo;s appearance can be set in the &lt;a href="introduction/ugene-components-and-workflow-designer/application-settings">&lt;em>Application Settings&lt;/em>&lt;/a> dialog. The parameters are shown in the image below:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/2097185/2359314.png" alt="">&lt;/p>
-&lt;p>The &lt;em>Show grid&lt;/em>, &lt;em>Snap to grid&lt;/em>, &lt;em>Element style,&lt;/em> and &lt;em>Element font&lt;/em> parameters affect the view of a workflow:&lt;/p>
+&lt;p>The &lt;em>Show grid&lt;/em>, &lt;em>Snap to grid&lt;/em>, &lt;em>Element style&lt;/em>, and &lt;em>Element font&lt;/em> parameters affect the view of a workflow:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/2097185/2359315.png" alt="">&lt;/p>
-&lt;p>To change the appearance of a particular element use it’s context menu submenus &lt;em>Element properties&lt;/em> and &lt;em>Element style&lt;/em>.&lt;/p>
-&lt;p>Another way to change an element style is to use the &lt;em>Element style&lt;/em> submenu in the main menu.&lt;/p></description></item><item><title>Using Script to Set Parameter Value</title><link>https://ugene.net/docs/workflow-designer/using-script-to-set-parameter-value/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/using-script-to-set-parameter-value/</guid><description>&lt;h1 id="using-script-to-set-parameter-value">Using Script to Set Parameter Value&lt;/h1>
-&lt;p>When you select an element the &lt;em>Parameters&lt;/em> area of the &lt;a href="introduction/workflow-designer-window-components">&lt;em>Property Editor&lt;/em>&lt;/a> displays two columns: &lt;em>Name&lt;/em> and &lt;em>Value&lt;/em>.&lt;/p>
+&lt;p>To change the appearance of a particular element, use its context menu submenus: &lt;em>Element properties&lt;/em> and &lt;em>Element style&lt;/em>.&lt;/p>
+&lt;p>Another way to change an element&amp;rsquo;s style is to use the &lt;em>Element style&lt;/em> submenu in the main menu.&lt;/p></description></item><item><title>Using Script to Set Parameter Value</title><link>https://ugene.net/docs/workflow-designer/using-script-to-set-parameter-value/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/using-script-to-set-parameter-value/</guid><description>&lt;h1 id="using-script-to-set-parameter-value">Using Script to Set Parameter Value&lt;/h1>
+&lt;p>When you select an element, the &lt;em>Parameters&lt;/em> area of the &lt;a href="introduction/workflow-designer-window-components">&lt;em>Property Editor&lt;/em>&lt;/a> displays two columns: &lt;em>Name&lt;/em> and &lt;em>Value&lt;/em>.&lt;/p>
 &lt;p>Select the &lt;em>Show scripting options&lt;/em> item in the &lt;em>Scripting mode&lt;/em> menu on the toolbar or in the &lt;em>Actions&lt;/em> main menu.&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/2097207/2359330.png" alt="">&lt;/p>
-&lt;p>You can see that the third column &lt;em>Script&lt;/em> has appeared in the &lt;em>Parameters&lt;/em> area, for example:&lt;/p>
+&lt;p>You can see that the third column, &lt;em>Script&lt;/em>, has appeared in the &lt;em>Parameters&lt;/em> area, for example:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/2097207/2359331.png" alt="">&lt;/p>
 &lt;p>A script value can either be:&lt;/p>
 &lt;ul>
-&lt;li>not available for a parameter (&lt;em>N/A&lt;/em> value)&lt;/li>
-&lt;li>not set (&lt;em>no script&lt;/em>)&lt;/li>
-&lt;li>set by user (&lt;em>user script&lt;/em>)&lt;/li>
+&lt;li>Not available for a parameter (&lt;em>N/A&lt;/em> value)&lt;/li>
+&lt;li>Not set (&lt;em>no script&lt;/em>)&lt;/li>
+&lt;li>Set by the user (&lt;em>user script&lt;/em>)&lt;/li>
 &lt;/ul>
-&lt;p>To set a script value (when it is available) select the &lt;em>user script&lt;/em> item in the &lt;em>Script&lt;/em> column. The following dialog appears:&lt;/p></description></item><item><title>Running Workflow from the Command Line</title><link>https://ugene.net/docs/workflow-designer/running-workflow-from-the-command-line/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/running-workflow-from-the-command-line/</guid><description>&lt;h1 id="running-workflow-from-the-command-line">Running Workflow from the Command Line&lt;/h1>
-&lt;p>UGENE provides command line interface (CLI). To learn more about UGENE CLI and commands available read &lt;a href="http://ugene.unipro.ru/documentation.html">main UGENE User Manual&lt;/a>.&lt;/p>
+&lt;p>To set a script value (when it is available), select the &lt;em>user script&lt;/em> item in the &lt;em>Script&lt;/em> column. The following dialog appears:&lt;/p></description></item><item><title>Running Workflow from the Command Line</title><link>https://ugene.net/docs/workflow-designer/running-workflow-from-the-command-line/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/running-workflow-from-the-command-line/</guid><description>&lt;h1 id="running-workflow-from-the-command-line">Running Workflow from the Command Line&lt;/h1>
+&lt;p>UGENE provides a command-line interface (CLI). To learn more about the UGENE CLI and the available commands, read the &lt;a href="http://ugene.unipro.ru/documentation.html">main UGENE User Manual&lt;/a>.&lt;/p>
 &lt;p>This chapter describes how you can create a new command using a &lt;em>workflow&lt;/em>.&lt;/p>
-&lt;p>To run a workflow from the command line do the following:&lt;/p>
+&lt;p>To run a workflow from the command line, do the following:&lt;/p>
 &lt;ul>
-&lt;li>Create the workflow in the Workflow Designer. For example on the image below the &lt;em>Align sequences with MUSCLE&lt;/em> sample workflow is used:&lt;/li>
+&lt;li>Create the workflow in the Workflow Designer. For example, in the image below, the &lt;em>Align sequences with MUSCLE&lt;/em> sample workflow is used:&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://ugene.net/docs/images/2097213/2359337.png" alt="">&lt;/p></description></item></channel></rss>

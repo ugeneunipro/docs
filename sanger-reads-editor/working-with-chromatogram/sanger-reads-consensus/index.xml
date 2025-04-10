@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sanger Reads Consensus on UGENE Documentation</title><link>https://ugene.net/docs/sanger-reads-editor/working-with-chromatogram/sanger-reads-consensus/</link><description>Recent content in Sanger Reads Consensus on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/sanger-reads-editor/working-with-chromatogram/sanger-reads-consensus/index.xml" rel="self" type="application/rss+xml"/><item><title>Export Chromatogram Consensus</title><link>https://ugene.net/docs/sanger-reads-editor/working-with-chromatogram/sanger-reads-consensus/export-chromatogram-consensus/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sanger-reads-editor/working-with-chromatogram/sanger-reads-consensus/export-chromatogram-consensus/</guid><description>&lt;h1 id="export-chromatogram-consensus">Export Chromatogram Consensus&lt;/h1>
-&lt;p>To export consensus sequence use the &lt;em>C__onsensus&lt;/em> tab of the &lt;em>Options Panel&lt;/em>:&lt;/p>
+&lt;p>To export a consensus sequence, use the &lt;em>Consensus&lt;/em> tab of the &lt;em>Options Panel&lt;/em>:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929774/65929775.png" alt="">&lt;/p>
 &lt;p>The following parameters are available:&lt;/p>
-&lt;p>&lt;em>Export to file&lt;/em> - here you need to select path for the output file.&lt;/p>
-&lt;p>&lt;em>File format&lt;/em> - format for the output file.&lt;/p>
-&lt;p>&lt;em>Keep gaps -&lt;/em> set this parameter if the result consensus must keep gaps.&lt;/p>
-&lt;p>When you click on the &lt;em>Export&lt;/em> button the consensus sequence will be exported into selected output file.&lt;/p></description></item></channel></rss>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;em>Export to file&lt;/em> - Here, you need to select the path for the output file.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;em>File format&lt;/em> - Format for the output file.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;em>Keep gaps&lt;/em> - Set this parameter if the resulting consensus must retain gaps.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>When you click on the &lt;em>Export&lt;/em> button, the consensus sequence will be exported into the selected output file.&lt;/p></description></item></channel></rss>

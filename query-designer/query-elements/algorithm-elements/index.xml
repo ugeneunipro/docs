@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Algorithm Elements on UGENE Documentation</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/</link><description>Recent content in Algorithm Elements on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/query-designer/query-elements/algorithm-elements/index.xml" rel="self" type="application/rss+xml"/><item><title>CDD Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/cdd-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/cdd-algorithm-element/</guid><description>&lt;h1 id="cdd-algorithm-element">CDD Algorithm Element&lt;/h1>
-&lt;p>When the &lt;em>element&lt;/em> is used the input nucleotide sequence is translated into 6 amino sequences.
-The translated sequences are used to query the NCBI Conserved Domain Database (CDD).&lt;/p>
+&lt;p>When the &lt;em>element&lt;/em> is used, the input nucleotide sequence is translated into six amino acid sequences. The translated sequences are used to query the NCBI Conserved Domain Database (CDD).&lt;/p>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
 &lt;table>
  &lt;thead>
@@ -40,7 +39,7 @@ The translated sequences are used to query the NCBI Conserved Domain Database (C
 &lt;/table>
 &lt;h2 id="parameters-in-schema-file">Parameters in Schema File&lt;/h2>
 &lt;p>&lt;strong>Type:&lt;/strong> CDD&lt;/p></description></item><item><title>Base Content Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/base-content-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/base-content-algorithm-element/</guid><description>&lt;h1 id="base-content-algorithm-element">Base Content Algorithm Element&lt;/h1>
-&lt;p>Searches regions in a sequence that contain a specified percentage of a certain base.&lt;/p>
+&lt;p>This algorithm searches for regions in a sequence that contain a specified percentage of a certain base.&lt;/p>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
 &lt;table>
  &lt;thead>
@@ -53,22 +52,22 @@ The translated sequences are used to query the NCBI Conserved Domain Database (C
  &lt;tbody>
  &lt;tr>
  &lt;td>&lt;strong>Annotate As&lt;/strong>&lt;/td>
- &lt;td>Name of the result annotations.&lt;/td>
+ &lt;td>Name for the result annotations.&lt;/td>
  &lt;td>misc_feature&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Base&lt;/strong>&lt;/td>
- &lt;td>Specifies the base, i.e. A, C, G or T.&lt;/td>
+ &lt;td>Specifies the base, i.e., A, C, G or T.&lt;/td>
  &lt;td>You must specify a value!&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Percentage&lt;/strong>&lt;/td>
- &lt;td>Percentage of the base in a region. The value must be &amp;gt;= 50%.&lt;/td>
+ &lt;td>Percentage of the base in a region. The value must be greater than or equal to 50%.&lt;/td>
  &lt;td>90%&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Min Length&lt;/strong>&lt;/td>
- &lt;td>Minimum length of a region. The value must be &amp;gt;= 5.&lt;/td>
+ &lt;td>Minimum length of a region. The value must be greater than or equal to 5.&lt;/td>
  &lt;td>5 bp&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -85,7 +84,7 @@ The translated sequences are used to query the NCBI Conserved Domain Database (C
 &lt;/table>
 &lt;h2 id="parameters-in-schema-file">Parameters in Schema File&lt;/h2>
 &lt;p>&lt;strong>Type:&lt;/strong> base-content&lt;/p></description></item><item><title>GC Content Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/gc-content-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/gc-content-algorithm-element/</guid><description>&lt;h1 id="gc-content-algorithm-element">GC Content Algorithm Element&lt;/h1>
-&lt;p>Searches regions in a sequence where the GC content falls within a specified range.&lt;/p>
+&lt;p>Identifies regions in a sequence where the GC content falls within a specified range.&lt;/p>
 &lt;hr>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
 &lt;table>
@@ -93,28 +92,28 @@ The translated sequences are used to query the NCBI Conserved Domain Database (C
  &lt;tr>
  &lt;th>&lt;strong>Parameter&lt;/strong>&lt;/th>
  &lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
- &lt;th>&lt;strong>Default value&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Default Value&lt;/strong>&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
  &lt;td>&lt;strong>Min GC content&lt;/strong>&lt;/td>
- &lt;td>Minimum GC content value in percents.&lt;/td>
+ &lt;td>Minimum GC content value in percentage.&lt;/td>
  &lt;td>20%&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Max GC content&lt;/strong>&lt;/td>
- &lt;td>Maximum GC content value in percents.&lt;/td>
+ &lt;td>Maximum GC content value in percentage.&lt;/td>
  &lt;td>40%&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Min length&lt;/strong>&lt;/td>
- &lt;td>Minimum length of a region.&lt;/td>
+ &lt;td>Minimum length of a region in base pairs.&lt;/td>
  &lt;td>50 bp&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Max length&lt;/strong>&lt;/td>
- &lt;td>Maximum length of a region.&lt;/td>
+ &lt;td>Maximum length of a region in base pairs.&lt;/td>
  &lt;td>1000 bp&lt;/td>
  &lt;/tr>
  &lt;/tbody>
@@ -122,217 +121,611 @@ The translated sequences are used to query the NCBI Conserved Domain Database (C
 &lt;hr>
 &lt;h2 id="parameters-in-schema-file">Parameters in Schema File&lt;/h2>
 &lt;p>&lt;strong>Element type:&lt;/strong> &lt;code>find-gc&lt;/code>&lt;/p></description></item><item><title>HMM3 Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/hmm3-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/hmm3-algorithm-element/</guid><description>&lt;h1 id="hmm3-algorithm-element">HMM3 Algorithm Element&lt;/h1>
-&lt;p>Searches a sequence for significantly similar sequence matches with one or more profile HMM and saves the results as annotations.&lt;/p>
-&lt;p>The search is performed using HMMER3 &lt;strong>hmmsearch&lt;/strong> tool integrated into UGENE.&lt;/p>
+&lt;p>The algorithm searches a sequence for significantly similar sequence matches with one or more profile HMMs and saves the results as annotations.&lt;/p>
+&lt;p>The search is performed using the HMMER3 &lt;strong>hmmsearch&lt;/strong> tool integrated into UGENE.&lt;/p>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
 &lt;p>&lt;strong>General parameters:&lt;/strong>&lt;/p>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>&lt;strong>Annotate As&lt;/strong>&lt;/p>
-&lt;p>Name of the result annotations.&lt;/p>
-&lt;p>hmm_signal&lt;/p>
-&lt;p>&lt;strong>Profile HMM&lt;/strong>&lt;/p>
-&lt;p>Semicolon-separated list of input HMM files.&lt;/p>
-&lt;p>You must specify a value!&lt;/p>
-&lt;p>&lt;strong>Min Length&lt;/strong>&lt;/p>
-&lt;p>Minimum length of a result region.&lt;/p></description></item><item><title>ORF Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/orf-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/orf-algorithm-element/</guid><description>&lt;h1 id="orf-algorithm-element">ORF Algorithm Element&lt;/h1>
-&lt;p>The &lt;em>element&lt;/em> searches for open reading frames (ORFs) in the supplied sequence.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Annotate As&lt;/strong>&lt;/td>
+ &lt;td>Name of the result annotations.&lt;/td>
+ &lt;td>hmm_signal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Profile HMM&lt;/strong>&lt;/td>
+ &lt;td>Semicolon-separated list of input HMM files. You must specify a value!&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min Length&lt;/strong>&lt;/td>
+ &lt;td>Minimum length of a result region.&lt;/td>
+ &lt;td>30&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max Length&lt;/strong>&lt;/td>
+ &lt;td>Maximum length of a result region.&lt;/td>
+ &lt;td>5000&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Parameters controlling reporting threshold:&lt;/strong>&lt;/p></description></item><item><title>ORF Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/orf-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/orf-algorithm-element/</guid><description>&lt;h1 id="orf-algorithm-element">ORF Algorithm Element&lt;/h1>
+&lt;p>The &lt;em>element&lt;/em> searches for open reading frames (ORFs) in the provided sequence.&lt;/p>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>&lt;strong>Annotate As&lt;/strong>&lt;/p>
-&lt;p>Name of the result annotations.&lt;/p>
-&lt;p>ORF&lt;/p>
-&lt;p>&lt;strong>Direction&lt;/strong>&lt;/p>
-&lt;p>See the description &lt;a href="../../manipulating-schema/managing-strands/element-direction-in-schema">&lt;em>here&lt;/em>&lt;/a>.&lt;/p>
-&lt;p>Any&lt;/p>
-&lt;p>&lt;strong>Allow alternative codons&lt;/strong>&lt;/p>
-&lt;p>Allows / disallows ORFs starting with alternative initiation codons, accordingly to the current translation table.&lt;/p>
-&lt;p>False&lt;/p>
-&lt;p>&lt;strong>Require init codons&lt;/strong>&lt;/p>
-&lt;p>Allows / disallows ORFs starting with any codon other than terminator.&lt;/p>
-&lt;p>True&lt;/p>
-&lt;p>&lt;strong>Require stop codons&lt;/strong>&lt;/p></description></item><item><title>Primer Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/primer-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/primer-algorithm-element/</guid><description>&lt;h1 id="primer-algorithm-element">Primer Algorithm Element&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default Value&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Annotate As&lt;/strong>&lt;/td>
+ &lt;td>Name of the result annotations.&lt;/td>
+ &lt;td>ORF&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Direction&lt;/strong>&lt;/td>
+ &lt;td>See the description &lt;a href="../../manipulating-schema/managing-strands/element-direction-in-schema">&lt;em>here&lt;/em>&lt;/a>.&lt;/td>
+ &lt;td>Any&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Allow alternative codons&lt;/strong>&lt;/td>
+ &lt;td>Allows or disallows ORFs starting with alternative initiation codons, according to the current translation table.&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Require init codons&lt;/strong>&lt;/td>
+ &lt;td>Allows or disallows ORFs starting with any codon other than a terminator.&lt;/td>
+ &lt;td>True&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Require stop codons&lt;/strong>&lt;/td>
+ &lt;td>Ignores or takes into account boundary ORFs which extend beyond the search region.&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min length&lt;/strong>&lt;/td>
+ &lt;td>Ignores ORFs shorter than the specified length.&lt;/td>
+ &lt;td>100bp&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max length&lt;/strong>&lt;/td>
+ &lt;td>Maximum length of annotation allowed.&lt;/td>
+ &lt;td>10000bp&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Genetic code&lt;/strong>&lt;/td>
+ &lt;td>Genetic code that should be used to translate the input nucleotide sequence.&lt;/td>
+ &lt;td>The standard genetic code&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="parameters-in-schema-file">Parameters in Schema File&lt;/h2>
+&lt;p>&lt;strong>Type:&lt;/strong> orf&lt;/p></description></item><item><title>Primer Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/primer-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/primer-algorithm-element/</guid><description>&lt;h1 id="primer-algorithm-element">Primer Algorithm Element&lt;/h1>
 &lt;p>The &lt;em>element&lt;/em> searches primers against the input sequence.&lt;/p>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>&lt;strong>Annotate As&lt;/strong>&lt;/p>
-&lt;p>Name of the result annotations.&lt;/p>
-&lt;p>top primers&lt;/p>
-&lt;p>&lt;strong>Direction&lt;/strong>&lt;/p>
-&lt;p>See the description &lt;a href="http://ugene.unipro.ru/documentation/qd_manual/manipulating_schema/managing_strands.html#managing-strands">&lt;em>here&lt;/em>&lt;/a>.&lt;/p>
-&lt;p>Any&lt;/p>
-&lt;p>&lt;strong>Excluded regions&lt;/strong>&lt;/p>
-&lt;p>The regions should be avoided for primer selection.&lt;/p>
-&lt;p>No default value.&lt;/p>
-&lt;p>&lt;strong>Max repeat mispriming&lt;/strong>&lt;/p>
-&lt;p>The maximum allowed weighted similarity with any sequence in Mispriming Library.&lt;/p>
-&lt;p>12&lt;/p>
-&lt;p>&lt;strong>Max template mispriming&lt;/strong>&lt;/p>
-&lt;p>The maximum allowed similarity to ectopic sites in the sequence from which you are designing the primers.&lt;/p></description></item><item><title>Repeats Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/repeats-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/repeats-algorithm-element/</guid><description>&lt;h1 id="repeats-algorithm-element">Repeats Algorithm Element&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Annotate As&lt;/strong>&lt;/td>
+ &lt;td>Name of the result annotations.&lt;/td>
+ &lt;td>top primers&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Direction&lt;/strong>&lt;/td>
+ &lt;td>See the description &lt;a href="http://ugene.unipro.ru/documentation/qd_manual/manipulating_schema/managing_strands.html#managing-strands">&lt;em>here&lt;/em>&lt;/a>.&lt;/td>
+ &lt;td>Any&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Excluded regions&lt;/strong>&lt;/td>
+ &lt;td>The regions that should be avoided for primer selection.&lt;/td>
+ &lt;td>No default value.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max repeat mispriming&lt;/strong>&lt;/td>
+ &lt;td>The maximum allowed weighted similarity with any sequence in the Mispriming Library.&lt;/td>
+ &lt;td>12&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max template mispriming&lt;/strong>&lt;/td>
+ &lt;td>The maximum allowed similarity to ectopic sites in the sequence from which you are designing the primers.&lt;/td>
+ &lt;td>12&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Number to return&lt;/strong>&lt;/td>
+ &lt;td>The maximum number of primer pairs to return.&lt;/td>
+ &lt;td>5&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Pair max repeat mispriming&lt;/strong>&lt;/td>
+ &lt;td>The maximum allowed sum of similarities of a primer pair (one similarity for each primer) with any single sequence in the Mispriming Library.&lt;/td>
+ &lt;td>24&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Pair max template mispriming&lt;/strong>&lt;/td>
+ &lt;td>The maximum allowed summed similarity of both primers to ectopic sites in the sequence from which you are designing the primers.&lt;/td>
+ &lt;td>24&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Product size ranges&lt;/strong>&lt;/td>
+ &lt;td>List of product size ranges. The primer first tries to pick primers in the first range. If that is not possible, it goes to the next range and tries again. It continues in this way until it has either picked all necessary primers or until there are no more ranges.&lt;/td>
+ &lt;td>150-200, 100-300, 301-400, 401-500, 501-600, 601-700, 701-850, 851-1000&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max 3’ stability&lt;/strong>&lt;/td>
+ &lt;td>The maximum stability for the last five 3’ bases of a left or right primer. Bigger numbers mean more stable 3’ ends.&lt;/td>
+ &lt;td>9&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Targets&lt;/strong>&lt;/td>
+ &lt;td>If one or more Targets are specified, then a legal primer pair must flank at least one of them.&lt;/td>
+ &lt;td>No default value.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="parameters-in-schema-file">Parameters in Schema File&lt;/h2>
+&lt;p>&lt;strong>Type:&lt;/strong> primer&lt;/p></description></item><item><title>Repeats Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/repeats-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/repeats-algorithm-element/</guid><description>&lt;h1 id="repeats-algorithm-element">Repeats Algorithm Element&lt;/h1>
 &lt;p>The &lt;em>element&lt;/em> searches for repeats in the input sequence.&lt;/p>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>&lt;strong>Annotate As&lt;/strong>&lt;/p>
-&lt;p>Name of the result annotations.&lt;/p>
-&lt;p>repeat_unit&lt;/p>
-&lt;p>&lt;strong>Algorithm&lt;/strong>&lt;/p>
-&lt;p>Algorithm used to search for repeats. Available values are:&lt;/p>
-&lt;ul>
-&lt;li>Suffix index&lt;/li>
-&lt;li>Diagonals&lt;/li>
-&lt;li>Auto&lt;/li>
-&lt;/ul>
-&lt;p>Suffix index&lt;/p>
-&lt;p>&lt;strong>Filter nested&lt;/strong>&lt;/p>
-&lt;p>If &lt;em>True&lt;/em>, filters nested repeats.&lt;/p>
-&lt;p>True&lt;/p>
-&lt;p>&lt;strong>Identity&lt;/strong>&lt;/p>
-&lt;p>Repeats percentage identity.&lt;/p>
-&lt;p>100%&lt;/p>
-&lt;p>&lt;strong>Inverted&lt;/strong>&lt;/p>
-&lt;p>If &lt;em>True&lt;/em>, searches for inverted repeats.&lt;/p>
-&lt;p>False&lt;/p>
-&lt;p>&lt;strong>Min length&lt;/strong>&lt;/p>
-&lt;p>Minimum length of repeats.&lt;/p></description></item><item><title>Restriction Sites Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/restriction-sites-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/restriction-sites-algorithm-element/</guid><description>&lt;h1 id="restriction-sites-algorithm-element">Restriction Sites Algorithm Element&lt;/h1>
-&lt;p>The &lt;em>element&lt;/em> searches restriction sites in the input sequence.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Annotate As&lt;/strong>&lt;/td>
+ &lt;td>Name of the result annotations.&lt;/td>
+ &lt;td>repeat_unit&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Algorithm&lt;/strong>&lt;/td>
+ &lt;td>Algorithm used to search for repeats. Available values are: * Suffix index * Diagonals * Auto&lt;/td>
+ &lt;td>Suffix index&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Filter nested&lt;/strong>&lt;/td>
+ &lt;td>If &lt;em>True&lt;/em>, filters nested repeats.&lt;/td>
+ &lt;td>True&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Identity&lt;/strong>&lt;/td>
+ &lt;td>Repeats percentage identity.&lt;/td>
+ &lt;td>100%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Inverted&lt;/strong>&lt;/td>
+ &lt;td>If &lt;em>True&lt;/em>, searches for inverted repeats.&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min length&lt;/strong>&lt;/td>
+ &lt;td>Minimum length of repeats.&lt;/td>
+ &lt;td>5bp&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max length&lt;/strong>&lt;/td>
+ &lt;td>Maximum length of repeats.&lt;/td>
+ &lt;td>10000bp&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Parallel threads&lt;/strong>&lt;/td>
+ &lt;td>Number of parallel threads used to execute the calculations.&lt;/td>
+ &lt;td>Auto&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="parameters-in-schema-file">Parameters in Schema File&lt;/h2>
+&lt;p>&lt;strong>Type:&lt;/strong> repeats&lt;/p></description></item><item><title>Restriction Sites Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/restriction-sites-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/restriction-sites-algorithm-element/</guid><description>&lt;h1 id="restriction-sites-algorithm-element">Restriction Sites Algorithm Element&lt;/h1>
+&lt;p>The &lt;em>element&lt;/em> searches for restriction sites in the input sequence.&lt;/p>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>&lt;strong>Annotate As&lt;/strong>&lt;/p>
-&lt;p>Name of the result annotations.&lt;/p>
-&lt;p>Special value &lt;rsite> is used. It specifies to use the enzymes names as names of the result annotations.&lt;/p>
-&lt;p>&lt;strong>Circular&lt;/strong>&lt;/p>
-&lt;p>If &lt;em>True&lt;/em> allows to search for restriction sites between the end and the beginning of the sequence.&lt;/p>
-&lt;p>False&lt;/p>
-&lt;p>&lt;strong>Enzymes&lt;/strong>&lt;/p>
-&lt;p>Restriction enzymes used to recognize the restriction sites.&lt;/p></description></item><item><title>Pattern Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/pattern-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/pattern-algorithm-element/</guid><description>&lt;h1 id="pattern-algorithm-element">Pattern Algorithm Element&lt;/h1>
-&lt;p>The &lt;em>element&lt;/em> searches for the specified pattern in the supplied sequence.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Annotate As&lt;/strong>&lt;/td>
+ &lt;td>Name of the result annotations. Special value &lt;rsite> is used. It specifies to use the enzyme names as names of the result annotations.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Circular&lt;/strong>&lt;/td>
+ &lt;td>If &lt;em>True&lt;/em>, allows searching for restriction sites between the end and the beginning of the sequence.&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Enzymes&lt;/strong>&lt;/td>
+ &lt;td>Restriction enzymes used to recognize the restriction sites. You must specify a value!&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="parameters-in-schema-file">Parameters in Schema File&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Type:&lt;/strong> rsite&lt;/th>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Parameter in the GUI&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>key&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>Annotate As&lt;/strong>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>circular&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>Circular&lt;/strong>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>enzymes&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>Enzymes&lt;/strong>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Pattern Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/pattern-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/pattern-algorithm-element/</guid><description>&lt;h1 id="pattern-algorithm-element">Pattern Algorithm Element&lt;/h1>
+&lt;p>The &lt;em>element&lt;/em> searches for the specified pattern in the provided sequence.&lt;/p>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>&lt;strong>Annotate As&lt;/strong>&lt;/p>
-&lt;p>Name of the result annotations.&lt;/p>
-&lt;p>misc_feature&lt;/p>
-&lt;p>&lt;strong>Pattern&lt;/strong>&lt;/p>
-&lt;p>The pattern to search for.&lt;/p>
-&lt;p>You must specify a value!&lt;/p>
-&lt;p>&lt;strong>Direction&lt;/strong>&lt;/p>
-&lt;p>See the description &lt;a href="http://ugene.unipro.ru/documentation/qd_manual/manipulating_schema/managing_strands.html#managing-strands">&lt;em>here&lt;/em>&lt;/a>.&lt;/p>
-&lt;p>Any&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Annotate As&lt;/strong>&lt;/td>
+ &lt;td>Name of the result annotations.&lt;/td>
+ &lt;td>misc_feature&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Pattern&lt;/strong>&lt;/td>
+ &lt;td>The pattern to search for.&lt;/td>
+ &lt;td>You must specify a value!&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Direction&lt;/strong>&lt;/td>
+ &lt;td>See the description &lt;a href="http://ugene.unipro.ru/documentation/qd_manual/manipulating_schema/managing_strands.html#managing-strands">&lt;em>here&lt;/em>&lt;/a>.&lt;/td>
+ &lt;td>Any&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
 &lt;h2 id="parameters-in-schema-file">Parameters in Schema File&lt;/h2>
 &lt;p>&lt;strong>Type:&lt;/strong> search&lt;/p>
-&lt;p>Parameter&lt;/p>
-&lt;p>Parameter in the GUI&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>key&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Annotate As&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>pattern&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Pattern&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p></description></item><item><title>SITECON Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/sitecon-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/sitecon-algorithm-element/</guid><description>&lt;h1 id="sitecon-algorithm-element">SITECON Algorithm Element&lt;/h1>
-&lt;p>The &lt;em>element&lt;/em> searches the input sequence for transcription factor binding sites (TFBSs) significantly similar to the specified SITECON profiles.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Parameter in the GUI&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>key&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>Annotate As&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>pattern&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>Pattern&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>SITECON Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/sitecon-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/sitecon-algorithm-element/</guid><description>&lt;h1 id="sitecon-algorithm-element">SITECON Algorithm Element&lt;/h1>
+&lt;p>The &lt;em>element&lt;/em> searches the input sequence for transcription factor binding sites (TFBSs) that are significantly similar to the specified SITECON profiles.&lt;/p>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>&lt;strong>Annotate As&lt;/strong>&lt;/p>
-&lt;p>Name of the result annotations.&lt;/p>
-&lt;p>misc_feature&lt;/p>
-&lt;p>&lt;strong>Direction&lt;/strong>&lt;/p>
-&lt;p>See the description &lt;a href="../../manipulating-schema/managing-strands/element-direction-in-schema">&lt;em>here&lt;/em>&lt;/a>.&lt;/p>
-&lt;p>Any&lt;/p>
-&lt;p>&lt;strong>Min Err1&lt;/strong>&lt;/p>
-&lt;p>Filters the results by minumum value of Error type I.&lt;/p>
-&lt;p>0&lt;/p>
-&lt;p>&lt;strong>Max Err2&lt;/strong>&lt;/p>
-&lt;p>Filters the results by maximum value of Error type II.&lt;/p>
-&lt;p>0.001&lt;/p>
-&lt;p>&lt;strong>Model&lt;/strong>&lt;/p>
-&lt;p>Semicolon-separated list of SITECON profiles.&lt;/p></description></item><item><title>Smith-Waterman Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/smith-waterman-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/smith-waterman-algorithm-element/</guid><description>&lt;h1 id="smith-waterman-algorithm-element">Smith-Waterman Algorithm Element&lt;/h1>
-&lt;p>The &lt;em>element&lt;/em> uses the Smith-Waterman algorithm to search in the input sequence for regions similar to the specified pattern.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Annotate As&lt;/strong>&lt;/td>
+ &lt;td>Name of the result annotations.&lt;/td>
+ &lt;td>misc_feature&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Direction&lt;/strong>&lt;/td>
+ &lt;td>See the description &lt;a href="../../manipulating-schema/managing-strands/element-direction-in-schema">&lt;em>here&lt;/em>&lt;/a>.&lt;/td>
+ &lt;td>Any&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min Err1&lt;/strong>&lt;/td>
+ &lt;td>Filters the results by minimum value of Error type I.&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max Err2&lt;/strong>&lt;/td>
+ &lt;td>Filters the results by maximum value of Error type II.&lt;/td>
+ &lt;td>0.001&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Model&lt;/strong>&lt;/td>
+ &lt;td>Semicolon-separated list of SITECON profiles. You must specify a value!&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min score&lt;/strong>&lt;/td>
+ &lt;td>Recognition quality percentage threshold. Choosing too low a threshold will lead to recognition of too many TFBS. Choosing too high a threshold will result in no TFBS recognized.&lt;/td>
+ &lt;td>85%&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="parameters-in-schema-file">Parameters in Schema File&lt;/h2>
+&lt;p>&lt;strong>Type:&lt;/strong> sitecon&lt;/p></description></item><item><title>Smith-Waterman Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/smith-waterman-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/smith-waterman-algorithm-element/</guid><description>&lt;h1 id="smith-waterman-algorithm-element">Smith-Waterman Algorithm Element&lt;/h1>
+&lt;p>The &lt;em>element&lt;/em> uses the Smith-Waterman algorithm to search the input sequence for regions similar to the specified pattern.&lt;/p>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>&lt;strong>Annotate As&lt;/strong>&lt;/p>
-&lt;p>Name of the result annotations.&lt;/p>
-&lt;p>misc_feature&lt;/p>
-&lt;p>&lt;strong>Direction&lt;/strong>&lt;/p>
-&lt;p>See the description &lt;a href="../../manipulating-schema/managing-strands/element-direction-in-schema">&lt;em>here&lt;/em>&lt;/a>.&lt;/p>
-&lt;p>Any&lt;/p>
-&lt;p>&lt;strong>Algorithm&lt;/strong>&lt;/p>
-&lt;p>Algorithm version. Depending on the computer configuration the following values may be available:&lt;/p>
-&lt;ul>
-&lt;li>Classic 2&lt;/li>
-&lt;li>SSE2&lt;/li>
-&lt;/ul>
-&lt;p>Classic 2&lt;/p>
-&lt;p>&lt;strong>Filter results&lt;/strong>&lt;/p>
-&lt;p>Results filtering strategy. The values available are:&lt;/p>
-&lt;ul>
-&lt;li>filter-intersections&lt;/li>
-&lt;li>none&lt;/li>
-&lt;/ul>
-&lt;p>filter-intersections&lt;/p></description></item><item><title>Tandem Repeats Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/tandem-repeats-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/tandem-repeats-algorithm-element/</guid><description>&lt;h1 id="tandem-repeats-algorithm-element">Tandem Repeats Algorithm Element&lt;/h1>
-&lt;p>The &lt;em>Tandem repeats&lt;/em> &lt;em>element&lt;/em> finds tandem repeats in a supplied sequence, stores found regions as annotations.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default Value&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Annotate As&lt;/strong>&lt;/td>
+ &lt;td>Name of the result annotations.&lt;/td>
+ &lt;td>misc_feature&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Direction&lt;/strong>&lt;/td>
+ &lt;td>See the description &lt;a href="../../manipulating-schema/managing-strands/element-direction-in-schema">&lt;em>here&lt;/em>&lt;/a>.&lt;/td>
+ &lt;td>Any&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Algorithm&lt;/strong>&lt;/td>
+ &lt;td>Algorithm version. Depending on the computer configuration, the following values may be available: &lt;ul>&lt;li>Classic 2&lt;/li>&lt;li>SSE2&lt;/li>&lt;/ul>&lt;/td>
+ &lt;td>Classic 2&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Filter results&lt;/strong>&lt;/td>
+ &lt;td>Results filtering strategy. The available values are: &lt;ul>&lt;li>filter-intersections&lt;/li>&lt;li>none&lt;/li>&lt;/ul>&lt;/td>
+ &lt;td>filter-intersections&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap ext score&lt;/strong>&lt;/td>
+ &lt;td>Gap extension score.&lt;/td>
+ &lt;td>-1.00&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap open score&lt;/strong>&lt;/td>
+ &lt;td>Gap open score.&lt;/td>
+ &lt;td>-10.00&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Scoring matrix&lt;/strong>&lt;/td>
+ &lt;td>Specifies the scoring matrix to use.&lt;/td>
+ &lt;td>Auto&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min score&lt;/strong>&lt;/td>
+ &lt;td>Percentage of matching between the pattern and the searched sequence region.&lt;/td>
+ &lt;td>90%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Pattern&lt;/strong>&lt;/td>
+ &lt;td>The pattern to search for.&lt;/td>
+ &lt;td>You must specify a value!&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Search in translation&lt;/strong>&lt;/td>
+ &lt;td>Translates the nucleotide sequence supplied into a protein sequence and searches in the translated sequence.&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="parameters-in-schema-file">Parameters in Schema File&lt;/h2>
+&lt;p>&lt;strong>Type:&lt;/strong> ssearch&lt;/p></description></item><item><title>Tandem Repeats Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/tandem-repeats-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/tandem-repeats-algorithm-element/</guid><description>&lt;h1 id="tandem-repeats-algorithm-element">Tandem Repeats Algorithm Element&lt;/h1>
+&lt;p>The &lt;em>Tandem repeats&lt;/em> element finds tandem repeats in a supplied sequence and stores found regions as annotations.&lt;/p>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>&lt;strong>Annotate As&lt;/strong>&lt;/p>
-&lt;p>Name of the result annotations.&lt;/p>
-&lt;p>repeate_unit&lt;/p>
-&lt;p>&lt;strong>Direction&lt;/strong>&lt;/p>
-&lt;p>See the description &lt;a href="../../manipulating-schema/managing-strands/element-direction-in-schema">&lt;em>here&lt;/em>&lt;/a>.&lt;/p>
-&lt;p>Any&lt;/p>
-&lt;p>&lt;strong>Algorithm&lt;/strong>&lt;/p>
-&lt;p>The algorithm parameter allows one to select the search algorithm. The default and a fast one is the optimized suffix array algorithm.&lt;/p>
-&lt;p>Suffix index(optimized)&lt;/p>
-&lt;p>&lt;strong>Min period&lt;/strong>&lt;/p>
-&lt;p>Minimum acceptable repeat length measured in base symbols.&lt;/p></description></item><item><title>Weight Matrix Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/weight-matrix-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/weight-matrix-algorithm-element/</guid><description>&lt;h1 id="weight-matrix-algorithm-element">Weight Matrix Algorithm Element&lt;/h1>
-&lt;p>The &lt;em>element&lt;/em> searches the input sequence for transcription factor binding sites (TFBSs) significantly similar to the specified weight matrix.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default Value&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Annotate As&lt;/strong>&lt;/td>
+ &lt;td>Name of the result annotations.&lt;/td>
+ &lt;td>repeat_unit&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Direction&lt;/strong>&lt;/td>
+ &lt;td>See the description &lt;a href="../../manipulating-schema/managing-strands/element-direction-in-schema">&lt;em>here&lt;/em>&lt;/a>.&lt;/td>
+ &lt;td>Any&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Algorithm&lt;/strong>&lt;/td>
+ &lt;td>The algorithm parameter allows one to select the search algorithm. The default and a fast one is the optimized suffix array algorithm.&lt;/td>
+ &lt;td>Suffix index (optimized)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min period&lt;/strong>&lt;/td>
+ &lt;td>Minimum acceptable repeat length measured in base symbols.&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max period&lt;/strong>&lt;/td>
+ &lt;td>Maximum acceptable repeat length measured in base symbols.&lt;/td>
+ &lt;td>1000000&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min tandem size&lt;/strong>&lt;/td>
+ &lt;td>The minimum tandem size sets the limit on the minimum acceptable length of the tandem, i.e., the minimum total repeats length of the searched tandem.&lt;/td>
+ &lt;td>9&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min repeat count&lt;/strong>&lt;/td>
+ &lt;td>The minimum number of repeats of a searched tandem.&lt;/td>
+ &lt;td>3&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Search for overlapped tandems&lt;/strong>&lt;/td>
+ &lt;td>If this parameter is set to &lt;em>True&lt;/em> then overlapped tandems should be included into the result.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Parallel threads&lt;/strong>&lt;/td>
+ &lt;td>Number of parallel threads used for the task.&lt;/td>
+ &lt;td>Auto&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="parameters-in-schema-file">Parameters in Schema File&lt;/h2>
+&lt;p>&lt;strong>Type:&lt;/strong> tandems&lt;/p></description></item><item><title>Weight Matrix Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/weight-matrix-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/weight-matrix-algorithm-element/</guid><description>&lt;h1 id="weight-matrix-algorithm-element">Weight Matrix Algorithm Element&lt;/h1>
+&lt;p>The &lt;em>element&lt;/em> searches the input sequence for transcription factor binding sites (TFBSs) that are significantly similar to the specified weight matrix.&lt;/p>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>&lt;strong>Annotate As&lt;/strong>&lt;/p>
-&lt;p>Name of the result annotations.&lt;/p>
-&lt;p>misc_feature&lt;/p>
-&lt;p>&lt;strong>Direction&lt;/strong>&lt;/p>
-&lt;p>See the description &lt;a href="../../manipulating-schema/managing-strands/element-direction-in-schema">&lt;em>here&lt;/em>&lt;/a>.&lt;/p>
-&lt;p>Any&lt;/p>
-&lt;p>&lt;strong>Matrix&lt;/strong>&lt;/p>
-&lt;p>Path to the profile.&lt;/p>
-&lt;p>You must specify a value!&lt;/p>
-&lt;p>&lt;strong>Min score&lt;/strong>&lt;/p>
-&lt;p>Minimum score to detect TFBS.&lt;/p>
-&lt;p>85%&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Annotate As&lt;/strong>&lt;/td>
+ &lt;td>Name of the result annotations.&lt;/td>
+ &lt;td>misc_feature&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Direction&lt;/strong>&lt;/td>
+ &lt;td>See the description &lt;a href="../../manipulating-schema/managing-strands/element-direction-in-schema">&lt;em>here&lt;/em>&lt;/a>.&lt;/td>
+ &lt;td>Any&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Matrix&lt;/strong>&lt;/td>
+ &lt;td>Path to the profile.&lt;/td>
+ &lt;td>You must specify a value!&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min score&lt;/strong>&lt;/td>
+ &lt;td>Minimum score to detect TFBS.&lt;/td>
+ &lt;td>85%&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
 &lt;h2 id="parameters-in-schema-file">Parameters in Schema File&lt;/h2>
 &lt;p>&lt;strong>Type:&lt;/strong> wsearch&lt;/p>
-&lt;p>Parameter&lt;/p>
-&lt;p>Parameter in the GUI&lt;/p></description></item><item><title>HMM2 Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/hmm2-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/hmm2-algorithm-element/</guid><description>&lt;h1 id="hmm2-algorithm-element">HMM2 Algorithm Element&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Parameter in the GUI&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>key&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>Annotate As&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>matrix&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>Matrix&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>min-score&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>Min score&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>strand&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>Direction&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>Available values are:&lt;/p></description></item><item><title>HMM2 Algorithm Element</title><link>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/hmm2-algorithm-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-elements/algorithm-elements/hmm2-algorithm-element/</guid><description>&lt;h1 id="hmm2-algorithm-element">HMM2 Algorithm Element&lt;/h1>
 &lt;p>Searches HMM signals in a sequence with one or more profile HMM2 and saves the results as annotations.&lt;/p>
-&lt;p>Parameters in GUI&lt;/p>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>&lt;strong>Profile HMM&lt;/strong>&lt;/p>
-&lt;p>Semicolon-separated list of input HMM files.&lt;/p>
-&lt;p>You must specify a value!&lt;/p>
-&lt;p>&lt;strong>Min Length&lt;/strong>&lt;/p>
-&lt;p>Minimum length of a result region.&lt;/p>
-&lt;p>10&lt;/p>
-&lt;p>&lt;strong>Max Length&lt;/strong>&lt;/p>
-&lt;p>Maximum length of a result region.&lt;/p>
-&lt;p>1000&lt;/p>
-&lt;p>&lt;strong>Filter by High E-value&lt;/strong>&lt;/p>
-&lt;p>Reports domains &amp;lt;= this E-value threshold in output (&lt;strong>hmmsearch&lt;/strong>**–domE** option).&lt;/p></description></item></channel></rss>
+&lt;h3 id="parameters-in-gui">Parameters in GUI&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Profile HMM&lt;/strong>&lt;/td>
+ &lt;td>Semicolon-separated list of input HMM files. You must specify a value!&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min Length&lt;/strong>&lt;/td>
+ &lt;td>Minimum length of a result region.&lt;/td>
+ &lt;td>10&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max Length&lt;/strong>&lt;/td>
+ &lt;td>Maximum length of a result region.&lt;/td>
+ &lt;td>1000&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Filter by High E-value&lt;/strong>&lt;/td>
+ &lt;td>Reports domains &amp;lt;= this E-value threshold in output (&lt;strong>hmmsearch&lt;/strong> &lt;strong>–domE&lt;/strong> option).&lt;/td>
+ &lt;td>1e+1&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Filter by Low Score&lt;/strong>&lt;/td>
+ &lt;td>Reports domains &amp;gt;= this score cutoff in output (&lt;strong>hmmsearch&lt;/strong> &lt;strong>–domT&lt;/strong> option).&lt;/td>
+ &lt;td>0.01&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Number of Sequences&lt;/strong>&lt;/td>
+ &lt;td>Specifies number of significant sequences. It is used for domain E-value calculations (&lt;strong>hmmsearch&lt;/strong> &lt;strong>–domZ&lt;/strong> option).&lt;/td>
+ &lt;td>1 (i.e. one input sequence)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="parameters-in-schema-file">Parameters in Schema File&lt;/h3>
+&lt;p>&lt;strong>Type:&lt;/strong> hmm2&lt;/p></description></item></channel></rss>

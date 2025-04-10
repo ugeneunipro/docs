@@ -1,66 +1,149 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HMMER3 Tools on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer3-tools/</link><description>Recent content in HMMER3 Tools on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/workflow-elements/hmmer3-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>HMM3 Build Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer3-tools/hmm3-build-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer3-tools/hmm3-build-element/</guid><description>&lt;h1 id="hmm3-build-element">HMM3 Build Element&lt;/h1>
-&lt;p>Builds a HMM3 profile from a multiple sequence alignment. The HMM3 profile is a statistical model which captures position-specific information about how conserved each column of the alignment is, and which residues are likely.&lt;/p>
+&lt;p>Builds an HMM3 profile from a multiple sequence alignment. The HMM3 profile is a statistical model that captures position-specific information about how conserved each column of the alignment is, and which residues are likely.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> hmm3-build&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Random seed&lt;/strong>&lt;/p>
-&lt;p>Random generator seed. 0 - means that one-time arbitrary seed will be used.&lt;/p>
-&lt;p>0&lt;/p>
-&lt;p>&lt;strong>seed&lt;/strong>&lt;/p>
-&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
-&lt;p>Input/Output Ports&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Random seed&lt;/strong>&lt;/td>
+ &lt;td>Random generator seed. 0 means that a one-time arbitrary seed will be used.&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>seed&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
 &lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>HMM3 Search Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer3-tools/hmm3-search-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer3-tools/hmm3-search-element/</guid><description>&lt;h1 id="hmm3-search-element">HMM3 Search Element&lt;/h1>
-&lt;p>Searches each input sequence for significantly similar sequence matches to all specified HMM profiles. In case several profiles were supplied, searches with all profiles one by one and output united set of annotations for each sequence.&lt;/p>
+&lt;p>This element searches each input sequence for significantly similar matches to all specified HMM profiles. If several profiles are provided, the element searches with each profile one by one and outputs a unified set of annotations for each sequence.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> hmm3-search&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Result annotation&lt;/strong>&lt;/p>
-&lt;p>Name of the result annotations.&lt;/p>
-&lt;p>hmm_signal&lt;/p>
-&lt;p>&lt;strong>result-name&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Seed&lt;/strong>&lt;/p>
-&lt;p>Random generator seed. 0 - means that one-time arbitrary seed will be used.&lt;/p></description></item><item><title>Read HMM3 Profile</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer3-tools/read-hmm3-profile/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer3-tools/read-hmm3-profile/</guid><description>&lt;h1 id="read-hmm3-profile">Read HMM3 Profile&lt;/h1>
-&lt;p>Reads HMM3 profiles from file(s). The files can be local or Internet URLs.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Result annotation&lt;/strong>&lt;/td>
+ &lt;td>Name for the result annotations.&lt;/td>
+ &lt;td>hmm_signal&lt;/td>
+ &lt;td>&lt;strong>result-name&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Seed&lt;/strong>&lt;/td>
+ &lt;td>Random generator seed. A value of 0 indicates that a one-time arbitrary seed will be used.&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>seed&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Filter by high E-value&lt;/strong>&lt;/td>
+ &lt;td>E-value filtering can be used to exclude low-probability hits from the results.&lt;/td>
+ &lt;td>1e-1&lt;/td>
+ &lt;td>&lt;strong>seqs-num&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Filter by low score&lt;/strong>&lt;/td>
+ &lt;td>Score-based filtering serves as an alternative to E-value filtering to exclude low-probability hits.&lt;/td>
+ &lt;td>0.01&lt;/td>
+ &lt;td>&lt;strong>score&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has two &lt;em>input ports&lt;/em>. The first port receives the input sequence:&lt;/p></description></item><item><title>Read HMM3 Profile</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer3-tools/read-hmm3-profile/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer3-tools/read-hmm3-profile/</guid><description>&lt;h1 id="read-hmm3-profile">Read HMM3 Profile&lt;/h1>
+&lt;p>This document describes how to read HMM3 profiles from files. The files can be accessed locally or via Internet URLs.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> hmm3-read-profile&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Input files&lt;/strong> (required)&lt;/p>
-&lt;p>Semicolon-separated list of paths to the input files.&lt;/p>
-&lt;p>&lt;strong>url-in&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default Value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Input files&lt;/strong> (required)&lt;/td>
+ &lt;td>Semicolon-separated list of paths to the input files.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>url-in&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
-&lt;p>The element has 1 &lt;em>output port&lt;/em>:&lt;/p>
-&lt;p>&lt;strong>Name in GUI:&lt;/strong> &lt;em>HMM3 profile&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Name in Workflow File:&lt;/strong> out-hmm3&lt;/p>
-&lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
-&lt;p>Slot In GUI&lt;/p>
-&lt;p>Slot in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>HMM profile&lt;/strong>&lt;/p></description></item><item><title>Write HMM3 Profile</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer3-tools/write-hmm3-profile/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer3-tools/write-hmm3-profile/</guid><description>&lt;h1 id="write-hmm3-profile">Write HMM3 Profile&lt;/h1>
+&lt;p>The element has one &lt;em>output port&lt;/em>:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Name in GUI:&lt;/strong> &lt;em>HMM3 profile&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Name in Workflow File:&lt;/strong> out-hmm3&lt;/li>
+&lt;/ul>
+&lt;h3 id="slots">Slots&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot In GUI&lt;/th>
+ &lt;th>Slot in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>HMM profile&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>hmm3-profile&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>hmm3-profile&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Write HMM3 Profile</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer3-tools/write-hmm3-profile/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer3-tools/write-hmm3-profile/</guid><description>&lt;h1 id="write-hmm3-profile">Write HMM3 Profile&lt;/h1>
 &lt;p>Saves all input HMM3 profiles to the specified locations.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> hmm3-write-profile&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Output file&lt;/strong>&lt;/p>
-&lt;p>Location of the output data file. If this attribute is set, the “Location” slot is not taken into account.&lt;/p>
-&lt;p>&lt;strong>url-out&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Existing file&lt;/strong>&lt;/p>
-&lt;p>If a target file already exists, you can specify how it should be handled: either overwritten, renamed or appended (if supported by file format). If Rename option is chosen existing file will be renamed.&lt;/p></description></item></channel></rss>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file&lt;/strong>&lt;/td>
+ &lt;td>Location of the output data file. If this attribute is set, the “Location” slot is not taken into account.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>url-out&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Existing file&lt;/strong>&lt;/td>
+ &lt;td>If a target file already exists, you can specify how it should be handled: either overwritten, renamed, or appended (if supported by file format). If the Rename option is chosen, the existing file will be renamed.&lt;/td>
+ &lt;td>Rename&lt;/td>
+ &lt;td>&lt;strong>write-mode&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>Available values for &lt;strong>write-mode&lt;/strong> are:&lt;/p></description></item></channel></rss>

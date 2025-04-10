@@ -3,15 +3,15 @@
 &lt;p>There are two ways to add a new sequence to the current alignment:&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>From a file in the compatible format (FASTA, GenBank etc.). The list of the supported data formats can be found &lt;a href="Appendix-A.supported-file-formats.md">&lt;em>here&lt;/em>&lt;/a>.&lt;/p>
+&lt;p>From a file in a compatible format (FASTA, GenBank, etc.). The list of the supported data formats can be found &lt;a href="Appendix-A.supported-file-formats.md">&lt;em>here&lt;/em>&lt;/a>.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>From the current project.&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;p>If you activate this item, the following dialog will appear:&lt;/p></description></item><item><title>Renaming Sequences</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/working-with-sequences-list/renaming-sequences/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/working-with-sequences-list/renaming-sequences/</guid><description>&lt;h1 id="renaming-sequences">Renaming Sequences&lt;/h1>
-&lt;p>To rename a sequence click F2 on the name of this sequence and enter a new sequence name in the &amp;ldquo;Rename sequence&amp;rdquo; dialog.&lt;/p></description></item><item><title>Sorting Sequences</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/working-with-sequences-list/sorting-sequences/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/working-with-sequences-list/sorting-sequences/</guid><description>&lt;h1 id="sorting-sequences">Sorting Sequences&lt;/h1>
-&lt;p>You can sort sequences in alignment using the &lt;em>Sort&lt;/em> submenu in the &lt;em>Actions&lt;/em> main menu or from the context menu. Also, you can use the &lt;em>General&lt;/em> Options Panel tab:&lt;/p>
+&lt;p>To rename a sequence, click F2 on the name of this sequence and enter a new sequence name in the &amp;ldquo;Rename sequence&amp;rdquo; dialog.&lt;/p></description></item><item><title>Sorting Sequences</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/working-with-sequences-list/sorting-sequences/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/working-with-sequences-list/sorting-sequences/</guid><description>&lt;h1 id="sorting-sequences">Sorting Sequences&lt;/h1>
+&lt;p>You can sort sequences in alignment using the &lt;em>Sort&lt;/em> submenu in the &lt;em>Actions&lt;/em> main menu or from the context menu. Additionally, you can use the &lt;em>General&lt;/em> Options Panel tab:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929681/65929682.png" alt="">&lt;/p>
 &lt;p>It is possible to sort sequences in the selected rows region or the whole alignment. There are six ways to sort sequences:&lt;/p>
 &lt;ul>
@@ -29,20 +29,22 @@
 &lt;/li>
 &lt;li>
 &lt;p>By leading gaps, ascending&lt;/p></description></item><item><title>Shifting Sequences</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/working-with-sequences-list/shifting-sequences/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/working-with-sequences-list/shifting-sequences/</guid><description>&lt;h1 id="shifting-sequences">Shifting Sequences&lt;/h1>
-&lt;p>To change an order of sequences in a multiple sequence alignment do the following:&lt;/p>
+&lt;p>To change the order of sequences in a multiple sequence alignment, do the following:&lt;/p>
 &lt;ul>
-&lt;li>select sequence or sequences in the sequences names list by click or by click and drag correspondingly.&lt;/li>
-&lt;li>click and drag on selected region to shift it.&lt;/li>
+&lt;li>Select a sequence or sequences in the sequence names list by clicking or by clicking and dragging correspondingly.&lt;/li>
+&lt;li>Click and drag on the selected region to shift it.&lt;/li>
 &lt;/ul></description></item><item><title>Collapsing Rows</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/working-with-sequences-list/collapsing-rows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/working-with-sequences-list/collapsing-rows/</guid><description>&lt;h1 id="collapsing-rows">Collapsing Rows&lt;/h1>
-&lt;p>It is able to collapse the sequential rows. To collapse rows click on the &lt;em>Switch on/off collapsing&lt;/em> main toolbar button:&lt;/p>
+&lt;p>You can collapse sequential rows. To collapse rows, click on the &lt;em>Switch on/off collapsing&lt;/em> button on the main toolbar:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929684/69402683.png" alt="">&lt;/p>
-&lt;p>The triangle and count of sequences in the group will appear near collapsed sequences. Click on the triangle to show the whole tree of the collapsed rows. Also, it is possible to control the collapsed group with a keyboard with a help of &lt;em>Right&lt;/em> and &lt;em>Left&lt;/em> keyboard arrows.&lt;/p></description></item><item><title>Copying Sequences</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/working-with-sequences-list/copying-sequences/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/working-with-sequences-list/copying-sequences/</guid><description>&lt;h1 id="copying-sequences">Copying Sequences&lt;/h1>
-&lt;p>To copy one or several sequences do the following:&lt;/p>
+&lt;p>A triangle and the count of sequences in the group will appear near the collapsed sequences. Click on the triangle to reveal the entire tree of the collapsed rows. You can also control the collapsed group using the &lt;em>Right&lt;/em> and &lt;em>Left&lt;/em> arrows on your keyboard.&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929684/65929686.png" alt="">&lt;/p>
+&lt;p>To update the collapsed groups, click on the corresponding button on the main toolbar.&lt;/p></description></item><item><title>Copying Sequences</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/working-with-sequences-list/copying-sequences/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/working-with-sequences-list/copying-sequences/</guid><description>&lt;h1 id="copying-sequences">Copying Sequences&lt;/h1>
+&lt;p>To copy one or several sequences, do the following:&lt;/p>
 &lt;ul>
-&lt;li>Select the sequences in the &lt;em>Sequence list&lt;/em> area;&lt;/li>
-&lt;li>Select the &lt;em>Copy/Paste ‣ Copy or Copy/Paste ‣ Copy (custom format)&lt;/em> context menu item in the &lt;em>Sequence area&lt;/em> or use a hotkey combination. Note, that if you activate the context menu in the &lt;em>Sequence list&lt;/em> area you will lose your current selection.&lt;/li>
+&lt;li>Select the sequences in the &lt;em>Sequence list&lt;/em> area.&lt;/li>
+&lt;li>Choose the &lt;em>Copy/Paste ‣ Copy&lt;/em> or &lt;em>Copy/Paste ‣ Copy (custom format)&lt;/em> context menu item in the &lt;em>Sequence area&lt;/em> or use a hotkey combination. Note that if you activate the context menu in the &lt;em>Sequence list&lt;/em> area, you will lose your current selection.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929687/65929688.png" alt="">&lt;/p>
-&lt;p>To copy consensus sequence use the &lt;em>Copy/Paste ‣ Copy consensus&lt;/em> item. To copy consensus with gaps use the corresponding menu item.&lt;/p></description></item><item><title>Exclude list</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/working-with-sequences-list/exclude-list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/working-with-sequences-list/exclude-list/</guid><description>&lt;h1 id="exclude-list">Exclude list&lt;/h1>
-&lt;p>To exclude sequences from the current alignment activate the exclude list view by the &lt;em>Show/Hide Exclude List view visibility&lt;/em> button. To move selected sequences from MSA to Exclude List or from Exclude List to MSA use the following buttons:&lt;/p>
+&lt;p>To copy a consensus sequence, use the &lt;em>Copy/Paste ‣ Copy consensus&lt;/em> item. To copy a consensus with gaps, use the corresponding menu item.&lt;/p></description></item><item><title>Exclude List</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/working-with-sequences-list/exclude-list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/working-with-sequences-list/exclude-list/</guid><description>&lt;h1 id="exclude-list">Exclude List&lt;/h1>
+&lt;p>To exclude sequences from the current alignment, activate the exclude list view by the &lt;em>Show/Hide Exclude List view visibility&lt;/em> button. To move selected sequences from MSA to the Exclude List or from the Exclude List to MSA, use the following buttons:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/76709936/76709939.png" alt="">&lt;/p></description></item></channel></rss>

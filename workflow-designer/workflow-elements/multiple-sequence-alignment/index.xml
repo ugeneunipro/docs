@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Multiple Sequence Alignment on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/</link><description>Recent content in Multiple Sequence Alignment on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/index.xml" rel="self" type="application/rss+xml"/><item><title>Align Profile to Profile with MUSCLE Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-profile-to-profile-with-muscle-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-profile-to-profile-with-muscle-element/</guid><description>&lt;h1 id="align-profile-to-profile-with-muscle-element">Align Profile to Profile with MUSCLE Element&lt;/h1>
-&lt;p>Aligns second profile to master profile with MUSCLE aligner.&lt;/p>
+&lt;p>Aligns the second profile to the master profile using the MUSCLE aligner.&lt;/p>
 &lt;p>&lt;strong>Type:&lt;/strong> align-profile-to-profile&lt;/p>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
 &lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p>
-&lt;p>&lt;strong>Name in GUI:&lt;/strong> in-profiles
-&lt;strong>Name in Workflow File:&lt;/strong> in-profiles
+&lt;p>&lt;strong>Name in GUI:&lt;/strong> in-profiles&lt;br>
+&lt;strong>Name in Workflow File:&lt;/strong> in-profiles&lt;br>
 &lt;strong>Slots:&lt;/strong>&lt;/p>
 &lt;table>
  &lt;thead>
@@ -28,8 +28,8 @@
  &lt;/tbody>
 &lt;/table>
 &lt;p>And 1 &lt;em>output port&lt;/em>:&lt;/p>
-&lt;p>&lt;strong>Name in GUI:&lt;/strong> out-msa
-&lt;strong>Name in Workflow File:&lt;/strong> out-msa
+&lt;p>&lt;strong>Name in GUI:&lt;/strong> out-msa&lt;br>
+&lt;strong>Name in Workflow File:&lt;/strong> out-msa&lt;br>
 &lt;strong>Slots:&lt;/strong>&lt;/p>
 &lt;table>
  &lt;thead>
@@ -47,7 +47,7 @@
  &lt;/tr>
  &lt;/tbody>
 &lt;/table></description></item><item><title>Align with ClustalO Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-clustalo-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-clustalo-element/</guid><description>&lt;h1 id="align-with-clustalo-element">Align with ClustalO Element&lt;/h1>
-&lt;p>Aligns multiple sequence alignments (MSAs) supplied with ClustalO.&lt;/p>
+&lt;p>Aligns multiple sequence alignments (MSAs) using ClustalO.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> ClustalO&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
 &lt;table>
@@ -55,7 +55,7 @@
  &lt;tr>
  &lt;th>Parameter&lt;/th>
  &lt;th>Description&lt;/th>
- &lt;th>Default value&lt;/th>
+ &lt;th>Default Value&lt;/th>
  &lt;th>Parameter in Workflow File&lt;/th>
  &lt;th>Type&lt;/th>
  &lt;/tr>
@@ -63,14 +63,14 @@
  &lt;tbody>
  &lt;tr>
  &lt;td>&lt;strong>Number of iterations&lt;/strong>&lt;/td>
- &lt;td>Number of (combined guide-tree/HMM) iterations.&lt;/td>
+ &lt;td>Number of combined guide-tree/HMM iterations.&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;strong>num-iterations&lt;/strong>&lt;/td>
  &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Number of guidetree iterations&lt;/strong>&lt;/td>
- &lt;td>Maximum number guidetree iterations.&lt;/td>
+ &lt;td>Maximum number of guidetree iterations.&lt;/td>
  &lt;td>0&lt;/td>
  &lt;td>&lt;strong>max-guidetree-iterations&lt;/strong>&lt;/td>
  &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
@@ -84,7 +84,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Set auto options&lt;/strong>&lt;/td>
- &lt;td>Set options automatically (might overwrite some of your options).&lt;/td>
+ &lt;td>Automatically set options (this might overwrite some options you set).&lt;/td>
  &lt;td>False&lt;/td>
  &lt;td>&lt;strong>set-auto&lt;/strong>&lt;/td>
  &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
@@ -108,10 +108,8 @@
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
 &lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Align with ClustalW Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-clustalw-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-clustalw-element/</guid><description>&lt;h1 id="align-with-clustalw-element">Align with ClustalW Element&lt;/h1>
 &lt;p>Aligns multiple sequence alignments (MSAs) supplied with ClustalW.&lt;/p>
-&lt;p>ClustalW is a general-purpose multiple sequence alignment program for DNA or proteins.
-Visit &lt;a href="http://www.clustal.org/">http://www.clustal.org/&lt;/a> to learn more about it.&lt;/p>
-&lt;p>Clustal is used as an external tool from UGENE and it must be installed on your system. To learn more about the external
-tools, please, read the main &lt;a href="http://ugene.unipro.ru/documentation.html">UGENE User Manual&lt;/a>.&lt;/p>
+&lt;p>ClustalW is a general-purpose multiple sequence alignment program for DNA or proteins. Visit &lt;a href="http://www.clustal.org/">http://www.clustal.org/&lt;/a> to learn more about it.&lt;/p>
+&lt;p>Clustal is used as an external tool from UGENE and it must be installed on your system. To learn more about the external tools, please read the main &lt;a href="http://ugene.unipro.ru/documentation.html">UGENE User Manual&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> clustalw&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
 &lt;table>
@@ -127,7 +125,7 @@ tools, please, read the main &lt;a href="http://ugene.unipro.ru/documentation.ht
  &lt;tbody>
  &lt;tr>
  &lt;td>&lt;strong>Weight matrix&lt;/strong>&lt;/td>
- &lt;td>For proteins, it is a scoring table which describes the similarity of each amino acid to each other. For DNA it is the scores assigned to matches and mismatches.&lt;/td>
+ &lt;td>For proteins, it is a scoring table that describes the similarity of each amino acid to each other. For DNA, it is the scores assigned to matches and mismatches.&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>&lt;strong>matrix&lt;/strong>&lt;/td>
  &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
@@ -176,7 +174,7 @@ tools, please, read the main &lt;a href="http://ugene.unipro.ru/documentation.ht
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Residue-specific gaps off&lt;/strong>&lt;/td>
- &lt;td>Residue-specific penalties are amino specific gap penalties that reduce or increase the gap opening penalties at each position in the alignment.&lt;/td>
+ &lt;td>Residue-specific penalties are amino-specific gap penalties that reduce or increase the gap opening penalties at each position in the alignment.&lt;/td>
  &lt;td>False&lt;/td>
  &lt;td>&lt;strong>no-residue-specific-gaps&lt;/strong>&lt;/td>
  &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
@@ -220,8 +218,7 @@ tools, please, read the main &lt;a href="http://ugene.unipro.ru/documentation.ht
 &lt;/table>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
 &lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Align with Kalign Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-kalign-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-kalign-element/</guid><description>&lt;h1 id="align-with-kalign-element">Align with Kalign Element&lt;/h1>
-&lt;p>Aligns multiple sequence alignments (MSAs) supplied with Kalign. Kalign is a fast and accurate multiple sequence
-alignment tool. The original version of the tool can be found on &lt;a href="http://msa.sbc.su.se/">http://msa.sbc.su.se&lt;/a>.&lt;/p>
+&lt;p>Aligns multiple sequence alignments (MSAs) using Kalign. Kalign is a fast and accurate multiple sequence alignment tool. The original version of the tool can be found at &lt;a href="http://msa.sbc.su.se/">http://msa.sbc.su.se&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> kalign&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
 &lt;table>
@@ -244,14 +241,14 @@ alignment tool. The original version of the tool can be found on &lt;a href="htt
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Gap open penalty&lt;/strong>&lt;/td>
- &lt;td>The penalty for opening/closing a gap. Half the value will be subtracted from the alignment score when opening, and half when closing a gap.&lt;/td>
+ &lt;td>The penalty for opening/closing a gap. Half the value will be subtracted from the alignment score when opening, and the other half when closing a gap.&lt;/td>
  &lt;td>54.90&lt;/td>
  &lt;td>&lt;strong>gap-open-penalty&lt;/strong>&lt;/td>
  &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Terminal gap penalty&lt;/strong>&lt;/td>
- &lt;td>The penalty to extend gaps from the N/C terminal of protein or 5’/3’ terminal of nucleotide sequences.&lt;/td>
+ &lt;td>The penalty to extend gaps from the N/C terminal of a protein or 5’/3’ terminal of nucleotide sequences.&lt;/td>
  &lt;td>4.42&lt;/td>
  &lt;td>&lt;strong>terminal-gap-penalty&lt;/strong>&lt;/td>
  &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
@@ -267,10 +264,10 @@ alignment tool. The original version of the tool can be found on &lt;a href="htt
 &lt;/table>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
 &lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Align with MAFFT Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-mafft-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-mafft-element/</guid><description>&lt;h1 id="align-with-mafft-element">Align with MAFFT Element&lt;/h1>
-&lt;p>Originally, MAFFT is a multiple sequence alignment program for unix-like operating systems. Currently, Windows version
+&lt;p>Originally, MAFFT is a multiple sequence alignment program for Unix-like operating systems. Currently, a Windows version
 is also available.&lt;/p>
-&lt;p>MAFFT is used as an external tool from UGENE and it must be installed on your system. To learn more about the external
-tools, please, read main &lt;a href="http://ugene.unipro.ru/documentation.html">UGENE User Manual&lt;/a>.&lt;/p>
+&lt;p>MAFFT is used as an external tool from UGENE and it must be installed on your system. To learn more about external
+tools, please read the main &lt;a href="http://ugene.unipro.ru/documentation.html">UGENE User Manual&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> mafft&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
 &lt;table>
@@ -300,7 +297,7 @@ tools, please, read main &lt;a href="http://ugene.unipro.ru/documentation.html">
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Max iteration&lt;/strong>&lt;/td>
- &lt;td>Maximum number of iterative refinement.&lt;/td>
+ &lt;td>Maximum number of iterative refinements.&lt;/td>
  &lt;td>0&lt;/td>
  &lt;td>&lt;strong>iterations-max-num&lt;/strong>&lt;/td>
  &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
@@ -323,8 +320,7 @@ tools, please, read main &lt;a href="http://ugene.unipro.ru/documentation.html">
 &lt;/table>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
 &lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Align with MUSCLE Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-muscle-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-muscle-element/</guid><description>&lt;h1 id="align-with-muscle-element">Align with MUSCLE Element&lt;/h1>
-&lt;p>MUSCLE is public domain multiple alignment software for protein and nucleotide sequences. MUSCLE stands for MUltiple
-Sequence Comparison by Log-Expectation.&lt;/p>
+&lt;p>MUSCLE is a public domain multiple alignment software for protein and nucleotide sequences. MUSCLE stands for MUltiple Sequence Comparison by Log-Expectation.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> muscle&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
 &lt;table>
@@ -340,7 +336,7 @@ Sequence Comparison by Log-Expectation.&lt;/p>
  &lt;tbody>
  &lt;tr>
  &lt;td>&lt;strong>Mode&lt;/strong>&lt;/td>
- &lt;td>Selector of preset configurations, that give you the choice of optimizing accuracy, speed, or some compromise between the two. The default favors accuracy.&lt;/td>
+ &lt;td>Selector of preset configurations, providing an option to optimize accuracy, speed, or a compromise between the two. The default favors accuracy.&lt;/td>
  &lt;td>MUSCLE default&lt;/td>
  &lt;td>&lt;strong>mode&lt;/strong>&lt;/td>
  &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
@@ -354,7 +350,7 @@ Sequence Comparison by Log-Expectation.&lt;/p>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Stable order&lt;/strong>&lt;/td>
- &lt;td>Do not rearrange aligned sequences (-stable switch of MUSCLE). Otherwise, MUSCLE re-arranges sequences so that similar sequences are adjacent in the output file. This makes the alignment easier to evaluate by eye.&lt;/td>
+ &lt;td>Do not rearrange aligned sequences (-stable switch of MUSCLE). Otherwise, MUSCLE rearranges sequences so that similar sequences are adjacent in the output file, making the alignment easier to evaluate by eye.&lt;/td>
  &lt;td>True&lt;/td>
  &lt;td>&lt;strong>stable&lt;/strong>&lt;/td>
  &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
@@ -364,8 +360,7 @@ Sequence Comparison by Log-Expectation.&lt;/p>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
 &lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Align with T-Coffee Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-t-coffee-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-t-coffee-element/</guid><description>&lt;h1 id="align-with-t-coffee-element">Align with T-Coffee Element&lt;/h1>
 &lt;p>T-Coffee is a multiple sequence alignment package.&lt;/p>
-&lt;p>T-Coffee is used as an external tool from UGENE and it must be installed on your system. To learn more about the
-external tools, please, read main &lt;a href="http://ugene.unipro.ru/documentation.html">UGENE User Manual&lt;/a>.&lt;/p>
+&lt;p>T-Coffee is used as an external tool from UGENE and it must be installed on your system. To learn more about the external tools, please read the main &lt;a href="http://ugene.unipro.ru/documentation.html">UGENE User Manual&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> tcoffee&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
 &lt;table>
@@ -381,21 +376,21 @@ external tools, please, read main &lt;a href="http://ugene.unipro.ru/documentati
  &lt;tbody>
  &lt;tr>
  &lt;td>&lt;strong>Gap extension penalty&lt;/strong>&lt;/td>
- &lt;td>Gap Extension Penalty. Positive values give rewards to gaps and prevent the alignment of unrelated segments.&lt;/td>
+ &lt;td>Gap extension penalty. Positive values reward gaps and prevent the alignment of unrelated segments.&lt;/td>
  &lt;td>0&lt;/td>
  &lt;td>&lt;strong>gap-ext-penalty&lt;/strong>&lt;/td>
  &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Gap open penalty&lt;/strong>&lt;/td>
- &lt;td>Gap open penalty. Must be negative, best matches get a score of 1000.&lt;/td>
+ &lt;td>Gap open penalty. Must be negative, the best matches get a score of 1000.&lt;/td>
  &lt;td>-50&lt;/td>
  &lt;td>&lt;strong>gap-open-penalty&lt;/strong>&lt;/td>
  &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Max iteration&lt;/strong>&lt;/td>
- &lt;td>Number of iteration on the progressive alignment. 0 - no iteration, -1 - Nseq iterations.&lt;/td>
+ &lt;td>Number of iterations on the progressive alignment. 0 - no iteration, -1 - Nseq iterations.&lt;/td>
  &lt;td>0&lt;/td>
  &lt;td>&lt;strong>iterations-max-num&lt;/strong>&lt;/td>
  &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
@@ -418,7 +413,7 @@ external tools, please, read main &lt;a href="http://ugene.unipro.ru/documentati
 &lt;/table>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
 &lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Extract Consensus from Alignment as Sequence</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/extract-consensus-from-alignment-as-sequence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/extract-consensus-from-alignment-as-sequence/</guid><description>&lt;h1 id="extract-consensus-from-alignment-as-sequence">Extract Consensus from Alignment as Sequence&lt;/h1>
-&lt;p>Extract the consensus sequence from an incoming multiple sequence alignment (MSA) and output it as a sequence.&lt;/p>
+&lt;p>Extracts the consensus sequence from an incoming multiple sequence alignment (MSA) and outputs it as a sequence.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> &lt;code>extract-msa-consensus-sequence&lt;/code>&lt;/p>
 &lt;hr>
 &lt;h2 id="parameters">Parameters&lt;/h2>
@@ -449,7 +444,7 @@ external tools, please, read main &lt;a href="http://ugene.unipro.ru/documentati
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Keep gaps&lt;/strong>&lt;/td>
- &lt;td>Whether gaps should be kept in the resulting consensus sequence.&lt;/td>
+ &lt;td>Determines whether gaps should be kept in the resulting consensus sequence.&lt;/td>
  &lt;td>&lt;code>True&lt;/code>&lt;/td>
  &lt;td>&lt;code>keep-gaps&lt;/code>&lt;/td>
  &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
@@ -579,93 +574,205 @@ external tools, please, read main &lt;a href="http://ugene.unipro.ru/documentati
  &lt;/tr>
  &lt;/tbody>
 &lt;/table></description></item><item><title>In Silico PCR Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/in-silico-pcr-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/in-silico-pcr-element/</guid><description>&lt;h1 id="in-silico-pcr-element">In Silico PCR Element&lt;/h1>
-&lt;p>Simulates PCR for input sequences and primer pairs. Creates the table with the PCR statistics.&lt;/p>
+&lt;p>Simulates PCR for input sequences and primer pairs. Creates a table with PCR statistics.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> in-silico-pcr&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Primers URL&lt;/strong>&lt;/p>
-&lt;p>A URL to the input file with primer pairs.&lt;/p>
-&lt;p>&lt;strong>primers-url&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Report URL&lt;/strong>&lt;/p>
-&lt;p>A URL to the output file with the PCR report.&lt;/p>
-&lt;p>&lt;strong>report-url&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Mismatches&lt;/strong>&lt;/p>
-&lt;p>Number of allowed mismatches.&lt;/p>
-&lt;p>3&lt;/p>
-&lt;p>&lt;strong>mismatches&lt;/strong>&lt;/p>
-&lt;p>&lt;em>numeric&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Min perfect match&lt;/strong>&lt;/p>
-&lt;p>Number of bases that match exactly on 3&amp;rsquo; end of primers.&lt;/p></description></item><item><title>Join Sequences into Alignment Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/join-sequences-into-alignment-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/join-sequences-into-alignment-element/</guid><description>&lt;h1 id="join-sequences-into-alignment-element">Join Sequences into Alignment Element&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default Value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Primers URL&lt;/strong>&lt;/td>
+ &lt;td>A URL to the input file with primer pairs.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>primers-url&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Report URL&lt;/strong>&lt;/td>
+ &lt;td>A URL to the output file with the PCR report.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>report-url&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Mismatches&lt;/strong>&lt;/td>
+ &lt;td>Number of allowed mismatches.&lt;/td>
+ &lt;td>3&lt;/td>
+ &lt;td>&lt;strong>mismatches&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min perfect match&lt;/strong>&lt;/td>
+ &lt;td>Number of bases that match exactly on 3&amp;rsquo; end of primers.&lt;/td>
+ &lt;td>15&lt;/td>
+ &lt;td>&lt;strong>perfect-match&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max product size&lt;/strong>&lt;/td>
+ &lt;td>Maximum size of amplified region.&lt;/td>
+ &lt;td>5000&lt;/td>
+ &lt;td>&lt;strong>max-product&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Use ambiguous bases&lt;/strong>&lt;/td>
+ &lt;td>Search for ambiguous bases (as &amp;ldquo;N&amp;rdquo;) if checked.&lt;/td>
+ &lt;td>True&lt;/td>
+ &lt;td>&lt;strong>use-ambiguous-bases&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Extract annotations&lt;/strong>&lt;/td>
+ &lt;td>Extract annotations within a product region.&lt;/td>
+ &lt;td>Inner&lt;/td>
+ &lt;td>&lt;strong>extract-annotations&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Join Sequences into Alignment Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/join-sequences-into-alignment-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/join-sequences-into-alignment-element/</guid><description>&lt;h1 id="join-sequences-into-alignment-element">Join Sequences into Alignment Element&lt;/h1>
 &lt;p>Creates a multiple sequence alignment from sequences.&lt;/p>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
 &lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p>
 &lt;p>&lt;strong>Name in GUI:&lt;/strong> &lt;em>Input sequences&lt;/em>&lt;/p>
 &lt;p>&lt;strong>Name in Workflow File:&lt;/strong> in-sequence&lt;/p>
 &lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
-&lt;p>Slot In GUI&lt;/p>
-&lt;p>Slot in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Sequence&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>sequence&lt;/strong>&lt;/p>
-&lt;p>&lt;em>sequence&lt;/em>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot In GUI&lt;/th>
+ &lt;th>Slot in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Sequence&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>sequence&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>sequence&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
 &lt;p>And 1 &lt;em>output port&lt;/em>:&lt;/p>
 &lt;p>&lt;strong>Name in GUI:&lt;/strong> &lt;em>Result alignment&lt;/em>&lt;/p>
 &lt;p>&lt;strong>Name in Workflow File:&lt;/strong> out-msa&lt;/p>
 &lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
-&lt;p>Slot In GUI&lt;/p>
-&lt;p>Slot in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>MSA&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>msa&lt;/strong>&lt;/p>
-&lt;p>&lt;em>msa&lt;/em>&lt;/p></description></item><item><title>Map to Reference Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/map-to-reference-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/map-to-reference-element/</guid><description>&lt;h1 id="map-to-reference-element">Map to Reference Element&lt;/h1>
-&lt;p>Align input sequences (e.g. Sanger reads) to the reference sequence.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot In GUI&lt;/th>
+ &lt;th>Slot in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>MSA&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>msa&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>msa&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Map to Reference Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/map-to-reference-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/map-to-reference-element/</guid><description>&lt;h1 id="map-to-reference-element">Map to Reference Element&lt;/h1>
+&lt;p>Align input sequences (e.g., Sanger reads) to the reference sequence.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> align-to-reference&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Reference URL&lt;/strong>&lt;/p>
-&lt;p>A URL to the file with a reference sequence.&lt;/p>
-&lt;p>&lt;strong>reference&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Reference URL&lt;/strong>&lt;/td>
+ &lt;td>A URL to the file with a reference sequence.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>reference&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Type&lt;/strong>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
 &lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p>
 &lt;p>&lt;strong>Name in GUI:&lt;/strong> Input sequence&lt;/p>
 &lt;p>&lt;strong>Name in Workflow File:&lt;/strong> in-sequence&lt;/p>
 &lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
-&lt;p>Slot In GUI&lt;/p>
-&lt;p>Slot in &lt;strong>Workflow&lt;/strong> File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Sequence&lt;/strong>&lt;/p>
-&lt;p>sequence&lt;/p>
-&lt;p>&lt;em>sequence&lt;/em>&lt;/p></description></item><item><title>Split Alignment into Sequences Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/split-alignment-into-sequences-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/split-alignment-into-sequences-element/</guid><description>&lt;h1 id="split-alignment-into-sequences-element">Split Alignment into Sequences Element&lt;/h1>
-&lt;p>Splits an input alignment into sequences.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot In GUI&lt;/th>
+ &lt;th>Slot in &lt;strong>Workflow&lt;/strong> File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Sequence&lt;/strong>&lt;/td>
+ &lt;td>sequence&lt;/td>
+ &lt;td>&lt;em>sequence&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>And 1 &lt;em>output port&lt;/em>:&lt;/p></description></item><item><title>Split Alignment into Sequences Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/split-alignment-into-sequences-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/split-alignment-into-sequences-element/</guid><description>&lt;h1 id="split-alignment-into-sequences-element">Split Alignment into Sequences Element&lt;/h1>
+&lt;p>This element splits an input alignment into sequences.&lt;/p>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
 &lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p>
-&lt;p>&lt;strong>Name in GUI:&lt;/strong> &lt;em>Input alignment&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Name in Workflow File:&lt;/strong> in-msa&lt;/p>
-&lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
-&lt;p>Slot In GUI&lt;/p>
-&lt;p>Slot in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>MSA&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>msa&lt;/strong>&lt;/p>
-&lt;p>&lt;em>msa&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Name in GUI:&lt;/strong> &lt;em>Input alignment&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Name in Workflow File:&lt;/strong> in-msa&lt;/li>
+&lt;/ul>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot in GUI&lt;/th>
+ &lt;th>Slot in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>MSA&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>msa&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>msa&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
 &lt;p>And 1 &lt;em>output port&lt;/em>:&lt;/p>
-&lt;p>&lt;strong>Name in GUI:&lt;/strong> &lt;em>Output sequences&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Name in Workflow File:&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Slots:&lt;/strong> out-sequence&lt;/p>
-&lt;p>Slot In GUI&lt;/p>
-&lt;p>Slot in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Sequence&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>sequence&lt;/strong>&lt;/p>
-&lt;p>&lt;em>sequence&lt;/em>&lt;/p></description></item></channel></rss>
+&lt;ul>
+&lt;li>&lt;strong>Name in GUI:&lt;/strong> &lt;em>Output sequences&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Name in Workflow File:&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot in GUI&lt;/th>
+ &lt;th>Slot in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Sequence&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>sequence&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>sequence&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item></channel></rss>

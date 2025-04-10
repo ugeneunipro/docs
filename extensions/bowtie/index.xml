@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bowtie on UGENE Documentation</title><link>https://ugene.net/docs/extensions/bowtie/</link><description>Recent content in Bowtie on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/extensions/bowtie/index.xml" rel="self" type="application/rss+xml"/><item><title>Bowtie Aligning Short Reads</title><link>https://ugene.net/docs/extensions/bowtie/bowtie-aligning-short-reads/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/bowtie/bowtie-aligning-short-reads/</guid><description>&lt;h1 id="bowtie-aligning-short-reads">Bowtie Aligning Short Reads&lt;/h1>
-&lt;p>When you select the &lt;em>Tools ‣ DNA Assembly ‣ Align short reads&lt;/em> item in the main menu, the &lt;em>Align Short Reads&lt;/em> dialog appears. Set value of the &lt;em>Align short reads method&lt;/em> parameter to &lt;em>Bowtie&lt;/em>. The dialog looks as follows:&lt;/p>
+&lt;p>When you select the &lt;em>Tools ‣ DNA Assembly ‣ Align short reads&lt;/em> item in the main menu, the &lt;em>Align Short Reads&lt;/em> dialog appears. Set the value of the &lt;em>Align short reads method&lt;/em> parameter to &lt;em>Bowtie&lt;/em>. The dialog looks as follows:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65930853/107020295.png" alt="">&lt;/p>
-&lt;p>There are the following parameters:&lt;/p>
-&lt;p>&lt;em>Reference sequence&lt;/em> — DNA sequence to align short reads to. This parameter is required.&lt;/p>
-&lt;p>&lt;em>Result file name&lt;/em> — file in SAM format to write the result of the alignment into. This parameter is required.&lt;/p></description></item><item><title>Building Index for Bowtie</title><link>https://ugene.net/docs/extensions/bowtie/building-index-for-bowtie/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/bowtie/building-index-for-bowtie/</guid><description>&lt;h1 id="building-index-for-bowtie">Building Index for Bowtie&lt;/h1>
-&lt;p>To build &lt;em>Bowtie&lt;/em> index select the &lt;em>Tools ‣ NGS data analysis ‣ Build index for reads mapping&lt;/em> item in the main menu. The &lt;em>Build Index&lt;/em> dialog appears. Set the &lt;em>Map&lt;/em> &lt;em>short reads method&lt;/em> parameter to &lt;em>Bowtie&lt;/em>.&lt;/p>
+&lt;p>The following parameters are available:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Reference sequence&lt;/strong> — DNA sequence to align short reads to. This parameter is required.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Result file name&lt;/strong> — file in SAM format to write the result of the alignment into. This parameter is required.&lt;/p></description></item><item><title>Building Index for Bowtie</title><link>https://ugene.net/docs/extensions/bowtie/building-index-for-bowtie/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/bowtie/building-index-for-bowtie/</guid><description>&lt;h1 id="building-index-for-bowtie">Building Index for Bowtie&lt;/h1>
+&lt;p>To build a &lt;em>Bowtie&lt;/em> index, select the &lt;em>Tools ‣ NGS data analysis ‣ Build index for reads mapping&lt;/em> item in the main menu. The &lt;em>Build Index&lt;/em> dialog will appear. Set the &lt;em>Map short reads method&lt;/em> parameter to &lt;em>Bowtie&lt;/em>.&lt;/p>
 &lt;p>The dialog looks as follows:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65930855/88080479.png" alt="">&lt;/p>
-&lt;p>There are the following parameters:&lt;/p>
-&lt;p>&lt;em>Reference sequence&lt;/em> — DNA sequence to which short reads would be aligned to. This parameter is required.&lt;/p>
-&lt;p>&lt;em>Index file name&lt;/em> — a file to save the created index to. This parameter is required.&lt;/p></description></item></channel></rss>
+&lt;p>The following parameters are required:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;em>Reference sequence&lt;/em> — DNA sequence to which short reads will be aligned. This parameter is required.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;em>Index file name&lt;/em> — a file to save the created index. This parameter is required.&lt;/p></description></item></channel></rss>

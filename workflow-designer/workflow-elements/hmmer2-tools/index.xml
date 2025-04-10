@@ -1,64 +1,216 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HMMER2 Tools on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer2-tools/</link><description>Recent content in HMMER2 Tools on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/workflow-elements/hmmer2-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>HMM2 Build Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer2-tools/hmm2-build-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer2-tools/hmm2-build-element/</guid><description>&lt;h1 id="hmm2-build-element">HMM2 Build Element&lt;/h1>
-&lt;p>Builds a HMM profile from a multiple sequence alignment. The HMM profile is a statistical model which captures position-specific information about how conserved each column of the alignment is, and which residues are likely.&lt;/p>
+&lt;p>Builds an HMM profile from a multiple sequence alignment. The HMM profile is a statistical model that captures position-specific information about how conserved each column of the alignment is and which residues are likely.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> hmm2-build&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Profile name&lt;/strong>&lt;/p>
-&lt;p>Descriptive name of the HMM profile.&lt;/p>
-&lt;p>&lt;strong>profile-name&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>HMM strategy&lt;/strong>&lt;/p>
-&lt;p>Specifies the kind of alignments you want to allow.&lt;/p></description></item><item><title>HMM2 Search Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer2-tools/hmm2-search-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer2-tools/hmm2-search-element/</guid><description>&lt;h1 id="hmm2-search-element">HMM2 Search Element&lt;/h1>
-&lt;p>Searches each input sequence for significantly similar sequence matches to all specified HMM profiles. In case several profiles were supplied, searches with all profiles one by one and output united set of annotations for each sequence&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Profile name&lt;/strong>&lt;/td>
+ &lt;td>Descriptive name of the HMM profile.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>profile-name&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>HMM strategy&lt;/strong>&lt;/td>
+ &lt;td>Specifies the kind of alignments you want to allow. Available values are: 0 - for hmms, 1 - for hmmls, 2 - for hmmfs, 3 - for hmmsw.&lt;/td>
+ &lt;td>hmmls&lt;/td>
+ &lt;td>&lt;strong>strategy&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Calibrate profile&lt;/strong>&lt;/td>
+ &lt;td>Enables/disables optional profile calibration. An empirical HMM calibration costs time but it only has to be done once per model and can greatly increase the sensitivity of a database search.&lt;/td>
+ &lt;td>True&lt;/td>
+ &lt;td>&lt;strong>calibrate&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Parallel calibration&lt;/strong>&lt;/td>
+ &lt;td>Number of parallel threads that the calibration will run in.&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;strong>calibration-threads&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Standard deviation&lt;/strong>&lt;/td>
+ &lt;td>Standard deviation of the synthetic sequence length. A positive number. Note that the Gaussian is left-truncated so that no sequences have lengths.&lt;/td>
+ &lt;td>200.0&lt;/td>
+ &lt;td>&lt;strong>deviation&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Fixed length of samples&lt;/strong>&lt;/td>
+ &lt;td>Fixes the length of the random sequences to a positive (and reasonably sized) integer. The default is to generate sequences with a variety of different lengths, controlled by a Gaussian distribution.&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>fix-samples-length&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Mean length of samples&lt;/strong>&lt;/td>
+ &lt;td>Mean length of the synthetic sequences, positive real number.&lt;/td>
+ &lt;td>325&lt;/td>
+ &lt;td>&lt;strong>mean-samples-length&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Number of samples&lt;/strong>&lt;/td>
+ &lt;td>Number of synthetic sequences. If less than about 1000, the fit to the EVD may fail. Higher numbers will give better determined EVD parameters. The default is 5000, chosen as a tradeoff between accuracy and computation time.&lt;/td>
+ &lt;td>5000&lt;/td>
+ &lt;td>&lt;strong>samples-num&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Random seed&lt;/strong>&lt;/td>
+ &lt;td>The random seed, a positive integer. The default is to use time() to generate a different seed for each run, which means that two different runs of hmmcalibrate on the same HMM will give slightly different results. You can use this option to generate reproducible results for different hmmcalibrate runs on the same HMM.&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>seed&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>Input/Output Ports&lt;/p></description></item><item><title>HMM2 Search Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer2-tools/hmm2-search-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer2-tools/hmm2-search-element/</guid><description>&lt;h1 id="hmm2-search-element">HMM2 Search Element&lt;/h1>
+&lt;p>This element searches each input sequence for significantly similar sequence matches to all specified HMM profiles. If multiple profiles are provided, it searches with each profile individually and outputs a unified set of annotations for each sequence.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> hmm2-search&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Result annotation&lt;/strong>&lt;/p>
-&lt;p>Name of the result annotations.&lt;/p>
-&lt;p>hmm_signal&lt;/p>
-&lt;p>&lt;strong>result-name&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Filter by high E-value&lt;/strong>&lt;/p>
-&lt;p>E-value filtering can be used to exclude low-probability hits from result.&lt;/p></description></item><item><title>Read HMM2 Profile Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer2-tools/read-hmm2-profile-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer2-tools/read-hmm2-profile-element/</guid><description>&lt;h1 id="read-hmm2-profile-element">Read HMM2 Profile Element&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default Value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Result annotation&lt;/strong>&lt;/td>
+ &lt;td>Name of the result annotations.&lt;/td>
+ &lt;td>hmm_signal&lt;/td>
+ &lt;td>&lt;strong>result-name&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Filter by high E-value&lt;/strong>&lt;/td>
+ &lt;td>E-value filtering can be used to exclude low-probability hits from the result.&lt;/td>
+ &lt;td>1e-1&lt;/td>
+ &lt;td>&lt;strong>e-val&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Number of seqs&lt;/strong>&lt;/td>
+ &lt;td>Calculates the E-value scores as if we had seen a sequence database of sequences.&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;strong>seqs-num&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Filter by low score&lt;/strong>&lt;/td>
+ &lt;td>Score-based filtering is an alternative to E-value filtering to exclude low-probability hits from the result.&lt;/td>
+ &lt;td>-1000000000.0&lt;/td>
+ &lt;td>&lt;strong>score&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 2 &lt;em>input ports&lt;/em>.&lt;/p></description></item><item><title>Read HMM2 Profile Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer2-tools/read-hmm2-profile-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer2-tools/read-hmm2-profile-element/</guid><description>&lt;h1 id="read-hmm2-profile-element">Read HMM2 Profile Element&lt;/h1>
 &lt;p>Reads HMM profiles from file(s). The files can be local or Internet URLs.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> hmm2-read-profile&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Input files&lt;/strong> (required)&lt;/p>
-&lt;p>Semicolon-separated list of paths to the input files.&lt;/p>
-&lt;p>&lt;strong>url-in&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>Input/Output Ports&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Input files&lt;/strong> &lt;em>(required)&lt;/em>&lt;/td>
+ &lt;td>Semicolon-separated list of paths to the input files.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>url-in&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
 &lt;p>The element has 1 &lt;em>output port&lt;/em>:&lt;/p>
-&lt;p>&lt;strong>Name in GUI:&lt;/strong> &lt;em>HMM profile&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Name in Workflow File:&lt;/strong> out-hmm2&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Name in GUI&lt;/th>
+ &lt;th>Name in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>HMM profile&lt;/strong>&lt;/td>
+ &lt;td>out-hmm2&lt;/td>
+ &lt;td>&lt;em>hmm2-profile&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
 &lt;p>&lt;strong>Slots:&lt;/strong>&lt;/p>
-&lt;p>Slot In GUI&lt;/p>
-&lt;p>Slot in Workflow File&lt;/p>
-&lt;p>Type&lt;/p></description></item><item><title>Write HMM2 Profile Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer2-tools/write-hmm2-profile-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer2-tools/write-hmm2-profile-element/</guid><description>&lt;h1 id="write-hmm2-profile-element">Write HMM2 Profile Element&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Slot In GUI&lt;/th>
+ &lt;th>Slot in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>HMM profile&lt;/strong>&lt;/td>
+ &lt;td>hmm2-profile&lt;/td>
+ &lt;td>&lt;em>hmm2-profile&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Write HMM2 Profile Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer2-tools/write-hmm2-profile-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/hmmer2-tools/write-hmm2-profile-element/</guid><description>&lt;h1 id="write-hmm2-profile-element">Write HMM2 Profile Element&lt;/h1>
 &lt;p>Saves all input HMM profiles to the specified locations.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> hmm2-write-profile&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Output file&lt;/strong> (required)&lt;/p>
-&lt;p>Location of the output data file. If this attribute is set, the “Location” slot is not taken into account.&lt;/p>
-&lt;p>&lt;strong>url-out&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Existing file&lt;/strong>&lt;/p>
-&lt;p>If a target file already exists, you can specify how it should be handled: either overwritten, renamed or appended (if supported by file format).&lt;/p></description></item></channel></rss>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file&lt;/strong>&lt;/td>
+ &lt;td>Location of the output data file. If this attribute is set, the “Location” slot is not taken into account.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>url-out&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Existing file&lt;/strong>&lt;/td>
+ &lt;td>If a target file already exists, you can specify how it should be handled: either overwritten, renamed, or appended (if supported by the file format).&lt;/td>
+ &lt;td>Rename&lt;/td>
+ &lt;td>&lt;strong>write-mode&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>Available values for &lt;strong>Existing file&lt;/strong> are:&lt;/p></description></item></channel></rss>

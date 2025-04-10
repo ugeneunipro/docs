@@ -1,105 +1,551 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data Writers on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/</link><description>Recent content in Data Writers on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/index.xml" rel="self" type="application/rss+xml"/><item><title>Write Alignment Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-alignment-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-alignment-element/</guid><description>&lt;h1 id="write-alignment-element">Write Alignment Element&lt;/h1>
-&lt;p>The element gets message(s) with alignment data and saves the data to the specified file(s) in one of the multiple sequence alignment formats, supported by UGENE (ClustalW, FASTA, etc.).&lt;/p>
+&lt;p>This element receives message(s) with alignment data and saves the data to the specified file(s) in one of the multiple sequence alignment formats supported by UGENE (ClustalW, FASTA, etc.).&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> write-msa&lt;/p>
-&lt;p>Parameters&lt;/p>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Data storage&lt;/strong>&lt;/p>
-&lt;p>Place to store workflow results: local file system or a database.&lt;/p>
-&lt;p>&lt;strong>data-storage&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Document format&lt;/strong>&lt;/p>
-&lt;p>Format of the output file.&lt;/p>
-&lt;p>clustal&lt;/p>
-&lt;p>&lt;strong>document-format&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p></description></item><item><title>Write Annotations Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-annotations-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-annotations-element/</guid><description>&lt;h1 id="write-annotations-element">Write Annotations Element&lt;/h1>
-&lt;p>The element gets the message(s) with annotations data and saves the data to the specified file(s) in one of the appropriate formats (GenBank, GTF, etc.).&lt;/p>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Data storage&lt;/strong>&lt;/td>
+ &lt;td>The place to store workflow results: local file system or a database.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>data-storage&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Document format&lt;/strong>&lt;/td>
+ &lt;td>The format of the output file.&lt;/td>
+ &lt;td>clustal&lt;/td>
+ &lt;td>&lt;strong>document-format&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>Available values are:&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>* clustal&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>* mega&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>* msf&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>* sam&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>* srfasta&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>* stockholm&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file&lt;/strong>&lt;/td>
+ &lt;td>Location of the output data file. If this parameter is set, then the “Location” slot is not considered.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>url-out&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file suffix&lt;/strong>&lt;/td>
+ &lt;td>This suffix will be used for generating the output file name.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>url-suffix&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Existing file&lt;/strong>&lt;/td>
+ &lt;td>If a target file already exists, you can specify how it should be handled: either overwritten, renamed, or appended (if supported by the file format).&lt;/td>
+ &lt;td>Rename&lt;/td>
+ &lt;td>&lt;strong>write-mode&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>Available values are:&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>* 0 - for overwrite&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>* 1 - for append&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>* 2 - for rename&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Write Annotations Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-annotations-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-annotations-element/</guid><description>&lt;h1 id="write-annotations-element">Write Annotations Element&lt;/h1>
+&lt;p>This element retrieves the message(s) containing annotation data and saves the data to the specified file(s) in one of the appropriate formats (GenBank, GTF, etc.).&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> write-annotations&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Data storage&lt;/strong>&lt;/p>
-&lt;p>Place to store workflow results: local file system or a database.&lt;/p>
-&lt;p>&lt;strong>data-storage&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Output file&lt;/strong>&lt;/p>
-&lt;p>Location of the output data file. If this attribute is set, slot “Location” in port will not be used.&lt;/p></description></item><item><title>Write FASTA Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-fasta-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-fasta-element/</guid><description>&lt;h1 id="write-fasta-element">Write FASTA Element&lt;/h1>
-&lt;p>The element gets message(s) with sequence data and saves the data to the specified file(s) in FASTA format.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Data storage&lt;/strong>&lt;/td>
+ &lt;td>Place to store workflow results: local file system or a database.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>data-storage&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file&lt;/strong>&lt;/td>
+ &lt;td>Location of the output data file. If this attribute is set, the &amp;ldquo;Location&amp;rdquo; slot in port will not be used.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>url-out&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file suffix&lt;/strong>&lt;/td>
+ &lt;td>This suffix will be used for generating the output file name.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>url-suffix&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Existing file&lt;/strong>&lt;/td>
+ &lt;td>If a target file already exists, specify how it should be handled: overwrite, rename, or append (if supported by file format).&lt;/td>
+ &lt;td>Rename&lt;/td>
+ &lt;td>&lt;strong>write-mode&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>Available values are:&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>* 0 - Overwrite&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>* 1 - Append&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>* 2 - Rename&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Document format&lt;/strong>&lt;/td>
+ &lt;td>Document format of the output file.&lt;/td>
+ &lt;td>genbank&lt;/td>
+ &lt;td>&lt;strong>document-format&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>Available values are:&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>* CSV&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>* GenBank&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>* GFF&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Merge annotations table&lt;/strong>&lt;/td>
+ &lt;td>If true, all annotation tables from the dataset will be merged into one. The Annotation table name parameter value will be used as the result annotation table&amp;rsquo;s name.&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>merge&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;a href="http://ugene.unipro.ru/documentation/wd_manual/introduction/schema_terms.html#term-input-port">input port&lt;/a>:&lt;/p></description></item><item><title>Write FASTA Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-fasta-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-fasta-element/</guid><description>&lt;h1 id="write-fasta-element">Write FASTA Element&lt;/h1>
+&lt;p>This element receives message(s) with sequence data and saves the data to the specified file(s) in FASTA format.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> write-fasta&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Output file&lt;/strong>&lt;/p>
-&lt;p>Location of the output data file. If this attribute is set, then the “Location” slot is not taken into account.&lt;/p>
-&lt;p>&lt;strong>url-out&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Output file suffix&lt;/strong>&lt;/p>
-&lt;p>This suffix will be used for generating the output file name.&lt;/p></description></item><item><title>Write NGS Reads Assembly Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-ngs-reads-assembly-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-ngs-reads-assembly-element/</guid><description>&lt;h1 id="write-ngs-reads-assembly-element">Write NGS Reads Assembly Element&lt;/h1>
-&lt;p>The element gets message(s) with assembled reads data and saves the data to the specified file(s) in one of the appropriate formats (SAM, BAM, or UGENEDB).&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default Value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file&lt;/strong>&lt;/td>
+ &lt;td>Location of the output data file. If this attribute is set, then the “Location” slot is not taken into account.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>url-out&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file suffix&lt;/strong>&lt;/td>
+ &lt;td>This suffix will be used for generating the output file name.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>url-suffix&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Existing file&lt;/strong>&lt;/td>
+ &lt;td>If a target file already exists, you can specify how it should be handled: either overwritten, renamed, or appended (if supported by file format).&lt;/td>
+ &lt;td>Rename&lt;/td>
+ &lt;td>&lt;strong>write-mode&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>Available values are:&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>* 0 - for overwrite&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>* 1 - for append&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>* 2 - for rename&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Accumulate objects&lt;/strong>&lt;/td>
+ &lt;td>Accumulates all incoming data in one file or creates separate files for each input. In the latter case, an incremental numerical suffix is added to the file name.&lt;/td>
+ &lt;td>True&lt;/td>
+ &lt;td>&lt;strong>accumulate&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Write NGS Reads Assembly Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-ngs-reads-assembly-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-ngs-reads-assembly-element/</guid><description>&lt;h1 id="write-ngs-reads-assembly-element">Write NGS Reads Assembly Element&lt;/h1>
+&lt;p>This element processes message(s) containing assembled reads data and saves the data to the specified file(s) in one of the suitable formats (SAM, BAM, or UGENEDB).&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> write-assembly&lt;/p>
-&lt;p>Parameters&lt;/p>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Data storage&lt;/strong>&lt;/p>
-&lt;p>Place to store workflow results: local file system or a database.&lt;/p>
-&lt;p>&lt;strong>data-storage&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Document format&lt;/strong>&lt;/p>
-&lt;p>Document format of the output file.&lt;/p>
-&lt;p>bam&lt;/p>
-&lt;p>&lt;strong>document-format&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p></description></item><item><title>Write Plain Text Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-plain-text-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-plain-text-element/</guid><description>&lt;h1 id="write-plain-text-element">Write Plain Text Element&lt;/h1>
-&lt;p>The element gets message(s) with text data and saved the data to the specified text file(s).&lt;/p>
+&lt;h3 id="parameters">Parameters&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Data storage&lt;/strong>&lt;/td>
+ &lt;td>Specifies where to store workflow results: local file system or a database.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>data-storage&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Document format&lt;/strong>&lt;/td>
+ &lt;td>The document format of the output file.&lt;/td>
+ &lt;td>bam&lt;/td>
+ &lt;td>document-format&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Build index (BAM only)&lt;/strong>&lt;/td>
+ &lt;td>Builds a BAM index for the target BAM file. The file .bai will be created in the same directory.&lt;/td>
+ &lt;td>True&lt;/td>
+ &lt;td>build-index&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file&lt;/strong>&lt;/td>
+ &lt;td>Location of the output data file. If this attribute is set, the &amp;ldquo;Location&amp;rdquo; slot in the port will not be used.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>out-url&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file suffix&lt;/strong>&lt;/td>
+ &lt;td>This suffix will be used for generating the output file name.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>url-suffix&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Existing file&lt;/strong>&lt;/td>
+ &lt;td>Specifies how an existing target file should be handled: overwritten, renamed, or appended (if supported by file format). If the Rename option is chosen, the existing file will be renamed.&lt;/td>
+ &lt;td>Rename&lt;/td>
+ &lt;td>write-mode&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Write Plain Text Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-plain-text-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-plain-text-element/</guid><description>&lt;h1 id="write-plain-text-element">Write Plain Text Element&lt;/h1>
+&lt;p>The element receives messages with text data and saves the data to the specified text file(s).&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> write-text&lt;/p>
-&lt;p>Parameters&lt;/p>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Data storage&lt;/strong>&lt;/p>
-&lt;p>Place to store workflow results: local file system or a database.&lt;/p>
-&lt;p>&lt;strong>data-storage&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Output file&lt;/strong>&lt;/p>
-&lt;p>Location of the output data file. If this attribute is set, then the “Location” slot is not taken into account.&lt;/p></description></item><item><title>Write Sequence Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-sequence-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-sequence-element/</guid><description>&lt;h1 id="write-sequence-element">Write Sequence Element&lt;/h1>
-&lt;p>The element gets message(s) with sequence data and, optionally, associated annotations data and saves the data to the specified file(s) in one of the appropriate formats (GenBank, FASTA, etc.).&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Data storage&lt;/strong>&lt;/td>
+ &lt;td>Place to store workflow results: local file system or a database.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>data-storage&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file&lt;/strong>&lt;/td>
+ &lt;td>Location of the output data file. If this attribute is set, then the “Location” slot is not taken into account.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>url-out&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file suffix&lt;/strong>&lt;/td>
+ &lt;td>This suffix will be used for generating the output file name.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>url-suffix&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Existing file&lt;/strong>&lt;/td>
+ &lt;td>If a target file already exists, you can specify how it should be handled: either overwritten, renamed or appended (if supported by file format).&lt;/td>
+ &lt;td>Rename&lt;/td>
+ &lt;td>&lt;strong>write-mode&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>Available values are:&lt;/p></description></item><item><title>Write Sequence Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-sequence-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-sequence-element/</guid><description>&lt;h1 id="write-sequence-element">Write Sequence Element&lt;/h1>
+&lt;p>This element receives message(s) with sequence data and, optionally, associated annotation data. It saves the data to the specified file(s) in one of the appropriate formats (GenBank, FASTA, etc.).&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> write-sequence&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Data storage&lt;/strong>&lt;/p>
-&lt;p>Place to store workflow results: local file system or a database.&lt;/p>
-&lt;p>&lt;strong>data-storage&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Output file&lt;/strong>&lt;/p>
-&lt;p>Location of the output data file. If this attribute is set, then the “Location” slot is not taken into account.&lt;/p></description></item><item><title>Write Variants Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-variants-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-variants-element/</guid><description>&lt;h1 id="write-variants-element">Write Variants Element&lt;/h1>
-&lt;p>The element gets message(s) with variations data and saves the data to the specified file(s) in one of the appropriate formats (e.g. VCF).&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Data storage&lt;/strong>&lt;/td>
+ &lt;td>Place to store workflow results: local file system or a database.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>data-storage&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file&lt;/strong>&lt;/td>
+ &lt;td>Location of the output data file. If this attribute is set, the “Location” slot is not taken into account.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>url-out&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file suffix&lt;/strong>&lt;/td>
+ &lt;td>This suffix will be used for generating the output file name.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>url-suffix&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Existing file&lt;/strong>&lt;/td>
+ &lt;td>Specifies how to handle existing target files: overwrite, rename, or append (if supported by the file format).&lt;/td>
+ &lt;td>Rename&lt;/td>
+ &lt;td>write-mode&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Document format&lt;/strong>&lt;/td>
+ &lt;td>Format of the output file.&lt;/td>
+ &lt;td>fasta&lt;/td>
+ &lt;td>document-format&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Accumulate objects&lt;/strong>&lt;/td>
+ &lt;td>Accumulates all incoming data in one file or creates separate files for each input. Adds an incremental numerical suffix to the filename if separate files are created.&lt;/td>
+ &lt;td>True&lt;/td>
+ &lt;td>accumulate&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Split sequence&lt;/strong>&lt;/td>
+ &lt;td>Splits each incoming sequence into several parts.&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>split&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>Available values for &lt;strong>Existing file&lt;/strong> (write-mode):&lt;/p></description></item><item><title>Write Variants Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-variants-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-writers/write-variants-element/</guid><description>&lt;h1 id="write-variants-element">Write Variants Element&lt;/h1>
+&lt;p>This element receives message(s) with variation data and saves the data to the specified file(s) in one of the appropriate formats (e.g., VCF).&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> write-variations&lt;/p>
-&lt;p>Parameters&lt;/p>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Data storage&lt;/strong>&lt;/p>
-&lt;p>Place to store workflow results: local file system or a database.&lt;/p>
-&lt;p>&lt;strong>data-storage&lt;/strong>&lt;/p>
-&lt;p>&lt;em>split&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Accumulate objects&lt;/strong>&lt;/p>
-&lt;p>Accumulate all incoming data in one file or create separate files for each input.In the latter case, an incremental numerical suffix is added to the file name.&lt;/p></description></item></channel></rss>
+&lt;h2 id="parameters">Parameters&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default Value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Data storage&lt;/strong>&lt;/td>
+ &lt;td>Place to store workflow results: local file system or a database.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>data-storage&lt;/td>
+ &lt;td>&lt;em>split&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Accumulate objects&lt;/strong>&lt;/td>
+ &lt;td>Accumulate all incoming data in one file or create separate files for each input. In the latter case, a numerical suffix is added to the file name.&lt;/td>
+ &lt;td>True&lt;/td>
+ &lt;td>accumulate&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Document format&lt;/strong>&lt;/td>
+ &lt;td>Document format of output file.&lt;/td>
+ &lt;td>snp&lt;/td>
+ &lt;td>document-format&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file&lt;/strong>&lt;/td>
+ &lt;td>Location of output data file. If this attribute is set, the slot &amp;ldquo;Location&amp;rdquo; in port will not be used.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>out-url&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file suffix&lt;/strong>&lt;/td>
+ &lt;td>This suffix will be used for generating the output file name.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>url-suffix&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Existing file&lt;/strong>&lt;/td>
+ &lt;td>If a target file already exists, specify how it should be handled: either overwritten, renamed, or appended (if supported by file format). If the Rename option is chosen, the existing file will be renamed.&lt;/td>
+ &lt;td>Rename&lt;/td>
+ &lt;td>write-mode&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item></channel></rss>

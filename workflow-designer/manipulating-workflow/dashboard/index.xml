@@ -5,14 +5,17 @@
 &lt;ul>
 &lt;li>the workflow working time;&lt;/li>
 &lt;li>the workflow running progress;&lt;/li>
-&lt;li>the workflow task status: failed, finished successfully, running and etc.;&lt;/li>
+&lt;li>the workflow task status: failed, finished successfully, running, etc.;&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://ugene.net/docs/images/3244849/3407952.jpg" alt="">&lt;/p>
 &lt;h3 id="output-files-widget">&amp;ldquo;Output Files&amp;rdquo; widget&lt;/h3>
-&lt;p>It contains a table with the information about all created output files. The table columns are:&lt;/p>
+&lt;p>It contains a table with information about all created output files. The table columns are:&lt;/p>
 &lt;ul>
-&lt;li>
-&lt;p>clickable file name (with a help of the arrow on the right side of the file name you can open the file containing directory or open the file by operating system);&lt;/p></description></item><item><title>Using Dashboard</title><link>https://ugene.net/docs/workflow-designer/manipulating-workflow/dashboard/using-dashboard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/manipulating-workflow/dashboard/using-dashboard/</guid><description>&lt;h1 id="using-dashboard">Using Dashboard&lt;/h1>
-&lt;p>For each workflow which has been runned new dashboard will be opened. This dashboards will be saved in the &lt;em>&lt;a href="../../introduction/launching-workflow-designer">selected directory&lt;/a>&lt;/em>. Also you will see this dashboard after UGENE will be runned again. Furthermore you can open the original workflow for your results by clicking on this button:&lt;/p>
+&lt;li>clickable file name (with the help of the arrow on the right side of the file name you can open the file containing directory or open the file using the operating system);&lt;/li>
+&lt;li>the name of the workflow element that has produced the file;&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929952/65929953.jpg" alt="">&lt;/p></description></item><item><title>Using Dashboard</title><link>https://ugene.net/docs/workflow-designer/manipulating-workflow/dashboard/using-dashboard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/manipulating-workflow/dashboard/using-dashboard/</guid><description>&lt;h1 id="using-dashboard">Using Dashboard&lt;/h1>
+&lt;p>For each workflow that has been run, a new dashboard will be opened. These dashboards will be saved in the &lt;em>&lt;a href="../../introduction/launching-workflow-designer">selected directory&lt;/a>&lt;/em>. You will also see this dashboard when UGENE is run again. Furthermore, you can open the original workflow for your results by clicking on this button:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/3244851/3407960.jpg" alt="">&lt;/p>
-&lt;p>To remove or to load a dashboard click to the &lt;em>Dashboards manager&lt;/em> button on the &lt;em>Workflow Designer&lt;/em> main toolbar:&lt;/p></description></item></channel></rss>
+&lt;p>To remove or load a dashboard, click on the &lt;em>Dashboards manager&lt;/em> button on the &lt;em>Workflow Designer&lt;/em> main toolbar:&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/3244851/3407957.jpg" alt="">&lt;/p></description></item></channel></rss>

@@ -1,32 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Building Phylogenetic Tree on UGENE Documentation</title><link>https://ugene.net/docs/alignment-editor/building-phylogenetic-tree/</link><description>Recent content in Building Phylogenetic Tree on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/alignment-editor/building-phylogenetic-tree/index.xml" rel="self" type="application/rss+xml"/><item><title>IQ-TREE</title><link>https://ugene.net/docs/alignment-editor/building-phylogenetic-tree/iq-tree/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/building-phylogenetic-tree/iq-tree/</guid><description>&lt;h1 id="iq-tree">IQ-TREE&lt;/h1>
-&lt;p>The &lt;em>Building Phylogenetic Tree&lt;/em> dialog for the &lt;em>IQ-TREE&lt;/em> method has the following view:&lt;/p>
+&lt;p>The &lt;em>Building Phylogenetic Tree&lt;/em> dialog for the &lt;em>IQ-TREE&lt;/em> method is displayed as follows:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/74809348/76709932.png" alt="">&lt;/p>
-&lt;p>The full list of available parameters you can find &lt;a href="http://www.iqtree.org/doc/Command-Reference">here&lt;/a>.&lt;/p>
-&lt;p>Press the &lt;em>Build&lt;/em> button to build a tree with the parameters selected.&lt;/p></description></item><item><title>PHYLIP Neighbor-Joining</title><link>https://ugene.net/docs/alignment-editor/building-phylogenetic-tree/phylip-neighbor-joining/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/building-phylogenetic-tree/phylip-neighbor-joining/</guid><description>&lt;h1 id="phylip-neighbor-joining">PHYLIP Neighbor-Joining&lt;/h1>
+&lt;p>You can find the full list of available parameters &lt;a href="http://www.iqtree.org/doc/Command-Reference">here&lt;/a>.&lt;/p>
+&lt;p>Press the &lt;em>Build&lt;/em> button to construct a tree with the selected parameters.&lt;/p></description></item><item><title>PHYLIP Neighbor-Joining</title><link>https://ugene.net/docs/alignment-editor/building-phylogenetic-tree/phylip-neighbor-joining/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/building-phylogenetic-tree/phylip-neighbor-joining/</guid><description>&lt;h1 id="phylip-neighbor-joining">PHYLIP Neighbor-Joining&lt;/h1>
 &lt;p>The &lt;em>Building Phylogenetic Tree&lt;/em> dialog for the &lt;em>PHYLIP Neighbour-Joining&lt;/em> method has the following view:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929715/65929716.png" alt="">&lt;/p>
 &lt;p>The following parameters are available:&lt;/p>
 &lt;p>&lt;em>Distance matrix model&lt;/em> — model to compute a distance matrix. The following values are available for a nucleotide multiple sequence alignment:&lt;/p>
-&lt;ul>
-&lt;li>
 &lt;ul>
 &lt;li>F84&lt;/li>
 &lt;li>Kimura&lt;/li>
 &lt;li>Jukes-Cantor&lt;/li>
 &lt;li>LogDet&lt;/li>
 &lt;/ul>
-&lt;/li>
-&lt;/ul>
 &lt;p>The following models are available for a protein alignment:&lt;/p>
-&lt;ul>
-&lt;li>
 &lt;ul>
 &lt;li>Jones-Taylor-Thornton&lt;/li>
 &lt;li>Henikoff/Tillier PMB&lt;/li>
 &lt;li>Dayhoff PAM&lt;/li>
 &lt;li>Kimura&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;/ul>
 &lt;p>&lt;em>Gamma distributed rates across sites&lt;/em> — specifies to take into account unequal rates of change at different sites. It is assumed that the distribution of the rates follows the Gamma distribution.&lt;/p></description></item><item><title>MrBayes</title><link>https://ugene.net/docs/alignment-editor/building-phylogenetic-tree/mrbayes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/building-phylogenetic-tree/mrbayes/</guid><description>&lt;h1 id="mrbayes">MrBayes&lt;/h1>
 &lt;p>The &lt;em>Building Phylogenetic Tree&lt;/em> dialog for the &lt;em>MrBayes&lt;/em> method has the following view:&lt;/p>
@@ -34,19 +26,24 @@
 &lt;p>There are two steps to a phylogenetic analysis using &lt;em>MrBayes&lt;/em>:&lt;/p>
 &lt;ol>
 &lt;li>Set the evolutionary model.&lt;/li>
-&lt;li>Run the Markov chain Monte Carlo (MCMC) analisys.&lt;/li>
+&lt;li>Run the Markov chain Monte Carlo (MCMC) analysis.&lt;/li>
 &lt;/ol>
 &lt;p>The evolutionary model is defined by the following parameters:&lt;/p>
-&lt;p>&lt;em>Substitution model&lt;/em> — specifies the general structure of a DNA substitution model. This parameter is available for the nucleotide sequences. It corresponds to the Nst setting of MrBayes. You may select one of the following:&lt;/p></description></item><item><title>PhyML Maximum Likelihood</title><link>https://ugene.net/docs/alignment-editor/building-phylogenetic-tree/phyml-maximum-likelihood/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/building-phylogenetic-tree/phyml-maximum-likelihood/</guid><description>&lt;h1 id="phyml-maximum-likelihood">PhyML Maximum Likelihood&lt;/h1>
-&lt;p>The &lt;em>Building Phylogenetic Tree&lt;/em> dialog for the &lt;em>PhyML Maximum Likelihood&lt;/em> method has the following view:&lt;/p>
+&lt;p>&lt;em>Substitution model&lt;/em> — specifies the general structure of a DNA substitution model. This parameter is available for nucleotide sequences. It corresponds to the Nst setting of MrBayes. You may select one of the following:&lt;/p></description></item><item><title>PhyML Maximum Likelihood</title><link>https://ugene.net/docs/alignment-editor/building-phylogenetic-tree/phyml-maximum-likelihood/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/building-phylogenetic-tree/phyml-maximum-likelihood/</guid><description>&lt;h1 id="phyml-maximum-likelihood">PhyML Maximum Likelihood&lt;/h1>
+&lt;p>The &lt;em>Building Phylogenetic Tree&lt;/em> dialog for the &lt;em>PhyML Maximum Likelihood&lt;/em> method provides the following view:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929720/65929721.png" alt="">&lt;/p>
 &lt;p>The following parameters are available:&lt;/p>
 &lt;p>&lt;em>Substitution model parameters&lt;/em> - a selection of the Markov model of substitution:&lt;/p>
-&lt;p>&lt;em>Substitution model&lt;/em> - model of substitution.&lt;/p>
-&lt;p>&lt;em>Equilibrium frequencies&lt;/em> - equilibrium frequencies.&lt;/p>
-&lt;p>&lt;em>Transition/transversion ratio&lt;/em> - fix or estimate the transition/transversion ratio in the maximum likelihood framework.&lt;/p>
-&lt;p>&lt;em>Proportion of invariable sites&lt;/em> - the proportion of invariable sites, i.e., the expected frequency of sites that do not evolve, can be fixed or estimated.&lt;/p></description></item><item><title>FastTree</title><link>https://ugene.net/docs/alignment-editor/building-phylogenetic-tree/fasttree/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/building-phylogenetic-tree/fasttree/</guid><description>&lt;h1 id="fasttree">FastTree&lt;/h1>
-&lt;p>The &lt;em>Building Phylogenetic Tree&lt;/em> dialog for the &lt;em>FastTree&lt;/em> method has the following view:&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>Substitution model&lt;/em> - model of substitution.&lt;/li>
+&lt;li>&lt;em>Equilibrium frequencies&lt;/em> - equilibrium frequencies.&lt;/li>
+&lt;li>&lt;em>Transition/transversion ratio&lt;/em> - fix or estimate the transition/transversion ratio in the maximum likelihood framework.&lt;/li>
+&lt;li>&lt;em>Proportion of invariable sites&lt;/em> - the proportion of invariable sites, i.e., the expected frequency of sites that do not evolve, can be fixed or estimated.&lt;/li>
+&lt;li>&lt;em>Number of substitution rate categories&lt;/em> - the number of substitution rate categories.&lt;/li>
+&lt;li>&lt;em>Gamma shape parameter&lt;/em> - the shape of the gamma distribution determines the range of rate variation across sites.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>Branch support parameters&lt;/em> - the selection of the method used to measure branch support:&lt;/p></description></item><item><title>FastTree</title><link>https://ugene.net/docs/alignment-editor/building-phylogenetic-tree/fasttree/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/building-phylogenetic-tree/fasttree/</guid><description>&lt;h1 id="fasttree">FastTree&lt;/h1>
+&lt;p>The &lt;em>Building Phylogenetic Tree&lt;/em> dialog for the &lt;em>FastTree&lt;/em> method is displayed as follows:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/92602388/92602395.png" alt="">&lt;/p>
-&lt;p>The full list of available parameters you can find &lt;a href="http://www.microbesonline.org/fasttree/">here&lt;/a>.&lt;/p>
-&lt;p>Press the &lt;em>Build&lt;/em> button to build a tree with the parameters selected.&lt;/p></description></item></channel></rss>
+&lt;p>You can find the full list of available parameters &lt;a href="http://www.microbesonline.org/fasttree/">here&lt;/a>.&lt;/p>
+&lt;p>Press the &lt;em>Build&lt;/em> button to construct a tree with the selected parameters.&lt;/p></description></item></channel></rss>

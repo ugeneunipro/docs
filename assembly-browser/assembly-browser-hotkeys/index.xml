@@ -18,7 +18,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Alt + click&lt;/strong>&lt;/td>
- &lt;td>Zoom the Assembly Overview in 100x&lt;/td>
+ &lt;td>Zoom the Assembly Overview by 100x&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>wheel + move mouse&lt;/strong>&lt;/td>
@@ -27,20 +27,49 @@
  &lt;/tbody>
 &lt;/table></description></item><item><title>Reads Area Hotkeys</title><link>https://ugene.net/docs/assembly-browser/assembly-browser-hotkeys/reads-area-hotkeys/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/assembly-browser-hotkeys/reads-area-hotkeys/</guid><description>&lt;h1 id="reads-area-hotkeys">Reads Area Hotkeys&lt;/h1>
 &lt;p>The following hotkeys are available for the &lt;em>Reads Area&lt;/em>:&lt;/p>
-&lt;p>Hotkey&lt;/p>
-&lt;p>Action&lt;/p>
-&lt;p>wheel&lt;/p>
-&lt;p>Zoom the Reads Area&lt;/p>
-&lt;p>double-click&lt;/p>
-&lt;p>Zoom in the Reads Area&lt;/p>
-&lt;ul>
-&lt;li>/ -&lt;/li>
-&lt;/ul>
-&lt;p>Zoom in / zoom out the Reads Area&lt;/p>
-&lt;p>click + move mouse&lt;/p>
-&lt;p>Move the Reads Area&lt;/p>
-&lt;p>arrow&lt;/p>
-&lt;p>Move one base in the corresponding direction in the Reads Area&lt;/p>
-&lt;p>Ctrl + arrow&lt;/p>
-&lt;p>Move one page in the corresponding direction in the Reads Area&lt;/p>
-&lt;p>Page Up / Page Down&lt;/p></description></item></channel></rss>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Hotkey&lt;/th>
+ &lt;th>Action&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>wheel&lt;/td>
+ &lt;td>Zoom the Reads Area&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>double-click&lt;/td>
+ &lt;td>Zoom in the Reads Area&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>+ / -&lt;/td>
+ &lt;td>Zoom in / zoom out the Reads Area&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>click + move mouse&lt;/td>
+ &lt;td>Move the Reads Area&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>arrow&lt;/td>
+ &lt;td>Move one base in the corresponding direction in the Reads Area&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Ctrl + arrow&lt;/td>
+ &lt;td>Move one page in the corresponding direction in the Reads Area&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Page Up / Page Down&lt;/td>
+ &lt;td>Move one page up / down in the Reads Area&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Home / End&lt;/td>
+ &lt;td>Move to the beginning/end of the assembly in the Reads Area&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Ctrl + G&lt;/td>
+ &lt;td>Focus on the &lt;em>Go to position&lt;/em> field on the toolbar&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item></channel></rss>

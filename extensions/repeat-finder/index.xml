@@ -1,18 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Repeat Finder on UGENE Documentation</title><link>https://ugene.net/docs/extensions/repeat-finder/</link><description>Recent content in Repeat Finder on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/extensions/repeat-finder/index.xml" rel="self" type="application/rss+xml"/><item><title>Repeats Finding</title><link>https://ugene.net/docs/extensions/repeat-finder/repeats-finding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/repeat-finder/repeats-finding/</guid><description>&lt;h1 id="repeats-finding">Repeats Finding&lt;/h1>
-&lt;p>The &lt;em>Repeats Finding&lt;/em> algorithm allows users to find repeated subsequences in accordance with the specified parameters.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Repeat Finder on UGENE Documentation</title><link>https://ugene.net/docs/extensions/repeat-finder/</link><description>Recent content in Repeat Finder on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/extensions/repeat-finder/index.xml" rel="self" type="application/rss+xml"/><item><title>Repeat Finding</title><link>https://ugene.net/docs/extensions/repeat-finder/repeats-finding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/repeat-finder/repeats-finding/</guid><description>&lt;h1 id="repeat-finding">Repeat Finding&lt;/h1>
+&lt;p>The &lt;em>Repeat Finding&lt;/em> algorithm allows users to identify repeated subsequences according to specified parameters.&lt;/p>
 &lt;p>Open a DNA sequence in the &lt;em>Sequence View&lt;/em>. There are two ways to open the &lt;em>Find Repeats&lt;/em> dialog:&lt;/p>
 &lt;ol>
-&lt;li>By clicking on the toolbar button:
-&lt;img src="https://ugene.net/docs/images/65930735/96666087.png" alt="">&lt;/li>
-&lt;li>By selecting the &lt;em>Analyze ‣ Find repeats&amp;hellip;&lt;/em> context menu item:&lt;/li>
-&lt;/ol>
+&lt;li>
+&lt;p>By clicking on the toolbar button:
+&lt;img src="https://ugene.net/docs/images/65930735/96666087.png" alt="">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>By selecting the &lt;em>Analyze ‣ Find repeats&amp;hellip;&lt;/em> context menu item:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65930735/96666088.png" alt="">&lt;/p>
-&lt;p>The dialog following dialog appears:&lt;/p>
-&lt;h3 id="parameters-of-the-base-page">&lt;img src="https://ugene.net/docs/images/65930735/96666089.png" alt="">Parameters of the &lt;em>Base&lt;/em> page&lt;/h3>
-&lt;p>&lt;strong>Repeat finder parameters&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>The following dialog appears:&lt;/p>
+&lt;h3 id="parameters-of-the-base-page">&lt;img src="https://ugene.net/docs/images/65930735/96666089.png" alt=""> Parameters of the &lt;em>Base&lt;/em> Page&lt;/h3>
+&lt;p>&lt;strong>Repeat Finder Parameters&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>&lt;em>Window size&lt;/em> - to put it simply, this is the minimum length of a single repeat.&lt;/li>
-&lt;li>&lt;em>Minimum identity per window&lt;/em> - the minimum identity of repeated subsequences (in persentage).&lt;/li>
-&lt;li>&lt;em>Minimum/Maximum distance between repeats&lt;/em> - it is obvious.&lt;/li>
+&lt;li>&lt;em>Window size&lt;/em> - simply put, this is the minimum length of a single repeat.&lt;/li>
+&lt;li>&lt;em>Minimum identity per window&lt;/em> - the minimum identity of repeated subsequences (in percentage).&lt;/li>
+&lt;li>&lt;em>Minimum/Maximum distance between repeats&lt;/em> - this is self-explanatory.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;strong>Region to process&lt;/strong>&lt;/p></description></item></channel></rss>
+&lt;p>&lt;strong>Region to Process&lt;/strong>&lt;/p></description></item></channel></rss>

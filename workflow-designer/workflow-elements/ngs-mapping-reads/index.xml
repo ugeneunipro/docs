@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NGS: Mapping Reads on UGENE Documentation</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/</link><description>Recent content in NGS: Mapping Reads on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/index.xml" rel="self" type="application/rss+xml"/><item><title>Assemble Reads with SPAdes Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/assemble-reads-with-spades-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/assemble-reads-with-spades-element/</guid><description>&lt;h1 id="assemble-reads-with-spades-element">Assemble Reads with SPAdes Element&lt;/h1>
-&lt;p>Performers assembly of input short reads.&lt;/p>
+&lt;p>Performs assembly of input short reads.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> spades-id&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
 &lt;table>
@@ -36,7 +36,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>K-mers&lt;/strong>&lt;/td>
- &lt;td>k-mersizes (-k).&lt;/td>
+ &lt;td>k-mer sizes (-k).&lt;/td>
  &lt;td>auto&lt;/td>
  &lt;td>&lt;strong>k-mer&lt;/strong>&lt;/td>
  &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
@@ -57,7 +57,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Output folder&lt;/strong>&lt;/td>
- &lt;td>Folder to save Spades output files.&lt;/td>
+ &lt;td>Folder to save SPAdes output files.&lt;/td>
  &lt;td>Auto&lt;/td>
  &lt;td>—&lt;/td>
  &lt;td>—&lt;/td>
@@ -66,29 +66,167 @@
 &lt;/table>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
 &lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Map Reads with Bowtie Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-bowtie-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-bowtie-element/</guid><description>&lt;h1 id="map-reads-with-bowtie-element">Map Reads with Bowtie Element&lt;/h1>
-&lt;p>Performs alignment of short reads with Bowtie.&lt;/p>
+&lt;p>This page provides information on performing alignment of short reads using Bowtie.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> align-reads-with-bowtie&lt;/p>
 &lt;p>Parameters&lt;/p>
-&lt;p>&lt;strong>Output directory&lt;/strong>&lt;/p>
-&lt;p>Directory to save Bowtie output files.&lt;/p>
-&lt;p>&lt;strong>output-dir&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Reference genome&lt;/strong>&lt;/p>
-&lt;p>Path to an indexed reference genome.&lt;/p>
-&lt;p>&lt;strong>reference&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Output file name&lt;/strong>&lt;/p>
-&lt;p>Base name of the output file. &amp;lsquo;out.sam&amp;rsquo; by default.&lt;/p>
-&lt;p>out.sam&lt;/p>
-&lt;p>&lt;strong>outname&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Library&lt;/strong>&lt;/p>
-&lt;p>Is this library mate-paired?&lt;/p>
-&lt;p>single-end&lt;/p>
-&lt;p>&lt;strong>library&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Mode&lt;/strong>&lt;/p>
-&lt;p>When the -n option is specified (which is the default), bowtie determines which alignments are valid according to the following policy, which is similar to Maq&amp;rsquo;s default policy. In -v mode, alignments may have no more than V mismatches, where V may be a number from 0 through 3 set using the -v option. Quality values are ignored. The -v option is mutually exclusive with the -n option.&lt;/p></description></item><item><title>Map Reads with Bowtie2 Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-bowtie2-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-bowtie2-element/</guid><description>&lt;h1 id="map-reads-with-bowtie2-element">Map Reads with Bowtie2 Element&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Output directory&lt;/strong>&lt;/td>
+ &lt;td>Directory to save Bowtie output files.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>output-dir&lt;/strong>&lt;/td>
+ &lt;td>Directory path for saving output files.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Reference genome&lt;/strong>&lt;/td>
+ &lt;td>Path to an indexed reference genome.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>reference&lt;/strong>&lt;/td>
+ &lt;td>Path location of the reference genome.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file name&lt;/strong>&lt;/td>
+ &lt;td>Base name of the output file. By default, it is &amp;lsquo;out.sam&amp;rsquo;.&lt;/td>
+ &lt;td>out.sam&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Library&lt;/strong>&lt;/td>
+ &lt;td>Specifies if the library is mate-paired.&lt;/td>
+ &lt;td>single-end&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Mode&lt;/strong>&lt;/td>
+ &lt;td>Determines the valid alignments policy. In -v mode, alignments may have no more than V mismatches, where V is a number from 0 through 3. Quality values are ignored. The -v option is mutually exclusive with the -n option.&lt;/td>
+ &lt;td>-n mode&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>mismatches_type&lt;/strong>&lt;/td>
+ &lt;td>Alignment policy type according to the mismatches.&lt;/td>
+ &lt;td>-n mode&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Mismatches number&lt;/strong>&lt;/td>
+ &lt;td>Number of mismatches allowed.&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>maqerr&lt;/strong>&lt;/td>
+ &lt;td>Maximum permitted sum of quality values at mismatched read positions throughout the alignment. Default is 70.&lt;/td>
+ &lt;td>70&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Seed length&lt;/strong>&lt;/td>
+ &lt;td>Number of bases on the high-quality end of the read for the -n ceiling to apply. Faster for larger values.&lt;/td>
+ &lt;td>28&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>seedLen&lt;/strong>&lt;/td>
+ &lt;td>Length of the seed.&lt;/td>
+ &lt;td>28&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Maximum of backtracks&lt;/strong>&lt;/td>
+ &lt;td>Maximum insert size for valid paired-end alignments. With a default of 250.&lt;/td>
+ &lt;td>800&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>maxbts&lt;/strong>&lt;/td>
+ &lt;td>Maximum backtrack setting.&lt;/td>
+ &lt;td>800&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Best hits&lt;/strong>&lt;/td>
+ &lt;td>Amount of memory in megabytes provided to store path descriptors in &amp;ndash;best mode. Default is 64.&lt;/td>
+ &lt;td>64&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>chunkmbs&lt;/strong>&lt;/td>
+ &lt;td>Memory allocation for best hits.&lt;/td>
+ &lt;td>64&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Seed&lt;/strong>&lt;/td>
+ &lt;td>Seed for pseudo-random number generator.&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Colorspace&lt;/strong>&lt;/td>
+ &lt;td>When -C is specified, read sequences are treated as colors.&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>No Maq rounding&lt;/strong>&lt;/td>
+ &lt;td>Disables rounding of quality values in the Phred quality scale.&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>No forward orientation&lt;/strong>&lt;/td>
+ &lt;td>Prevents alignment against the forward reference strand.&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>No reverse-complement orientation&lt;/strong>&lt;/td>
+ &lt;td>Prevents alignment against the reverse-complement reference strand.&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Try as hard&lt;/strong>&lt;/td>
+ &lt;td>Attempts to find all valid alignments, including paired-end alignments. Useful but slower than default.&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Best alignments&lt;/strong>&lt;/td>
+ &lt;td>Guarantees reported singleton alignments are best in terms of mismatches and quality values. Slower operation when specified.&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>All alignment&lt;/strong>&lt;/td>
+ &lt;td>Reports all valid alignments per read or pair.&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Map Reads with Bowtie2 Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-bowtie2-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-bowtie2-element/</guid><description>&lt;h1 id="map-reads-with-bowtie2-element">Map Reads with Bowtie2 Element&lt;/h1>
 &lt;p>Performs alignment of short reads with Bowtie2.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> align-reads-with-bowtie2&lt;/p>
 &lt;p>Parameters in GUI&lt;/p>
@@ -102,89 +240,437 @@
 &lt;p>&lt;em>string&lt;/em>&lt;/p>
 &lt;p>&lt;strong>Output file name&lt;/strong>&lt;/p>
 &lt;p>Base name of the output file. &amp;lsquo;out.sam&amp;rsquo; by default.&lt;/p>
-&lt;p>out.sam&lt;/p>
 &lt;p>&lt;strong>outname&lt;/strong>&lt;/p>
 &lt;p>&lt;em>string&lt;/em>&lt;/p>
 &lt;p>&lt;strong>Library&lt;/strong>&lt;/p>
 &lt;p>Is this library mate-paired?&lt;/p>
-&lt;p>single-end&lt;/p>
+&lt;p>&lt;strong>single-end&lt;/strong>&lt;/p>
 &lt;p>&lt;strong>library&lt;/strong>&lt;/p>
 &lt;p>&lt;em>string&lt;/em>&lt;/p>
 &lt;p>&lt;strong>Mode&lt;/strong>&lt;/p>
-&lt;p>When the -n option is specified (which is the default), bowtie determines which alignments are valid according to the following policy, which is similar to Maq&amp;rsquo;s default policy. In -v mode, alignments may have no more than V mismatches, where V may be a number from 0 through 3 set using the -v option. Quality values are ignored. The -v option is mutually exclusive with the -n option.&lt;/p></description></item><item><title>Map Reads with BWA Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-bwa-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-bwa-element/</guid><description>&lt;h1 id="map-reads-with-bwa-element">Map Reads with BWA Element&lt;/h1>
+&lt;p>When the -n option is specified (which is the default), Bowtie determines which alignments are valid according to the following policy, which is similar to Maq&amp;rsquo;s default policy. In -v mode, alignments may have no more than V mismatches, where V may be a number from 0 through 3 set using the -v option. Quality values are ignored. The -v option is mutually exclusive with the -n option.&lt;/p></description></item><item><title>Map Reads with BWA Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-bwa-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-bwa-element/</guid><description>&lt;h1 id="map-reads-with-bwa-element">Map Reads with BWA Element&lt;/h1>
 &lt;p>Performs alignment of short reads with BWA.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> align-reads-with-bwa&lt;/p>
-&lt;p>Parameters&lt;/p>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Output directory&lt;/strong>&lt;/p>
-&lt;p>Directory to save BWA-MEM output files.&lt;/p>
-&lt;p>&lt;strong>output-dir&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Reference genome&lt;/strong>&lt;/p>
-&lt;p>Path to an indexed reference genome.&lt;/p>
-&lt;p>&lt;strong>reference&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Output file name&lt;/strong>&lt;/p>
-&lt;p>Base name of the output file. &amp;lsquo;out.sam&amp;rsquo; by default.&lt;/p>
-&lt;p>out.sam&lt;/p>
-&lt;p>&lt;strong>outname&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Library&lt;/strong>&lt;/p>
-&lt;p>Is this library mate-paired?&lt;/p>
-&lt;p>single-end&lt;/p>
-&lt;p>&lt;strong>library&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Use missing prob&lt;/strong>&lt;/p></description></item><item><title>Map Reads with BWA-MEM Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-bwa-mem-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-bwa-mem-element/</guid><description>&lt;h1 id="map-reads-with-bwa-mem-element">Map Reads with BWA-MEM Element&lt;/h1>
-&lt;p>Performs alignment of short reads with BWA-MEM.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default Value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Output directory&lt;/strong>&lt;/td>
+ &lt;td>Directory to save BWA-MEM output files.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>output-dir&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Reference genome&lt;/strong>&lt;/td>
+ &lt;td>Path to an indexed reference genome.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>reference&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file name&lt;/strong>&lt;/td>
+ &lt;td>Base name of the output file. &amp;lsquo;out.sam&amp;rsquo; by default.&lt;/td>
+ &lt;td>out.sam&lt;/td>
+ &lt;td>&lt;strong>outname&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Library&lt;/strong>&lt;/td>
+ &lt;td>Is this library mate-paired?&lt;/td>
+ &lt;td>single-end&lt;/td>
+ &lt;td>&lt;strong>library&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Use missing prob&lt;/strong>&lt;/td>
+ &lt;td>Use missing probability instead of maximum edit distance.&lt;/td>
+ &lt;td>True&lt;/td>
+ &lt;td>&lt;strong>use-miss-prob&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Missing prob&lt;/strong>&lt;/td>
+ &lt;td>Missing probability (-n).&lt;/td>
+ &lt;td>0.04&lt;/td>
+ &lt;td>&lt;strong>missing-prob&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Seed length&lt;/strong>&lt;/td>
+ &lt;td>Seed length (-l).&lt;/td>
+ &lt;td>32&lt;/td>
+ &lt;td>&lt;strong>seed-length&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max gap opens&lt;/strong>&lt;/td>
+ &lt;td>Max gap opens (-o).&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;strong>max-gap&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Index algorithm&lt;/strong>&lt;/td>
+ &lt;td>Index algorithm (-a).&lt;/td>
+ &lt;td>is&lt;/td>
+ &lt;td>&lt;strong>index-alg&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Best hits&lt;/strong>&lt;/td>
+ &lt;td>Best hits (-R).&lt;/td>
+ &lt;td>30&lt;/td>
+ &lt;td>&lt;strong>best-hits&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Long-scaled gap penalty for long deletions&lt;/strong>&lt;/td>
+ &lt;td>Long-scaled gap penalty for long deletions (-L).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>scaled-gap&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Non iterative mode&lt;/strong>&lt;/td>
+ &lt;td>Non iterative mode (-N).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>non-iterative&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Enable long gaps&lt;/strong>&lt;/td>
+ &lt;td>Enable long gaps.&lt;/td>
+ &lt;td>True&lt;/td>
+ &lt;td>&lt;strong>enable-long-gaps&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max gap extensions&lt;/strong>&lt;/td>
+ &lt;td>Max gap extensions (-e).&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>gap-extensions&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Indel offset&lt;/strong>&lt;/td>
+ &lt;td>Indel offset (-i).&lt;/td>
+ &lt;td>5&lt;/td>
+ &lt;td>&lt;strong>indel-offset&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max long deletions extensions&lt;/strong>&lt;/td>
+ &lt;td>Max long deletions extensions(-d).&lt;/td>
+ &lt;td>10&lt;/td>
+ &lt;td>&lt;strong>long-deletions&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Barcode length&lt;/strong>&lt;/td>
+ &lt;td>Barcode length (-B).&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>barcode-length&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max queue entries&lt;/strong>&lt;/td>
+ &lt;td>Max queue entries (-m).&lt;/td>
+ &lt;td>2000000&lt;/td>
+ &lt;td>&lt;strong>max-queue&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Threads&lt;/strong>&lt;/td>
+ &lt;td>Threads (-t).&lt;/td>
+ &lt;td>4&lt;/td>
+ &lt;td>&lt;strong>num-threads&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Max seed differences&lt;/strong>&lt;/td>
+ &lt;td>Max seed differences (-k).&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>&lt;strong>max-seed&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Mismatch penalty&lt;/strong>&lt;/td>
+ &lt;td>Mismatch penalty (-M).&lt;/td>
+ &lt;td>3&lt;/td>
+ &lt;td>&lt;strong>mistmatch-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap open penalty&lt;/strong>&lt;/td>
+ &lt;td>Gap open penalty (-O).&lt;/td>
+ &lt;td>11&lt;/td>
+ &lt;td>&lt;strong>gap-open-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap extension penalty&lt;/strong>&lt;/td>
+ &lt;td>Gap extension penalty; a gap of size k cost (-E).&lt;/td>
+ &lt;td>4&lt;/td>
+ &lt;td>&lt;strong>gap-ext-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Quality threshold&lt;/strong>&lt;/td>
+ &lt;td>Quality threshold (-q).&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>quality-threshold&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>Input/Output Ports:&lt;/p></description></item><item><title>Map Reads with BWA-MEM Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-bwa-mem-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-bwa-mem-element/</guid><description>&lt;h1 id="map-reads-with-bwa-mem-element">Map Reads with BWA-MEM Element&lt;/h1>
+&lt;p>Performs alignment of short reads using BWA-MEM.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> bwamem-id&lt;/p>
-&lt;p>Parameters&lt;/p>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Output directory&lt;/strong>&lt;/p>
-&lt;p>Directory to save BWA-MEM output files.&lt;/p>
-&lt;p>&lt;strong>output-dir&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Reference genome&lt;/strong>&lt;/p>
-&lt;p>Path to an indexed reference genome.&lt;/p>
-&lt;p>&lt;strong>reference&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Output file name&lt;/strong>&lt;/p>
-&lt;p>Base name of the output file. &amp;lsquo;out.sam&amp;rsquo; by default.&lt;/p>
-&lt;p>out.sam&lt;/p>
-&lt;p>&lt;strong>outname&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Library&lt;/strong>&lt;/p>
-&lt;p>Is this library mate-paired?&lt;/p>
-&lt;p>single-end&lt;/p>
-&lt;p>&lt;strong>library&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Number of threads&lt;/strong>&lt;/p></description></item><item><title>Map Reads with UGENE Genome Aligner Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-ugene-genome-aligner-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-ugene-genome-aligner-element/</guid><description>&lt;h1 id="map-reads-with-ugene-genome-aligner-element">Map Reads with UGENE Genome Aligner Element&lt;/h1>
-&lt;p>Unique UGENE algorithm for aligning short reads to reference genome.&lt;/p>
+&lt;h3 id="parameters">Parameters&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Output directory&lt;/strong>&lt;/td>
+ &lt;td>Directory to save BWA-MEM output files.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>output-dir&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Reference genome&lt;/strong>&lt;/td>
+ &lt;td>Path to an indexed reference genome.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>reference&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file name&lt;/strong>&lt;/td>
+ &lt;td>Base name of the output file.&lt;/td>
+ &lt;td>out.sam&lt;/td>
+ &lt;td>&lt;strong>outname&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Library&lt;/strong>&lt;/td>
+ &lt;td>Is this library mate-paired?&lt;/td>
+ &lt;td>single-end&lt;/td>
+ &lt;td>&lt;strong>library&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Number of threads&lt;/strong>&lt;/td>
+ &lt;td>Number of threads (-t).&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;strong>threads&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Min seed length&lt;/strong>&lt;/td>
+ &lt;td>Minimum seed length (-k).&lt;/td>
+ &lt;td>19&lt;/td>
+ &lt;td>&lt;strong>min-seed&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Index algorithm&lt;/strong>&lt;/td>
+ &lt;td>Index algorithm (-a).&lt;/td>
+ &lt;td>autodetect&lt;/td>
+ &lt;td>&lt;strong>index-alg&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Band width&lt;/strong>&lt;/td>
+ &lt;td>Bandwidth for banded alignment (-w).&lt;/td>
+ &lt;td>100&lt;/td>
+ &lt;td>&lt;strong>band-width&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Dropoff&lt;/strong>&lt;/td>
+ &lt;td>Off-diagonal X-dropoff (-d).&lt;/td>
+ &lt;td>100&lt;/td>
+ &lt;td>&lt;strong>dropoff&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Internal seed length&lt;/strong>&lt;/td>
+ &lt;td>Look for internal seeds inside a seed longer than {-k} (-r).&lt;/td>
+ &lt;td>1.50000&lt;/td>
+ &lt;td>&lt;strong>seed-lookup&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Skip seed threshold&lt;/strong>&lt;/td>
+ &lt;td>Skip seeds with more than INT occurrences (-c).&lt;/td>
+ &lt;td>10000&lt;/td>
+ &lt;td>&lt;strong>seed-threshold&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Drop chain threshold&lt;/strong>&lt;/td>
+ &lt;td>Drop chains shorter than FLOAT fraction of the longest overlapping chain (-D).&lt;/td>
+ &lt;td>0.5&lt;/td>
+ &lt;td>&lt;strong>drop-chains&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Rounds of mate rescues&lt;/strong>&lt;/td>
+ &lt;td>Perform at most INT rounds of mate rescues for each read (-m).&lt;/td>
+ &lt;td>100&lt;/td>
+ &lt;td>&lt;strong>mate-rescue&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Skip mate rescue&lt;/strong>&lt;/td>
+ &lt;td>Skip mate rescue (-S).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>skip-mate-rescues&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Skip pairing&lt;/strong>&lt;/td>
+ &lt;td>Skip pairing; mate rescue performed unless -S also in use (-P).&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>skip-pairing&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Matching score&lt;/strong>&lt;/td>
+ &lt;td>Score for a sequence match (-A).&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;strong>match-score&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Mismatch penalty&lt;/strong>&lt;/td>
+ &lt;td>Penalty for a mismatch (-B).&lt;/td>
+ &lt;td>4&lt;/td>
+ &lt;td>&lt;strong>mismatch-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap open penalty&lt;/strong>&lt;/td>
+ &lt;td>Gap open penalty (-O).&lt;/td>
+ &lt;td>6&lt;/td>
+ &lt;td>&lt;strong>gap-open-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Gap extension penalty&lt;/strong>&lt;/td>
+ &lt;td>Gap extension penalty; a gap of size k costs {-O} (-E).&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;strong>gap-ext-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Penalty for clipping&lt;/strong>&lt;/td>
+ &lt;td>Penalty for clipping (-L).&lt;/td>
+ &lt;td>5&lt;/td>
+ &lt;td>&lt;strong>clipping-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Penalty unpaired&lt;/strong>&lt;/td>
+ &lt;td>Penalty for an unpaired read pair (-U).&lt;/td>
+ &lt;td>17&lt;/td>
+ &lt;td>&lt;strong>unpaired-penalty&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Score threshold&lt;/strong>&lt;/td>
+ &lt;td>Minimum score to output (-T).&lt;/td>
+ &lt;td>30&lt;/td>
+ &lt;td>&lt;strong>score-threshold&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="inputoutput-ports">Input/Output Ports&lt;/h3>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Map Reads with UGENE Genome Aligner Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-ugene-genome-aligner-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-ugene-genome-aligner-element/</guid><description>&lt;h1 id="map-reads-with-ugene-genome-aligner-element">Map Reads with UGENE Genome Aligner Element&lt;/h1>
+&lt;p>Unique UGENE algorithm for aligning short reads to a reference genome.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> genome-aligner&lt;/p>
-&lt;p>Parameters&lt;/p>
-&lt;p>Parameter&lt;/p>
-&lt;p>Description&lt;/p>
-&lt;p>Default value&lt;/p>
-&lt;p>Parameter in Workflow File&lt;/p>
-&lt;p>Type&lt;/p>
-&lt;p>&lt;strong>Output file name&lt;/strong>&lt;/p>
-&lt;p>Base name of the output file. &amp;lsquo;out.sam&amp;rsquo; by default.&lt;/p>
-&lt;p>out.sam&lt;/p>
-&lt;p>&lt;strong>outname&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Reference genome&lt;/strong>&lt;/p>
-&lt;p>Path to an indexed reference genome.&lt;/p>
-&lt;p>&lt;strong>reference&lt;/strong>&lt;/p>
-&lt;p>&lt;em>string&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Is absolute mismatches values?&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>true&lt;/strong> - absolute mismatches mode is used&lt;/p>
-&lt;p>&lt;strong>false&lt;/strong> - percentage mismatches mode is used&lt;/p></description></item><item><title>Map RNA-Seq Reads with TopHat Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-rna-seq-reads-with-tophat-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-rna-seq-reads-with-tophat-element/</guid><description>&lt;h1 id="map-rna-seq-reads-with-tophat-element">Map RNA-Seq Reads with TopHat Element&lt;/h1>
-&lt;p>TopHat is a program for mapping RNA-Seq reads to a long reference sequence. It uses Bowtie or Bowtie2 to map the reads and then analyzes the mapping results to identify splice junctions between exons.&lt;/p>
-&lt;p>Provide URL(s) to FASTA or FASTQ file(s) with NGS RNA-Seq reads to the input port of the element, set up the reference sequence in the parameters. The result is saved to the specified BAM file, URL to the file is passed to the output port. Several UCSC BED tracks are also produced: junctions, insertions, and deletions.&lt;/p></description></item></channel></rss>
+&lt;h3 id="parameters">Parameters&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default value&lt;/th>
+ &lt;th>Parameter in Workflow File&lt;/th>
+ &lt;th>Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Output file name&lt;/strong>&lt;/td>
+ &lt;td>Base name of the output file. &amp;lsquo;out.sam&amp;rsquo; by default.&lt;/td>
+ &lt;td>out.sam&lt;/td>
+ &lt;td>&lt;strong>outname&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Reference genome&lt;/strong>&lt;/td>
+ &lt;td>Path to an indexed reference genome.&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>reference&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>string&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Is absolute mismatches values?&lt;/strong>&lt;/td>
+ &lt;td>Choose between absolute or percentage mismatches values mode.&lt;/td>
+ &lt;td>True&lt;/td>
+ &lt;td>&lt;strong>if-absolute-mismatches-value&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Absolute mismatches&lt;/strong>&lt;/td>
+ &lt;td>Number of mismatches allowed while aligning reads.&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>absolute-mismatches&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Align reverse complement reads&lt;/strong>&lt;/td>
+ &lt;td>Set this option to align both direct and reverse complement reads.&lt;/td>
+ &lt;td>False&lt;/td>
+ &lt;td>&lt;strong>reverse&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Use &amp;ldquo;best&amp;rdquo;-mode&lt;/strong>&lt;/td>
+ &lt;td>Report only the best alignment for each read (in terms of mismatches).&lt;/td>
+ &lt;td>True&lt;/td>
+ &lt;td>&lt;strong>best&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Omit reads with qualities lower than&lt;/strong>&lt;/td>
+ &lt;td>Omit reads with qualities lower than the specified value. Set &amp;ldquo;0&amp;rdquo; to switch off this option.&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;strong>quality-threshold&lt;/strong>&lt;/td>
+ &lt;td>&lt;em>numeric&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="inputoutput-ports">Input/Output Ports&lt;/h3>
+&lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Map RNA-Seq Reads with TopHat Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-rna-seq-reads-with-tophat-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-rna-seq-reads-with-tophat-element/</guid><description>&lt;h1 id="map-rna-seq-reads-with-tophat-element">Map RNA-Seq Reads with TopHat Element&lt;/h1>
+&lt;p>TopHat is a program for mapping RNA-Seq reads to a long reference sequence. It utilizes Bowtie or Bowtie2 to map the reads and then analyzes the mapping results to identify splice junctions between exons.&lt;/p>
+&lt;p>Provide URL(s) to FASTA or FASTQ file(s) with NGS RNA-Seq reads to the input port of the element, set up the reference sequence in the parameters. The result is saved to the specified BAM file, and the URL to the file is passed to the output port. Several UCSC BED tracks are also produced: junctions, insertions, and deletions.&lt;/p></description></item></channel></rss>

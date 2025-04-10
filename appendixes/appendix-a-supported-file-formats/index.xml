@@ -1,85 +1,578 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Appendix A. Supported File Formats on UGENE Documentation</title><link>https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/</link><description>Recent content in Appendix A. Supported File Formats on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/index.xml" rel="self" type="application/rss+xml"/><item><title>Specific File Formats</title><link>https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/specific-file-formats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/specific-file-formats/</guid><description>&lt;h1 id="specific-file-formats">Specific File Formats&lt;/h1>
-&lt;p>File format&lt;/p>
-&lt;p>File extension&lt;/p>
-&lt;p>Read&lt;/p>
-&lt;p>Write&lt;/p>
-&lt;p>Comment&lt;/p>
-&lt;p>&lt;strong>ABIF&lt;/strong>&lt;/p>
-&lt;p>*.ab1, *.abi, *.abif&lt;/p>
-&lt;ul>
-&lt;li>&lt;/li>
-&lt;/ul>
-&lt;p>-&lt;/p>
-&lt;p>A chromatogram file format.&lt;/p>
-&lt;p>&lt;strong>See also:&lt;/strong> &lt;a href="chromatogram-viewer.md">&lt;em>Chromatogram Viewer&lt;/em>&lt;/a>&lt;/p>
-&lt;p>&lt;strong>ACE&lt;/strong>&lt;/p>
-&lt;p>*.ace&lt;/p>
-&lt;ul>
-&lt;li>&lt;/li>
-&lt;/ul>
-&lt;p>-&lt;/p>
-&lt;p>A file format for storing data about genomic contigs.&lt;/p>
-&lt;p>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/p>
-&lt;p>&lt;strong>APR&lt;/strong>&lt;/p>
-&lt;p>*.apr&lt;/p>
-&lt;ul>
-&lt;li>&lt;/li>
-&lt;/ul>
-&lt;p>-&lt;/p>
-&lt;p>Vector NTI / AlignX Alignment format.&lt;/p>
-&lt;p>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/p>
-&lt;p>&lt;strong>Bairoch&lt;/strong>&lt;/p>
-&lt;p>*.bairoch&lt;/p>
-&lt;ul>
-&lt;li>&lt;/li>
-&lt;li>&lt;/li>
-&lt;/ul>
-&lt;p>A file format to store enzymes.&lt;/p>
-&lt;p>&lt;strong>See also:&lt;/strong> &lt;a href="restriction-analysis.md">&lt;em>Restriction Analysis&lt;/em>&lt;/a>&lt;/p>
-&lt;p>&lt;strong>BAM&lt;/strong>&lt;/p>
-&lt;p>*.bam&lt;/p>
-&lt;ul>
-&lt;li>&lt;/li>
-&lt;/ul>
-&lt;p>-&lt;/p>
-&lt;p>Binary compressed SAM format.&lt;/p>
-&lt;p>&lt;strong>See also:&lt;/strong> &lt;a href="assembly-browser.md">&lt;em>Assembly Browser&lt;/em>&lt;/a>&lt;/p></description></item><item><title>UGENE Native File Formats</title><link>https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/ugene-native-file-formats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/ugene-native-file-formats/</guid><description>&lt;h1 id="ugene-native-file-formats">UGENE Native File Formats&lt;/h1>
-&lt;p>File format&lt;/p>
-&lt;p>File extension&lt;/p>
-&lt;p>Read&lt;/p>
-&lt;p>Write&lt;/p>
-&lt;p>Comment&lt;/p>
-&lt;p>&lt;strong>Dotplot&lt;/strong>&lt;/p>
-&lt;p>*.dpt&lt;/p>
-&lt;ul>
-&lt;li>&lt;/li>
-&lt;li>&lt;/li>
-&lt;/ul>
-&lt;p>Stores a dotplot of a sequence.&lt;/p>
-&lt;p>&lt;strong>See also:&lt;/strong> &lt;a href="dotplot.md">&lt;em>Dotplot&lt;/em>&lt;/a>&lt;/p>
-&lt;p>&lt;strong>UGENE database file&lt;/strong>&lt;/p>
-&lt;p>*.ugenedb&lt;/p>
-&lt;ul>
-&lt;li>&lt;/li>
-&lt;li>&lt;/li>
-&lt;/ul>
-&lt;p>UGENE database files stores information for imported BAM or SAM files and can be used for converting this information into a SAM file.&lt;/p>
-&lt;p>&lt;strong>See also:&lt;/strong> &lt;a href="../../assembly-browser/import-bam-and-sam-files">&lt;em>Import BAM/SAM File&lt;/em>&lt;/a>&lt;/p>
-&lt;p>&lt;strong>Short Reads FASTA&lt;/strong>&lt;/p>
-&lt;p>*.srfa, *.srfasta&lt;/p>
-&lt;ul>
-&lt;li>&lt;/li>
-&lt;li>&lt;/li>
-&lt;/ul>
-&lt;p>A multiple sequence alignments file format.&lt;/p>
-&lt;p>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/p></description></item><item><title>Other File Formats</title><link>https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/other-file-formats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/other-file-formats/</guid><description>&lt;h1 id="other-file-formats">Other File Formats&lt;/h1>
-&lt;p>File format / extension&lt;/p>
-&lt;p>Comment&lt;/p>
-&lt;p>&lt;strong>*.csv&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Example of usage:&lt;/strong> annotations can be exported to this format; the &lt;a href="weight-matrix.md">&lt;em>Weight Matrix&lt;/em>&lt;/a> matrices list can also be saved to this format.&lt;/p>
-&lt;p>&lt;strong>*.html&lt;/strong>&lt;/p>
-&lt;p>For example it is used to store reports.&lt;/p>
-&lt;p>&lt;strong>image formats: *.bmp, *.jpg, *.png, *.tiff, *.svg, etc.; *.pdf&lt;/strong>&lt;/p>
-&lt;p>These formats are used throughout the program to save screenshots, etc.&lt;/p>
-&lt;p>&lt;strong>*.txt&lt;/strong>&lt;/p>
-&lt;p>It is possible to view and modify plain text files in UGENE.&lt;/p></description></item></channel></rss>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>File format&lt;/th>
+ &lt;th>File extension&lt;/th>
+ &lt;th>Read&lt;/th>
+ &lt;th>Write&lt;/th>
+ &lt;th>Comment&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>ABIF&lt;/strong>&lt;/td>
+ &lt;td>*.ab1, *.abi, *.abif&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>-&lt;/td>
+ &lt;td>A chromatogram file format.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="chromatogram-viewer.md">&lt;em>Chromatogram Viewer&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>ACE&lt;/strong>&lt;/td>
+ &lt;td>*.ace&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>-&lt;/td>
+ &lt;td>A file format for storing data about genomic contigs.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>APR&lt;/strong>&lt;/td>
+ &lt;td>*.apr&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>-&lt;/td>
+ &lt;td>Vector NTI / AlignX Alignment format.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Bairoch&lt;/strong>&lt;/td>
+ &lt;td>*.bairoch&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>A file format to store enzymes.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="restriction-analysis.md">&lt;em>Restriction Analysis&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>BAM&lt;/strong>&lt;/td>
+ &lt;td>*.bam&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>-&lt;/td>
+ &lt;td>Binary compressed SAM format.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="assembly-browser.md">&lt;em>Assembly Browser&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>ClustalW&lt;/strong>&lt;/td>
+ &lt;td>*.aln&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>A multiple sequence alignments (MSA) file format.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>EBWT&lt;/strong>&lt;/td>
+ &lt;td>*.ebwt&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>A Bowtie prebuilt index file.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="bowtie.md">&lt;em>Bowtie&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>EMBL&lt;/strong>&lt;/td>
+ &lt;td>*.em, *.emb, *.embl&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>-&lt;/td>
+ &lt;td>A rich format for storing sequences and their annotations.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sequence-view.md">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>FASTA&lt;/strong>&lt;/td>
+ &lt;td>*.fa, *.mpfa, *.fna, *.fsa, *.fas, *.fasta, *.sef *.seqs&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>One of the oldest and simplest sequence file formats.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sequence-view.md">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>FASTQ&lt;/strong>&lt;/td>
+ &lt;td>*.fastq&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>A file format used to store a sequence and its corresponding quality scores.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>It was originally developed at the &amp;ldquo;Wellcome Trust Sanger Institute&amp;rdquo;.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sequence-view.md">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Genbank&lt;/strong>&lt;/td>
+ &lt;td>*.gb, *.gbk, *.gen, *.genbank&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>A rich format for storing sequences and associated annotations.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sequence-view.md">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>GFF&lt;/strong>&lt;/td>
+ &lt;td>*.gff&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>The Gene Finding Format (GFF) is used to store features and annotations.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sequence-view.md">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>HMM&lt;/strong>&lt;/td>
+ &lt;td>*.hmm&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>A file format to store HMM profiles.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="hmm2.md">&lt;em>HMM2&lt;/em>&lt;/a>, &lt;a href="hmm3.md">&lt;em>HMM3&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>MMDB&lt;/strong>&lt;/td>
+ &lt;td>*.prt&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>-&lt;/td>
+ &lt;td>ASN.1 format used by the Molecular Modeling Database (MMDB).&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="3d-structure-viewer.md">&lt;em>3D Structure Viewer&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>MSF&lt;/strong>&lt;/td>
+ &lt;td>*.msf&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>A multiple sequence alignments file format.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Mega&lt;/strong>&lt;/td>
+ &lt;td>*.meg, *.meg.gz&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>A multiple sequence alignments file format.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Newick&lt;/strong>&lt;/td>
+ &lt;td>*.nwk, *.newick&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>A tree file format.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="building-phylogenetic-tree.md">&lt;em>Building Phylogenetic Tree&lt;/em>&lt;/a>, &lt;a href="phylogenetic-tree-viewer.md">&lt;em>Phylogenetic Tree Viewer&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Nexus&lt;/strong>&lt;/td>
+ &lt;td>*.nex *.nxs&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>A multiple alignment and phylogenetic trees file format.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>, &lt;a href="building-phylogenetic-tree.md">&lt;em>Building Phylogenetic Tree&lt;/em>&lt;/a>, &lt;a href="phylogenetic-tree-viewer.md">&lt;em>Phylogenetic Tree Viewer&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>PDB&lt;/strong>&lt;/td>
+ &lt;td>*.pdb&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>-&lt;/td>
+ &lt;td>The Protein Data Bank (PDB) format allows the viewing of the 3D structure of sequences.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="3d-structure-viewer.md">&lt;em>3D Structure Viewer&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>pDRAW32&lt;/strong>&lt;/td>
+ &lt;td>*.pdw&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>-&lt;/td>
+ &lt;td>A sequence file format used by pDRAW32 software.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sequence-view.md">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>PFM&lt;/strong>&lt;/td>
+ &lt;td>*.pfm&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>A file format for a position frequency matrix.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="weight-matrix.md">&lt;em>Weight Matrix&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Phylip&lt;/strong>&lt;/td>
+ &lt;td>*.phy&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>A multiple alignment file format.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>PWM&lt;/strong>&lt;/td>
+ &lt;td>*.pwm&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>A file format for a position weight matrix.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="weight-matrix.md">&lt;em>Weight Matrix&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Raw&lt;/strong>&lt;/td>
+ &lt;td>*.seq&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>A raw sequence format.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sequence-view.md">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>SAM&lt;/strong>&lt;/td>
+ &lt;td>*.sam&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>The Sequence Alignment/Map (SAM) format is a generic alignment format for storing read alignments against reference sequences.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="assembly-browser.md">&lt;em>Assembly Browser&lt;/em>&lt;/a>, &lt;a href="bowtie.md">&lt;em>Bowtie&lt;/em>&lt;/a>, &lt;a href="ugene-genome-aligner.md">&lt;em>UGENE Genome Aligner&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>SCF&lt;/strong>&lt;/td>
+ &lt;td>*.scf&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>-&lt;/td>
+ &lt;td>Standard Chromatogram Format.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="chromatogram-viewer.md">&lt;em>Chromatogram Viewer&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>SITECON&lt;/strong>&lt;/td>
+ &lt;td>*.sitecon&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>-&lt;/td>
+ &lt;td>A file format to store TFBS profiles.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sitecon.md">&lt;em>SITECON&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Stockholm&lt;/strong>&lt;/td>
+ &lt;td>*.sto&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>A multiple sequence alignments file format.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Swiss-Prot&lt;/strong>&lt;/td>
+ &lt;td>*.txt *.sw&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>-&lt;/td>
+ &lt;td>An annotated protein sequence format of the UniProtKB/Swiss-Prot database.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sequence-view.md">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Vector NTI Sequence&lt;/strong>&lt;/td>
+ &lt;td>*.gb *.gp&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>A rich format for storing sequences and associated annotations, produced by &lt;a href="http://en.wikipedia.org/wiki/Vector_NTI">Vector NTI software&lt;/a>.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sequence-view.md">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>VCF&lt;/strong>&lt;/td>
+ &lt;td>*.vcf&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>The VCF specifies the format of a text file used for storing gene sequence variations.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="assembly-browser.md">&lt;em>Assembly Browser&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>UGENE Native File Formats</title><link>https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/ugene-native-file-formats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/ugene-native-file-formats/</guid><description>&lt;h1 id="ugene-native-file-formats">UGENE Native File Formats&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>File Format&lt;/th>
+ &lt;th>File Extension&lt;/th>
+ &lt;th>Read&lt;/th>
+ &lt;th>Write&lt;/th>
+ &lt;th>Comment&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Dotplot&lt;/strong>&lt;/td>
+ &lt;td>*.dpt&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>Stores a dotplot of a sequence.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="dotplot.md">&lt;em>Dotplot&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>UGENE database file&lt;/strong>&lt;/td>
+ &lt;td>*.ugenedb&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>UGENE database files store information for imported BAM or SAM files and can be used for converting this information into a SAM file.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="../../assembly-browser/import-bam-and-sam-files">&lt;em>Import BAM/SAM File&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Short Reads FASTA&lt;/strong>&lt;/td>
+ &lt;td>*.srfa, *.srfasta&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>A multiple sequence alignment file format.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>UGENE Workflow Language&lt;/strong>&lt;/td>
+ &lt;td>*.uwl&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>Human-readable format to store workflows created in the UGENE &lt;em>Workflow Designer&lt;/em>.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="workflow-designer.md">&lt;em>Workflow Designer&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>UGENE Query Language&lt;/strong>&lt;/td>
+ &lt;td>*.uql&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>Human-readable format to store schemas created in the UGENE &lt;em>Query Designer&lt;/em>.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://local.ugene.unipro.ru/wiki/display/QDD34/Query+Designer+Documentation">&lt;em>Query Designer&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Workflow element for command line tool&lt;/strong>&lt;/td>
+ &lt;td>*.etc&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>+&lt;/td>
+ &lt;td>Format for storing workflow elements that can launch an external command line tool.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="workflow-designer.md">&lt;em>Workflow Designer&lt;/em>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Other File Formats</title><link>https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/other-file-formats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/other-file-formats/</guid><description>&lt;h1 id="other-file-formats">Other File Formats&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>File format / extension&lt;/th>
+ &lt;th>Comment&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>*.csv&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>Example of usage:&lt;/strong> Annotations can be exported to this format; the &lt;a href="weight-matrix.md">&lt;em>Weight Matrix&lt;/em>&lt;/a> matrices list can also be saved to this format.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>*.html&lt;/strong>&lt;/td>
+ &lt;td>Used to store reports.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Image formats: *.bmp, *.jpg, *.png, *.tiff, *.svg, etc.; *.pdf&lt;/strong>&lt;/td>
+ &lt;td>These formats are used throughout the program to save screenshots and other image-related data.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>*.txt&lt;/strong>&lt;/td>
+ &lt;td>It is possible to view and modify plain text files in UGENE.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item></channel></rss>

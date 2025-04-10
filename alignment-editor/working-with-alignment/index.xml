@@ -1,84 +1,82 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Working with Alignment on UGENE Documentation</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/</link><description>Recent content in Working with Alignment on UGENE Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ugene.net/docs/alignment-editor/working-with-alignment/index.xml" rel="self" type="application/rss+xml"/><item><title>Selecting Alignment Region</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/selecting-alignment-region/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/selecting-alignment-region/</guid><description>&lt;h1 id="selecting-alignment-region">Selecting Alignment Region&lt;/h1>
-&lt;h3 id="selection-in-the-alignment-editor-components">Selection in the Alignment Editor components&lt;/h3>
-&lt;p>In the &lt;em>Name List&lt;/em> and the &lt;em>Sequence Area&lt;/em> selection is visualized as a rectangle with a dashed border. In the &lt;em>Consensus Area&lt;/em> the consensus sequence character of the corresponding columns are shown with light gray background:&lt;/p>
+&lt;h3 id="selection-in-the-alignment-editor-components">Selection in the Alignment Editor Components&lt;/h3>
+&lt;p>In the &lt;em>Name List&lt;/em> and the &lt;em>Sequence Area&lt;/em>, selection is visualized as a rectangle with a dashed border. In the &lt;em>Consensus Area&lt;/em>, the consensus sequence characters of the corresponding columns are shown with a light gray background:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929642/82608181.png" alt="">&lt;/p>
-&lt;p>Information about selection is shown in the statistic bar under alignment.&lt;/p>
+&lt;p>Information about the selection is shown in the statistics bar under the alignment.&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929642/65929644.png" alt="">&lt;/p>
-&lt;h3 id="selecting-a-region-using-the-mouse-and-keyboard-shortcuts">Selecting a region using the mouse and keyboard shortcuts&lt;/h3>
-&lt;p>Using the mouse one can select:&lt;/p></description></item><item><title>Moving Subalignment</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/moving-subalignment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/moving-subalignment/</guid><description>&lt;h1 id="moving-subalignment">Moving Subalignment&lt;/h1>
-&lt;p>To move subalignment there are different ways:&lt;/p>
+&lt;h3 id="selecting-a-region-using-the-mouse-and-keyboard-shortcuts">Selecting a Region Using the Mouse and Keyboard Shortcuts&lt;/h3>
+&lt;p>Using the mouse, one can select:&lt;/p></description></item><item><title>Moving Subalignment</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/moving-subalignment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/moving-subalignment/</guid><description>&lt;h1 id="moving-subalignment">Moving Subalignment&lt;/h1>
+&lt;p>To move subalignment, there are several methods:&lt;/p>
 &lt;ol>
 &lt;li>Select a subalignment and drag and drop it. The subalignment will be moved.&lt;/li>
-&lt;li>With a help of the &lt;em>Space,&lt;/em> the subalignment will be moved to the right by the size of the selection. With a help of the &lt;em>Backspace&lt;/em>, the subalignment will be returned to the first state.&lt;/li>
-&lt;li>With a help of the &lt;em>Ctrl+Space,&lt;/em> the subalignment will be moved to the right by one column. With a help of the &lt;em>Ctrl +&lt;/em> &lt;em>Backspace&lt;/em>, the subalignment will be returned to the first state.&lt;/li>
-&lt;li>With a help of the &lt;em>Ctrl&lt;/em>, you can join the parts of alignment. When there is a fragment of characters, surrounded by gaps in a row, select continuous block without gaps on &lt;em>Ctrl&lt;/em> pressed and move the selection to the right/left.&lt;/li>
+&lt;li>By using the &lt;em>Space&lt;/em> key, the subalignment will be moved to the right by the size of the selection. By using the &lt;em>Backspace&lt;/em> key, the subalignment will be returned to its initial state.&lt;/li>
+&lt;li>By using &lt;em>Ctrl+Space&lt;/em>, the subalignment will be moved to the right by one column. By using &lt;em>Ctrl+Backspace&lt;/em>, the subalignment will be returned to its initial state.&lt;/li>
+&lt;li>By using &lt;em>Ctrl&lt;/em>, you can join the parts of an alignment. When you have a fragment of characters surrounded by gaps in a row, select a continuous block without gaps while pressing &lt;em>Ctrl&lt;/em> and move the selection to the right or left.&lt;/li>
 &lt;/ol></description></item><item><title>Copying and Pasting Subalignment</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/copying-and-pasting-subalignment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/copying-and-pasting-subalignment/</guid><description>&lt;h1 id="copying-and-pasting-subalignment">Copying and Pasting Subalignment&lt;/h1>
-&lt;p>To copy the current selection click the &lt;em>Copy/Paste ‣ Copy selection&lt;/em> item in the &lt;em>Actions&lt;/em> main menu or the context menu. The hotkey for this action is Ctrl-C.&lt;/p>
-&lt;p>Also, you can copy the selection in different formats, for example, FASTA, CLUSTALW, RICH TEXT(HTML), NEXUS, MSF.&lt;/p>
-&lt;p>To copy subalignment in selected format do the following:&lt;/p>
+&lt;p>To copy the current selection, click the &lt;em>Copy/Paste ‣ Copy selection&lt;/em> item in the &lt;em>Actions&lt;/em> main menu or the context menu. The hotkey for this action is Ctrl-C.&lt;/p>
+&lt;p>Additionally, you can copy the selection in different formats, such as FASTA, CLUSTALW, RICH TEXT (HTML), NEXUS, and MSF.&lt;/p>
+&lt;p>To copy a subalignment in a selected format, follow these steps:&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>Select the subalignment;&lt;/p>
+&lt;p>Select the subalignment.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Select the &lt;em>Copy/Paste-&amp;gt;Copy (custom format)&lt;/em> context menu item in the context menu or use hotkey &lt;em>Ctrl+Shift+C.&lt;/em>&lt;/p></description></item><item><title>Searching in Alignment</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/searching-in-alignment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/searching-in-alignment/</guid><description>&lt;h1 id="searching-in-alignment">Searching in Alignment&lt;/h1>
-&lt;p>To search for a pattern(s) in alignment go to the &lt;em>Search in Alignment&lt;/em> tab of the &lt;em>Options Panel&lt;/em>.&lt;/p>
+&lt;p>Select the &lt;em>Copy/Paste-&amp;gt;Copy (custom format)&lt;/em> context menu item in the context menu or use the hotkey &lt;em>Ctrl+Shift+C.&lt;/em>&lt;/p></description></item><item><title>Searching in Alignment</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/searching-in-alignment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/searching-in-alignment/</guid><description>&lt;h1 id="searching-in-alignment">Searching in Alignment&lt;/h1>
+&lt;p>To search for a pattern(s) in an alignment, navigate to the &lt;em>Search in Alignment&lt;/em> tab within the &lt;em>Options Panel&lt;/em>.&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929651/65929652.png" alt="">&lt;/p>
 &lt;p>The following parameters are available:&lt;/p>
-&lt;h3 id="search-context">Search context&lt;/h3>
-&lt;p>This group specifies the search context that should be used to search for a pattern. It is possible to search patterns in sequences or in sequence names.&lt;/p>
-&lt;h3 id="search-pattern">Search pattern&lt;/h3>
-&lt;p>To search for a pattern(s) input the value you want to search in the text field.&lt;/p></description></item><item><title>Showing Alignment in Multiple Lines</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/showing-alignment-in-multiple-lines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/showing-alignment-in-multiple-lines/</guid><description>&lt;h1 id="showing-alignment-in-multiple-lines">Showing Alignment in Multiple Lines&lt;/h1>
-&lt;p>By default, an alignment is shown in one line:&lt;/p>
+&lt;h3 id="search-context">Search Context&lt;/h3>
+&lt;p>This group specifies the search context to be used for searching a pattern. It is possible to search for patterns in sequences or sequence names.&lt;/p>
+&lt;h3 id="search-pattern">Search Pattern&lt;/h3>
+&lt;p>To search for a pattern(s), input the value you want to search in the text field.&lt;/p></description></item><item><title>Showing Alignment in Multiple Lines</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/showing-alignment-in-multiple-lines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/showing-alignment-in-multiple-lines/</guid><description>&lt;h1 id="showing-alignment-in-multiple-lines">Showing Alignment in Multiple Lines&lt;/h1>
+&lt;p>By default, an alignment is displayed in one line:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/88080423/88080425.bmp" alt="">&lt;/p>
-&lt;p>To show the alignment in multiple lines, click the &lt;em>Wrap mode&lt;/em> button on the toolbar:&lt;/p>
+&lt;p>To display the alignment in multiple lines, click the &lt;em>Wrap mode&lt;/em> button on the toolbar:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/88080423/88080426.png" alt="">&lt;/p></description></item><item><title>Saving Alignment</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/saving-alignment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/saving-alignment/</guid><description>&lt;h1 id="saving-alignment">Saving Alignment&lt;/h1>
-&lt;p>To save current alignment click the &lt;em>Save&lt;/em> &lt;em>alignment&lt;/em> button, to the the alignment into another file click the &lt;em>Save alignment as&lt;/em> button.&lt;/p>
+&lt;p>To save the current alignment, click the &lt;em>Save alignment&lt;/em> button. To save the alignment into another file, click the &lt;em>Save alignment as&lt;/em> button.&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929670/65929671.png" alt="">&lt;/p></description></item><item><title>Aligning Sequences</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/aligning-sequences/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/aligning-sequences/</guid><description>&lt;h1 id="aligning-sequences">Aligning Sequences&lt;/h1>
-&lt;p>The &lt;em>Alignment Editor&lt;/em> integrates several popular multiple sequence alignment algorithms. Below is the list of available algorithms and links to the documentation:&lt;/p>
+&lt;p>The &lt;em>Alignment Editor&lt;/em> integrates several popular multiple sequence alignment algorithms. Below is a list of available algorithms and links to their documentation:&lt;/p>
 &lt;ul>
 &lt;li>Port of the popular &lt;a href="../../extensions/umuscle/muscle-aligning">&lt;em>MUSCLE3&lt;/em>&lt;/a> algorithm.&lt;/li>
-&lt;li>KAlign plugin: effective work with huge alignments.&lt;/li>
-&lt;li>ClustalW and MAFFT: these algorithms appeared in the version 1.7.2 of UGENE with the &lt;a href="external-tools-plugin.md">&lt;em>External Tools&lt;/em>&lt;/a> plugin.&lt;/li>
-&lt;li>T-Coffee: this alignment algorithm is available since version 1.8.1 of UGENE with the &lt;em>External Tools&lt;/em> plugin.&lt;/li>
+&lt;li>KAlign plugin: effective for working with large alignments.&lt;/li>
+&lt;li>ClustalW and MAFFT: These algorithms appeared in version 1.7.2 of UGENE with the &lt;a href="external-tools-plugin.md">&lt;em>External Tools&lt;/em>&lt;/a> plugin.&lt;/li>
+&lt;li>T-Coffee: This alignment algorithm has been available since version 1.8.1 of UGENE with the &lt;em>External Tools&lt;/em> plugin.&lt;/li>
 &lt;li>ClustalO: Clustal Omega is the latest addition to the Clustal family. It offers a significant increase in scalability over previous versions, allowing hundreds of thousands of sequences to be aligned in only a few hours.&lt;/li>
 &lt;/ul>
-&lt;p>To align sequences choose a preferred alignment method in the &lt;em>Actions&lt;/em> main menu, in the context menu or by &lt;em>Align&lt;/em> main toolbar button .&lt;/p></description></item><item><title>Adding Sequence(s) to Alignment</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/adding-sequence-s-to-alignment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/adding-sequence-s-to-alignment/</guid><description>&lt;h1 id="adding-sequences-to-alignment">Adding Sequence(s) to Alignment&lt;/h1>
-&lt;p>To add sequences to an opened alignment, click the &lt;em>Align sequence(s) to this alignment&lt;/em> toolbar button:&lt;/p>
+&lt;p>To align sequences, choose a preferred alignment method in the &lt;em>Actions&lt;/em> main menu, in the context menu, or by using the &lt;em>Align&lt;/em> main toolbar button.&lt;/p></description></item><item><title>Adding Sequence(s) to Alignment</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/adding-sequence-s-to-alignment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/adding-sequence-s-to-alignment/</guid><description>&lt;h1 id="adding-sequences-to-alignment">Adding Sequence(s) to Alignment&lt;/h1>
+&lt;p>To add sequences to an open alignment, click the &lt;em>Align sequence(s) to this alignment&lt;/em> toolbar button:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929673/65929674.png" alt="">&lt;/p>
-&lt;p>Choose a file with the sequence(s) from the files system, and click &lt;em>Open&lt;/em>.&lt;/p>
-&lt;p>Also, you can add an already opened sequence or sequences to the alignment. To do it, select the sequence object(s) in the &lt;a href="../../basic-functions/ugene-terminology">Project View&lt;/a> and click the &lt;em>Align sequence to this alignment&lt;/em> toolbar button. The sequence(s) will be aligned to the alignment automatically.&lt;/p></description></item><item><title>Pairwise Alignment</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/pairwise-alignment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/pairwise-alignment/</guid><description>&lt;h1 id="pairwise-alignment">Pairwise Alignment&lt;/h1>
-&lt;p>To align two sequences go to the &lt;em>Pairwise Alignment&lt;/em> tab of the &lt;em>Options Panel&lt;/em>:&lt;/p>
+&lt;p>Choose a file with the sequence(s) from the file system, and click &lt;em>Open&lt;/em>.&lt;/p>
+&lt;p>Additionally, you can add an already opened sequence or sequences to the alignment. To do this, select the sequence object(s) in the &lt;a href="../../basic-functions/ugene-terminology">Project View&lt;/a> and click the &lt;em>Align sequence to this alignment&lt;/em> toolbar button. The sequence(s) will be aligned with the alignment automatically.&lt;/p></description></item><item><title>Pairwise Alignment</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/pairwise-alignment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/pairwise-alignment/</guid><description>&lt;h1 id="pairwise-alignment">Pairwise Alignment&lt;/h1>
+&lt;p>To align two sequences, navigate to the &lt;em>Pairwise Alignment&lt;/em> tab in the &lt;em>Options Panel&lt;/em>:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929675/96666065.png" alt="">&lt;/p>
-&lt;p>Select two sequence from the original alignment, select the parameters and click on the &lt;em>Align&lt;/em> button. The following parameters are available:&lt;/p>
+&lt;p>Select two sequences from the original alignment, adjust the parameters, and click on the &lt;em>Align&lt;/em> button. The following parameters are available:&lt;/p>
 &lt;h3 id="sequences">Sequences&lt;/h3>
-&lt;p>The first and the second sequences for the &lt;em>Pairwise Alignment.&lt;/em>&lt;/p>
-&lt;h3 id="algorithm">&lt;em>Algorithm&lt;/em>&lt;/h3>
-&lt;p>The algorithm of the &lt;em>Pairwise Alignment&lt;/em>. There are two algorithms:&lt;/p>
+&lt;p>The first and second sequences for the &lt;em>Pairwise Alignment&lt;/em>.&lt;/p>
+&lt;h3 id="algorithm">Algorithm&lt;/h3>
+&lt;p>The algorithm for the &lt;em>Pairwise Alignment&lt;/em>. There are two algorithms:&lt;/p>
 &lt;ol>
-&lt;li>&lt;em>KAlign&lt;/em> - the algorithm, provided by the Kalign tool (integrated as an External Tool, check &lt;a href="https://doc.ugene.net/wiki/display/UM/Data+Analysis+Tools">the Data Analysis Tools page&lt;/a> for details). This tool uses the &lt;strong>&lt;em>Wu&lt;/em>-&lt;em>Manber&lt;/em>&lt;/strong> string-matching algorithm. The algorithm details are described in the corresponding publication [Lassmann T, Sonnhammer EL. Kalign&amp;ndash;an accurate and fast multiple sequence alignment algorithm. BMC Bioinformatics. 2005 Dec 12;6:298. doi: 10.1186/1471-2105-6-298. PMID: 16343337; PMCID: PMC1325270 &lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1325270/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1325270/&lt;/a>].
-The algorithm has the following parameters:
+&lt;li>&lt;strong>KAlign&lt;/strong> - provided by the Kalign tool (integrated as an External Tool, check the &lt;a href="https://doc.ugene.net/wiki/display/UM/Data+Analysis+Tools">Data Analysis Tools page&lt;/a> for details). This tool uses the &lt;strong>Wu-Manber&lt;/strong> string-matching algorithm. The algorithm details are described in the corresponding publication [Lassmann T, Sonnhammer EL. Kalign—an accurate and fast multiple sequence alignment algorithm. BMC Bioinformatics. 2005 Dec 12;6:298. doi: 10.1186/1471-2105-6-298. PMID: 16343337; PMCID: PMC1325270 &lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1325270/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1325270/&lt;/a>]. The algorithm has the following parameters:
 &lt;ul>
-&lt;li>&lt;em>Gap open penalty -&lt;/em> indicates the penalty applied for opening a gap. The penalty must be negative.&lt;/li>
-&lt;li>&lt;em>Gap extension penalty -&lt;/em> indicates the penalty applied for extending a gap.&lt;/li>
-&lt;li>&lt;em>Terminal gap penalty -&lt;/em> the penalty to extend gaps from the N/C terminal of protein or 5&amp;rsquo;/3&amp;rsquo; terminal of nucleotide sequences.&lt;/li>
+&lt;li>&lt;em>Gap open penalty&lt;/em> - indicates the penalty applied for opening a gap. The penalty must be negative.&lt;/li>
+&lt;li>&lt;em>Gap extension penalty&lt;/em> - indicates the penalty applied for extending a gap.&lt;/li>
+&lt;li>&lt;em>Terminal gap penalty&lt;/em> - the penalty for extending gaps from the N/C terminal of protein or 5&amp;rsquo;/3&amp;rsquo; terminal of nucleotide sequences.&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;em>Smith-Waterman&lt;/em> - the same algorithm, which is used for the &lt;a href="https://doc.ugene.net/wiki/display/UM/Smith-Waterman+Search">Smith-Waterman Search&lt;/a> (check the page for the algorithm details - the alignment process works in a same way as the searching process).
-The following parameters are available:
+&lt;li>&lt;strong>Smith-Waterman&lt;/strong> - the same algorithm used for the &lt;a href="https://doc.ugene.net/wiki/display/UM/Smith-Waterman+Search">Smith-Waterman Search&lt;/a> (check the page for algorithm details - the alignment process works the same way as the searching process). The following parameters are available:
 &lt;ul>
-&lt;li>&lt;em>Algorithm version -&lt;/em> version of the algorithm implementation. Non-classic versions produce the same results as classic but much faster. To use these optimizations our system must support &lt;a href="https://en.wikipedia.org/wiki/SSE2">SSE2&lt;/a>.&lt;/li>
-&lt;li>&lt;em>Scoring matrix -&lt;/em> scoring matrix.&lt;/li>
-&lt;li>&lt;em>Gap open penalty -&lt;/em> penalty for opening a gap.&lt;/li>
-&lt;li>&lt;em>Gap extension&lt;/em> &lt;em>penalty&lt;/em> — penalty for extending a gap.&lt;/li>
+&lt;li>&lt;em>Algorithm version&lt;/em> - version of the algorithm implementation. Non-classic versions produce the same results as classic but much faster. To use these optimizations, your system must support &lt;a href="https://en.wikipedia.org/wiki/SSE2">SSE2&lt;/a>.&lt;/li>
+&lt;li>&lt;em>Scoring matrix&lt;/em> - the scoring matrix.&lt;/li>
+&lt;li>&lt;em>Gap open penalty&lt;/em> - the penalty for opening a gap.&lt;/li>
+&lt;li>&lt;em>Gap extension penalty&lt;/em> - the penalty for extending a gap.&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ol>
-&lt;h3 id="output-settings">&lt;em>Output settings&lt;/em>&lt;/h3>
-&lt;p>Settings of the output file:&lt;/p></description></item><item><title>Importing APR and ACE Files</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/importing-apr-and-ace-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/importing-apr-and-ace-files/</guid><description>&lt;h1 id="importing-apr-and-ace-files">Importing APR and ACE Files&lt;/h1>
-&lt;p>To start working with APR file you can open it in the Alignment Editor in read-only mode or convert it to another format.&lt;/p>
+&lt;h3 id="output-settings">Output settings&lt;/h3>
+&lt;p>Settings for the output file:&lt;/p></description></item><item><title>Importing APR and ACE Files</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/importing-apr-and-ace-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/importing-apr-and-ace-files/</guid><description>&lt;h1 id="importing-apr-and-ace-files">Importing APR and ACE Files&lt;/h1>
+&lt;p>To start working with an APR file, you can open it in the Alignment Editor in read-only mode or convert it to another format.&lt;/p>
 &lt;p>To do this, &lt;a href="https://ugene.unipro.ru/wiki/display/UUOUM/Opening+Document">&lt;em>open&lt;/em>&lt;/a> the *.apr file. The following dialog will appear:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929699/65929700.png" alt="">&lt;/p>
-&lt;p>If you choose the first option the file will be opened in the Alignment Editor as multiple sequence alignment in read-only mode. If you choose the second option the file will be converted to a corresponding format and open in UGENE.&lt;/p></description></item><item><title>Realigning sequence(s) to other sequences</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/realigning-sequence-s-to-other-sequences/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/realigning-sequence-s-to-other-sequences/</guid><description>&lt;h1 id="realigning-sequences-to-other-sequences">Realigning sequence(s) to other sequences&lt;/h1>
-&lt;p>To realign a sequence(s) to an opened alignment, click the &lt;em>Realign s__equence(s) to other sequences&lt;/em> toolbar button:&lt;/p>
+&lt;p>If you choose the first option, the file will be opened in the Alignment Editor as a multiple sequence alignment in read-only mode. If you choose the second option, the file will be converted to a corresponding format and opened in UGENE.&lt;/p></description></item><item><title>Realigning sequence(s) to other sequences</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/realigning-sequence-s-to-other-sequences/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/realigning-sequence-s-to-other-sequences/</guid><description>&lt;h1 id="realigning-sequences-to-other-sequences">Realigning Sequence(s) to Other Sequences&lt;/h1>
+&lt;p>To realign a sequence(s) to an open alignment, click the &lt;em>Realign sequence(s) to other sequences&lt;/em> toolbar button:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929702/65929703.png" alt="">&lt;/p></description></item></channel></rss>

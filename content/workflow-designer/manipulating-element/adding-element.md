@@ -1,7 +1,6 @@
 ---
-
-title: "Adding Element" weight: 100
-
+title: "Adding Element"
+weight: 100
 ---
 
 # Adding Element

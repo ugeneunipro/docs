@@ -43,6 +43,14 @@ main {
         background-color: #fafafa;
       }
     }
+
+    .page-navigation-block {
+      margin-top: 40px;
+      .prev-next-links-block {
+        display: flex;
+        gap: 30px;
+      }
+    }
   }
 }
 

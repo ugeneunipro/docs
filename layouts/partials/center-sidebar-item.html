@@ -1,0 +1,22 @@
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var sidebarContainer = document.querySelector('.td-sidebar-nav');
+        if (!sidebarContainer) return;
+
+        var activeItem = sidebarContainer.querySelector('.td-sidebar-nav-active-item');
+        if (!activeItem) return;
+
+        var containerRect = sidebarContainer.getBoundingClientRect();
+        var activeRect = activeItem.getBoundingClientRect();
+
+        var relativeOffset = activeRect.top - containerRect.top;
+        var containerHeight = sidebarContainer.clientHeight;
+        var activeHeight = activeItem.offsetHeight;
+        var currentScroll = sidebarContainer.scrollTop;
+        var newScrollTop = currentScroll + relativeOffset - (containerHeight / 2) + (activeHeight / 2);
+        if (newScrollTop < 0) {
+            newScrollTop = 0;
+        }
+        sidebarContainer.scrollTop = newScrollTop;
+    });
+</script>

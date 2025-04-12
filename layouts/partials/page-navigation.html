@@ -1,8 +1,87 @@
-<div class="prev-next-links-block">
-    {{ if .PrevInSection }}
-        <a href="{{ .PrevInSection.Permalink }}" class="prev-next-link">« {{ .PrevInSection.Title }}</a>
+{{/* Сохраняем текущую страницу в переменную */}}
+{{ $current := . }}
+
+{{/* Получаем или создаём объект Scratch и инициализируем срез для плоского списка */}}
+{{ $scratch := .Scratch | default (newScratch) }}
+{{ $scratch.Set "flatSidebar" (slice) }}
+
+{{/* Рекурсивная функция для обхода дерева.
+Принимает словарь с ключами:
+- "node": текущая нода (раздел или страница),
+- "scratch": объект для накопления найденных страниц.
+
+Если у ноды есть Permalink, она добавляется в список.
+Затем объединяются дочерние элементы (Pages и Sections),
+фильтруются по условию (если не задан toc_hide: true),
+сортируются по Weight и (опционально) ограничиваются по количеству. */}}
+{{ define "flattenSidebarTree" }}
+{{ $node := .node }}
+{{ $scratch := .scratch }}
+
+{{/* Если у ноды определён Permalink – добавляем ноду в список */}}
+{{ with $node.Permalink }}
+    {{ $scratch.Add "flatSidebar" $node }}
+{{ end }}
+{{/* Объединяем дочерние страницы и разделы */}}
+{{ $all := union $node.Pages $node.Sections }}
+
+{{/* Ручная фильтрация: исключаем элементы, у которых toc_hide равен true */}}
+{{ $children := slice }}
+{{ range $child := $all }}
+    {{ if not (eq $child.Params.toc_hide true) }}
+        {{ $children = $children | append $child }}
     {{ end }}
-    {{ if .NextInSection }}
-            <a href="{{ .NextInSection.Permalink }}" class="prev-next-link">{{ .NextInSection.Title }} »</a>
+{{ end }}
+
+{{/* Сортируем дочерние элементы по Weight */}}
+{{ $children = sort $children "Weight" }}
+
+{{/* Ограничиваем число дочерних элементов, если задан параметр */}}
+{{ $truncate := $node.Site.Params.ui.sidebar_menu_truncate | default 100 }}
+{{ $children = $children | first $truncate }}
+    {{ range $child := $children }}
+        {{ template "flattenSidebarTree" (dict "node" $child "scratch" $scratch) }}
     {{ end }}
+{{ end }}
+
+{{/* Определяем корень навигации так же, как в sidebar‑tree.
+Обычно это .Site.Home, если тип документации (docs), иначе .FirstSection */}}
+{{ $navRoot := cond (and (ne .Params.toc_root true) (eq .Site.Home.Type "docs")) .Site.Home .FirstSection }}
+
+{{/* Запускаем рекурсивый обход дерева, передавая корень и объект scratch */}}
+{{ template "flattenSidebarTree" (dict "node" $navRoot "scratch" $scratch) }}
+
+{{/* Извлекаем накопленный плоский список страниц */}}
+{{ $flat := $scratch.Get "flatSidebar" }}
+
+{{/* Находим позицию (индекс) текущей страницы в плоском списке */}}
+{{ $currentIndex := -1 }}
+{{ range $i, $page := $flat }}
+    {{ if eq $page.RelPermalink $current.RelPermalink }}
+        {{ $currentIndex = $i }}
+    {{ end }}
+{{ end }}
+
+{{/* Определяем предыдущую и следующую страницы */}}
+{{ $prevPage := false }}
+{{ $nextPage := false }}
+
+{{ if gt $currentIndex 0 }}
+    {{ $prevPage = index $flat (sub $currentIndex 1) }}
+{{ end }}
+
+{{ if lt $currentIndex (sub (len $flat) 1) }}
+    {{ $nextPage = index $flat (add $currentIndex 1) }}
+{{ end }}
+
+<div class="page-navigation-block">
+    <hr>
+    <div class="prev-next-links-block">
+        {{ if $prevPage }}
+        <a href="{{ $prevPage.RelPermalink }}" class="prev-next-link">« {{ $prevPage.Title }}</a>
+        {{ end }}
+        {{ if $nextPage }}
+        <a href="{{ $nextPage.RelPermalink }}" class="prev-next-link">{{ $nextPage.Title }} »</a>
+        {{ end }}
+    </div>
 </div>

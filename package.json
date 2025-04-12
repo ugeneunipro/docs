@@ -1,7 +1,8 @@
 {
   "scripts": {
     "dev": "hugo server",
-    "dev-theme": "hugo server --disableFastRender --watch --themesDir=./themes"
+    "dev-theme": "hugo server --disableFastRender --watch --themesDir=./themes",
+    "prod": "hugo --minify"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",

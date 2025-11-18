@@ -1850,11 +1850,11 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
 &lt;li>&lt;strong>columnNum&lt;/strong> (MAlignment aln) — Returns the length of the alignment.&lt;/li>
 &lt;li>&lt;strong>alignmentAlphabetType&lt;/strong> (MAlignment aln) — Returns the alignment’s alphabet type.&lt;/li>
 &lt;/ul></description></item><item><title>General</title><link>https://ugene.net/docs/basic-functions/ugene-application-settings/general/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/basic-functions/ugene-application-settings/general/</guid><description>&lt;h1 id="general">General&lt;/h1>
-&lt;p>&lt;img src="https://ugene.net/docs/images/21433142/21599864.png" alt="">&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/21433142/21599865.png" alt="">&lt;/p>
 &lt;p>The following settings are available on the tab:&lt;/p>
 &lt;p>&lt;em>Language of User Interface (applied after restart)&lt;/em> — here you can select UGENE localization. Currently, available localizations are EN and RU. The default value (&lt;em>Autodetection&lt;/em>) specifies that UGENE should use the operating system&amp;rsquo;s regional options to select the localization. This setting is applied only after UGENE is reopened.&lt;/p>
-&lt;p>&lt;em>Appearance&lt;/em> — defines the appearance of the application.&lt;/p>
-&lt;p>&lt;em>Open last project at startup&lt;/em> — if the option is checked, the last project is opened when UGENE is started. Also, you can choose default settings for saving projects.&lt;/p></description></item><item><title>Header</title><link>https://ugene.net/docs/workflow-designer/workflow-file-format/header/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-file-format/header/</guid><description>&lt;h1 id="header">Header&lt;/h1>
+&lt;p>&lt;em>Style&lt;/em> — defines the style of the application.&lt;/p>
+&lt;p>&lt;em>Color theme&lt;/em> — defines the color theme of the application. Auto is available on Windows and macOS only and follows the OS color theme.&lt;/p></description></item><item><title>Header</title><link>https://ugene.net/docs/workflow-designer/workflow-file-format/header/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-file-format/header/</guid><description>&lt;h1 id="header">Header&lt;/h1>
 &lt;p>The header consists of the following key string:&lt;/p>
 &lt;p>#!UGENE_WORKFLOW&lt;/p>
 &lt;p>And a multiline description of the workflow:&lt;/p>

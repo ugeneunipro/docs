@@ -15,7 +15,7 @@ Open a DNA sequence and click the following button on the _Sequence View_ toolba
 
 The _Find restriction sites_ dialog appears:
 
-![](/images/65930747/113541195.png)
+![](/images/65930747/113541196.png)
 
 ### The Tree of Restriction Enzymes
 

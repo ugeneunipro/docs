@@ -5,13 +5,15 @@ weight: 100
 
 # General
 
-![](/images/21433142/21599864.png)
+![](/images/21433142/21599865.png)
 
 The following settings are available on the tab:
 
 _Language of User Interface (applied after restart)_ — here you can select UGENE localization. Currently, available localizations are EN and RU. The default value (_Autodetection_) specifies that UGENE should use the operating system's regional options to select the localization. This setting is applied only after UGENE is reopened.
 
-_Appearance_ — defines the appearance of the application.
+_Style_ — defines the style of the application.
+
+_Color theme_ — defines the color theme of the application. Auto is available on Windows and macOS only and follows the OS color theme.
 
 _Open last project at startup_ — if the option is checked, the last project is opened when UGENE is started. Also, you can choose default settings for saving projects.
 

@@ -27,7 +27,7 @@ Here you can see all the checked enzymes. These enzymes will be searched for aft
 
 ### Selected Enzyme Info
 
-Some information about the selected enzyme is provided. It includes the name, a link to the [REBASE](http://rebase.neb.com/rebase/rebase.html) database, detailed information about the enzyme type, the number of enzymes in the current sequence, and sites and cut locations.
+Some information about the selected enzyme is provided. It includes the name, a link to the [REBASE](http://rebase.neb.com/rebase/rebase.html) database, detailed information about the enzyme type, the number of enzymes in the current sequence, and sites and cut locations. The link to the REBASE database provided ino the **Selected enzyme info** window when you click on an enzyme.
 
 ### Control Buttons (Right Side)
 
@@ -35,11 +35,12 @@ Some information about the selected enzyme is provided. It includes the name, a 
 - **Export enzymes** - export selected enzymes to a separate file (using [the Bairoch format](http://rebase.neb.com/rebase/rebase.f19.html)).
 - **Select all** - check all enzymes in the tree.
 - **Select none** - uncheck all enzymes in the tree.
-- **Select by length** - check enzymes only if their recognition site has a length greater than you set in the dialog window that appears.
 - **Invert selection** - switch checked and unchecked enzymes.
-- **Load selection** - load selected enzymes from the file. This file should contain a comma-separated enzyme name list, for example: _BamHI,BglII,ClaI,DraI,EcoRI,EcoRV,HindIII,PstI,SalI,SmaI,XmaI_.
-- **Save selection** - save checked enzymes to a separate file using the format described above.
-- **REBASE info** - open the [REBASE](http://rebase.neb.com/rebase/rebase.html) database page of the selected enzyme.
+
+### Control Buttons (above **Checked enzymes**)
+
+- **Save** - save checked enzymes to a separate file using the format described above.
+- **Load** - load selected enzymes from the file. This file should contain a comma-separated enzyme name list, for example: _BamHI,BglII,ClaI,DraI,EcoRI,EcoRV,HindIII,PstI,SalI,SmaI,XmaI_.
 
 ### The Filter of the Results Number
 

@@ -19,7 +19,7 @@ The workflow sample "In Silico PCR" can be found in the "Scenarios" section of t
 
 The opened workflow looks as follows:
 
-![](/images/65930567/76709919.png)
+![](/images/65930567/65930568.png)
 
 ### Workflow Wizard
 
@@ -27,11 +27,11 @@ The wizard has 3 pages:
 
 1. **Input DNA Sequences:** On this page, you must input DNA sequences.
 
-   ![](/images/65930567/65930568.png)
+   ![](/images/65930567/65930571.png)
 
 2. **Primers and Parameters:** Here, you must input _Primers_ and you can optionally modify _In Silico PCR_ parameters.
 
-   ![](/images/65930567/65930569.png)
+   ![](/images/65930567/65930570.png)
 
    The following parameters are available:
 
@@ -55,4 +55,4 @@ The wizard has 3 pages:
 
 3. **Output data:** Here, you can see information about output data.
 
-   ![](/images/65930567/65930571.png)
+   ![](/images/65930567/65930569.png)

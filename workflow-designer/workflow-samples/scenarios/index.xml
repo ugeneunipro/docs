@@ -72,7 +72,7 @@
 &lt;p>The workflow sample &amp;ldquo;In Silico PCR&amp;rdquo; can be found in the &amp;ldquo;Scenarios&amp;rdquo; section of the Workflow Designer samples.&lt;/p>
 &lt;h3 id="workflow-image">Workflow Image&lt;/h3>
 &lt;p>The opened workflow looks as follows:&lt;/p>
-&lt;p>&lt;img src="https://ugene.net/docs/images/65930567/76709919.png" alt="">&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65930567/65930568.png" alt="">&lt;/p>
 &lt;h3 id="workflow-wizard">Workflow Wizard&lt;/h3>
 &lt;p>The wizard has 3 pages:&lt;/p></description></item><item><title>Remote BLASTing</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/remote-blasting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/scenarios/remote-blasting/</guid><description>&lt;h1 id="remote-blasting">Remote BLASTing&lt;/h1>
 &lt;p>The workflow sample described below allows one to perform remote queries to the &lt;a href="http://blast.st-va.ncbi.nlm.nih.gov/Blast.cgi">NCBI BLAST database&lt;/a> to search for homologous nucleotide sequences for multiple input sequences simultaneously.&lt;/p>

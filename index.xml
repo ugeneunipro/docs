@@ -9893,7 +9893,7 @@ Designer samples.&lt;/p></description></item><item><title>Deleting Annotations a
 &lt;p>The workflow sample &amp;ldquo;In Silico PCR&amp;rdquo; can be found in the &amp;ldquo;Scenarios&amp;rdquo; section of the Workflow Designer samples.&lt;/p>
 &lt;h3 id="workflow-image">Workflow Image&lt;/h3>
 &lt;p>The opened workflow looks as follows:&lt;/p>
-&lt;p>&lt;img src="https://ugene.net/docs/images/65930567/76709919.png" alt="">&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65930567/65930568.png" alt="">&lt;/p>
 &lt;h3 id="workflow-wizard">Workflow Wizard&lt;/h3>
 &lt;p>The wizard has 3 pages:&lt;/p></description></item><item><title>Output</title><link>https://ugene.net/docs/extensions/molecular-cloning-in-silico/constructing-molecule/output/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/molecular-cloning-in-silico/constructing-molecule/output/</guid><description>&lt;h1 id="output">Output&lt;/h1>
 &lt;p>On the &lt;em>Output&lt;/em> tab of the dialog, you can select the file to save the new molecule to.&lt;/p>

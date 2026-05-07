@@ -5,7 +5,7 @@ weight: 100
 
 # Import BAM and SAM Files
 
-To begin working with an assembly, import it into the UGENE database file. To do this, [_open_](opening-document.md) the assembly file.
+To begin working with an assembly, import it into the UGENE database file. To do this, [_open_](/basic-functions/opening-document/) the assembly file.
 
 For assembly files without a header, you can select a file with the reference sequence; otherwise, the header information will be generated automatically.
 

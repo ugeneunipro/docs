@@ -11,7 +11,7 @@
 &lt;p>To associate a reference sequence with the assembly, use one of the following methods:&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>&lt;em>&lt;a href="opening-document.md">Open the sequence&lt;/a>&lt;/em> (the sequence must be loaded) and drag it to the &lt;em>Assembly Reference Area&lt;/em>:&lt;/p>
+&lt;p>&lt;em>&lt;a href="https://ugene.net/docs/basic-functions/opening-document/">Open the sequence&lt;/a>&lt;/em> (the sequence must be loaded) and drag it to the &lt;em>Assembly Reference Area&lt;/em>:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929828/65929829.png" alt="">&lt;/p>
 &lt;/li>
 &lt;li>
@@ -26,7 +26,7 @@
 &lt;p>The reference sequence will appear in the &lt;em>Reference Area&lt;/em>:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929828/65929832.png" alt="">&lt;/p>
 &lt;p>To remove the association, select the &lt;em>Unassociate&lt;/em> item in the &lt;em>Reference Area&lt;/em> context menu.&lt;/p></description></item><item><title>Associating Variations</title><link>https://ugene.net/docs/assembly-browser/associating-variations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/associating-variations/</guid><description>&lt;h1 id="associating-variations">Associating Variations&lt;/h1>
-&lt;p>To associate variations with the assembly, &lt;a href="opening-document.md">&lt;em>open the sequence&lt;/em>&lt;/a> (the sequence must be loaded) and drag it to the &lt;em>Assembly Reference Area&lt;/em>:&lt;/p>
+&lt;p>To associate variations with the assembly, &lt;a href="https://ugene.net/docs/basic-functions/opening-document/">&lt;em>open the sequence&lt;/em>&lt;/a> (the sequence must be loaded) and drag it to the &lt;em>Assembly Reference Area&lt;/em>:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929834/65929835.png" alt="">&lt;/p>
 &lt;p>The variations will appear under the &lt;em>Consensus Sequence&lt;/em>:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929834/65929836.png" alt="">&lt;/p>

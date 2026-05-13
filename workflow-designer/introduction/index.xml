@@ -26,7 +26,7 @@
 &lt;/li>
 &lt;li>
 &lt;p>Repeat the previous step for the &lt;a href="../workflow-elements/data-writers/write-alignment-element">&lt;em>Write Alignment&lt;/em>&lt;/a> element from the &lt;em>Data sinks&lt;/em> group and the &lt;a href="../workflow-elements/multiple-sequence-alignment/align-with-muscle-element">&lt;em>Align with MUSCLE&lt;/em>&lt;/a> element from the &lt;em>Multiple sequence alignment&lt;/em> group.&lt;/p></description></item><item><title>How to Use Sample Workflows</title><link>https://ugene.net/docs/workflow-designer/introduction/how-to-use-sample-workflows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/introduction/how-to-use-sample-workflows/</guid><description>&lt;h1 id="how-to-use-sample-workflows">How to Use Sample Workflows&lt;/h1>
-&lt;p>The &lt;a href="../about-the-workflow-designer">UGENE Workflow Designer&lt;/a> contains a set of sample workflows that help biologists solve specific tasks for multiple input files or datasets simultaneously. The list of samples can be found in the &lt;a href="workflow-samples.md">Workflow Samples section&lt;/a> of the documentation.&lt;/p>
+&lt;p>The &lt;a href="../about-the-workflow-designer">UGENE Workflow Designer&lt;/a> contains a set of sample workflows that help biologists solve specific tasks for multiple input files or datasets simultaneously. The list of samples can be found in the &lt;a href="https://ugene.net/docs/workflow-designer/workflow-samples/">Workflow Samples section&lt;/a> of the documentation.&lt;/p>
 &lt;p>To use a sample:&lt;/p>
 &lt;ol>
 &lt;li>

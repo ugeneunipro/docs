@@ -30,7 +30,7 @@
 &lt;p>If you are using Windows OS, there are no additional configuration steps required, as the &lt;em>ClustalW&lt;/em> executable file is included in the UGENE distribution package. Otherwise:&lt;/p>
 &lt;ul>
 &lt;li>Install the &lt;em>Clustal&lt;/em> program on your system.&lt;/li>
-&lt;li>Set the path to the &lt;em>ClustalW&lt;/em> executable on the &lt;a href="external-tools-plugin.md">&lt;em>External tools&lt;/em>&lt;/a> tab of the UGENE &lt;a href="ugene-application-settings.md">&lt;em>Application Settings&lt;/em>&lt;/a> dialog.&lt;/li>
+&lt;li>Set the path to the &lt;em>ClustalW&lt;/em> executable on the &lt;a href="https://ugene.net/docs/extensions/external-tools-plugin/">&lt;em>External tools&lt;/em>&lt;/a> tab of the UGENE &lt;a href="https://ugene.net/docs/basic-functions/ugene-application-settings/">&lt;em>Application Settings&lt;/em>&lt;/a> dialog.&lt;/li>
 &lt;/ul>
 &lt;p>Now you are able to use &lt;em>Clustal&lt;/em> from UGENE.&lt;/p></description></item><item><title>MAFFT</title><link>https://ugene.net/docs/extensions/mafft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/mafft/</guid><description>&lt;h1 id="mafft">MAFFT&lt;/h1>
 &lt;p>Originally, MAFFT is a multiple sequence alignment program for UNIX-like operating systems. However, it is currently available for macOS, Linux, and Windows. It is used for both nucleotide and protein sequences.&lt;/p>
@@ -41,24 +41,24 @@
 &lt;p>Install the &lt;em>MAFFT&lt;/em> program on your system.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Set the path to the &lt;em>MAFFT&lt;/em> executable on the &lt;a href="external-tools.md">&lt;em>External tools&lt;/em>&lt;/a> tab of the UGENE &lt;em>&lt;a href="ugene-application-settings.md">Application Settings&lt;/a>&lt;/em> dialog.&lt;/p>
+&lt;p>Set the path to the &lt;em>MAFFT&lt;/em> executable on the &lt;a href="https://ugene.net/docs/basic-functions/ugene-application-settings/external-tools/">&lt;em>External tools&lt;/em>&lt;/a> tab of the UGENE &lt;em>&lt;a href="https://ugene.net/docs/basic-functions/ugene-application-settings/">Application Settings&lt;/a>&lt;/em> dialog.&lt;/p>
 &lt;p>For example, on Windows, you need to specify the path to the mafft.bat file.&lt;/p></description></item><item><title>T-Coffee</title><link>https://ugene.net/docs/extensions/t-coffee/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/t-coffee/</guid><description>&lt;h1 id="t-coffee">T-Coffee&lt;/h1>
 &lt;p>&lt;strong>Attention:&lt;/strong> This tool has been removed from UGENE since version 50.0.&lt;/p>
 &lt;p>T-Coffee is a multiple sequence alignment package.&lt;/p>
 &lt;p>&lt;strong>T-Coffee home page:&lt;/strong> &lt;a href="http://www.tcoffee.org/Projects_home_page/t_coffee_home_page.html">T-Coffee&lt;/a>&lt;/p>
-&lt;p>To make &lt;em>T-Coffee&lt;/em> available from UGENE, see the &lt;a href="external-tools.md">&lt;em>External Tools&lt;/em>&lt;/a>.&lt;/p>
+&lt;p>To make &lt;em>T-Coffee&lt;/em> available from UGENE, see the &lt;a href="https://ugene.net/docs/basic-functions/ugene-application-settings/external-tools/">&lt;em>External Tools&lt;/em>&lt;/a>.&lt;/p>
 &lt;p>To use &lt;em>T-Coffee&lt;/em>, open a multiple sequence alignment file and select the &lt;em>Align with T-Coffee&lt;/em> item in the context menu or in the &lt;em>Actions&lt;/em> main menu. The following dialog appears:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/19759723/19894622.bmp" alt="">&lt;/p>
 &lt;p>The following parameters are available:&lt;/p>
 &lt;p>&lt;em>Gap opening penalty&lt;/em> — indicates the penalty applied for opening a gap. The penalty must be negative.&lt;/p></description></item><item><title>CAP3</title><link>https://ugene.net/docs/extensions/cap3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/cap3/</guid><description>&lt;h1 id="cap3">CAP3&lt;/h1>
-&lt;p>&lt;a href="http://genome.cshlp.org/content/9/9/868.full">CAP3 (CONTIG ASSEMBLY PROGRAM Version 3)&lt;/a> is a sequence assembly program for small-scale assembly with or without quality values. Click &lt;a href="http://seq.cs.iastate.edu/">this link&lt;/a> to open the &lt;em>CAP3&lt;/em> homepage. &lt;em>CAP3&lt;/em> is embedded as an &lt;a href="external-tools-plugin.md">&lt;em>external tool&lt;/em>&lt;/a> into UGENE.&lt;/p>
+&lt;p>&lt;a href="http://genome.cshlp.org/content/9/9/868.full">CAP3 (CONTIG ASSEMBLY PROGRAM Version 3)&lt;/a> is a sequence assembly program for small-scale assembly with or without quality values. Click &lt;a href="http://seq.cs.iastate.edu/">this link&lt;/a> to open the &lt;em>CAP3&lt;/em> homepage. &lt;em>CAP3&lt;/em> is embedded as an &lt;a href="https://ugene.net/docs/extensions/external-tools-plugin/">&lt;em>external tool&lt;/em>&lt;/a> into UGENE.&lt;/p>
 &lt;p>Open the &lt;em>Tools ‣ Sanger data analysis&lt;/em> submenu of the main menu.&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/23331222/24117249.jpg" alt="">&lt;/p>
 &lt;p>Select the &lt;em>Reads de novo assembly (with CAP3)&lt;/em> item to use &lt;em>CAP3&lt;/em>.&lt;/p>
 &lt;p>The &lt;em>Contig Assembly With CAP3&lt;/em> dialog appears.&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/4227725/4457139.png" alt="">&lt;/p>
 &lt;p>You can add or remove input files using the &lt;em>Add&lt;/em> and &lt;em>Remove&lt;/em> buttons. To remove all files, click the &lt;em>Remove all&lt;/em> button. &lt;em>Input files&lt;/em> are files with long DNA reads in FASTA, FASTQ, SCF, or ABI formats. At least one input file should be added. Input a &lt;em>Result contig&lt;/em> name and press the &lt;em>Run&lt;/em> button. &lt;em>CAP3&lt;/em> produces assembly results in the ACE file format (”.ace”). The file contains one or several contigs assembled from the input reads.&lt;/p></description></item><item><title>SPAdes</title><link>https://ugene.net/docs/extensions/spades/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/spades/</guid><description>&lt;h1 id="spades">SPAdes&lt;/h1>
-&lt;p>SPAdes – St. Petersburg genome assembler. Click &lt;a href="http://bioinf.spbau.ru/en/spades">this link&lt;/a> to open the SPAdes homepage. SPAdes is embedded as an &lt;a href="external-tools-plugin.md">&lt;em>external tool&lt;/em>&lt;/a> into UGENE.&lt;/p>
+&lt;p>SPAdes – St. Petersburg genome assembler. Click &lt;a href="http://bioinf.spbau.ru/en/spades">this link&lt;/a> to open the SPAdes homepage. SPAdes is embedded as an &lt;a href="https://ugene.net/docs/extensions/external-tools-plugin/">&lt;em>external tool&lt;/em>&lt;/a> into UGENE.&lt;/p>
 &lt;p>The SPAdes tool is available on macOS and Linux operating systems only.&lt;/p>
 &lt;p>Open &lt;em>Tools ‣ NGS data analysis&lt;/em>.&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/17467820/17631708.png" alt="">&lt;/p>

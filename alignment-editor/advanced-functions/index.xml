@@ -2,4 +2,4 @@
 &lt;p>The editor has the capability to build a Hidden Markov Model (HMM) profile based on multiple sequence alignments.&lt;/p>
 &lt;p>This functionality is based on &lt;a href="http://hmmer.janelia.org/">Sean Eddy’s HMMER&lt;/a> package.&lt;/p>
 &lt;p>To build an HMM profile, select the &lt;em>Advanced ‣ Build HMMER2 profile&lt;/em> or the &lt;em>Advanced ‣ Build HMMER3 profile&lt;/em> option in the &lt;em>Actions&lt;/em> main menu or in the context menu.&lt;/p>
-&lt;p>Learn more about the HMM tool in the documentation pages of the &lt;a href="hmm2.md">&lt;em>HMM2&lt;/em>&lt;/a> and &lt;a href="hmm3.md">&lt;em>HMM3&lt;/em>&lt;/a> plugins.&lt;/p></description></item></channel></rss>
+&lt;p>Learn more about the HMM tool in the documentation pages of the &lt;a href="https://ugene.net/docs/extensions/hmm2/">&lt;em>HMM2&lt;/em>&lt;/a> and &lt;a href="https://ugene.net/docs/extensions/hmm3/">&lt;em>HMM3&lt;/em>&lt;/a> plugins.&lt;/p></description></item></channel></rss>

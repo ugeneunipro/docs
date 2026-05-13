@@ -2,6 +2,6 @@
 &lt;p>To configure an external tool:&lt;/p>
 &lt;ol>
 &lt;li>Ensure the tool is installed on your system.&lt;/li>
-&lt;li>Set the path to the tool&amp;rsquo;s executable file in UGENE. It can be set on the &lt;a href="external-tools.md">&lt;em>External Tools&lt;/em>&lt;/a> tab of the &lt;em>&lt;a href="ugene-application-settings.md">Application Settings&lt;/a>&lt;/em> dialog.&lt;/li>
+&lt;li>Set the path to the tool&amp;rsquo;s executable file in UGENE. It can be set on the &lt;a href="https://ugene.net/docs/basic-functions/ugene-application-settings/external-tools/">&lt;em>External Tools&lt;/em>&lt;/a> tab of the &lt;em>&lt;a href="https://ugene.net/docs/basic-functions/ugene-application-settings/">Application Settings&lt;/a>&lt;/em> dialog.&lt;/li>
 &lt;/ol>
 &lt;p>If the path hasn’t been set for a tool, UGENE menu items that launch the tool are displayed in italics. For example, in the image below, a path for the ClustalW external tool has been set, and paths for MAFFT and T-Coffee have not been set:&lt;/p></description></item></channel></rss>

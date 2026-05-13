@@ -3,7 +3,7 @@
 &lt;p>There are two ways to add a new sequence to the current alignment:&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>From a file in a compatible format (FASTA, GenBank, etc.). The list of the supported data formats can be found &lt;a href="Appendix-A.supported-file-formats.md">&lt;em>here&lt;/em>&lt;/a>.&lt;/p>
+&lt;p>From a file in a compatible format (FASTA, GenBank, etc.). The list of the supported data formats can be found &lt;a href="https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/">&lt;em>here&lt;/em>&lt;/a>.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>From the current project.&lt;/p>

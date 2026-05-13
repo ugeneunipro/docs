@@ -27,7 +27,7 @@
 &lt;p>There are two ways to add a new sequence to the current alignment:&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>From a file in a compatible format (FASTA, GenBank, etc.). The list of the supported data formats can be found &lt;a href="Appendix-A.supported-file-formats.md">&lt;em>here&lt;/em>&lt;/a>.&lt;/p>
+&lt;p>From a file in a compatible format (FASTA, GenBank, etc.). The list of the supported data formats can be found &lt;a href="https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/">&lt;em>here&lt;/em>&lt;/a>.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>From the current project.&lt;/p>
@@ -44,7 +44,7 @@
 &lt;p>type: orf;&lt;/p>
 &lt;h1 id="other-parameters">Other parameters&lt;/h1>
 &lt;p>}&lt;/p>
-&lt;p>To find the type and the parameters available for the required algorithm element, refer to the &lt;a href="algorithm-elements.md">&lt;em>Algorithm Elements&lt;/em>&lt;/a> chapter.&lt;/p></description></item><item><title>Align Profile to Profile with MUSCLE Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-profile-to-profile-with-muscle-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-profile-to-profile-with-muscle-element/</guid><description>&lt;h1 id="align-profile-to-profile-with-muscle-element">Align Profile to Profile with MUSCLE Element&lt;/h1>
+&lt;p>To find the type and the parameters available for the required algorithm element, refer to the &lt;a href="https://ugene.net/docs/query-designer/query-elements/algorithm-elements/">&lt;em>Algorithm Elements&lt;/em>&lt;/a> chapter.&lt;/p></description></item><item><title>Align Profile to Profile with MUSCLE Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-profile-to-profile-with-muscle-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-profile-to-profile-with-muscle-element/</guid><description>&lt;h1 id="align-profile-to-profile-with-muscle-element">Align Profile to Profile with MUSCLE Element&lt;/h1>
 &lt;p>Aligns the second profile to the master profile using the MUSCLE aligner.&lt;/p>
 &lt;p>&lt;strong>Type:&lt;/strong> align-profile-to-profile&lt;/p>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
@@ -112,7 +112,7 @@
 &lt;p>&lt;img src="https://ugene.net/docs/images/65930877/65930878.png" alt="">&lt;/p>
 &lt;p>The following parameters are available:&lt;/p>
 &lt;p>&lt;em>Reference sequence&lt;/em> — The DNA sequence to align short reads to. This parameter is required.&lt;/p></description></item><item><title>Alignment Editor Features</title><link>https://ugene.net/docs/alignment-editor/overview/alignment-editor-features/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/overview/alignment-editor-features/</guid><description>&lt;h1 id="alignment-editor-features">Alignment Editor Features&lt;/h1>
-&lt;p>The &lt;em>Alignment Editor&lt;/em> is a powerful tool for visualizing and editing DNA, RNA, or protein multiple sequence alignments. The editor supports various multiple sequence alignment (MSA) formats, such as ClustalW, MSF, and Stockholm. The full list of file formats supported in UGENE is &lt;a href="Appendix-A.supported-file-formats.md">&lt;em>here&lt;/em>&lt;/a>.&lt;/p>
+&lt;p>The &lt;em>Alignment Editor&lt;/em> is a powerful tool for visualizing and editing DNA, RNA, or protein multiple sequence alignments. The editor supports various multiple sequence alignment (MSA) formats, such as ClustalW, MSF, and Stockholm. The full list of file formats supported in UGENE is &lt;a href="https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/">&lt;em>here&lt;/em>&lt;/a>.&lt;/p>
 &lt;p>The editor provides an interactive visual representation which includes:&lt;/p>
 &lt;ul>
 &lt;li>Navigation through an alignment;&lt;/li>
@@ -607,12 +607,12 @@ Huang, X. and Madan, A. (1999) CAP3: A DNA Sequence Assembly Program, Genome Res
 &lt;p>The editor has the capability to build a Hidden Markov Model (HMM) profile based on multiple sequence alignments.&lt;/p>
 &lt;p>This functionality is based on &lt;a href="http://hmmer.janelia.org/">Sean Eddy’s HMMER&lt;/a> package.&lt;/p>
 &lt;p>To build an HMM profile, select the &lt;em>Advanced ‣ Build HMMER2 profile&lt;/em> or the &lt;em>Advanced ‣ Build HMMER3 profile&lt;/em> option in the &lt;em>Actions&lt;/em> main menu or in the context menu.&lt;/p>
-&lt;p>Learn more about the HMM tool in the documentation pages of the &lt;a href="hmm2.md">&lt;em>HMM2&lt;/em>&lt;/a> and &lt;a href="hmm3.md">&lt;em>HMM3&lt;/em>&lt;/a> plugins.&lt;/p></description></item><item><title>Building HMM2 Model</title><link>https://ugene.net/docs/extensions/hmm2/building-hmm2-model/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/hmm2/building-hmm2-model/</guid><description>&lt;h1 id="building-hmm2-model">Building HMM2 Model&lt;/h1>
+&lt;p>Learn more about the HMM tool in the documentation pages of the &lt;a href="https://ugene.net/docs/extensions/hmm2/">&lt;em>HMM2&lt;/em>&lt;/a> and &lt;a href="https://ugene.net/docs/extensions/hmm3/">&lt;em>HMM3&lt;/em>&lt;/a> plugins.&lt;/p></description></item><item><title>Building HMM2 Model</title><link>https://ugene.net/docs/extensions/hmm2/building-hmm2-model/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/hmm2/building-hmm2-model/</guid><description>&lt;h1 id="building-hmm2-model">Building HMM2 Model&lt;/h1>
 &lt;p>The &lt;em>HMM build&lt;/em> tool is used to build a new HMM profile from a multiple alignment.&lt;/p>
 &lt;p>You can use any alignment file format supported by UGENE. The output HMM profile format is compatible with the HMMER2 package.&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65930810/65930811.png" alt="">&lt;/p>
 &lt;p>The &lt;em>HMM build&lt;/em> tool does not automatically calibrate a profile. Use the &lt;a href="calibrating-hmm2-model">&lt;em>HMM calibrate&lt;/em>&lt;/a> tool to calibrate the profile.&lt;/p></description></item><item><title>Building Index for UGENE Genome Aligner</title><link>https://ugene.net/docs/extensions/ugene-genome-aligner/building-index-for-ugene-genome-aligner/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/ugene-genome-aligner/building-index-for-ugene-genome-aligner/</guid><description>&lt;h1 id="building-index-for-ugene-genome-aligner">Building Index for UGENE Genome Aligner&lt;/h1>
-&lt;p>You can build an index to optimize short reads alignment using &lt;a href="ugene-genome-aligner.md">&lt;em>UGENE Genome Aligner&lt;/em>&lt;/a>. To open the &lt;em>Build Index&lt;/em> dialog, select the &lt;em>Tools ‣ NGS data analysis ‣ Build index for reads mapping&lt;/em> item in the main menu. Set the value of the &lt;em>Map short reads method&lt;/em> parameter to &lt;em>UGENE Genome Aligner&lt;/em>.&lt;/p>
+&lt;p>You can build an index to optimize short reads alignment using &lt;a href="https://ugene.net/docs/extensions/ugene-genome-aligner/">&lt;em>UGENE Genome Aligner&lt;/em>&lt;/a>. To open the &lt;em>Build Index&lt;/em> dialog, select the &lt;em>Tools ‣ NGS data analysis ‣ Build index for reads mapping&lt;/em> item in the main menu. Set the value of the &lt;em>Map short reads method&lt;/em> parameter to &lt;em>UGENE Genome Aligner&lt;/em>.&lt;/p>
 &lt;p>The dialog looks as follows:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65930893/82608149.png" alt="">&lt;/p>
 &lt;p>The parameters are the following:&lt;/p>
@@ -1121,7 +1121,7 @@ Huang, X. and Madan, A. (1999) CAP3: A DNA Sequence Assembly Program, Genome Res
 &lt;p>To configure an external tool:&lt;/p>
 &lt;ol>
 &lt;li>Ensure the tool is installed on your system.&lt;/li>
-&lt;li>Set the path to the tool&amp;rsquo;s executable file in UGENE. It can be set on the &lt;a href="external-tools.md">&lt;em>External Tools&lt;/em>&lt;/a> tab of the &lt;em>&lt;a href="ugene-application-settings.md">Application Settings&lt;/a>&lt;/em> dialog.&lt;/li>
+&lt;li>Set the path to the tool&amp;rsquo;s executable file in UGENE. It can be set on the &lt;a href="https://ugene.net/docs/basic-functions/ugene-application-settings/external-tools/">&lt;em>External Tools&lt;/em>&lt;/a> tab of the &lt;em>&lt;a href="https://ugene.net/docs/basic-functions/ugene-application-settings/">Application Settings&lt;/a>&lt;/em> dialog.&lt;/li>
 &lt;/ol>
 &lt;p>If the path hasn’t been set for a tool, UGENE menu items that launch the tool are displayed in italics. For example, in the image below, a path for the ClustalW external tool has been set, and paths for MAFFT and T-Coffee have not been set:&lt;/p></description></item><item><title>Convert bedGraph Files to bigWig Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-converters/convert-bedgraph-files-to-bigwig-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-converters/convert-bedgraph-files-to-bigwig-element/</guid><description>&lt;h1 id="convert-bedgraph-files-to-bigwig-element">Convert bedGraph Files to bigWig Element&lt;/h1>
 &lt;p>Convert bedGraph files to bigWig.&lt;/p>
@@ -1283,7 +1283,7 @@ Huang, X. and Madan, A. (1999) CAP3: A DNA Sequence Assembly Program, Genome Res
 ]&lt;/p>
 &lt;p>For more detailed information, see the &lt;a href="https://ugene.unipro.ru/wiki/display/UUOUM/DNA+Flexibility">&lt;em>DNA Flexibility&lt;/em>&lt;/a> section.&lt;/p></description></item><item><title>Digesting into Fragments</title><link>https://ugene.net/docs/extensions/molecular-cloning-in-silico/digesting-into-fragments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/molecular-cloning-in-silico/digesting-into-fragments/</guid><description>&lt;h1 id="digesting-into-fragments">Digesting into Fragments&lt;/h1>
 &lt;p>Open a DNA molecule you wish to cut into fragments.&lt;/p>
-&lt;p>Digestion into fragments is performed using restriction enzymes. Before continuing, ensure that restriction analysis has been completed. Refer to the chapter &lt;a href="restriction-analysis.md">&lt;em>Restriction Analysis&lt;/em>&lt;/a> for details.&lt;/p>
+&lt;p>Digestion into fragments is performed using restriction enzymes. Before continuing, ensure that restriction analysis has been completed. Refer to the chapter &lt;a href="https://ugene.net/docs/extensions/restriction-analysis/">&lt;em>Restriction Analysis&lt;/em>&lt;/a> for details.&lt;/p>
 &lt;p>Select either the &lt;em>Tools ‣ Cloning ‣ Digest into Fragments&lt;/em> option, the &lt;em>Actions ‣ Cloning ‣ Digest into Fragments&lt;/em> option in the main menu, or the &lt;em>Cloning ‣ Digest into Fragments&lt;/em> option in the context menu.&lt;/p></description></item><item><title>Distance Matrix</title><link>https://ugene.net/docs/alignment-editor/statistics/distance-matrix/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/statistics/distance-matrix/</guid><description>&lt;h1 id="distance-matrix">Distance Matrix&lt;/h1>
 &lt;p>Using the &lt;em>Alignment Editor&lt;/em>, you can also create a distance matrix of a multiple sequence alignment.&lt;/p>
 &lt;p>To create a distance matrix, use the &lt;em>Statistics ‣ Generate distance matrix&lt;/em> option in the &lt;em>Actions&lt;/em> main menu or in the context menu.&lt;/p>
@@ -2056,7 +2056,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
 &lt;p>An imported assembly added to the project is shown in the &lt;em>Project View&lt;/em> as follows:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929800/65929801.png" alt="">&lt;/p>
 &lt;p>Each [as] object corresponds to an imported contig. When you double-click on an [as] object, a new Assembly Browser window with the assembly data is opened. A window for the first assembly object in the list is automatically opened after the import.&lt;/p></description></item><item><title>Primer-BLAST</title><link>https://ugene.net/docs/extensions/remote-blast/primer-blast/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/remote-blast/primer-blast/</guid><description>&lt;h1 id="primer-blast">Primer-BLAST&lt;/h1>
-&lt;p>You can run BLAST for primer pairs similar to &lt;a href="https://www.ncbi.nlm.nih.gov/tools/primer-blast/">this tool&lt;/a>. This tool allows you to screen primers against a user-selected database to avoid primer pairs that can cause non-specific amplifications. Your primers should be in Primer3 UGENE format. You can obtain them using &lt;a href="primer3.md">Primer3&lt;/a>/&lt;a href="https://ugene.net/docs/extensions/primer3/primer3-no-target-sequence">Primer3 (no target sequence)&lt;/a> or by using the special &lt;a href="../../sequence-view/annotations-editor/transform-into-a-primer-pair">Transform into a primer pair&lt;/a> feature.&lt;/p>
+&lt;p>You can run BLAST for primer pairs similar to &lt;a href="https://www.ncbi.nlm.nih.gov/tools/primer-blast/">this tool&lt;/a>. This tool allows you to screen primers against a user-selected database to avoid primer pairs that can cause non-specific amplifications. Your primers should be in Primer3 UGENE format. You can obtain them using &lt;a href="https://ugene.net/docs/extensions/primer3/">Primer3&lt;/a>/&lt;a href="https://ugene.net/docs/extensions/primer3/primer3-no-target-sequence">Primer3 (no target sequence)&lt;/a> or by using the special &lt;a href="../../sequence-view/annotations-editor/transform-into-a-primer-pair">Transform into a primer pair&lt;/a> feature.&lt;/p>
 &lt;p>Select the primer pairs you need to BLAST:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/96666281/96666286.png" alt="">&lt;/p>
 &lt;p>Right-click and select Analyze → Query NCBI BLAST database&amp;hellip;:&lt;/p></description></item><item><title>Primer3 (no target sequence)</title><link>https://ugene.net/docs/extensions/primer3/primer3-no-target-sequence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/primer3/primer3-no-target-sequence/</guid><description>&lt;h1 id="primer3-no-target-sequence">Primer3 (no target sequence)&lt;/h1>
@@ -2227,7 +2227,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="chromatogram-viewer.md">&lt;em>Chromatogram Viewer&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view-extensions/chromatogram-viewer/">&lt;em>Chromatogram Viewer&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>ACE&lt;/strong>&lt;/td>
@@ -2241,7 +2241,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/alignment-editor/">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>APR&lt;/strong>&lt;/td>
@@ -2255,7 +2255,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/alignment-editor/">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Bairoch&lt;/strong>&lt;/td>
@@ -2269,7 +2269,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="restriction-analysis.md">&lt;em>Restriction Analysis&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/extensions/restriction-analysis/">&lt;em>Restriction Analysis&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>BAM&lt;/strong>&lt;/td>
@@ -2283,7 +2283,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="assembly-browser.md">&lt;em>Assembly Browser&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/assembly-browser/">&lt;em>Assembly Browser&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>ClustalW&lt;/strong>&lt;/td>
@@ -2297,7 +2297,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/alignment-editor/">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>EBWT&lt;/strong>&lt;/td>
@@ -2311,7 +2311,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="bowtie.md">&lt;em>Bowtie&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/extensions/bowtie/">&lt;em>Bowtie&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>EMBL&lt;/strong>&lt;/td>
@@ -2325,7 +2325,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sequence-view.md">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view/">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>FASTA&lt;/strong>&lt;/td>
@@ -2339,7 +2339,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sequence-view.md">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view/">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>FASTQ&lt;/strong>&lt;/td>
@@ -2360,7 +2360,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sequence-view.md">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view/">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Genbank&lt;/strong>&lt;/td>
@@ -2374,7 +2374,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sequence-view.md">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view/">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>GFF&lt;/strong>&lt;/td>
@@ -2388,7 +2388,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sequence-view.md">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view/">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>HMM&lt;/strong>&lt;/td>
@@ -2402,7 +2402,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="hmm2.md">&lt;em>HMM2&lt;/em>&lt;/a>, &lt;a href="hmm3.md">&lt;em>HMM3&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/extensions/hmm2/">&lt;em>HMM2&lt;/em>&lt;/a>, &lt;a href="https://ugene.net/docs/extensions/hmm3/">&lt;em>HMM3&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>MMDB&lt;/strong>&lt;/td>
@@ -2416,7 +2416,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="3d-structure-viewer.md">&lt;em>3D Structure Viewer&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view-extensions/3d-structure-viewer/">&lt;em>3D Structure Viewer&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>MSF&lt;/strong>&lt;/td>
@@ -2430,7 +2430,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/alignment-editor/">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Mega&lt;/strong>&lt;/td>
@@ -2444,7 +2444,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/alignment-editor/">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Newick&lt;/strong>&lt;/td>
@@ -2458,7 +2458,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="building-phylogenetic-tree.md">&lt;em>Building Phylogenetic Tree&lt;/em>&lt;/a>, &lt;a href="phylogenetic-tree-viewer.md">&lt;em>Phylogenetic Tree Viewer&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/alignment-editor/building-phylogenetic-tree/">&lt;em>Building Phylogenetic Tree&lt;/em>&lt;/a>, &lt;a href="https://ugene.net/docs/phylogenetic-tree-viewer/">&lt;em>Phylogenetic Tree Viewer&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Nexus&lt;/strong>&lt;/td>
@@ -2472,7 +2472,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>, &lt;a href="building-phylogenetic-tree.md">&lt;em>Building Phylogenetic Tree&lt;/em>&lt;/a>, &lt;a href="phylogenetic-tree-viewer.md">&lt;em>Phylogenetic Tree Viewer&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/alignment-editor/">&lt;em>Alignment Editor&lt;/em>&lt;/a>, &lt;a href="https://ugene.net/docs/alignment-editor/building-phylogenetic-tree/">&lt;em>Building Phylogenetic Tree&lt;/em>&lt;/a>, &lt;a href="https://ugene.net/docs/phylogenetic-tree-viewer/">&lt;em>Phylogenetic Tree Viewer&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>PDB&lt;/strong>&lt;/td>
@@ -2486,7 +2486,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="3d-structure-viewer.md">&lt;em>3D Structure Viewer&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view-extensions/3d-structure-viewer/">&lt;em>3D Structure Viewer&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>pDRAW32&lt;/strong>&lt;/td>
@@ -2500,7 +2500,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sequence-view.md">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view/">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>PFM&lt;/strong>&lt;/td>
@@ -2514,7 +2514,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="weight-matrix.md">&lt;em>Weight Matrix&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/extensions/weight-matrix/">&lt;em>Weight Matrix&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Phylip&lt;/strong>&lt;/td>
@@ -2528,7 +2528,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/alignment-editor/">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>PWM&lt;/strong>&lt;/td>
@@ -2542,7 +2542,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="weight-matrix.md">&lt;em>Weight Matrix&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/extensions/weight-matrix/">&lt;em>Weight Matrix&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Raw&lt;/strong>&lt;/td>
@@ -2556,7 +2556,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sequence-view.md">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view/">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>SAM&lt;/strong>&lt;/td>
@@ -2570,7 +2570,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="assembly-browser.md">&lt;em>Assembly Browser&lt;/em>&lt;/a>, &lt;a href="bowtie.md">&lt;em>Bowtie&lt;/em>&lt;/a>, &lt;a href="ugene-genome-aligner.md">&lt;em>UGENE Genome Aligner&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/assembly-browser/">&lt;em>Assembly Browser&lt;/em>&lt;/a>, &lt;a href="https://ugene.net/docs/extensions/bowtie/">&lt;em>Bowtie&lt;/em>&lt;/a>, &lt;a href="https://ugene.net/docs/extensions/ugene-genome-aligner/">&lt;em>UGENE Genome Aligner&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>SCF&lt;/strong>&lt;/td>
@@ -2584,7 +2584,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="chromatogram-viewer.md">&lt;em>Chromatogram Viewer&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view-extensions/chromatogram-viewer/">&lt;em>Chromatogram Viewer&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>SITECON&lt;/strong>&lt;/td>
@@ -2598,7 +2598,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sitecon.md">&lt;em>SITECON&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/extensions/sitecon/">&lt;em>SITECON&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Stockholm&lt;/strong>&lt;/td>
@@ -2612,7 +2612,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/alignment-editor/">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Swiss-Prot&lt;/strong>&lt;/td>
@@ -2626,7 +2626,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sequence-view.md">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view/">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Vector NTI Sequence&lt;/strong>&lt;/td>
@@ -2640,7 +2640,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sequence-view.md">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view/">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>VCF&lt;/strong>&lt;/td>
@@ -2654,7 +2654,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="assembly-browser.md">&lt;em>Assembly Browser&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/assembly-browser/">&lt;em>Assembly Browser&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table></description></item><item><title>Start Page</title><link>https://ugene.net/docs/basic-functions/ugene-window-components/start-page/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/basic-functions/ugene-window-components/start-page/</guid><description>&lt;h1 id="start-page">Start Page&lt;/h1>
@@ -2962,7 +2962,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929802/65929803.png" alt="">&lt;/p>
 &lt;p>Note that for large assemblies, it may take some time to calculate the overview and the well-covered regions.&lt;/p>
 &lt;p>To see the reads, either select a region from the list or zoom in, for example, by clicking the link above the well-covered regions or by rotating the mouse wheel.&lt;/p>
-&lt;p>You can also use the hotkeys. Tips about hotkeys are shown under the list of well-covered regions. To learn about available hotkeys, refer to &lt;a href="assembly-browser-hotkeys.md">&lt;em>Assembly Browser Hotkeys&lt;/em>&lt;/a>.&lt;/p></description></item><item><title>Assembly Statistics</title><link>https://ugene.net/docs/assembly-browser/options-panel-in-assembly-browser/assembly-statistics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/options-panel-in-assembly-browser/assembly-statistics/</guid><description>&lt;h1 id="assembly-statistics">Assembly Statistics&lt;/h1>
+&lt;p>You can also use the hotkeys. Tips about hotkeys are shown under the list of well-covered regions. To learn about available hotkeys, refer to &lt;a href="https://ugene.net/docs/assembly-browser/assembly-browser-hotkeys/">&lt;em>Assembly Browser Hotkeys&lt;/em>&lt;/a>.&lt;/p></description></item><item><title>Assembly Statistics</title><link>https://ugene.net/docs/assembly-browser/options-panel-in-assembly-browser/assembly-statistics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/options-panel-in-assembly-browser/assembly-statistics/</guid><description>&lt;h1 id="assembly-statistics">Assembly Statistics&lt;/h1>
 &lt;p>The &lt;em>Assembly Statistics&lt;/em> tab includes the following &lt;em>Assembly Information&lt;/em>:&lt;/p>
 &lt;ul>
 &lt;li>Name — the name of the opened assembly.&lt;/li>
@@ -4343,7 +4343,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
 &lt;li>&lt;em>windows_number&lt;/em> — number of windows in the area&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65930698/65930699.png" alt="">&lt;/p>
-&lt;p>Using the &lt;a href="graphs-package.md">&lt;em>DNA Graphs Package&lt;/em>&lt;/a>, you can see the flexibility graph of a DNA sequence.&lt;/p></description></item><item><title>Sanger Reads Editor Components</title><link>https://ugene.net/docs/sanger-reads-editor/sanger-reads-editor-overview/sanger-reads-editor-components/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sanger-reads-editor/sanger-reads-editor-overview/sanger-reads-editor-components/</guid><description>&lt;h1 id="sanger-reads-editor-components">Sanger Reads Editor Components&lt;/h1>
+&lt;p>Using the &lt;a href="https://ugene.net/docs/sequence-view-extensions/graphs-package/">&lt;em>DNA Graphs Package&lt;/em>&lt;/a>, you can see the flexibility graph of a DNA sequence.&lt;/p></description></item><item><title>Sanger Reads Editor Components</title><link>https://ugene.net/docs/sanger-reads-editor/sanger-reads-editor-overview/sanger-reads-editor-components/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sanger-reads-editor/sanger-reads-editor-overview/sanger-reads-editor-components/</guid><description>&lt;h1 id="sanger-reads-editor-components">Sanger Reads Editor Components&lt;/h1>
 &lt;p>Here is the default layout of the editor:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929759/65929760.png" alt="">&lt;/p></description></item><item><title>Schema Elements</title><link>https://ugene.net/docs/query-designer/query-designer-introduction/terminology/schema-elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-designer-introduction/terminology/schema-elements/</guid><description>&lt;h1 id="schema-elements">Schema Elements&lt;/h1>
 &lt;p>The &lt;em>Scene&lt;/em> is initially empty, and you start by creating a &lt;em>schema&lt;/em> on it.&lt;/p>
@@ -4437,7 +4437,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="dotplot.md">&lt;em>Dotplot&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view-extensions/dotplot/">&lt;em>Dotplot&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>UGENE database file&lt;/strong>&lt;/td>
@@ -4465,7 +4465,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/alignment-editor/">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>UGENE Workflow Language&lt;/strong>&lt;/td>
@@ -4479,7 +4479,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="workflow-designer.md">&lt;em>Workflow Designer&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/workflow-designer/">&lt;em>Workflow Designer&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>UGENE Query Language&lt;/strong>&lt;/td>
@@ -4507,7 +4507,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="workflow-designer.md">&lt;em>Workflow Designer&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/workflow-designer/">&lt;em>Workflow Designer&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table></description></item><item><title>User Interface</title><link>https://ugene.net/docs/about-ugene/user-interface/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/about-ugene/user-interface/</guid><description>&lt;h1 id="user-interface">User Interface&lt;/h1>
@@ -4790,7 +4790,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929863/65929864.png" alt="">&lt;/p>
 &lt;p>To learn more about &lt;em>Reads Area&lt;/em> settings, refer to the &lt;a href="../short-reads-vizualization/reads-highlighting">&lt;em>Reads Area Settings&lt;/em>&lt;/a> chapter.&lt;/p>
 &lt;p>To learn more about &lt;em>Consensus&lt;/em>, see the &lt;a href="../consensus-sequence">&lt;em>Consensus Sequence&lt;/em>&lt;/a> chapter.&lt;/p>
-&lt;p>To learn more about the &lt;em>Ruler&lt;/em>, see the &lt;a href="browsing-and-zooming-assembly.md">&lt;em>Browsing and Zooming Assembly&lt;/em>&lt;/a> chapter.&lt;/p></description></item><item><title>Assembly Browser Window Components</title><link>https://ugene.net/docs/assembly-browser/browsing-and-zooming-assembly/assembly-browser-window-components/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/browsing-and-zooming-assembly/assembly-browser-window-components/</guid><description>&lt;h1 id="assembly-browser-window-components">Assembly Browser Window Components&lt;/h1>
+&lt;p>To learn more about the &lt;em>Ruler&lt;/em>, see the &lt;a href="https://ugene.net/docs/assembly-browser/browsing-and-zooming-assembly/">&lt;em>Browsing and Zooming Assembly&lt;/em>&lt;/a> chapter.&lt;/p></description></item><item><title>Assembly Browser Window Components</title><link>https://ugene.net/docs/assembly-browser/browsing-and-zooming-assembly/assembly-browser-window-components/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/browsing-and-zooming-assembly/assembly-browser-window-components/</guid><description>&lt;h1 id="assembly-browser-window-components">Assembly Browser Window Components&lt;/h1>
 &lt;p>An Assembly Browser window consists of the following components:&lt;/p>
 &lt;p>&lt;strong>Assembly Overview&lt;/strong>&lt;/p>
 &lt;p>By default, this shows the entire assembly overview. It can be resized to provide an overview of part of an assembly.&lt;/p>
@@ -5007,7 +5007,7 @@ Workflow Designer samples.&lt;/p></description></item><item><title>Cooperation</
 &lt;/li>
 &lt;li>
 &lt;p>Select the &lt;em>Copy/Paste-&amp;gt;Copy (custom format)&lt;/em> context menu item in the context menu or use the hotkey &lt;em>Ctrl+Shift+C.&lt;/em>&lt;/p></description></item><item><title>Creating Custom CLI Tasks</title><link>https://ugene.net/docs/ugene-command-line-interface/creating-custom-cli-tasks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/creating-custom-cli-tasks/</guid><description>&lt;h1 id="creating-custom-cli-tasks">Creating Custom CLI Tasks&lt;/h1>
-&lt;p>The &lt;a href="cli-predefined-tasks.md">&lt;em>predefined tasks&lt;/em>&lt;/a> are actually the &lt;a href="workflow-designer.md">&lt;em>Workflow Designer&lt;/em>&lt;/a> schemas stored in the $UGENE/data/cmdline directory.&lt;/p>
+&lt;p>The &lt;a href="https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/">&lt;em>predefined tasks&lt;/em>&lt;/a> are actually the &lt;a href="https://ugene.net/docs/workflow-designer/">&lt;em>Workflow Designer&lt;/em>&lt;/a> schemas stored in the $UGENE/data/cmdline directory.&lt;/p>
 &lt;p>Follow the instructions in the &lt;a href="https://ugene.unipro.ru/wiki/display/WDD/Workflow+Designer+Manual">Workflow Designer Manual&lt;/a> on how to create a schema and run it from the command line.&lt;/p>
 &lt;p>You may also find the following video tutorial useful, which is devoted to creating a custom console command:&lt;/p>
 &lt;ul>
@@ -5326,9 +5326,9 @@ Workflow Designer samples.&lt;/p></description></item><item><title>Cooperation</
 &lt;p>The &lt;em>Fetch Sequence from BLAST Database&lt;/em> dialog will appear. It fetches sequences by &amp;lsquo;id&amp;rsquo; from the &amp;lsquo;blast result&amp;rsquo; context menu item of the BLAST result.&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65930731/65930732.jpg" alt="">&lt;/p>
 &lt;p>Here you need to select a query ID, database, type of file(s), and output path. After that, click on the &lt;em>Fetch&lt;/em> button. To fetch sequences for several annotations at the same time, select the BLAST results with the &lt;em>Ctrl&lt;/em> key and call the &lt;em>Fetch sequences from local BLAST database-&amp;gt;Fetch sequences by &amp;lsquo;id&amp;rsquo; from &amp;lsquo;blast result&amp;rsquo;&lt;/em> context menu item.&lt;/p></description></item><item><title>Fetching Sequences from Remote Database</title><link>https://ugene.net/docs/extensions/remote-blast/fetching-sequences-from-remote-database/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/remote-blast/fetching-sequences-from-remote-database/</guid><description>&lt;h1 id="fetching-sequences-from-remote-database">Fetching Sequences from Remote Database&lt;/h1>
-&lt;p>Each result annotation found with the &lt;em>&lt;a href="remote-blast.md">remote BLAST&lt;/a>&lt;/em> in UGENE has &amp;ldquo;accession&amp;rdquo; and &amp;ldquo;id&amp;rdquo; qualifiers that can be used to fetch the corresponding sequences from the NCBI. The most efficient way to fetch the sequences for several annotations is as follows:&lt;/p>
+&lt;p>Each result annotation found with the &lt;em>&lt;a href="https://ugene.net/docs/extensions/remote-blast/">remote BLAST&lt;/a>&lt;/em> in UGENE has &amp;ldquo;accession&amp;rdquo; and &amp;ldquo;id&amp;rdquo; qualifiers that can be used to fetch the corresponding sequences from the NCBI. The most efficient way to fetch the sequences for several annotations is as follows:&lt;/p>
 &lt;ul>
-&lt;li>Select the annotations in the &lt;em>&lt;a href="annotations-editor.md">Annotations Editor&lt;/a>.&lt;/em>&lt;/li>
+&lt;li>Select the annotations in the &lt;em>&lt;a href="https://ugene.net/docs/sequence-view/annotations-editor/">Annotations Editor&lt;/a>.&lt;/em>&lt;/li>
 &lt;li>Open the context menu.&lt;/li>
 &lt;li>Choose either the &lt;em>Fetch sequences from remote database-&amp;gt;Fetch sequences by &amp;lsquo;id&amp;rsquo; from &amp;lsquo;blast result&amp;rsquo;&lt;/em> item or the &lt;em>Fetch sequences from remote database-&amp;gt;Fetch sequences by &amp;lsquo;accession&amp;rsquo; from &amp;lsquo;blast result&amp;rsquo;&lt;/em> item.&lt;/li>
 &lt;/ul>
@@ -5654,7 +5654,7 @@ The &amp;ldquo;Align with MUSCLE&amp;rdquo; element will have a red frame.&lt;/l
  &lt;tbody>
  &lt;tr>
  &lt;td>&lt;strong>*.csv&lt;/strong>&lt;/td>
- &lt;td>&lt;strong>Example of usage:&lt;/strong> Annotations can be exported to this format; the &lt;a href="weight-matrix.md">&lt;em>Weight Matrix&lt;/em>&lt;/a> matrices list can also be saved to this format.&lt;/td>
+ &lt;td>&lt;strong>Example of usage:&lt;/strong> Annotations can be exported to this format; the &lt;a href="https://ugene.net/docs/extensions/weight-matrix/">&lt;em>Weight Matrix&lt;/em>&lt;/a> matrices list can also be saved to this format.&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>*.html&lt;/strong>&lt;/td>
@@ -5868,7 +5868,7 @@ This can also be done from UGENE using the option &lt;a href="../../basic-functi
 &lt;p>When you save a schema for the first time, the &lt;em>Save Schema&lt;/em> dialog appears, where you should input a name and browse for a location for the schema file. The schema is saved to a file with the *.uql extension.&lt;/p>
 &lt;p>To save a schema to a different file, select the &lt;em>Save Schema As&lt;/em> item on the toolbar or in the &lt;em>Actions&lt;/em> main menu.&lt;/p></description></item><item><title>Saving Workflow</title><link>https://ugene.net/docs/workflow-designer/manipulating-workflow/saving-workflow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/manipulating-workflow/saving-workflow/</guid><description>&lt;h1 id="saving-workflow">Saving Workflow&lt;/h1>
 &lt;p>Select the &lt;em>Actions ‣ Save workflow&lt;/em> item in the main menu or the &lt;em>Save workflow&lt;/em> toolbar button to save a workflow. The workflow is saved to a file in UGENE&amp;rsquo;s native format (with a .uwl extension).&lt;/p>
-&lt;p>The format is human-readable. You can find its description in the chapter &lt;a href="workflow-file-format.md">&lt;em>Workflow File Format&lt;/em>&lt;/a>.&lt;/p>
+&lt;p>The format is human-readable. You can find its description in the chapter &lt;a href="https://ugene.net/docs/workflow-designer/workflow-file-format/">&lt;em>Workflow File Format&lt;/em>&lt;/a>.&lt;/p>
 &lt;p>There is a Ctrl+S keyboard shortcut for this action.&lt;/p>
 &lt;p>If you are saving a workflow for the first time, the &lt;em>Workflow properties&lt;/em> dialog appears:&lt;/p></description></item><item><title>Search for TFBS</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/data-merging/search-for-tfbs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/data-merging/search-for-tfbs/</guid><description>&lt;h1 id="search-for-tfbs">Search for TFBS&lt;/h1>
 &lt;p>This sample demonstrates how to search for transcription factor binding sites (TFBS) using two different approaches - weight matrices and SITECON models - and to write the identified TFBS annotations into one output file.&lt;/p>
@@ -6080,7 +6080,7 @@ This can also be done from UGENE using the option &lt;a href="../../basic-functi
 &lt;p>You can choose to either show or hide a &lt;em>schema&lt;/em> &lt;strong>title&lt;/strong> and &lt;strong>description&lt;/strong> on the &lt;em>Scene&lt;/em> by checking or unchecking the &lt;em>Show title&lt;/em> and &lt;em>Show description&lt;/em> options in the &lt;em>View Mode&lt;/em> toolbar menu.&lt;/p>
 &lt;p>In the image below, both the &lt;strong>title&lt;/strong> and &lt;strong>description&lt;/strong> are displayed:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65930642/65930643.png" alt="">&lt;/p>
-&lt;p>Selecting an element direction changes its appearance. See &lt;a href="managing-strands.md">&lt;em>Managing Strands&lt;/em>&lt;/a> for details.&lt;/p></description></item><item><title>Collocation Search Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/collocation-search-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/collocation-search-element/</guid><description>&lt;h1 id="collocation-search-element">Collocation Search Element&lt;/h1>
+&lt;p>Selecting an element direction changes its appearance. See &lt;a href="https://ugene.net/docs/query-designer/manipulating-schema/managing-strands/">&lt;em>Managing Strands&lt;/em>&lt;/a> for details.&lt;/p></description></item><item><title>Collocation Search Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/collocation-search-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/collocation-search-element/</guid><description>&lt;h1 id="collocation-search-element">Collocation Search Element&lt;/h1>
 &lt;p>The Collocation Search Element finds groups of specified annotations within each supplied set of annotations and stores the identified regions as annotations.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> collocated-annotation-search&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
@@ -7132,7 +7132,7 @@ tools, please read the main &lt;a href="http://ugene.unipro.ru/documentation.htm
 &lt;p>To associate a reference sequence with the assembly, use one of the following methods:&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>&lt;em>&lt;a href="opening-document.md">Open the sequence&lt;/a>&lt;/em> (the sequence must be loaded) and drag it to the &lt;em>Assembly Reference Area&lt;/em>:&lt;/p>
+&lt;p>&lt;em>&lt;a href="https://ugene.net/docs/basic-functions/opening-document/">Open the sequence&lt;/a>&lt;/em> (the sequence must be loaded) and drag it to the &lt;em>Assembly Reference Area&lt;/em>:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929828/65929829.png" alt="">&lt;/p>
 &lt;/li>
 &lt;li>
@@ -7392,7 +7392,7 @@ tools, please read the main &lt;a href="http://ugene.unipro.ru/documentation.htm
 &lt;ul>
 &lt;li>&lt;em>Element Name&lt;/em> sets the name of the current element.&lt;/li>
 &lt;li>&lt;em>Annotate As&lt;/em> sets the name of the result annotations.&lt;/li>
-&lt;li>&lt;em>Direction&lt;/em> specifies the direction of the current element relative to other elements in the schema (i.e., whether the result must be searched in the current strand of the input sequence or in the reverse complementary strand). To learn more, read &lt;a href="managing-strands.md">&lt;em>Managing Strands&lt;/em>&lt;/a>.&lt;/li>
+&lt;li>&lt;em>Direction&lt;/em> specifies the direction of the current element relative to other elements in the schema (i.e., whether the result must be searched in the current strand of the input sequence or in the reverse complementary strand). To learn more, read &lt;a href="https://ugene.net/docs/query-designer/manipulating-schema/managing-strands/">&lt;em>Managing Strands&lt;/em>&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;p>Other parameters can be found in the &lt;em>Parameters&lt;/em> area. Depending on the parameter in question, the value is selected either from a drop-down list, a spinbox, etc.&lt;/p></description></item><item><title>Map Reads with BWA-MEM Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-bwa-mem-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-bwa-mem-element/</guid><description>&lt;h1 id="map-reads-with-bwa-mem-element">Map Reads with BWA-MEM Element&lt;/h1>
 &lt;p>Performs alignment of short reads using BWA-MEM.&lt;/p>
@@ -8010,7 +8010,7 @@ tools, please read the main &lt;a href="http://ugene.unipro.ru/documentation.htm
 &lt;/table>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
 &lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Associating Variations</title><link>https://ugene.net/docs/assembly-browser/associating-variations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/associating-variations/</guid><description>&lt;h1 id="associating-variations">Associating Variations&lt;/h1>
-&lt;p>To associate variations with the assembly, &lt;a href="opening-document.md">&lt;em>open the sequence&lt;/em>&lt;/a> (the sequence must be loaded) and drag it to the &lt;em>Assembly Reference Area&lt;/em>:&lt;/p>
+&lt;p>To associate variations with the assembly, &lt;a href="https://ugene.net/docs/basic-functions/opening-document/">&lt;em>open the sequence&lt;/em>&lt;/a> (the sequence must be loaded) and drag it to the &lt;em>Assembly Reference Area&lt;/em>:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929834/65929835.png" alt="">&lt;/p>
 &lt;p>The variations will appear under the &lt;em>Consensus Sequence&lt;/em>:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929834/65929836.png" alt="">&lt;/p>
@@ -8429,7 +8429,7 @@ tools, please read the main &lt;a href="http://ugene.unipro.ru/documentation.htm
 &lt;p>The direct and complement cut site positions are visualized as triangles on an annotation in the &lt;em>Sequence details view&lt;/em>:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/4227643/4457100.png" alt="">&lt;/p></description></item><item><title>Ruler and Coverage Graph Description</title><link>https://ugene.net/docs/assembly-browser/browsing-and-zooming-assembly/ruler-and-coverage-graph-description/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/browsing-and-zooming-assembly/ruler-and-coverage-graph-description/</guid><description>&lt;h1 id="ruler-and-coverage-graph-description">Ruler and Coverage Graph Description&lt;/h1>
 &lt;p>The &lt;em>Ruler&lt;/em> displays the coordinates in the &lt;em>Reads Area&lt;/em>. When you move the mouse cursor in the Reads Area, the coordinate of the selected location along with the coverage of reads is highlighted on the ruler in dark red. The Coverage Graph shows the exact coverage of the sequence at each position. For example, in the image below, the coordinate is 9168 and the coverage of reads is 251.&lt;/p></description></item><item><title>Running Workflow</title><link>https://ugene.net/docs/workflow-designer/manipulating-workflow/running-workflow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/manipulating-workflow/running-workflow/</guid><description>&lt;h1 id="running-workflow">Running Workflow&lt;/h1>
-&lt;p>Once you are satisfied with the designed workflow and have it configured, click the &lt;em>Run workflow&lt;/em> button on the toolbar (alternatively, you can select the &lt;em>Actions ‣ Run workflow&lt;/em> item in the main menu or launch it by pressing Ctrl+R). The workflow gets verified and scheduled for background execution. If you continue editing the workflow, this will not affect the launched execution. You can control the workflow execution via the &lt;a href="https://ugene.net/docs/workflow-designer/introduction/ugene-components-and-workflow-designer/task-view-notifications-and-log-view">&lt;em>Task View&lt;/em>&lt;/a>: watch progress, cancel it, etc. Upon completion, the Workflow Designer produces a &lt;em>&lt;a href="dashboard.md">dashboard&lt;/a>&lt;/em> with a summary report. The report displays the status of each iteration execution and provides other details.&lt;/p></description></item><item><title>Selecting All Elements on Scene</title><link>https://ugene.net/docs/workflow-designer/manipulating-element/selecting-all-elements-on-scene/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/manipulating-element/selecting-all-elements-on-scene/</guid><description>&lt;h1 id="selecting-all-elements-on-scene">Selecting All Elements on Scene&lt;/h1>
+&lt;p>Once you are satisfied with the designed workflow and have it configured, click the &lt;em>Run workflow&lt;/em> button on the toolbar (alternatively, you can select the &lt;em>Actions ‣ Run workflow&lt;/em> item in the main menu or launch it by pressing Ctrl+R). The workflow gets verified and scheduled for background execution. If you continue editing the workflow, this will not affect the launched execution. You can control the workflow execution via the &lt;a href="https://ugene.net/docs/workflow-designer/introduction/ugene-components-and-workflow-designer/task-view-notifications-and-log-view">&lt;em>Task View&lt;/em>&lt;/a>: watch progress, cancel it, etc. Upon completion, the Workflow Designer produces a &lt;em>&lt;a href="https://ugene.net/docs/workflow-designer/manipulating-workflow/dashboard/">dashboard&lt;/a>&lt;/em> with a summary report. The report displays the status of each iteration execution and provides other details.&lt;/p></description></item><item><title>Selecting All Elements on Scene</title><link>https://ugene.net/docs/workflow-designer/manipulating-element/selecting-all-elements-on-scene/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/manipulating-element/selecting-all-elements-on-scene/</guid><description>&lt;h1 id="selecting-all-elements-on-scene">Selecting All Elements on Scene&lt;/h1>
 &lt;p>To select all &lt;a href="../introduction/workflow-elements-and-connections">&lt;em>workflow elements&lt;/em>&lt;/a> present on the &lt;a href="../introduction/workflow-designer-window-components">&lt;em>Scene&lt;/em>&lt;/a>, choose &lt;em>Select all elements&lt;/em> in the &lt;em>Actions&lt;/em> main menu or in the Scene context menu.&lt;/p>
 &lt;p>Alternatively, use the Ctrl+A hotkey.&lt;/p></description></item><item><title>Structural Alignment</title><link>https://ugene.net/docs/sequence-view-extensions/3d-structure-viewer/structural-alignment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view-extensions/3d-structure-viewer/structural-alignment/</guid><description>&lt;h1 id="structural-alignment">Structural Alignment&lt;/h1>
 &lt;p>To use the structural alignment, select the &lt;em>Structural alignment-&amp;gt;Align with&lt;/em> context menu item. The following dialog will appear:&lt;/p>
@@ -8799,7 +8799,7 @@ tools, please read the main &lt;a href="http://ugene.unipro.ru/documentation.htm
 &lt;p>To navigate to a specific position in an assembly, use the following field located on the Assembly Browser toolbar.&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929814/65929815.png" alt="">&lt;/p>
 &lt;p>Input the location and click the &lt;em>Go!&lt;/em> button. A similar &lt;em>Go!&lt;/em> field is also available on the &lt;em>Navigation&lt;/em> tab of the &lt;em>Options Panel&lt;/em>.&lt;/p></description></item><item><title>How to Use Sample Workflows</title><link>https://ugene.net/docs/workflow-designer/introduction/how-to-use-sample-workflows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/introduction/how-to-use-sample-workflows/</guid><description>&lt;h1 id="how-to-use-sample-workflows">How to Use Sample Workflows&lt;/h1>
-&lt;p>The &lt;a href="../about-the-workflow-designer">UGENE Workflow Designer&lt;/a> contains a set of sample workflows that help biologists solve specific tasks for multiple input files or datasets simultaneously. The list of samples can be found in the &lt;a href="workflow-samples.md">Workflow Samples section&lt;/a> of the documentation.&lt;/p>
+&lt;p>The &lt;a href="../about-the-workflow-designer">UGENE Workflow Designer&lt;/a> contains a set of sample workflows that help biologists solve specific tasks for multiple input files or datasets simultaneously. The list of samples can be found in the &lt;a href="https://ugene.net/docs/workflow-designer/workflow-samples/">Workflow Samples section&lt;/a> of the documentation.&lt;/p>
 &lt;p>To use a sample:&lt;/p>
 &lt;ol>
 &lt;li>
@@ -9024,7 +9024,7 @@ tools, please read the main &lt;a href="http://ugene.unipro.ru/documentation.htm
 &lt;ul>
 &lt;li>Port of the popular &lt;a href="../../extensions/umuscle/muscle-aligning">&lt;em>MUSCLE3&lt;/em>&lt;/a> algorithm.&lt;/li>
 &lt;li>KAlign plugin: effective for working with large alignments.&lt;/li>
-&lt;li>ClustalW and MAFFT: These algorithms appeared in version 1.7.2 of UGENE with the &lt;a href="external-tools-plugin.md">&lt;em>External Tools&lt;/em>&lt;/a> plugin.&lt;/li>
+&lt;li>ClustalW and MAFFT: These algorithms appeared in version 1.7.2 of UGENE with the &lt;a href="https://ugene.net/docs/extensions/external-tools-plugin/">&lt;em>External Tools&lt;/em>&lt;/a> plugin.&lt;/li>
 &lt;li>T-Coffee: This alignment algorithm has been available since version 1.8.1 of UGENE with the &lt;em>External Tools&lt;/em> plugin.&lt;/li>
 &lt;li>ClustalO: Clustal Omega is the latest addition to the Clustal family. It offers a significant increase in scalability over previous versions, allowing hundreds of thousands of sequences to be aligned in only a few hours.&lt;/li>
 &lt;/ul>
@@ -9638,7 +9638,7 @@ the &lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sampl
 Designer samples.&lt;/p></description></item><item><title>Deleting Annotations and Qualifiers</title><link>https://ugene.net/docs/sequence-view/manipulating-annotations/deleting-annotations-and-qualifiers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/sequence-view/manipulating-annotations/deleting-annotations-and-qualifiers/</guid><description>&lt;h1 id="deleting-annotations-and-qualifiers">Deleting Annotations and Qualifiers&lt;/h1>
 &lt;p>Selected annotations, groups, and qualifiers can be deleted using the Delete key.&lt;/p>
 &lt;p>To remove an annotation object from the active view, select the object in the &lt;em>Annotations editor&lt;/em> and press Shift-Delete. Note that the object will not be removed from the project, but just from the active &lt;em>Sequence View&lt;/em>. To add the object again, simply drag and drop it into the &lt;em>Sequence View&lt;/em>.&lt;/p></description></item><item><title>Exporting Documents</title><link>https://ugene.net/docs/basic-functions/exporting-documents/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/basic-functions/exporting-documents/</guid><description>&lt;h1 id="exporting-documents">Exporting Documents&lt;/h1>
-&lt;p>If a document has a format that supports writing in UGENE (see the &lt;a href="Appendix-A.supported-file-formats.md">&lt;em>Supported File Formats&lt;/em>&lt;/a> chapter), you can export the document to a new document in the required format.&lt;/p>
+&lt;p>If a document has a format that supports writing in UGENE (see the &lt;a href="https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/">&lt;em>Supported File Formats&lt;/em>&lt;/a> chapter), you can export the document to a new document in the required format.&lt;/p>
 &lt;p>To do so, use the &lt;em>Export document&lt;/em> item in the context menu:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929295/69402642.png" alt="">&lt;/p>
 &lt;p>The following dialog appears:&lt;/p>
@@ -10413,7 +10413,7 @@ with support for flexible matching and ambiguity handling.&lt;/p></description><
 &lt;p>The lock icon in the document element indicates that the document cannot be modified:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929299/65929300.png" alt="">&lt;/p>
 &lt;p>UGENE does not allow modification of some formats that were not created by UGENE.&lt;/p>
-&lt;p>If UGENE is able only to read a document (see the &lt;a href="Appendix-A.supported-file-formats.md">&lt;em>Supported File Formats&lt;/em>&lt;/a> chapter), you can export the document objects to a file. To do this, use the &lt;a href="exporting-objects.md">&lt;em>built-in export utilities&lt;/em>&lt;/a>.&lt;/p></description></item><item><title>Pairwise Alignment</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/pairwise-alignment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/pairwise-alignment/</guid><description>&lt;h1 id="pairwise-alignment">Pairwise Alignment&lt;/h1>
+&lt;p>If UGENE is able only to read a document (see the &lt;a href="https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/">&lt;em>Supported File Formats&lt;/em>&lt;/a> chapter), you can export the document objects to a file. To do this, use the &lt;a href="https://ugene.net/docs/basic-functions/exporting-objects/">&lt;em>built-in export utilities&lt;/em>&lt;/a>.&lt;/p></description></item><item><title>Pairwise Alignment</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/pairwise-alignment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/pairwise-alignment/</guid><description>&lt;h1 id="pairwise-alignment">Pairwise Alignment&lt;/h1>
 &lt;p>To align two sequences, navigate to the &lt;em>Pairwise Alignment&lt;/em> tab in the &lt;em>Options Panel&lt;/em>:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929675/96666065.png" alt="">&lt;/p>
 &lt;p>Select two sequences from the original alignment, adjust the parameters, and click on the &lt;em>Align&lt;/em> button. The following parameters are available:&lt;/p>
@@ -12155,7 +12155,7 @@ with support for flexible matching and ambiguity handling.&lt;/p></description><
 &lt;p>If you are using Windows OS, there are no additional configuration steps required, as the &lt;em>ClustalW&lt;/em> executable file is included in the UGENE distribution package. Otherwise:&lt;/p>
 &lt;ul>
 &lt;li>Install the &lt;em>Clustal&lt;/em> program on your system.&lt;/li>
-&lt;li>Set the path to the &lt;em>ClustalW&lt;/em> executable on the &lt;a href="external-tools-plugin.md">&lt;em>External tools&lt;/em>&lt;/a> tab of the UGENE &lt;a href="ugene-application-settings.md">&lt;em>Application Settings&lt;/em>&lt;/a> dialog.&lt;/li>
+&lt;li>Set the path to the &lt;em>ClustalW&lt;/em> executable on the &lt;a href="https://ugene.net/docs/extensions/external-tools-plugin/">&lt;em>External tools&lt;/em>&lt;/a> tab of the UGENE &lt;a href="https://ugene.net/docs/basic-functions/ugene-application-settings/">&lt;em>Application Settings&lt;/em>&lt;/a> dialog.&lt;/li>
 &lt;/ul>
 &lt;p>Now you are able to use &lt;em>Clustal&lt;/em> from UGENE.&lt;/p></description></item><item><title>ORF Marker Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/orf-marker-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/orf-marker-element/</guid><description>&lt;h1 id="orf-marker-element">ORF Marker Element&lt;/h1>
 &lt;p>Identifies Open Reading Frames (ORFs) in each supplied nucleotide sequence and stores the identified regions as annotations.&lt;/p>
@@ -12321,7 +12321,7 @@ with support for flexible matching and ambiguity handling.&lt;/p></description><
 &lt;p>Install the &lt;em>MAFFT&lt;/em> program on your system.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Set the path to the &lt;em>MAFFT&lt;/em> executable on the &lt;a href="external-tools.md">&lt;em>External tools&lt;/em>&lt;/a> tab of the UGENE &lt;em>&lt;a href="ugene-application-settings.md">Application Settings&lt;/a>&lt;/em> dialog.&lt;/p>
+&lt;p>Set the path to the &lt;em>MAFFT&lt;/em> executable on the &lt;a href="https://ugene.net/docs/basic-functions/ugene-application-settings/external-tools/">&lt;em>External tools&lt;/em>&lt;/a> tab of the UGENE &lt;em>&lt;a href="https://ugene.net/docs/basic-functions/ugene-application-settings/">Application Settings&lt;/a>&lt;/em> dialog.&lt;/p>
 &lt;p>For example, on Windows, you need to specify the path to the mafft.bat file.&lt;/p></description></item><item><title>Raw RNA-Seq Data Processing</title><link>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/raw-rna-seq-data-processing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-samples/ngs/raw-rna-seq-data-processing/</guid><description>&lt;h1 id="raw-rna-seq-data-processing">Raw RNA-Seq Data Processing&lt;/h1>
 &lt;p>Use this workflow sample to process raw RNA-seq next-generation sequencing (NGS) data from the Illumina platform. The processing includes:&lt;/p>
 &lt;ul>
@@ -12495,7 +12495,7 @@ with support for flexible matching and ambiguity handling.&lt;/p></description><
 &lt;p>&lt;strong>Attention:&lt;/strong> This tool has been removed from UGENE since version 50.0.&lt;/p>
 &lt;p>T-Coffee is a multiple sequence alignment package.&lt;/p>
 &lt;p>&lt;strong>T-Coffee home page:&lt;/strong> &lt;a href="http://www.tcoffee.org/Projects_home_page/t_coffee_home_page.html">T-Coffee&lt;/a>&lt;/p>
-&lt;p>To make &lt;em>T-Coffee&lt;/em> available from UGENE, see the &lt;a href="external-tools.md">&lt;em>External Tools&lt;/em>&lt;/a>.&lt;/p>
+&lt;p>To make &lt;em>T-Coffee&lt;/em> available from UGENE, see the &lt;a href="https://ugene.net/docs/basic-functions/ugene-application-settings/external-tools/">&lt;em>External Tools&lt;/em>&lt;/a>.&lt;/p>
 &lt;p>To use &lt;em>T-Coffee&lt;/em>, open a multiple sequence alignment file and select the &lt;em>Align with T-Coffee&lt;/em> item in the context menu or in the &lt;em>Actions&lt;/em> main menu. The following dialog appears:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/19759723/19894622.bmp" alt="">&lt;/p>
 &lt;p>The following parameters are available:&lt;/p>
@@ -12804,7 +12804,7 @@ with support for flexible matching and ambiguity handling.&lt;/p></description><
 &lt;/li>
 &lt;li>
 &lt;p>&lt;em>accumulate&lt;/em> - Accumulate all incoming data in one file or create separate files for each input. In the latter case, an incremental numerical suffix is added to the file name (&amp;lsquo;True&amp;rsquo; is used by default) [Boolean]&lt;/p></description></item><item><title>CAP3</title><link>https://ugene.net/docs/extensions/cap3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/cap3/</guid><description>&lt;h1 id="cap3">CAP3&lt;/h1>
-&lt;p>&lt;a href="http://genome.cshlp.org/content/9/9/868.full">CAP3 (CONTIG ASSEMBLY PROGRAM Version 3)&lt;/a> is a sequence assembly program for small-scale assembly with or without quality values. Click &lt;a href="http://seq.cs.iastate.edu/">this link&lt;/a> to open the &lt;em>CAP3&lt;/em> homepage. &lt;em>CAP3&lt;/em> is embedded as an &lt;a href="external-tools-plugin.md">&lt;em>external tool&lt;/em>&lt;/a> into UGENE.&lt;/p>
+&lt;p>&lt;a href="http://genome.cshlp.org/content/9/9/868.full">CAP3 (CONTIG ASSEMBLY PROGRAM Version 3)&lt;/a> is a sequence assembly program for small-scale assembly with or without quality values. Click &lt;a href="http://seq.cs.iastate.edu/">this link&lt;/a> to open the &lt;em>CAP3&lt;/em> homepage. &lt;em>CAP3&lt;/em> is embedded as an &lt;a href="https://ugene.net/docs/extensions/external-tools-plugin/">&lt;em>external tool&lt;/em>&lt;/a> into UGENE.&lt;/p>
 &lt;p>Open the &lt;em>Tools ‣ Sanger data analysis&lt;/em> submenu of the main menu.&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/23331222/24117249.jpg" alt="">&lt;/p>
 &lt;p>Select the &lt;em>Reads de novo assembly (with CAP3)&lt;/em> item to use &lt;em>CAP3&lt;/em>.&lt;/p>
@@ -12877,7 +12877,7 @@ with support for flexible matching and ambiguity handling.&lt;/p></description><
 &lt;/li>
 &lt;li>
 &lt;p>&lt;em>length&lt;/em> - Length of the resulting sequence(s) (default is &amp;lsquo;1000&amp;rsquo; bp) [Number]&lt;/p></description></item><item><title>SPAdes</title><link>https://ugene.net/docs/extensions/spades/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/spades/</guid><description>&lt;h1 id="spades">SPAdes&lt;/h1>
-&lt;p>SPAdes – St. Petersburg genome assembler. Click &lt;a href="http://bioinf.spbau.ru/en/spades">this link&lt;/a> to open the SPAdes homepage. SPAdes is embedded as an &lt;a href="external-tools-plugin.md">&lt;em>external tool&lt;/em>&lt;/a> into UGENE.&lt;/p>
+&lt;p>SPAdes – St. Petersburg genome assembler. Click &lt;a href="http://bioinf.spbau.ru/en/spades">this link&lt;/a> to open the SPAdes homepage. SPAdes is embedded as an &lt;a href="https://ugene.net/docs/extensions/external-tools-plugin/">&lt;em>external tool&lt;/em>&lt;/a> into UGENE.&lt;/p>
 &lt;p>The SPAdes tool is available on macOS and Linux operating systems only.&lt;/p>
 &lt;p>Open &lt;em>Tools ‣ NGS data analysis&lt;/em>.&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/17467820/17631708.png" alt="">&lt;/p>

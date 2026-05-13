@@ -22,7 +22,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="chromatogram-viewer.md">&lt;em>Chromatogram Viewer&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view-extensions/chromatogram-viewer/">&lt;em>Chromatogram Viewer&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>ACE&lt;/strong>&lt;/td>
@@ -36,7 +36,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/alignment-editor/">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>APR&lt;/strong>&lt;/td>
@@ -50,7 +50,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/alignment-editor/">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Bairoch&lt;/strong>&lt;/td>
@@ -64,7 +64,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="restriction-analysis.md">&lt;em>Restriction Analysis&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/extensions/restriction-analysis/">&lt;em>Restriction Analysis&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>BAM&lt;/strong>&lt;/td>
@@ -78,7 +78,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="assembly-browser.md">&lt;em>Assembly Browser&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/assembly-browser/">&lt;em>Assembly Browser&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>ClustalW&lt;/strong>&lt;/td>
@@ -92,7 +92,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/alignment-editor/">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>EBWT&lt;/strong>&lt;/td>
@@ -106,7 +106,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="bowtie.md">&lt;em>Bowtie&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/extensions/bowtie/">&lt;em>Bowtie&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>EMBL&lt;/strong>&lt;/td>
@@ -120,7 +120,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sequence-view.md">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view/">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>FASTA&lt;/strong>&lt;/td>
@@ -134,7 +134,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sequence-view.md">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view/">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>FASTQ&lt;/strong>&lt;/td>
@@ -155,7 +155,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sequence-view.md">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view/">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Genbank&lt;/strong>&lt;/td>
@@ -169,7 +169,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sequence-view.md">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view/">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>GFF&lt;/strong>&lt;/td>
@@ -183,7 +183,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sequence-view.md">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view/">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>HMM&lt;/strong>&lt;/td>
@@ -197,7 +197,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="hmm2.md">&lt;em>HMM2&lt;/em>&lt;/a>, &lt;a href="hmm3.md">&lt;em>HMM3&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/extensions/hmm2/">&lt;em>HMM2&lt;/em>&lt;/a>, &lt;a href="https://ugene.net/docs/extensions/hmm3/">&lt;em>HMM3&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>MMDB&lt;/strong>&lt;/td>
@@ -211,7 +211,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="3d-structure-viewer.md">&lt;em>3D Structure Viewer&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view-extensions/3d-structure-viewer/">&lt;em>3D Structure Viewer&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>MSF&lt;/strong>&lt;/td>
@@ -225,7 +225,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/alignment-editor/">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Mega&lt;/strong>&lt;/td>
@@ -239,7 +239,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/alignment-editor/">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Newick&lt;/strong>&lt;/td>
@@ -253,7 +253,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="building-phylogenetic-tree.md">&lt;em>Building Phylogenetic Tree&lt;/em>&lt;/a>, &lt;a href="phylogenetic-tree-viewer.md">&lt;em>Phylogenetic Tree Viewer&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/alignment-editor/building-phylogenetic-tree/">&lt;em>Building Phylogenetic Tree&lt;/em>&lt;/a>, &lt;a href="https://ugene.net/docs/phylogenetic-tree-viewer/">&lt;em>Phylogenetic Tree Viewer&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Nexus&lt;/strong>&lt;/td>
@@ -267,7 +267,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>, &lt;a href="building-phylogenetic-tree.md">&lt;em>Building Phylogenetic Tree&lt;/em>&lt;/a>, &lt;a href="phylogenetic-tree-viewer.md">&lt;em>Phylogenetic Tree Viewer&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/alignment-editor/">&lt;em>Alignment Editor&lt;/em>&lt;/a>, &lt;a href="https://ugene.net/docs/alignment-editor/building-phylogenetic-tree/">&lt;em>Building Phylogenetic Tree&lt;/em>&lt;/a>, &lt;a href="https://ugene.net/docs/phylogenetic-tree-viewer/">&lt;em>Phylogenetic Tree Viewer&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>PDB&lt;/strong>&lt;/td>
@@ -281,7 +281,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="3d-structure-viewer.md">&lt;em>3D Structure Viewer&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view-extensions/3d-structure-viewer/">&lt;em>3D Structure Viewer&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>pDRAW32&lt;/strong>&lt;/td>
@@ -295,7 +295,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sequence-view.md">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view/">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>PFM&lt;/strong>&lt;/td>
@@ -309,7 +309,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="weight-matrix.md">&lt;em>Weight Matrix&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/extensions/weight-matrix/">&lt;em>Weight Matrix&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Phylip&lt;/strong>&lt;/td>
@@ -323,7 +323,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/alignment-editor/">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>PWM&lt;/strong>&lt;/td>
@@ -337,7 +337,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="weight-matrix.md">&lt;em>Weight Matrix&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/extensions/weight-matrix/">&lt;em>Weight Matrix&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Raw&lt;/strong>&lt;/td>
@@ -351,7 +351,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sequence-view.md">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view/">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>SAM&lt;/strong>&lt;/td>
@@ -365,7 +365,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="assembly-browser.md">&lt;em>Assembly Browser&lt;/em>&lt;/a>, &lt;a href="bowtie.md">&lt;em>Bowtie&lt;/em>&lt;/a>, &lt;a href="ugene-genome-aligner.md">&lt;em>UGENE Genome Aligner&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/assembly-browser/">&lt;em>Assembly Browser&lt;/em>&lt;/a>, &lt;a href="https://ugene.net/docs/extensions/bowtie/">&lt;em>Bowtie&lt;/em>&lt;/a>, &lt;a href="https://ugene.net/docs/extensions/ugene-genome-aligner/">&lt;em>UGENE Genome Aligner&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>SCF&lt;/strong>&lt;/td>
@@ -379,7 +379,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="chromatogram-viewer.md">&lt;em>Chromatogram Viewer&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view-extensions/chromatogram-viewer/">&lt;em>Chromatogram Viewer&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>SITECON&lt;/strong>&lt;/td>
@@ -393,7 +393,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sitecon.md">&lt;em>SITECON&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/extensions/sitecon/">&lt;em>SITECON&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Stockholm&lt;/strong>&lt;/td>
@@ -407,7 +407,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/alignment-editor/">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Swiss-Prot&lt;/strong>&lt;/td>
@@ -421,7 +421,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sequence-view.md">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view/">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Vector NTI Sequence&lt;/strong>&lt;/td>
@@ -435,7 +435,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="sequence-view.md">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view/">&lt;em>Sequence View&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>VCF&lt;/strong>&lt;/td>
@@ -449,7 +449,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="assembly-browser.md">&lt;em>Assembly Browser&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/assembly-browser/">&lt;em>Assembly Browser&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table></description></item><item><title>UGENE Native File Formats</title><link>https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/ugene-native-file-formats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/ugene-native-file-formats/</guid><description>&lt;h1 id="ugene-native-file-formats">UGENE Native File Formats&lt;/h1>
@@ -476,7 +476,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="dotplot.md">&lt;em>Dotplot&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/sequence-view-extensions/dotplot/">&lt;em>Dotplot&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>UGENE database file&lt;/strong>&lt;/td>
@@ -504,7 +504,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="alignment-editor.md">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/alignment-editor/">&lt;em>Alignment Editor&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>UGENE Workflow Language&lt;/strong>&lt;/td>
@@ -518,7 +518,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="workflow-designer.md">&lt;em>Workflow Designer&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/workflow-designer/">&lt;em>Workflow Designer&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>UGENE Query Language&lt;/strong>&lt;/td>
@@ -546,7 +546,7 @@
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
- &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="workflow-designer.md">&lt;em>Workflow Designer&lt;/em>&lt;/a>&lt;/td>
+ &lt;td>&lt;strong>See also:&lt;/strong> &lt;a href="https://ugene.net/docs/workflow-designer/">&lt;em>Workflow Designer&lt;/em>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table></description></item><item><title>Other File Formats</title><link>https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/other-file-formats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/other-file-formats/</guid><description>&lt;h1 id="other-file-formats">Other File Formats&lt;/h1>
@@ -560,7 +560,7 @@
  &lt;tbody>
  &lt;tr>
  &lt;td>&lt;strong>*.csv&lt;/strong>&lt;/td>
- &lt;td>&lt;strong>Example of usage:&lt;/strong> Annotations can be exported to this format; the &lt;a href="weight-matrix.md">&lt;em>Weight Matrix&lt;/em>&lt;/a> matrices list can also be saved to this format.&lt;/td>
+ &lt;td>&lt;strong>Example of usage:&lt;/strong> Annotations can be exported to this format; the &lt;a href="https://ugene.net/docs/extensions/weight-matrix/">&lt;em>Weight Matrix&lt;/em>&lt;/a> matrices list can also be saved to this format.&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>*.html&lt;/strong>&lt;/td>

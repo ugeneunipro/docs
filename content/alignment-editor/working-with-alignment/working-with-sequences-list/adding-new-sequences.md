@@ -9,7 +9,7 @@ You can add new sequences to an alignment using the _Add_ submenu in the _Action
 
 There are two ways to add a new sequence to the current alignment:
 
-*   From a file in a compatible format (FASTA, GenBank, etc.). The list of the supported data formats can be found [_here_](Appendix-A.supported-file-formats.md).
+*   From a file in a compatible format (FASTA, GenBank, etc.). The list of the supported data formats can be found [_here_](/appendixes/appendix-a-supported-file-formats/).
 
 *   From the current project.
 

@@ -5,7 +5,7 @@ weight: 2800
 
 # CAP3
 
-[CAP3 (CONTIG ASSEMBLY PROGRAM Version 3)](http://genome.cshlp.org/content/9/9/868.full) is a sequence assembly program for small-scale assembly with or without quality values. Click [this link](http://seq.cs.iastate.edu/) to open the _CAP3_ homepage. _CAP3_ is embedded as an [_external tool_](external-tools-plugin.md) into UGENE.
+[CAP3 (CONTIG ASSEMBLY PROGRAM Version 3)](http://genome.cshlp.org/content/9/9/868.full) is a sequence assembly program for small-scale assembly with or without quality values. Click [this link](http://seq.cs.iastate.edu/) to open the _CAP3_ homepage. _CAP3_ is embedded as an [_external tool_](/extensions/external-tools-plugin/) into UGENE.
 
 Open the _Tools ‣ Sanger data analysis_ submenu of the main menu.
 

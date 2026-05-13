@@ -23,7 +23,7 @@ You can specify the tools manually:
    * **Java Runtime Environment (JRE):** Although UGENE is not a Java application, a few tools (e.g., FastQC, Trimmomatic) require JRE. Make sure [JRE 8](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) or higher is installed.
    * **RScript:** R is currently used in UGENE for ChIP-Seq data analysis only.
 
-2. Configure the tools in UGENE: [Open the UGENE Application Settings](ugene-application-settings.md) dialog, select the "[External Tools](external-tools.md)" page, and specify the external tool executables.
+2. Configure the tools in UGENE: [Open the UGENE Application Settings](/basic-functions/ugene-application-settings/) dialog, select the "[External Tools](/basic-functions/ugene-application-settings/external-tools/)" page, and specify the external tool executables.
 
 ### Integrated External Tools
 

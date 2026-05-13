@@ -11,7 +11,7 @@ T-Coffee is a multiple sequence alignment package.
 
 **T-Coffee home page:** [T-Coffee](http://www.tcoffee.org/Projects_home_page/t_coffee_home_page.html)
 
-To make _T-Coffee_ available from UGENE, see the [_External Tools_](external-tools.md).
+To make _T-Coffee_ available from UGENE, see the [_External Tools_](/basic-functions/ugene-application-settings/external-tools/).
 
 To use _T-Coffee_, open a multiple sequence alignment file and select the _Align with T-Coffee_ item in the context menu or in the _Actions_ main menu. The following dialog appears:
 

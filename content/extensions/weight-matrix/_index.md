@@ -5,7 +5,7 @@ weight: 3000
 
 # Weight Matrix
 
-The _Weight Matrix_ plugin is a tool for solving the problem of sequence annotation. Much like the [_SITECON_](sitecon.md), the main use case of the plugin is the recognition of potential transcription factor binding sites based on data about conservative conformational and physicochemical properties revealed through binding site set analysis.
+The _Weight Matrix_ plugin is a tool for solving the problem of sequence annotation. Much like the [_SITECON_](/extensions/sitecon/), the main use case of the plugin is the recognition of potential transcription factor binding sites based on data about conservative conformational and physicochemical properties revealed through binding site set analysis.
 
 The _Weight Matrix_ contains numerous _position frequency matrices_ (PFMs) and _position weight matrices_ (PWMs, also known as _position-specific score matrices_ — PSSMs). These matrices come from two widely-known open archives: [JASPAR](http://jaspar.genereg.net/), which contains frequency matrices, and [UniPROBE](http://the_brain.bwh.harvard.edu/uniprobe/) containing weight matrices.
 

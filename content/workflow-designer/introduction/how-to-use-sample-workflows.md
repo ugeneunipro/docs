@@ -5,7 +5,7 @@ weight: 700
 
 # How to Use Sample Workflows
 
-The [UGENE Workflow Designer](../about-the-workflow-designer) contains a set of sample workflows that help biologists solve specific tasks for multiple input files or datasets simultaneously. The list of samples can be found in the [Workflow Samples section](workflow-samples.md) of the documentation.
+The [UGENE Workflow Designer](../about-the-workflow-designer) contains a set of sample workflows that help biologists solve specific tasks for multiple input files or datasets simultaneously. The list of samples can be found in the [Workflow Samples section](/workflow-designer/workflow-samples/) of the documentation.
 
 To use a sample:
 
@@ -13,7 +13,7 @@ To use a sample:
    _See also:_ [the paragraph about launching the Workflow Designer](launching-workflow-designer).
 
 2. Select the "Samples" tab on the [Workflow Designer palette](workflow-designer-window-components) located on the left side of the opened window.  
-   _See also:_ the tab is described in the [Workflow Samples section](workflow-samples.md).
+   _See also:_ the tab is described in the [Workflow Samples section](/workflow-designer/workflow-samples/).
 
 3. Double-click on the required sample. The workflow will be opened and shown on the [Workflow Designer scene](workflow-designer-window-components), which is the center area of the window.  
    For example, a workflow for doing BLAST and obtaining results from the NCBI server is shown below.

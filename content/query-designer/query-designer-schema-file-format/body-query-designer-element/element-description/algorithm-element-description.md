@@ -18,4 +18,4 @@ myORF {
    # Other parameters
 }
 
-To find the type and the parameters available for the required algorithm element, refer to the [_Algorithm Elements_](algorithm-elements.md) chapter.
+To find the type and the parameters available for the required algorithm element, refer to the [_Algorithm Elements_](/query-designer/query-elements/algorithm-elements/) chapter.

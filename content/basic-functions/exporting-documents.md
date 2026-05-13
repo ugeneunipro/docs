@@ -5,7 +5,7 @@ weight: 900
 
 # Exporting Documents
 
-If a document has a format that supports writing in UGENE (see the [_Supported File Formats_](Appendix-A.supported-file-formats.md) chapter), you can export the document to a new document in the required format.
+If a document has a format that supports writing in UGENE (see the [_Supported File Formats_](/appendixes/appendix-a-supported-file-formats/) chapter), you can export the document to a new document in the required format.
 
 To do so, use the _Export document_ item in the context menu:
 

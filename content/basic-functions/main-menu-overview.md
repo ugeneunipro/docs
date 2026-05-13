@@ -103,4 +103,4 @@ weight: 300
 - show all
 - quit Unipro UGENE
 
-The menus can be dynamically populated with new actions added by plugins. Check the [_Plugins_](extensions.md) documentation to learn how each plugin affects global and context menus.
+The menus can be dynamically populated with new actions added by plugins. Check the [_Plugins_](/extensions/) documentation to learn how each plugin affects global and context menus.

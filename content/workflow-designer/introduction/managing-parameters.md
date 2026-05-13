@@ -11,10 +11,10 @@ All the parameters available for the element are displayed in the _Parameters_ a
 
 ![](/images/65929883/65929884.jpg)
 
-For _[Data Readers](data-readers.md)_, you can manipulate files or directories with the help of datasets:
+For _[Data Readers](/workflow-designer/workflow-elements/data-readers/)_, you can manipulate files or directories with the help of datasets:
 
 ![](/images/65929883/65929885.png)
 
 To remove files from a dataset, you can select it and press the _Delete_ button.
 
-For [Data Writers](data-writers.md), if the _Output file_ parameter is empty, UGENE will generate output file names automatically. You can use the _Output file suffix_ parameter to manipulate it.
+For [Data Writers](/workflow-designer/workflow-elements/data-writers/), if the _Output file_ parameter is empty, UGENE will generate output file names automatically. You can use the _Output file suffix_ parameter to manipulate it.

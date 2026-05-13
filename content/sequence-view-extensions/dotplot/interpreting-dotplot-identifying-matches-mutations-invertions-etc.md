@@ -33,7 +33,7 @@ A deletion from sequence A, found in sequence B, can be considered an insertion 
 
 **3\. Inverted repeats**
 
-The [_Dotplot_](dotplot.md) plugin also allows for the search of inverted repeats. Inverted repeats are shown as opposed to direct repeats.
+The [_Dotplot_](/sequence-view-extensions/dotplot/) plugin also allows for the search of inverted repeats. Inverted repeats are shown as opposed to direct repeats.
 
 Use the _Search direct repeats_ and _Search inverted repeats_ options in the _Dotplot_ parameters dialog to select which repeats to depict (the dialog is described [_here_](http://ugene.unipro.ru/documentation/manual/sequence_view_extensions/dotplot/create_a_dotplot.html#create-a-dotplot)).
 

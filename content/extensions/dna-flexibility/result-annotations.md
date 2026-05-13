@@ -13,4 +13,4 @@ Each annotation has the following qualifiers:
 
 ![](/images/65930698/65930699.png)
 
-Using the [_DNA Graphs Package_](graphs-package.md), you can see the flexibility graph of a DNA sequence.
+Using the [_DNA Graphs Package_](/sequence-view-extensions/graphs-package/), you can see the flexibility graph of a DNA sequence.

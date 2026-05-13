@@ -49,7 +49,7 @@ Your first step is to [_add_](../manipulating-element/adding-element) the necess
 
 ![](/images/1474798/2359300.png)
 
-The added element can be moved around on the Scene by dragging it and can be resized by dragging its borders. Read the chapter [_Manipulating Element_](manipulating-element.md) to learn what else you can do with workflow elements.
+The added element can be moved around on the Scene by dragging it and can be resized by dragging its borders. Read the chapter [_Manipulating Element_](/workflow-designer/manipulating-element/) to learn what else you can do with workflow elements.
 
 If you have two elements with matching output and input ports, you can make the connection by dragging the arrow between the ports:
 

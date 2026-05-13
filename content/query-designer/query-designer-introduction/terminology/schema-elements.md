@@ -29,4 +29,4 @@ The next step is to [_add constraints_](../../manipulating-query-designer-elemen
 
 ![](/images/65930608/65930609.png)
 
-Read the [_Manipulating Element_](manipulating-query-designer-element.md) chapter to learn the details, or check the section below on [_how to create and run a schema_](../how-to-create-and-run-schema).
+Read the [_Manipulating Element_](/query-designer/manipulating-query-designer-element/) chapter to learn the details, or check the section below on [_how to create and run a schema_](../how-to-create-and-run-schema).

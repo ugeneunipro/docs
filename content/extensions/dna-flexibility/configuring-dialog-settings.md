@@ -19,4 +19,4 @@ The annotation names and other parameters can be changed on the _Output_ tab of 
 
 ![](/images/65930696/65930697.png)
 
-Once the _Search_ button has been pressed, the [_annotations_](annotations-editor.md) for the regions of high DNA flexibility are created.
+Once the _Search_ button has been pressed, the [_annotations_](/sequence-view/annotations-editor/) for the regions of high DNA flexibility are created.

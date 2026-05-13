@@ -5,7 +5,7 @@ weight: 300
 
 # Creating Custom CLI Tasks
 
-The [_predefined tasks_](cli-predefined-tasks.md) are actually the [_Workflow Designer_](workflow-designer.md) schemas stored in the $UGENE/data/cmdline directory.
+The [_predefined tasks_](/ugene-command-line-interface/cli-predefined-tasks/) are actually the [_Workflow Designer_](/workflow-designer/) schemas stored in the $UGENE/data/cmdline directory.
 
 Follow the instructions in the [Workflow Designer Manual](https://ugene.unipro.ru/wiki/display/WDD/Workflow+Designer+Manual) on how to create a schema and run it from the command line.
 

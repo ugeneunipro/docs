@@ -7,7 +7,7 @@ weight: 300
 
 Select the _Actions ‣ Save workflow_ item in the main menu or the _Save workflow_ toolbar button to save a workflow. The workflow is saved to a file in UGENE's native format (with a .uwl extension).
 
-The format is human-readable. You can find its description in the chapter [_Workflow File Format_](workflow-file-format.md).
+The format is human-readable. You can find its description in the chapter [_Workflow File Format_](/workflow-designer/workflow-file-format/).
 
 There is a Ctrl+S keyboard shortcut for this action.
 

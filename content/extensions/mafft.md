@@ -13,7 +13,7 @@ To make _MAFFT_ available on UGENE:
 
 *   Install the _MAFFT_ program on your system.
 
-*   Set the path to the _MAFFT_ executable on the [_External tools_](external-tools.md) tab of the UGENE _[Application Settings](ugene-application-settings.md)_ dialog.
+*   Set the path to the _MAFFT_ executable on the [_External tools_](/basic-functions/ugene-application-settings/external-tools/) tab of the UGENE _[Application Settings](/basic-functions/ugene-application-settings/)_ dialog.
 
     For example, on Windows, you need to specify the path to the mafft.bat file.
 

@@ -20,6 +20,6 @@ Other ways to navigate in the assembly include:
 *   Using the horizontal and vertical scroll bars of the Reads Area
 *   [_Going to a specified position in an assembly_](go-to-position-in-assembly)
 
-To learn about available hotkeys, refer to [_Assembly Browser Hotkeys_](assembly-browser-hotkeys.md).
+To learn about available hotkeys, refer to [_Assembly Browser Hotkeys_](/assembly-browser/assembly-browser-hotkeys/).
 
 By default, assembly rendering is optimized while scrolling. While you move across an assembly, it shows the assembly in gray color, but when you stop, it shows the assembly in different colors. To disable this option, uncheck the _Optimize the rendering while scrolling_ item in the context menu of the _Reads Area_ or the _Optimize scrolling_ item on the _Assembly Browser Settings_ tab of the _Options Panel_.

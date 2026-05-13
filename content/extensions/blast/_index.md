@@ -25,6 +25,6 @@ BLAST home page: [http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=Blas
 To make _BLAST_ tools available from UGENE:
 
 1. Install the required version of _BLAST_ on your system.
-2. Set the paths to the executables you are going to use in the [_External tools_](external-tools-plugin.md) tab of the UGENE [_Application Settings_](ugene-application-settings.md) dialog.
+2. Set the paths to the executables you are going to use in the [_External tools_](/extensions/external-tools-plugin/) tab of the UGENE [_Application Settings_](/basic-functions/ugene-application-settings/) dialog.
 
 After you’ve completed this configuration, you can access the tools from the _Tools ‣ BLAST_ submenu of the main menu.

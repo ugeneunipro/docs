@@ -13,6 +13,6 @@ Here is an example of a dotplot view:
 
 ![](/images/4227416/4457004.png)
 
-The _Dotplot_ plugin uses the [_Repeat Finder_](repeat-finder.md) plugin to build a dotplot, so make sure you have the _Repeat Finder_ plugin installed.
+The _Dotplot_ plugin uses the [_Repeat Finder_](/extensions/repeat-finder/) plugin to build a dotplot, so make sure you have the _Repeat Finder_ plugin installed.
 
 The _Dotplot_ features are described in more detail below.

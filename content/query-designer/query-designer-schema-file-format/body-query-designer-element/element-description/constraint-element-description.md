@@ -53,4 +53,4 @@ myORF.unit--myRepeats.left {
    # Other parameters
 }
 
-The available constraint elements are described in the [_Constraint Elements_](constraint-elements.md) chapter.
+The available constraint elements are described in the [_Constraint Elements_](/query-designer/query-elements/constraint-elements/) chapter.

@@ -7,7 +7,7 @@ weight: 500
 
 To associate a reference sequence with the assembly, use one of the following methods:
 
-1. _[Open the sequence](opening-document.md)_ (the sequence must be loaded) and drag it to the _Assembly Reference Area_:
+1. _[Open the sequence](/basic-functions/opening-document/)_ (the sequence must be loaded) and drag it to the _Assembly Reference Area_:
 
     ![](/images/65929828/65929829.png)
 

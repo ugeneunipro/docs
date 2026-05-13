@@ -63,7 +63,7 @@ An _Object View_ used to visualize and edit DNA, RNA, or protein multiple sequen
 
 **Options Panel**
 
-An _Options Panel_ is the panel with different information tabs and tabs with settings for _Sequence View_ and the [_Assembly Browser_](assembly-browser.md).
+An _Options Panel_ is the panel with different information tabs and tabs with settings for _Sequence View_ and the [_Assembly Browser_](/assembly-browser/).
 
 In the image below, you can see a typical UGENE window with a _Project View_ and a single _Object View_ window open:
 

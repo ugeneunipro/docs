@@ -51,7 +51,7 @@ _Advanced_ Parameters:
   - _Disjoint repeats_ - repeats in which the left and right parts intersect will be filtered out.
   - _Unique repeats_ - only pairs of repeats that occur only once in the sequence (even if repeats intersect each other).
 - _Search for inverted repeats_ - search for repeats, which are located on different DNA strands.
-- _Exclude tandem areas_ - exclude repeats if there are three or more of them and they come in a row (use the [Tandem Repeats Finding](tandem-repeats-finding.md) feature for this case).
+- _Exclude tandem areas_ - exclude repeats if there are three or more of them and they come in a row (use the [Tandem Repeats Finding](/extensions/repeat-finder/tandem-repeats-finding/) feature for this case).
 
 ### Results
 

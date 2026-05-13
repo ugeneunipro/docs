@@ -7,7 +7,7 @@ weight: 100
 
 Open a DNA molecule you wish to cut into fragments.
 
-Digestion into fragments is performed using restriction enzymes. Before continuing, ensure that restriction analysis has been completed. Refer to the chapter [_Restriction Analysis_](restriction-analysis.md) for details.
+Digestion into fragments is performed using restriction enzymes. Before continuing, ensure that restriction analysis has been completed. Refer to the chapter [_Restriction Analysis_](/extensions/restriction-analysis/) for details.
 
 Select either the _Tools ‣ Cloning ‣ Digest into Fragments_ option, the _Actions ‣ Cloning ‣ Digest into Fragments_ option in the main menu, or the _Cloning ‣ Digest into Fragments_ option in the context menu.
 

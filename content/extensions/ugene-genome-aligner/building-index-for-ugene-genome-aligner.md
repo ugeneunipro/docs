@@ -5,7 +5,7 @@ weight: 100
 
 # Building Index for UGENE Genome Aligner
 
-You can build an index to optimize short reads alignment using [_UGENE Genome Aligner_](ugene-genome-aligner.md). To open the _Build Index_ dialog, select the _Tools ‣ NGS data analysis ‣ Build index for reads mapping_ item in the main menu. Set the value of the _Map short reads method_ parameter to _UGENE Genome Aligner_.
+You can build an index to optimize short reads alignment using [_UGENE Genome Aligner_](/extensions/ugene-genome-aligner/). To open the _Build Index_ dialog, select the _Tools ‣ NGS data analysis ‣ Build index for reads mapping_ item in the main menu. Set the value of the _Map short reads method_ parameter to _UGENE Genome Aligner_.
 
 The dialog looks as follows:
 

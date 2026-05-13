@@ -60,7 +60,7 @@ dump-info {
 }
 ```
 
-The list of available parameters depends on the element. Refer to the [_Workflow Elements_](workflow-elements.md) chapter to find out the parameters for a particular element. To [_set a script value for a parameter_](../../using-script-to-set-parameter-value), use the following form:
+The list of available parameters depends on the element. Refer to the [_Workflow Elements_](/workflow-designer/workflow-elements/) chapter to find out the parameters for a particular element. To [_set a script value for a parameter_](../../using-script-to-set-parameter-value), use the following form:
 
 ```
 parameter_name {

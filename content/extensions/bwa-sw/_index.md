@@ -5,7 +5,7 @@ weight: 2500
 
 # BWA-SW
 
-_BWA_ is a fast, lightweight tool that aligns relatively short reads to a reference sequence. Click [this link](http://bio-bwa.sourceforge.net/) to open the _BWA_ homepage. BWA-SW shares similar features such as long-read support and split alignment. _BWA-SW_ is embedded as an [_external tool_](external-tools-plugin.md) into UGENE.
+_BWA_ is a fast, lightweight tool that aligns relatively short reads to a reference sequence. Click [this link](http://bio-bwa.sourceforge.net/) to open the _BWA_ homepage. BWA-SW shares similar features such as long-read support and split alignment. _BWA-SW_ is embedded as an [_external tool_](/extensions/external-tools-plugin/) into UGENE.
 
 Open the _Tools ‣ Align to reference_ submenu of the main menu.
 

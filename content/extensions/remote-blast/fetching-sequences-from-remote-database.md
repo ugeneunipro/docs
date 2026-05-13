@@ -6,9 +6,9 @@ weight: 300
 
 # Fetching Sequences from Remote Database
 
-Each result annotation found with the _[remote BLAST](remote-blast.md)_ in UGENE has "accession" and "id" qualifiers that can be used to fetch the corresponding sequences from the NCBI. The most efficient way to fetch the sequences for several annotations is as follows:
+Each result annotation found with the _[remote BLAST](/extensions/remote-blast/)_ in UGENE has "accession" and "id" qualifiers that can be used to fetch the corresponding sequences from the NCBI. The most efficient way to fetch the sequences for several annotations is as follows:
 
-*   Select the annotations in the _[Annotations Editor](annotations-editor.md)._
+*   Select the annotations in the _[Annotations Editor](/sequence-view/annotations-editor/)._
 *   Open the context menu.
 *   Choose either the _Fetch sequences from remote database->Fetch sequences by 'id' from 'blast result'_ item or the _Fetch sequences from remote database->Fetch sequences by 'accession' from 'blast result'_ item.
 

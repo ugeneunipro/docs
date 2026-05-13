@@ -6,7 +6,7 @@ weight: 600
 
 # Associating Variations
 
-To associate variations with the assembly, [_open the sequence_](opening-document.md) (the sequence must be loaded) and drag it to the _Assembly Reference Area_:
+To associate variations with the assembly, [_open the sequence_](/basic-functions/opening-document/) (the sequence must be loaded) and drag it to the _Assembly Reference Area_:
 
 
 ![](/images/65929834/65929835.png)

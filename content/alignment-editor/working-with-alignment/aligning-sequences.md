@@ -9,7 +9,7 @@ The _Alignment Editor_ integrates several popular multiple sequence alignment al
 
 *   Port of the popular [_MUSCLE3_](../../extensions/umuscle/muscle-aligning) algorithm.
 *   KAlign plugin: effective for working with large alignments.
-*   ClustalW and MAFFT: These algorithms appeared in version 1.7.2 of UGENE with the [_External Tools_](external-tools-plugin.md) plugin.
+*   ClustalW and MAFFT: These algorithms appeared in version 1.7.2 of UGENE with the [_External Tools_](/extensions/external-tools-plugin/) plugin.
 *   T-Coffee: This alignment algorithm has been available since version 1.8.1 of UGENE with the _External Tools_ plugin.
 *   ClustalO: Clustal Omega is the latest addition to the Clustal family. It offers a significant increase in scalability over previous versions, allowing hundreds of thousands of sequences to be aligned in only a few hours.
 

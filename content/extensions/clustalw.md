@@ -12,7 +12,7 @@ Clustal is a widely used multiple sequence alignment program. It is used for bot
 If you are using Windows OS, there are no additional configuration steps required, as the _ClustalW_ executable file is included in the UGENE distribution package. Otherwise:
 
 * Install the _Clustal_ program on your system.
-* Set the path to the _ClustalW_ executable on the [_External tools_](external-tools-plugin.md) tab of the UGENE [_Application Settings_](ugene-application-settings.md) dialog.
+* Set the path to the _ClustalW_ executable on the [_External tools_](/extensions/external-tools-plugin/) tab of the UGENE [_Application Settings_](/basic-functions/ugene-application-settings/) dialog.
 
 Now you are able to use _Clustal_ from UGENE.
 

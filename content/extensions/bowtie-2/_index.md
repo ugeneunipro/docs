@@ -6,7 +6,7 @@ weight: 2300
 
 # Bowtie 2
 
-_Bowtie 2_ is a popular, ultrafast, and memory-efficient tool for aligning sequencing reads to long reference sequences. Click [this link](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml) to open the _Bowtie 2_ homepage. _Bowtie 2_ is embedded as an [_external tool_](external-tools-plugin.md) into UGENE.
+_Bowtie 2_ is a popular, ultrafast, and memory-efficient tool for aligning sequencing reads to long reference sequences. Click [this link](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml) to open the _Bowtie 2_ homepage. _Bowtie 2_ is embedded as an [_external tool_](/extensions/external-tools-plugin/) into UGENE.
 
 Open the _Tools ‣ Align to reference_ submenu of the main menu.
 

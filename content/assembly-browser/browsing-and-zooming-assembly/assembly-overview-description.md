@@ -23,4 +23,4 @@ Notice that the Assembly Overview shows the coordinates of the assembly areas vi
 
 To scroll the resized overview, drag the mouse while pressing down the mouse wheel.
 
-To learn about available hotkeys, refer to [_Assembly Browser Hotkeys_](assembly-browser-hotkeys.md).
+To learn about available hotkeys, refer to [_Assembly Browser Hotkeys_](/assembly-browser/assembly-browser-hotkeys/).

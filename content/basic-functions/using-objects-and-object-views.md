@@ -34,4 +34,4 @@ To see the list of all available views for a given object, select the object and
 
 ![](/images/65929301/107020530.png)
 
-The picture above illustrates an option to visualize the selected DNA sequence object using the _Sequence View_ — a complex and extensible _Object View_ that focuses on the visualization of sequence objects in combination with different kinds of related data: sequence annotations, graphs, chromatograms, and sequence analysis algorithms. Note that the _Sequence View_ is described in more detail in the separate [_documentation section_](sequence-view.md).
+The picture above illustrates an option to visualize the selected DNA sequence object using the _Sequence View_ — a complex and extensible _Object View_ that focuses on the visualization of sequence objects in combination with different kinds of related data: sequence annotations, graphs, chromatograms, and sequence analysis algorithms. Note that the _Sequence View_ is described in more detail in the separate [_documentation section_](/sequence-view/).

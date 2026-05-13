@@ -11,4 +11,4 @@ In the image below, both the **title** and **description** are displayed:
 
 ![](/images/65930642/65930643.png)
 
-Selecting an element direction changes its appearance. See [_Managing Strands_](managing-strands.md) for details.
+Selecting an element direction changes its appearance. See [_Managing Strands_](/query-designer/manipulating-schema/managing-strands/) for details.

@@ -31,7 +31,7 @@ To import primer(s), click the _Import primer(s)_ button. The following dialog w
 
 ![](/images/65930783/65930785.png)
 
-Select the Add file(s) button to add one or several files with primer sequences. Note that all sequence formats [supported by UGENE](Appendix-A.supported-file-formats.md) can be imported, for example, FASTA, GenBank, etc. However, the sequences must consist of ACGT characters only.
+Select the Add file(s) button to add one or several files with primer sequences. Note that all sequence formats [supported by UGENE](/appendixes/appendix-a-supported-file-formats/) can be imported, for example, FASTA, GenBank, etc. However, the sequences must consist of ACGT characters only.
 
 Select the Add object(s) button to add one or several items already loaded in the Project.
 

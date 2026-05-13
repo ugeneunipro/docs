@@ -5,7 +5,7 @@ weight: 2200
 
 # Bowtie
 
-_Bowtie_ is a popular short read aligner. Click [this link](http://bowtie-bio.sourceforge.net/index.shtml) to open the _Bowtie_ homepage. _Bowtie_ is integrated as an [_external tool_](external-tools-plugin.md) into UGENE.
+_Bowtie_ is a popular short read aligner. Click [this link](http://bowtie-bio.sourceforge.net/index.shtml) to open the _Bowtie_ homepage. _Bowtie_ is integrated as an [_external tool_](/extensions/external-tools-plugin/) into UGENE.
 
 Open the _Tools ‣ DNA Assembly_ submenu of the main menu.
 

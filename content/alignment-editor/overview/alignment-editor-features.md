@@ -5,7 +5,7 @@ weight: 100
 
 # Alignment Editor Features
 
-The _Alignment Editor_ is a powerful tool for visualizing and editing DNA, RNA, or protein multiple sequence alignments. The editor supports various multiple sequence alignment (MSA) formats, such as ClustalW, MSF, and Stockholm. The full list of file formats supported in UGENE is [_here_](Appendix-A.supported-file-formats.md).
+The _Alignment Editor_ is a powerful tool for visualizing and editing DNA, RNA, or protein multiple sequence alignments. The editor supports various multiple sequence alignment (MSA) formats, such as ClustalW, MSF, and Stockholm. The full list of file formats supported in UGENE is [_here_](/appendixes/appendix-a-supported-file-formats/).
 
 The editor provides an interactive visual representation which includes:
 

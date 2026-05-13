@@ -5,7 +5,7 @@ weight: 2900
 
 # SPAdes
 
-SPAdes – St. Petersburg genome assembler. Click [this link](http://bioinf.spbau.ru/en/spades) to open the SPAdes homepage. SPAdes is embedded as an [_external tool_](external-tools-plugin.md) into UGENE.
+SPAdes – St. Petersburg genome assembler. Click [this link](http://bioinf.spbau.ru/en/spades) to open the SPAdes homepage. SPAdes is embedded as an [_external tool_](/extensions/external-tools-plugin/) into UGENE.
 
 The SPAdes tool is available on macOS and Linux operating systems only.
 

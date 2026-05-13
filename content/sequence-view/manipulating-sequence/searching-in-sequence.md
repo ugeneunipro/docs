@@ -85,7 +85,7 @@ If you want to assign different names to annotations found for different pattern
 *   Input the patterns in FASTA format (the latter two cases above).
 *   Check the _Use pattern name_ checkbox in the _Annotation parameters_ group.
 
-Here is an example of the found annotations in the [Annotations Editor](annotations-editor.md):
+Here is an example of the found annotations in the [Annotations Editor](/sequence-view/annotations-editor/):
 
 ![](/images/65929429/65929438.png)
 

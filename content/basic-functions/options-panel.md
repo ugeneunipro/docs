@@ -11,26 +11,26 @@ More detailed information about different _Options Panel_ tabs can be found in t
 
 *   _Options Panel in Sequence View_
     *   [_Search in Sequence_](../sequence-view/manipulating-sequence/searching-in-sequence)
-    *   [_Highlighting Annotations_](highlighting-annotations.md)
-    *   [_Information about Sequence_](information-about-sequence.md) (Statistics)
-    *   [_In Silico PCR_](in-silico-pcr.md)
+    *   [_Highlighting Annotations_](/sequence-view/manipulating-annotations/highlighting-annotations/)
+    *   [_Information about Sequence_](/sequence-view/information-about-sequence/) (Statistics)
+    *   [_In Silico PCR_](/extensions/in-silico-pcr/)
     *   [_Circular View Settings_](../sequence-view-extensions/circular-viewer/circular-view-settings)
 
 *   _Options Panel in Alignment Editor_
-    *   [_Consensus_](consensus.md)
+    *   [_Consensus_](/alignment-editor/overview/consensus/)
     *   [_Searching in Alignment_](../alignment-editor/working-with-alignment/searching-in-alignment)
-    *   [_Highlighting Alignment_](highlighting-alignment.md)
+    *   [_Highlighting Alignment_](/alignment-editor/overview/highlighting-alignment/)
     *   [_Pairwise Alignment_](../alignment-editor/working-with-alignment/pairwise-alignment)
-    *   [_Tree Settings_](tree-settings.md)
+    *   [_Tree Settings_](/phylogenetic-tree-viewer/tree-settings/)
     *   [_Export Consensus_](../alignment-editor/overview/consensus/export-consensus)
-    *   [_Statistics_](statistics.md)
+    *   [_Statistics_](/alignment-editor/statistics/)
 
 *   _Options Panel in Sanger Editor_
     *   [_Alignment Statistics_](../sanger-reads-editor/working-with-chromatogram/alignment-statistics)
     *   [_Export Chromatogram Consensus_](../sanger-reads-editor/working-with-chromatogram/sanger-reads-consensus/export-chromatogram-consensus)
     *   [_Sanger Reads Settings_](../sanger-reads-editor/working-with-chromatogram/sanger-reads-settings)
 
-*   [_Options Panel in Assembly Browser_](options-panel-in-assembly-browser.md)
+*   [_Options Panel in Assembly Browser_](/assembly-browser/options-panel-in-assembly-browser/)
     *   [_Navigation in Assembly Browser_](../assembly-browser/options-panel-in-assembly-browser/navigation-in-assembly-browser)
     *   [_Assembly Browser Settings_](../assembly-browser/options-panel-in-assembly-browser/assembly-browser-settings)
     *   [_Assembly Statistics_](../assembly-browser/options-panel-in-assembly-browser/assembly-statistics)

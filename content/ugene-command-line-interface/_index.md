@@ -21,7 +21,7 @@ ugene [[--task=]task_name] [--task_parameter=value ...] [-task_parameter value .
 
 Here:
 
-**task_name** — The task to execute, which can be one of the [_predefined tasks_](cli-predefined-tasks.md) or [_a task you have created_](creating-custom-cli-tasks).
+**task_name** — The task to execute, which can be one of the [_predefined tasks_](/ugene-command-line-interface/cli-predefined-tasks/) or [_a task you have created_](creating-custom-cli-tasks).
 
 **task_parameter** — A parameter of the specified task. Some parameters of a task are required, such as the _in_ and _out_ parameters of some tasks.
 

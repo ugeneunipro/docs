@@ -37,7 +37,7 @@ _Custom algorithm_ — optionally, you can select an algorithm to calculate the 
 * Suffix index
 * Diagonals
 
-The specified algorithm is provided to the [_Repeat Finder_](repeat-finder.md) plugin as an input parameter. In most cases, the _Auto_ value is appropriate.
+The specified algorithm is provided to the [_Repeat Finder_](/extensions/repeat-finder/) plugin as an input parameter. In most cases, the _Auto_ value is appropriate.
 
 _Minimum repeat length_ — allows you to draw matches between the sequences that are continuous and long enough. For example, if it equals _3bp_, only repeats will be found that contain 3 or more base symbols.
 

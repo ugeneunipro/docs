@@ -634,8 +634,8 @@
  &lt;td>&lt;em>string&lt;/em>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;strong>Is absolute mismatches values?&lt;/strong>&lt;/td>
- &lt;td>Choose between absolute or percentage mismatches values mode.&lt;/td>
+ &lt;td>&lt;strong>Use absolute mismatch values&lt;/strong>&lt;/td>
+ &lt;td>Choose between absolute or percentage mismatch values mode.&lt;/td>
  &lt;td>True&lt;/td>
  &lt;td>&lt;strong>if-absolute-mismatches-value&lt;/strong>&lt;/td>
  &lt;td>&lt;em>boolean&lt;/em>&lt;/td>

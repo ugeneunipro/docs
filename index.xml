@@ -2008,7 +2008,7 @@ elements&lt;/em>. Let&amp;rsquo;s denote these elements as &lt;strong>alg1&lt;/s
 &lt;li>Searching for a pattern of various algorithms&amp;rsquo; results in a nucleic acid sequence with &lt;strong>UGENE Query Designer&lt;/strong>&lt;/li>
 &lt;li>Visualization of &lt;strong>next-generation sequencing data&lt;/strong> (&lt;strong>BAM&lt;/strong> files) using the &lt;strong>UGENE Assembly Browser&lt;/strong>&lt;/li>
 &lt;li>PCR in silico&lt;/li>
-&lt;li>Spade de novo assembler&lt;/li>
+&lt;li>SPAdes de novo assembler&lt;/li>
 &lt;/ul></description></item><item><title>Launching the Query Designer</title><link>https://ugene.net/docs/query-designer/query-designer-introduction/launching-the-query-designer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/query-designer/query-designer-introduction/launching-the-query-designer/</guid><description>&lt;h1 id="launching-the-query-designer">Launching the Query Designer&lt;/h1>
 &lt;p>To launch the &lt;em>Query Designer&lt;/em>, select the &lt;em>Tools ‣ Query Designer&lt;/em> item in the main menu:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65930602/65930603.png" alt="">&lt;/p>
@@ -8188,8 +8188,8 @@ tools, please read the main &lt;a href="http://ugene.unipro.ru/documentation.htm
  &lt;td>&lt;em>string&lt;/em>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;strong>Is absolute mismatches values?&lt;/strong>&lt;/td>
- &lt;td>Choose between absolute or percentage mismatches values mode.&lt;/td>
+ &lt;td>&lt;strong>Use absolute mismatch values&lt;/strong>&lt;/td>
+ &lt;td>Choose between absolute or percentage mismatch values mode.&lt;/td>
  &lt;td>True&lt;/td>
  &lt;td>&lt;strong>if-absolute-mismatches-value&lt;/strong>&lt;/td>
  &lt;td>&lt;em>boolean&lt;/em>&lt;/td>
@@ -10010,7 +10010,7 @@ Designer samples.&lt;/p></description></item><item><title>Deleting Annotations a
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;/td>
- &lt;td>- swiss-plot (SWISS-PROT)&lt;/td>
+ &lt;td>- swiss-prot (SWISS-PROT)&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
@@ -12058,8 +12058,8 @@ with support for flexible matching and ambiguity handling.&lt;/p></description><
 &lt;/li>
 &lt;li>
 &lt;p>&lt;em>gap-open-penalty&lt;/em>: Gap Open Penalty. Must be negative; best matches get a score of 1000 (default is &amp;lsquo;-50&amp;rsquo;) [Number]&lt;/p></description></item><item><title>Merge Annotations Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/merge-annotations-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/merge-annotations-element/</guid><description>&lt;h1 id="merge-annotations-element">Merge Annotations Element&lt;/h1>
-&lt;p>Writes all supplied sequences to file(s) in FASTQ format.&lt;/p>
-&lt;p>&lt;strong>Element type:&lt;/strong> write-fastq&lt;/p>
+&lt;p>Merges all supplied annotation tables into one.&lt;/p>
+&lt;p>&lt;strong>Element type:&lt;/strong> merge-annotations&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
 &lt;table>
  &lt;thead>

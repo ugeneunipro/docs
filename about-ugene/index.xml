@@ -22,7 +22,7 @@
 &lt;li>Searching for a pattern of various algorithms&amp;rsquo; results in a nucleic acid sequence with &lt;strong>UGENE Query Designer&lt;/strong>&lt;/li>
 &lt;li>Visualization of &lt;strong>next-generation sequencing data&lt;/strong> (&lt;strong>BAM&lt;/strong> files) using the &lt;strong>UGENE Assembly Browser&lt;/strong>&lt;/li>
 &lt;li>PCR in silico&lt;/li>
-&lt;li>Spade de novo assembler&lt;/li>
+&lt;li>SPAdes de novo assembler&lt;/li>
 &lt;/ul></description></item><item><title>User Interface</title><link>https://ugene.net/docs/about-ugene/user-interface/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/about-ugene/user-interface/</guid><description>&lt;h1 id="user-interface">User Interface&lt;/h1>
 &lt;ul>
 &lt;li>Visual and interactive genome browsing, including circular plasmid view&lt;/li>

@@ -31,7 +31,7 @@ An output port of an element is used to provide data to another element. A workf
 
 Each port has one or several slots. A slot is the smallest passageway to transfer the workflow data through. It has a specific type (e.g., "Sequence", "Set of annotations", etc.). For example, only sequence data can be passed through a sequence slot.
 
-Thus, an input port has one or several **input slots**. These slots specify data that are expected as input by the element. An output port has one or several **output slots**. These slots specify the data that the element produces.
+Thus, an input port has one or several **input slots**. These slots specify data that is expected as input by the element. An output port has one or several **output slots**. These slots specify the data that the element produces.
 
 In a workflow, an element usually has access to slots of the connected elements located earlier in the workflow.
 

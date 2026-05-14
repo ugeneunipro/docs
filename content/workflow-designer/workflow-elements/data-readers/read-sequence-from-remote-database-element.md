@@ -23,7 +23,7 @@ The element outputs message(s) with the sequence and annotations data.
 |                                 | - ncbi-dna (NCBI GenBank (DNA sequence))                        |                             |                             |          |
 |                                 | - ncbi-protein (NCBI protein sequence database)                 |                             |                             |          |
 |                                 | - pdb (PDB)                                                    |                             |                             |          |
-|                                 | - swiss-plot (SWISS-PROT)                                       |                             |                             |          |
+|                                 | - swiss-prot (SWISS-PROT)                                       |                             |                             |          |
 |                                 | - uniprot-swiss-prot (UniProtKB/Swiss-Prot)                     |                             |                             |          |
 |                                 | - uniprot-trembl (UniProtKB/TrEMBL)                             |                             |                             |          |
 | **Save file to directory**      | Directory to store a file loaded from the database.             | default                     | **save-dir**                | _string_ |

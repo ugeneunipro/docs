@@ -7,7 +7,7 @@ weight: 600
 
 It is possible to create custom algorithmic blocks using scripts in the Workflow Designer.
 
-To create an element, either select _Actions ‣ Create Element with Script_ in the main menu.
+To create an element, select _Actions ‣ Create Element with Script_ in the main menu.
 
 The _Create Element with Script_ dialog will appear:
 

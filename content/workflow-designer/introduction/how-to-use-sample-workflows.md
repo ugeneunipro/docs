@@ -26,7 +26,7 @@ To use a sample:
    ![](/images/11763719/11862039.png)
 
 5. Input the required data. The input varies significantly based on the workflow selected in step 3 (see above).  
-   For example, in the case of the remote BLAST workflow, at least one sequence is expected to be input. In the image below, two sequences were input for the workflow. Buttons that can be used to add different files or even folders with files are also marked on the image.
+   For example, in the case of the remote BLAST workflow, at least one sequence is expected as input. In the image below, two sequences were input for the workflow. Buttons that can be used to add different files or even folders with files are also marked on the image.
 
    ![](/images/11763719/11862040.png)
 

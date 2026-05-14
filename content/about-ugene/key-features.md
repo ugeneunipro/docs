@@ -27,4 +27,4 @@ weight: 100
 *   Searching for a pattern of various algorithms' results in a nucleic acid sequence with **UGENE Query Designer**
 *   Visualization of **next-generation sequencing data** (**BAM** files) using the **UGENE Assembly Browser**
 *   PCR in silico
-*   Spade de novo assembler
+*   SPAdes de novo assembler

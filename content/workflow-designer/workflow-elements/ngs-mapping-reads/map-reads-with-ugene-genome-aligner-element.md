@@ -15,7 +15,7 @@ Unique UGENE algorithm for aligning short reads to a reference genome.
 |-------------------------------------|-----------------------------------------------------------------|---------------|--------------------------------|---------|
 | **Output file name**                | Base name of the output file. 'out.sam' by default.             | out.sam       | **outname**                    | _string_|
 | **Reference genome**                | Path to an indexed reference genome.                            |               | **reference**                  | _string_|
-| **Is absolute mismatches values?**  | Choose between absolute or percentage mismatches values mode.   | True          | **if-absolute-mismatches-value** | _boolean_|
+| **Use absolute mismatch values**  | Choose between absolute or percentage mismatch values mode.   | True          | **if-absolute-mismatches-value** | _boolean_|
 | **Absolute mismatches**             | Number of mismatches allowed while aligning reads.              | 0             | **absolute-mismatches**        | _numeric_|
 | **Align reverse complement reads**  | Set this option to align both direct and reverse complement reads.| False        | **reverse**                    | _boolean_|
 | **Use "best"-mode**                 | Report only the best alignment for each read (in terms of mismatches). | True       | **best**                       | _boolean_|

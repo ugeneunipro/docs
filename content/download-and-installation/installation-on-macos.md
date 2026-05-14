@@ -24,7 +24,7 @@ It may be required to configure macOS settings to install UGENE:
 
 ![](/images/65929244/65929245.png)
 
-### Attention: The **O**nline installer has been removed from UGENE since version 39.0.
+### Attention: The online installer has been removed from UGENE since version 39.0.
 
 ### Installation Using Online Installer
 

@@ -22,7 +22,7 @@ If you haven't used the workflow samples in UGENE before, see: [How to Use Sampl
 
 ## Workflow Sample Location
 
-The workflow sample "Find Substrings at Sequences" is in the "Data Merging" section of the Workflow Designer samples.
+The workflow sample "Find Substrings in Sequences" is in the "Data Merging" section of the Workflow Designer samples.
 
 ## Workflow Image
 

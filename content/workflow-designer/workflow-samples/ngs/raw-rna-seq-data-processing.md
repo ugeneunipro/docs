@@ -25,7 +25,7 @@ What's Next?
 
 ##### Workflow Sample Location
 
-The workflow sample "Raw DNA-Seq processing" can be found in the "NGS" section of the Workflow Designer samples.
+The workflow sample "Raw RNA-Seq processing" can be found in the "NGS" section of the Workflow Designer samples.
 
 ##### Workflow Image
 

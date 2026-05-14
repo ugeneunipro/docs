@@ -41,7 +41,7 @@ On the next page of the wizard, you should input the execution string, i.e., the
 
 ![](/images/65929990/65929995.png)
 
-The signature of the execution string depends on the command that is launched. But the general rule is that input/output data and attributes have the prefix $. You can set the parameterized description for the new element (the description that appears not in the property editor but on the element itself). In the parameterized description, you can also use parameter substitution with the prefix $. If the paths in the execution string contain spaces, they must be enclosed with quotes.
+The signature of the execution string depends on the command that is launched. But the general rule is that input/output data and attributes have the prefix $. You can set the parameterized description for the new element (the description that appears not in the property editor but on the element itself). In the parameterized description, you can also use parameter substitution with the prefix $. If the paths in the execution string contain spaces, they must be enclosed in quotes.
 
 On the next wizard page, you can optionally input the description of the element. It would be shown on the element on the [_Scene_](http://ugene.unipro.ru/documentation/wd_manual/introduction/wd_window_components.html#term-scene). The description can be parameterized. This means that if you input, for example, an attribute name (with prefix $), the name on the element would be substituted with the value of the corresponding parameter. For example, input the following parameters:
 

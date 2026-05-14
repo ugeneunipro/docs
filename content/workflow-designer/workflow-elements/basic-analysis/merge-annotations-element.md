@@ -6,9 +6,9 @@ weight: 1800
 
 # Merge Annotations Element
 
-Writes all supplied sequences to file(s) in FASTQ format.
+Merges all supplied annotation tables into one.
 
-**Element type:** write-fastq
+**Element type:** merge-annotations
 
 Parameters
 ----------

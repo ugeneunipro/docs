@@ -11,9 +11,9 @@ A brief description of the sequence toolbar buttons is shown in the picture belo
 
 See also:
 
-*   [_Toggling Views_](manipulating-sequence/show-and-hide-sequence-view-components)
-*   [_Capturing Screenshot_](manipulating-sequence/exporting-sequence-image)
-*   [_Zooming Sequence_](manipulating-sequence/zooming-sequence)
-*   [_Showing and Hiding Translations_](manipulating-sequence/translating-nucleotide-sequence)
-*   [_Selecting Sequence Region_](manipulating-sequence/selecting-sequence-region)
-*   [_Showing Sequence in Multiple Lines_](manipulating-sequence/showing-sequence-in-multiple-lines)
+*   [_Toggling Views_](/sequence-view/manipulating-sequence/show-and-hide-sequence-view-components/)
+*   [_Capturing Screenshot_](/sequence-view/manipulating-sequence/exporting-sequence-image/)
+*   [_Zooming Sequence_](/sequence-view/manipulating-sequence/zooming-sequence/)
+*   [_Showing and Hiding Translations_](/sequence-view/manipulating-sequence/translating-nucleotide-sequence/)
+*   [_Selecting Sequence Region_](/sequence-view/manipulating-sequence/selecting-sequence-region/)
+*   [_Showing Sequence in Multiple Lines_](/sequence-view/manipulating-sequence/showing-sequence-in-multiple-lines/)

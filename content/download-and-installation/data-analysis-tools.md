@@ -10,7 +10,7 @@ UGENE provides a graphical user interface (GUI) for a variety of bioinformatics 
 * **Embedded tool:** The tool is integrated into the UGENE source code. Such tools are always available in UGENE, independent of the UGENE package type and operating system.
 * **External tool:**
     * **Integrated (supported) external tool:** The tool's executable file(s) is provided with UGENE. It is launched when used in the UGENE GUI, and the results are also displayed within the UGENE GUI. Note that the tool may only be available on some operating systems.
-    * **Custom external tool:** It is possible to add [any custom external tool](https://local.ugene.unipro.ru/wiki/display/WDD33/Custom+Elements+with+External+Tools) as a workflow element in the Workflow Designer. See the "[Custom External Tools](../basic-functions/ugene-application-settings/external-tools/custom-external-tools)" documentation chapter for details.
+    * **Custom external tool:** It is possible to add [any custom external tool](https://local.ugene.unipro.ru/wiki/display/WDD33/Custom+Elements+with+External+Tools) as a workflow element in the Workflow Designer. See the [_Custom External Tools_](/basic-functions/ugene-application-settings/external-tools/custom-external-tools/) documentation chapter for details.
 
 ### Specify Integrated External Tools in the Installed Package
 

@@ -7,7 +7,7 @@ weight: 700
 
 ### Selection in the Sequence View Components
 
-By holding down the left mouse button and moving the mouse, you can select a sequence region in the _Zoom View_ or _Details View_ components of the _Sequence View_. A sequence region that corresponds to an annotation can also be selected by [double-clicking on the annotation](../manipulating-annotations/selecting-annotations) in the _Zoom View_, _Details View_, or _Annotations Editor_.
+By holding down the left mouse button and moving the mouse, you can select a sequence region in the _Zoom View_ or _Details View_ components of the _Sequence View_. A sequence region that corresponds to an annotation can also be selected by [double-clicking on the annotation](/sequence-view/manipulating-annotations/selecting-annotations/) in the _Zoom View_, _Details View_, or _Annotations Editor_.
 
 The selection of a sequence region is synchronized among different _Sequence View_ components.
 

@@ -9,4 +9,4 @@ weight: 200
 
 The global action toolbar provides the possibility to navigate to a specified position (in all sequences simultaneously).
 
-It also allows you to lock or adjust the ranges of sequences in the same _Sequence View_. See [_this paragraph_](manipulating-sequence/locking-and-synchronize-ranges-of-several-sequences) for details.
+It also allows you to lock or adjust the ranges of sequences in the same _Sequence View_. See [_this paragraph_](/sequence-view/manipulating-sequence/locking-and-synchronize-ranges-of-several-sequences/) for details.

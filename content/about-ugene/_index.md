@@ -7,6 +7,6 @@ weight: 200
 
 Unipro UGENE is a free cross-platform genome analysis suite. It is distributed under the terms of the [GNU General Public License](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html).
 
-To learn more about UGENE, visit the [UGENE website](http://ugene.unipro.ru/).
+To learn more about UGENE, visit the [UGENE website](http://www.ugene.net/).
 
 It works on Windows, macOS, and Linux and requires only a few clicks to install.

@@ -16,5 +16,5 @@ When the sigma button (located on the left side of the _Sequence Overview_) is p
 
 See also:
 
-*   [_Sequence Zoom View_](zoom-view)
-*   [_Sequence Details View_](details-view)
+*   [_Sequence Zoom View_](/sequence-view/zoom-view/)
+*   [_Sequence Details View_](/sequence-view/details-view/)

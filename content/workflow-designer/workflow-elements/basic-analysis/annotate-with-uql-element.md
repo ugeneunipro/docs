@@ -7,7 +7,7 @@ weight: 200
 
 Analyzes a nucleotide sequence with a UGENE Query Language (UQL) workflow. The workflow specifies a set of features to search for and their positional relationships.
 
-To learn more about UQL workflows, read the [UGENE Query Designer Manual](https://doc.ugene.net/wiki/display/UM/About+the+Query+Designer).
+To learn more about UQL workflows, read the [UGENE Query Designer Manual](/query-designer/).
 
 **Element type:** query
 

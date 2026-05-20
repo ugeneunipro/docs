@@ -9,7 +9,7 @@ Input one or several files with annotations: a file may also contain a sequence 
 
 The element outputs messages with the annotations data.
 
-See the list of all available formats [here](https://ugene.net/wiki/display/UUOUM27/Appendix+A.+Supported+File+Formats).
+See the list of all available formats [here](/appendixes/appendix-a-supported-file-formats/).
 
 **Element type:** read-annotations
 

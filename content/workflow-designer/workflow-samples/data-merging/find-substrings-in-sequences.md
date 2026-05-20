@@ -11,14 +11,14 @@ This sample workflow shows how to find substrings in input sequences, annotate t
 
 1. The workflow reads sequences from the input sequence files (e.g., GenBank). The input data may also contain annotations associated with the sequences.
 2. The workflow reads text strings (patterns) from the input text files.
-3. The data are multiplexed using the [Multiplexer](../../workflow-elements/data-flow/multiplexer-element) element. A "1 to many" multiplexing rule is used, so each input sequence is concatenated with each pattern. The results are sent to the _Find Substrings_ element.
+3. The data are multiplexed using the [Multiplexer](/workflow-designer/workflow-elements/data-flow/multiplexer-element/) element. A "1 to many" multiplexing rule is used, so each input sequence is concatenated with each pattern. The results are sent to the _Find Substrings_ element.
 4. The _Find Substrings_ element searches for the specified patterns in each sequence.
-5. The [Grouper](../../workflow-elements/data-flow/grouper-element) merges annotations from the input with those found by the _Find Substrings_ element. Grouping is done by sequence ID.
+5. The [Grouper](/workflow-designer/workflow-elements/data-flow/grouper-element) merges annotations from the input with those found by the _Find Substrings_ element. Grouping is done by sequence ID.
 6. The merged data are saved to the output file (e.g., `substrings.gb`).
 
 ## How to Use This Sample
 
-If you haven't used the workflow samples in UGENE before, see: [How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows).
+If you haven't used the workflow samples in UGENE before, see: [How to Use Sample Workflows](/workflow-designer/workflow-elements/data-flow/sequence-marker-element/).
 
 ## Workflow Sample Location
 

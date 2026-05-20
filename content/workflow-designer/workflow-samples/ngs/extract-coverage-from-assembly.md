@@ -11,7 +11,7 @@ This workflow sample extracts **coverage** and/or **base counts** from input ass
 
 ## How to Use This Sample
 
-If you haven't used workflow samples in UGENE before, refer to the [How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows) section of the documentation.
+If you haven't used the workflow samples in UGENE before, please refer to the "[How to Use Sample Workflows](/workflow-designer/introduction/how-to-use-sample-workflows/)" section of the documentation.
 
 ---
 

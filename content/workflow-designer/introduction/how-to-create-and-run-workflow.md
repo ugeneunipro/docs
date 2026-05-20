@@ -9,7 +9,7 @@ weight: 600
 
    **Result:** The Workflow Designer window appears.
 
-2. On the _Elements_ tab of the [_Palette_](workflow-designer-window-components), find the [_Read alignment_](../workflow-elements/data-readers/read-alignment-element) element. It is located in the _Data sources_ group. Drag it to the [_Scene_](workflow-designer-window-components).
+2. On the _Elements_ tab of the [_Palette_](/workflow-designer/introduction//workflow-designer-window-components/), find the [_Read alignment_](../workflow-elements/data-readers/read-alignment-element) element. It is located in the _Data sources_ group. Drag it to the [_Scene_](workflow-designer-window-components).
 
    **Result:** The element is displayed on the Scene.
 

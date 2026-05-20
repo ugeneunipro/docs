@@ -25,7 +25,7 @@ Alternatively, you can choose the **ClustalW** algorithm:
 
 ## How to Use This Sample
 
-If you haven't used the workflow samples in UGENE before, see [How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows).
+If you haven't used the workflow samples in UGENE before, see [How to Use Sample Workflows](/workflow-designer/introduction/how-to-use-sample-workflows/).
 
 ---
 

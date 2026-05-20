@@ -5,7 +5,7 @@ weight: 400
 
 # Sequence Marker Element
 
-This element adds one or several marks to the input sequence depending on its properties. Use this element, for example, in conjunction with the [_Filter_](filter-element) element.
+This element adds one or several marks to the input sequence depending on its properties. Use this element, for example, in conjunction with the [_Filter_](/workflow-designer/workflow-elements/data-flow/filter-element/) element.
 
 **Element Type:** mark-sequence
 

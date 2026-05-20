@@ -9,7 +9,7 @@ Originally, MAFFT is a multiple sequence alignment program for Unix-like operati
 is also available.
 
 MAFFT is used as an external tool from UGENE and it must be installed on your system. To learn more about external
-tools, please read the main [UGENE User Manual](http://ugene.unipro.ru/documentation.html).
+tools, please read the main [UGENE User Manual](/download-and-installation/data-analysis-tools/).
 
 **Element type:** mafft
 

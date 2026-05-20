@@ -18,5 +18,5 @@ If you have a primer pair that does not fit this format, these features will be 
     ![](/images/96666283/96666293.png)
 
 After performing these steps, a new primer pair that fits the UGENE format will appear:
-
-    ![](/images/96666283/96666294.png)
+	
+![](/images/96666283/96666294.png)

@@ -7,7 +7,7 @@ weight: 700
 
 T-Coffee is a multiple sequence alignment package.
 
-T-Coffee is used as an external tool from UGENE and it must be installed on your system. To learn more about the external tools, please read the main [UGENE User Manual](http://ugene.unipro.ru/documentation.html).
+T-Coffee is used as an external tool from UGENE and it must be installed on your system. To learn more about the external tools, please read the main [UGENE User Manual](/download-and-installation/data-analysis-tools/).
 
 **Element type:** tcoffee
 

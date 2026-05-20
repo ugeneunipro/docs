@@ -9,7 +9,7 @@ Reads in a FASTQ file produced by CASAVA 1.8 contain 'N' or 'Y' as part of an id
 
 How to Use This Sample
 
-If you haven't used the workflow samples in UGENE before, please refer to the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
+If you haven't used the workflow samples in UGENE before, please refer to the "[How to Use Sample Workflows](/workflow-designer/introduction/how-to-use-sample-workflows/)" section of the documentation.
 
 ##### Workflow Sample Location
 

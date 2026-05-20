@@ -9,7 +9,7 @@ To launch the Workflow Designer, select the _Tools ‣ Workflow Designer_ item i
 
 ![](/images/65929873/65929874.png)
 
-The output directory is a common directory used to store all output files in the Workflow Designer. If this directory is used, a separate subdirectory is created for each run of a workflow. You can change this option in the [_Application Settings_](ugene-components-and-workflow-designer/application-settings) dialog.
+The output directory is a common directory used to store all output files in the Workflow Designer. If this directory is used, a separate subdirectory is created for each run of a workflow. You can change this option in the [_Application Settings_](/basic-functions/ugene-application-settings/workflow-designer-settings/) dialog.
 
 The tool provides a multi-window user interface, so you can open and use as many Workflow Designer windows as you need simultaneously.
 

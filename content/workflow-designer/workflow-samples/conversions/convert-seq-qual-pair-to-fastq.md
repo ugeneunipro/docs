@@ -9,7 +9,7 @@ This workflow allows you to add PHRED quality scores to a sequence and save the 
 
 ## How to Use This Sample
 
-If you haven't used the workflow samples in UGENE before, see the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
+If you haven't used the workflow samples in UGENE before, see the "[How to Use Sample Workflows](/workflow-designer/introduction/how-to-use-sample-workflows/)" section of the documentation.
 
 ### Workflow Sample Location
 

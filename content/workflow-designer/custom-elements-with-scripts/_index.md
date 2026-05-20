@@ -28,7 +28,7 @@ You can also add an attribute. The following types are supported for attributes:
 * Number
 * Boolean
 
-The created element is stored in a directory that can be set in the [_Application Settings_](../introduction/ugene-components-and-workflow-designer/application-settings) dialog.
+The created element is stored in a directory that can be set in the [_Application Settings_](/workflow-designer/introduction/ugene-components-and-workflow-designer/application-settings/) dialog.
 
 The element also becomes available in the _Custom Elements with Scripts_ group on the [_Palette_](../introduction/workflow-designer-window-components).
 

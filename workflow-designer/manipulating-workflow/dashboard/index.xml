@@ -15,7 +15,8 @@
 &lt;li>the name of the workflow element that has produced the file;&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929952/65929953.jpg" alt="">&lt;/p></description></item><item><title>Using Dashboard</title><link>https://ugene.net/docs/workflow-designer/manipulating-workflow/dashboard/using-dashboard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/manipulating-workflow/dashboard/using-dashboard/</guid><description>&lt;h1 id="using-dashboard">Using Dashboard&lt;/h1>
-&lt;p>For each workflow that has been run, a new dashboard will be opened. These dashboards will be saved in the &lt;em>&lt;a href="../../introduction/launching-workflow-designer">selected directory&lt;/a>&lt;/em>. You will also see this dashboard when UGENE is run again. Furthermore, you can open the original workflow for your results by clicking on this button:&lt;/p>
+&lt;p>For each workflow that has been run, a new dashboard will be opened. These dashboards will be saved in the &lt;a href="https://ugene.net/docs/workflow-designer/introduction/launching-workflow-designer/">&lt;em>selected directory&lt;/em>&lt;/a>. You will also see this dashboard when UGENE is run again. Furthermore, you can open the original workflow for your results by clicking on this button:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/3244851/3407960.jpg" alt="">&lt;/p>
 &lt;p>To remove or load a dashboard, click on the &lt;em>Dashboards manager&lt;/em> button on the &lt;em>Workflow Designer&lt;/em> main toolbar:&lt;/p>
-&lt;p>&lt;img src="https://ugene.net/docs/images/3244851/3407957.jpg" alt="">&lt;/p></description></item></channel></rss>
+&lt;p>&lt;img src="https://ugene.net/docs/images/3244851/3407957.jpg" alt="">&lt;/p>
+&lt;p>or on the &lt;em>Dashboard&lt;/em> toolbar:&lt;/p></description></item></channel></rss>

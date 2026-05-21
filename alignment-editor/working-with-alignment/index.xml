@@ -37,7 +37,7 @@
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929670/65929671.png" alt="">&lt;/p></description></item><item><title>Aligning Sequences</title><link>https://ugene.net/docs/alignment-editor/working-with-alignment/aligning-sequences/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/alignment-editor/working-with-alignment/aligning-sequences/</guid><description>&lt;h1 id="aligning-sequences">Aligning Sequences&lt;/h1>
 &lt;p>The &lt;em>Alignment Editor&lt;/em> integrates several popular multiple sequence alignment algorithms. Below is a list of available algorithms and links to their documentation:&lt;/p>
 &lt;ul>
-&lt;li>Port of the popular &lt;a href="../../extensions/umuscle/muscle-aligning">&lt;em>MUSCLE3&lt;/em>&lt;/a> algorithm.&lt;/li>
+&lt;li>Port of the popular &lt;a href="https://ugene.net/docs/extensions/umuscle/muscle-aligning/">&lt;em>MUSCLE3&lt;/em>&lt;/a> algorithm.&lt;/li>
 &lt;li>KAlign plugin: effective for working with large alignments.&lt;/li>
 &lt;li>ClustalW and MAFFT: These algorithms appeared in version 1.7.2 of UGENE with the &lt;a href="https://ugene.net/docs/extensions/external-tools-plugin/">&lt;em>External Tools&lt;/em>&lt;/a> plugin.&lt;/li>
 &lt;li>T-Coffee: This alignment algorithm has been available since version 1.8.1 of UGENE with the &lt;em>External Tools&lt;/em> plugin.&lt;/li>

@@ -46,7 +46,7 @@
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
 &lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Annotate with UQL Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/annotate-with-uql-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/basic-analysis/annotate-with-uql-element/</guid><description>&lt;h1 id="annotate-with-uql-element">Annotate with UQL Element&lt;/h1>
 &lt;p>Analyzes a nucleotide sequence with a UGENE Query Language (UQL) workflow. The workflow specifies a set of features to search for and their positional relationships.&lt;/p>
-&lt;p>To learn more about UQL workflows, read the &lt;a href="https://doc.ugene.net/wiki/display/UM/About+the+Query+Designer">UGENE Query Designer Manual&lt;/a>.&lt;/p>
+&lt;p>To learn more about UQL workflows, read the &lt;a href="https://ugene.net/docs/query-designer/">UGENE Query Designer Manual&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> query&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
 &lt;table>

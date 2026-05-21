@@ -30,45 +30,45 @@
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th>Hotkey&lt;/th>
- &lt;th>Action&lt;/th>
+ &lt;th>&lt;strong>Hotkey&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Action&lt;/strong>&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>wheel&lt;/td>
+ &lt;td>&lt;strong>wheel&lt;/strong>&lt;/td>
  &lt;td>Zoom the Reads Area&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>double-click&lt;/td>
+ &lt;td>&lt;strong>double-click&lt;/strong>&lt;/td>
  &lt;td>Zoom in the Reads Area&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>+ / -&lt;/td>
+ &lt;td>&lt;strong>+ / -&lt;/strong>&lt;/td>
  &lt;td>Zoom in / zoom out the Reads Area&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>click + move mouse&lt;/td>
+ &lt;td>&lt;strong>click + move mouse&lt;/strong>&lt;/td>
  &lt;td>Move the Reads Area&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>arrow&lt;/td>
+ &lt;td>&lt;strong>arrow&lt;/strong>&lt;/td>
  &lt;td>Move one base in the corresponding direction in the Reads Area&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Ctrl + arrow&lt;/td>
+ &lt;td>&lt;strong>Ctrl + arrow&lt;/strong>&lt;/td>
  &lt;td>Move one page in the corresponding direction in the Reads Area&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Page Up / Page Down&lt;/td>
+ &lt;td>&lt;strong>Page Up / Page Down&lt;/strong>&lt;/td>
  &lt;td>Move one page up / down in the Reads Area&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Home / End&lt;/td>
+ &lt;td>&lt;strong>Home / End&lt;/strong>&lt;/td>
  &lt;td>Move to the beginning/end of the assembly in the Reads Area&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Ctrl + G&lt;/td>
+ &lt;td>&lt;strong>Ctrl + G&lt;/strong>&lt;/td>
  &lt;td>Focus on the &lt;em>Go to position&lt;/em> field on the toolbar&lt;/td>
  &lt;/tr>
  &lt;/tbody>

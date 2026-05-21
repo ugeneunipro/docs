@@ -6,7 +6,7 @@
 &lt;li>macOS 10.7+&lt;/li>
 &lt;li>Linux&lt;/li>
 &lt;/ul>
-&lt;p>Please note that some external tools may only be available on specific operating systems. For more details, refer to the &amp;ldquo;&lt;a href="data-analysis-tools">Data Analysis Tools&lt;/a>&amp;rdquo; chapter of the manual.&lt;/p>
+&lt;p>Please note that some external tools may only be available on specific operating systems. For more details, refer to the &lt;a href="https://ugene.net/docs/download-and-installation/data-analysis-tools/">&lt;em>Data Analysis Tools&lt;/em>&lt;/a> chapter of the manual.&lt;/p>
 &lt;p>For older packages, if needed, visit &lt;a href="http://ugene.net/download-all.html">http://ugene.net/download-all.html&lt;/a>.&lt;/p>
 &lt;h4 id="ram">&lt;strong>RAM&lt;/strong>&lt;/h4>
 &lt;p>A minimum of 512 MB of RAM is required. At least 2 GB of RAM is recommended for optimal performance.&lt;/p></description></item><item><title>Installation on Windows</title><link>https://ugene.net/docs/download-and-installation/installation-on-windows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/download-and-installation/installation-on-windows/</guid><description>&lt;h1 id="installation-on-windows">Installation on Windows&lt;/h1>
@@ -43,7 +43,7 @@
 &lt;li>&lt;strong>External tool:&lt;/strong>
 &lt;ul>
 &lt;li>&lt;strong>Integrated (supported) external tool:&lt;/strong> The tool&amp;rsquo;s executable file(s) is provided with UGENE. It is launched when used in the UGENE GUI, and the results are also displayed within the UGENE GUI. Note that the tool may only be available on some operating systems.&lt;/li>
-&lt;li>&lt;strong>Custom external tool:&lt;/strong> It is possible to add &lt;a href="https://local.ugene.unipro.ru/wiki/display/WDD33/Custom+Elements+with+External+Tools">any custom external tool&lt;/a> as a workflow element in the Workflow Designer. See the &amp;ldquo;&lt;a href="../basic-functions/ugene-application-settings/external-tools/custom-external-tools">Custom External Tools&lt;/a>&amp;rdquo; documentation chapter for details.&lt;/li>
+&lt;li>&lt;strong>Custom external tool:&lt;/strong> It is possible to add &lt;a href="https://local.ugene.unipro.ru/wiki/display/WDD33/Custom+Elements+with+External+Tools">any custom external tool&lt;/a> as a workflow element in the Workflow Designer. See the &lt;a href="https://ugene.net/docs/basic-functions/ugene-application-settings/external-tools/custom-external-tools/">&lt;em>Custom External Tools&lt;/em>&lt;/a> documentation chapter for details.&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>

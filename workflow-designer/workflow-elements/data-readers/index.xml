@@ -28,7 +28,7 @@
 &lt;p>The element has 1 &lt;em>output port&lt;/em>:&lt;/p></description></item><item><title>Read Annotations Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-readers/read-annotations-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-readers/read-annotations-element/</guid><description>&lt;h1 id="read-annotations-element">Read Annotations Element&lt;/h1>
 &lt;p>Input one or several files with annotations: a file may also contain a sequence (e.g., GenBank format) or contain annotations only (e.g., GTF format).&lt;/p>
 &lt;p>The element outputs messages with the annotations data.&lt;/p>
-&lt;p>See the list of all available formats &lt;a href="https://ugene.net/wiki/display/UUOUM27/Appendix+A.+Supported+File+Formats">here&lt;/a>.&lt;/p>
+&lt;p>See the list of all available formats &lt;a href="https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/">here&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> read-annotations&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
 &lt;table>
@@ -308,7 +308,7 @@
 &lt;p>Input one or more files with nucleotide or protein sequences.&lt;/p>
 &lt;p>A file may also contain annotations. Any format supported by UGENE is allowed (GenBank, FASTA, etc.).&lt;/p>
 &lt;p>The element outputs message(s) with the sequence and annotations data.&lt;/p>
-&lt;p>See the list of all available formats &lt;a href="https://local.ugene.unipro.ru/wiki/display/UUOUM27/Appendix+A.+Supported+File+Formats">here&lt;/a>.&lt;/p>
+&lt;p>See the list of all available formats &lt;a href="https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/">here&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> read-sequence&lt;/p>
 &lt;h2 id="parameters-in-gui">Parameters in GUI&lt;/h2>
 &lt;table>
@@ -467,7 +467,7 @@
 &lt;p>The element has 1 &lt;em>output port&lt;/em>:&lt;/p></description></item><item><title>Read Variants Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/data-readers/read-variants-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/data-readers/read-variants-element/</guid><description>&lt;h1 id="read-variants-element">Read Variants Element&lt;/h1>
 &lt;p>Input one or several files with variants in one of the formats supported by UGENE (e.g., VCF).&lt;/p>
 &lt;p>The element outputs messages with the variant data.&lt;/p>
-&lt;p>See the list of all available formats &lt;a href="https://ugene.net/wiki/display/UUOUM27/Appendix+A.+Supported+File+Formats">here&lt;/a>.&lt;/p>
+&lt;p>See the list of all available formats &lt;a href="https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/">here&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> read-variations&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
 &lt;table>

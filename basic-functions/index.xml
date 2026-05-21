@@ -25,7 +25,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Settings&lt;/strong>&lt;/td>
- &lt;td>&lt;a href="https://ugene.unipro.ru/wiki/display/UM/UGENE+Application+Settings">Preferences&lt;/a> and &lt;a href="https://ugene.unipro.ru/wiki/display/UM/Plugins+Viewer">plugin settings&lt;/a>.&lt;/td>
+ &lt;td>&lt;a href="https://ugene.net/docs/basic-functions/ugene-application-settings/general/">&lt;em>Preferences&lt;/em>&lt;/a> and &lt;a href="https://ugene.net/docs/basic-functions/plugins-viewer/">&lt;em>plugin settings&lt;/em>&lt;/a>.&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;strong>Tools&lt;/strong>&lt;/td>
@@ -44,18 +44,17 @@
 &lt;h3 id="file">File&lt;/h3>
 &lt;p>&lt;strong>List of operations:&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://ugene.unipro.ru/wiki/display/UM/Creating+New+Project">new project&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://ugene.unipro.ru/wiki/display/UM/Creating+Document">new document from text&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://ugene.unipro.ru/wiki/display/UM/Creating+New+Workflow">new workflow&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://ugene.unipro.ru/wiki/display/UM/Opening+Document">open&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://ugene.unipro.ru/wiki/display/UM/Advanced+Dialog+Options">open as&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://ugene.unipro.ru/wiki/display/UM/Opening+from+Clipboard">open from clipboard&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://ugene.unipro.ru/wiki/display/UM/Fetching+Data+from+Remote+Database">access remote database&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://ugene.unipro.ru/wiki/display/UM/Searching+NCBI+Genbank">search NCBI Genbank&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://doc.ugene.net/wiki/display/UM/UGENE+Public+Storage">connect to UGENE shared database&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://ugene.net/docs/basic-functions/creating-new-project/">&lt;em>new project&lt;/em>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://ugene.net/docs/basic-functions/creating-document/">&lt;em>new document from text&lt;/em>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://ugene.net/docs/workflow-designer/manipulating-workflow/creating-new-workflow/">&lt;em>new workflow&lt;/em>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://ugene.net/docs/basic-functions/opening-document/">&lt;em>open&lt;/em>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://ugene.net/docs/basic-functions/opening-document/opening-for-the-first-time/advanced-dialog-options/">&lt;em>open as&lt;/em>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://ugene.net/docs/basic-functions/opening-document/opening-from-clipboard/">&lt;em>open from clipboard&lt;/em>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://ugene.net/docs/basic-functions/fetching-data-from-remote-database/">&lt;em>access remote database&lt;/em>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://ugene.net/docs/basic-functions/searching-ncbi-genbank/">&lt;em>search NCBI Genbank&lt;/em>&lt;/a>&lt;/li>
 &lt;li>save all&lt;/li>
-&lt;li>&lt;a href="https://ugene.unipro.ru/wiki/display/UM/Saving+Project">save project as&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://ugene.unipro.ru/wiki/display/UM/Exporting+Project">export project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://ugene.net/docs/basic-functions/saving-project/">save project as&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://ugene.net/docs/basic-functions/exporting-project/">export project&lt;/a>&lt;/li>
 &lt;li>close project&lt;/li>
 &lt;li>recent files&lt;/li>
 &lt;li>recent projects&lt;/li>
@@ -74,7 +73,7 @@
 &lt;p>&lt;em>Alphabet&lt;/em> — here you can select the alphabet:&lt;/p></description></item><item><title>Renaming Object</title><link>https://ugene.net/docs/basic-functions/renaming-object/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/basic-functions/renaming-object/</guid><description>&lt;h1 id="renaming-object">Renaming Object&lt;/h1>
 &lt;p>To rename an object in the project tree view, use the F2 shortcut or the &lt;em>Rename&lt;/em> context menu item:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929281/65929282.png" alt="">&lt;/p></description></item><item><title>Opening Containing Folder</title><link>https://ugene.net/docs/basic-functions/opening-containing-folder/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/basic-functions/opening-containing-folder/</guid><description>&lt;h1 id="opening-containing-folder">Opening Containing Folder&lt;/h1>
-&lt;p>To open the containing folder of a &lt;em>document&lt;/em> that is already present in the current &lt;em>project&lt;/em>, select it in the &lt;a href="https://ugene.unipro.ru/wiki/display/UUOUM16/Project+View">&lt;em>Project View&lt;/em>&lt;/a> and click on the &lt;em>Open In&lt;/em> -&amp;gt; &lt;em>Open containing folder&lt;/em> context menu item.&lt;/p>
+&lt;p>To open the containing folder of a &lt;em>document&lt;/em> that is already present in the current &lt;em>project&lt;/em>, select it in the &lt;a href="https://ugene.net/docs/basic-functions/ugene-window-components/project-view/">&lt;em>Project View&lt;/em>&lt;/a> and click on the &lt;em>Open In&lt;/em> -&amp;gt; &lt;em>Open containing folder&lt;/em> context menu item.&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929294/96665775.png" alt="">&lt;/p></description></item><item><title>Exporting Documents</title><link>https://ugene.net/docs/basic-functions/exporting-documents/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/basic-functions/exporting-documents/</guid><description>&lt;h1 id="exporting-documents">Exporting Documents&lt;/h1>
 &lt;p>If a document has a format that supports writing in UGENE (see the &lt;a href="https://ugene.net/docs/appendixes/appendix-a-supported-file-formats/">&lt;em>Supported File Formats&lt;/em>&lt;/a> chapter), you can export the document to a new document in the required format.&lt;/p>
 &lt;p>To do so, use the &lt;em>Export document&lt;/em> item in the context menu:&lt;/p>
@@ -82,7 +81,7 @@
 &lt;p>The following dialog appears:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929295/65929296.png" alt="">&lt;/p>
 &lt;p>Here you may select the name of the output file in the &lt;em>Save to file&lt;/em> field and, optionally, choose the format of the output file in the &lt;em>File format&lt;/em> field. Use the &lt;em>Compress file&lt;/em> checkbox to compress the file. The &lt;em>Add to project&lt;/em> checkbox, checked by default, adds the output file to the current project. After choosing all parameters, click the &lt;em>Export&lt;/em> button.&lt;/p></description></item><item><title>Locked Documents</title><link>https://ugene.net/docs/basic-functions/locked-documents/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/basic-functions/locked-documents/</guid><description>&lt;h1 id="locked-documents">Locked Documents&lt;/h1>
-&lt;p>To lock a &lt;em>document&lt;/em> that is already present in the current &lt;em>project&lt;/em>, select it in the &lt;a href="https://ugene.unipro.ru/wiki/display/UUOUM16/Project+View">&lt;em>Project View&lt;/em>&lt;/a> and click on the &lt;em>Lock document for editing&lt;/em> context menu item.&lt;/p>
+&lt;p>To lock a &lt;em>document&lt;/em> that is already present in the current &lt;em>project&lt;/em>, select it in the &lt;a href="https://ugene.net/docs/basic-functions/ugene-window-components/project-view/">&lt;em>Project View&lt;/em>&lt;/a> and click on the &lt;em>Lock document for editing&lt;/em> context menu item.&lt;/p>
 &lt;p>The lock icon in the document element indicates that the document cannot be modified:&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929299/65929300.png" alt="">&lt;/p>
 &lt;p>UGENE does not allow modification of some formats that were not created by UGENE.&lt;/p>

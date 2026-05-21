@@ -109,7 +109,7 @@
 &lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Align with ClustalW Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-clustalw-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-clustalw-element/</guid><description>&lt;h1 id="align-with-clustalw-element">Align with ClustalW Element&lt;/h1>
 &lt;p>Aligns multiple sequence alignments (MSAs) supplied with ClustalW.&lt;/p>
 &lt;p>ClustalW is a general-purpose multiple sequence alignment program for DNA or proteins. Visit &lt;a href="http://www.clustal.org/">http://www.clustal.org/&lt;/a> to learn more about it.&lt;/p>
-&lt;p>Clustal is used as an external tool from UGENE and it must be installed on your system. To learn more about the external tools, please read the main &lt;a href="http://ugene.unipro.ru/documentation.html">UGENE User Manual&lt;/a>.&lt;/p>
+&lt;p>Clustal is used as an external tool from UGENE and it must be installed on your system. To learn more about the external tools, please read the main &lt;a href="https://ugene.net/docs/download-and-installation/data-analysis-tools/">UGENE User Manual&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> clustalw&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
 &lt;table>
@@ -267,7 +267,7 @@
 &lt;p>Originally, MAFFT is a multiple sequence alignment program for Unix-like operating systems. Currently, a Windows version
 is also available.&lt;/p>
 &lt;p>MAFFT is used as an external tool from UGENE and it must be installed on your system. To learn more about external
-tools, please read the main &lt;a href="http://ugene.unipro.ru/documentation.html">UGENE User Manual&lt;/a>.&lt;/p>
+tools, please read the main &lt;a href="https://ugene.net/docs/download-and-installation/data-analysis-tools/">UGENE User Manual&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> mafft&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
 &lt;table>
@@ -360,7 +360,7 @@ tools, please read the main &lt;a href="http://ugene.unipro.ru/documentation.htm
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
 &lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Align with T-Coffee Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-t-coffee-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-t-coffee-element/</guid><description>&lt;h1 id="align-with-t-coffee-element">Align with T-Coffee Element&lt;/h1>
 &lt;p>T-Coffee is a multiple sequence alignment package.&lt;/p>
-&lt;p>T-Coffee is used as an external tool from UGENE and it must be installed on your system. To learn more about the external tools, please read the main &lt;a href="http://ugene.unipro.ru/documentation.html">UGENE User Manual&lt;/a>.&lt;/p>
+&lt;p>T-Coffee is used as an external tool from UGENE and it must be installed on your system. To learn more about the external tools, please read the main &lt;a href="https://ugene.net/docs/download-and-installation/data-analysis-tools/">UGENE User Manual&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>Element type:&lt;/strong> tcoffee&lt;/p>
 &lt;h2 id="parameters">Parameters&lt;/h2>
 &lt;table>

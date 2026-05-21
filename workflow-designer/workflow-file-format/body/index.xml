@@ -5,7 +5,7 @@
  parameter2:value2;
  ...
 }
-&lt;/code>&lt;/pre>&lt;p>See, for example, a description of the &lt;a href="../../workflow-elements/data-readers/read-alignment-element">&lt;em>Read alignment&lt;/em>&lt;/a> element:&lt;/p>
+&lt;/code>&lt;/pre>&lt;p>See, for example, a description of the &lt;a href="https://ugene.net/docs/workflow-designer/workflow-elements/data-readers/read-alignment-element/">&lt;em>Read alignment&lt;/em>&lt;/a> element:&lt;/p>
 &lt;pre tabindex="0">&lt;code>read-msa {
  type:read-msa;
  name:&amp;#34;Read alignment&amp;#34;;

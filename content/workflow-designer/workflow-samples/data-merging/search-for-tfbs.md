@@ -18,7 +18,7 @@ The workflow involves the following steps:
 
 ## How to Use This Sample
 
-If you haven't used the workflow samples in UGENE before, refer to the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
+If you haven't used the workflow samples in UGENE before, refer to the "[How to Use Sample Workflows](/workflow-designer/workflow-elements/data-flow/sequence-marker-element/)" section of the documentation.
 
 ##### Workflow Sample Location
 

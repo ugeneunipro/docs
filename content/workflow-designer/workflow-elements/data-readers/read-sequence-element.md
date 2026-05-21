@@ -11,7 +11,7 @@ A file may also contain annotations. Any format supported by UGENE is allowed (G
 
 The element outputs message(s) with the sequence and annotations data.
 
-See the list of all available formats [here](https://local.ugene.unipro.ru/wiki/display/UUOUM27/Appendix+A.+Supported+File+Formats).
+See the list of all available formats [here](/appendixes/appendix-a-supported-file-formats/).
 
 **Element type:** read-sequence
 

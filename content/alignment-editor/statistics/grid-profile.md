@@ -11,4 +11,4 @@ The alignment grid profile displays positional amino acid or nucleotide counts, 
 
 To create a grid profile, use the _Statistics ‣ Generate grid profile_ option in the _Actions_ main menu or in the context menu.
 
-To learn more about this feature, refer to the [_DNA Statistics_](../../extensions/dna-statistics) plugin documentation.
+To learn more about this feature, refer to the [_DNA Statistics_](/docs/extensions/dna-statistics/) plugin documentation.

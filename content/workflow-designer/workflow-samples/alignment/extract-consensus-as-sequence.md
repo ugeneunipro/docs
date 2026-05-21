@@ -17,7 +17,7 @@ Finally, there is a **"Keep gaps"** parameter that specifies whether the resulti
 
 ## How to Use This Sample
 
-If you haven't used the workflow samples in UGENE before, refer to the [How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows) section of the documentation.
+If you haven't used the workflow samples in UGENE before, refer to the [How to Use Sample Workflows](/workflow-designer/introduction/how-to-use-sample-workflows/) section of the documentation.
 
 ---
 

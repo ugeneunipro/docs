@@ -5,7 +5,7 @@ weight: 900
 
 # Running Workflow from the Command Line
 
-UGENE provides a command-line interface (CLI). To learn more about the UGENE CLI and the available commands, read the [main UGENE User Manual](http://ugene.unipro.ru/documentation.html).
+UGENE provides a command-line interface (CLI). To learn more about the UGENE CLI and the available commands, read the [_UGENE Command Line Interface_](https://ugene.net/docs/ugene-command-line-interface/).
 
 This chapter describes how you can create a new command using a _workflow_.
 
@@ -33,7 +33,7 @@ To select ports and slots aliases, use the following dialog by the _Actions->Con
 
 Press the _Ok_ button to save aliases and close the dialog. When you create aliases, you can import the workflow to an element using the _Actions->Import workflow to element_ main menu item.
 
-*   [_Save the workflow_](manipulating-workflow/saving-workflow) to a file: If you follow the example, choose the _Actions ‣ Save workflow as..._ item in the main menu, browse for the file location, and enter **mySchema** as the workflow name. This name will be used to launch the workflow from the command line.
+*   [_Save the workflow_](/workflow-designer/manipulating-workflow/saving-workflow/) to a file: If you follow the example, choose the _Actions ‣ Save workflow as..._ item in the main menu, browse for the file location, and enter **mySchema** as the workflow name. This name will be used to launch the workflow from the command line.
 *   Launch the workflow from the command line:
 
 ```

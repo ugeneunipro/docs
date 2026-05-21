@@ -5,9 +5,9 @@ weight: 100
 
 # Adding Element
 
-There are several ways to add an [_element_](../introduction/workflow-elements-and-connections) to the [_Scene_](../introduction/workflow-designer-window-components).
+There are several ways to add an [_element_](/workflow-designer/introduction/workflow-elements-and-connections/) to the [_Scene_](/workflow-designer/introduction/workflow-designer-window-components/).
 
-The easiest way is to drag the required element from the [_Palette_](../introduction/workflow-designer-window-components) to the Scene. Alternatively, you can click on the element in the Palette and then click somewhere on the Scene.
+The easiest way is to drag the required element from the [_Palette_](/workflow-designer/introduction/workflow-designer-window-components/) to the Scene. Alternatively, you can click on the element in the Palette and then click somewhere on the Scene.
 
 You can also select an element in the _Add item_ submenu of the _Actions_ main menu or the Scene context menu. For example:
 

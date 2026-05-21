@@ -23,8 +23,8 @@ To disable/enable automatic annotation calculations, use the _Automatic annotati
 
 To create a permanent annotation, click on the _Make auto-annotations persistent_ context menu item and choose the annotation parameters in the _Create Permanent Annotation_ dialog:
 
-![](/images/65929453/82608236.png)
+![](/images/65929453/82608242.png)
 
 The following dialog will appear:
 
-![](/images/65929453/82608240.png)
+![](/images/65929453/82608271.png)``

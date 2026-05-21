@@ -11,9 +11,9 @@ A typical SnpEff use case would be:
 - Input: The inputs are predicted variants (SNPs, insertions, deletions, and MNPs). The input file is usually obtained as a result of a sequencing experiment and is typically in variant call format (VCF).
 - Output: SnpEff analyzes the input variants. It annotates the variants and calculates the effects they produce on known genes, such as amino acid changes.
 
-How to Use This Sample
+## How to Use This Sample
 
-If you haven't used the workflow samples in UGENE before, take a look at the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
+If you haven't used the workflow samples in UGENE before, please refer to the "[How to Use Sample Workflows](/workflow-designer/introduction/how-to-use-sample-workflows/)" section of the documentation.
 
 ##### Workflow Sample Location
 

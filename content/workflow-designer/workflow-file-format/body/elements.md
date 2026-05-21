@@ -15,7 +15,7 @@ element_name {
 }
 ```
 
-See, for example, a description of the [_Read alignment_](../../workflow-elements/data-readers/read-alignment-element) element:
+See, for example, a description of the [_Read alignment_](/workflow-designer/workflow-elements/data-readers/read-alignment-element/) element:
 
 ```
 read-msa {
@@ -60,7 +60,7 @@ dump-info {
 }
 ```
 
-The list of available parameters depends on the element. Refer to the [_Workflow Elements_](/workflow-designer/workflow-elements/) chapter to find out the parameters for a particular element. To [_set a script value for a parameter_](../../using-script-to-set-parameter-value), use the following form:
+The list of available parameters depends on the element. Refer to the [_Workflow Elements_](/workflow-designer/workflow-elements/) chapter to find out the parameters for a particular element. To [_set a script value for a parameter_](/workflow-designer/using-script-to-set-parameter-value/), use the following form:
 
 ```
 parameter_name {

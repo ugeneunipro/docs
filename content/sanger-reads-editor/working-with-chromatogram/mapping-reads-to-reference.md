@@ -26,8 +26,8 @@ _Mapping min similarity_ — all reads mapped to the reference with a lower perc
 
 _Read name in result alignment_ — reads in the resulting alignment can be named either by the names of the sequences in the input files or by the input file names. Set this value to "File name". For example, if the sequences in the input \*.ab1 files have the same name, this will help distinguish the reads in the resulting alignment.
 
-The resulting alignment is stored in a native UGENEDB format. You can set up the file location and name in the _Result alignment_ field. Note that it is also possible to [export data to standard alignment formats without chromatograms](exporting-alignment-without-chromatograms) such as FASTA, ClustalW, etc.
+The resulting alignment is stored in a native UGENEDB format. You can set up the file location and name in the _Result alignment_ field. Note that it is also possible to [export data to standard alignment formats without chromatograms](/sanger-reads-editor/working-with-chromatogram/exporting-alignment-without-chromatograms/) such as FASTA, ClustalW, etc.
 
-To initiate the execution of the mapping task, click the _Map_ button in the dialog. Note that when the task is finished, task statistics can be found in a report, available by clicking the corresponding [notification](../../basic-functions/ugene-window-components/notifications):
+To initiate the execution of the mapping task, click the _Map_ button in the dialog. Note that when the task is finished, task statistics can be found in a report, available by clicking the corresponding [notification](/basic-functions/ugene-window-components/notifications/):
 
 ![](/images/65929762/65929764.png)

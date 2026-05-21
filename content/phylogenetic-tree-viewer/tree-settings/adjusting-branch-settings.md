@@ -20,4 +20,4 @@ The slider positions return to their original position by double-clicking on the
 
 You can also select the color and the line width of the tree branches here.
 
-Note that when [_a clade has been selected_](../working-with-clade/selecting-clade), the branch settings _Color_ and _Line Width_ are applied to the clade only.
+Note that when [_a clade has been selected_](/phylogenetic-tree-viewer/working-with-clade/selecting-clade/), the branch settings _Color_ and _Line Width_ are applied to the clade only.

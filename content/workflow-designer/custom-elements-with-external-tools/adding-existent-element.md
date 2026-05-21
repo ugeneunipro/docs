@@ -7,7 +7,7 @@ weight: 300
 
 The elements are stored in files with the .etc extension.
 
-The directory to store the elements can be set in the [_Application Settings_](../introduction/ugene-components-and-workflow-designer/application-settings) dialog.
+The directory to store the elements can be set in the [_Application Settings_](/workflow-designer/introduction/ugene-components-and-workflow-designer/application-settings) dialog.
 
 To add an element from a file to the _Workflow Designer_, select either _Actions ‣ Add element with external tool_ in the main menu or click on the following icon on the toolbar:
 

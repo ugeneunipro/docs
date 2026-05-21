@@ -20,9 +20,9 @@ Use this workflow sample to process raw DNA-seq next-generation sequencing (NGS)
 
 The resulting filtered short reads assembly is provided in the SAM format. Intermediate data files are also available in the output.
 
-### How to Use This Sample
+## How to Use This Sample
 
-If you haven't used the workflow samples in UGENE before, refer to the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
+If you haven't used the workflow samples in UGENE before, please refer to the "[How to Use Sample Workflows](/workflow-designer/introduction/how-to-use-sample-workflows/)" section of the documentation.
 
 ##### Workflow Sample Location
 

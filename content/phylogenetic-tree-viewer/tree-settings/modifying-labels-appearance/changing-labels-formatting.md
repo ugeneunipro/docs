@@ -11,4 +11,4 @@ To change the formatting of the tree labels, select the _Labels Formatting_ tool
 
 Here, you can select the color, font, size, and attributes (bold, italic, etc.) of the labels.
 
-Note that when [_a clade has been selected_](../../working-with-clade/selecting-clade), the label formatting settings are applied only to that clade.
+Note that when [_a clade has been selected_](/phylogenetic-tree-viewer/working-with-clade/selecting-clade/), the label formatting settings are applied only to that clade.

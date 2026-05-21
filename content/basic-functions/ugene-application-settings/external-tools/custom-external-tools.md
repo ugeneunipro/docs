@@ -5,7 +5,7 @@ weight: 200
 
 # Custom External Tools
 
-A custom tool can be integrated into the UGENE GUI as a workflow element in the [Workflow Designer](https://local.ugene.unipro.ru/wiki/display/WDD33/About+the+Workflow+Designer) - a UGENE component that allows combining tools into workflows.
+A custom tool can be integrated into the UGENE GUI as a workflow element in the [Workflow Designer](/workflow-designer/) - a UGENE component that allows combining tools into workflows.
 
 As described in the "[Custom Elements with External Tools](https://local.ugene.unipro.ru/wiki/display/WDD33/Custom+Elements+with+External+Tools)" chapter of the Workflow Designer documentation, there are two options for creating such a workflow element:
 

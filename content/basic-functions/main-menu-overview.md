@@ -9,25 +9,24 @@ weight: 300
 |-------------|-----------------|
 | **File**    | A set of project-level operations. |
 | **Actions** | Various actions associated with the active window. |
-| **Settings**| [Preferences](https://ugene.unipro.ru/wiki/display/UM/UGENE+Application+Settings) and [plugin settings](https://ugene.unipro.ru/wiki/display/UM/Plugins+Viewer). |
+| **Settings**| [_Preferences_](/basic-functions/ugene-application-settings/general/) and [_plugin settings_](/basic-functions/plugins-viewer/). |
 | **Tools**   | Various tools, extended by different plugins. |
 | **Window**  | A list of active windows and basic manipulations with the windows. |
 | **Help**    | Application help and check for updates. |
 
 ### File
 **List of operations:** 
-- [new project](https://ugene.unipro.ru/wiki/display/UM/Creating+New+Project)
-- [new document from text](https://ugene.unipro.ru/wiki/display/UM/Creating+Document)
-- [new workflow](https://ugene.unipro.ru/wiki/display/UM/Creating+New+Workflow)
-- [open](https://ugene.unipro.ru/wiki/display/UM/Opening+Document)
-- [open as](https://ugene.unipro.ru/wiki/display/UM/Advanced+Dialog+Options)
-- [open from clipboard](https://ugene.unipro.ru/wiki/display/UM/Opening+from+Clipboard)
-- [access remote database](https://ugene.unipro.ru/wiki/display/UM/Fetching+Data+from+Remote+Database)
-- [search NCBI Genbank](https://ugene.unipro.ru/wiki/display/UM/Searching+NCBI+Genbank)
-- [connect to UGENE shared database](https://doc.ugene.net/wiki/display/UM/UGENE+Public+Storage)
+- [_new project_](/basic-functions/creating-new-project/)
+- [_new document from text_](/basic-functions/creating-document/)
+- [_new workflow_](/workflow-designer/manipulating-workflow/creating-new-workflow/)
+- [_open_](/basic-functions/opening-document/)
+- [_open as_](/basic-functions/opening-document/opening-for-the-first-time/advanced-dialog-options/)
+- [_open from clipboard_](/basic-functions/opening-document/opening-from-clipboard/)
+- [_access remote database_](/basic-functions/fetching-data-from-remote-database/)
+- [_search NCBI Genbank_](/basic-functions/searching-ncbi-genbank/)
 - save all
-- [save project as](https://ugene.unipro.ru/wiki/display/UM/Saving+Project)
-- [export project](https://ugene.unipro.ru/wiki/display/UM/Exporting+Project)
+- [save project as](/basic-functions/saving-project/)
+- [export project](/basic-functions/exporting-project/)
 - close project
 - recent files
 - recent projects
@@ -35,52 +34,50 @@ weight: 300
 
 ### Actions
 **List of operations:**
-- [go to position](https://ugene.unipro.ru/wiki/display/UM/Going+To+Position)
+- [go to position](/sequence-view/manipulating-sequence/going-to-position/)
 - add
-- [copy/paste](https://ugene.unipro.ru/wiki/display/UM/Copying+and+Pasting+Sequence)
-- [analyze](https://ugene.unipro.ru/wiki/display/UM/Extensions)
+- [copy/paste](/sequence-view/manipulating-sequence/copying-and-pasting-sequence/)
+- [_analyze_](/extensions//)
 - align
-- [cloning](https://ugene.unipro.ru/wiki/display/UM/Constructing+Molecule)
-- [export](https://ugene.unipro.ru/wiki/display/UM/Exporting+Sequence+of+Selected+Annotations)
-- [remove](https://ugene.unipro.ru/wiki/display/UM/Remove+subsequence)
-- [edit](https://ugene.unipro.ru/wiki/display/UM/Editing+Sequence) (for the _Sequence View_);
+- [cloning](/extensions/molecular-cloning-in-silico/constructing-molecule/)
+- [export](/sequence-view/manipulating-sequence/exporting-sequence-of-selected-annotations/)
+- [remove](/sequence-view/manipulating-sequence/editing-sequence/remove-subsequence/)
+- [edit](/sequence-view/manipulating-sequence/editing-sequence/) (for the Sequence View);
 - go to position
 - add
 - copy/paste
-- [colors](https://ugene.unipro.ru/wiki/display/UM/Coloring+Schemes)
-- [highlighting](https://ugene.unipro.ru/wiki/display/UM/Highlighting+Alignment)
-- [edit](https://ugene.unipro.ru/wiki/display/UM/Editing+Alignment)
-- [align](https://ugene.unipro.ru/wiki/display/UM/Aligning+Sequences)
-- [tree](https://ugene.unipro.ru/wiki/display/UM/Building+Phylogenetic+Tree)
-- [statistics](https://ugene.unipro.ru/wiki/display/UM/Statistics)
+- [colors](/alignment-editor/overview/coloring-schemes/) (for the Alignment View);
+- [highlighting](/alignment-editor/overview/highlighting-alignment/)
+- [edit](/alignment-editor/working-with-alignment/editing-alignment/)
+- [align](/alignment-editor/working-with-alignment/aligning-sequences/)
+- [tree](/alignment-editor/building-phylogenetic-tree/)
+- [statistics](/alignment-editor/statistics/)
 - view
-- [export](https://ugene.unipro.ru/wiki/display/UM/Exporting+in+Alignment)
-- [advanced](https://ugene.unipro.ru/wiki/display/UM/Advanced+Functions)
-- [consensus mode](https://ugene.unipro.ru/wiki/display/UM/Consensus)
+- [export](/alignment-editor/working-with-alignment/exporting-in-alignment/)
+- [advanced](/alignment-editor/advanced-functions/)
+- [consensus mode](/alignment-editor/overview/consensus/)
 - close active window (for the _Alignment Editor_).
 
 ### Tools
 **List of operations:**
-- [sanger data analysis](https://ugene.unipro.ru/wiki/display/UM/Mapping+Reads+to+Reference)
-- [NGS data analysis](https://ugene.unipro.ru/wiki/display/UM/UGENE+Genome+Aligner)
-- [BLAST](https://ugene.unipro.ru/wiki/display/UM/BLAST)
-- [multiple sequence alignment](https://ugene.unipro.ru/wiki/display/UM/Aligning+Sequences)
-- [cloning](https://ugene.unipro.ru/wiki/display/UM/Molecular+Cloning+in+silico)
-- [primer](https://ugene.unipro.ru/wiki/display/UM/In+Silico+PCR)
-- [search for TFBS](https://ugene.unipro.ru/wiki/display/UM/SITECON+Searching+Transcription+Factors+Binding+Sites)
-- [HMMER tools](https://ugene.unipro.ru/wiki/display/UM/HMM2)
-- [build dotplot](https://ugene.unipro.ru/wiki/display/UM/Dotplot)
-- [random sequence generator](https://ugene.unipro.ru/wiki/display/UM/DNA+Generator)
-- [query designer](https://ugene.unipro.ru/wiki/display/UM/Query+Designer)
-- [workflow designer](https://ugene.unipro.ru/wiki/display/UM/Workflow+Designer)
+- [_sanger data analysis_](/sanger-reads-editor/)
+- [_NGS data analysis_](/extensions/ugene-genome-aligner/)
+- [_BLAST_](/extensions/blast/)
+- [_multiple sequence alignment_](/alignment-editor/working-with-alignment/aligning-sequences/)
+- [_cloning_](/extensions/molecular-cloning-in-silico/)
+- [_primer_](/extensions/in-silico-pcr/)
+- [_search for TFBS_](/extensions/sitecon/sitecon-searching-transcription-factors-binding-sites/)
+- [_HMMER tools_](/extensions/hmm2/)
+- [_build dotplot_](/sequence-view-extensions/dotplot/)
+- [_random sequence generator_](/extensions/dna-generator/)
+- [_query designer_](/query-designer/)
+- [_workflow designer_](/workflow-designer/)
 
 ### Window
 **List of operations:**
 - window layout (multiple or tabbed)
 - close active view
 - close all windows
-- tile windows
-- cascade windows
 - next window
 - previous window
 
@@ -90,7 +87,7 @@ weight: 300
 - view UGENE documentation online
 - [visit UGENE website](http://ugene.net)
 - check for updates
-- [open start page](https://ugene.unipro.ru/wiki/display/UM/Start+Page)
+- [open start page](/basic-functions/ugene-window-components/start-page/)
 - about
 
 ### Unipro UGENE (macOS only)

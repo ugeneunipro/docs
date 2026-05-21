@@ -5,7 +5,7 @@ weight: 300
 
 # Multiplexer Element
 
-This element allows you to join two data flows into a single data flow, i.e., to merge [messages](../../introduction/workflow-elements-and-connections) from two [input ports](../../introduction/workflow-elements-and-connections) into concatenated messages and send them to the output. The concatenation approach is determined by the _Multiplexing rule_ parameter.
+This element allows you to join two data flows into a single data flow, i.e., to merge [messages](/workflow-designer/introduction/workflow-elements-and-connections/) from two [input ports](/workflow-designer/introduction/workflow-elements-and-connections/) into concatenated messages and send them to the output. The concatenation approach is determined by the _Multiplexing rule_ parameter.
 
 There are the following multiplexing rules:
 
@@ -91,6 +91,6 @@ Element in Samples
 
 The element is used in the following workflow samples:
 
-* [Find Substrings in Sequences](../../workflow-samples/data-merging/find-substrings-in-sequences)
-* [Merge Sequences and Annotations](../../workflow-samples/scenarios/merge-sequences-and-annotations)
-* [Search for TFBS](../../workflow-samples/data-merging/search-for-tfbs)
+* [Find Substrings in Sequences](/workflow-designer/workflow-samples/data-merging/find-substrings-in-sequences/)
+* [Merge Sequences and Annotations](/workflow-designer//workflow-samples/scenarios/merge-sequences-and-annotations/)
+* [Search for TFBS](/workflow-designer/workflow-samples/data-merging/search-for-tfbs/)

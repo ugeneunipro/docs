@@ -9,7 +9,7 @@ Aligns multiple sequence alignments (MSAs) supplied with ClustalW.
 
 ClustalW is a general-purpose multiple sequence alignment program for DNA or proteins. Visit [http://www.clustal.org/](http://www.clustal.org/) to learn more about it.
 
-Clustal is used as an external tool from UGENE and it must be installed on your system. To learn more about the external tools, please read the main [UGENE User Manual](http://ugene.unipro.ru/documentation.html).
+Clustal is used as an external tool from UGENE and it must be installed on your system. To learn more about the external tools, please read the main [UGENE User Manual](/download-and-installation/data-analysis-tools/).
 
 **Element type:** clustalw
 

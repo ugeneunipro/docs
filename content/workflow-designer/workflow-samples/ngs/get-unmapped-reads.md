@@ -7,9 +7,9 @@ weight: 2100
 
 Use this workflow sample to extract unmapped reads from an input SAM/BAM file.
 
-How to Use This Sample
+## How to Use This Sample
 
-If you haven't used the workflow samples in UGENE before, look at the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
+If you haven't used the workflow samples in UGENE before, please refer to the "[How to Use Sample Workflows](/workflow-designer/introduction/how-to-use-sample-workflows/)" section of the documentation.
 
 ##### Workflow Sample Location
 

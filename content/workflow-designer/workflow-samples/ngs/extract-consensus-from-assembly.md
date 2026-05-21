@@ -11,7 +11,7 @@ The workflow sample below uses input assemblies to extract consensus sequences a
 
 ## How to Use This Sample  
 
-If you haven't used workflow samples in UGENE before, see the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.  
+If you haven't used the workflow samples in UGENE before, please refer to the "[How to Use Sample Workflows](/workflow-designer/introduction/how-to-use-sample-workflows/)" section of the documentation.
 
 ---  
 

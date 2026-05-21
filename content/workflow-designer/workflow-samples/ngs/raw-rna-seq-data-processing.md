@@ -15,9 +15,9 @@ Use this workflow sample to process raw RNA-seq next-generation sequencing (NGS)
 
 The resulting output of the workflow contains the filtered and merged FASTQ files. In case the TopHat mapping has been done, the result also contains the TopHat output files: the accepted hits BAM file and tracks of junctions, insertions, and deletions in BED format. Other intermediate data files are also output by the workflow.
 
-How to Use This Sample
+## How to Use This Sample
 
-If you haven't used the workflow samples in UGENE before, look at the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
+If you haven't used the workflow samples in UGENE before, please refer to the "[How to Use Sample Workflows](/workflow-designer/introduction/how-to-use-sample-workflows/)" section of the documentation.
 
 What's Next?
 

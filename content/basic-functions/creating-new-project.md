@@ -18,4 +18,4 @@ The dialog will appear:
 
 Here you need to specify the visual name for the project and the directory and file to store it.
 
-After you click the _Create_ button, the [_Project View_](ugene-window-components/project-view) window is opened.
+After you click the _Create_ button, the [_Project View_](/basic-functions/ugene-window-components/project-view/) window is opened.

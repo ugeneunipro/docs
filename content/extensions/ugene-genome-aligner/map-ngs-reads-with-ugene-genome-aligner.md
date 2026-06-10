@@ -13,7 +13,7 @@ The following parameters are available:
 
 - _Reference sequence_ — DNA sequence to align short reads to. This parameter is required.
 - _Result file name_ — file in UGENE database format or SAM format (if the box _SAM output_ is checked), to write the result of the alignment into. This parameter is required.
-- _Prebuilt index_ — check this box to use an index file instead of a reference sequence. You can also [_build it manually_](http://ugene.unipro.ru/documentation/manual/plugins/bwa/build_index.html#bwa-build-index).
+- _Prebuilt index_ — You can also [_build it manually_](/extensions/ugene-genome-aligner/building-index-for-ugene-genome-aligner/).
 - _SAM output_ — checking this box allows output files to be saved in the SAM format. The default format of output files is the UGENE database format (ugenedb).
 - _Short reads_ — each added short read is a small DNA sequence file. At least one read should be added.
 

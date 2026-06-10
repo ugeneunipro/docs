@@ -13,7 +13,7 @@ Parameters in GUI
 | Parameter                     | Description                                                                                                                                          | Default Value                 |
 |-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
 | **Annotate As**               | Name of the result annotations.                                                                                                                      | repeat_unit                   |
-| **Direction**                 | See the description [_here_](../../manipulating-schema/managing-strands/element-direction-in-schema).                                                 | Any                           |
+| **Direction**                 | See the description [_here_](/query-designer/manipulating-schema/managing-strands/element-direction-in-schema/).                                     | Any                           |
 | **Algorithm**                 | The algorithm parameter allows one to select the search algorithm. The default and a fast one is the optimized suffix array algorithm.                | Suffix index (optimized)      |
 | **Min period**                | Minimum acceptable repeat length measured in base symbols.                                                                                           | 1                             |
 | **Max period**                | Maximum acceptable repeat length measured in base symbols.                                                                                           | 1000000                       |

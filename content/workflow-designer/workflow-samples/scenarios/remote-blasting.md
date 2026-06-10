@@ -15,7 +15,7 @@ An internet connection is required to run this workflow sample.
 
 ### How to Use This Sample
 
-If you haven't used the workflow samples in UGENE before, refer to the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
+If you haven't used the workflow samples in UGENE before, refer to the "[How to Use Sample Workflows](/workflow-designer//introduction/how-to-use-sample-workflows)" section of the documentation.
 
 #### Workflow Sample Location
 

@@ -13,5 +13,5 @@ For a DNA sequence, the _Sequence details view_ automatically shows the compleme
 
 See also:
 
-* [_Navigating the Details View using the Sequence Overview_](sequence-overview)
-* [_Translating Nucleotide Sequence_](manipulating-sequence/translating-nucleotide-sequence)
+* [_Navigating the Details View using the Sequence Overview_](/sequence-view/sequence-overview) //s equence-overview
+* [_Translating Nucleotide Sequence_](/sequence-view/manipulating-sequence/translating-nucleotide-sequence/)

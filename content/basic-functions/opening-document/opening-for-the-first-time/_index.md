@@ -21,4 +21,4 @@ To simply open the document, select one of the following:
 
 Alternatively, you can drag the file into the UGENE window. It is also possible to drag and drop documents (not objects) between opened UGENEs.
 
-Documents not created by UGENE are [_locked_](http://ugene.unipro.ru/documentation/manual/basic_functions/locked_documents.html#locked-documents). To be able to edit the document, you should save a copy of the document and continue working with the copy.
+Documents not created by UGENE are [_locked_](../../locked-documents/). To be able to edit the document, you should save a copy of the document and continue working with the copy.

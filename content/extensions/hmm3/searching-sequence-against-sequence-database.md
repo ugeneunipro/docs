@@ -23,4 +23,4 @@ The results are stored as sequence annotations in the Genbank file format.
 
 ![](/images/65930828/65930831.png)
 
-The [_Phmmer search_](http://ugene.unipro.ru/documentation/manual/plugins/hmm3.html#phmmer) works only with single-sequence databases.
+The _Phmmer search_ works only with single-sequence databases.

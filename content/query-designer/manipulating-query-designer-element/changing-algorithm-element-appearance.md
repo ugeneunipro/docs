@@ -11,4 +11,4 @@ In the image below, you can see an ORF element with both items checked:
 
 ![](/images/65930635/65930636.png)
 
-See also the [_Setting Order of Algorithms Execution_](../manipulating-schema/setting-order-of-algorithms-execution) section.
+See also the [_Setting Order of Algorithms Execution_](/query-designer/manipulating-schema/setting-order-of-algorithms-execution/) section.

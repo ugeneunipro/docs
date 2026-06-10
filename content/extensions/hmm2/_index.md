@@ -23,4 +23,4 @@ To access these tools, select the _Tools ‣ HMMER tools_ submenu of the program
 
 We highly recommend reading the [original HMMER2 documentation](http://hmmer.janelia.org/#documentation) to learn how to use the utilities provided by the plugin.
 
-The SSE2 algorithm is implemented by Leonid Konyaev, Novosibirsk State University. Use of the SSE2 optimized version of the [_HMM search_](http://ugene.unipro.ru/documentation/manual/plugins/hmm2.html#hmm-search) algorithm with a quad-core CPU gives >30x performance boost when compared to the original single-threaded algorithm (single sequence mode).
+The SSE2 algorithm is implemented by Leonid Konyaev, Novosibirsk State University. Use of the SSE2 optimized version of the [_HMM search_](/extensions/hmm2/searching-sequence-using-hmm2-profile/) algorithm with a quad-core CPU gives >30x performance boost when compared to the original single-threaded algorithm (single sequence mode).

@@ -16,7 +16,7 @@ This algorithm searches for regions in a sequence that contain a specified perce
 | **Percentage**  | Percentage of the base in a region. The value must be greater than or equal to 50%.                                                       | 90%                       |
 | **Min Length**  | Minimum length of a region. The value must be greater than or equal to 5.                                                               | 5 bp                      |
 | **Max Length**  | Maximum length of a region.                                                                                                              | 5 bp                      |
-| **Direction**   | See the description [_here_](http://ugene.unipro.ru/documentation/qd_manual/manipulating_schema/managing_strands.html#managing-strands). | Any                       |
+| **Direction**   | See the description [_here_](/query-designer/manipulating-schema/managing-strands/element-direction-in-schema/).                         | Any                       |
 
 ## Parameters in Schema File
 

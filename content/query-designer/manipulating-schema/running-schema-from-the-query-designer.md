@@ -7,9 +7,9 @@ weight: 700
 
 Once the _schema_ construction is completed:
 
-*   all required [_algorithm elements are added_](../manipulating-query-designer-element/adding-algorithm-element)
-*   all necessary [_constraints are set_](../manipulating-query-designer-element/adding-constraint-element)
-*   all required [_parameters are configured_](../manipulating-query-designer-element/managing-of-elements-parameters)
+*   all required [_algorithm elements are added_](/query-designer/manipulating-query-designer-element//adding-algorithm-element)
+*   all necessary [_constraints are set_](/query-designer//manipulating-query-designer-element/adding-constraint-element)
+*   all required [_parameters are configured_](/query-designer/manipulating-query-designer-element/managing-of-elements-parameters)
 
 the schema can be executed.
 

@@ -9,6 +9,6 @@ The _Navigation_ tab of the _Options Panel_ in the _Assembly Browser_ includes a
 
 ![](/images/65929859/65929860.png)
 
-To learn more about well-covered regions, refer to the [_Assembly Browser Window_](../browsing-and-zooming-assembly/assembly-browser-window) chapter.
+To learn more about well-covered regions, refer to the [_Assembly Browser Window_](/assembly-browser/browsing-and-zooming-assembly/assembly-browser-window/) chapter.
 
-To learn more about searching for the required position, refer to the [_Go to Position in Assembly_](../browsing-and-zooming-assembly/go-to-position-in-assembly) chapter.
+To learn more about searching for the required position, refer to the [_Go to Position in Assembly_](/assembly-browser/browsing-and-zooming-assembly/go-to-position-in-assembly/) chapter.

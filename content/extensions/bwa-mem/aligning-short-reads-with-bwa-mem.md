@@ -5,9 +5,9 @@ weight: 100
 
 # Aligning Short Reads with BWA-MEM
 
-When you select the _Tools ‣ Align to reference ‣ Align short reads_ item in the main menu, the _Align Sequencing Reads_ dialog appears. Set the value of the _Align short reads method_ parameter to _BWA-MEM_. The dialog looks as follows:
+When you select the _Tools ‣ NGS data analysis ‣ Map reads to reference_ item in the main menu, the _Map NGS Reads to reference_ dialog appears. Set the value of the _Mapping tool_ parameter to _BWA-MEM_. The dialog looks as follows:
 
-![](/images/65930884/65930885.png)
+![](/images/65930884/65930885_1.png)
 
 The following parameters are available:
 
@@ -15,7 +15,7 @@ _Reference sequence_ — DNA sequence to align short reads to. This parameter is
 
 _Result file name_ — file in SAM format to write the result of the alignment into. This parameter is required.
 
-_Prebuilt index_ — check this box to use an index file instead of a source reference sequence. Alternatively, you can [_build it manually_](http://ugene.unipro.ru/documentation/manual/plugins/bwa/build_index.html#bwa-build-index).
+_Prebuilt index_ — check this box to use an index file instead of a source reference sequence. Alternatively, you can [_build it manually_](/extensions/bwa-mem/building-index-for-bwa-mem/).
 
 _SAM output_ — always save the output file in the SAM format (this option is disabled for _BWA_).
 

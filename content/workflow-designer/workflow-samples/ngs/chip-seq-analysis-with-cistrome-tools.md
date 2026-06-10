@@ -7,7 +7,7 @@ weight: 200
 
 **Attention! Cistrome Tools** was removed in **UGENE 42.0 version.**
 
-The component for ChIP-seq data analysis is not installed by default. To use this sample, add the component via the UGENE Online Installer or, if you used an offline installer, manually configure the package, see the "[Configure ChIP-Seq Analysis Data](/wiki/pages/createpage.action?spaceKey=UM&title=Configure+ChIP-Seq+Analysis+Data&linkCreation=true&fromPageId=65930320)" chapter of the manual (available until **UGENE 39.version**).
+The component for ChIP-seq data analysis is not installed by default. To use this sample, add the component via the UGENE Online Installer or, if you used an offline installer, manually configure the package, see the "[Configure ChIP-Seq Analysis Data]  chapter of the manual (available until **UGENE 39.version**).
 
 The ChIP-seq pipeline “Cistrome” integrated into UGENE allows the following analysis steps:
 

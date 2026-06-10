@@ -14,7 +14,7 @@ Parameters in GUI
 |--------------|------------------------------------|--------------------|
 | **Annotate As** | Name of the result annotations.   | misc\_feature       |
 | **Pattern**  | The pattern to search for.         | You must specify a value! |
-| **Direction**| See the description [_here_](http://ugene.unipro.ru/documentation/qd_manual/manipulating_schema/managing_strands.html#managing-strands). | Any                |
+| **Direction**| See the description [_here_](/query-designer/manipulating-schema/managing-strands/element-direction-in-schema/). | Any                |
 
 Parameters in Schema File
 -------------------------

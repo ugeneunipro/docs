@@ -5,7 +5,7 @@ weight: 100
 
 # Bowtie Aligning Short Reads
 
-When you select the _Tools ‣ DNA Assembly ‣ Align short reads_ item in the main menu, the _Align Short Reads_ dialog appears. Set the value of the _Align short reads method_ parameter to _Bowtie_. The dialog looks as follows:
+When you select the _Tools ‣ NGS data analysis ‣ Map reads to reference_ item in the main menu, the _Map NGS Reads to reference_ dialog appears. Set the value of the _Mapping Tool_ parameter to _Bowtie_. The dialog looks as follows:
 
 ![](/images/65930853/107020295.png)
 
@@ -17,7 +17,7 @@ The following parameters are available:
   
 - **Library** — single-end or paired-end reads.
   
-- **Prebuilt index** — check this box to use an index file instead of a source reference sequence. The index is a set of 6 files with suffixes .1.ebwt, .2.ebwt, .3.ebwt, .4.ebwt, .rev.1.ebwt, and .rev.2.ebwt. The index is created during the alignment. You can also [_build it manually_](http://ugene.unipro.ru/documentation/manual/plugins/bowtie/build_index.html#bowtie-build-index).
+- **Prebuilt index** — check this box to use an index file instead of a source reference sequence. The index is a set of 6 files with suffixes .1.ebwt, .2.ebwt, .3.ebwt, .4.ebwt, .rev.1.ebwt, and .rev.2.ebwt. The index is created during the alignment. You can also [_build it manually_](/extensions/bowtie/building-index-for-bowtie/).
   
 - **SAM output** — always save the output file in the SAM format (this option is disabled for _Bowtie_).
   

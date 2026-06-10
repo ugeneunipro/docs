@@ -13,7 +13,7 @@ Parameters in GUI
 | Parameter                  | Description                                                                                           | Default Value              |
 |----------------------------|-------------------------------------------------------------------------------------------------------|----------------------------|
 | **Annotate As**            | Name of the result annotations.                                                                       | ORF                        |
-| **Direction**              | See the description [_here_](../../manipulating-schema/managing-strands/element-direction-in-schema). | Any                        |
+| **Direction**              | See the description [_here_](/query-designer/manipulating-schema/managing-strands/element-direction-in-schema). | Any                        |
 | **Allow alternative codons** | Allows or disallows ORFs starting with alternative initiation codons, according to the current translation table. | False                      |
 | **Require init codons**    | Allows or disallows ORFs starting with any codon other than a terminator.                             | True                       |
 | **Require stop codons**    | Ignores or takes into account boundary ORFs which extend beyond the search region.                   | False                      |

@@ -13,7 +13,7 @@ The _Export Consensus_ dialog will appear:
 
 Select a file and the desired file format. The consensus can be exported to a FASTA, FASTQ, GFF, GenBank, UGENE Database, or Vector NTI sequence file.
 
-Modify the exported sequence name if required, and choose the [_consensus algorithm_](../consensus-sequence).
+Modify the exported sequence name if required, and choose the [_consensus algorithm_](../../consensus-sequence/).
 
 The consensus is exported with gaps if the _Keep gaps_ check box is checked.
 

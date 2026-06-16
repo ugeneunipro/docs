@@ -5,9 +5,9 @@ weight: 100
 
 # Aligning Short Reads with BWA
 
-When you select the _Tools ‣ DNA Assembly ‣ Align short reads_ item in the main menu, the _Align Short Reads_ dialog appears. Set the value of the _Align short reads method_ parameter to _BWA_. The dialog looks as follows:
+When you select the _Tools ‣ NGS data analysis ‣ Map reads to reference_ item in the main menu, the _Map NGS Reads to Reference_ dialog appears. Set the value of the _Mapping tool_ parameter to _BWA_. The dialog looks as follows:
 
-![](/images/65930870/65930871.png)
+![](/images/65930870/65930872.png)
 
 There are the following parameters:
 
@@ -17,7 +17,7 @@ _Result file name_ — file in SAM format to write the result of the alignment i
 
 _Library_ — single-end or paired-end reads.
 
-_Prebuilt index_ — check this box to use an index file instead of a source reference sequence. You can also [_build it manually_](http://ugene.unipro.ru/documentation/manual/plugins/bwa/build_index.html#bwa-build-index).
+_Prebuilt index_ — check this box to use an index file instead of a source reference sequence. You can also [_build it manually_](/extensions/bwa/building-index-for-bwa/).
 
 _SAM output_ — the output file is always saved in the SAM format (the option is disabled for _BWA_).
 

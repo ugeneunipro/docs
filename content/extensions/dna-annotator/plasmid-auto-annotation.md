@@ -11,7 +11,7 @@ To activate Plasmid Auto Annotation on your sequence, use the menu item _Analyze
 
 ![](/images/65930930/65930932.png)
 
-The detected plasmid features are stored as automatic annotations and can be controlled through the corresponding menu. Refer to [_Automatic Annotations Highlighting_](../../sequence-view/annotations-editor/automatic-annotations-highlighting) to learn more.
+The detected plasmid features are stored as automatic annotations and can be controlled through the corresponding menu. Refer to [_Automatic Annotations Highlighting_](/sequence-view/annotations-editor/automatic-annotations-highlighting/) to learn more.
 
 Plasmid Auto Annotations consist of 471 carefully selected and annotated plasmid features broken down into 12 feature categories. These are shown in the following table:
 

@@ -13,7 +13,7 @@ To use the plugin, open a nucleotide or protein sequence in the _Sequence View_ 
 
 ### Algorithm
 
-This search algorithm has a significant advantage in calculation time over the usual _[Search in sequence](https://doc.ugene.net/wiki/pages/viewpage.action?pageId=65929429&from=ugene)_ algorithm for large sequences. This happens because the "_Search in sequence_" algorithm represents a suffix algorithm - one sequence moves along the other, and areas opposite each other are compared. Using this approach, the computation time increases in direct proportion to the length of the sequence. The _Smith-Waterman algorithm_ uses a completely different approach - searching using a certain kind of matrix.
+This search algorithm has a significant advantage in calculation time over the usual [Search in sequence](/sequence-view/manipulating-sequence/searching-in-sequence/) algorithm for large sequences. This happens because the "_Search in sequence_" algorithm represents a suffix algorithm - one sequence moves along the other, and areas opposite each other are compared. Using this approach, the computation time increases in direct proportion to the length of the sequence. The _Smith-Waterman algorithm_ uses a completely different approach - searching using a certain kind of matrix.
 
 The algorithm works in the following way:
 
@@ -81,7 +81,7 @@ _Minimal score_ — another simple heuristic which measures sequence similarity.
 
 The results of the search are saved as annotations or as multiple alignments. To set the saving parameters, go to the _Input and output_ tab of the dialog.
 
-- If you want to save the results as annotations, input [_the annotations saving_](../sequence-view/manipulating-annotations/creating-annotation) parameters (_Annotation name_, _Group name_, _Annotation type_, _Description_ and a file to save the annotation to). You can also add a qualifier with corresponding pattern subsequences to result annotations. Check the corresponding checkbox for this.
+- If you want to save the results as annotations, input [the annotations saving](/sequence-view/manipulating-annotations/creating-annotation/) parameters (_Annotation name_, _Group name_, _Annotation type_, _Description_ and a file to save the annotation to). You can also add a qualifier with corresponding pattern subsequences to result annotations. Check the corresponding checkbox for this.
 - If you want to save the results as multiple alignments, select the following parameters:
 
   ![](/images/65930804/96666059.png)

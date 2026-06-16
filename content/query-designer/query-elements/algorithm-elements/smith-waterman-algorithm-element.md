@@ -13,7 +13,7 @@ Parameters in GUI
 | Parameter             | Description                                                                                   | Default Value     |
 |-----------------------|-----------------------------------------------------------------------------------------------|-------------------|
 | **Annotate As**       | Name of the result annotations.                                                              | misc_feature      |
-| **Direction**         | See the description [_here_](../../manipulating-schema/managing-strands/element-direction-in-schema). | Any               |
+| **Direction**         | See the description [_here_](/query-designer/manipulating-schema/managing-strands/element-direction-in-schema/). | Any               |
 | **Algorithm**         | Algorithm version. Depending on the computer configuration, the following values may be available: <ul><li>Classic 2</li><li>SSE2</li></ul> | Classic 2         |
 | **Filter results**    | Results filtering strategy. The available values are: <ul><li>filter-intersections</li><li>none</li></ul> | filter-intersections |
 | **Gap ext score**     | Gap extension score.                                                                         | -1.00             |

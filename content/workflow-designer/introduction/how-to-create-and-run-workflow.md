@@ -9,13 +9,13 @@ weight: 600
 
    **Result:** The Workflow Designer window appears.
 
-2. On the _Elements_ tab of the [_Palette_](/workflow-designer/introduction//workflow-designer-window-components/), find the [_Read alignment_](../workflow-elements/data-readers/read-alignment-element) element. It is located in the _Data sources_ group. Drag it to the [_Scene_](workflow-designer-window-components).
+2. On the _Elements_ tab of the [_Palette_](/workflow-designer/introduction/workflow-designer-window-components/), find the [_Read alignment_](/workflow-designer/workflow-elements/data-readers/read-alignment-element/) element. It is located in the _Data sources_ group. Drag it to the [_Scene_](../workflow-designer-window-components/).
 
    **Result:** The element is displayed on the Scene.
 
    ![](/images/1474815/1835015.png)
 
-3. Repeat the previous step for the [_Write Alignment_](../workflow-elements/data-writers/write-alignment-element) element from the _Data sinks_ group and the [_Align with MUSCLE_](../workflow-elements/multiple-sequence-alignment/align-with-muscle-element) element from the _Multiple sequence alignment_ group.
+3. Repeat the previous step for the [_Write Alignment_](/workflow-designer/workflow-elements/data-writers/write-alignment-element) element from the _Data sinks_ group and the [_Align with MUSCLE_](/workflow-designer/workflow-elements/multiple-sequence-alignment/align-with-muscle-element) element from the _Multiple sequence alignment_ group.
 
    **Result:** All three elements are on the Scene.
 
@@ -23,14 +23,14 @@ weight: 600
 
 4. Connect the elements:
 
-   - Drag an arrow from the [_output port_](workflow-elements-and-connections) of the _Read alignment_ element to the _Align with MUSCLE_ element.
+   - Drag an arrow from the [_output port_](/workflow-designer/introduction/workflow-elements-and-connections/) of the _Read alignment_ element to the _Align with MUSCLE_ element.
    - Drag an arrow from the output port of the _Align with MUSCLE_ element to the _Write alignment_ element.
 
    **Result:** The elements are connected by arrows.
 
    ![](/images/1474815/1835017.png)
 
-5. Select the _Read alignment_ element. In the _Parameters_ area of the [_Property Editor_](workflow-designer-window-components), click on the _Value_ column of the _Input files_ parameter:
+5. Select the _Read alignment_ element. In the _Parameters_ area of the [_Property Editor_](/workflow-designer/introduction/workflow-designer-window-components), click on the _Value_ column of the _Input files_ parameter:
 
    ![](/images/1474815/1835018.png)
 

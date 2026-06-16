@@ -25,7 +25,7 @@ read-msa {
 }
 ```
 
-Note that the values of the parameters for an element can also be presented in the [_iterations_](/wiki/pages/createpage.action?spaceKey=WDD34&title=Using+Iterations) block. For all elements, the following parameters are defined:
+Note that the values of the parameters for an element can also be presented in the [_iterations_](/workflow-designer/workflow-file-format/body/) block. For all elements, the following parameters are defined:
 
 - **type** - specifies the type of the element.
 - **name** - specifies the name of the element. It corresponds to the element’s name in the GUI.

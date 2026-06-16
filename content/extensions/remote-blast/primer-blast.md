@@ -5,7 +5,7 @@ weight: 100
 
 # Primer-BLAST
 
-You can run BLAST for primer pairs similar to [this tool](https://www.ncbi.nlm.nih.gov/tools/primer-blast/). This tool allows you to screen primers against a user-selected database to avoid primer pairs that can cause non-specific amplifications. Your primers should be in Primer3 UGENE format. You can obtain them using [Primer3](/extensions/primer3/)/[Primer3 (no target sequence)](/docs/extensions/primer3/primer3-no-target-sequence) or by using the special [Transform into a primer pair](../../sequence-view/annotations-editor/transform-into-a-primer-pair) feature.
+You can run BLAST for primer pairs similar to [this tool](https://www.ncbi.nlm.nih.gov/tools/primer-blast/). This tool allows you to screen primers against a user-selected database to avoid primer pairs that can cause non-specific amplifications. Your primers should be in Primer3 UGENE format. You can obtain them using [Primer3](/extensions/primer3/)/[Primer3 (no target sequence)](/docs/extensions/primer3/primer3-no-target-sequence) or by using the special [Transform into a primer pair](/sequence-view/annotations-editor/transform-into-a-primer-pair/) feature.
 
 Select the primer pairs you need to BLAST:
 

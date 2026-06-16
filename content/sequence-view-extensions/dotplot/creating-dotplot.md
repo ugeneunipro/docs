@@ -59,5 +59,5 @@ Visible diagonal lines indicate matches between sequences in a particular region
 
 See also:
 
-* [_Interpreting Dotplot: Identifying Matches, Mutations, Inversions, etc._](/docs/sequence-view-extensions/dotplot/interpreting-dotplot-identifying-matches-mutations-invertions-etc)
-* [_Building Dotplot for Currently Opened Sequence_](building-dotplot-for-currently-opened-sequence)
+* [_Interpreting Dotplot: Identifying Matches, Mutations, Inversions, etc._](/sequence-view-extensions/dotplot/interpreting-dotplot-identifying-matches-mutations-invertions-etc)
+* [_Building Dotplot for Currently Opened Sequence_](/sequence-view-extensions/dotplot/building-dotplot-for-currently-opened-sequence/)

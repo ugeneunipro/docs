@@ -9,7 +9,7 @@ To add an _algorithm element_, drag it from the _Palette_ to the _Scene_. Altern
 
 ![](/images/65930623/65930624.png)
 
-If the default element's appearance hasn’t been [_modified_](changing-algorithm-element-appearance), you will see the following on the added element:
+If the default element's appearance hasn’t been [_modified_](../changing-algorithm-element-appearance/), you will see the following on the added element:
 
 1. The element name
 2. The result annotation's name, enclosed in parentheses

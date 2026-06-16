@@ -5,9 +5,9 @@ weight: 100
 
 # Aligning Short Reads with BWA-SW
 
-When you select the _Tools ‣ Align to reference ‣ Align short reads_ option in the main menu, the _Align Sequencing Reads_ dialog box will appear. Set the value of the _Align short reads method_ parameter to _BWA-SW_. The dialog box looks as follows:
+When you select the _Tools ‣ NGS data analysis ‣ Map reads to reference_ option in the main menu, the _Map NGS Reads to Reference_ dialog box will appear. Set the value of the _Mapping tool_ parameter to _BWA-SW_. The dialog box looks as follows:
 
-![](/images/65930877/65930878.png)
+![](/images/65930877/65930879.png)
 
 The following parameters are available:
 

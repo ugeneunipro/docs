@@ -13,7 +13,7 @@ If the selected sequence is nucleic and the profile HMM is built from an amino a
 
 If a profile HMM is built for nucleotide alignment, the search is performed for both strands (direct and complement).
 
-The _HMM3 search_ accepts the HMMER2 HMM profiles (amino acid only) as a backward compatibility feature. An interesting post about using the HMMER2 models with the HMMER3 is available on [Sean Eddy’s blog](http://selab.janelia.org/people/eddys/blog/?p=117).
+The _HMM3 search_ accepts the HMMER2 HMM profiles (amino acid only) as a backward compatibility feature. 
 
 ![](/images/65930823/65930824.png)
 
@@ -25,4 +25,4 @@ The search results are stored as sequence annotations in the GenBank file format
 
 ![](/images/65930823/65930826.png)
 
-The [_HMM3 search_](http://ugene.unipro.ru/documentation/manual/plugins/hmm3.html#hmm3-search) works only with files that contain a single HMM model.
+The _HMM3 search_ works only with files that contain a single HMM model.

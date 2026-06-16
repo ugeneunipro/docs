@@ -9,7 +9,7 @@ UGENE allows you to align spliced mRNA/cDNA sequences to genomic sequences.
 
 The default algorithm used for this alignment is an external tool called [Spidey](http://www.ncbi.nlm.nih.gov/spidey/).
 
-Before running the alignment, ensure that Spidey is available and validated in the list of _[External Tools](#)_.
+Before running the alignment, ensure that Spidey is available and validated in the list of [External Tools](/docs/download-and-installation/data-analysis-tools/).
 
 To perform the alignment of an mRNA sequence to a genomic sequence, open the genomic sequence in the _Sequence View_. Next, activate the context menu item _Align -> Align to sequence to mRNA_.
 

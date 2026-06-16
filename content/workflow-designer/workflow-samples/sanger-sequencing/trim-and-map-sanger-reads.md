@@ -24,7 +24,7 @@ The output data are:
 
 How to Use This Sample
 
-If you haven't used workflow samples in UGENE before, refer to the "[How to Use Sample Workflows](../../introduction/how-to-use-sample-workflows)" section of the documentation.
+If you haven't used workflow samples in UGENE before, refer to the "[How to Use Sample Workflows](/workflow-designer/introduction/how-to-use-sample-workflows)" section of the documentation.
 
 ##### Workflow Sample Location
 

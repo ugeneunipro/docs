@@ -11,4 +11,4 @@ It is possible to edit the parameters of a built dot plot. Right-click on the do
 
 ![](/images/65929601/65929602.png)
 
-The parameters dialog will be re-opened. See the description of the available parameters [_here_](creating-dotplot).
+The parameters dialog will be re-opened. See the description of the available parameters [_here_](../creating-dotplot/).

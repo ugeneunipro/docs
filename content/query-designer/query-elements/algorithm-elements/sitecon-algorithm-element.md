@@ -13,7 +13,7 @@ Parameters in GUI
 | Parameter       | Description                                                                                                         | Default value |
 |-----------------|---------------------------------------------------------------------------------------------------------------------|---------------|
 | **Annotate As** | Name of the result annotations.                                                                                      | misc\_feature |
-| **Direction**   | See the description [_here_](../../manipulating-schema/managing-strands/element-direction-in-schema).                | Any           |
+| **Direction**   | See the description [_here_](/query-designer/manipulating-schema/managing-strands/element-direction-in-schema/).                | Any           |
 | **Min Err1**    | Filters the results by minimum value of Error type I.                                                                | 0             |
 | **Max Err2**    | Filters the results by maximum value of Error type II.                                                               | 0.001         |
 | **Model**       | Semicolon-separated list of SITECON profiles. You must specify a value!                                              |               |

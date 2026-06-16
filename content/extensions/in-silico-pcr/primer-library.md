@@ -13,7 +13,7 @@ To configure the primer library, navigate to the _Tools->Primer->Primer library_
 
 Click the _New primer_ button to add a new primer. The following dialog will appear:
 
-![](/images/65930783/94076959.png)
+![](/images/65930783/65930784.png)
 
 Input the primer sequence and primer name, then click the _OK_ button.
 
@@ -23,13 +23,13 @@ Select the primer in the table (you can use Ctrl and Shift) and click the _Remov
 
 To export primer(s), select them and click the _Export primer(s)_ button. The following dialog will appear:
 
-![](/images/65930783/65930784.png)
+![](/images/65930783/65930788.png)
 
 Select the file and file format, then click the _OK_ button.
 
 To import primer(s), click the _Import primer(s)_ button. The following dialog will appear:
 
-![](/images/65930783/65930785.png)
+![](/images/65930783/94076959.png)
 
 Select the Add file(s) button to add one or several files with primer sequences. Note that all sequence formats [supported by UGENE](/appendixes/appendix-a-supported-file-formats/) can be imported, for example, FASTA, GenBank, etc. However, the sequences must consist of ACGT characters only.
 
@@ -39,6 +39,6 @@ Click the _Import_ button to import the added files or objects into the primers 
 
 Click the _Temperature_ button to choose a temperature calculation algorithm: Rough or Primer 3.
 
-![](/images/65930783/94076961.png)
+![](/images/65930783/94076970.png)
 
-### For more information about the temperature options, see here: [Melting temperature](../../sequence-view/information-about-sequence/melting-tempeature)
+### For more information about the temperature options, see here: [Melting temperature](/sequence-view/information-about-sequence/melting-tempeature/)

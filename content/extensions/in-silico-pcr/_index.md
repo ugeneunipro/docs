@@ -10,8 +10,7 @@ weight: 1100
 In silico PCR is used to calculate theoretical polymerase chain reaction (PCR) results using a given set of primers (probes) to amplify DNA sequences.
 
 UGENE provides the In silico PCR feature only for nucleic sequences with Standard DNA and Extended DNA alphabets. To use it in UGENE, open a DNA sequence and go to the _In silico PCR_ tab of the Options Panel:
-
-![](/images/65930776/65930778.png)
+![](/images/65930776/74809370.png)
 
 The parameters are as follows:
 
@@ -34,13 +33,13 @@ Note: You should take into account that the algorithm calculates no more than 50
   - Value _All intersected_ specifies that all annotations of the original sequence that intersect the extracted region must be extracted as well.
   - Value _None_ specifies that annotations from the original sequence must not be extracted.
 
-- _Melting temperature_: See [the corresponding page](https://doc.ugene.net/wiki/display/UM/Melting+tempeature) for details.
+- _Melting temperature_: See [the corresponding page](/sequence-view/information-about-sequence/melting-tempeature/) for details.
 
 ### Choosing Primers
 
-Type two primers for running In Silico PCR. If the primer pair is invalid for running the PCR process, a warning is shown. Primers for the running In silico PCR can also be chosen from a [primer library](https://ugene.unipro.ru/wiki/display/UUOUM15/Primer+Library). Click the following button to choose a primer from the primers library:
+Type two primers for running In Silico PCR. If the primer pair is invalid for running the PCR process, a warning is shown. Primers for the running In silico PCR can also be chosen from a [primer library](/extensions/in-silico-pcr/primer-library/). Click the following button to choose a primer from the primers library:
 
-![](/images/65930776/74809370.png)
+![](/images/65930776/65930778.png)
 
 The following dialog will appear:
 
@@ -52,15 +51,15 @@ Click the _Reverse-complement_ button to make a primer sequence reverse-compleme
 
 ![](/images/65930776/65930777.png)
 
-Click _Show primers details_ to see [statistical details](https://ugene.unipro.ru/wiki/display/UUOUM15/Primers+Details) about primers.
+Click _Show primers details_ to see [statistical details](/extensions/in-silico-pcr/primers-details/) about primers.
 
 When you run the process, the predicted PCR products appear in the products table.
 
 ### Melting Temperature
 
-Click the [Melting temperature](https://doc.ugene.net/wiki/display/UM/Melting+tempeature) link for choosing a temperature calculation algorithm: Rough or Primer 3.
+Click the [Melting temperature](/extensions/in-silico-pcr/primers-details/) link for choosing a temperature calculation algorithm: Rough or Primer 3.
 
-For more information about temperature options, see here: [Melting temperature](https://doc.ugene.net/wiki/display/UM/Melting+tempeature).
+For more information about temperature options, see here: [Melting temperature](/extensions/in-silico-pcr/primers-details/).
 
 ### Products Table
 

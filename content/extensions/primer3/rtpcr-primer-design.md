@@ -11,11 +11,11 @@ Note that RT-PCR design is only available for mRNA/cDNA sequences with annotated
 
 * From NCBI or ENSEMBL databases.  
   For example, one can download the **_TMPRSS2 transcript variant 1_** from NCBI Genbank using identifier [NM\_001135099.1](http://www.ncbi.nlm.nih.gov/nuccore/NM_001135099.1).
-  This can also be done from UGENE using the option [Access remote database](../../basic-functions/fetching-data-from-remote-database) or [Search NCBI Genbank](../../basic-functions/searching-ncbi-genbank).
+  This can also be done from UGENE using the option [Access remote database](/docs/basic-functions/fetching-data-from-remote-database/) or [Search NCBI Genbank](/docs/basic-functions/searching-ncbi-genbank).
 
-* Align the genomic and cDNA sequences using a [spliced aligner](../spliced-alignment-mrna-and-cdna).
+* Align the genomic and cDNA sequences using a [spliced aligner](/extensions/spliced-alignment-mrna-and-cdna/).
   For this option, one must have both genomic and cDNA sequences.
-  In UGENE, the spliced alignment can be performed using the [Spidey tool](../spliced-alignment-mrna-and-cdna).
+  In UGENE, the spliced alignment can be performed using the [Spidey tool](/extensions/spliced-alignment-mrna-and-cdna/).
   To run the alignment, open the genomic sequence and select the action _Align_ ‣ _Align to mRNA sequence_.
   The generated exon annotations can then be exported using the action _Export_ ‣ _Export sequence of selected annotations_.
 

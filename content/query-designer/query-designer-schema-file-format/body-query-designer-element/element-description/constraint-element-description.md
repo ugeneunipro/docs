@@ -11,11 +11,11 @@ part1--part2
 
 Each part represents one of the algorithms the constraint is imposed on.
 
-If the algorithm is presented as a single element in a schema (like [_ORF_](../../../query-elements/algorithm-elements/orf-algorithm-element) or [_Pattern_](../../../query-elements/algorithm-elements/pattern-algorithm-element)), the algorithm’s part has the format:
+If the algorithm is presented as a single element in a schema (like [_ORF_](/query-designer/query-elements/algorithm-elements/orf-algorithm-element/) or [_Pattern_](/query-designer/query-elements/algorithm-elements/pattern-algorithm-element/)), the algorithm’s part has the format:
 
 algorithm\_element\_name.unit
 
-If the algorithm is presented as two subelements in a schema (like [_Repeats_](../../../query-elements/algorithm-elements/repeats-algorithm-element) or [_Primer_](../../../query-elements/algorithm-elements/primer-algorithm-element)), the algorithm’s part has the format:
+If the algorithm is presented as two subelements in a schema (like [_Repeats_](/query-designer/query-elements/algorithm-elements/repeats-algorithm-element) or [_Primer_](/query-designer/query-elements/algorithm-elements/primer-algorithm-element)), the algorithm’s part has the format:
 
 algorithm\_element\_name.left
 

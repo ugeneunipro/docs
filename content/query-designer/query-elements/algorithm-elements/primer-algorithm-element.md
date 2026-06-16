@@ -13,7 +13,7 @@ Parameters in GUI
 | Parameter                  | Description                                                                                                              | Default value  |
 |----------------------------|--------------------------------------------------------------------------------------------------------------------------|----------------|
 | **Annotate As**            | Name of the result annotations.                                                                                          | top primers    |
-| **Direction**              | See the description [_here_](http://ugene.unipro.ru/documentation/qd_manual/manipulating_schema/managing_strands.html#managing-strands). | Any            |
+| **Direction**              | See the description [_here_](/query-designer/manipulating-schema/managing-strands/element-direction-in-schema/).         | Any            |
 | **Excluded regions**       | The regions that should be avoided for primer selection.                                                                 | No default value. |
 | **Max repeat mispriming**  | The maximum allowed weighted similarity with any sequence in the Mispriming Library.                                     | 12             |
 | **Max template mispriming**| The maximum allowed similarity to ectopic sites in the sequence from which you are designing the primers.                | 12             |

@@ -5,7 +5,7 @@ weight: 100
 
 # End-Start Constraint Element
 
-[Add the End-Start constraint](../../manipulating-query-designer-element/adding-constraint-element) to two _algorithm
+[Add the End-Start constraint](/query-designer/manipulating-query-designer-element/adding-constraint-element) to two _algorithm
 elements_. Let's denote these elements as **alg1** and **alg2**.
 
 ---

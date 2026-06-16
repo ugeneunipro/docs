@@ -21,7 +21,7 @@ If you haven't used the workflow samples in UGENE before, please refer to the "[
 
 What's Next?
 
-[The Tuxedo workflow](rna-seq-analysis-with-tuxedo-tools) can be used to analyze the filtered RNA-seq data. In this case, the mapping step of this workflow can be skipped, as it is also present in the Tuxedo pipeline.
+[The Tuxedo workflow](/workflow-designer/workflow-samples/ngs/rna-seq-analysis-with-tuxedo-tools/) can be used to analyze the filtered RNA-seq data. In this case, the mapping step of this workflow can be skipped, as it is also present in the Tuxedo pipeline.
 
 ##### Workflow Sample Location
 

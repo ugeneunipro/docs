@@ -70,7 +70,7 @@ Parameters
 Input/Output Ports
 ------------------
 
-The _Multiplexer_ element has [ports](../../introduction/workflow-elements-and-connections), but it has no slots.
+The _Multiplexer_ element has [ports](/workflow-designer/introduction/workflow-elements-and-connections/), but it has no slots.
 
 The element has 2 input ports:
 

@@ -23,10 +23,10 @@ An element of a _schema_ that represents an algorithm used to analyze a nucleoti
 
 An element of a _schema_ used to impose constraints on the results obtained from _algorithm elements_.
 
-Your first step is to [_add necessary algorithm elements_](../../manipulating-query-designer-element/adding-algorithm-element) to the _Scene_ by dragging them to the _Palette_.
+Your first step is to [_add necessary algorithm elements_](/query-designer/manipulating-query-designer-element/adding-algorithm-element/) to the _Scene_ by dragging them to the _Palette_.
 
-The next step is to [_add constraints_](../../manipulating-query-designer-element/adding-constraint-element) on the algorithm results.
+The next step is to [_add constraints_](/query-designer//manipulating-query-designer-element/adding-constraint-element) on the algorithm results.
 
 ![](/images/65930608/65930609.png)
 
-Read the [_Manipulating Element_](/query-designer/manipulating-query-designer-element/) chapter to learn the details, or check the section below on [_how to create and run a schema_](../how-to-create-and-run-schema).
+Read the [_Manipulating Element_](/query-designer/manipulating-query-designer-element/) chapter to learn the details, or check the section below on [_how to create and run a schema_](/query-designer/query-designer-introduction/how-to-create-and-run-schema/).

@@ -11,4 +11,4 @@ You can use any alignment file format supported by UGENE. The output HMM profile
 
 ![](/images/65930810/65930811.png)
 
-The _HMM build_ tool does not automatically calibrate a profile. Use the [_HMM calibrate_](calibrating-hmm2-model) tool to calibrate the profile.
+The _HMM build_ tool does not automatically calibrate a profile. Use the [_HMM calibrate_](../calibrating-hmm2-model/) tool to calibrate the profile.

@@ -7,11 +7,11 @@ weight: 100
 
 Select one or several sequence objects in the _Project View_ window and click the _Export/Import ‣ Export sequences_ context menu item:
 
-![](/images/65929305/68812806.png)
+![](/images/65929305/68812825.png)
 
 The _Export Selected Sequences_ dialog will appear for nucleotide sequences:
 
-![](/images/65929305/68812825.png)
+![](/images/65929305/65929308.png)
 
 The _Export Selected Sequences_ dialog will appear for amino acid sequences:
 

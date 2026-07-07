@@ -7,7 +7,7 @@ weight: 300
 # Network
 
 
-![](/images/10289507/10420524.png)
+![](/images/10289507/10420525.png)
 
 On the _Network settings_ tab of the dialog, you can specify _Proxy_ server parameters, select _SSL settings_, and configure the _Remote request timeout_.
 

@@ -5,7 +5,7 @@ weight: 600
 
 # Logging
 
-![](/images/4227270/4456895.png)
+![](/images/4227270/4456897.png)
 
 On the _Logging_ tab, you can select the type of log information (_ERROR_, _INFO_, _DETAILS_, _TRACE_) for each _Category_ that will be output to the [_Log View_](/basic-functions/ugene-window-components/log-view/).
 

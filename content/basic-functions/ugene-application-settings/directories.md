@@ -5,7 +5,7 @@ weight: 500
 
 # Directories
 
-![](/images/19759447/19890493.png)
+![](/images/19759447/19890494.png)
 
 The following settings are available on the tab:
 

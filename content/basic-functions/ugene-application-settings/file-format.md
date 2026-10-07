@@ -5,7 +5,7 @@ weight: 400
 
 # File Format
 
-![](/images/65929351/65929352.png)
+![](/images/65929351/65929353.png)
 
 The _Sequence Annotations_ settings allow the use of upper/lower case annotations during the file reading process.
 

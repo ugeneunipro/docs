@@ -7,4 +7,4 @@ weight: 900
 
 Use this tab to configure the Workflow Designer settings:
 
-![](/images/65929366/65929367.png)
+![](/images/65929366/65929368.png)

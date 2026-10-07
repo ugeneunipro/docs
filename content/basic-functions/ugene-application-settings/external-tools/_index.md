@@ -7,4 +7,4 @@ weight: 800
 
 Set executable files for [external tools](/basic-functions/ugene-application-settings/external-tools/):
 
-![](/images/65929361/65929362.jpg)
+![](/images/65929361/65929363.png)

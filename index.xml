@@ -4333,7 +4333,7 @@ The task report will appear in the &lt;a href="https://ugene.net/docs/basic-func
 &lt;p>While the selection is blinking, press the keyboard character that you want to use as a replacement.&lt;/p>
 &lt;p>After that, the edit mode is switched off. To replace another symbol, press &lt;em>Shift+R&lt;/em> again.&lt;/p>
 &lt;p>You can always cancel the changes by pressing &lt;em>Ctrl+Z&lt;/em>.&lt;/p></description></item><item><title>Resources</title><link>https://ugene.net/docs/basic-functions/ugene-application-settings/resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/basic-functions/ugene-application-settings/resources/</guid><description>&lt;h1 id="resources">Resources&lt;/h1>
-&lt;p>&lt;img src="https://ugene.net/docs/images/16125329/16058939.png" alt="">&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/16125329/16058940.png" alt="">&lt;/p>
 &lt;p>On the &lt;em>Resources&lt;/em> tab, you can set resources that can be used by the application: &lt;em>Optimize for CPU count&lt;/em>, &lt;em>Tasks memory limit&lt;/em>, and &lt;em>Threads limit&lt;/em>.&lt;/p></description></item><item><title>Result Annotations</title><link>https://ugene.net/docs/extensions/dna-flexibility/result-annotations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/extensions/dna-flexibility/result-annotations/</guid><description>&lt;h1 id="result-annotations">Result Annotations&lt;/h1>
 &lt;p>Each annotation has the following qualifiers:&lt;/p>
 &lt;ul>
@@ -5634,7 +5634,7 @@ The &amp;ldquo;Align with MUSCLE&amp;rdquo; element will have a red frame.&lt;/l
 &lt;li>End — to move to the trailing columns of the alignment.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;strong>Hint&lt;/strong>&lt;/p></description></item><item><title>Network</title><link>https://ugene.net/docs/basic-functions/ugene-application-settings/network/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/basic-functions/ugene-application-settings/network/</guid><description>&lt;h1 id="network">Network&lt;/h1>
-&lt;p>&lt;img src="https://ugene.net/docs/images/10289507/10420524.png" alt="">&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/10289507/10420525.png" alt="">&lt;/p>
 &lt;p>On the &lt;em>Network settings&lt;/em> tab of the dialog, you can specify &lt;em>Proxy&lt;/em> server parameters, select &lt;em>SSL settings&lt;/em>, and configure the &lt;em>Remote request timeout&lt;/em>.&lt;/p>
 &lt;p>&lt;em>Preferred Web browser&lt;/em> — you can use either the &lt;em>System default browser&lt;/em> or specify another browser.&lt;/p></description></item><item><title>Opening Several Documents</title><link>https://ugene.net/docs/basic-functions/opening-document/opening-several-documents/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/basic-functions/opening-document/opening-several-documents/</guid><description>&lt;h1 id="opening-several-documents">Opening Several Documents&lt;/h1>
 &lt;p>To open several documents that are not yet present in the current &lt;em>project&lt;/em>, use the &lt;em>File ‣ Open&lt;/em> item in the main menu. The &lt;em>Select files to open&lt;/em> dialog will appear. Select the documents using the &lt;em>Ctrl&lt;/em> button and click on the &lt;em>Open&lt;/em> button. The following dialog will appear:&lt;/p>
@@ -6386,7 +6386,7 @@ This can also be done from UGENE using the option &lt;a href="https://ugene.net/
 &lt;/table>
 &lt;h3 id="output-port">Output Port&lt;/h3>
 &lt;p>&lt;em>(None defined directly in the current schema – output is handled via the file path parameter &lt;code>url-out&lt;/code>.)&lt;/em>&lt;/p></description></item><item><title>File Format</title><link>https://ugene.net/docs/basic-functions/ugene-application-settings/file-format/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/basic-functions/ugene-application-settings/file-format/</guid><description>&lt;h1 id="file-format">File Format&lt;/h1>
-&lt;p>&lt;img src="https://ugene.net/docs/images/65929351/65929352.png" alt="">&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929351/65929353.png" alt="">&lt;/p>
 &lt;p>The &lt;em>Sequence Annotations&lt;/em> settings allow the use of upper/lower case annotations during the file reading process.&lt;/p>
 &lt;p>Format options:&lt;/p>
 &lt;ol>
@@ -7196,7 +7196,7 @@ tools, please read the main &lt;a href="https://ugene.net/docs/download-and-inst
 &lt;p>Most external tools (if available on the target operating system) are installed by default with the Online Installer.&lt;/p></description></item><item><title>Deleting Element</title><link>https://ugene.net/docs/workflow-designer/manipulating-element/deleting-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/manipulating-element/deleting-element/</guid><description>&lt;h1 id="deleting-element">Deleting Element&lt;/h1>
 &lt;p>Select one or several &lt;a href="https://ugene.net/docs/workflow-designer/introduction/workflow-elements-and-connections/">&lt;em>workflow elements&lt;/em>&lt;/a> on the &lt;a href="https://ugene.net/docs/workflow-designer/introduction/workflow-designer-window-components/">&lt;em>Scene&lt;/em>&lt;/a> that you want to delete. Then choose the &lt;em>Delete&lt;/em> item in the &lt;em>Actions&lt;/em> main menu or in the selected element&amp;rsquo;s context menu.&lt;/p>
 &lt;p>The hotkey for this action is Del.&lt;/p></description></item><item><title>Directories</title><link>https://ugene.net/docs/basic-functions/ugene-application-settings/directories/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/basic-functions/ugene-application-settings/directories/</guid><description>&lt;h1 id="directories">Directories&lt;/h1>
-&lt;p>&lt;img src="https://ugene.net/docs/images/19759447/19890493.png" alt="">&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/19759447/19890494.png" alt="">&lt;/p>
 &lt;p>The following settings are available on the tab:&lt;/p>
 &lt;ul>
 &lt;li>&lt;em>Downloaded data&lt;/em> — Specifies the path where files downloaded from remote databases will be stored.&lt;/li>
@@ -8151,7 +8151,7 @@ tools, please read the main &lt;a href="https://ugene.net/docs/download-and-inst
 &lt;p>If you haven&amp;rsquo;t used the workflow samples in UGENE before, refer to the &amp;ldquo;&lt;a href="../../introduction/how-to-use-sample-workflows">How to Use Sample Workflows&lt;/a>&amp;rdquo; section of the documentation.&lt;/p>
 &lt;h5 id="workflow-sample-location">Workflow Sample Location&lt;/h5>
 &lt;p>The workflow sample &amp;ldquo;Intersect Annotations&amp;rdquo; can be found in the &amp;ldquo;Scenarios&amp;rdquo; section of the Workflow Designer samples.&lt;/p></description></item><item><title>Logging</title><link>https://ugene.net/docs/basic-functions/ugene-application-settings/logging/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/basic-functions/ugene-application-settings/logging/</guid><description>&lt;h1 id="logging">Logging&lt;/h1>
-&lt;p>&lt;img src="https://ugene.net/docs/images/4227270/4456895.png" alt="">&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/4227270/4456897.png" alt="">&lt;/p>
 &lt;p>On the &lt;em>Logging&lt;/em> tab, you can select the type of log information (&lt;em>ERROR&lt;/em>, &lt;em>INFO&lt;/em>, &lt;em>DETAILS&lt;/em>, &lt;em>TRACE&lt;/em>) for each &lt;em>Category&lt;/em> that will be output to the &lt;a href="https://ugene.net/docs/basic-functions/ugene-window-components/log-view/">&lt;em>Log View&lt;/em>&lt;/a>.&lt;/p>
 &lt;p>You can select the format for each log message by checking the &lt;em>Show date&lt;/em>, &lt;em>Show log level&lt;/em>, and &lt;em>Show log category&lt;/em> options.&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/4227270/4456896.png" alt="">&lt;/p></description></item><item><title>Map Reads with UGENE Genome Aligner Element</title><link>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-ugene-genome-aligner-element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/workflow-designer/workflow-elements/ngs-mapping-reads/map-reads-with-ugene-genome-aligner-element/</guid><description>&lt;h1 id="map-reads-with-ugene-genome-aligner-element">Map Reads with UGENE Genome Aligner Element&lt;/h1>
@@ -8592,7 +8592,7 @@ tools, please read the main &lt;a href="https://ugene.net/docs/download-and-inst
 &lt;/table>
 &lt;h2 id="inputoutput-ports">Input/Output Ports&lt;/h2>
 &lt;p>The element has 1 &lt;em>input port&lt;/em>:&lt;/p></description></item><item><title>Alignment Color Scheme</title><link>https://ugene.net/docs/basic-functions/ugene-application-settings/alignment-color-scheme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/basic-functions/ugene-application-settings/alignment-color-scheme/</guid><description>&lt;h1 id="alignment-color-scheme">Alignment Color Scheme&lt;/h1>
-&lt;p>&lt;img src="https://ugene.net/docs/images/65929359/65929360.png" alt="">&lt;/p>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929359/65929361.png" alt="">&lt;/p>
 &lt;p>On the &lt;em>Alignment Color Scheme&lt;/em> tab, you can create, change, and delete custom color schemes.&lt;/p></description></item><item><title>Consensus Sequence</title><link>https://ugene.net/docs/assembly-browser/consensus-sequence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/assembly-browser/consensus-sequence/</guid><description>&lt;h1 id="consensus-sequence">Consensus Sequence&lt;/h1>
 &lt;p>A consensus sequence can be found in the &lt;em>Consensus Area&lt;/em> under a reference sequence. It refers to the most common nucleotide at a particular position.&lt;/p>
 &lt;p>&lt;img src="https://ugene.net/docs/images/65929837/65929838.png" alt="">&lt;/p>
@@ -10108,7 +10108,7 @@ Designer samples.&lt;/p></description></item><item><title>Deleting Annotations a
 &lt;/table>
 &lt;p>Available values for &amp;ldquo;Search in&amp;rdquo; are:&lt;/p></description></item><item><title>Workflow Designer Settings</title><link>https://ugene.net/docs/basic-functions/ugene-application-settings/workflow-designer-settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/basic-functions/ugene-application-settings/workflow-designer-settings/</guid><description>&lt;h1 id="workflow-designer-settings">Workflow Designer Settings&lt;/h1>
 &lt;p>Use this tab to configure the Workflow Designer settings:&lt;/p>
-&lt;p>&lt;img src="https://ugene.net/docs/images/65929366/65929367.png" alt="">&lt;/p></description></item><item><title>Annotating Sequence with UQL Schema</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/annotating-sequence-with-uql-schema/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/annotating-sequence-with-uql-schema/</guid><description>&lt;h1 id="annotating-sequence-with-uql-schema">Annotating Sequence with UQL Schema&lt;/h1>
+&lt;p>&lt;img src="https://ugene.net/docs/images/65929366/65929368.png" alt="">&lt;/p></description></item><item><title>Annotating Sequence with UQL Schema</title><link>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/annotating-sequence-with-uql-schema/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ugene.net/docs/ugene-command-line-interface/cli-predefined-tasks/annotating-sequence-with-uql-schema/</guid><description>&lt;h1 id="annotating-sequence-with-uql-schema">Annotating Sequence with UQL Schema&lt;/h1>
 &lt;p>&lt;strong>Task Name:&lt;/strong> query&lt;/p>
 &lt;p>Annotates a sequence in compliance with a UGENE Query Language (UQL) schema. This allows the analysis of a sequence using different algorithms while imposing constraints on the positional relationship of the results.&lt;/p>
 &lt;p>To learn more about the UQL schemas, read the &lt;a href="http://ugene.unipro.ru/documentation.html">Query Designer Manual&lt;/a>.&lt;/p>
